@@ -1,9 +1,9 @@
 export function sendJson(response, status, payload) {
-  response.writeHead(status, { 'content-type': 'application/json' });
+  response.writeHead(status, { 'content-type': 'application/json; charset=utf-8' });
   response.end(JSON.stringify(payload));
 }
 
-export async function readJson(request, { maxBytes = 16_384 } = {}) {
+export async function readJson(request, { maxBytes = 32_768 } = {}) {
   const chunks = [];
   let size = 0;
   for await (const value of request) {

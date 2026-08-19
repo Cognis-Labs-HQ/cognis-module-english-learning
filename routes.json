@@ -1,6 +1,5 @@
 [
-  {
-    "path": "/showcase",
-    "access": { "minRole": "user" }
-  }
+  { "path": "/study/alphabet", "access": { "minRole": "user" } },
+  { "path": "/study/en-library", "access": { "minRole": "admin" } },
+  { "path": "/study/en-classroom", "access": { "minRole": "user" } }
 ]

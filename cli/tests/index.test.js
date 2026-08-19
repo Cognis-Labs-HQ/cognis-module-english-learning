@@ -1,9 +1,10 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { registerCommands } from '../index.js';
+import { registerCli } from '../index.js';
 
-test('CLI registers list and create commands', () => {
-  const commands = [];
-  registerCommands({ register: (name) => commands.push(name), apiGet() {}, apiPost() {} });
-  assert.deepEqual(commands, ['module-template:list', 'module-template:create']);
+test('registers a library snapshot command against the public API', async () => {
+  let command;
+  registerCli({ registerCommand(value) { command = value; }, apiClient: { get(path) { return path; } } });
+  assert.equal(command.name, 'study-language-en:library');
+  assert.equal(await command.run(), '/api/v1/modules/study-language-en/library/snapshot');
 });

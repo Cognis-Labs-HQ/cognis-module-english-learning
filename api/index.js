@@ -1,62 +1,50 @@
-import { readJson, sendJson } from './reuse/http.js';
-import { ShowcaseStore } from './store.js';
+import path from 'node:path';
+import { EnglishLibrary } from './store.js';
+import { sendJson } from './reuse/http.js';
 
-function requesterId(request) {
-  return String(request.auth?.accountId ?? request.auth?.sub ?? '').trim();
-}
+const API_BASE = '/api/v1/modules/study-language-en/library';
 
-export function registerApi(router, ctx) {
-  const database = ctx.getCapability('db:executor');
+export function registerApiRoutes(router, ctx) {
   const requireAuth = ctx.getCapability('auth:requireAuth');
-  if (!database || typeof requireAuth !== 'function') {
-    throw new Error('Module template requires db:executor and auth:requireAuth.');
-  }
-  const store = new ShowcaseStore(database);
-  const ready = store.ensureSchema();
-  const listItems = async (ownerId) => {
-    await ready;
-    return store.list(ownerId);
-  };
+  const library = new EnglishLibrary(path.join(ctx.moduleRoot, 'data'));
+  const ready = library.initialise().catch((error) => {
+    ctx.log?.('error', 'English library initialization failed.', {
+      component: 'study-language-en',
+      operation: 'initialise_library',
+      error: error instanceof Error ? error.message : String(error),
+    });
+    throw error;
+  });
 
-  router.get('/api/v1/modules/module-template/items', async (request, response) => {
-    await requireAuth(request, response);
-    if (response.writableEnded) return;
-    sendJson(response, 200, { data: await listItems(requesterId(request)) });
-  }, { access: { minRole: 'user' } });
-
-  router.post('/api/v1/modules/module-template/items', async (request, response) => {
-    await requireAuth(request, response);
-    if (response.writableEnded) return;
+  router.get(`${API_BASE}/snapshot`, async (request, response) => {
+    if (!requireAuth(request, response, 'user')) return;
     try {
-      const body = await readJson(request);
-      const title = typeof body.title === 'string' ? body.title.trim() : '';
-      if (!title || title.length > 120) {
-        sendJson(response, 400, { error: { code: 'invalid_title', message: 'Title must contain 1–120 characters.' } });
-        return;
-      }
       await ready;
-      const item = await store.create(requesterId(request), title);
-      ctx.log?.('info', 'Showcase item created.', {
-        component: 'module-template',
-        operation: 'create_item',
-        itemId: item.id,
-      });
-      sendJson(response, 201, { data: item });
-    } catch (error) {
-      const clientError = ['invalid_json', 'request_too_large'].includes(error.message);
-      ctx.log?.('error', 'Showcase item creation failed.', {
-        component: 'module-template',
-        operation: 'create_item',
-        error: error.message,
-      });
-      sendJson(response, clientError ? 400 : 500, {
-        error: {
-          code: clientError ? error.message : 'internal_error',
-          message: clientError ? 'The request body is invalid.' : 'The item could not be created.',
-        },
-      });
+      sendJson(response, 200, { data: library.snapshot() });
+    } catch {
+      sendJson(response, 503, { error: { code: 'library_unavailable', message: 'English library is unavailable.' } });
     }
-  }, { access: { minRole: 'user' } });
+  });
 
-  return { listItems };
+  router.get(`${API_BASE}/:layer`, async (request, response) => {
+    if (!requireAuth(request, response, 'user')) return;
+    const layer = String(request.params?.layer ?? '');
+    if (!library.hasLayer(layer)) {
+      sendJson(response, 404, { error: { code: 'layer_not_found', message: 'Unknown library layer.' } });
+      return;
+    }
+    try {
+      await ready;
+      sendJson(response, 200, { data: library.query(layer, request.query ?? {}) });
+    } catch {
+      sendJson(response, 503, { error: { code: 'library_unavailable', message: 'English library is unavailable.' } });
+    }
+  });
+
+  return {
+    async snapshot() {
+      await ready;
+      return library.snapshot();
+    },
+  };
 }
