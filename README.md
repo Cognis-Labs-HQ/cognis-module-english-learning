@@ -1,8 +1,19 @@
-# Cognis external module template
+# Cognis English
 
-An intentionally small, installable reference module that touches the **UI, API, database, CLI, capabilities, flows, localization, tests, and marketplace packaging** surfaces of Cognis. It is a learning aid—not a generator—and mirrors the external-module boundary established by Cognis PR #172 and the Jitsi Meet module.
+Cognis English is the installable English language-learning extension for the Cognis Study gateway. It was extracted from [`src/modules/study/languages/en`](https://github.com/Cognis-Labs-HQ/Cognis/tree/feature-remove-modules-from-administration-page/src/modules/study/languages/en) while preserving its permanent module UUID and English library data.
 
-## Start here
+The repository follows the external-module contract introduced by [Cognis PR #172](https://github.com/Cognis-Labs-HQ/Cognis/pull/172) and the repository layout used by the Cognis HQ [Jitsi Meet](https://github.com/Cognis-Labs-HQ/cognis-module-jitsi-meet) and [Nextcloud Whiteboard](https://github.com/Cognis-Labs-HQ/cognis-module-nextcloud-whiteboard) modules.
+
+## Features
+
+- English alphabet data and an authenticated alphabet page at `/study/alphabet`.
+- An administrator-only library summary at `/study/en-library`.
+- A classroom entry point at `/study/en-classroom`.
+- A read-only authenticated library API under `/api/v1/modules/study-language-en/library`.
+- A `study:language:en` capability for Study integration without importing Cognis internals.
+- Localized module navigation and page strings in English, German, Indonesian, and Japanese.
+
+## Development
 
 ```sh
 npm install
@@ -10,40 +21,12 @@ npm test
 npm run check:manifest
 ```
 
-Install the repository as a Cognis module source, review its permissions, enable it, then open `/showcase` or run `cognisctl module-template:list`.
+After changing a shipped file, run `npm run manifest:hashes` before validating or committing.
 
-## Architecture map
+## Installation
 
-| Path | Responsibility | Key lesson |
-| --- | --- | --- |
-| `manifest.json` | Identity, compatibility, capabilities, entrypoints, store metadata, immutable file hashes | UUIDs are dependencies; IDs are human-readable |
-| `bootstrap.js` | Sole host integration point | Register through `ctx`; never import Cognis internals |
-| `routes.json` | Up-front page access declaration | The host validates protected routes before activation |
-| `api/index.js` | Authenticated HTTP boundary and orchestration | Validate input and delegate persistence |
-| `api/store.js` | Portable database-executor commands and schema | Never bind a module to a database driver |
-| `api/ui.js` | Static assets, SPA route, navigation | Host registration makes disable/uninstall cleanup scoped |
-| `ui/` | Browser entrypoint, styling, four locale bundles | Use host routes/toasts and module-owned strings |
-| `cli/index.js` | `cognisctl` extension | CLI calls the public API instead of bypassing it |
-| `docs/` | Contributor deep dives | Explain contracts and safe extension patterns |
-| `scripts/` | Package integrity checks | Every shipped file has a SHA-256 digest |
+Add this Git repository as a module source in the Cognis module marketplace, review its declared Study gateway dependency and authentication capability, install it, and enable it. The Study gateway UUID requirement remains `338b9237-a2c8-5bcf-9437-bccc9abd9a27`.
 
-## Lifecycle and boundaries
+## Architecture
 
-1. Cognis validates `manifest.json`, component dependencies, capability requirements, routes, and file digests.
-2. Enabling calls `bootstrapModule(ctx)`. The module registers UI/API contributions, publishes a capability, and extends a flow.
-3. API handlers authenticate and validate. The store owns schema and persistence through `db:executor`.
-4. UI and CLI consume the same HTTP API. Other components may consume `showcase:listItems` through `ctx`.
-5. Scoped registrations are removed when disabled. Add and return an explicit disposer if you create timers, listeners, sockets, or other resources outside scoped registrations.
-
-Cross-component behavior belongs in **capabilities** (a callable contract) or **flows** (ordered extension stages). Do not reach into Cognis, gateways, or sibling module source trees. Required component links in `requires` are UUIDs; runtime contracts belong in `requiresCapabilities`.
-
-## Forking this template
-
-1. Choose a stable readable ID and generate a new UUID once. Never reuse this template UUID in a published fork.
-2. Rename package, command, API/static paths, DB table prefix, localization namespace, flow extension IDs, and capability keys.
-3. Replace publisher/repository/support metadata and artwork.
-4. Keep manifest/package/lock versions identical.
-5. Add only capabilities the module truly needs, and keep route access least-privileged.
-6. Run `npm run manifest:hashes` last, then `npm run check` and `git diff --check`.
-
-See [`docs/architecture.md`](docs/architecture.md), [`docs/security.md`](docs/security.md), and [`docs/releasing.md`](docs/releasing.md) before implementing a production module.
+`bootstrap.js` is the only host integration point. It registers module-owned UI and API surfaces through `ctx`, contributes the English language descriptor as a public capability, and extends the platform bootstrap flow. Runtime code uses repository-relative imports and does not import Cognis internals.

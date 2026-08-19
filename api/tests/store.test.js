@@ -1,20 +1,21 @@
 import assert from 'node:assert/strict';
+import path from 'node:path';
 import test from 'node:test';
-import { ShowcaseStore } from '../store.js';
+import { EnglishLibrary } from '../store.js';
 
-test('store creates its schema and scopes lists to an owner', async () => {
-  const calls = [];
-  const database = {
-    async ensureTable(definition) { calls.push(['schema', definition]); },
-    async executeCommand(command) {
-      calls.push(['command', command]);
-      return { rows: [{ id: 'one', title: 'Read contracts', created_at: '2026-01-01' }] };
-    },
-  };
-  const store = new ShowcaseStore(database);
-  await store.ensureSchema();
-  const items = await store.list('account-1');
-  assert.equal(calls[0][1].name, 'module_template_items');
-  assert.deepEqual(calls[1][1].where, [{ column: 'owner_id', value: 'account-1' }]);
-  assert.equal(items[0].title, 'Read contracts');
+test('loads the extracted English alphabet and library layers', async () => {
+  const library = new EnglishLibrary(path.resolve('data'));
+  await library.initialise();
+  const characters = library.query('characters');
+  assert.equal(characters.length, 26);
+  assert.deepEqual(characters[0], { id: 'en:char:a', symbol: 'A', romanization: 'a' });
+  assert.deepEqual(Object.keys(library.snapshot()), ['characters', 'alt_characters', 'definitions', 'words', 'sentences']);
+});
+
+test('filters known layers and rejects unknown layer names', async () => {
+  const library = new EnglishLibrary(path.resolve('data'));
+  await library.initialise();
+  assert.equal(library.hasLayer('characters'), true);
+  assert.equal(library.hasLayer('secrets'), false);
+  assert.deepEqual(library.query('characters', { symbol: 'Z' }), [{ id: 'en:char:z', symbol: 'Z', romanization: 'z' }]);
 });
