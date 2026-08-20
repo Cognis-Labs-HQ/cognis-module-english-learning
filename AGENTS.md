@@ -20,7 +20,7 @@ Return a disposer from `bootstrapModule` or export `teardownModule(ctx)` when th
 
 ## Structure and reuse
 
-Keep API code under `api/`, browser code under `ui/`, CLI code under `cli/`, documentation under `docs/`, and artwork under `assets/`. Put genuinely reusable layer-local code in `reuse/`. Do not create directories named `shared`, `utils`, `helpers`, or `common`. Keep feature-specific code beside its feature.
+Keep API code under `api/`, browser code under `ui/`, CLI code under `cli/`, documentation under `docs/`, datasets under `data/`, and artwork under `assets/`. Put genuinely reusable layer-local code in `reuse/`. Do not create directories named `shared`, `utils`, `helpers`, or `common`. Keep feature-specific code beside its feature.
 
 Keep files at or below 1000 lines. Prefer descriptive names and avoid one- or two-letter bindings except conventional coordinates, loop counters, row/column counters, `_`, and `id`.
 
@@ -36,7 +36,7 @@ Validate and sanitize inputs at API boundaries. Authenticate and authorize befor
 
 Tests live under `api/tests/`, `ui/tests/`, and `cli/tests/`, run standalone, and use local fakes for external capabilities. Test public contracts rather than sibling Cognis implementations. Every behavior change requires suitable tests, logging, and documentation. Keep localized documentation synchronized and do not put AI reasoning or process notes in product files.
 
-Before committing, run `npm install`, `npm test`, `npm run lint`, `npm run manifest:hashes`, `npm run check:manifest`, and `git diff --check`. Use two-space indentation, single quotes in JavaScript, trailing commas in multiline structures, no tabs or trailing whitespace, and no import `try`/`catch`.
+Before committing, run `npm install`, `npm test`, `npm run lint`, `npm run manifest:hashes`, `npm run check:manifest`, and `git diff --check`. Use the repository Prettier configuration: four-space indentation, double quotes in JavaScript, and trailing commas in multiline structures. Avoid tabs and trailing whitespace, and never wrap imports in `try`/`catch`.
 
 ## Review discipline
 
