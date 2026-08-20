@@ -1,202 +1,241 @@
 {
-  "id": "study-language-en",
-  "uuid": "b1adc29f-9d54-5785-9bea-2ce76f1981e4",
-  "name": "Cognis English",
-  "version": "1.2.10",
-  "class": "extension",
-  "coreApiVersion": "v1",
-  "capabilities": [
-    "study:language:en",
-    "ui:page"
-  ],
-  "entrypoints": {
-    "bootstrap": "./bootstrap.js",
-    "api": "./api/index.js",
-    "ui": "./ui/index.html",
-    "cli": "./cli/index.js"
-  },
-  "publisher": "Cognis Labs HQ",
-  "requires": [
-    "338b9237-a2c8-5bcf-9437-bccc9abd9a27"
-  ],
-  "requiresCapabilities": [
-    "auth:requireAuth"
-  ],
-  "summary": "English learning content for Cognis Study.",
-  "description": "Adds an English alphabet, learning library, and classroom entry points to Study.",
-  "categories": [
-    "Education"
-  ],
-  "license": "AGPL-3.0-or-later",
-  "repository": "https://github.com/Cognis-Labs-HQ/cognis-module-english-learning",
-  "homepage": "https://github.com/Cognis-Labs-HQ/cognis-module-english-learning#readme",
-  "support": "https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/issues",
-  "assets": {
-    "screenshots": [],
-    "icon": "assets/icon.svg",
-    "banner": "assets/banner.svg"
-  },
-  "tags": [
-    "english",
-    "language",
-    "learning"
-  ],
-  "files": [
-    {
-      "path": "AGENTS.md",
-      "sha256": "509784a889286aad75c8b21042dddeaa20bd7a4929eb80db40a9deefe92e1ff5"
+    "id": "study-language-en",
+    "uuid": "b1adc29f-9d54-5785-9bea-2ce76f1981e4",
+    "name": "Cognis English",
+    "version": "1.2.10",
+    "class": "extension",
+    "coreApiVersion": "v1",
+    "capabilities": ["study:language:en", "ui:page"],
+    "entrypoints": {
+        "bootstrap": "./bootstrap.js",
+        "api": "./api/index.js",
+        "ui": "./ui/index.html",
+        "cli": "./cli/index.js"
     },
-    {
-      "path": "LICENSE",
-      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+    "publisher": "Cognis Labs HQ",
+    "requires": ["338b9237-a2c8-5bcf-9437-bccc9abd9a27"],
+    "requiresCapabilities": ["auth:requireAuth"],
+    "summary": "English learning content for Cognis Study.",
+    "description": "Adds an English alphabet, learning library, and classroom entry points to Study.",
+    "categories": ["Education"],
+    "license": "AGPL-3.0-or-later",
+    "repository": "https://github.com/Cognis-Labs-HQ/cognis-module-english-learning",
+    "homepage": "https://github.com/Cognis-Labs-HQ/cognis-module-english-learning#readme",
+    "support": "https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/issues",
+    "assets": {
+        "screenshots": [],
+        "icon": "assets/icon.svg",
+        "banner": "assets/banner.svg"
     },
-    {
-      "path": "README.md",
-      "sha256": "bec0485951491b05240298216b291adf81a8175eb103fac92613e35437f7d630"
-    },
-    {
-      "path": "api/index.js",
-      "sha256": "b35f9e1edd7e7f38e542786c3ab945ac60848c4f67c56216100053732976b5e9"
-    },
-    {
-      "path": "api/reuse/http.js",
-      "sha256": "62abcf0821fba8a460d9cfbc3838e617fd6a713b833d63653208563904b2c558"
-    },
-    {
-      "path": "api/store.js",
-      "sha256": "4b763a634edb42a41755f0835d7d618a37f5686c177b1e831cfd81de3184a653"
-    },
-    {
-      "path": "api/tests/bootstrap.test.js",
-      "sha256": "f95faa703004fe3dc6da4061d24e367eada87c99fb0d35fdd20db2ea22ae7d5c"
-    },
-    {
-      "path": "api/tests/store.test.js",
-      "sha256": "71cb03895c2886659a3c53b86b290549375fbc6c10e5779a6a878885e71d6951"
-    },
-    {
-      "path": "api/ui.js",
-      "sha256": "63ddb909949507ee017a9adf585ee8dd05928f245f4f2c490dcc05612a200207"
-    },
-    {
-      "path": "assets/banner.svg",
-      "sha256": "3ae321f68d202518e0cc36db52b0c83845bf8892c5fd7197850d6e3efe4334af"
-    },
-    {
-      "path": "assets/icon.svg",
-      "sha256": "80103a18bff3463fea881fa50c8d21c537a36d82b20c8fb9f19453984d5bed61"
-    },
-    {
-      "path": "bootstrap.js",
-      "sha256": "691f3855d93d0d8bf9d5ca12cd063204595bf2001e1bdd3216fb5f33b39e4589"
-    },
-    {
-      "path": "cli/index.js",
-      "sha256": "c87d05d6543f0a5c73a76083f88241aff153c86333935f324afc253b9e01bea6"
-    },
-    {
-      "path": "cli/tests/index.test.js",
-      "sha256": "9e3189df592f4ec2c0238ef16a90d46ff6b499ccad600f60fe8ad7252f25b78d"
-    },
-    {
-      "path": "data/alt-characters/common.json",
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
-    },
-    {
-      "path": "data/characters/latin.json",
-      "sha256": "235807af44c99e9e38f0943b65227aacd1b60d77b202e01ac84c22fcd4b15742"
-    },
-    {
-      "path": "data/definitions/common.json",
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
-    },
-    {
-      "path": "data/sentences/common.json",
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
-    },
-    {
-      "path": "data/words/common.json",
-      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
-    },
-    {
-      "path": "docs/architecture.md",
-      "sha256": "c9919e6ad952b76a387f7e8b30382c0f6dfd71d3be8e819f4a3e39b26c5b7c93"
-    },
-    {
-      "path": "docs/releasing.md",
-      "sha256": "79e0559f13ff41e2da1fb96130418cedf925741a80b7063076dee5ffca32b402"
-    },
-    {
-      "path": "docs/security.md",
-      "sha256": "836f66765a70127df231be80dbd7609f13d9fc0a10baff34a58482c7a743a998"
-    },
-    {
-      "path": "package-lock.json",
-      "sha256": "bd6cf18dd523c07a66ba5d9dd98fb3d9754709a85c7f8bc26be986e19c844a17"
-    },
-    {
-      "path": "package.json",
-      "sha256": "e745c994d1644822d4d7953e6c95291afd5db7be210bebd63d50f302d03b7ae9"
-    },
-    {
-      "path": "routes.json",
-      "sha256": "d4ca69949a233b4172a3c580c3663378243cad35c7821b08769a50d7022bb029"
-    },
-    {
-      "path": "scripts/update-manifest-hashes.js",
-      "sha256": "dbfad276635f8b40f77f7228d1ee0a385ecab845c432604136a4bb45c9c02a6a"
-    },
-    {
-      "path": "scripts/validate-manifest.js",
-      "sha256": "57884058e42355fcd8728763e7b65582613959e59efd66358c21a8ada0cf34ba"
-    },
-    {
-      "path": "ui/alphabet.js",
-      "sha256": "9ba3cea798165c462ad0303bdce3993824b507d95ee6624bcaed874527373beb"
-    },
-    {
-      "path": "ui/classroom.js",
-      "sha256": "6bef509ea89f6de14de1376e31d478ef0a1d9acf8ed25a4c74b67a791fc185e6"
-    },
-    {
-      "path": "ui/index.html",
-      "sha256": "329d30601bd96bf83da8cda157684b179c96a1f550fd47ffb1c94ce1f0480085"
-    },
-    {
-      "path": "ui/languages/de/strings.xml",
-      "sha256": "c141402377133ee3751d6a49e19ccf16dfa639783dfdea7ff9c1c727a9bc95a0"
-    },
-    {
-      "path": "ui/languages/en/strings.xml",
-      "sha256": "e7da5470b813b67a2b2912d31ed271b477a08d1e5d9b9adc3b6e44606c286c92"
-    },
-    {
-      "path": "ui/languages/id/strings.xml",
-      "sha256": "5fc83d14f5b61b7a7f602951083467758c6db858ecad9bfa6339f191b4ae8960"
-    },
-    {
-      "path": "ui/languages/ja/strings.xml",
-      "sha256": "91a94dd1602f3d68abe5bd5c894260161ae944cd94c287a42af50aad2d91d134"
-    },
-    {
-      "path": "ui/library.js",
-      "sha256": "afe66ce4c9a74c474582a6edb1249be2408873112e8ccb82ac063d233c5380fc"
-    },
-    {
-      "path": "ui/navbar.js",
-      "sha256": "c8ab2f46dce25d15527881d4c8236d9b89dc92c41927ee454ec622ad7730b4c9"
-    },
-    {
-      "path": "ui/reuse.js",
-      "sha256": "09b0fe175090ea88a9ee411fb6d8a1f2465069787104299ce04c1b9f6f32cd5b"
-    },
-    {
-      "path": "ui/styles/english.css",
-      "sha256": "ff88407a6ea9ffee529c5a5a3b7c760efd882155097255634eab0964f7e91471"
-    },
-    {
-      "path": "ui/tests/regression.test.js",
-      "sha256": "6066597979008b93cb207444b07d21887e9db552fe29adacbe36a0f10b2b04e6"
-    }
-  ]
+    "tags": ["english", "language", "learning"],
+    "files": [
+        {
+            "path": ".github/DOCUMENTATION_TEMPLATE.de.md",
+            "sha256": "68da4be565d7fcd6caf74a6eeddd62ee35620063f4fb3c42128c23e98e4c7313"
+        },
+        {
+            "path": ".github/DOCUMENTATION_TEMPLATE.en.md",
+            "sha256": "0430dc1ef9233808219652e78e6079d3b6cf455f04818487e00fd7aa217a07fa"
+        },
+        {
+            "path": ".github/DOCUMENTATION_TEMPLATE.id.md",
+            "sha256": "a701f0f05180972949e4ac159e3d65656fc66b8d07aa72b3832aa312d711cd24"
+        },
+        {
+            "path": ".github/DOCUMENTATION_TEMPLATE.ja.md",
+            "sha256": "8fafead6e01dbab777528e72d1ce924ff3d8e0bd250d21a0a29116fe1ef7ed44"
+        },
+        {
+            "path": ".gitignore",
+            "sha256": "16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97"
+        },
+        {
+            "path": ".prettierignore",
+            "sha256": "ebebb0fe677b8152cac2b29c7d7ef39d41527ab1a14b935df9c8f6f6e66ec936"
+        },
+        {
+            "path": ".prettierrc",
+            "sha256": "fa9273146be8edfd6bbddaff9d0654effb7b4cd67c6163b67e971195d796ead3"
+        },
+        {
+            "path": "AGENTS.md",
+            "sha256": "8c51f153727b02447cb1d8fc29ed35ab7d3827c7af20de6c0c29d0c77b412dfc"
+        },
+        {
+            "path": "LICENSE",
+            "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+        },
+        {
+            "path": "README.md",
+            "sha256": "bec0485951491b05240298216b291adf81a8175eb103fac92613e35437f7d630"
+        },
+        {
+            "path": "api/index.js",
+            "sha256": "d0b50e9523ec23ed6b911f7e3363bf20626c7d42e7bb129fc02f7f8723f52a69"
+        },
+        {
+            "path": "api/reuse/http.js",
+            "sha256": "1be3c4cf1dea34b065411f1ea96b1fd9c921cedb84b55441179ddb840adc16aa"
+        },
+        {
+            "path": "api/store.js",
+            "sha256": "922d091e85d3a915636a623acb35d5867ff40b8a4f4026c2441a10821d536c20"
+        },
+        {
+            "path": "api/tests/bootstrap.test.js",
+            "sha256": "5883319ac9c4142b52f0493e7e396c53f7168e706ec7b9fb01f42ef126819dda"
+        },
+        {
+            "path": "api/tests/documentation-convention.test.js",
+            "sha256": "bd46b4d41342660fce61ea5bcc893955bda898ee1f5825527e9bbffe885f3d12"
+        },
+        {
+            "path": "api/tests/store.test.js",
+            "sha256": "1740cde409ec7c92f0ea25e490992e1518f91da00174438e36b0418b988af551"
+        },
+        {
+            "path": "api/tests/structural-compliance.test.js",
+            "sha256": "c26a60e49e9b102582c6e65b77c74df44617e0f313b1510aae5ecb8610a37f61"
+        },
+        {
+            "path": "api/ui.js",
+            "sha256": "7583cc4dfcbe2929a295be9076195b8368a8204c23c5c15897a05035432be9dd"
+        },
+        {
+            "path": "assets/banner.svg",
+            "sha256": "3ae321f68d202518e0cc36db52b0c83845bf8892c5fd7197850d6e3efe4334af"
+        },
+        {
+            "path": "assets/icon.svg",
+            "sha256": "80103a18bff3463fea881fa50c8d21c537a36d82b20c8fb9f19453984d5bed61"
+        },
+        {
+            "path": "bootstrap.js",
+            "sha256": "df8bdb09d7b66f5561d5b4385eabc2af699a781fd237fa767abb6a9f33016366"
+        },
+        {
+            "path": "cli/index.js",
+            "sha256": "85e0efc6256b92044a538258dd824be730da89516bf860610434919cee150ff6"
+        },
+        {
+            "path": "cli/tests/index.test.js",
+            "sha256": "a4898efe1638a1fa1925ce15b1e6dcebe6c01e0bf34b2eac16610c63d6294529"
+        },
+        {
+            "path": "data/alt-characters/common.json",
+            "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+            "path": "data/characters/latin.json",
+            "sha256": "235807af44c99e9e38f0943b65227aacd1b60d77b202e01ac84c22fcd4b15742"
+        },
+        {
+            "path": "data/definitions/common.json",
+            "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+            "path": "data/sentences/common.json",
+            "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+            "path": "data/words/common.json",
+            "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+            "path": "docs/architecture.md",
+            "sha256": "1f23d0184403489898dc487690c9606a37ba873310a666f1273349df151e703a"
+        },
+        {
+            "path": "docs/releasing.md",
+            "sha256": "22a2a7b7c161e1362ad9e9536d68a7ee2843e6383e785dc5b0aa1fb35edbc2fa"
+        },
+        {
+            "path": "docs/security.md",
+            "sha256": "b272e48fa49508a850f71e598a354d27aee78a7e0fc8bc3b801ec4c3ee89d9fc"
+        },
+        {
+            "path": "package-lock.json",
+            "sha256": "ffe16632b49d484744a51ef1535ae5288265b3f93b10f1a15a56a36399734758"
+        },
+        {
+            "path": "package.json",
+            "sha256": "0c925344ad14064c79e2b57c736bec5fb0f03b738b23e11ee252ad60a62434ec"
+        },
+        {
+            "path": "routes.json",
+            "sha256": "376298482cd9c428734d0447c7eddbf42ecea308e522a53ada81f1c812700f53"
+        },
+        {
+            "path": "scripts/update-manifest-hashes.js",
+            "sha256": "9599de54b58457a7cbecf5cc5824673f481285b9a0f1ae03c94c3f5b0d68ad02"
+        },
+        {
+            "path": "scripts/validate-manifest.js",
+            "sha256": "98d89ae4f391c0a2a4ea6a46d54b6ae87b894960af2510e562f6460fd9551ea4"
+        },
+        {
+            "path": "tooling/scripts/lint-placeholder.mjs",
+            "sha256": "c869f4af45abd4f82500f836d5e50af93b9988a56283477ae45bd0aa45f47fd1"
+        },
+        {
+            "path": "tooling/scripts/lint-readable.mjs",
+            "sha256": "fff2e006b2709345baafe18b4147c00541cd3f83d78ff113bb82032f2abcb45f"
+        },
+        {
+            "path": "ui/alphabet.js",
+            "sha256": "5043eca2c690743f70893f2631a7110bbbfc4ae9fed739591c4bec9139d669b8"
+        },
+        {
+            "path": "ui/classroom.js",
+            "sha256": "c609b3e519b89dad8c9e98f3e1b218c4ff243e5411a212c199c5e6adbbff2c5f"
+        },
+        {
+            "path": "ui/index.html",
+            "sha256": "89620efadacabc7c9e9284290c819570ad629fb455490504ed03b1f38faf2dbb"
+        },
+        {
+            "path": "ui/languages/de/strings.xml",
+            "sha256": "c141402377133ee3751d6a49e19ccf16dfa639783dfdea7ff9c1c727a9bc95a0"
+        },
+        {
+            "path": "ui/languages/en/strings.xml",
+            "sha256": "e7da5470b813b67a2b2912d31ed271b477a08d1e5d9b9adc3b6e44606c286c92"
+        },
+        {
+            "path": "ui/languages/id/strings.xml",
+            "sha256": "5fc83d14f5b61b7a7f602951083467758c6db858ecad9bfa6339f191b4ae8960"
+        },
+        {
+            "path": "ui/languages/ja/strings.xml",
+            "sha256": "91a94dd1602f3d68abe5bd5c894260161ae944cd94c287a42af50aad2d91d134"
+        },
+        {
+            "path": "ui/library.js",
+            "sha256": "98b04002be61111a2643a00ab7854aef3692aeeb941b0416b4572df0cd6771ca"
+        },
+        {
+            "path": "ui/navbar.js",
+            "sha256": "4645cbae2f73d901a72c763c47676eb7d81b636ce313a34daef494c5ef7e96dd"
+        },
+        {
+            "path": "ui/reuse.js",
+            "sha256": "01a27cad344a13717b62b0d8df24fc5ffb5ea807770523151ef7b449d7be2459"
+        },
+        {
+            "path": "ui/styles/english.css",
+            "sha256": "549731fcd3877a8e2aad6af1419fe6030fe0646f950f2224d58f3d27fb94dabf"
+        },
+        {
+            "path": "ui/tests/ambiguous-names.test.js",
+            "sha256": "4f490771c3678dcc716b25f4465fb39c9eab476774897cc030c9ec690d2761eb"
+        },
+        {
+            "path": "ui/tests/localization-quality.test.js",
+            "sha256": "05ad2f86a2ea0d606cfba6cdc2f2909cef1bd0e3ba1fcd19b633cf4f8de45318"
+        },
+        {
+            "path": "ui/tests/regression.test.js",
+            "sha256": "17aa1bf176937d48f2dae0912a7ba57de0cc3c37183473de9fa904c56cc84587"
+        }
+    ]
 }
