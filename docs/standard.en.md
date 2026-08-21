@@ -21,6 +21,8 @@ The module is a read-only external Cognis extension. Its permanent UUID identifi
 - Runtime imports remain repository-relative and never access Cognis internals or sibling components.
 - Scoped registrations are removable when the module is disabled or uninstalled.
 
+- The uninstall hook records lifecycle cleanup; the module has no saved configuration or user-owned content because its learning datasets are read-only packaged files.
+
 ### Security
 
 - Library endpoints authenticate requests before reading data.

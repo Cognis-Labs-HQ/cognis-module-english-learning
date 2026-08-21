@@ -37,6 +37,25 @@ test("manifest preference localization keys exist in every language", () => {
     }
 });
 
+test("manifest display metadata uses keys available in every language", () => {
+    const manifest = JSON.parse(
+        readFileSync(resolve(ROOT, "manifest.json"), "utf8"),
+    );
+    const metadataKeys = [
+        manifest.name,
+        manifest.summary,
+        manifest.description,
+        ...manifest.categories,
+        ...manifest.tags,
+    ];
+    for (const key of metadataKeys) {
+        assert.match(key, /^module\.study_language_en\.[a-z0-9_]+$/);
+        for (const language of LANGUAGES) {
+            assert.ok(strings(language).has(key), `${language}: ${key}`);
+        }
+    }
+});
+
 test("English titles use Title Case", () => {
     const violations = [];
     for (const [key, value] of strings("en")) {

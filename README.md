@@ -12,6 +12,7 @@ The repository follows the external-module contract introduced by [Cognis PR #17
 - A read-only authenticated library API under `/api/v1/modules/study-language-en/library`.
 - A `study:language:en` capability for Study integration without importing Cognis internals.
 - Localized module navigation and page strings in English, German, Indonesian, and Japanese.
+- Localized marketplace metadata and an uninstall cleanup hook for the module lifecycle.
 
 ## Development
 
