@@ -56,6 +56,16 @@ test("manifest display metadata uses keys available in every language", () => {
     }
 });
 
+test("manifest publishes the module locale bundle location", () => {
+    const manifest = JSON.parse(
+        readFileSync(resolve(ROOT, "manifest.json"), "utf8"),
+    );
+    assert.equal(
+        manifest.ui?.stringsBaseUrl,
+        "/static/modules/study-language-en/languages",
+    );
+});
+
 test("English titles use Title Case", () => {
     const violations = [];
     for (const [key, value] of strings("en")) {
