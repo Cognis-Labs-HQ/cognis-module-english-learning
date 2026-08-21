@@ -29,6 +29,14 @@ const LANGUAGE = Object.freeze({
     ],
 });
 
+export async function uninstallModule(ctx, { deleteContent }) {
+    ctx.log?.("info", "English learning module cleanup completed.", {
+        component: "study-language-en",
+        operation: "uninstall_cleanup",
+        deleteContent,
+    });
+}
+
 export function bootstrapModule(ctx) {
     registerUi(ctx);
     const library = registerApiRoutes(ctx.router, ctx);

@@ -21,6 +21,8 @@ Modul ini merupakan ekstensi Cognis eksternal yang hanya-baca. UUID permanennya 
 - Impor runtime selalu relatif terhadap repositori dan tidak pernah mengakses internal Cognis atau komponen lain.
 - Registrasi tercakup dapat dihapus saat modul dinonaktifkan atau dicopot.
 
+- Hook penghapusan instalasi mencatat pembersihan siklus hidup; modul ini tidak memiliki konfigurasi tersimpan atau konten milik pengguna karena set data pembelajarannya berupa berkas paket hanya-baca.
+
 ### Keamanan
 
 - Endpoint pustaka mengautentikasi permintaan sebelum membaca data.

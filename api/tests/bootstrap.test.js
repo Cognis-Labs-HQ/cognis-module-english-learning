@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { bootstrapModule } from "../../bootstrap.js";
+import { bootstrapModule, uninstallModule } from "../../bootstrap.js";
 
 test("registers English surfaces through ctx", () => {
     const registrations = { routes: [], capabilities: [], extensions: [] };
@@ -34,4 +34,28 @@ test("registers English surfaces through ctx", () => {
     assert.equal(registrations.capabilities[0][0], "study:language:en");
     assert.equal(registrations.capabilities[0][1].code, "en");
     assert.equal(registrations.extensions[0][0], "bootstrap-platform");
+});
+
+test("supports uninstall cleanup without deleting packaged learning data", async () => {
+    const entries = [];
+    await uninstallModule(
+        {
+            log(level, message, metadata) {
+                entries.push({ level, message, metadata });
+            },
+        },
+        { deleteContent: true },
+    );
+
+    assert.deepEqual(entries, [
+        {
+            level: "info",
+            message: "English learning module cleanup completed.",
+            metadata: {
+                component: "study-language-en",
+                operation: "uninstall_cleanup",
+                deleteContent: true,
+            },
+        },
+    ]);
 });

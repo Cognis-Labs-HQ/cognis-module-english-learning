@@ -21,6 +21,8 @@ Das Modul ist eine schreibgeschützte externe Cognis-Erweiterung. Seine dauerhaf
 - Laufzeitimporte bleiben repository-relativ und greifen niemals auf Cognis-Interna oder benachbarte Komponenten zu.
 - Bereichsgebundene Registrierungen lassen sich beim Deaktivieren oder Deinstallieren des Moduls entfernen.
 
+- Der Deinstallations-Hook protokolliert die Lebenszyklus-Bereinigung; das Modul hat keine gespeicherte Konfiguration oder nutzereigenen Inhalte, da seine Lerndatensätze schreibgeschützte Paketdateien sind.
+
 ### Sicherheit
 
 - Bibliotheksendpunkte authentifizieren Anfragen, bevor Daten gelesen werden.
