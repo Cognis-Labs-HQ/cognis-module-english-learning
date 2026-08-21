@@ -10,7 +10,7 @@ Before exploring, implementing, linting, or testing, run `npm install`. Use `rg`
 
 This repository delivers exactly one external Cognis module. Keep `manifest.json`, `package.json`, `routes.json`, `bootstrap.js`, and all declared entrypoints at the repository root or their declared repository-relative paths. Preserve the module UUID permanently. Every `requires` value must be a component UUID.
 
-Keep the versions in `manifest.json`, `package.json`, and `package-lock.json` synchronized. Keep `package.json` configured with `type: module`, keep `routes.json` as an array, and preserve exact filename casing. After the final file change, regenerate every SHA-256 digest in `manifest.files`; do not include `manifest.json` in its own digest list. Keep repository metadata pointed at this project, review dependencies carefully, and never add secrets or personal data.
+Keep the versions in `manifest.json`, `package.json`, and `package-lock.json` synchronized. Keep `package.json` configured with `type: module`, keep `routes.json` as an array, and preserve exact filename casing. Always set `ui.stringsBaseUrl` in `manifest.json` to the module-owned locale bundle base URL so Cognis can resolve localized manifest metadata before the module UI loads. After the final file change, regenerate every SHA-256 digest in `manifest.files`; do not include `manifest.json` in its own digest list. Keep repository metadata pointed at this project, review dependencies carefully, and never add secrets or personal data.
 
 ## Component isolation and ctx
 
