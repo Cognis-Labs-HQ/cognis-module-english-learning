@@ -1,11 +1,33 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { readFileSync, readdirSync, statSync } from "node:fs";
+import {
+    lstatSync,
+    readFileSync,
+    readlinkSync,
+    readdirSync,
+    statSync,
+} from "node:fs";
 import { relative, resolve } from "node:path";
 
 const ROOT = resolve(import.meta.dirname, "../..");
 const TEMPLATE = resolve(ROOT, ".github/DOCUMENTATION_TEMPLATE.en.md");
 const LANGUAGES = ["de", "en", "id", "ja"];
+
+test("AGENTS.md links to the canonical Copilot instructions", () => {
+    const agentsPath = resolve(ROOT, "AGENTS.md");
+    assert.ok(lstatSync(agentsPath).isSymbolicLink());
+    assert.equal(readlinkSync(agentsPath), ".github/copilot-instructions.md");
+});
+
+test("changelogs are excluded from the packaged manifest", () => {
+    const manifest = JSON.parse(
+        readFileSync(resolve(ROOT, "manifest.json"), "utf8"),
+    );
+    assert.equal(
+        manifest.files.some((file) => file.path.startsWith("changelog/")),
+        false,
+    );
+});
 
 function markdownFiles(directory) {
     return readdirSync(directory).flatMap((name) => {
@@ -13,6 +35,13 @@ function markdownFiles(directory) {
         if (statSync(path).isDirectory()) return markdownFiles(path);
         return name.endsWith(".md") ? [path] : [];
     });
+}
+
+function changelogFiles() {
+    const changelogDirectory = resolve(ROOT, "changelog");
+    return readdirSync(changelogDirectory)
+        .filter((name) => name.endsWith(".md"))
+        .map((name) => resolve(changelogDirectory, name));
 }
 
 function headingLevels(path) {
@@ -64,4 +93,54 @@ test("every documentation topic has one variant per supported language", () => {
     for (const [topic, variants] of families) {
         assert.deepEqual([...variants].sort(), [...LANGUAGES].sort(), topic);
     }
+});
+
+test("changelogs use localized variants and include provenance", () => {
+    const files = changelogFiles();
+    const variantsByTopic = new Map();
+    const violations = files.flatMap((path) => {
+        const filename = relative(resolve(ROOT, "changelog"), path);
+        const match = /^(.*)\.(de|en|id|ja)\.md$/.exec(filename);
+        if (!match) return [relative(ROOT, path)];
+        const [, topic, language] = match;
+        const variants = variantsByTopic.get(topic) ?? new Set();
+        variants.add(language);
+        variantsByTopic.set(topic, variants);
+
+        const markdown = readFileSync(path, "utf8");
+        const branchMatches = [
+            ...markdown.matchAll(
+                /^\*\*(?:Feature Branch|Feature-Zweig|Cabang Fitur|機能ブランチ):\*\*\s+(.+)$/gm,
+            ),
+        ];
+        const branch = branchMatches[0]?.[1]?.trim();
+        const hasTitle = /^#\s+\S.+$/m.test(markdown);
+        const hasChangeDetails = /^##\s+.+\n\n\S.+$/m.test(markdown);
+        const hasCommitSection =
+            /^## .*?(?:commits?|änderungen|komit|コミット).*$/im.test(markdown);
+        const commitUrls = [
+            ...markdown.matchAll(
+                /https:\/\/github\.com\/Cognis-Labs-HQ\/cognis-module-english-learning\/commit\/[0-9a-f]+/gi,
+            ),
+        ];
+        const valid =
+            branchMatches.length === 1 &&
+            branch &&
+            hasTitle &&
+            hasChangeDetails &&
+            hasCommitSection &&
+            (branch === "N/A"
+                ? commitUrls.length === 0
+                : commitUrls.length > 0);
+        return valid ? [] : [relative(ROOT, path)];
+    });
+
+    for (const [topic, variants] of variantsByTopic) {
+        if (
+            [...variants].sort().join(",") !== [...LANGUAGES].sort().join(",")
+        ) {
+            violations.push(topic);
+        }
+    }
+    assert.deepEqual(violations, []);
 });

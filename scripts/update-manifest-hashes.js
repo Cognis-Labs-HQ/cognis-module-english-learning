@@ -16,6 +16,7 @@ const paths = execFileSync(
         (path) =>
             path &&
             path !== "manifest.json" &&
+            !path.startsWith("changelog/") &&
             existsSync(path) &&
             statSync(path).isFile(),
     )
