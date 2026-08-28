@@ -1,6 +1,6 @@
 # Menyelaraskan panduan kontribusi dan catatan perubahan
 
-**Cabang Fitur:** work
+**Cabang Fitur:** feature-align-changelog-structure-with-pr-187
 
 ## Struktur catatan perubahan distandardisasi
 
@@ -12,4 +12,4 @@ Panduan Copilot khusus repositori telah ditambahkan dan diselaraskan dengan inst
 
 ## Komit
 
-- [https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/16052d0](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/16052d0)
+- [https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/80485757bae9c748a47691b2369673c467ebde6d](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/80485757bae9c748a47691b2369673c467ebde6d)

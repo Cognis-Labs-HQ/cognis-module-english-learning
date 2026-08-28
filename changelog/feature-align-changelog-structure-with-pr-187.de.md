@@ -1,6 +1,6 @@
 # Beitrags- und Changelog-Richtlinien angleichen
 
-**Feature-Zweig:** work
+**Feature-Zweig:** feature-align-changelog-structure-with-pr-187
 
 ## Changelog-Struktur vereinheitlicht
 
@@ -12,4 +12,4 @@ Repository-lokale Copilot-Richtlinien wurden ergänzt und mit den modulweiten Ag
 
 ## Änderungen
 
-- [https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/16052d0](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/16052d0)
+- [https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/80485757bae9c748a47691b2369673c467ebde6d](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/80485757bae9c748a47691b2369673c467ebde6d)

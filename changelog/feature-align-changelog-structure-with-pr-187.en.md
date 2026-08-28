@@ -1,6 +1,6 @@
 # Align contribution and changelog guidance
 
-**Feature Branch:** work
+**Feature Branch:** feature-align-changelog-structure-with-pr-187
 
 ## Standardized changelog structure
 
@@ -12,4 +12,4 @@ Added repository-local Copilot guidance and kept it aligned with the module-wide
 
 ## Commits
 
-- [https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/16052d0](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/16052d0)
+- [https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/80485757bae9c748a47691b2369673c467ebde6d](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/80485757bae9c748a47691b2369673c467ebde6d)

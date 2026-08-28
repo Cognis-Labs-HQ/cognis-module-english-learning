@@ -1,6 +1,6 @@
 # コントリビューションと変更履歴のガイダンスを統一
 
-**機能ブランチ:** work
+**機能ブランチ:** feature-align-changelog-structure-with-pr-187
 
 ## 変更履歴の構造を標準化
 
@@ -12,4 +12,4 @@
 
 ## コミット
 
-- [https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/16052d0](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/16052d0)
+- [https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/80485757bae9c748a47691b2369673c467ebde6d](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/80485757bae9c748a47691b2369673c467ebde6d)
