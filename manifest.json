@@ -2,7 +2,7 @@
     "id": "study-language-en",
     "uuid": "b1adc29f-9d54-5785-9bea-2ce76f1981e4",
     "name": "module.study_language_en.name",
-    "version": "1.2.11",
+    "version": "1.2.12",
     "class": "extension",
     "coreApiVersion": "v1",
     "capabilities": ["study:language:en", "ui:page"],
@@ -51,6 +51,10 @@
             "sha256": "8fafead6e01dbab777528e72d1ce924ff3d8e0bd250d21a0a29116fe1ef7ed44"
         },
         {
+            "path": ".github/copilot-instructions.md",
+            "sha256": "095ffa3861aba6eaf1de3b91e4596b9c8e895ab308ca23b0831a97b21857ff25"
+        },
+        {
             "path": ".gitignore",
             "sha256": "16d30e4462189fb14dd611bdb708c510630c576a1f35b9383e89a4352da36c97"
         },
@@ -64,7 +68,7 @@
         },
         {
             "path": "AGENTS.md",
-            "sha256": "a4b90d7988cb4e771d0c1c6805bdcf482d78daa19e9687cd8361628d0a189fdd"
+            "sha256": "095ffa3861aba6eaf1de3b91e4596b9c8e895ab308ca23b0831a97b21857ff25"
         },
         {
             "path": "LICENSE",
@@ -108,7 +112,7 @@
         },
         {
             "path": "api/tests/documentation-convention.test.js",
-            "sha256": "d3a193f0388930bbc3bb4405b0bd95dabe49672d7f1fb3ba9ef2d347e5f15934"
+            "sha256": "bb984ff7138fd72d61e6f424e6c9129d8ff1c02ad947eaef27a4823f2913e9d6"
         },
         {
             "path": "api/tests/store.test.js",
@@ -133,6 +137,22 @@
         {
             "path": "bootstrap.js",
             "sha256": "35fd55d78db1a5c1b8004ac1b4b8103137b9150f1e66fb4974271f0c6cbf34e8"
+        },
+        {
+            "path": "changelog/work.de.md",
+            "sha256": "2faa495503d82dd664db65eb162509bd45e359a726a1679c8fb9f0861ade8e5b"
+        },
+        {
+            "path": "changelog/work.en.md",
+            "sha256": "2e29f4b194d85c798976e661c8756c0f1d1f260de947928708f19af90d94d321"
+        },
+        {
+            "path": "changelog/work.id.md",
+            "sha256": "0ad013ebbe6cb25c91d345bf72486740130b731ca01b80db896fac68b600bced"
+        },
+        {
+            "path": "changelog/work.ja.md",
+            "sha256": "0e164127921c7651b9dc9c223c745ccf4cc4d368eed1ef01b248a0c661b32be7"
         },
         {
             "path": "cli/index.js",
@@ -180,11 +200,11 @@
         },
         {
             "path": "package-lock.json",
-            "sha256": "5274e467e4102492aa40aa5f097607c24389da2a10dbec8eb20171dcb715326b"
+            "sha256": "8c60c704da91300b263d877ba2173761257def338a151f5d57cccd2f40faa028"
         },
         {
             "path": "package.json",
-            "sha256": "aee1b2fdb73d3a4dd26699c26b6cac86f9663c94cb29a5a9ca7efdeb4b1e1887"
+            "sha256": "e1f5387beb029cac35cf418d1faa210e23a7deb92d873fc63364a6deb73f28cd"
         },
         {
             "path": "routes.json",
