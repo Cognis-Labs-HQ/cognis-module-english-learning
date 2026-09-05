@@ -6,12 +6,10 @@ Cognis Englisch ist die installierbare Erweiterung zum Englischlernen für das C
 
 ## Funktionen
 
-- Daten zum englischen Alphabet und eine authentifizierte Alphabetseite unter `/study/alphabet?language=en`.
-- Die gemeinsame Study-Bibliothek unter `/study/library?language=en`.
-- Einen Einstieg in den Unterrichtsraum unter `/study/en-classroom?language=en`.
+- Daten zum englischen Alphabet, die von der gemeinsamen Study-Bibliothek unter `/study/library?language=en` dargestellt werden.
 - Ein deklaratives englisches Inhaltspaket, das über die vom Host bereitgestellte Capability `study:library` eingelesen wird.
 - Eine Capability `study:language:en` zur Study-Integration ohne Importe aus Cognis-Interna.
-- Lokalisierte Navigation, Seiten und Marketplace-Metadaten auf Englisch, Deutsch, Indonesisch und Japanisch.
+- Lokalisierte Schema- und Marketplace-Metadaten auf Englisch, Deutsch, Indonesisch und Japanisch.
 - Eine skalierbare SVG-Grafik der englischen Flagge als Modulsymbol.
 - Einen Bereinigungshook für den Lebenszyklus bei der Deinstallation.
 
@@ -21,9 +19,9 @@ Füge dieses Git-Repository im Cognis-Modul-Marketplace als Modulquelle hinzu, p
 
 ## Architektur
 
-`bootstrap.js` ist der einzige Integrationspunkt zum Host. Die Datei registriert moduleigene UI-Oberflächen über `ctx` und liest sein deklaratives Inhaltspaket ein, stellt die englische Sprachbeschreibung als öffentliche Capability bereit und erweitert den Bootstrap-Flow der Plattform. Der Laufzeitcode verwendet repository-relative Importe und importiert keine Cognis-Interna.
+`bootstrap.js` ist der einzige Integrationspunkt zum Host. Die Datei liest das deklarative Inhaltspaket über `ctx` ein, stellt die englische Sprachbeschreibung als öffentliche Capability bereit und erweitert den Bootstrap-Flow der Plattform. Der Laufzeitcode verwendet repository-relative Importe und importiert keine Cognis-Interna.
 
-Das Manifest veröffentlicht `ui.stringsBaseUrl`, damit Cognis moduleigene Übersetzungen laden kann, bevor die Browseroberfläche startet. UI-Registrierungen bleiben bereichsgebunden, sodass nach dem Deaktivieren oder Deinstallieren kein moduleigenes Verhalten zurückbleibt.
+Das Manifest veröffentlicht `ui.stringsBaseUrl`, damit Cognis moduleigene Übersetzungen laden kann, bevor Study das Paket darstellt. Die einzige statische Registrierung stellt diese Sprachressourcen bereit; nach dem Deaktivieren oder Deinstallieren bleibt keine moduleigene ausführbare Oberfläche zurück.
 
 ## Qualitätsprüfungen für Mitwirkende
 

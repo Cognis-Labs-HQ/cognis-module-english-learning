@@ -1,13 +1,11 @@
 # Cognis English Module
 
-The Cognis English module provides an installable English learning experience for the Cognis Study gateway, including alphabet data, a read-only learning library, and classroom entry points.
+The Cognis English module provides an installable English learning experience for the Cognis Study gateway, as a versioned, declarative data-only content pack.
 
 ## Usage Examples
 
-- Open `/study/alphabet?language=en` to explore the 26-letter English alphabet.
-- Open `/study/library?language=en` to review the English records in the shared Study library.
-- Open `/study/en-classroom?language=en` to start an English classroom session through Study.
-- Resolve the host-provided `study:library` capability to access the ingested English content pack.
+- Open `/study/library?language=en` to explore the English content through the schema-driven shared Study library.
+- Resolve the host-provided `study:library` capability to access the versioned `en` content pack with localized schema metadata and semantic layer roles.
 - Resolve the `study:language:en` capability to integrate the language descriptor without importing module internals.
 
 ## Technical Specification
@@ -17,7 +15,7 @@ The module is a read-only external Cognis extension. Its permanent UUID identifi
 ### Integration Contract
 
 - `bootstrap.js` is the only platform integration entrypoint.
-- The supplied `ctx` is the only cross-component bus for routes, UI registrations, capabilities, and flow hooks.
+- The supplied `ctx` is the only cross-component bus for capability, flow, and locale-resource registrations.
 - Runtime imports remain repository-relative and never access Cognis internals or sibling components.
 - Scoped registrations are removable when the module is disabled or uninstalled.
 
@@ -25,10 +23,8 @@ The module is a read-only external Cognis extension. Its permanent UUID identifi
 
 ### Security
 
-- Library endpoints authenticate requests before reading data.
-- Layer names are allow-listed, and dataset paths are fixed by the module store.
-- API responses use stable public errors without exposing implementation details.
-- Initialization failures are sent to the host logger with safe structured metadata.
+- The host Library validates the package namespace, semantic version, license, safe paths, localized schema, typed fields, and complete record graph before an atomic write.
+- Ingestion failures are sent to the host logger with safe structured metadata.
 
 ### Release Process
 

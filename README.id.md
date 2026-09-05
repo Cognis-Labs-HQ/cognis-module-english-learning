@@ -6,12 +6,10 @@ Cognis Bahasa Inggris adalah ekstensi pembelajaran bahasa Inggris yang dapat dip
 
 ## Fitur
 
-- Data alfabet bahasa Inggris dan halaman alfabet terautentikasi di `/study/alphabet?language=en`.
-- Pustaka Study bersama di `/study/library?language=en`.
-- Titik masuk ruang kelas di `/study/en-classroom?language=en`.
+- Data alfabet bahasa Inggris yang dirender oleh pustaka Study bersama di `/study/library?language=en`.
 - Paket konten bahasa Inggris deklaratif yang diserap melalui kapabilitas `study:library` dari host.
 - Kapabilitas `study:language:en` untuk integrasi Study tanpa mengimpor bagian internal Cognis.
-- Navigasi, halaman, dan metadata marketplace yang dilokalkan dalam bahasa Inggris, Jerman, Indonesia, dan Jepang.
+- Metadata skema dan marketplace yang dilokalkan dalam bahasa Inggris, Jerman, Indonesia, dan Jepang.
 - SVG bendera Inggris yang dapat diskalakan untuk ikon modul.
 - Hook pembersihan saat penghapusan modul untuk mendukung siklus hidup modul.
 
@@ -21,9 +19,9 @@ Tambahkan repositori Git ini sebagai sumber modul di marketplace modul Cognis, t
 
 ## Arsitektur
 
-`bootstrap.js` adalah satu-satunya titik integrasi host. Berkas ini mendaftarkan permukaan UI milik modul serta menyerap paket konten deklaratif melalui `ctx`, menyediakan deskriptor bahasa Inggris sebagai kapabilitas publik, dan memperluas flow bootstrap platform. Kode runtime menggunakan impor relatif terhadap repositori dan tidak mengimpor bagian internal Cognis.
+`bootstrap.js` adalah satu-satunya titik integrasi host. Berkas ini menyerap paket konten deklaratif melalui `ctx`, menyediakan deskriptor bahasa Inggris sebagai kapabilitas publik, dan memperluas flow bootstrap platform. Kode runtime menggunakan impor relatif terhadap repositori dan tidak mengimpor bagian internal Cognis.
 
-Manifest menerbitkan `ui.stringsBaseUrl` agar Cognis dapat memuat terjemahan milik modul sebelum UI browser dimulai. Registrasi UI tetap bercakupan sehingga tidak ada perilaku milik modul yang tertinggal setelah modul dinonaktifkan atau dihapus.
+Manifest menerbitkan `ui.stringsBaseUrl` agar Cognis dapat memuat terjemahan milik modul sebelum Study merender paket. Satu-satunya registrasi statis menyajikan sumber daya bahasa ini; tidak ada UI milik modul yang dapat dieksekusi tersisa setelah modul dinonaktifkan atau dihapus.
 
 ## Pemeriksaan kualitas kontributor
 

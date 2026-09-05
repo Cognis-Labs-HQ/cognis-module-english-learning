@@ -2,16 +2,6 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 
-test("uses host-router navigation and module-owned translations", async () => {
-    const classroom = await readFile("ui/classroom.js", "utf8");
-    const navbar = await readFile("ui/navbar.js", "utf8");
-    assert.match(classroom, /data-cognis-route/);
-    assert.doesNotMatch(classroom, /window\.location/);
-    assert.match(classroom, /\/study\?language=en/);
-    assert.match(navbar, /\/study\/alphabet\?language=en/);
-    assert.match(navbar, /stringsBaseUrl/);
-});
-
 test("keeps locale keys synchronized", async () => {
     const locales = await Promise.all(
         ["en", "de", "id", "ja"].map((locale) =>
