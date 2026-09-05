@@ -1,0 +1,116 @@
+{
+    "id": "english",
+    "version": 2,
+    "namespace": "en",
+    "language": "en",
+    "metadata": {
+        "labels": {
+            "de": "Englisch",
+            "en": "English",
+            "id": "Bahasa Inggris",
+            "ja": "英語"
+        },
+        "descriptions": {
+            "de": "Grundlegende englische Lerninhalte.",
+            "en": "Core English learning content.",
+            "id": "Materi inti pembelajaran bahasa Inggris.",
+            "ja": "英語学習の基本コンテンツ。"
+        }
+    },
+    "layers": [
+        {
+            "id": "alphabet",
+            "metadata": {
+                "labels": {
+                    "de": "Alphabet",
+                    "en": "Alphabet",
+                    "id": "Alfabet",
+                    "ja": "アルファベット"
+                }
+            },
+            "semanticRole": "atomicWritingUnit",
+            "fields": [
+                {
+                    "id": "symbol",
+                    "metadata": {
+                        "labels": {
+                            "de": "Zeichen",
+                            "en": "Symbol",
+                            "id": "Simbol",
+                            "ja": "文字"
+                        }
+                    },
+                    "type": "string",
+                    "required": true,
+                    "detail": { "renderer": "text", "order": 1 }
+                },
+                {
+                    "id": "romanization",
+                    "metadata": {
+                        "labels": {
+                            "de": "Aussprachehilfe",
+                            "en": "Romanization",
+                            "id": "Romanisasi",
+                            "ja": "ローマ字表記"
+                        }
+                    },
+                    "type": "string",
+                    "required": true,
+                    "detail": { "renderer": "text", "order": 2 }
+                }
+            ],
+            "detail": {
+                "titleField": "symbol",
+                "fieldOrder": ["symbol", "romanization"]
+            }
+        },
+        {
+            "id": "alt_characters",
+            "metadata": {
+                "labels": {
+                    "de": "Alternative Zeichen",
+                    "en": "Alternative Characters",
+                    "id": "Karakter Alternatif",
+                    "ja": "代替文字"
+                }
+            },
+            "semanticRole": "atomicWritingUnit"
+        },
+        {
+            "id": "definitions",
+            "metadata": {
+                "labels": {
+                    "de": "Definitionen",
+                    "en": "Definitions",
+                    "id": "Definisi",
+                    "ja": "定義"
+                }
+            },
+            "semanticRole": "definition"
+        },
+        {
+            "id": "words",
+            "metadata": {
+                "labels": {
+                    "de": "Wörter",
+                    "en": "Words",
+                    "id": "Kata",
+                    "ja": "単語"
+                }
+            },
+            "semanticRole": "lexicalUnit"
+        },
+        {
+            "id": "sentences",
+            "metadata": {
+                "labels": {
+                    "de": "Sätze",
+                    "en": "Sentences",
+                    "id": "Kalimat",
+                    "ja": "文"
+                }
+            },
+            "semanticRole": "orderedLexicalSequence"
+        }
+    ]
+}

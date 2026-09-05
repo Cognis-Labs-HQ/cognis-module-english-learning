@@ -1,14 +1,12 @@
 # Cognis-Englischmodul
 
-Das Cognis-Englischmodul stellt für das Cognis-Study-Gateway eine installierbare Englischlernumgebung mit Alphabetdaten, einer schreibgeschützten Lernbibliothek und Einstiegspunkten für den Unterricht bereit.
+Das Cognis-Englischmodul stellt für das Cognis-Study-Gateway eine installierbare Englischlernumgebung als versioniertes, deklaratives und ausschließlich datenbasiertes Inhaltspaket bereit.
 
 ## Anwendungsbeispiele
 
-- Öffnen Sie `/study/alphabet`, um die 26 Buchstaben des englischen Alphabets zu erkunden.
-- Öffnen Sie als Administrator `/study/en-library`, um die Lerninhalte des Moduls zu prüfen.
-- Öffnen Sie `/study/en-classroom`, um über Study eine Englischunterrichtssitzung zu beginnen.
-- Rufen Sie `/api/v1/modules/study-language-en/library` mit einem gültigen Cognis-Zugriffstoken auf, um die verfügbaren Bibliotheksebenen zu lesen.
-- Lösen Sie die Capability `study:language:en` auf, um die Sprachbeschreibung ohne Import von Modulinterna einzubinden.
+- Öffnen Sie `/study/library`, um die englischen Inhalte über die schemagesteuerte gemeinsame Study-Bibliothek zu erkunden.
+- Lösen Sie die vom Host bereitgestellte Capability `study:library` auf, um auf das versionierte Inhaltspaket im Namensraum `en` mit lokalisierten Schemametadaten und semantischen Ebenenrollen zuzugreifen.
+- Lösen Sie die Capability `study:language:en` auf, um den kanonischen Deskriptor mit `languageCode: "en"` für die erzeugte Schaltfläche der Study-Unternavigation zu erhalten.
 
 ## Technische Spezifikation
 
@@ -17,7 +15,7 @@ Das Modul ist eine schreibgeschützte externe Cognis-Erweiterung. Seine dauerhaf
 ### Integrationsvertrag
 
 - `bootstrap.js` ist der einzige Integrationseinstiegspunkt für die Plattform.
-- Das bereitgestellte `ctx` ist der einzige komponentenübergreifende Bus für Routen, UI-Registrierungen, Capabilities und Flow-Hooks.
+- Das bereitgestellte `ctx` ist der einzige komponentenübergreifende Bus für Capability-, Flow- und Sprachressourcenregistrierungen.
 - Laufzeitimporte bleiben repository-relativ und greifen niemals auf Cognis-Interna oder benachbarte Komponenten zu.
 - Bereichsgebundene Registrierungen lassen sich beim Deaktivieren oder Deinstallieren des Moduls entfernen.
 
@@ -25,10 +23,8 @@ Das Modul ist eine schreibgeschützte externe Cognis-Erweiterung. Seine dauerhaf
 
 ### Sicherheit
 
-- Bibliotheksendpunkte authentifizieren Anfragen, bevor Daten gelesen werden.
-- Ebenennamen stehen auf einer Positivliste, und die Datensatzpfade sind im Modulspeicher fest vorgegeben.
-- API-Antworten verwenden stabile öffentliche Fehler, ohne Implementierungsdetails offenzulegen.
-- Initialisierungsfehler werden mit sicheren strukturierten Metadaten an den Host-Logger übergeben.
+- Die Host-Bibliothek prüft Paketnamensraum, semantische Version, Lizenz, sichere Pfade, lokalisiertes Schema, typisierte Felder und den vollständigen Datensatzgraphen vor einem atomaren Schreibvorgang.
+- Fehler beim Einlesen werden mit sicheren strukturierten Metadaten an den Host-Logger übergeben.
 
 ### Freigabeprozess
 

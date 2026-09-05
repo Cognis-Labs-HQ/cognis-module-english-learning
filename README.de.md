@@ -6,23 +6,24 @@ Cognis Englisch ist die installierbare Erweiterung zum Englischlernen für das C
 
 ## Funktionen
 
-- Daten zum englischen Alphabet und eine authentifizierte Alphabetseite unter `/study/alphabet`.
-- Eine Bibliotheksübersicht nur für Administratoren unter `/study/en-library`.
-- Einen Einstieg in den Unterrichtsraum unter `/study/en-classroom`.
-- Eine schreibgeschützte, authentifizierte Bibliotheks-API unter `/api/v1/modules/study-language-en/library`.
+- Daten zum englischen Alphabet, die von der gemeinsamen Study-Bibliothek unter `/study/library` dargestellt werden.
+- Ein deklaratives englisches Inhaltspaket, das über die vom Host bereitgestellte Capability `study:library` eingelesen wird.
 - Eine Capability `study:language:en` zur Study-Integration ohne Importe aus Cognis-Interna.
-- Lokalisierte Navigation, Seiten und Marketplace-Metadaten auf Englisch, Deutsch, Indonesisch und Japanisch.
+- Lokalisierte Schema- und Marketplace-Metadaten auf Englisch, Deutsch, Indonesisch und Japanisch.
+- Eine skalierbare SVG-Grafik der englischen Flagge als Modulsymbol.
 - Einen Bereinigungshook für den Lebenszyklus bei der Deinstallation.
 
 ## Installation
 
-Füge dieses Git-Repository im Cognis-Modul-Marketplace als Modulquelle hinzu, prüfe die deklarierte Abhängigkeit vom Study-Gateway und die Authentifizierungs-Capability, installiere das Modul und aktiviere es. Die erforderliche UUID des Study-Gateways lautet `338b9237-a2c8-5bcf-9437-bccc9abd9a27`.
+Füge dieses Git-Repository im Cognis-Modul-Marketplace als Modulquelle hinzu, prüfe die deklarierte Abhängigkeit vom Study-Gateway und die Study-Library-Capability, installiere das Modul und aktiviere es. Die erforderliche UUID des Study-Gateways lautet `338b9237-a2c8-5bcf-9437-bccc9abd9a27`.
 
 ## Architektur
 
-`bootstrap.js` ist der einzige Integrationspunkt zum Host. Die Datei registriert moduleigene UI- und API-Oberflächen über `ctx`, stellt die englische Sprachbeschreibung als öffentliche Capability bereit und erweitert den Bootstrap-Flow der Plattform. Der Laufzeitcode verwendet repository-relative Importe und importiert keine Cognis-Interna.
+`bootstrap.js` ist der einzige Integrationspunkt zum Host. Die Datei liest das deklarative Inhaltspaket über `ctx` ein, stellt die englische Sprachbeschreibung als öffentliche Capability bereit und erweitert den Bootstrap-Flow der Plattform. Der Laufzeitcode verwendet repository-relative Importe und importiert keine Cognis-Interna.
 
-Das Manifest veröffentlicht `ui.stringsBaseUrl`, damit Cognis moduleigene Übersetzungen laden kann, bevor die Browseroberfläche startet. UI- und API-Registrierungen bleiben bereichsgebunden, sodass nach dem Deaktivieren oder Deinstallieren kein moduleigenes Verhalten zurückbleibt.
+Der kanonische Sprachdeskriptor liefert `languageCode: "en"` für die Schaltfläche der Study-Unternavigation; Cognis übergibt diese Auswahl im Routerzustand statt über URL-Abfrageparameter.
+
+Das Manifest veröffentlicht `ui.stringsBaseUrl`, damit Cognis moduleigene Übersetzungen laden kann, bevor Study das Paket darstellt. Die einzige statische Registrierung stellt diese Sprachressourcen bereit; nach dem Deaktivieren oder Deinstallieren bleibt keine moduleigene ausführbare Oberfläche zurück.
 
 ## Qualitätsprüfungen für Mitwirkende
 

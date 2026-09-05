@@ -1,14 +1,12 @@
 # Modul Cognis English
 
-Modul Cognis English menyediakan pengalaman belajar bahasa Inggris yang dapat dipasang untuk gateway Cognis Study, termasuk data alfabet, pustaka pembelajaran hanya-baca, dan titik masuk kelas.
+Modul Cognis English menyediakan pengalaman belajar bahasa Inggris untuk gateway Cognis Study sebagai paket konten khusus data yang deklaratif dan berversi.
 
 ## Contoh Penggunaan
 
-- Buka `/study/alphabet` untuk mempelajari 26 huruf alfabet bahasa Inggris.
-- Buka `/study/en-library` sebagai administrator untuk meninjau materi pembelajaran modul.
-- Buka `/study/en-classroom` untuk memulai sesi kelas bahasa Inggris melalui Study.
-- Minta `/api/v1/modules/study-language-en/library` dengan token akses Cognis yang valid untuk membaca lapisan pustaka yang tersedia.
-- Gunakan kapabilitas `study:language:en` untuk mengintegrasikan deskriptor bahasa tanpa mengimpor internal modul.
+- Buka `/study/library` untuk menjelajahi konten bahasa Inggris melalui pustaka Study bersama yang digerakkan oleh skema.
+- Gunakan kapabilitas `study:library` yang disediakan host untuk mengakses paket konten berversi dalam namespace `en` dengan metadata skema terlokalisasi dan peran semantik lapisan.
+- Gunakan kapabilitas `study:language:en` untuk memperoleh deskriptor kanonis dengan `languageCode: "en"` bagi tombol subnavigasi Study yang dibuat.
 
 ## Spesifikasi Teknis
 
@@ -17,7 +15,7 @@ Modul ini merupakan ekstensi Cognis eksternal yang hanya-baca. UUID permanennya 
 ### Kontrak Integrasi
 
 - `bootstrap.js` adalah satu-satunya entrypoint integrasi platform.
-- `ctx` yang diberikan adalah satu-satunya bus lintas komponen untuk rute, registrasi UI, kapabilitas, dan hook alur.
+- `ctx` yang diberikan adalah satu-satunya bus lintas komponen untuk registrasi kapabilitas, alur, dan sumber daya bahasa.
 - Impor runtime selalu relatif terhadap repositori dan tidak pernah mengakses internal Cognis atau komponen lain.
 - Registrasi tercakup dapat dihapus saat modul dinonaktifkan atau dicopot.
 
@@ -25,10 +23,8 @@ Modul ini merupakan ekstensi Cognis eksternal yang hanya-baca. UUID permanennya 
 
 ### Keamanan
 
-- Endpoint pustaka mengautentikasi permintaan sebelum membaca data.
-- Nama lapisan dibatasi oleh daftar izin, dan jalur kumpulan data ditetapkan oleh penyimpanan modul.
-- Respons API menggunakan kesalahan publik yang stabil tanpa mengungkapkan detail implementasi.
-- Kegagalan inisialisasi dikirim ke logger host dengan metadata terstruktur yang aman.
+- Pustaka host memvalidasi namespace paket, versi semantik, lisensi, jalur aman, skema terlokalisasi, bidang bertipe, dan seluruh graf rekaman sebelum penulisan atomik.
+- Kegagalan penyerapan dikirim ke logger host dengan metadata terstruktur yang aman.
 
 ### Proses Rilis
 
