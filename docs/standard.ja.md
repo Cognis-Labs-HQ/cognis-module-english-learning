@@ -4,9 +4,9 @@ Cognis English モジュールは、アルファベットデータ、読み取�
 
 ## 使用例
 
-- `/study/alphabet` を開き、英語アルファベットの 26 文字を学習します。
-- `/study/library` を開き、共有 Study ライブラリの英語データを確認します。
-- `/study/en-classroom` を開き、Study を通じて英語クラスルームのセッションを開始します。
+- `/study/alphabet?language=en` を開き、英語アルファベットの 26 文字を学習します。
+- `/study/library?language=en` を開き、共有 Study ライブラリの英語データを確認します。
+- `/study/en-classroom?language=en` を開き、Study を通じて英語クラスルームのセッションを開始します。
 - ホスト提供の `study:library` capability を解決して、取り込まれた英語コンテンツパックへアクセスします。
 - `study:language:en` Capability を解決し、モジュール内部をインポートせずに言語記述子を連携します。
 

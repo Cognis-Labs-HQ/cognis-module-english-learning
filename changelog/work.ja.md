@@ -10,10 +10,14 @@
 
 モジュールアイコンを、汎用の Cognis 文字マークから拡大縮小可能なイングランド国旗の SVG に変更しました。
 
+## 選択言語の維持
+
+英語モジュールとクラスルームのリンクに検証済みの `language=en` クエリを付け、Cognis PR #213 の要件どおり Study とライブラリの移動中も選択した BCP-47 言語を維持します。
+
 ## ドキュメントと契約
 
-マニフェストで `study:library` を必須とし、モジュールのバージョンを 1.2.16 に更新しました。各言語のドキュメントも共有 Study ライブラリを案内します。
+マニフェストで `study:library` を必須とし、モジュールのバージョンを 1.2.17 に更新しました。各言語のドキュメントも共有 Study ライブラリを案内します。
 
 ## コミット
 
-- [実装の基点](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4a9978f)
+- [実装の基点](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/3092c91)

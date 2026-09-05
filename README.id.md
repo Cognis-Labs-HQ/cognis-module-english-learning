@@ -6,9 +6,9 @@ Cognis Bahasa Inggris adalah ekstensi pembelajaran bahasa Inggris yang dapat dip
 
 ## Fitur
 
-- Data alfabet bahasa Inggris dan halaman alfabet terautentikasi di `/study/alphabet`.
-- Pustaka Study bersama di `/study/library`.
-- Titik masuk ruang kelas di `/study/en-classroom`.
+- Data alfabet bahasa Inggris dan halaman alfabet terautentikasi di `/study/alphabet?language=en`.
+- Pustaka Study bersama di `/study/library?language=en`.
+- Titik masuk ruang kelas di `/study/en-classroom?language=en`.
 - Paket konten bahasa Inggris deklaratif yang diserap melalui kapabilitas `study:library` dari host.
 - Kapabilitas `study:language:en` untuk integrasi Study tanpa mengimpor bagian internal Cognis.
 - Navigasi, halaman, dan metadata marketplace yang dilokalkan dalam bahasa Inggris, Jerman, Indonesia, dan Jepang.

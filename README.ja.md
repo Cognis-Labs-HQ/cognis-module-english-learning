@@ -6,9 +6,9 @@ Cognis 英語は、Cognis Study ゲートウェイ向けのインストール可
 
 ## 機能
 
-- 英語アルファベットのデータと、認証が必要な `/study/alphabet` のアルファベットページ。
-- `/study/library` の共有 Study ライブラリ。
-- `/study/en-classroom` のクラスルームエントリーポイント。
+- 英語アルファベットのデータと、認証が必要な `/study/alphabet?language=en` のアルファベットページ。
+- `/study/library?language=en` の共有 Study ライブラリ。
+- `/study/en-classroom?language=en` のクラスルームエントリーポイント。
 - ホスト提供の `study:library` capability を通じて取り込まれる宣言型英語コンテンツパック。
 - Cognis の内部実装をインポートせずに Study と連携するための `study:language:en` ケイパビリティ。
 - 英語、ドイツ語、インドネシア語、日本語にローカライズされたナビゲーション、ページ、マーケットプレイスメタデータ。

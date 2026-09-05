@@ -7,6 +7,8 @@ test("uses host-router navigation and module-owned translations", async () => {
     const navbar = await readFile("ui/navbar.js", "utf8");
     assert.match(classroom, /data-cognis-route/);
     assert.doesNotMatch(classroom, /window\.location/);
+    assert.match(classroom, /\/study\?language=en/);
+    assert.match(navbar, /\/study\/alphabet\?language=en/);
     assert.match(navbar, /stringsBaseUrl/);
 });
 

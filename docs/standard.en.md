@@ -4,9 +4,9 @@ The Cognis English module provides an installable English learning experience fo
 
 ## Usage Examples
 
-- Open `/study/alphabet` to explore the 26-letter English alphabet.
-- Open `/study/library` to review the English records in the shared Study library.
-- Open `/study/en-classroom` to start an English classroom session through Study.
+- Open `/study/alphabet?language=en` to explore the 26-letter English alphabet.
+- Open `/study/library?language=en` to review the English records in the shared Study library.
+- Open `/study/en-classroom?language=en` to start an English classroom session through Study.
 - Resolve the host-provided `study:library` capability to access the ingested English content pack.
 - Resolve the `study:language:en` capability to integrate the language descriptor without importing module internals.
 

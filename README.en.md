@@ -6,9 +6,9 @@ Cognis English is the installable English language-learning extension for the Co
 
 ## Features
 
-- English alphabet data and an authenticated alphabet page at `/study/alphabet`.
-- The shared Study library at `/study/library`.
-- A classroom entry point at `/study/en-classroom`.
+- English alphabet data and an authenticated alphabet page at `/study/alphabet?language=en`.
+- The shared Study library at `/study/library?language=en`.
+- A classroom entry point at `/study/en-classroom?language=en`.
 - A declarative English content pack ingested through the host-provided `study:library` capability.
 - A `study:language:en` capability for Study integration without importing Cognis internals.
 - Localized navigation, pages, and marketplace metadata in English, German, Indonesian, and Japanese.

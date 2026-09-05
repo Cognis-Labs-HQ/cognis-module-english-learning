@@ -10,10 +10,14 @@ Das Modul installiert sein deklaratives englisches Inhaltspaket jetzt atomar üb
 
 Das Modulsymbol verwendet nun eine skalierbare SVG-Darstellung der englischen Flagge anstelle des allgemeinen Cognis-Buchstabensymbols.
 
+## Ausgewählte Sprache beibehalten
+
+Links zum Englischmodul und zum Klassenzimmer führen nun die validierte Abfrage `language=en`, damit die Study- und Bibliotheksnavigation die ausgewählte BCP-47-Sprache gemäß Cognis PR #213 beibehält.
+
 ## Dokumentation und Verträge
 
-Das Manifest verlangt nun `study:library`, die Modulversion lautet 1.2.16 und die lokalisierte Dokumentation verweist auf die gemeinsame Study-Bibliothek.
+Das Manifest verlangt nun `study:library`, die Modulversion lautet 1.2.17 und die lokalisierte Dokumentation verweist auf die gemeinsame Study-Bibliothek.
 
 ## Commits
 
-- [Implementierungsbasis](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4a9978f)
+- [Implementierungsbasis](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/3092c91)
