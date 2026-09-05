@@ -21,3 +21,11 @@ test("keeps locale keys synchronized", async () => {
     for (const locale of locales.slice(1))
         assert.deepEqual(keys(locale), keys(locales[0]));
 });
+
+test("uses an English flag SVG for the module icon", async () => {
+    const icon = await readFile("assets/icon.svg", "utf8");
+
+    assert.match(icon, /<title[^>]*>Flag of England<\/title>/);
+    assert.match(icon, /fill="#ce1124"/);
+    assert.doesNotMatch(icon, /<text\b/);
+});

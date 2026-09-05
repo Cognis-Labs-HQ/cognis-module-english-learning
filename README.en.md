@@ -12,6 +12,7 @@ Cognis English is the installable English language-learning extension for the Co
 - A declarative English content pack ingested through the host-provided `study:library` capability.
 - A `study:language:en` capability for Study integration without importing Cognis internals.
 - Localized navigation, pages, and marketplace metadata in English, German, Indonesian, and Japanese.
+- A scalable English flag SVG for the module icon.
 - An uninstall cleanup hook for the module lifecycle.
 
 ## Installation

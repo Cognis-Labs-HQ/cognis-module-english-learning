@@ -5,7 +5,7 @@ const LANGUAGE = Object.freeze({
     code: "en",
     name: "English",
     flag: "GB",
-    version: "1.2.15",
+    version: "1.2.16",
     childComponents: [
         {
             id: "alphabet",
