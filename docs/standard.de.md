@@ -4,9 +4,9 @@ Das Cognis-Englischmodul stellt für das Cognis-Study-Gateway eine installierbar
 
 ## Anwendungsbeispiele
 
-- Öffnen Sie `/study/library?language=en`, um die englischen Inhalte über die schemagesteuerte gemeinsame Study-Bibliothek zu erkunden.
+- Öffnen Sie `/study/library`, um die englischen Inhalte über die schemagesteuerte gemeinsame Study-Bibliothek zu erkunden.
 - Lösen Sie die vom Host bereitgestellte Capability `study:library` auf, um auf das versionierte Inhaltspaket im Namensraum `en` mit lokalisierten Schemametadaten und semantischen Ebenenrollen zuzugreifen.
-- Lösen Sie die Capability `study:language:en` auf, um die Sprachbeschreibung ohne Import von Modulinterna einzubinden.
+- Lösen Sie die Capability `study:language:en` auf, um den kanonischen Deskriptor mit `languageCode: "en"` für die erzeugte Schaltfläche der Study-Unternavigation zu erhalten.
 
 ## Technische Spezifikation
 

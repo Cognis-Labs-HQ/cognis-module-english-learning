@@ -6,7 +6,7 @@ Cognis English is the installable English language-learning extension for the Co
 
 ## Features
 
-- English alphabet data rendered by the shared Study library at `/study/library?language=en`.
+- English alphabet data rendered by the shared Study library at `/study/library`.
 - A declarative English content pack ingested through the host-provided `study:library` capability.
 - A `study:language:en` capability for Study integration without importing Cognis internals.
 - Localized schema and marketplace metadata in English, German, Indonesian, and Japanese.
@@ -20,6 +20,8 @@ Add this Git repository as a module source in the Cognis module marketplace, rev
 ## Architecture
 
 `bootstrap.js` is the only host integration point. It ingests its declarative content pack through `ctx`, contributes the English language descriptor as a public capability, and extends the platform bootstrap flow. Runtime code uses repository-relative imports and does not import Cognis internals.
+
+The canonical language descriptor supplies `languageCode: "en"` for the Study sub-navigation button; Cognis carries this selection in router state rather than URL query parameters.
 
 The manifest publishes `ui.stringsBaseUrl` so Cognis can load module-owned translations before Study renders the package. The only static registration serves these locale resources, and disabling or uninstalling the module leaves no module-owned executable UI behind.
 

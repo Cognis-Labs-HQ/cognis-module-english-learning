@@ -12,7 +12,7 @@ Ikon modul kini menggunakan representasi SVG bendera Inggris yang dapat diskalak
 
 ## Mempertahankan bahasa yang dipilih
 
-Paket menerbitkan metadata bahasa Inggris kanonis agar Cognis dapat menghasilkan navigasi Pustaka dengan konteks `language=en` tervalidasi yang diwajibkan Cognis PR #213.
+Kapabilitas bahasa kini menyediakan `languageCode: "en"` melalui deskriptor bahasa Study kanonis. Cognis PR #215 menyimpan kode tersebut pada tombol subnavigasi Study yang dibuat dan membawa pilihan melalui state router, sehingga URL modul tetap bersih tanpa kueri bahasa.
 
 ## Kontrak paket bahasa berversi
 
@@ -24,8 +24,8 @@ Permukaan alfabet, kelas, navigasi, CLI, API, dan gaya milik modul telah dihapus
 
 ## Dokumentasi dan kontrak
 
-Manifes kini mewajibkan `study:library`, versi modul menjadi 1.2.18, dan dokumentasi terlokalisasi mengarahkan pengguna ke pustaka Study bersama.
+Manifes kini mewajibkan `study:library`, versi modul menjadi 1.2.19, dan dokumentasi terlokalisasi mengarahkan pengguna ke pustaka Study bersama.
 
 ## Commit
 
-- [Dasar implementasi](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/30df435)
+- [Dasar implementasi](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/7783399)

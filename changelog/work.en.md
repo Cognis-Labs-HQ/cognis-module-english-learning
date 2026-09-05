@@ -12,7 +12,7 @@ The module icon now uses a scalable SVG rendition of the English flag instead of
 
 ## Preserve the selected language
 
-The package advertises canonical English language metadata so Cognis can generate Library navigation with the validated `language=en` context required by Cognis PR #213.
+The language capability now provides `languageCode: "en"` using the canonical Study language descriptor. Cognis PR #215 stores that code on the generated Study sub-navigation button and carries the selection in router state, so module URLs remain clean and no longer contain a language query.
 
 ## Versioned language-package contract
 
@@ -24,8 +24,8 @@ Removed the module-owned alphabet, classroom, navbar, CLI, API, and styling surf
 
 ## Documentation and contracts
 
-The manifest now requires `study:library`, the module version is 1.2.18, and localized documentation directs users to the shared Study library.
+The manifest now requires `study:library`, the module version is 1.2.19, and localized documentation directs users to the shared Study library.
 
 ## Commits
 
-- [Implementation baseline](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/30df435)
+- [Implementation baseline](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/7783399)

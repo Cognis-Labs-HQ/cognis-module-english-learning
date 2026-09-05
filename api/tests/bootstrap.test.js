@@ -35,7 +35,13 @@ test("registers the data-only English package through ctx", async () => {
         { prefix: "", root: `${process.cwd()}/ui` },
     ]);
     assert.equal(registrations.capabilities[0][0], "study:language:en");
-    assert.equal(registrations.capabilities[0][1].code, "en");
+    assert.equal(registrations.capabilities[0][1].languageCode, "en");
+    assert.equal(registrations.capabilities[0][1].languageName, "English");
+    assert.equal(registrations.capabilities[0][1].code, undefined);
+    assert.equal(
+        registrations.capabilities[0][1].moduleId,
+        "study-language-en",
+    );
     assert.equal(registrations.capabilities[0][1].package.namespace, "en");
     assert.equal(registrations.capabilities[0][1].package.version, "2.0.0");
     assert.equal(
@@ -43,6 +49,7 @@ test("registers the data-only English package through ctx", async () => {
         true,
     );
     assert.equal(registrations.extensions[0][0], "bootstrap-platform");
+    assert.equal(registrations.extensions[0][3]().languageCode, "en");
 });
 
 test("supports uninstall cleanup without deleting packaged learning data", async () => {

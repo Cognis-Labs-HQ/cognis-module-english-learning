@@ -12,7 +12,7 @@
 
 ## 選択言語の維持
 
-パッケージが正規の英語メタデータを公開するため、Cognis は Cognis PR #213 で必須となった検証済みの `language=en` コンテキストを使ってライブラリナビゲーションを生成できます。
+言語 capability は、正規の Study 言語記述子として `languageCode: "en"` を提供します。Cognis PR #215 は生成した Study サブナビゲーションボタンにこのコードを保存し、選択状態をルーター state で渡すため、モジュール URL に言語クエリを付ける必要がなくなりました。
 
 ## バージョン付き言語パッケージ契約
 
@@ -24,8 +24,8 @@
 
 ## ドキュメントと契約
 
-マニフェストで `study:library` を必須とし、モジュールのバージョンを 1.2.18 に更新しました。各言語のドキュメントも共有 Study ライブラリを案内します。
+マニフェストで `study:library` を必須とし、モジュールのバージョンを 1.2.19 に更新しました。各言語のドキュメントも共有 Study ライブラリを案内します。
 
 ## コミット
 
-- [実装の基点](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/30df435)
+- [実装の基点](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/7783399)

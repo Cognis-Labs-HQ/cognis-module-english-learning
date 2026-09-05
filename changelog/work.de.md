@@ -12,7 +12,7 @@ Das Modulsymbol verwendet nun eine skalierbare SVG-Darstellung der englischen Fl
 
 ## Ausgewählte Sprache beibehalten
 
-Das Paket veröffentlicht kanonische englische Sprachmetadaten, damit Cognis die Bibliotheksnavigation mit dem von Cognis PR #213 verlangten validierten Kontext `language=en` erzeugen kann.
+Die Sprach-Capability liefert nun `languageCode: "en"` im kanonischen Study-Sprachdeskriptor. Cognis PR #215 speichert diesen Code auf der erzeugten Schaltfläche der Study-Unternavigation und übergibt die Auswahl im Routerzustand, sodass Modul-URLs ohne Sprachabfrage auskommen.
 
 ## Vertrag für versionierte Sprachpakete
 
@@ -24,8 +24,8 @@ Die moduleigenen Alphabet-, Klassenzimmer-, Navigations-, CLI-, API- und Stilobe
 
 ## Dokumentation und Verträge
 
-Das Manifest verlangt nun `study:library`, die Modulversion lautet 1.2.18 und die lokalisierte Dokumentation verweist auf die gemeinsame Study-Bibliothek.
+Das Manifest verlangt nun `study:library`, die Modulversion lautet 1.2.19 und die lokalisierte Dokumentation verweist auf die gemeinsame Study-Bibliothek.
 
 ## Commits
 
-- [Implementierungsbasis](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/30df435)
+- [Implementierungsbasis](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/7783399)

@@ -2,10 +2,11 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 
 const LANGUAGE = Object.freeze({
-    code: "en",
-    name: "English",
-    flag: "GB",
-    version: "1.2.18",
+    moduleId: "study-language-en",
+    languageCode: "en",
+    languageName: "English",
+    languageFlag: "GB",
+    version: "1.2.19",
 });
 
 async function ingestContentPack(library, moduleRoot) {
