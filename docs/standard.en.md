@@ -5,7 +5,7 @@ The Cognis English module provides an installable English learning experience fo
 ## Usage Examples
 
 - Open `/study/library` to explore the English content through the schema-driven shared Study library.
-- Resolve the host-provided `study:library` capability to access the versioned `en` content pack with localized schema metadata and semantic layer roles.
+- Resolve the host-provided `study:library` capability to access the versioned `en` content pack with localized schema metadata, semantic layer roles, and definition relationships backed by module-owned strings.
 - Resolve the `study:language:en` capability to obtain the canonical `languageCode: "en"` descriptor used by the generated Study sub-navigation button.
 
 ## Technical Specification

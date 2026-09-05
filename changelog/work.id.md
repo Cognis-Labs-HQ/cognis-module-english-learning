@@ -22,10 +22,14 @@ Paket bahasa Inggris kini memiliki namespace `en`, menerbitkan metadata skema te
 
 Permukaan alfabet, kelas, navigasi, CLI, API, dan gaya milik modul telah dihapus. Cognis kini menemukan dan merender paket bahasa Inggris secara generik dari deskriptor paket tetap, skema semantik, dan metadata terlokalisasi yang dipublikasikan. Hanya bundel bahasa yang tetap didaftarkan secara statis.
 
+## Definisi kamus yang dapat diselesaikan
+
+Skema kini mendeklarasikan kontrak pelokalan definisi Pustaka dan relasi alfabet-ke-definisi yang eksplisit serta wajib. Setiap huruf bawaan tertaut ke definisi dengan kunci string yang dapat diselesaikan dalam setiap bundel bahasa modul, sementara rekaman kontennya menyimpan teks terlokalisasi yang sama.
+
 ## Dokumentasi dan kontrak
 
-Manifes kini mewajibkan `study:library`, versi modul menjadi 1.2.19, dan dokumentasi terlokalisasi mengarahkan pengguna ke pustaka Study bersama.
+Manifes kini mewajibkan `study:library`, versi modul menjadi 1.2.20, dan dokumentasi terlokalisasi mengarahkan pengguna ke pustaka Study bersama.
 
 ## Commit
 
-- [Dasar implementasi](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/7783399)
+- [Dasar implementasi](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b844bdd)

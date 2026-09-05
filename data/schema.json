@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 2,
+    "version": 3,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -42,7 +42,10 @@
                     },
                     "type": "string",
                     "required": true,
-                    "detail": { "renderer": "text", "order": 1 }
+                    "detail": {
+                        "renderer": "text",
+                        "order": 1
+                    }
                 },
                 {
                     "id": "romanization",
@@ -56,13 +59,35 @@
                     },
                     "type": "string",
                     "required": true,
-                    "detail": { "renderer": "text", "order": 2 }
+                    "detail": {
+                        "renderer": "text",
+                        "order": 2
+                    }
                 }
             ],
             "detail": {
                 "titleField": "symbol",
                 "fieldOrder": ["symbol", "romanization"]
-            }
+            },
+            "relationships": [
+                {
+                    "id": "definition",
+                    "targetLayer": "definitions",
+                    "metadata": {
+                        "labels": {
+                            "de": "Definition",
+                            "en": "Definition",
+                            "id": "Definisi",
+                            "ja": "定義"
+                        }
+                    },
+                    "minimum": 1,
+                    "maximum": 1,
+                    "requiredTarget": true,
+                    "onDelete": "restrict",
+                    "resolverRole": "explicit"
+                }
+            ]
         },
         {
             "id": "alt_characters",
@@ -86,7 +111,51 @@
                     "ja": "定義"
                 }
             },
-            "semanticRole": "definition"
+            "semanticRole": "definition",
+            "definitionLocalization": {
+                "stringKeyPrefix": "studyenglish:definitions",
+                "stringKeyField": "string_key",
+                "translationsField": "translations"
+            },
+            "fields": [
+                {
+                    "id": "string_key",
+                    "metadata": {
+                        "labels": {
+                            "de": "Zeichenkette",
+                            "en": "String Key",
+                            "id": "Kunci String",
+                            "ja": "文字列キー"
+                        }
+                    },
+                    "type": "string",
+                    "required": true,
+                    "detail": {
+                        "renderer": "text",
+                        "order": 1
+                    }
+                },
+                {
+                    "id": "translations",
+                    "metadata": {
+                        "labels": {
+                            "de": "Übersetzungen",
+                            "en": "Translations",
+                            "id": "Terjemahan",
+                            "ja": "翻訳"
+                        }
+                    },
+                    "type": "localizedText",
+                    "required": true,
+                    "detail": {
+                        "renderer": "text",
+                        "order": 2
+                    }
+                }
+            ],
+            "detail": {
+                "fieldOrder": ["string_key", "translations"]
+            }
         },
         {
             "id": "words",

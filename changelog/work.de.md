@@ -22,10 +22,14 @@ Das Englischpaket besitzt nun den Namensraum `en`, veröffentlicht lokalisierte 
 
 Die moduleigenen Alphabet-, Klassenzimmer-, Navigations-, CLI-, API- und Stiloberflächen wurden entfernt. Cognis erkennt und rendert das Englischpaket nun generisch anhand der veröffentlichten unveränderlichen Paketbeschreibung, des semantischen Schemas und der lokalisierten Metadaten. Statisch registriert bleibt nur das Sprachpaket.
 
+## Auflösbare Wörterbuchdefinitionen
+
+Das Schema deklariert nun den Bibliotheksvertrag für lokalisierte Definitionen und eine ausdrückliche erforderliche Beziehung vom Alphabet zur Definition. Jeder enthaltene Buchstabe verweist auf eine Definition, deren Zeichenkettenschlüssel in jedem Sprachpaket des Moduls auflösbar ist; der Datensatz enthält denselben lokalisierten Text.
+
 ## Dokumentation und Verträge
 
-Das Manifest verlangt nun `study:library`, die Modulversion lautet 1.2.19 und die lokalisierte Dokumentation verweist auf die gemeinsame Study-Bibliothek.
+Das Manifest verlangt nun `study:library`, die Modulversion lautet 1.2.20 und die lokalisierte Dokumentation verweist auf die gemeinsame Study-Bibliothek.
 
 ## Commits
 
-- [Implementierungsbasis](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/7783399)
+- [Implementierungsbasis](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b844bdd)

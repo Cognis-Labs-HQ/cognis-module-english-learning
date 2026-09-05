@@ -8,6 +8,7 @@ Cognis Englisch ist die installierbare Erweiterung zum Englischlernen für das C
 
 - Daten zum englischen Alphabet, die von der gemeinsamen Study-Bibliothek unter `/study/library` dargestellt werden.
 - Ein deklaratives englisches Inhaltspaket, das über die vom Host bereitgestellte Capability `study:library` eingelesen wird.
+- Moduleigene lokalisierte Definitionszeichenketten, die mit jedem enthaltenen Alphabetdatensatz verknüpft sind.
 - Eine Capability `study:language:en` zur Study-Integration ohne Importe aus Cognis-Interna.
 - Lokalisierte Schema- und Marketplace-Metadaten auf Englisch, Deutsch, Indonesisch und Japanisch.
 - Eine skalierbare SVG-Grafik der englischen Flagge als Modulsymbol.

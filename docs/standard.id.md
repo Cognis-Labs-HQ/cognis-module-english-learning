@@ -5,7 +5,7 @@ Modul Cognis English menyediakan pengalaman belajar bahasa Inggris untuk gateway
 ## Contoh Penggunaan
 
 - Buka `/study/library` untuk menjelajahi konten bahasa Inggris melalui pustaka Study bersama yang digerakkan oleh skema.
-- Gunakan kapabilitas `study:library` yang disediakan host untuk mengakses paket konten berversi dalam namespace `en` dengan metadata skema terlokalisasi dan peran semantik lapisan.
+- Gunakan kapabilitas `study:library` yang disediakan host untuk mengakses paket konten berversi dalam namespace `en` dengan metadata skema terlokalisasi, peran semantik lapisan, dan relasi definisi yang didukung string milik modul.
 - Gunakan kapabilitas `study:language:en` untuk memperoleh deskriptor kanonis dengan `languageCode: "en"` bagi tombol subnavigasi Study yang dibuat.
 
 ## Spesifikasi Teknis
