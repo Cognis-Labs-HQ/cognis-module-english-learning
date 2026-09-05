@@ -5,9 +5,9 @@ Das Cognis-Englischmodul stellt für das Cognis-Study-Gateway eine installierbar
 ## Anwendungsbeispiele
 
 - Öffnen Sie `/study/alphabet`, um die 26 Buchstaben des englischen Alphabets zu erkunden.
-- Öffnen Sie als Administrator `/study/en-library`, um die Lerninhalte des Moduls zu prüfen.
+- Öffnen Sie `/study/library`, um die englischen Datensätze in der gemeinsamen Study-Bibliothek zu prüfen.
 - Öffnen Sie `/study/en-classroom`, um über Study eine Englischunterrichtssitzung zu beginnen.
-- Rufen Sie `/api/v1/modules/study-language-en/library` mit einem gültigen Cognis-Zugriffstoken auf, um die verfügbaren Bibliotheksebenen zu lesen.
+- Lösen Sie die vom Host bereitgestellte Capability `study:library` auf, um auf das eingelesene englische Inhaltspaket zuzugreifen.
 - Lösen Sie die Capability `study:language:en` auf, um die Sprachbeschreibung ohne Import von Modulinterna einzubinden.
 
 ## Technische Spezifikation

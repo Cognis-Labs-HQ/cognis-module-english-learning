@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { bootstrapModule, uninstallModule } from "../../bootstrap.js";
 
-test("registers English surfaces through ctx", () => {
+test("registers English surfaces through ctx and ingests the content pack", async () => {
     const registrations = { routes: [], capabilities: [], extensions: [] };
     const ctx = {
         moduleRoot: process.cwd(),
@@ -12,8 +12,12 @@ test("registers English surfaces through ctx", () => {
             },
         },
         getCapability(name) {
-            assert.equal(name, "auth:requireAuth");
-            return () => ({ role: "user" });
+            assert.equal(name, "study:library");
+            return {
+                async ingestContentPack(root) {
+                    assert.equal(root, `${process.cwd()}/data`);
+                },
+            };
         },
         registerStaticDir() {},
         registerSpaRoute(route) {
@@ -29,7 +33,7 @@ test("registers English surfaces through ctx", () => {
             },
         },
     };
-    bootstrapModule(ctx);
+    await bootstrapModule(ctx);
     assert.ok(registrations.routes.includes("/study/alphabet"));
     assert.equal(registrations.capabilities[0][0], "study:language:en");
     assert.equal(registrations.capabilities[0][1].code, "en");

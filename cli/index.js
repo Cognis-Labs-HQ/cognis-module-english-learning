@@ -1,10 +1,10 @@
 export function registerCli({ registerCommand, apiClient }) {
     registerCommand({
         name: "study-language-en:library",
-        description: "Print the English learning library snapshot.",
+        description: "Print the English entries in the Study library.",
         async run() {
             return apiClient.get(
-                "/api/v1/modules/study-language-en/library/snapshot",
+                "/api/v1/study/library/entries?scope=global&schemaId=english&layer=alphabet",
             );
         },
     });

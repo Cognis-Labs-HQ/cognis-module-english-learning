@@ -15,8 +15,7 @@
     gap: 0.75rem;
 }
 
-.alphabet-cell,
-.library-grid article {
+.alphabet-cell {
     align-items: center;
     background: var(--surface-2);
     border: 1px solid var(--border);
@@ -32,12 +31,6 @@
 
 .alphabet-cell strong {
     font-size: 1.5rem;
-}
-
-.library-grid {
-    display: grid;
-    gap: 0.75rem;
-    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
 }
 
 .primary-action {

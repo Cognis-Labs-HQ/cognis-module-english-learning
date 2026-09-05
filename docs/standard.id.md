@@ -5,9 +5,9 @@ Modul Cognis English menyediakan pengalaman belajar bahasa Inggris yang dapat di
 ## Contoh Penggunaan
 
 - Buka `/study/alphabet` untuk mempelajari 26 huruf alfabet bahasa Inggris.
-- Buka `/study/en-library` sebagai administrator untuk meninjau materi pembelajaran modul.
+- Buka `/study/library` untuk meninjau data bahasa Inggris di pustaka Study bersama.
 - Buka `/study/en-classroom` untuk memulai sesi kelas bahasa Inggris melalui Study.
-- Minta `/api/v1/modules/study-language-en/library` dengan token akses Cognis yang valid untuk membaca lapisan pustaka yang tersedia.
+- Gunakan kapabilitas `study:library` yang disediakan host untuk mengakses paket konten bahasa Inggris yang telah diserap.
 - Gunakan kapabilitas `study:language:en` untuk mengintegrasikan deskriptor bahasa tanpa mengimpor internal modul.
 
 ## Spesifikasi Teknis

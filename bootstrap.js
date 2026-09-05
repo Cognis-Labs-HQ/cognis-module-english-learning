@@ -1,24 +1,17 @@
-import { registerApiRoutes } from "./api/index.js";
+import { ingestEnglishContentPack } from "./api/index.js";
 import { registerUi } from "./api/ui.js";
 
 const LANGUAGE = Object.freeze({
     code: "en",
     name: "English",
     flag: "GB",
-    version: "1.2.10",
+    version: "1.2.15",
     childComponents: [
         {
             id: "alphabet",
             labelKey: "module.study_language_en.alphabet.title",
             pageUrl: "/study/alphabet",
             order: 0,
-        },
-        {
-            id: "library",
-            labelKey: "module.study_language_en.library.title",
-            pageUrl: "/study/en-library",
-            minRole: "admin",
-            order: 100,
         },
         {
             id: "classroom",
@@ -37,16 +30,28 @@ export async function uninstallModule(ctx, { deleteContent }) {
     });
 }
 
-export function bootstrapModule(ctx) {
+export async function bootstrapModule(ctx) {
     registerUi(ctx);
-    const library = registerApiRoutes(ctx.router, ctx);
-    ctx.contributePublicCapability(
-        "study:language:en",
-        Object.freeze({
-            ...LANGUAGE,
-            snapshot: library.snapshot,
-        }),
-    );
+    const library = ctx.getCapability("study:library");
+    if (!library) {
+        ctx.log?.("error", "Study library capability is unavailable.", {
+            component: "study-language-en",
+            operation: "ingest_content_pack",
+        });
+        throw new Error("study_library_unavailable");
+    }
+    try {
+        await ingestEnglishContentPack(library, ctx.moduleRoot);
+    } catch (error) {
+        ctx.log?.("error", "English content-pack ingestion failed.", {
+            component: "study-language-en",
+            operation: "ingest_content_pack",
+            fatal: true,
+            error: error instanceof Error ? error.message : String(error),
+        });
+        throw error;
+    }
+    ctx.contributePublicCapability("study:language:en", LANGUAGE);
     ctx.flow.extend(
         "bootstrap-platform",
         "register-flows",

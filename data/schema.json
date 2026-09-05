@@ -1,0 +1,30 @@
+{
+    "id": "english",
+    "version": 1,
+    "language": "en",
+    "label": "English",
+    "layers": [
+        {
+            "id": "alphabet",
+            "label": "Alphabet",
+            "fields": [
+                {
+                    "id": "symbol",
+                    "label": "Symbol",
+                    "type": "string",
+                    "required": true
+                },
+                {
+                    "id": "romanization",
+                    "label": "Romanization",
+                    "type": "string",
+                    "required": true
+                }
+            ]
+        },
+        { "id": "alt_characters", "label": "Alternative Characters" },
+        { "id": "definitions", "label": "Definitions" },
+        { "id": "words", "label": "Words" },
+        { "id": "sentences", "label": "Sentences" }
+    ]
+}

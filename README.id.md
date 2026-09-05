@@ -7,22 +7,22 @@ Cognis Bahasa Inggris adalah ekstensi pembelajaran bahasa Inggris yang dapat dip
 ## Fitur
 
 - Data alfabet bahasa Inggris dan halaman alfabet terautentikasi di `/study/alphabet`.
-- Ringkasan pustaka khusus administrator di `/study/en-library`.
+- Pustaka Study bersama di `/study/library`.
 - Titik masuk ruang kelas di `/study/en-classroom`.
-- API pustaka hanya-baca yang terautentikasi di `/api/v1/modules/study-language-en/library`.
+- Paket konten bahasa Inggris deklaratif yang diserap melalui kapabilitas `study:library` dari host.
 - Kapabilitas `study:language:en` untuk integrasi Study tanpa mengimpor bagian internal Cognis.
 - Navigasi, halaman, dan metadata marketplace yang dilokalkan dalam bahasa Inggris, Jerman, Indonesia, dan Jepang.
 - Hook pembersihan saat penghapusan modul untuk mendukung siklus hidup modul.
 
 ## Instalasi
 
-Tambahkan repositori Git ini sebagai sumber modul di marketplace modul Cognis, tinjau dependensi gateway Study serta kapabilitas autentikasi yang dideklarasikan, lalu pasang dan aktifkan modul. UUID gateway Study yang diperlukan adalah `338b9237-a2c8-5bcf-9437-bccc9abd9a27`.
+Tambahkan repositori Git ini sebagai sumber modul di marketplace modul Cognis, tinjau dependensi gateway Study serta kapabilitas pustaka Study yang dideklarasikan, lalu pasang dan aktifkan modul. UUID gateway Study yang diperlukan adalah `338b9237-a2c8-5bcf-9437-bccc9abd9a27`.
 
 ## Arsitektur
 
-`bootstrap.js` adalah satu-satunya titik integrasi host. Berkas ini mendaftarkan permukaan UI dan API milik modul melalui `ctx`, menyediakan deskriptor bahasa Inggris sebagai kapabilitas publik, dan memperluas flow bootstrap platform. Kode runtime menggunakan impor relatif terhadap repositori dan tidak mengimpor bagian internal Cognis.
+`bootstrap.js` adalah satu-satunya titik integrasi host. Berkas ini mendaftarkan permukaan UI milik modul serta menyerap paket konten deklaratif melalui `ctx`, menyediakan deskriptor bahasa Inggris sebagai kapabilitas publik, dan memperluas flow bootstrap platform. Kode runtime menggunakan impor relatif terhadap repositori dan tidak mengimpor bagian internal Cognis.
 
-Manifest menerbitkan `ui.stringsBaseUrl` agar Cognis dapat memuat terjemahan milik modul sebelum UI browser dimulai. Registrasi UI dan API tetap bercakupan sehingga tidak ada perilaku milik modul yang tertinggal setelah modul dinonaktifkan atau dihapus.
+Manifest menerbitkan `ui.stringsBaseUrl` agar Cognis dapat memuat terjemahan milik modul sebelum UI browser dimulai. Registrasi UI tetap bercakupan sehingga tidak ada perilaku milik modul yang tertinggal setelah modul dinonaktifkan atau dihapus.
 
 ## Pemeriksaan kualitas kontributor
 

@@ -9,13 +9,6 @@ const pages = [
         minRole: "user",
     },
     {
-        id: "study-language-en-library",
-        pattern: "^/study/en-library$",
-        base: "/study/en-library",
-        page: "library",
-        minRole: "admin",
-    },
-    {
         id: "study-language-en-classroom",
         pattern: "^/study/en-classroom$",
         base: "/study/en-classroom",
