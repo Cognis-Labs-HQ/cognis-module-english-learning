@@ -32,13 +32,14 @@
 
 ## 最新ホストとの互換性
 
-スキーマとコンテンツパックをバージョン 5 に更新し、排他的なメタデータフィルターグループを宣言しました。文字単位の音声は、対応する音声メディアタイプを返す公開 HTTPS エンドポイントを参照します。ライブラリの再インポートはホスト側の更新優先永続化によって処理されます。ブートストラップに失敗するとコンテンツと語学ケイパビリティの両方が欠けるため、`allowBootstrapFailure` は明示的に無効のままです。
+スキーマとコンテンツパックをバージョン 6 に更新し、排他的なメタデータフィルターグループを宣言しました。小文字は、対応する大文字を親として右側に配置される独立した異体項目としてモデル化します。安定したレコード識別子により、ホストはリリースを照合して削除済みモジュールコンテンツを復元でき、ホスト所有のアトミックな有効化がマニフェストの例外なしでインポート失敗を処理します。
 
 ## ドキュメントと契約
 
-マニフェストは引き続き `study:library` を必須とし、ブートストラップ失敗後の部分的な有効化を明示的に拒否して、モジュールバージョン 1.2.22 を公開します。
+マニフェストは `study:library` を必須とし、現在のホスト所有のアトミック有効化契約に従い、モジュールバージョン 1.2.23 を公開します。
 
 ## コミット
 
+- [Latest host-alignment implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d0aad0d)
 - [Latest schema implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/bc26d0d)
 - [実装の基点](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b844bdd)

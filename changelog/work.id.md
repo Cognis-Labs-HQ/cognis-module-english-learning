@@ -32,11 +32,11 @@ Paket ini mengikuti skema Pustaka Study terbaru: data alfabet menyediakan daftar
 
 ## Kompatibilitas host terbaru
 
-Paket kini memakai skema dan paket konten versi 5, mendeklarasikan grup filter metadata eksklusif, serta mengarahkan audio unit tulisan ke endpoint HTTPS publik yang mengembalikan jenis media audio yang didukung. Impor Pustaka berulang ditangani oleh persistensi host yang mendahulukan pembaruan. Karena bootstrap yang gagal akan menghilangkan konten sekaligus kapabilitas bahasa, `allowBootstrapFailure` tetap dinonaktifkan secara eksplisit.
+Paket kini memakai skema dan paket konten versi 6, mendeklarasikan grup filter metadata eksklusif, serta memodelkan huruf kecil sebagai varian mandiri di sisi kanan induk huruf besarnya. Identitas rekaman yang stabil memungkinkan host merekonsiliasi rilis dan memulihkan konten modul yang dihapus, sedangkan aktivasi atomik milik host menangani kegagalan impor tanpa pengecualian manifes.
 
 ## Dokumentasi dan kontrak
 
-Manifes tetap mewajibkan `study:library`, secara eksplisit menolak aktivasi parsial setelah kegagalan bootstrap, dan menerbitkan modul versi 1.2.22.
+Manifes mewajibkan `study:library`, mengikuti kontrak aktivasi atomik milik host terkini, dan menerbitkan modul versi 1.2.23.
 
 ## Commit
 

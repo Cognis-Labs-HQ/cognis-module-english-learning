@@ -14,10 +14,10 @@ test("content pack declares valid records for the English schema", async () => {
     assert.equal(manifest.schema, "schema.json");
     assert.equal(schema.id, "english");
     assert.equal(schema.namespace, manifest.namespace);
-    assert.equal(schema.version, 5);
+    assert.equal(schema.version, 6);
     assert.equal(schema.language, "en");
     assert.equal(schema.metadata.labels.ja, "英語");
-    assert.equal(alphabet.length, 26);
+    assert.equal(alphabet.length, 52);
     assert.deepEqual(alphabet[0], {
         id: "en:char:a",
         label: "A",
@@ -69,6 +69,19 @@ test("content follows the current writing-unit and sentence contracts", async ()
                 letter.fields.audio.startsWith("https://"),
         ),
     );
+    const lowercaseA = alphabet.find(({ id }) => id === "en:char:a-lowercase");
+    assert.equal(lowercaseA?.label, "a");
+    assert.deepEqual(
+        lowercaseA?.references.find(
+            ({ relation }) => relation === "variant-of",
+        ),
+        { entryId: "en:char:a", relation: "variant-of" },
+    );
+    assert.equal(
+        alphabetLayer.relationships.find(({ id }) => id === "variant-of")
+            ?.variantDirection,
+        "right",
+    );
     assert.equal(
         schema.layers.find((layer) => layer.id === "particles")?.semanticRole,
         "particle",
@@ -86,6 +99,13 @@ test("content follows the current writing-unit and sentence contracts", async ()
     assert.ok(words.length > 0);
     assert.ok(particles.length > 0);
     assert.ok(sentences.length > 0);
+    const run = words.find(({ id }) => id === "en:word:run");
+    assert.deepEqual(
+        run?.references
+            .filter(({ relation }) => relation === "spelling")
+            .map(({ entryId }) => entryId),
+        ["en:char:r-lowercase", "en:char:u-lowercase", "en:char:n-lowercase"],
+    );
     assert.deepEqual(
         sentences[0].references
             .filter(({ relation }) => relation !== "definitions")

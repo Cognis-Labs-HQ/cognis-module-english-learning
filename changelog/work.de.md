@@ -32,13 +32,14 @@ Das Paket folgt dem neuesten Schema der Study-Bibliothek: Alphabetdatensätze en
 
 ## Aktuelle Host-Kompatibilität
 
-Das Paket verwendet nun Schema- und Inhaltspaketversion 5, deklariert exklusive Metadatenfiltergruppen und verweist für Audio von Schrifteinheiten auf öffentliche HTTPS-Endpunkte mit einem unterstützten Audio-Medientyp. Wiederholte Bibliotheksimporte verarbeitet die aktualisierungsorientierte Persistenz des Hosts. Da ein fehlgeschlagener Bootstrap sowohl Inhalte als auch die Sprach-Capability auslassen würde, bleibt `allowBootstrapFailure` ausdrücklich deaktiviert.
+Das Paket verwendet nun Schema- und Inhaltspaketversion 6, deklariert exklusive Metadatenfiltergruppen und modelliert Kleinbuchstaben als eigenständige Varianten rechts neben ihren Großbuchstaben-Eltern. Stabile Datensatzidentitäten ermöglichen dem Host, Veröffentlichungen abzugleichen und gelöschte Modulinhalte wiederherzustellen; die hosteigene atomare Aktivierung behandelt Importfehler ohne Manifest-Ausnahme.
 
 ## Dokumentation und Verträge
 
-Das Manifest verlangt weiterhin `study:library`, lehnt eine teilweise Aktivierung nach einem Bootstrap-Fehler ausdrücklich ab und veröffentlicht Modulversion 1.2.22.
+Das Manifest verlangt `study:library`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.23.
 
 ## Commits
 
+- [Latest host-alignment implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d0aad0d)
 - [Latest schema implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/bc26d0d)
 - [Implementierungsbasis](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b844bdd)

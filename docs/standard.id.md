@@ -23,11 +23,11 @@ Modul ini merupakan ekstensi Cognis eksternal yang hanya-baca. UUID permanennya 
 
 ### Model data Study terkini
 
-Skema versi 5 memodelkan entri alfabet sebagai unit tulisan atomik dengan daftar pelafalan dan rujukan audio HTTPS. Kata ditautkan ke ejaan huruf yang berurutan dan definisi terlokalisasi, partikel tata bahasa dimodelkan tersendiri, dan kalimat disusun dari rujukan kata serta partikel yang berurutan. Audio tetap berada di luar paket sehingga modul tidak menyertakan media biner.
+Skema versi 6 memodelkan entri alfabet sebagai unit tulisan atomik dengan daftar pelafalan dan rujukan audio HTTPS. Kata ditautkan ke ejaan huruf yang berurutan dan definisi terlokalisasi, partikel tata bahasa dimodelkan tersendiri, dan kalimat disusun dari rujukan kata serta partikel yang berurutan. Audio tetap berada di luar paket sehingga modul tidak menyertakan media biner.
 
 ### Kebijakan kegagalan bootstrap
 
-Ingesti konten dan kapabilitas `study:language:en` merupakan seluruh perilaku runtime modul, sehingga kegagalan bootstrap bukan pekerjaan opsional. Manifes secara eksplisit mempertahankan `allowBootstrapFailure` dalam keadaan nonaktif. Cognis Study Library 2.6.3 menangani impor berulang dengan persistensi yang mendahulukan pembaruan; kegagalan ingesti lain harus membiarkan modul nonaktif, bukan menampilkan modul aktif yang tidak berfungsi.
+Ingesti konten dan kapabilitas `study:language:en` merupakan seluruh perilaku runtime modul. Host terkini menjalankan impor konten secara atomik dan mengembalikan modul ke keadaan nonaktif setelah kegagalan bootstrap yang tersisa, sehingga modul mengikuti kebijakan milik host tersebut tanpa pengecualian manifes.
 
 ### Keamanan
 

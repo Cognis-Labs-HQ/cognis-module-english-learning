@@ -32,14 +32,15 @@ The pack follows the latest Study Library schema: alphabet records provide pronu
 
 ## Latest host compatibility
 
-The package now uses schema and content-pack version 5, declares exclusive metadata filter groups, and points writing-unit audio at public HTTPS endpoints that return a supported audio media type. Repeated Library imports are handled by the host’s update-first persistence. Because a failed bootstrap would omit both content and the language capability, `allowBootstrapFailure` remains explicitly disabled.
+The package now uses schema and content-pack version 6, declares exclusive metadata filter groups, and models lowercase letters as independent right-side variants of their uppercase parents. Stable record identities let the host reconcile releases and restore deleted module content, while host-owned atomic activation handles import failures without a manifest override.
 
 ## Documentation and contracts
 
-The manifest now requires `study:library`, explicitly rejects partial enablement after bootstrap failure, and publishes module version 1.2.22.
+The manifest requires `study:library`, follows the current host-owned atomic activation contract, and publishes module version 1.2.23.
 
 ## Commits
 
+- [Latest host-alignment implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d0aad0d)
 - [Latest schema implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/bc26d0d)
 - [Latest preceding implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/60701c547812a699d6e1514cbaa8fa90b9630ea4)
 - [Implementation baseline](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b844bdd)

@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 5,
+    "version": 6,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -103,6 +103,22 @@
                     "requiredTarget": true,
                     "onDelete": "restrict",
                     "resolverRole": "explicit"
+                },
+                {
+                    "id": "variant-of",
+                    "targetLayer": "alphabet",
+                    "metadata": {
+                        "labels": {
+                            "de": "Variante von",
+                            "en": "Variant Of",
+                            "id": "Varian Dari",
+                            "ja": "異体元"
+                        }
+                    },
+                    "maximum": 1,
+                    "onDelete": "detach",
+                    "resolverRole": "explicit",
+                    "variantDirection": "right"
                 }
             ],
             "activityCompatibility": [

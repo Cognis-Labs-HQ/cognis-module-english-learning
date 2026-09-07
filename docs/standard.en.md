@@ -23,11 +23,11 @@ The module is a read-only external Cognis extension. Its permanent UUID identifi
 
 ### Current Study data model
 
-Schema version 5 models alphabet entries as atomic writing units with pronunciation lists and HTTPS audio references. It links words to ordered letter spellings and localized definitions, introduces grammatical particles, and composes sentences from ordered word and particle references. Audio remains remote, so the module ships no binary media.
+Schema version 6 models alphabet entries as atomic writing units with pronunciation lists and HTTPS audio references. It links words to ordered letter spellings and localized definitions, introduces grammatical particles, and composes sentences from ordered word and particle references. Audio remains remote, so the module ships no binary media.
 
 ### Bootstrap failure policy
 
-Content ingestion and the `study:language:en` capability are the module’s complete runtime behavior, so bootstrap failures are not optional. The manifest explicitly keeps `allowBootstrapFailure` disabled. Cognis Study Library 2.6.3 handles repeated imports with update-first persistence; any remaining ingestion failure must leave the module disabled instead of presenting a nonfunctional enabled module.
+Content ingestion and the `study:language:en` capability are the module’s complete runtime behavior. The current host performs content imports atomically and returns the module to its disabled state after any remaining bootstrap failure, so the module follows that host-owned policy without a manifest override.
 
 ### Security
 
