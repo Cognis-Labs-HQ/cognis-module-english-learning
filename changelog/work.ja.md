@@ -32,14 +32,15 @@
 
 ## 最新ホストとの互換性
 
-スキーマとコンテンツパックをバージョン 8 に更新しました。小文字を固定基準グリッドとし、すべての大文字の代替項目が一貫して右側へ展開します。一般的な二重字は、構成関係と定義関係を別々にラベル付けした複合書記単位のまま保持し、必須メタデータの初期値と安定した識別子によって現在のホスト動作を維持します。
+スキーマとコンテンツパックをバージョン 9 に更新しました。小文字を固定基準グリッドとし、すべての大文字の代替項目がホスト必須の異体識別子を宣言してから一貫して右側へ展開します。一般的な二重字は、構成関係と定義関係を別々にラベル付けした複合書記単位のまま保持し、必須メタデータの初期値と安定した識別子によって現在のホスト動作を維持します。
 
 ## ドキュメントと契約
 
-マニフェストは `study:library` を必須とし、現在のホスト所有のアトミック有効化契約に従い、モジュールバージョン 1.2.25 を公開します。
+マニフェストは `study:library` を必須とし、現在のホスト所有のアトミック有効化契約に従い、モジュールバージョン 1.2.26 を公開します。
 
 ## コミット
 
+- [Capital-variant alignment](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/5034aab)
 - [Composition-alignment implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a42d840)
 - [Directional-variant implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4d4bd7e)
 - [Latest host-alignment implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d0aad0d)

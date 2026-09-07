@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 8,
+    "version": 9,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -118,6 +118,7 @@
                     "maximum": 1,
                     "onDelete": "detach",
                     "resolverRole": "explicit",
+                    "variant": true,
                     "variantDirection": "right"
                 }
             ],

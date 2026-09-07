@@ -14,7 +14,7 @@ test("content pack declares valid records for the English schema", async () => {
     assert.equal(manifest.schema, "schema.json");
     assert.equal(schema.id, "english");
     assert.equal(schema.namespace, manifest.namespace);
-    assert.equal(schema.version, 8);
+    assert.equal(schema.version, 9);
     assert.equal(schema.language, "en");
     assert.equal(schema.metadata.labels.ja, "英語");
     assert.equal(alphabet.length, 52);
@@ -90,11 +90,11 @@ test("content follows the current writing-unit and sentence contracts", async ()
         ),
         { entryId: "en:char:a-lowercase", relation: "variant-of" },
     );
-    assert.equal(
-        alphabetLayer.relationships.find(({ id }) => id === "variant-of")
-            ?.variantDirection,
-        "right",
+    const variantRelationship = alphabetLayer.relationships.find(
+        ({ id }) => id === "variant-of",
     );
+    assert.equal(variantRelationship?.variant, true);
+    assert.equal(variantRelationship?.variantDirection, "right");
     assert.deepEqual(alphabetLayer.grid, {
         rowSize: 13,
         items: alphabet.slice(26).map(({ id }) => id),
