@@ -14,7 +14,7 @@ test("content pack declares valid records for the English schema", async () => {
     assert.equal(manifest.schema, "schema.json");
     assert.equal(schema.id, "english");
     assert.equal(schema.namespace, manifest.namespace);
-    assert.equal(schema.version, 6);
+    assert.equal(schema.version, 7);
     assert.equal(schema.language, "en");
     assert.equal(schema.metadata.labels.ja, "英語");
     assert.equal(alphabet.length, 52);
@@ -39,6 +39,9 @@ test("content follows the current writing-unit and sentence contracts", async ()
     const schema = JSON.parse(await readFile("data/schema.json", "utf8"));
     const alphabet = JSON.parse(
         await readFile("data/content/alphabet/common.json", "utf8"),
+    );
+    const composites = JSON.parse(
+        await readFile("data/content/composites/common.json", "utf8"),
     );
     const words = JSON.parse(
         await readFile("data/content/words/common.json", "utf8"),
@@ -82,6 +85,23 @@ test("content follows the current writing-unit and sentence contracts", async ()
             ?.variantDirection,
         "right",
     );
+    assert.deepEqual(alphabetLayer.grid, {
+        rowSize: 13,
+        items: alphabet.slice(0, 26).map(({ id }) => id),
+    });
+    const compositeLayer = schema.layers.find(
+        (layer) => layer.semanticRole === "compoundWritingUnit",
+    );
+    const composition = compositeLayer.relationships.find(
+        ({ id }) => id === "composition",
+    );
+    assert.equal(composition.resolverRole, "grapheme");
+    assert.equal(composition.targetLayer, "alphabet");
+    assert.equal(composites.length, 3);
+    assert.deepEqual(
+        composites[0].references.map(({ relation }) => relation),
+        ["composition", "composition", "definitions"],
+    );
     assert.equal(
         schema.layers.find((layer) => layer.id === "particles")?.semanticRole,
         "particle",
@@ -93,8 +113,15 @@ test("content follows the current writing-unit and sentence contracts", async ()
         {
             group: partOfSpeech?.detail?.group,
             exclusive: partOfSpeech?.detail?.exclusive,
+            required: partOfSpeech?.detail?.required,
+            defaultTag: partOfSpeech?.detail?.defaultTag,
         },
-        { group: "part-of-speech", exclusive: true },
+        {
+            group: "part-of-speech",
+            exclusive: true,
+            required: true,
+            defaultTag: "verb",
+        },
     );
     assert.ok(words.length > 0);
     assert.ok(particles.length > 0);

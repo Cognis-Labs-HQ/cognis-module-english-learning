@@ -23,7 +23,7 @@ Das Modul ist eine schreibgeschützte externe Cognis-Erweiterung. Seine dauerhaf
 
 ### Aktuelles Study-Datenmodell
 
-Schemaversion 6 modelliert Alphabeteinträge als atomare Schrifteinheiten mit Aussprachelisten und HTTPS-Audioverweisen. Wörter werden mit geordneten Buchstabenfolgen und lokalisierten Definitionen verknüpft, grammatische Partikeln werden eigens modelliert, und Sätze setzen sich aus geordneten Wort- und Partikelverweisen zusammen. Audio bleibt extern, daher liefert das Modul keine binären Medien aus.
+Schemaversion 7 modelliert Alphabeteinträge als atomare Schrifteinheiten mit Aussprachelisten und HTTPS-Audioverweisen. Wörter werden mit geordneten Buchstabenfolgen und lokalisierten Definitionen verknüpft, grammatische Partikeln werden eigens modelliert, und Sätze setzen sich aus geordneten Wort- und Partikelverweisen zusammen. Audio bleibt extern, daher liefert das Modul keine binären Medien aus. Häufige Digraphen werden außerdem als zusammengesetzte Schrifteinheiten modelliert, deren resolvergestützte Zusammensetzungsverweise von ihren lokalisierten Definitionsverweisen getrennt sind. Das Alphabet veröffentlicht ein festes Raster, und erforderliche Metadatenfilter deklarieren ihre anfänglichen Tags.
 
 ### Richtlinie für Bootstrap-Fehler
 

@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 6,
+    "version": 7,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -126,6 +126,135 @@
                 "study:listening",
                 "study:writing"
             ],
+            "interestVeins": ["language:english"],
+            "grid": {
+                "rowSize": 13,
+                "items": [
+                    "en:char:a",
+                    "en:char:b",
+                    "en:char:c",
+                    "en:char:d",
+                    "en:char:e",
+                    "en:char:f",
+                    "en:char:g",
+                    "en:char:h",
+                    "en:char:i",
+                    "en:char:j",
+                    "en:char:k",
+                    "en:char:l",
+                    "en:char:m",
+                    "en:char:n",
+                    "en:char:o",
+                    "en:char:p",
+                    "en:char:q",
+                    "en:char:r",
+                    "en:char:s",
+                    "en:char:t",
+                    "en:char:u",
+                    "en:char:v",
+                    "en:char:w",
+                    "en:char:x",
+                    "en:char:y",
+                    "en:char:z"
+                ]
+            }
+        },
+        {
+            "id": "composites",
+            "metadata": {
+                "labels": {
+                    "de": "Buchstabenverbindungen",
+                    "en": "Letter Combinations",
+                    "id": "Gabungan Huruf",
+                    "ja": "文字の組み合わせ"
+                },
+                "descriptions": {
+                    "de": "Schreibeinheiten, die aus mehreren Buchstaben zusammengesetzt sind.",
+                    "en": "Writing units composed from multiple letters.",
+                    "id": "Unit tulisan yang tersusun dari beberapa huruf.",
+                    "ja": "複数の文字から構成される書記単位。"
+                }
+            },
+            "semanticRole": "compoundWritingUnit",
+            "fields": [
+                {
+                    "id": "pronunciation",
+                    "metadata": {
+                        "labels": {
+                            "de": "Aussprache",
+                            "en": "Pronunciation",
+                            "id": "Pelafalan",
+                            "ja": "発音"
+                        }
+                    },
+                    "type": "stringList",
+                    "required": true,
+                    "detail": {
+                        "renderer": "text",
+                        "order": 1
+                    }
+                },
+                {
+                    "id": "audio",
+                    "metadata": {
+                        "labels": {
+                            "de": "Audio",
+                            "en": "Audio",
+                            "id": "Audio",
+                            "ja": "音声"
+                        }
+                    },
+                    "type": "audio",
+                    "required": true,
+                    "detail": {
+                        "renderer": "media",
+                        "order": 2
+                    }
+                }
+            ],
+            "detail": {
+                "fieldOrder": ["pronunciation", "audio"]
+            },
+            "relationships": [
+                {
+                    "id": "composition",
+                    "targetLayer": "alphabet",
+                    "metadata": {
+                        "labels": {
+                            "de": "Zusammensetzung",
+                            "en": "Composition",
+                            "id": "Komposisi",
+                            "ja": "構成"
+                        }
+                    },
+                    "minimum": 2,
+                    "ordered": true,
+                    "requiredTarget": true,
+                    "onDelete": "restrict",
+                    "resolverRole": "grapheme"
+                },
+                {
+                    "id": "definitions",
+                    "targetLayer": "definitions",
+                    "metadata": {
+                        "labels": {
+                            "de": "Definitionen",
+                            "en": "Definitions",
+                            "id": "Definisi",
+                            "ja": "定義"
+                        }
+                    },
+                    "minimum": 1,
+                    "requiredTarget": true,
+                    "onDelete": "restrict",
+                    "resolverRole": "explicit"
+                }
+            ],
+            "activityCompatibility": [
+                "study:recognition",
+                "study:listening",
+                "study:writing"
+            ],
             "interestVeins": ["language:english"]
         },
         {
@@ -215,7 +344,9 @@
                         "renderer": "badge",
                         "order": 1,
                         "group": "part-of-speech",
-                        "exclusive": true
+                        "exclusive": true,
+                        "required": true,
+                        "defaultTag": "verb"
                     }
                 }
             ],
@@ -294,7 +425,9 @@
                         "renderer": "badge",
                         "order": 1,
                         "group": "particle-function",
-                        "exclusive": true
+                        "exclusive": true,
+                        "required": true,
+                        "defaultTag": "negation"
                     }
                 }
             ],

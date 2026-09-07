@@ -23,7 +23,7 @@ The module is a read-only external Cognis extension. Its permanent UUID identifi
 
 ### Current Study data model
 
-Schema version 6 models alphabet entries as atomic writing units with pronunciation lists and HTTPS audio references. It links words to ordered letter spellings and localized definitions, introduces grammatical particles, and composes sentences from ordered word and particle references. Audio remains remote, so the module ships no binary media.
+Schema version 7 models alphabet entries as atomic writing units with pronunciation lists and HTTPS audio references. It links words to ordered letter spellings and localized definitions, introduces grammatical particles, and composes sentences from ordered word and particle references. Audio remains remote, so the module ships no binary media. It also models common digraphs as compound writing units whose resolver-backed composition references are distinct from their localized definition references. The alphabet publishes a fixed chart grid, and required metadata filters declare their initial tags.
 
 ### Bootstrap failure policy
 

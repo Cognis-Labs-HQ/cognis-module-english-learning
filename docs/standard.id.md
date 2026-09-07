@@ -23,7 +23,7 @@ Modul ini merupakan ekstensi Cognis eksternal yang hanya-baca. UUID permanennya 
 
 ### Model data Study terkini
 
-Skema versi 6 memodelkan entri alfabet sebagai unit tulisan atomik dengan daftar pelafalan dan rujukan audio HTTPS. Kata ditautkan ke ejaan huruf yang berurutan dan definisi terlokalisasi, partikel tata bahasa dimodelkan tersendiri, dan kalimat disusun dari rujukan kata serta partikel yang berurutan. Audio tetap berada di luar paket sehingga modul tidak menyertakan media biner.
+Skema versi 7 memodelkan entri alfabet sebagai unit tulisan atomik dengan daftar pelafalan dan rujukan audio HTTPS. Kata ditautkan ke ejaan huruf yang berurutan dan definisi terlokalisasi, partikel tata bahasa dimodelkan tersendiri, dan kalimat disusun dari rujukan kata serta partikel yang berurutan. Audio tetap berada di luar paket sehingga modul tidak menyertakan media biner. Digraf umum juga dimodelkan sebagai unit tulisan majemuk dengan rujukan komposisi berbasis resolver yang terpisah dari rujukan definisi terlokalisasinya. Alfabet menerbitkan kisi tetap dan filter metadata wajib mendeklarasikan tag awalnya.
 
 ### Kebijakan kegagalan bootstrap
 

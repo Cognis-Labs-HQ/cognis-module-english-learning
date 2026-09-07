@@ -32,14 +32,15 @@ Das Paket folgt dem neuesten Schema der Study-Bibliothek: Alphabetdatensätze en
 
 ## Aktuelle Host-Kompatibilität
 
-Das Paket verwendet nun Schema- und Inhaltspaketversion 6, deklariert exklusive Metadatenfiltergruppen und modelliert Kleinbuchstaben als eigenständige Varianten rechts neben ihren Großbuchstaben-Eltern. Stabile Datensatzidentitäten ermöglichen dem Host, Veröffentlichungen abzugleichen und gelöschte Modulinhalte wiederherzustellen; die hosteigene atomare Aktivierung behandelt Importfehler ohne Manifest-Ausnahme.
+Das Paket verwendet nun Schema- und Inhaltspaketversion 7. Kleinbuchstaben bleiben gerichtete Varianten, während häufige Digraphen zusammengesetzte Schrifteinheiten mit getrennt beschrifteten Beziehungen für Zusammensetzung und Definition sind. Das Alphabet liefert ein festes Raster, Metadatenfilter veröffentlichen erforderliche Vorgaben, und stabile Identitäten erhalten den Host-Abgleich über Veröffentlichungen hinweg.
 
 ## Dokumentation und Verträge
 
-Das Manifest verlangt `study:library`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.23.
+Das Manifest verlangt `study:library`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.24.
 
 ## Commits
 
+- [Directional-variant implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4d4bd7e)
 - [Latest host-alignment implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d0aad0d)
 - [Latest schema implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/bc26d0d)
 - [Implementierungsbasis](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b844bdd)

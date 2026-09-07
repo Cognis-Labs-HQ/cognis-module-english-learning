@@ -32,14 +32,15 @@
 
 ## 最新ホストとの互換性
 
-スキーマとコンテンツパックをバージョン 6 に更新し、排他的なメタデータフィルターグループを宣言しました。小文字は、対応する大文字を親として右側に配置される独立した異体項目としてモデル化します。安定したレコード識別子により、ホストはリリースを照合して削除済みモジュールコンテンツを復元でき、ホスト所有のアトミックな有効化がマニフェストの例外なしでインポート失敗を処理します。
+スキーマとコンテンツパックをバージョン 7 に更新しました。小文字は方向付き異体のまま保持し、一般的な二重字は、構成関係と定義関係が別々にラベル付けされた複合書記単位として表現します。アルファベットは固定グリッドを提供し、メタデータフィルターは必須の初期値を公開し、安定した識別子によってリリース間のホスト照合を維持します。
 
 ## ドキュメントと契約
 
-マニフェストは `study:library` を必須とし、現在のホスト所有のアトミック有効化契約に従い、モジュールバージョン 1.2.23 を公開します。
+マニフェストは `study:library` を必須とし、現在のホスト所有のアトミック有効化契約に従い、モジュールバージョン 1.2.24 を公開します。
 
 ## コミット
 
+- [Directional-variant implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4d4bd7e)
 - [Latest host-alignment implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d0aad0d)
 - [Latest schema implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/bc26d0d)
 - [実装の基点](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b844bdd)

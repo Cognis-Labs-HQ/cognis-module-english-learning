@@ -32,14 +32,15 @@ The pack follows the latest Study Library schema: alphabet records provide pronu
 
 ## Latest host compatibility
 
-The package now uses schema and content-pack version 6, declares exclusive metadata filter groups, and models lowercase letters as independent right-side variants of their uppercase parents. Stable record identities let the host reconcile releases and restore deleted module content, while host-owned atomic activation handles import failures without a manifest override.
+The package now uses schema and content-pack version 7. Lowercase letters remain directional variants, while common digraphs are compound writing units with separately labeled composition and definition relationships. The alphabet supplies a fixed grid, metadata filters publish required defaults, and stable identities retain host reconciliation across releases.
 
 ## Documentation and contracts
 
-The manifest requires `study:library`, follows the current host-owned atomic activation contract, and publishes module version 1.2.23.
+The manifest requires `study:library`, follows the current host-owned atomic activation contract, and publishes module version 1.2.24.
 
 ## Commits
 
+- [Directional-variant implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4d4bd7e)
 - [Latest host-alignment implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d0aad0d)
 - [Latest schema implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/bc26d0d)
 - [Latest preceding implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/60701c547812a699d6e1514cbaa8fa90b9630ea4)
