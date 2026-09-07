@@ -14,7 +14,7 @@ test("content pack declares valid records for the English schema", async () => {
     assert.equal(manifest.schema, "schema.json");
     assert.equal(schema.id, "english");
     assert.equal(schema.namespace, manifest.namespace);
-    assert.equal(schema.version, 7);
+    assert.equal(schema.version, 8);
     assert.equal(schema.language, "en");
     assert.equal(schema.metadata.labels.ja, "英語");
     assert.equal(alphabet.length, 52);
@@ -30,6 +30,10 @@ test("content pack declares valid records for the English schema", async () => {
             {
                 entryId: "en:definition:letter:a",
                 relation: "definition",
+            },
+            {
+                entryId: "en:char:a-lowercase",
+                relation: "variant-of",
             },
         ],
     });
@@ -74,11 +78,17 @@ test("content follows the current writing-unit and sentence contracts", async ()
     );
     const lowercaseA = alphabet.find(({ id }) => id === "en:char:a-lowercase");
     assert.equal(lowercaseA?.label, "a");
-    assert.deepEqual(
-        lowercaseA?.references.find(
+    assert.equal(
+        lowercaseA?.references.some(
             ({ relation }) => relation === "variant-of",
         ),
-        { entryId: "en:char:a", relation: "variant-of" },
+        false,
+    );
+    assert.deepEqual(
+        alphabet[0].references.find(
+            ({ relation }) => relation === "variant-of",
+        ),
+        { entryId: "en:char:a-lowercase", relation: "variant-of" },
     );
     assert.equal(
         alphabetLayer.relationships.find(({ id }) => id === "variant-of")
@@ -87,7 +97,7 @@ test("content follows the current writing-unit and sentence contracts", async ()
     );
     assert.deepEqual(alphabetLayer.grid, {
         rowSize: 13,
-        items: alphabet.slice(0, 26).map(({ id }) => id),
+        items: alphabet.slice(26).map(({ id }) => id),
     });
     const compositeLayer = schema.layers.find(
         (layer) => layer.semanticRole === "compoundWritingUnit",
