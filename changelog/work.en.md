@@ -30,11 +30,16 @@ The schema now declares the Library definition-localization contract and an expl
 
 The pack follows the latest Study Library schema: alphabet records provide pronunciation lists and remote audio, vocabulary is linked to ordered spellings and localized definitions, and sentence sequences distinguish lexical words from grammatical particles. No binary media is packaged.
 
+## Latest host compatibility
+
+The package now uses schema and content-pack version 5, declares exclusive metadata filter groups, and points writing-unit audio at public HTTPS endpoints that return a supported audio media type. Repeated Library imports are handled by the host’s update-first persistence. Because a failed bootstrap would omit both content and the language capability, `allowBootstrapFailure` remains explicitly disabled.
+
 ## Documentation and contracts
 
-The manifest now requires `study:library`, the module version is 1.2.21, and localized documentation directs users to the shared Study library.
+The manifest now requires `study:library`, explicitly rejects partial enablement after bootstrap failure, and publishes module version 1.2.22.
 
 ## Commits
 
+- [Latest schema implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/bc26d0d)
 - [Latest preceding implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/60701c547812a699d6e1514cbaa8fa90b9630ea4)
 - [Implementation baseline](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b844bdd)

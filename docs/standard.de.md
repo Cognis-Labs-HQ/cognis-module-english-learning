@@ -23,7 +23,11 @@ Das Modul ist eine schreibgeschützte externe Cognis-Erweiterung. Seine dauerhaf
 
 ### Aktuelles Study-Datenmodell
 
-Schemaversion 4 modelliert Alphabeteinträge als atomare Schrifteinheiten mit Aussprachelisten und HTTPS-Audioverweisen. Wörter werden mit geordneten Buchstabenfolgen und lokalisierten Definitionen verknüpft, grammatische Partikeln werden eigens modelliert, und Sätze setzen sich aus geordneten Wort- und Partikelverweisen zusammen. Audio bleibt extern, daher liefert das Modul keine binären Medien aus.
+Schemaversion 5 modelliert Alphabeteinträge als atomare Schrifteinheiten mit Aussprachelisten und HTTPS-Audioverweisen. Wörter werden mit geordneten Buchstabenfolgen und lokalisierten Definitionen verknüpft, grammatische Partikeln werden eigens modelliert, und Sätze setzen sich aus geordneten Wort- und Partikelverweisen zusammen. Audio bleibt extern, daher liefert das Modul keine binären Medien aus.
+
+### Richtlinie für Bootstrap-Fehler
+
+Das Einlesen der Inhalte und die Capability `study:language:en` bilden das gesamte Laufzeitverhalten des Moduls, daher sind Bootstrap-Fehler nicht optional. Das Manifest lässt `allowBootstrapFailure` ausdrücklich deaktiviert. Cognis Study Library 2.6.3 verarbeitet wiederholte Importe durch aktualisierungsorientierte Persistenz; jeder verbleibende Einlesefehler muss das Modul deaktiviert lassen, statt ein funktionsloses aktiviertes Modul anzuzeigen.
 
 ### Sicherheit
 

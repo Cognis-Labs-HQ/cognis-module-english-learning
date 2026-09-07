@@ -30,10 +30,15 @@ Das Schema deklariert nun den Bibliotheksvertrag für lokalisierte Definitionen 
 
 Das Paket folgt dem neuesten Schema der Study-Bibliothek: Alphabetdatensätze enthalten Aussprachelisten und externes Audio, Vokabeln sind mit geordneten Schreibweisen und lokalisierten Definitionen verknüpft, und Satzfolgen unterscheiden lexikalische Wörter von grammatischen Partikeln. Es werden keine binären Medien mitgeliefert.
 
+## Aktuelle Host-Kompatibilität
+
+Das Paket verwendet nun Schema- und Inhaltspaketversion 5, deklariert exklusive Metadatenfiltergruppen und verweist für Audio von Schrifteinheiten auf öffentliche HTTPS-Endpunkte mit einem unterstützten Audio-Medientyp. Wiederholte Bibliotheksimporte verarbeitet die aktualisierungsorientierte Persistenz des Hosts. Da ein fehlgeschlagener Bootstrap sowohl Inhalte als auch die Sprach-Capability auslassen würde, bleibt `allowBootstrapFailure` ausdrücklich deaktiviert.
+
 ## Dokumentation und Verträge
 
-Das Manifest verlangt nun `study:library`, die Modulversion lautet 1.2.21 und die lokalisierte Dokumentation verweist auf die gemeinsame Study-Bibliothek.
+Das Manifest verlangt weiterhin `study:library`, lehnt eine teilweise Aktivierung nach einem Bootstrap-Fehler ausdrücklich ab und veröffentlicht Modulversion 1.2.22.
 
 ## Commits
 
+- [Latest schema implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/bc26d0d)
 - [Implementierungsbasis](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b844bdd)

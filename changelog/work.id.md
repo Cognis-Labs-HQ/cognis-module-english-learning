@@ -30,9 +30,13 @@ Skema kini mendeklarasikan kontrak pelokalan definisi Pustaka dan relasi alfabet
 
 Paket ini mengikuti skema Pustaka Study terbaru: data alfabet menyediakan daftar pelafalan dan audio jarak jauh, kosakata ditautkan ke ejaan berurutan dan definisi terlokalisasi, serta urutan kalimat membedakan kata leksikal dari partikel tata bahasa. Tidak ada media biner yang dikemas.
 
+## Kompatibilitas host terbaru
+
+Paket kini memakai skema dan paket konten versi 5, mendeklarasikan grup filter metadata eksklusif, serta mengarahkan audio unit tulisan ke endpoint HTTPS publik yang mengembalikan jenis media audio yang didukung. Impor Pustaka berulang ditangani oleh persistensi host yang mendahulukan pembaruan. Karena bootstrap yang gagal akan menghilangkan konten sekaligus kapabilitas bahasa, `allowBootstrapFailure` tetap dinonaktifkan secara eksplisit.
+
 ## Dokumentasi dan kontrak
 
-Manifes kini mewajibkan `study:library`, versi modul menjadi 1.2.20, dan dokumentasi terlokalisasi mengarahkan pengguna ke pustaka Study bersama.
+Manifes tetap mewajibkan `study:library`, secara eksplisit menolak aktivasi parsial setelah kegagalan bootstrap, dan menerbitkan modul versi 1.2.22.
 
 ## Commit
 

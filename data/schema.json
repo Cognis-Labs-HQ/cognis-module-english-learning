@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 4,
+    "version": 5,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -197,7 +197,9 @@
                     "required": true,
                     "detail": {
                         "renderer": "badge",
-                        "order": 1
+                        "order": 1,
+                        "group": "part-of-speech",
+                        "exclusive": true
                     }
                 }
             ],
@@ -274,7 +276,9 @@
                     "required": true,
                     "detail": {
                         "renderer": "badge",
-                        "order": 1
+                        "order": 1,
+                        "group": "particle-function",
+                        "exclusive": true
                     }
                 }
             ],

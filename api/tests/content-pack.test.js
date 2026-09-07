@@ -14,7 +14,7 @@ test("content pack declares valid records for the English schema", async () => {
     assert.equal(manifest.schema, "schema.json");
     assert.equal(schema.id, "english");
     assert.equal(schema.namespace, manifest.namespace);
-    assert.equal(schema.version, 4);
+    assert.equal(schema.version, 5);
     assert.equal(schema.language, "en");
     assert.equal(schema.metadata.labels.ja, "英語");
     assert.equal(alphabet.length, 26);
@@ -24,7 +24,7 @@ test("content pack declares valid records for the English schema", async () => {
         fields: {
             symbol: "A",
             pronunciation: ["ay"],
-            audio: "https://api.dictionaryapi.dev/media/pronunciations/en/a-us.mp3",
+            audio: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=A&tl=en",
         },
         references: [
             {
@@ -72,6 +72,16 @@ test("content follows the current writing-unit and sentence contracts", async ()
     assert.equal(
         schema.layers.find((layer) => layer.id === "particles")?.semanticRole,
         "particle",
+    );
+    const partOfSpeech = schema.layers
+        .find((layer) => layer.id === "words")
+        ?.fields.find((field) => field.id === "part_of_speech");
+    assert.deepEqual(
+        {
+            group: partOfSpeech?.detail?.group,
+            exclusive: partOfSpeech?.detail?.exclusive,
+        },
+        { group: "part-of-speech", exclusive: true },
     );
     assert.ok(words.length > 0);
     assert.ok(particles.length > 0);
