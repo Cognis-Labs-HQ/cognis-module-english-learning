@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "id": "en:sentence:i-do-not-run",
+        "label": "I do not run.",
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:do",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:not",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:run",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:sentence:i-do-not-run",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

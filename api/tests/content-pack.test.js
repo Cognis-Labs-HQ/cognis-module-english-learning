@@ -14,14 +14,18 @@ test("content pack declares valid records for the English schema", async () => {
     assert.equal(manifest.schema, "schema.json");
     assert.equal(schema.id, "english");
     assert.equal(schema.namespace, manifest.namespace);
-    assert.equal(schema.version, 3);
+    assert.equal(schema.version, 4);
     assert.equal(schema.language, "en");
     assert.equal(schema.metadata.labels.ja, "英語");
     assert.equal(alphabet.length, 26);
     assert.deepEqual(alphabet[0], {
         id: "en:char:a",
         label: "A",
-        fields: { symbol: "A", romanization: "a" },
+        fields: {
+            symbol: "A",
+            pronunciation: ["ay"],
+            audio: "https://api.dictionaryapi.dev/media/pronunciations/en/a-us.mp3",
+        },
         references: [
             {
                 entryId: "en:definition:letter:a",
@@ -29,6 +33,60 @@ test("content pack declares valid records for the English schema", async () => {
             },
         ],
     });
+});
+
+test("content follows the current writing-unit and sentence contracts", async () => {
+    const schema = JSON.parse(await readFile("data/schema.json", "utf8"));
+    const alphabet = JSON.parse(
+        await readFile("data/content/alphabet/common.json", "utf8"),
+    );
+    const words = JSON.parse(
+        await readFile("data/content/words/common.json", "utf8"),
+    );
+    const particles = JSON.parse(
+        await readFile("data/content/particles/common.json", "utf8"),
+    );
+    const sentences = JSON.parse(
+        await readFile("data/content/sentences/common.json", "utf8"),
+    );
+    const alphabetLayer = schema.layers.find(
+        (layer) => layer.semanticRole === "atomicWritingUnit",
+    );
+    assert.equal(
+        alphabetLayer.fields.find((field) => field.id === "pronunciation")
+            ?.type,
+        "stringList",
+    );
+    assert.equal(
+        alphabetLayer.fields.find((field) => field.id === "audio")?.type,
+        "audio",
+    );
+    assert.ok(
+        alphabet.every(
+            (letter) =>
+                Array.isArray(letter.fields.pronunciation) &&
+                letter.fields.pronunciation.length > 0 &&
+                letter.fields.audio.startsWith("https://"),
+        ),
+    );
+    assert.equal(
+        schema.layers.find((layer) => layer.id === "particles")?.semanticRole,
+        "particle",
+    );
+    assert.ok(words.length > 0);
+    assert.ok(particles.length > 0);
+    assert.ok(sentences.length > 0);
+    assert.deepEqual(
+        sentences[0].references
+            .filter(({ relation }) => relation !== "definitions")
+            .map(({ relation, position }) => ({ relation, position })),
+        [
+            { relation: "words", position: 0 },
+            { relation: "words", position: 1 },
+            { relation: "particles", position: 2 },
+            { relation: "words", position: 3 },
+        ],
+    );
 });
 
 test("every seeded alphabet record resolves a module-owned definition string", async () => {

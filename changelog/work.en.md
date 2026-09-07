@@ -26,10 +26,15 @@ Removed the module-owned alphabet, classroom, navbar, CLI, API, and styling surf
 
 The schema now declares the Library definition-localization contract and an explicit required alphabet-to-definition relationship. Every seeded letter links to a definition whose string key resolves in each module locale bundle, with matching localized text stored in the content record.
 
+## Latest Library schema
+
+The pack follows the latest Study Library schema: alphabet records provide pronunciation lists and remote audio, vocabulary is linked to ordered spellings and localized definitions, and sentence sequences distinguish lexical words from grammatical particles. No binary media is packaged.
+
 ## Documentation and contracts
 
-The manifest now requires `study:library`, the module version is 1.2.20, and localized documentation directs users to the shared Study library.
+The manifest now requires `study:library`, the module version is 1.2.21, and localized documentation directs users to the shared Study library.
 
 ## Commits
 
+- [Latest preceding implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/60701c547812a699d6e1514cbaa8fa90b9630ea4)
 - [Implementation baseline](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b844bdd)

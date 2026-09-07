@@ -26,6 +26,10 @@ Permukaan alfabet, kelas, navigasi, CLI, API, dan gaya milik modul telah dihapus
 
 Skema kini mendeklarasikan kontrak pelokalan definisi Pustaka dan relasi alfabet-ke-definisi yang eksplisit serta wajib. Setiap huruf bawaan tertaut ke definisi dengan kunci string yang dapat diselesaikan dalam setiap bundel bahasa modul, sementara rekaman kontennya menyimpan teks terlokalisasi yang sama.
 
+## Skema Pustaka terbaru
+
+Paket ini mengikuti skema Pustaka Study terbaru: data alfabet menyediakan daftar pelafalan dan audio jarak jauh, kosakata ditautkan ke ejaan berurutan dan definisi terlokalisasi, serta urutan kalimat membedakan kata leksikal dari partikel tata bahasa. Tidak ada media biner yang dikemas.
+
 ## Dokumentasi dan kontrak
 
 Manifes kini mewajibkan `study:library`, versi modul menjadi 1.2.20, dan dokumentasi terlokalisasi mengarahkan pengguna ke pustaka Study bersama.

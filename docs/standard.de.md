@@ -21,6 +21,10 @@ Das Modul ist eine schreibgeschützte externe Cognis-Erweiterung. Seine dauerhaf
 
 - Der Deinstallations-Hook protokolliert die Lebenszyklus-Bereinigung; das Modul hat keine gespeicherte Konfiguration oder nutzereigenen Inhalte, da seine Lerndatensätze schreibgeschützte Paketdateien sind.
 
+### Aktuelles Study-Datenmodell
+
+Schemaversion 4 modelliert Alphabeteinträge als atomare Schrifteinheiten mit Aussprachelisten und HTTPS-Audioverweisen. Wörter werden mit geordneten Buchstabenfolgen und lokalisierten Definitionen verknüpft, grammatische Partikeln werden eigens modelliert, und Sätze setzen sich aus geordneten Wort- und Partikelverweisen zusammen. Audio bleibt extern, daher liefert das Modul keine binären Medien aus.
+
 ### Sicherheit
 
 - Die Host-Bibliothek prüft Paketnamensraum, semantische Version, Lizenz, sichere Pfade, lokalisiertes Schema, typisierte Felder und den vollständigen Datensatzgraphen vor einem atomaren Schreibvorgang.

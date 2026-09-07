@@ -26,9 +26,13 @@ Die moduleigenen Alphabet-, Klassenzimmer-, Navigations-, CLI-, API- und Stilobe
 
 Das Schema deklariert nun den Bibliotheksvertrag für lokalisierte Definitionen und eine ausdrückliche erforderliche Beziehung vom Alphabet zur Definition. Jeder enthaltene Buchstabe verweist auf eine Definition, deren Zeichenkettenschlüssel in jedem Sprachpaket des Moduls auflösbar ist; der Datensatz enthält denselben lokalisierten Text.
 
+## Aktuelles Bibliotheksschema
+
+Das Paket folgt dem neuesten Schema der Study-Bibliothek: Alphabetdatensätze enthalten Aussprachelisten und externes Audio, Vokabeln sind mit geordneten Schreibweisen und lokalisierten Definitionen verknüpft, und Satzfolgen unterscheiden lexikalische Wörter von grammatischen Partikeln. Es werden keine binären Medien mitgeliefert.
+
 ## Dokumentation und Verträge
 
-Das Manifest verlangt nun `study:library`, die Modulversion lautet 1.2.20 und die lokalisierte Dokumentation verweist auf die gemeinsame Study-Bibliothek.
+Das Manifest verlangt nun `study:library`, die Modulversion lautet 1.2.21 und die lokalisierte Dokumentation verweist auf die gemeinsame Study-Bibliothek.
 
 ## Commits
 

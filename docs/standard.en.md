@@ -21,6 +21,10 @@ The module is a read-only external Cognis extension. Its permanent UUID identifi
 
 - The uninstall hook records lifecycle cleanup; the module has no saved configuration or user-owned content because its learning datasets are read-only packaged files.
 
+### Current Study data model
+
+Schema version 4 models alphabet entries as atomic writing units with pronunciation lists and HTTPS audio references. It links words to ordered letter spellings and localized definitions, introduces grammatical particles, and composes sentences from ordered word and particle references. Audio remains remote, so the module ships no binary media.
+
 ### Security
 
 - The host Library validates the package namespace, semantic version, license, safe paths, localized schema, typed fields, and complete record graph before an atomic write.

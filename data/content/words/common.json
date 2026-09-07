@@ -1,1 +1,71 @@
-[]
+[
+    {
+        "id": "en:word:i",
+        "label": "I",
+        "fields": {
+            "part_of_speech": "pronoun"
+        },
+        "references": [
+            {
+                "entryId": "en:char:i",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:definition:word:i",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:do",
+        "label": "do",
+        "fields": {
+            "part_of_speech": "verb"
+        },
+        "references": [
+            {
+                "entryId": "en:char:d",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:word:do",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:run",
+        "label": "run",
+        "fields": {
+            "part_of_speech": "verb"
+        },
+        "references": [
+            {
+                "entryId": "en:char:r",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:u",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:n",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:word:run",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

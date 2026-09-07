@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 3,
+    "version": 4,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -11,10 +11,10 @@
             "ja": "英語"
         },
         "descriptions": {
-            "de": "Grundlegende englische Lerninhalte.",
-            "en": "Core English learning content.",
-            "id": "Materi inti pembelajaran bahasa Inggris.",
-            "ja": "英語学習の基本コンテンツ。"
+            "de": "Grundlegende englische Schrift-, Wortschatz- und Satzinhalte.",
+            "en": "Core English writing, vocabulary, and sentence content.",
+            "id": "Materi inti tulisan, kosakata, dan kalimat bahasa Inggris.",
+            "ja": "英語の文字・語彙・文の基本コンテンツ。"
         }
     },
     "layers": [
@@ -48,26 +48,43 @@
                     }
                 },
                 {
-                    "id": "romanization",
+                    "id": "pronunciation",
                     "metadata": {
                         "labels": {
-                            "de": "Aussprachehilfe",
-                            "en": "Romanization",
-                            "id": "Romanisasi",
-                            "ja": "ローマ字表記"
+                            "de": "Aussprache",
+                            "en": "Pronunciation",
+                            "id": "Pelafalan",
+                            "ja": "発音"
                         }
                     },
-                    "type": "string",
+                    "type": "stringList",
                     "required": true,
                     "detail": {
                         "renderer": "text",
                         "order": 2
                     }
+                },
+                {
+                    "id": "audio",
+                    "metadata": {
+                        "labels": {
+                            "de": "Audio",
+                            "en": "Audio",
+                            "id": "Audio",
+                            "ja": "音声"
+                        }
+                    },
+                    "type": "audio",
+                    "required": true,
+                    "detail": {
+                        "renderer": "media",
+                        "order": 3
+                    }
                 }
             ],
             "detail": {
                 "titleField": "symbol",
-                "fieldOrder": ["symbol", "romanization"]
+                "fieldOrder": ["symbol", "pronunciation", "audio"]
             },
             "relationships": [
                 {
@@ -87,19 +104,13 @@
                     "onDelete": "restrict",
                     "resolverRole": "explicit"
                 }
-            ]
-        },
-        {
-            "id": "alt_characters",
-            "metadata": {
-                "labels": {
-                    "de": "Alternative Zeichen",
-                    "en": "Alternative Characters",
-                    "id": "Karakter Alternatif",
-                    "ja": "代替文字"
-                }
-            },
-            "semanticRole": "atomicWritingUnit"
+            ],
+            "activityCompatibility": [
+                "study:recognition",
+                "study:listening",
+                "study:writing"
+            ],
+            "interestVeins": ["language:english"]
         },
         {
             "id": "definitions",
@@ -132,7 +143,8 @@
                     "required": true,
                     "detail": {
                         "renderer": "text",
-                        "order": 1
+                        "order": 1,
+                        "hidden": true
                     }
                 },
                 {
@@ -154,8 +166,10 @@
                 }
             ],
             "detail": {
-                "fieldOrder": ["string_key", "translations"]
-            }
+                "titleField": "translations",
+                "fieldOrder": ["translations", "string_key"]
+            },
+            "interestVeins": ["language:english"]
         },
         {
             "id": "words",
@@ -167,7 +181,126 @@
                     "ja": "単語"
                 }
             },
-            "semanticRole": "lexicalUnit"
+            "semanticRole": "lexicalUnit",
+            "fields": [
+                {
+                    "id": "part_of_speech",
+                    "metadata": {
+                        "labels": {
+                            "de": "Wortart",
+                            "en": "Part of Speech",
+                            "id": "Kelas Kata",
+                            "ja": "品詞"
+                        }
+                    },
+                    "type": "string",
+                    "required": true,
+                    "detail": {
+                        "renderer": "badge",
+                        "order": 1
+                    }
+                }
+            ],
+            "relationships": [
+                {
+                    "id": "spelling",
+                    "targetLayer": "alphabet",
+                    "metadata": {
+                        "labels": {
+                            "de": "Schreibweise",
+                            "en": "Spelling",
+                            "id": "Ejaan",
+                            "ja": "綴り"
+                        }
+                    },
+                    "minimum": 1,
+                    "ordered": true,
+                    "requiredTarget": true,
+                    "onDelete": "restrict",
+                    "resolverRole": "grapheme"
+                },
+                {
+                    "id": "definitions",
+                    "targetLayer": "definitions",
+                    "metadata": {
+                        "labels": {
+                            "de": "Definitionen",
+                            "en": "Definitions",
+                            "id": "Definisi",
+                            "ja": "定義"
+                        }
+                    },
+                    "minimum": 1,
+                    "requiredTarget": true,
+                    "onDelete": "restrict",
+                    "resolverRole": "explicit"
+                }
+            ],
+            "detail": {
+                "fieldOrder": ["part_of_speech"]
+            },
+            "activityCompatibility": ["study:recognition", "study:production"],
+            "interestVeins": ["language:english"]
+        },
+        {
+            "id": "particles",
+            "metadata": {
+                "labels": {
+                    "de": "Partikeln",
+                    "en": "Particles",
+                    "id": "Partikel",
+                    "ja": "助詞"
+                },
+                "descriptions": {
+                    "de": "Unveränderliche Funktionswörter in Satzfolgen.",
+                    "en": "Invariant function words used in sentence sequences.",
+                    "id": "Kata tugas tetap dalam urutan kalimat.",
+                    "ja": "文の並びで使われる不変化の機能語。"
+                }
+            },
+            "semanticRole": "particle",
+            "fields": [
+                {
+                    "id": "function",
+                    "metadata": {
+                        "labels": {
+                            "de": "Funktion",
+                            "en": "Function",
+                            "id": "Fungsi",
+                            "ja": "機能"
+                        }
+                    },
+                    "type": "string",
+                    "required": true,
+                    "detail": {
+                        "renderer": "badge",
+                        "order": 1
+                    }
+                }
+            ],
+            "relationships": [
+                {
+                    "id": "definitions",
+                    "targetLayer": "definitions",
+                    "metadata": {
+                        "labels": {
+                            "de": "Definitionen",
+                            "en": "Definitions",
+                            "id": "Definisi",
+                            "ja": "定義"
+                        }
+                    },
+                    "minimum": 1,
+                    "requiredTarget": true,
+                    "onDelete": "restrict",
+                    "resolverRole": "explicit"
+                }
+            ],
+            "detail": {
+                "fieldOrder": ["function"]
+            },
+            "activityCompatibility": ["study:recognition", "study:grammar"],
+            "interestVeins": ["language:english"]
         },
         {
             "id": "sentences",
@@ -179,7 +312,59 @@
                     "ja": "文"
                 }
             },
-            "semanticRole": "orderedLexicalSequence"
+            "semanticRole": "orderedLexicalSequence",
+            "relationships": [
+                {
+                    "id": "words",
+                    "targetLayer": "words",
+                    "metadata": {
+                        "labels": {
+                            "de": "Wörter",
+                            "en": "Words",
+                            "id": "Kata",
+                            "ja": "単語"
+                        }
+                    },
+                    "minimum": 1,
+                    "ordered": true,
+                    "requiredTarget": true,
+                    "onDelete": "restrict",
+                    "resolverRole": "longestMatch"
+                },
+                {
+                    "id": "particles",
+                    "targetLayer": "particles",
+                    "metadata": {
+                        "labels": {
+                            "de": "Partikeln",
+                            "en": "Particles",
+                            "id": "Partikel",
+                            "ja": "助詞"
+                        }
+                    },
+                    "ordered": true,
+                    "onDelete": "restrict",
+                    "resolverRole": "explicit"
+                },
+                {
+                    "id": "definitions",
+                    "targetLayer": "definitions",
+                    "metadata": {
+                        "labels": {
+                            "de": "Definitionen",
+                            "en": "Definitions",
+                            "id": "Definisi",
+                            "ja": "定義"
+                        }
+                    },
+                    "minimum": 1,
+                    "requiredTarget": true,
+                    "onDelete": "restrict",
+                    "resolverRole": "explicit"
+                }
+            ],
+            "activityCompatibility": ["study:reading", "study:grammar"],
+            "interestVeins": ["language:english"]
         }
     ]
 }

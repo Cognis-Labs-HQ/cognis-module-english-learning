@@ -21,6 +21,10 @@ Modul ini merupakan ekstensi Cognis eksternal yang hanya-baca. UUID permanennya 
 
 - Hook penghapusan instalasi mencatat pembersihan siklus hidup; modul ini tidak memiliki konfigurasi tersimpan atau konten milik pengguna karena set data pembelajarannya berupa berkas paket hanya-baca.
 
+### Model data Study terkini
+
+Skema versi 4 memodelkan entri alfabet sebagai unit tulisan atomik dengan daftar pelafalan dan rujukan audio HTTPS. Kata ditautkan ke ejaan huruf yang berurutan dan definisi terlokalisasi, partikel tata bahasa dimodelkan tersendiri, dan kalimat disusun dari rujukan kata serta partikel yang berurutan. Audio tetap berada di luar paket sehingga modul tidak menyertakan media biner.
+
 ### Keamanan
 
 - Pustaka host memvalidasi namespace paket, versi semantik, lisensi, jalur aman, skema terlokalisasi, bidang bertipe, dan seluruh graf rekaman sebelum penulisan atomik.
