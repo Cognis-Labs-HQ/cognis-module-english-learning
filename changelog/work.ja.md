@@ -32,7 +32,7 @@
 
 ## 最新ホストとの互換性
 
-スキーマとコンテンツパックをバージョン 10 に更新しました。小文字グリッドは安定した数値表示 ID を解決し、大文字の代替項目は明示的な右側配置を維持し、単語・助詞・文レイヤーは必須の多言語表示定義を使用します。二重字の構成は定義と分離したままにし、必須メタデータの初期値と安定した識別子によって現在のホスト動作を維持します。
+スキーマとコンテンツパックをバージョン 11 に更新しました。`minimal: true` を設定するのはアルファベット文字レイヤーだけで、複合文字・定義・単語・助詞・文は意図的に標準カードを維持します。小文字グリッドは安定した数値表示 ID を解決し、大文字の代替項目は明示的な右側配置を維持し、単語・助詞・文レイヤーは必須の多言語表示定義を使用します。二重字の構成は定義と分離したままにし、必須メタデータの初期値と安定した識別子によって現在のホスト動作を維持します。
 
 ## 分離されたブラウザー領域
 
@@ -40,10 +40,11 @@
 
 ## ドキュメントと契約
 
-マニフェストは `study:library` を必須とし、現在のホスト所有のアトミック有効化契約に従い、モジュールバージョン 1.2.28 を公開します。
+マニフェストは `study:library` を必須とし、現在のホスト所有のアトミック有効化契約に従い、モジュールバージョン 1.2.29 を公開します。
 
 ## コミット
 
+- [Locale-isolation implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/78c86f0)
 - [Latest presentation-contract implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4ac2cd4)
 - [Explicit-variant implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/33ba470)
 - [Capital-variant alignment](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/5034aab)

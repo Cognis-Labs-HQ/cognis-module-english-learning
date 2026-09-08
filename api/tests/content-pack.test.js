@@ -14,7 +14,7 @@ test("content pack declares valid records for the English schema", async () => {
     assert.equal(manifest.schema, "schema.json");
     assert.equal(schema.id, "english");
     assert.equal(schema.namespace, manifest.namespace);
-    assert.equal(schema.version, 10);
+    assert.equal(schema.version, 11);
     assert.equal(schema.language, "en");
     assert.equal(schema.metadata.labels.ja, "英語");
     assert.equal(alphabet.length, 52);
@@ -58,6 +58,10 @@ test("content follows the current writing-unit and sentence contracts", async ()
     );
     const alphabetLayer = schema.layers.find(
         (layer) => layer.semanticRole === "atomicWritingUnit",
+    );
+    assert.deepEqual(
+        schema.layers.filter(({ minimal }) => minimal).map(({ id }) => id),
+        ["alphabet"],
     );
     assert.equal(
         alphabetLayer.fields.find((field) => field.id === "pronunciation")

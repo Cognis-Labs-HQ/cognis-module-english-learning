@@ -11,6 +11,7 @@ Cognis Bahasa Inggris adalah ekstensi pembelajaran bahasa Inggris yang dapat dip
 - Digraf majemuk bahasa Inggris dengan tautan komposisi yang terpisah dari definisi terlokalisasi.
 - Alternatif huruf kapital yang dideklarasikan sebagai varian dan selalu ditempatkan di sisi kanan kartu dasar huruf kecil.
 - Posisi tampilan alfabet numerik dan label berbasis definisi terlokalisasi untuk kata, partikel, serta kalimat.
+- Kartu minimal ringkas yang dibatasi hanya untuk lapisan karakter alfabet.
 - Paket konten bahasa Inggris deklaratif yang diserap melalui kapabilitas `study:library` dari host.
 - String definisi terlokalisasi milik modul yang ditautkan dari setiap rekaman alfabet bawaan.
 - Kapabilitas `study:language:en` untuk integrasi Study tanpa mengimpor bagian internal Cognis.

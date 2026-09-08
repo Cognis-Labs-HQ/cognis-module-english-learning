@@ -11,6 +11,7 @@ Cognis English is the installable English language-learning extension for the Co
 - Compound English digraphs with composition links kept separate from localized definitions.
 - Capitalized alternate letters declared as variants and consistently positioned to the right of lowercase base cards.
 - Numeric alphabet display positions and localized definition-first labels for words, particles, and sentences.
+- Compact minimal cards limited to the alphabet character layer.
 - A declarative English content pack ingested through the host-provided `study:library` capability.
 - Module-owned localized definition strings linked from every seeded alphabet record.
 - A `study:language:en` capability for Study integration without importing Cognis internals.
