@@ -15,6 +15,7 @@ The module is a read-only external Cognis extension. Its permanent UUID identifi
 ### Integration Contract
 
 - `bootstrap.js` is the only platform integration entrypoint.
+- Browser exposure is restricted to `ui/languages`; the data-only module contributes no host UI extension and no platform-bootstrap stage hook.
 - The supplied `ctx` is the only cross-component bus for capability, flow, and locale-resource registrations.
 - Runtime imports remain repository-relative and never access Cognis internals or sibling components.
 - Scoped registrations are removable when the module is disabled or uninstalled.

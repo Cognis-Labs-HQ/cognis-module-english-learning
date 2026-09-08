@@ -34,12 +34,17 @@
 
 スキーマとコンテンツパックをバージョン 10 に更新しました。小文字グリッドは安定した数値表示 ID を解決し、大文字の代替項目は明示的な右側配置を維持し、単語・助詞・文レイヤーは必須の多言語表示定義を使用します。二重字の構成は定義と分離したままにし、必須メタデータの初期値と安定した識別子によって現在のホスト動作を維持します。
 
+## 分離されたブラウザー領域
+
+モジュールの静的名前空間ではロケールバンドルだけを配信し、グローバルなプラットフォームブートストラップフローへのフックを廃止しました。データ取り込みと公開言語ケイパビリティは維持し、データ専用パッケージがホストのナビゲーションやユーザーメニュー構成へ参加したり干渉したりしないようにします。
+
 ## ドキュメントと契約
 
-マニフェストは `study:library` を必須とし、現在のホスト所有のアトミック有効化契約に従い、モジュールバージョン 1.2.27 を公開します。
+マニフェストは `study:library` を必須とし、現在のホスト所有のアトミック有効化契約に従い、モジュールバージョン 1.2.28 を公開します。
 
 ## コミット
 
+- [Latest presentation-contract implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4ac2cd4)
 - [Explicit-variant implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/33ba470)
 - [Capital-variant alignment](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/5034aab)
 - [Composition-alignment implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a42d840)

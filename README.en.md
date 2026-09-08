@@ -24,7 +24,7 @@ Add this Git repository as a module source in the Cognis module marketplace, rev
 
 ## Architecture
 
-`bootstrap.js` is the only host integration point. It ingests its declarative content pack through `ctx`, contributes the English language descriptor as a public capability, and extends the platform bootstrap flow. Runtime code uses repository-relative imports and does not import Cognis internals.
+`bootstrap.js` is the only host integration point. It ingests its declarative content pack through `ctx`, contributes the English language descriptor as a public capability, and exposes only its locale directory under the module static namespace. It does not extend host UI or bootstrap flows. Runtime code uses repository-relative imports and does not import Cognis internals.
 
 The canonical language descriptor supplies `languageCode: "en"` for the Study sub-navigation button; Cognis carries this selection in router state rather than URL query parameters.
 

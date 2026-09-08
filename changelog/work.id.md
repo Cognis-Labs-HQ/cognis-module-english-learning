@@ -34,9 +34,13 @@ Paket ini mengikuti skema Pustaka Study terbaru: data alfabet menyediakan daftar
 
 Paket kini memakai skema dan paket konten versi 10. Kisi huruf kecil memakai ID tampilan numerik yang stabil, alternatif huruf kapital mempertahankan penempatan varian eksplisit di sisi kanan, dan lapisan kata, partikel, serta kalimat memakai definisi tampilan terlokalisasi yang wajib. Komposisi digraf tetap terpisah dari definisi; nilai awal metadata wajib dan identitas stabil mempertahankan perilaku host terkini.
 
+## Permukaan peramban terisolasi
+
+Modul kini hanya menyajikan bundel lokal melalui namespace statis modul dan tidak lagi memasang hook pada alur bootstrap platform global. Ingesti data dan kapabilitas bahasa publik tetap sama sehingga paket khusus data ini tidak ikut membentuk atau mengganggu navigasi host dan menu pengguna.
+
 ## Dokumentasi dan kontrak
 
-Manifes mewajibkan `study:library`, mengikuti kontrak aktivasi atomik milik host terkini, dan menerbitkan modul versi 1.2.27.
+Manifes mewajibkan `study:library`, mengikuti kontrak aktivasi atomik milik host terkini, dan menerbitkan modul versi 1.2.28.
 
 ## Commit
 

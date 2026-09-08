@@ -15,6 +15,7 @@ Modul ini merupakan ekstensi Cognis eksternal yang hanya-baca. UUID permanennya 
 ### Kontrak Integrasi
 
 - `bootstrap.js` adalah satu-satunya entrypoint integrasi platform.
+- Eksposur peramban dibatasi pada `ui/languages`; modul khusus data ini tidak menyumbangkan ekstensi UI host maupun hook tahap bootstrap platform.
 - `ctx` yang diberikan adalah satu-satunya bus lintas komponen untuk registrasi kapabilitas, alur, dan sumber daya bahasa.
 - Impor runtime selalu relatif terhadap repositori dan tidak pernah mengakses internal Cognis atau komponen lain.
 - Registrasi tercakup dapat dihapus saat modul dinonaktifkan atau dicopot.

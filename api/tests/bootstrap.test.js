@@ -6,7 +6,6 @@ test("registers the data-only English package through ctx", async () => {
     const registrations = {
         staticDirectories: [],
         capabilities: [],
-        extensions: [],
     };
     const ctx = {
         moduleRoot: process.cwd(),
@@ -24,15 +23,13 @@ test("registers the data-only English package through ctx", async () => {
         contributePublicCapability(name, value) {
             registrations.capabilities.push([name, value]);
         },
-        flow: {
-            extend(...args) {
-                registrations.extensions.push(args);
-            },
-        },
     };
     await bootstrapModule(ctx);
     assert.deepEqual(registrations.staticDirectories, [
-        { prefix: "", root: `${process.cwd()}/ui` },
+        {
+            prefix: "languages",
+            root: `${process.cwd()}/ui/languages`,
+        },
     ]);
     assert.equal(registrations.capabilities[0][0], "study:language:en");
     assert.equal(registrations.capabilities[0][1].languageCode, "en");
@@ -48,8 +45,6 @@ test("registers the data-only English package through ctx", async () => {
         Object.isFrozen(registrations.capabilities[0][1].package),
         true,
     );
-    assert.equal(registrations.extensions[0][0], "bootstrap-platform");
-    assert.equal(registrations.extensions[0][3]().languageCode, "en");
 });
 
 test("supports uninstall cleanup without deleting packaged learning data", async () => {

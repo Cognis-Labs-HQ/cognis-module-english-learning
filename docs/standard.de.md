@@ -15,6 +15,7 @@ Das Modul ist eine schreibgeschützte externe Cognis-Erweiterung. Seine dauerhaf
 ### Integrationsvertrag
 
 - `bootstrap.js` ist der einzige Integrationseinstiegspunkt für die Plattform.
+- Die Browserfreigabe ist auf `ui/languages` beschränkt; das reine Datenmodul trägt weder eine Host-UI-Erweiterung noch einen Hook für eine Plattform-Bootstrap-Stufe bei.
 - Das bereitgestellte `ctx` ist der einzige komponentenübergreifende Bus für Capability-, Flow- und Sprachressourcenregistrierungen.
 - Laufzeitimporte bleiben repository-relativ und greifen niemals auf Cognis-Interna oder benachbarte Komponenten zu.
 - Bereichsgebundene Registrierungen lassen sich beim Deaktivieren oder Deinstallieren des Moduls entfernen.

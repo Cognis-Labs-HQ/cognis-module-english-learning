@@ -34,12 +34,17 @@ The pack follows the latest Study Library schema: alphabet records provide pronu
 
 The package now uses schema and content-pack version 10. The lowercase grid resolves stable numeric display IDs, capitalized alternates retain explicit right-side variant placement, and word, particle, and sentence layers opt into required localized display definitions. Common digraph compositions remain separate from definitions, while required metadata defaults and stable identities preserve current host behavior.
 
+## Isolated browser surface
+
+The module now serves only its locale bundle beneath the module static namespace and no longer hooks the global platform-bootstrap flow. Its data ingestion and public language capability remain unchanged, preventing this data-only package from participating in or disrupting host navigation and user-menu composition.
+
 ## Documentation and contracts
 
-The manifest requires `study:library`, follows the current host-owned atomic activation contract, and publishes module version 1.2.27.
+The manifest requires `study:library`, follows the current host-owned atomic activation contract, and publishes module version 1.2.28.
 
 ## Commits
 
+- [Latest presentation-contract implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4ac2cd4)
 - [Explicit-variant implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/33ba470)
 - [Capital-variant alignment](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/5034aab)
 - [Composition-alignment implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a42d840)

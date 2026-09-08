@@ -6,7 +6,7 @@ const LANGUAGE = Object.freeze({
     languageCode: "en",
     languageName: "English",
     languageFlag: "GB",
-    version: "1.2.27",
+    version: "1.2.28",
 });
 
 async function ingestContentPack(library, moduleRoot) {
@@ -30,7 +30,10 @@ export async function uninstallModule(ctx, { deleteContent }) {
 }
 
 export async function bootstrapModule(ctx) {
-    ctx.registerStaticDir("", path.join(ctx.moduleRoot, "ui"));
+    ctx.registerStaticDir(
+        "languages",
+        path.join(ctx.moduleRoot, "ui", "languages"),
+    );
     const library = ctx.getCapability("study:library");
     if (!library || typeof library.ingestContentPack !== "function") {
         ctx.log?.("error", "Study library capability is unavailable.", {
@@ -53,12 +56,6 @@ export async function bootstrapModule(ctx) {
     }
     const language = Object.freeze({ ...LANGUAGE, package: packageDescriptor });
     ctx.contributePublicCapability("study:language:en", language);
-    ctx.flow.extend(
-        "bootstrap-platform",
-        "register-flows",
-        { id: "study-language-en:bootstrap-registration" },
-        () => language,
-    );
     ctx.log?.("info", "English learning module enabled.", {
         component: "study-language-en",
         operation: "bootstrap",
