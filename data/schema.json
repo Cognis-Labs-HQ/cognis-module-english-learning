@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 9,
+    "version": 10,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -131,32 +131,8 @@
             "grid": {
                 "rowSize": 13,
                 "items": [
-                    "en:char:a-lowercase",
-                    "en:char:b-lowercase",
-                    "en:char:c-lowercase",
-                    "en:char:d-lowercase",
-                    "en:char:e-lowercase",
-                    "en:char:f-lowercase",
-                    "en:char:g-lowercase",
-                    "en:char:h-lowercase",
-                    "en:char:i-lowercase",
-                    "en:char:j-lowercase",
-                    "en:char:k-lowercase",
-                    "en:char:l-lowercase",
-                    "en:char:m-lowercase",
-                    "en:char:n-lowercase",
-                    "en:char:o-lowercase",
-                    "en:char:p-lowercase",
-                    "en:char:q-lowercase",
-                    "en:char:r-lowercase",
-                    "en:char:s-lowercase",
-                    "en:char:t-lowercase",
-                    "en:char:u-lowercase",
-                    "en:char:v-lowercase",
-                    "en:char:w-lowercase",
-                    "en:char:x-lowercase",
-                    "en:char:y-lowercase",
-                    "en:char:z-lowercase"
+                    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,
+                    18, 19, 20, 21, 22, 23, 24, 25, 26
                 ]
             }
         },
@@ -390,7 +366,8 @@
                 "fieldOrder": ["part_of_speech"]
             },
             "activityCompatibility": ["study:recognition", "study:production"],
-            "interestVeins": ["language:english"]
+            "interestVeins": ["language:english"],
+            "displayDefinition": true
         },
         {
             "id": "particles",
@@ -454,7 +431,8 @@
                 "fieldOrder": ["function"]
             },
             "activityCompatibility": ["study:recognition", "study:grammar"],
-            "interestVeins": ["language:english"]
+            "interestVeins": ["language:english"],
+            "displayDefinition": true
         },
         {
             "id": "sentences",
@@ -518,7 +496,8 @@
                 }
             ],
             "activityCompatibility": ["study:reading", "study:grammar"],
-            "interestVeins": ["language:english"]
+            "interestVeins": ["language:english"],
+            "displayDefinition": true
         }
     ]
 }

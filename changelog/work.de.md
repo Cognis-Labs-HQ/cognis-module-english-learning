@@ -32,14 +32,15 @@ Das Paket folgt dem neuesten Schema der Study-Bibliothek: Alphabetdatensätze en
 
 ## Aktuelle Host-Kompatibilität
 
-Das Paket verwendet nun Schema- und Inhaltspaketversion 9. Kleinbuchstaben bilden das feste Basisraster, und jede großgeschriebene Alternative deklariert die vom Host verlangte Variantenkennzeichnung, bevor sie einheitlich rechts ausklappt. Häufige Digraphen bleiben zusammengesetzte Schrifteinheiten mit getrennt beschrifteten Beziehungen für Zusammensetzung und Definition; erforderliche Metadatenvorgaben und stabile Identitäten bewahren das aktuelle Hostverhalten.
+Das Paket verwendet nun Schema- und Inhaltspaketversion 10. Das Kleinbuchstabenraster löst stabile numerische Anzeige-IDs auf, Großbuchstabenalternativen behalten ihre ausdrückliche rechte Variantenplatzierung, und Wort-, Partikel- sowie Satzebenen verwenden erforderliche lokalisierte Anzeigedefinitionen. Digraphenzusammensetzungen bleiben von Definitionen getrennt; erforderliche Metadatenvorgaben und stabile Identitäten bewahren das aktuelle Hostverhalten.
 
 ## Dokumentation und Verträge
 
-Das Manifest verlangt `study:library`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.26.
+Das Manifest verlangt `study:library`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.27.
 
 ## Commits
 
+- [Explicit-variant implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/33ba470)
 - [Capital-variant alignment](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/5034aab)
 - [Composition-alignment implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a42d840)
 - [Directional-variant implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4d4bd7e)

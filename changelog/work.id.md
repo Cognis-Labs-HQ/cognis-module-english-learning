@@ -32,11 +32,11 @@ Paket ini mengikuti skema Pustaka Study terbaru: data alfabet menyediakan daftar
 
 ## Kompatibilitas host terbaru
 
-Paket kini memakai skema dan paket konten versi 9. Huruf kecil membentuk kisi dasar tetap dan setiap alternatif huruf kapital mendeklarasikan penanda varian yang diwajibkan host sebelum selalu terbuka di sisi kanan. Digraf umum tetap menjadi unit tulisan majemuk dengan relasi komposisi dan definisi berlabel terpisah; nilai awal metadata wajib dan identitas stabil mempertahankan perilaku host terkini.
+Paket kini memakai skema dan paket konten versi 10. Kisi huruf kecil memakai ID tampilan numerik yang stabil, alternatif huruf kapital mempertahankan penempatan varian eksplisit di sisi kanan, dan lapisan kata, partikel, serta kalimat memakai definisi tampilan terlokalisasi yang wajib. Komposisi digraf tetap terpisah dari definisi; nilai awal metadata wajib dan identitas stabil mempertahankan perilaku host terkini.
 
 ## Dokumentasi dan kontrak
 
-Manifes mewajibkan `study:library`, mengikuti kontrak aktivasi atomik milik host terkini, dan menerbitkan modul versi 1.2.26.
+Manifes mewajibkan `study:library`, mengikuti kontrak aktivasi atomik milik host terkini, dan menerbitkan modul versi 1.2.27.
 
 ## Commit
 

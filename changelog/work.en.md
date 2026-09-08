@@ -32,14 +32,15 @@ The pack follows the latest Study Library schema: alphabet records provide pronu
 
 ## Latest host compatibility
 
-The package now uses schema and content-pack version 9. Lowercase letters form the fixed base grid, and every capitalized alternate declares the host-required variant discriminator before consistently unfolding on the right. Common digraphs remain compound writing units with separately labeled composition and definition relationships; required metadata defaults and stable identities preserve current host behavior.
+The package now uses schema and content-pack version 10. The lowercase grid resolves stable numeric display IDs, capitalized alternates retain explicit right-side variant placement, and word, particle, and sentence layers opt into required localized display definitions. Common digraph compositions remain separate from definitions, while required metadata defaults and stable identities preserve current host behavior.
 
 ## Documentation and contracts
 
-The manifest requires `study:library`, follows the current host-owned atomic activation contract, and publishes module version 1.2.26.
+The manifest requires `study:library`, follows the current host-owned atomic activation contract, and publishes module version 1.2.27.
 
 ## Commits
 
+- [Explicit-variant implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/33ba470)
 - [Capital-variant alignment](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/5034aab)
 - [Composition-alignment implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a42d840)
 - [Directional-variant implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4d4bd7e)
