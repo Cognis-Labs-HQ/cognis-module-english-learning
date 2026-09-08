@@ -7,6 +7,7 @@ Cognis English is the installable English language-learning extension for the Co
 ## Features
 
 - English alphabet, vocabulary, particle, and sentence data rendered by the shared Study library at `/study/library`.
+- Sentence labels are fully represented by contiguous ordered word, particle, and punctuation references.
 - Pronunciation lists and HTTPS audio references without packaged binary media.
 - Compound English digraphs with composition links kept separate from localized definitions.
 - Capitalized alternate letters declared as variants and consistently positioned to the right of lowercase base cards.

@@ -38,10 +38,16 @@ Paket kini memakai skema dan paket konten versi 11. Hanya lapisan karakter alfab
 
 Modul kini hanya menyajikan bundel lokal melalui namespace statis modul dan tidak lagi memasang hook pada alur bootstrap platform global. Ingesti data dan kapabilitas bahasa publik tetap sama sehingga paket khusus data ini tidak ikut membentuk atau mengganggu navigasi host dan menu pengguna.
 
+## Komposisi kalimat lengkap
+
+Label kalimat kini diselesaikan sepenuhnya dari rujukan unit leksikal dan partikel yang berurutan tanpa celah sesuai validasi paket konten Cognis terbaru. Tanda titik terakhir disimpan sebagai partikel tanda baca dengan definisi terlokalisasinya sendiri sehingga kalimat bawaan tidak lagi memuat teks yang tidak tertaut.
+
 ## Dokumentasi dan kontrak
 
-Manifes mewajibkan `study:library`, mengikuti kontrak aktivasi atomik milik host terkini, dan menerbitkan modul versi 1.2.29.
+Manifes mewajibkan `study:library`, mengikuti kontrak aktivasi atomik milik host terkini, dan menerbitkan modul versi 1.2.30.
 
 ## Commit
+
+- [Complete-sequence implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/3b52255)
 
 - [Dasar implementasi](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b844bdd)

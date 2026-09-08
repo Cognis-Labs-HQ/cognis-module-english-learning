@@ -164,7 +164,33 @@ test("content follows the current writing-unit and sentence contracts", async ()
             { relation: "words", position: 1 },
             { relation: "particles", position: 2 },
             { relation: "words", position: 3 },
+            { relation: "particles", position: 4 },
         ],
+    );
+    const sentenceConstituents = new Map(
+        [...words, ...particles].map(({ id, label }) => [id, label]),
+    );
+    const orderedSentenceLabels = sentences[0].references
+        .filter(({ position }) => position !== undefined)
+        .sort((left, right) => left.position - right.position)
+        .map(({ entryId }) => sentenceConstituents.get(entryId));
+    assert.equal(
+        orderedSentenceLabels.join("").replaceAll(/\s/gu, ""),
+        sentences[0].label.replaceAll(/\s/gu, ""),
+    );
+    assert.deepEqual(
+        particles.find(({ id }) => id === "en:particle:period"),
+        {
+            id: "en:particle:period",
+            label: ".",
+            fields: { function: "punctuation" },
+            references: [
+                {
+                    entryId: "en:definition:particle:period",
+                    relation: "definitions",
+                },
+            ],
+        },
     );
 });
 

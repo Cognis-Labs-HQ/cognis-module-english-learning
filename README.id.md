@@ -7,6 +7,7 @@ Cognis Bahasa Inggris adalah ekstensi pembelajaran bahasa Inggris yang dapat dip
 ## Fitur
 
 - Data alfabet, kosakata, partikel, dan kalimat bahasa Inggris yang dirender oleh pustaka Study bersama di `/study/library`.
+- Label kalimat sepenuhnya dibentuk oleh rujukan kata, partikel, dan tanda baca yang berurutan tanpa celah.
 - Daftar pelafalan dan rujukan audio HTTPS tanpa media biner di dalam paket.
 - Digraf majemuk bahasa Inggris dengan tautan komposisi yang terpisah dari definisi terlokalisasi.
 - Alternatif huruf kapital yang dideklarasikan sebagai varian dan selalu ditempatkan di sisi kanan kartu dasar huruf kecil.

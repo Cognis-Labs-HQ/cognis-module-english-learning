@@ -38,11 +38,17 @@ The package now uses schema and content-pack version 11. Only the alphabet chara
 
 The module now serves only its locale bundle beneath the module static namespace and no longer hooks the global platform-bootstrap flow. Its data ingestion and public language capability remain unchanged, preventing this data-only package from participating in or disrupting host navigation and user-menu composition.
 
+## Complete sentence composition
+
+Sentence labels now resolve entirely from contiguous ordered lexical-unit and particle references, matching the latest Cognis content-pack validation. The final period is stored as a punctuation particle with its own localized definition, so the seeded sentence contains no unlinked text.
+
 ## Documentation and contracts
 
-The manifest requires `study:library`, follows the current host-owned atomic activation contract, and publishes module version 1.2.29.
+The manifest requires `study:library`, follows the current host-owned atomic activation contract, and publishes module version 1.2.30.
 
 ## Commits
+
+- [Complete-sequence implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/3b52255)
 
 - [Locale-isolation implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/78c86f0)
 - [Latest presentation-contract implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4ac2cd4)

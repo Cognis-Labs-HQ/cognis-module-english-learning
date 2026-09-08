@@ -38,11 +38,17 @@ Das Paket verwendet nun Schema- und Inhaltspaketversion 11. Nur die Alphabet-Zei
 
 Das Modul stellt im statischen Modulnamensraum nur noch sein Locale-Bündel bereit und hängt sich nicht mehr in den globalen Plattform-Bootstrap-Flow ein. Datenimport und öffentliche Sprach-Capability bleiben unverändert, sodass dieses reine Datenpaket weder an der Hostnavigation und Zusammensetzung des Benutzermenüs teilnimmt noch diese stören kann.
 
+## Vollständige Satzzusammensetzung
+
+Satzbeschriftungen werden nun vollständig aus lückenlosen geordneten Verweisen auf lexikalische Einheiten und Partikeln aufgelöst und entsprechen damit der neuesten Cognis-Inhaltspaketvalidierung. Der abschließende Punkt wird als Satzzeichenpartikel mit eigener lokalisierter Definition gespeichert, sodass der enthaltene Satz keinen unverknüpften Text mehr enthält.
+
 ## Dokumentation und Verträge
 
-Das Manifest verlangt `study:library`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.29.
+Das Manifest verlangt `study:library`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.30.
 
 ## Commits
+
+- [Complete-sequence implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/3b52255)
 
 - [Locale-isolation implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/78c86f0)
 - [Latest presentation-contract implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4ac2cd4)

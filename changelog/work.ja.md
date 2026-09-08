@@ -38,11 +38,17 @@
 
 モジュールの静的名前空間ではロケールバンドルだけを配信し、グローバルなプラットフォームブートストラップフローへのフックを廃止しました。データ取り込みと公開言語ケイパビリティは維持し、データ専用パッケージがホストのナビゲーションやユーザーメニュー構成へ参加したり干渉したりしないようにします。
 
+## 完全な文の構成
+
+最新の Cognis コンテンツパック検証に合わせ、文ラベル全体を位置が連続する語彙単位と助詞の順序付き参照から解決するようにしました。末尾のピリオドは独自の多言語定義を持つ句読点助詞として格納し、同梱文に未参照の文字列が残らないようにしています。
+
 ## ドキュメントと契約
 
-マニフェストは `study:library` を必須とし、現在のホスト所有のアトミック有効化契約に従い、モジュールバージョン 1.2.29 を公開します。
+マニフェストは `study:library` を必須とし、現在のホスト所有のアトミック有効化契約に従い、モジュールバージョン 1.2.30 を公開します。
 
 ## コミット
+
+- [Complete-sequence implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/3b52255)
 
 - [Locale-isolation implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/78c86f0)
 - [Latest presentation-contract implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4ac2cd4)
