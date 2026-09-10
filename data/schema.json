@@ -1,0 +1,533 @@
+{
+    "id": "english",
+    "version": 12,
+    "namespace": "en",
+    "language": "en",
+    "metadata": {
+        "labels": {
+            "de": "Englisch",
+            "en": "English",
+            "id": "Bahasa Inggris",
+            "ja": "英語"
+        },
+        "descriptions": {
+            "de": "Grundlegende englische Schrift-, Wortschatz- und Satzinhalte.",
+            "en": "Core English writing, vocabulary, and sentence content.",
+            "id": "Materi inti tulisan, kosakata, dan kalimat bahasa Inggris.",
+            "ja": "英語の文字・語彙・文の基本コンテンツ。"
+        }
+    },
+    "layers": [
+        {
+            "id": "alphabet",
+            "metadata": {
+                "labels": {
+                    "de": "Alphabet",
+                    "en": "Alphabet",
+                    "id": "Alfabet",
+                    "ja": "アルファベット"
+                }
+            },
+            "semanticRole": "atomicWritingUnit",
+            "fields": [
+                {
+                    "id": "symbol",
+                    "metadata": {
+                        "labels": {
+                            "de": "Zeichen",
+                            "en": "Symbol",
+                            "id": "Simbol",
+                            "ja": "文字"
+                        }
+                    },
+                    "type": "string",
+                    "required": true,
+                    "detail": {
+                        "renderer": "text",
+                        "order": 1
+                    }
+                },
+                {
+                    "id": "pronunciation",
+                    "metadata": {
+                        "labels": {
+                            "de": "Aussprache",
+                            "en": "Pronunciation",
+                            "id": "Pelafalan",
+                            "ja": "発音"
+                        }
+                    },
+                    "type": "stringList",
+                    "required": true,
+                    "detail": {
+                        "renderer": "text",
+                        "order": 2
+                    }
+                },
+                {
+                    "id": "audio",
+                    "metadata": {
+                        "labels": {
+                            "de": "Audio",
+                            "en": "Audio",
+                            "id": "Audio",
+                            "ja": "音声"
+                        }
+                    },
+                    "type": "audio",
+                    "required": true,
+                    "detail": {
+                        "renderer": "media",
+                        "order": 3
+                    }
+                }
+            ],
+            "detail": {
+                "titleField": "symbol",
+                "fieldOrder": ["symbol", "pronunciation", "audio"]
+            },
+            "relationships": [
+                {
+                    "id": "definition",
+                    "targetLayer": "definitions",
+                    "metadata": {
+                        "labels": {
+                            "de": "Definition",
+                            "en": "Definition",
+                            "id": "Definisi",
+                            "ja": "定義"
+                        }
+                    },
+                    "minimum": 1,
+                    "maximum": 1,
+                    "requiredTarget": true,
+                    "onDelete": "restrict",
+                    "resolverRole": "explicit"
+                },
+                {
+                    "id": "variant-of",
+                    "targetLayer": "alphabet",
+                    "metadata": {
+                        "labels": {
+                            "de": "Variante von",
+                            "en": "Variant Of",
+                            "id": "Varian Dari",
+                            "ja": "異体元"
+                        }
+                    },
+                    "maximum": 1,
+                    "onDelete": "detach",
+                    "resolverRole": "explicit",
+                    "variant": true
+                }
+            ],
+            "activityCompatibility": [
+                "study:recognition",
+                "study:listening",
+                "study:writing"
+            ],
+            "interestVeins": ["language:english"],
+            "grid": {
+                "rowSize": 7,
+                "items": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    {
+                        "blank": true
+                    },
+                    {
+                        "blank": true
+                    }
+                ]
+            },
+            "minimal": true
+        },
+        {
+            "id": "composites",
+            "metadata": {
+                "labels": {
+                    "de": "Buchstabenverbindungen",
+                    "en": "Letter Combinations",
+                    "id": "Gabungan Huruf",
+                    "ja": "文字の組み合わせ"
+                },
+                "descriptions": {
+                    "de": "Schreibeinheiten, die aus mehreren Buchstaben zusammengesetzt sind.",
+                    "en": "Writing units composed from multiple letters.",
+                    "id": "Unit tulisan yang tersusun dari beberapa huruf.",
+                    "ja": "複数の文字から構成される書記単位。"
+                }
+            },
+            "semanticRole": "compoundWritingUnit",
+            "fields": [
+                {
+                    "id": "pronunciation",
+                    "metadata": {
+                        "labels": {
+                            "de": "Aussprache",
+                            "en": "Pronunciation",
+                            "id": "Pelafalan",
+                            "ja": "発音"
+                        }
+                    },
+                    "type": "stringList",
+                    "required": true,
+                    "detail": {
+                        "renderer": "text",
+                        "order": 1
+                    }
+                },
+                {
+                    "id": "audio",
+                    "metadata": {
+                        "labels": {
+                            "de": "Audio",
+                            "en": "Audio",
+                            "id": "Audio",
+                            "ja": "音声"
+                        }
+                    },
+                    "type": "audio",
+                    "required": true,
+                    "detail": {
+                        "renderer": "media",
+                        "order": 2
+                    }
+                }
+            ],
+            "detail": {
+                "fieldOrder": ["pronunciation", "audio"]
+            },
+            "relationships": [
+                {
+                    "id": "composition",
+                    "targetLayer": "alphabet",
+                    "metadata": {
+                        "labels": {
+                            "de": "Zusammensetzung",
+                            "en": "Composition",
+                            "id": "Komposisi",
+                            "ja": "構成"
+                        }
+                    },
+                    "minimum": 2,
+                    "ordered": true,
+                    "requiredTarget": true,
+                    "onDelete": "restrict",
+                    "resolverRole": "grapheme"
+                },
+                {
+                    "id": "definitions",
+                    "targetLayer": "definitions",
+                    "metadata": {
+                        "labels": {
+                            "de": "Definitionen",
+                            "en": "Definitions",
+                            "id": "Definisi",
+                            "ja": "定義"
+                        }
+                    },
+                    "minimum": 1,
+                    "requiredTarget": true,
+                    "onDelete": "restrict",
+                    "resolverRole": "explicit"
+                }
+            ],
+            "activityCompatibility": [
+                "study:recognition",
+                "study:listening",
+                "study:writing"
+            ],
+            "interestVeins": ["language:english"]
+        },
+        {
+            "id": "definitions",
+            "metadata": {
+                "labels": {
+                    "de": "Definitionen",
+                    "en": "Definitions",
+                    "id": "Definisi",
+                    "ja": "定義"
+                }
+            },
+            "semanticRole": "definition",
+            "definitionLocalization": {
+                "stringKeyPrefix": "studyenglish:definitions",
+                "stringKeyField": "string_key",
+                "translationsField": "translations"
+            },
+            "fields": [
+                {
+                    "id": "string_key",
+                    "metadata": {
+                        "labels": {
+                            "de": "Zeichenkette",
+                            "en": "String Key",
+                            "id": "Kunci String",
+                            "ja": "文字列キー"
+                        }
+                    },
+                    "type": "string",
+                    "required": true,
+                    "detail": {
+                        "renderer": "text",
+                        "order": 1,
+                        "hidden": true
+                    }
+                },
+                {
+                    "id": "translations",
+                    "metadata": {
+                        "labels": {
+                            "de": "Übersetzungen",
+                            "en": "Translations",
+                            "id": "Terjemahan",
+                            "ja": "翻訳"
+                        }
+                    },
+                    "type": "localizedText",
+                    "required": true,
+                    "detail": {
+                        "renderer": "text",
+                        "order": 2
+                    }
+                }
+            ],
+            "detail": {
+                "titleField": "translations",
+                "fieldOrder": ["translations", "string_key"]
+            },
+            "interestVeins": ["language:english"]
+        },
+        {
+            "id": "words",
+            "metadata": {
+                "labels": {
+                    "de": "Wörter",
+                    "en": "Words",
+                    "id": "Kata",
+                    "ja": "単語"
+                }
+            },
+            "semanticRole": "lexicalUnit",
+            "fields": [
+                {
+                    "id": "part_of_speech",
+                    "metadata": {
+                        "labels": {
+                            "de": "Wortart",
+                            "en": "Part of Speech",
+                            "id": "Kelas Kata",
+                            "ja": "品詞"
+                        }
+                    },
+                    "type": "string",
+                    "required": true,
+                    "detail": {
+                        "renderer": "badge",
+                        "order": 1,
+                        "group": "part-of-speech",
+                        "exclusive": true,
+                        "required": true,
+                        "defaultTag": "verb"
+                    }
+                }
+            ],
+            "relationships": [
+                {
+                    "id": "spelling",
+                    "targetLayer": "alphabet",
+                    "metadata": {
+                        "labels": {
+                            "de": "Schreibweise",
+                            "en": "Spelling",
+                            "id": "Ejaan",
+                            "ja": "綴り"
+                        }
+                    },
+                    "minimum": 1,
+                    "ordered": true,
+                    "requiredTarget": true,
+                    "onDelete": "restrict",
+                    "resolverRole": "grapheme"
+                },
+                {
+                    "id": "definitions",
+                    "targetLayer": "definitions",
+                    "metadata": {
+                        "labels": {
+                            "de": "Definitionen",
+                            "en": "Definitions",
+                            "id": "Definisi",
+                            "ja": "定義"
+                        }
+                    },
+                    "minimum": 1,
+                    "requiredTarget": true,
+                    "onDelete": "restrict",
+                    "resolverRole": "explicit"
+                }
+            ],
+            "detail": {
+                "fieldOrder": ["part_of_speech"]
+            },
+            "activityCompatibility": ["study:recognition", "study:production"],
+            "interestVeins": ["language:english"],
+            "displayDefinition": true
+        },
+        {
+            "id": "particles",
+            "metadata": {
+                "labels": {
+                    "de": "Partikeln",
+                    "en": "Particles",
+                    "id": "Partikel",
+                    "ja": "助詞"
+                },
+                "descriptions": {
+                    "de": "Unveränderliche Funktionswörter in Satzfolgen.",
+                    "en": "Invariant function words used in sentence sequences.",
+                    "id": "Kata tugas tetap dalam urutan kalimat.",
+                    "ja": "文の並びで使われる不変化の機能語。"
+                }
+            },
+            "semanticRole": "particle",
+            "fields": [
+                {
+                    "id": "function",
+                    "metadata": {
+                        "labels": {
+                            "de": "Funktion",
+                            "en": "Function",
+                            "id": "Fungsi",
+                            "ja": "機能"
+                        }
+                    },
+                    "type": "string",
+                    "required": true,
+                    "detail": {
+                        "renderer": "badge",
+                        "order": 1,
+                        "group": "particle-function",
+                        "exclusive": true,
+                        "required": true,
+                        "defaultTag": "negation"
+                    }
+                }
+            ],
+            "relationships": [
+                {
+                    "id": "definitions",
+                    "targetLayer": "definitions",
+                    "metadata": {
+                        "labels": {
+                            "de": "Definitionen",
+                            "en": "Definitions",
+                            "id": "Definisi",
+                            "ja": "定義"
+                        }
+                    },
+                    "minimum": 1,
+                    "requiredTarget": true,
+                    "onDelete": "restrict",
+                    "resolverRole": "explicit"
+                }
+            ],
+            "detail": {
+                "fieldOrder": ["function"]
+            },
+            "activityCompatibility": ["study:recognition", "study:grammar"],
+            "interestVeins": ["language:english"],
+            "displayDefinition": true
+        },
+        {
+            "id": "sentences",
+            "metadata": {
+                "labels": {
+                    "de": "Sätze",
+                    "en": "Sentences",
+                    "id": "Kalimat",
+                    "ja": "文"
+                }
+            },
+            "semanticRole": "orderedLexicalSequence",
+            "relationships": [
+                {
+                    "id": "words",
+                    "targetLayer": "words",
+                    "metadata": {
+                        "labels": {
+                            "de": "Wörter",
+                            "en": "Words",
+                            "id": "Kata",
+                            "ja": "単語"
+                        }
+                    },
+                    "minimum": 1,
+                    "ordered": true,
+                    "requiredTarget": true,
+                    "onDelete": "restrict",
+                    "resolverRole": "longestMatch"
+                },
+                {
+                    "id": "particles",
+                    "targetLayer": "particles",
+                    "metadata": {
+                        "labels": {
+                            "de": "Partikeln",
+                            "en": "Particles",
+                            "id": "Partikel",
+                            "ja": "助詞"
+                        }
+                    },
+                    "ordered": true,
+                    "onDelete": "restrict",
+                    "resolverRole": "explicit"
+                },
+                {
+                    "id": "definitions",
+                    "targetLayer": "definitions",
+                    "metadata": {
+                        "labels": {
+                            "de": "Definitionen",
+                            "en": "Definitions",
+                            "id": "Definisi",
+                            "ja": "定義"
+                        }
+                    },
+                    "minimum": 1,
+                    "requiredTarget": true,
+                    "onDelete": "restrict",
+                    "resolverRole": "explicit"
+                }
+            ],
+            "activityCompatibility": ["study:reading", "study:grammar"],
+            "interestVeins": ["language:english"],
+            "displayDefinition": true
+        }
+    ]
+}
