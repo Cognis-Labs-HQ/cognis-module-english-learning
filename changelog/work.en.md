@@ -32,7 +32,7 @@ The pack follows the latest Study Library schema: alphabet records provide pronu
 
 ## Latest host compatibility
 
-The package now uses schema and content-pack version 11. Only the alphabet character layer sets `minimal: true`; composites, definitions, words, particles, and sentences deliberately retain standard cards. The lowercase grid resolves stable numeric display IDs, capitalized alternates retain explicit right-side variant placement, and word, particle, and sentence layers opt into required localized display definitions. Common digraph compositions remain separate from definitions, while required metadata defaults and stable identities preserve current host behavior.
+The package now uses schema and content-pack version 12. Only the alphabet character layer sets `minimal: true`; composites, definitions, words, particles, and sentences deliberately retain standard cards. The lowercase grid resolves stable numeric display IDs, capitalized alternates retain explicit right-side variant placement, and word, particle, and sentence layers opt into required localized display definitions. Common digraph compositions remain separate from definitions, while required metadata defaults and stable identities preserve current host behavior.
 
 ## Isolated browser surface
 
@@ -42,11 +42,17 @@ The module now serves only its locale bundle beneath the module static namespace
 
 Sentence labels now resolve entirely from contiguous ordered lexical-unit and particle references, matching the latest Cognis content-pack validation. The final period is stored as a punctuation particle with its own localized definition, so the seeded sentence contains no unlinked text.
 
+## Readable alphabet and expanded sounds
+
+The alphabet now renders as a balanced seven-column, four-row chart with explicit trailing blanks. Each capital and lowercase record includes its letter name plus common IPA phonemes, and the content adds `ph`, `wh`, `ng`, and `ck` to the existing digraph set. Variant relationships now rely on the host’s current bounded dynamic placement contract instead of the removed direction hint, avoiding stale presentation data that could contribute to the reported Library runtime failure.
+
 ## Documentation and contracts
 
-The manifest requires `study:library`, follows the current host-owned atomic activation contract, and publishes module version 1.2.30.
+The manifest requires `study:library`, follows the current host-owned atomic activation contract, and publishes module version 1.2.31.
 
 ## Commits
+
+- [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/cb62fd2)
 
 - [Complete-sequence implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/3b52255)
 

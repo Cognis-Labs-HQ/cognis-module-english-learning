@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 11,
+    "version": 12,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -118,8 +118,7 @@
                     "maximum": 1,
                     "onDelete": "detach",
                     "resolverRole": "explicit",
-                    "variant": true,
-                    "variantDirection": "right"
+                    "variant": true
                 }
             ],
             "activityCompatibility": [
@@ -129,10 +128,40 @@
             ],
             "interestVeins": ["language:english"],
             "grid": {
-                "rowSize": 13,
+                "rowSize": 7,
                 "items": [
-                    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,
-                    18, 19, 20, 21, 22, 23, 24, 25, 26
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    {
+                        "blank": true
+                    },
+                    {
+                        "blank": true
+                    }
                 ]
             },
             "minimal": true

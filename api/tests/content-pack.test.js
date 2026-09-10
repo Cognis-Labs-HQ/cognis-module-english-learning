@@ -14,7 +14,7 @@ test("content pack declares valid records for the English schema", async () => {
     assert.equal(manifest.schema, "schema.json");
     assert.equal(schema.id, "english");
     assert.equal(schema.namespace, manifest.namespace);
-    assert.equal(schema.version, 11);
+    assert.equal(schema.version, 12);
     assert.equal(schema.language, "en");
     assert.equal(schema.metadata.labels.ja, "英語");
     assert.equal(alphabet.length, 52);
@@ -23,7 +23,7 @@ test("content pack declares valid records for the English schema", async () => {
         label: "A",
         fields: {
             symbol: "A",
-            pronunciation: ["ay"],
+            pronunciation: ["ay", "/æ/", "/eɪ/", "/ɑː/"],
             audio: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=A&tl=en",
         },
         references: [
@@ -76,10 +76,25 @@ test("content follows the current writing-unit and sentence contracts", async ()
         alphabet.every(
             (letter) =>
                 Array.isArray(letter.fields.pronunciation) &&
-                letter.fields.pronunciation.length > 0 &&
+                letter.fields.pronunciation.length > 1 &&
+                letter.fields.pronunciation.some(
+                    (pronunciation) =>
+                        pronunciation.startsWith("/") &&
+                        pronunciation.endsWith("/"),
+                ) &&
                 letter.fields.audio.startsWith("https://"),
         ),
     );
+    for (const capital of alphabet.slice(0, 26)) {
+        const lowercase = alphabet.find(
+            ({ id }) => id === `${capital.id}-lowercase`,
+        );
+        assert.deepEqual(
+            capital.fields.pronunciation,
+            lowercase?.fields.pronunciation,
+            capital.id,
+        );
+    }
     const lowercaseA = alphabet.find(({ id }) => id === "en:char:a-lowercase");
     assert.equal(lowercaseA?.label, "a");
     assert.equal(lowercaseA?.displayId, 1);
@@ -99,10 +114,14 @@ test("content follows the current writing-unit and sentence contracts", async ()
         ({ id }) => id === "variant-of",
     );
     assert.equal(variantRelationship?.variant, true);
-    assert.equal(variantRelationship?.variantDirection, "right");
+    assert.equal(Object.hasOwn(variantRelationship, "variantDirection"), false);
     assert.deepEqual(alphabetLayer.grid, {
-        rowSize: 13,
-        items: Array.from({ length: 26 }, (_, index) => index + 1),
+        rowSize: 7,
+        items: [
+            ...Array.from({ length: 26 }, (_, index) => index + 1),
+            { blank: true },
+            { blank: true },
+        ],
     });
     const compositeLayer = schema.layers.find(
         (layer) => layer.semanticRole === "compoundWritingUnit",
@@ -119,7 +138,19 @@ test("content follows the current writing-unit and sentence contracts", async ()
             layerId,
         );
     }
-    assert.equal(composites.length, 3);
+    assert.equal(composites.length, 7);
+    assert.deepEqual(
+        composites.map(({ id }) => id),
+        [
+            "en:composite:ch",
+            "en:composite:sh",
+            "en:composite:th",
+            "en:composite:ph",
+            "en:composite:wh",
+            "en:composite:ng",
+            "en:composite:ck",
+        ],
+    );
     assert.deepEqual(
         composites[0].references.map(({ relation }) => relation),
         ["composition", "composition", "definitions"],

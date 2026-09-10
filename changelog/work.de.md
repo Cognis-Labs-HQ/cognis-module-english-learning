@@ -32,7 +32,7 @@ Das Paket folgt dem neuesten Schema der Study-Bibliothek: Alphabetdatensätze en
 
 ## Aktuelle Host-Kompatibilität
 
-Das Paket verwendet nun Schema- und Inhaltspaketversion 11. Nur die Alphabet-Zeichenebene setzt `minimal: true`; Zusammensetzungen, Definitionen, Wörter, Partikeln und Sätze behalten bewusst Standardkarten. Das Kleinbuchstabenraster löst stabile numerische Anzeige-IDs auf, Großbuchstabenalternativen behalten ihre ausdrückliche rechte Variantenplatzierung, und Wort-, Partikel- sowie Satzebenen verwenden erforderliche lokalisierte Anzeigedefinitionen. Digraphenzusammensetzungen bleiben von Definitionen getrennt; erforderliche Metadatenvorgaben und stabile Identitäten bewahren das aktuelle Hostverhalten.
+Das Paket verwendet nun Schema- und Inhaltspaketversion 12. Nur die Alphabet-Zeichenebene setzt `minimal: true`; Zusammensetzungen, Definitionen, Wörter, Partikeln und Sätze behalten bewusst Standardkarten. Das Kleinbuchstabenraster löst stabile numerische Anzeige-IDs auf, Großbuchstabenalternativen behalten ihre ausdrückliche rechte Variantenplatzierung, und Wort-, Partikel- sowie Satzebenen verwenden erforderliche lokalisierte Anzeigedefinitionen. Digraphenzusammensetzungen bleiben von Definitionen getrennt; erforderliche Metadatenvorgaben und stabile Identitäten bewahren das aktuelle Hostverhalten.
 
 ## Isolierte Browseroberfläche
 
@@ -42,11 +42,17 @@ Das Modul stellt im statischen Modulnamensraum nur noch sein Locale-Bündel bere
 
 Satzbeschriftungen werden nun vollständig aus lückenlosen geordneten Verweisen auf lexikalische Einheiten und Partikeln aufgelöst und entsprechen damit der neuesten Cognis-Inhaltspaketvalidierung. Der abschließende Punkt wird als Satzzeichenpartikel mit eigener lokalisierter Definition gespeichert, sodass der enthaltene Satz keinen unverknüpften Text mehr enthält.
 
+## Lesbares Alphabet und erweiterte Laute
+
+Das Alphabet wird nun als ausgeglichene Tafel mit sieben Spalten und vier Zeilen samt ausdrücklichen Leerfeldern am Ende dargestellt. Jeder Groß- und Kleinbuchstabendatensatz enthält den Buchstabennamen und häufige IPA-Phoneme; `ph`, `wh`, `ng` und `ck` ergänzen die vorhandenen Digraphen. Variantenbeziehungen verwenden nun den aktuellen Vertrag des Hosts für dynamische Platzierung innerhalb der Grenzen anstelle des entfernten Richtungshinweises, damit keine veralteten Darstellungsdaten zum gemeldeten Laufzeitfehler der Bibliothek beitragen.
+
 ## Dokumentation und Verträge
 
-Das Manifest verlangt `study:library`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.30.
+Das Manifest verlangt `study:library`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.31.
 
 ## Commits
+
+- [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/cb62fd2)
 
 - [Complete-sequence implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/3b52255)
 

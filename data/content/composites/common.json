@@ -70,5 +70,101 @@
                 "relation": "definitions"
             }
         ]
+    },
+    {
+        "id": "en:composite:ph",
+        "label": "ph",
+        "fields": {
+            "pronunciation": ["/f/"],
+            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=ph&tl=en"
+        },
+        "references": [
+            {
+                "entryId": "en:char:p-lowercase",
+                "relation": "composition",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "composition",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:composite:ph",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:composite:wh",
+        "label": "wh",
+        "fields": {
+            "pronunciation": ["/w/", "/h/"],
+            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=wh&tl=en"
+        },
+        "references": [
+            {
+                "entryId": "en:char:w-lowercase",
+                "relation": "composition",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "composition",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:composite:wh",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:composite:ng",
+        "label": "ng",
+        "fields": {
+            "pronunciation": ["/ŋ/"],
+            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=ng&tl=en"
+        },
+        "references": [
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "composition",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "composition",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:composite:ng",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:composite:ck",
+        "label": "ck",
+        "fields": {
+            "pronunciation": ["/k/"],
+            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=ck&tl=en"
+        },
+        "references": [
+            {
+                "entryId": "en:char:c-lowercase",
+                "relation": "composition",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:k-lowercase",
+                "relation": "composition",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:composite:ck",
+                "relation": "definitions"
+            }
+        ]
     }
 ]
