@@ -40,7 +40,7 @@ test("registers the data-only English package through ctx", async () => {
         "study-language-en",
     );
     assert.equal(registrations.capabilities[0][1].package.namespace, "en");
-    assert.equal(registrations.capabilities[0][1].package.version, "12.0.0");
+    assert.equal(registrations.capabilities[0][1].package.version, "13.0.0");
     assert.equal(
         Object.isFrozen(registrations.capabilities[0][1].package),
         true,

@@ -32,7 +32,7 @@ Das Paket folgt dem neuesten Schema der Study-Bibliothek: Alphabetdatensätze en
 
 ## Aktuelle Host-Kompatibilität
 
-Das Paket verwendet nun Schema- und Inhaltspaketversion 12. Nur die Alphabet-Zeichenebene setzt `minimal: true`; Zusammensetzungen, Definitionen, Wörter, Partikeln und Sätze behalten bewusst Standardkarten. Das Kleinbuchstabenraster löst stabile numerische Anzeige-IDs auf, Großbuchstabenalternativen behalten ihre ausdrückliche rechte Variantenplatzierung, und Wort-, Partikel- sowie Satzebenen verwenden erforderliche lokalisierte Anzeigedefinitionen. Digraphenzusammensetzungen bleiben von Definitionen getrennt; erforderliche Metadatenvorgaben und stabile Identitäten bewahren das aktuelle Hostverhalten.
+Das Paket verwendet nun Schema- und Inhaltspaketversion 13. Nur die Alphabet-Zeichenebene setzt `minimal: true`; Zusammensetzungen, Definitionen, Wörter, Partikeln und Sätze behalten bewusst Standardkarten. Das Kleinbuchstabenraster löst stabile numerische Anzeige-IDs auf, Großbuchstabenalternativen deklarieren ausdrücklich sowohl Variantenidentität als auch räumliche Elternschaft, und Wort-, Partikel- sowie Satzebenen verwenden erforderliche lokalisierte Anzeigedefinitionen. Digraphenzusammensetzungen bleiben von Definitionen getrennt; erforderliche Metadatenvorgaben und stabile Identitäten bewahren das aktuelle Hostverhalten.
 
 ## Isolierte Browseroberfläche
 
@@ -46,11 +46,17 @@ Satzbeschriftungen werden nun vollständig aus lückenlosen geordneten Verweisen
 
 Das Alphabet wird nun als ausgeglichene Tafel mit sieben Spalten und vier Zeilen samt ausdrücklichen Leerfeldern am Ende dargestellt. Jeder Groß- und Kleinbuchstabendatensatz enthält den Buchstabennamen und häufige IPA-Phoneme; `ph`, `wh`, `ng` und `ck` ergänzen die vorhandenen Digraphen. Variantenbeziehungen verwenden nun den aktuellen Vertrag des Hosts für dynamische Platzierung innerhalb der Grenzen anstelle des entfernten Richtungshinweises, damit keine veralteten Darstellungsdaten zum gemeldeten Laufzeitfehler der Bibliothek beitragen.
 
+## Ausdrückliche räumliche Kindbeziehungen
+
+Schemaversion 13 trennt entsprechend dem neuesten Hostvertrag die Identität als Alternativform von der visuellen Hierarchie. Die Beziehung vom Groß- zum Kleinbuchstaben deklariert nun sowohl `variant: true` als auch `child: true`: Ersteres klassifiziert den Großbuchstabendatensatz als alternative Schreibweise, Letzteres erlaubt allein das Aufklappen der Karte um ihr tatsächliches Kleinbuchstaben-Elternelement.
+
 ## Dokumentation und Verträge
 
-Das Manifest verlangt `study:library`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.31.
+Das Manifest verlangt `study:library`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.32.
 
 ## Commits
+
+- [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/6819fb5)
 
 - [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/cb62fd2)
 

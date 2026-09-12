@@ -10,7 +10,7 @@ Cognis Englisch ist die installierbare Erweiterung zum Englischlernen für das C
 - Satzbeschriftungen werden vollständig durch lückenlose geordnete Wort-, Partikel- und Satzzeichenverweise dargestellt.
 - Buchstabennamen und häufige Phonemaussprachen mit HTTPS-Audioverweisen ohne mitgelieferte binäre Medien.
 - Sieben häufige englische Digraphen, deren Zusammensetzungsverweise von lokalisierten Definitionen getrennt bleiben.
-- Als Varianten deklarierte Großbuchstaben, die der Host dynamisch und innerhalb der Grenzen um Kleinbuchstaben-Basiskarten platziert.
+- Großbuchstaben, die unabhängig als Alternativformen und räumliche Kinder der Kleinbuchstaben-Basiskarten gekennzeichnet sind.
 - Eine gut lesbare Alphabettafel mit sieben Spalten und vier vollständigen Zeilen, numerischen Anzeigepositionen und lokalisierten, definitionsbasierten Beschriftungen.
 - Kompakte Minimalkarten ausschließlich für die Alphabet-Zeichenebene.
 - Ein deklaratives englisches Inhaltspaket, das über die vom Host bereitgestellte Capability `study:library` eingelesen wird.

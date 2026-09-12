@@ -10,7 +10,7 @@ Cognis English is the installable English language-learning extension for the Co
 - Sentence labels are fully represented by contiguous ordered word, particle, and punctuation references.
 - Letter-name and common phoneme pronunciations with HTTPS audio references and no packaged binary media.
 - Seven common English digraphs with composition links kept separate from localized definitions.
-- Capitalized alternate letters declared as variants for the host’s bounded dynamic placement around lowercase base cards.
+- Capitalized letters marked independently as alternate forms and spatial children of lowercase base cards.
 - A readable seven-column alphabet chart with four complete rows, numeric display positions, and localized definition-first labels.
 - Compact minimal cards limited to the alphabet character layer.
 - A declarative English content pack ingested through the host-provided `study:library` capability.

@@ -10,7 +10,7 @@ Cognis Bahasa Inggris adalah ekstensi pembelajaran bahasa Inggris yang dapat dip
 - Label kalimat sepenuhnya dibentuk oleh rujukan kata, partikel, dan tanda baca yang berurutan tanpa celah.
 - Nama huruf dan pelafalan fonem umum dengan rujukan audio HTTPS tanpa media biner di dalam paket.
 - Tujuh digraf umum bahasa Inggris dengan tautan komposisi yang terpisah dari definisi terlokalisasi.
-- Alternatif huruf kapital yang dideklarasikan sebagai varian untuk penempatan dinamis berbatas oleh host di sekitar kartu dasar huruf kecil.
+- Huruf kapital yang secara terpisah ditandai sebagai bentuk alternatif dan anak spasial dari kartu dasar huruf kecil.
 - Bagan alfabet tujuh kolom dengan empat baris lengkap yang mudah dibaca, posisi tampilan numerik, dan label berbasis definisi terlokalisasi.
 - Kartu minimal ringkas yang dibatasi hanya untuk lapisan karakter alfabet.
 - Paket konten bahasa Inggris deklaratif yang diserap melalui kapabilitas `study:library` dari host.

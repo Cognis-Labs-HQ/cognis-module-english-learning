@@ -32,7 +32,7 @@ Paket ini mengikuti skema Pustaka Study terbaru: data alfabet menyediakan daftar
 
 ## Kompatibilitas host terbaru
 
-Paket kini memakai skema dan paket konten versi 12. Hanya lapisan karakter alfabet yang menetapkan `minimal: true`; komposit, definisi, kata, partikel, dan kalimat sengaja mempertahankan kartu standar. Kisi huruf kecil memakai ID tampilan numerik yang stabil, alternatif huruf kapital mempertahankan penempatan varian eksplisit di sisi kanan, dan lapisan kata, partikel, serta kalimat memakai definisi tampilan terlokalisasi yang wajib. Komposisi digraf tetap terpisah dari definisi; nilai awal metadata wajib dan identitas stabil mempertahankan perilaku host terkini.
+Paket kini memakai skema dan paket konten versi 13. Hanya lapisan karakter alfabet yang menetapkan `minimal: true`; komposit, definisi, kata, partikel, dan kalimat sengaja mempertahankan kartu standar. Kisi huruf kecil memakai ID tampilan numerik yang stabil, alternatif huruf kapital secara eksplisit mendeklarasikan identitas varian dan induk spasial, dan lapisan kata, partikel, serta kalimat memakai definisi tampilan terlokalisasi yang wajib. Komposisi digraf tetap terpisah dari definisi; nilai awal metadata wajib dan identitas stabil mempertahankan perilaku host terkini.
 
 ## Permukaan peramban terisolasi
 
@@ -46,11 +46,17 @@ Label kalimat kini diselesaikan sepenuhnya dari rujukan unit leksikal dan partik
 
 Alfabet kini dirender sebagai bagan seimbang tujuh kolom dan empat baris dengan ruang kosong eksplisit di akhir. Setiap rekaman huruf kapital dan kecil memuat nama huruf serta fonem IPA umum, dan konten menambahkan `ph`, `wh`, `ng`, serta `ck` ke kumpulan digraf yang ada. Relasi varian kini mengikuti kontrak penempatan dinamis berbatas terbaru milik host, bukan petunjuk arah yang telah dihapus, sehingga data presentasi usang tidak ikut menyebabkan kegagalan runtime Pustaka yang dilaporkan.
 
+## Relasi anak spasial eksplisit
+
+Skema versi 13 memisahkan identitas bentuk alternatif dari hierarki visual sesuai kontrak host terbaru. Relasi huruf kapital ke huruf kecil kini mendeklarasikan `variant: true` dan `child: true`: yang pertama mengklasifikasikan rekaman huruf kapital sebagai ejaan alternatif, sedangkan hanya yang kedua mengizinkan kartu terbuka di sekitar induk huruf kecil yang sebenarnya.
+
 ## Dokumentasi dan kontrak
 
-Manifes mewajibkan `study:library`, mengikuti kontrak aktivasi atomik milik host terkini, dan menerbitkan modul versi 1.2.31.
+Manifes mewajibkan `study:library`, mengikuti kontrak aktivasi atomik milik host terkini, dan menerbitkan modul versi 1.2.32.
 
 ## Commit
+
+- [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/6819fb5)
 
 - [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/cb62fd2)
 

@@ -32,7 +32,7 @@ The pack follows the latest Study Library schema: alphabet records provide pronu
 
 ## Latest host compatibility
 
-The package now uses schema and content-pack version 12. Only the alphabet character layer sets `minimal: true`; composites, definitions, words, particles, and sentences deliberately retain standard cards. The lowercase grid resolves stable numeric display IDs, capitalized alternates retain explicit right-side variant placement, and word, particle, and sentence layers opt into required localized display definitions. Common digraph compositions remain separate from definitions, while required metadata defaults and stable identities preserve current host behavior.
+The package now uses schema and content-pack version 13. Only the alphabet character layer sets `minimal: true`; composites, definitions, words, particles, and sentences deliberately retain standard cards. The lowercase grid resolves stable numeric display IDs, capitalized alternates explicitly declare both variant identity and spatial parentage, and word, particle, and sentence layers opt into required localized display definitions. Common digraph compositions remain separate from definitions, while required metadata defaults and stable identities preserve current host behavior.
 
 ## Isolated browser surface
 
@@ -46,11 +46,17 @@ Sentence labels now resolve entirely from contiguous ordered lexical-unit and pa
 
 The alphabet now renders as a balanced seven-column, four-row chart with explicit trailing blanks. Each capital and lowercase record includes its letter name plus common IPA phonemes, and the content adds `ph`, `wh`, `ng`, and `ck` to the existing digraph set. Variant relationships now rely on the host’s current bounded dynamic placement contract instead of the removed direction hint, avoiding stale presentation data that could contribute to the reported Library runtime failure.
 
+## Explicit spatial child relationships
+
+Schema version 13 separates alternate-form identity from visual hierarchy as required by the latest host contract. The capital-to-lowercase relationship now declares both `variant: true` and `child: true`: the first classifies the uppercase record as an alternate spelling, while the second alone authorizes the card to unfold around its actual lowercase parent.
+
 ## Documentation and contracts
 
-The manifest requires `study:library`, follows the current host-owned atomic activation contract, and publishes module version 1.2.31.
+The manifest requires `study:library`, follows the current host-owned atomic activation contract, and publishes module version 1.2.32.
 
 ## Commits
+
+- [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/6819fb5)
 
 - [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/cb62fd2)
 

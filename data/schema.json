@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 12,
+    "version": 13,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -118,7 +118,8 @@
                     "maximum": 1,
                     "onDelete": "detach",
                     "resolverRole": "explicit",
-                    "variant": true
+                    "variant": true,
+                    "child": true
                 }
             ],
             "activityCompatibility": [
