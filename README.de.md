@@ -26,7 +26,7 @@ Füge dieses Git-Repository im Cognis-Modul-Marketplace als Modulquelle hinzu, p
 
 ## Architektur
 
-`bootstrap.js` ist der einzige Integrationspunkt zum Host. Die Datei liest das deklarative Inhaltspaket über `ctx` ein, stellt die englische Sprachbeschreibung als öffentliche Capability bereit und veröffentlicht ausschließlich das Locale-Verzeichnis im statischen Modulnamensraum. Host-UI- oder Bootstrap-Flows werden nicht erweitert. Der Laufzeitcode verwendet repository-relative Importe und importiert keine Cognis-Interna.
+`bootstrap.js` ist der einzige Integrationspunkt zum Host. Die Datei liest das deklarative Inhaltspaket über `ctx` ein, stellt die englische Sprachbeschreibung als öffentliche Capability bereit und veröffentlicht ausschließlich das Locale-Verzeichnis im statischen Modulnamensraum. Das Manifest fordert ausdrücklich nur deshalb Privilegien an, weil PR #220 Beiträge zum hosteigenen Namensraum `study:language:en` schützt; das Modul registriert keine Hostrouten und erweitert keine sicherheitssensiblen Flows. Der Laufzeitcode verwendet repository-relative Importe und importiert keine Cognis-Interna.
 
 Der kanonische Sprachdeskriptor liefert `languageCode: "en"` für die Schaltfläche der Study-Unternavigation; Cognis übergibt diese Auswahl im Routerzustand statt über URL-Abfrageparameter.
 

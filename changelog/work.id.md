@@ -50,11 +50,17 @@ Alfabet kini dirender sebagai bagan seimbang tujuh kolom dan empat baris dengan 
 
 Skema versi 13 memisahkan identitas bentuk alternatif dari hierarki visual sesuai kontrak host terbaru. Relasi huruf kapital ke huruf kecil kini mendeklarasikan `variant: true` dan `child: true`: yang pertama mengklasifikasikan rekaman huruf kapital sebagai ejaan alternatif, sedangkan hanya yang kedua mengizinkan kartu terbuka di sekitar induk huruf kecil yang sebenarnya.
 
+## Privilege namespace host eksplisit
+
+Cognis PR #220 membatasi modul tanpa privilege agar hanya mendaftar di bawah ID modulnya sendiri. Karena modul bahasa ini harus menerbitkan kapabilitas yang ditentukan host `study:language:en`, manifesnya kini secara eksplisit menetapkan `privileged: true`. Permintaan ini didokumentasikan secara terbatas: perilaku runtime tetap hanya mencakup ingesti paket konten, deskriptor bahasa, dan pemaparan lokal milik modul, tanpa rute host atau hook alur yang sensitif terhadap keamanan.
+
 ## Dokumentasi dan kontrak
 
-Manifes mewajibkan `study:library`, mengikuti kontrak aktivasi atomik milik host terkini, dan menerbitkan modul versi 1.2.32.
+Manifes mewajibkan `study:library`, mengikuti kontrak aktivasi atomik milik host terkini, dan menerbitkan modul versi 1.2.33.
 
 ## Commit
+
+- [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a5e4adb)
 
 - [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/6819fb5)
 

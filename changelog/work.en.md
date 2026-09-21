@@ -50,11 +50,17 @@ The alphabet now renders as a balanced seven-column, four-row chart with explici
 
 Schema version 13 separates alternate-form identity from visual hierarchy as required by the latest host contract. The capital-to-lowercase relationship now declares both `variant: true` and `child: true`: the first classifies the uppercase record as an alternate spelling, while the second alone authorizes the card to unfold around its actual lowercase parent.
 
+## Explicit host-namespace privilege
+
+Cognis PR #220 restricts unprivileged modules to registrations under their own module ID. Because this language module must publish the host-defined `study:language:en` capability, its manifest now explicitly sets `privileged: true`. The request is narrowly documented: runtime behavior remains limited to content-pack ingestion, the language descriptor, and module-owned locale exposure, with no host routes or security-sensitive flow hooks.
+
 ## Documentation and contracts
 
-The manifest requires `study:library`, follows the current host-owned atomic activation contract, and publishes module version 1.2.32.
+The manifest requires `study:library`, follows the current host-owned atomic activation contract, and publishes module version 1.2.33.
 
 ## Commits
+
+- [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a5e4adb)
 
 - [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/6819fb5)
 

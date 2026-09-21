@@ -50,11 +50,17 @@
 
 スキーマバージョン 13 では、最新のホスト契約に従って代替形の識別と視覚階層を分離します。大文字から小文字への関係は `variant: true` と `child: true` の両方を宣言し、前者が大文字レコードを代替綴りとして分類し、後者だけが実際の小文字の親の周囲へカードを展開することを許可します。
 
+## ホスト名前空間向けの明示的な特権
+
+Cognis PR #220 は、非特権モジュールの登録を自身のモジュール ID 配下に制限します。この言語モジュールはホスト定義の `study:language:en` ケイパビリティを公開する必要があるため、マニフェストで `privileged: true` を明示するようにしました。要求範囲は明確に限定しており、実行時動作はコンテンツパックの取り込み、言語記述子、モジュール所有ロケールの公開だけです。ホストルートやセキュリティ上重要なフローフックは使用しません。
+
 ## ドキュメントと契約
 
-マニフェストは `study:library` を必須とし、現在のホスト所有のアトミック有効化契約に従い、モジュールバージョン 1.2.32 を公開します。
+マニフェストは `study:library` を必須とし、現在のホスト所有のアトミック有効化契約に従い、モジュールバージョン 1.2.33 を公開します。
 
 ## コミット
+
+- [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a5e4adb)
 
 - [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/6819fb5)
 

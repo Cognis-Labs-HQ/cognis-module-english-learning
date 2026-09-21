@@ -6,7 +6,7 @@ const LANGUAGE = Object.freeze({
     languageCode: "en",
     languageName: "English",
     languageFlag: "GB",
-    version: "1.2.32",
+    version: "1.2.33",
 });
 
 async function ingestContentPack(library, moduleRoot) {

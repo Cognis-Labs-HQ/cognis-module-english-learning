@@ -79,6 +79,11 @@ test("external module metadata and declared files are consistent", () => {
     const routes = JSON.parse(readFileSync(resolve(ROOT, "routes.json")));
     assert.equal(manifest.version, packageJson.version);
     assert.equal(manifest.version, packageLock.version);
+    assert.equal(
+        manifest.privileged,
+        true,
+        "the host-owned study:language:en capability requires explicit privilege",
+    );
     assert.ok(Array.isArray(routes));
     for (const entrypoint of Object.values(manifest.entrypoints)) {
         assert.ok(statSync(resolve(ROOT, entrypoint)).isFile());

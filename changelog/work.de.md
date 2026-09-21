@@ -50,11 +50,17 @@ Das Alphabet wird nun als ausgeglichene Tafel mit sieben Spalten und vier Zeilen
 
 Schemaversion 13 trennt entsprechend dem neuesten Hostvertrag die Identität als Alternativform von der visuellen Hierarchie. Die Beziehung vom Groß- zum Kleinbuchstaben deklariert nun sowohl `variant: true` als auch `child: true`: Ersteres klassifiziert den Großbuchstabendatensatz als alternative Schreibweise, Letzteres erlaubt allein das Aufklappen der Karte um ihr tatsächliches Kleinbuchstaben-Elternelement.
 
+## Ausdrückliches Privileg für den Hostnamensraum
+
+Cognis PR #220 beschränkt nicht privilegierte Module auf Registrierungen unter ihrer eigenen Modul-ID. Da dieses Sprachmodul die vom Host definierte Capability `study:language:en` veröffentlichen muss, setzt sein Manifest nun ausdrücklich `privileged: true`. Die Anforderung ist eng begrenzt dokumentiert: Das Laufzeitverhalten bleibt auf den Inhaltspaketimport, die Sprachbeschreibung und moduleigene Locale-Ressourcen beschränkt; Hostrouten oder sicherheitssensible Flow-Hooks werden nicht verwendet.
+
 ## Dokumentation und Verträge
 
-Das Manifest verlangt `study:library`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.32.
+Das Manifest verlangt `study:library`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.33.
 
 ## Commits
+
+- [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a5e4adb)
 
 - [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/6819fb5)
 

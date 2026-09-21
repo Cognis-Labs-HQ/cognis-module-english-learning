@@ -32,6 +32,8 @@ Content ingestion and the `study:language:en` capability are the module’s comp
 
 ### Security
 
+- The manifest explicitly requests privileged registration because the public `study:language:en` capability belongs to the host namespace protected by PR #220; the module does not use that privilege for host routes or security-sensitive flows.
+
 - The host Library validates the package namespace, semantic version, license, safe paths, localized schema, typed fields, and complete record graph before an atomic write.
 - Ingestion failures are sent to the host logger with safe structured metadata.
 

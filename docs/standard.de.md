@@ -32,6 +32,8 @@ Das Einlesen der Inhalte und die Capability `study:language:en` bilden das gesam
 
 ### Sicherheit
 
+- Das Manifest fordert ausdrücklich eine privilegierte Registrierung an, weil die öffentliche Capability `study:language:en` zum durch PR #220 geschützten Hostnamensraum gehört; das Modul verwendet dieses Privileg weder für Hostrouten noch für sicherheitssensible Flows.
+
 - Die Host-Bibliothek prüft Paketnamensraum, semantische Version, Lizenz, sichere Pfade, lokalisiertes Schema, typisierte Felder und den vollständigen Datensatzgraphen vor einem atomaren Schreibvorgang.
 - Fehler beim Einlesen werden mit sicheren strukturierten Metadaten an den Host-Logger übergeben.
 

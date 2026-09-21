@@ -26,7 +26,7 @@ Tambahkan repositori Git ini sebagai sumber modul di marketplace modul Cognis, t
 
 ## Arsitektur
 
-`bootstrap.js` adalah satu-satunya titik integrasi host. Berkas ini menyerap paket konten deklaratif melalui `ctx`, menyediakan deskriptor bahasa Inggris sebagai kapabilitas publik, dan hanya mengekspos direktori lokal melalui namespace statis modul. Modul tidak memperluas UI host maupun alur bootstrap. Kode runtime menggunakan impor relatif terhadap repositori dan tidak mengimpor bagian internal Cognis.
+`bootstrap.js` adalah satu-satunya titik integrasi host. Berkas ini menyerap paket konten deklaratif melalui `ctx`, menyediakan deskriptor bahasa Inggris sebagai kapabilitas publik, dan hanya mengekspos direktori lokal melalui namespace statis modul. Manifes secara eksplisit meminta privilege hanya karena PR #220 melindungi kontribusi ke namespace milik host `study:language:en`; modul tidak mendaftarkan rute host atau memperluas alur yang sensitif terhadap keamanan. Kode runtime menggunakan impor relatif terhadap repositori dan tidak mengimpor bagian internal Cognis.
 
 Deskriptor bahasa kanonis menyediakan `languageCode: "en"` untuk tombol subnavigasi Study; Cognis membawa pilihan ini melalui state router, bukan parameter kueri URL.
 

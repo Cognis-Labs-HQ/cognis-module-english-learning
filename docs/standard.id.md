@@ -32,6 +32,8 @@ Ingesti konten dan kapabilitas `study:language:en` merupakan seluruh perilaku ru
 
 ### Keamanan
 
+- Manifes secara eksplisit meminta registrasi berprivilege karena kapabilitas publik `study:language:en` berada dalam namespace host yang dilindungi PR #220; modul tidak menggunakan privilege tersebut untuk rute host atau alur yang sensitif terhadap keamanan.
+
 - Pustaka host memvalidasi namespace paket, versi semantik, lisensi, jalur aman, skema terlokalisasi, bidang bertipe, dan seluruh graf rekaman sebelum penulisan atomik.
 - Kegagalan penyerapan dikirim ke logger host dengan metadata terstruktur yang aman.
 
