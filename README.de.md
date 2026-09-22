@@ -7,6 +7,7 @@ Cognis Englisch ist die installierbare Erweiterung zum Englischlernen für das C
 ## Funktionen
 
 - Daten zum englischen Alphabet, zu Vokabeln, Partikeln und Sätzen, die von der gemeinsamen Study-Bibliothek unter `/study/library` dargestellt werden.
+- Kontextspezifische lokalisierte Vokabelbedeutungen überschreiben Definitionen der Quellkarte, wenn sich die Begriffe unterscheiden.
 - Satzbeschriftungen werden vollständig durch lückenlose geordnete Wort-, Partikel- und Satzzeichenverweise dargestellt.
 - Buchstabennamen und häufige Phonemaussprachen mit HTTPS-Audioverweisen ohne mitgelieferte binäre Medien.
 - Sieben häufige englische Digraphen, deren Zusammensetzungsverweise von lokalisierten Definitionen getrennt bleiben.

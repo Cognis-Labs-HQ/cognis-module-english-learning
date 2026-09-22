@@ -54,11 +54,17 @@ Schemaversion 13 trennt entsprechend dem neuesten Hostvertrag die Identität als
 
 Cognis PR #220 beschränkt nicht privilegierte Module auf Registrierungen unter ihrer eigenen Modul-ID. Da dieses Sprachmodul die vom Host definierte Capability `study:language:en` veröffentlichen muss, setzt sein Manifest nun ausdrücklich `privileged: true`. Die Anforderung ist eng begrenzt dokumentiert: Das Laufzeitverhalten bleibt auf den Inhaltspaketimport, die Sprachbeschreibung und moduleigene Locale-Ressourcen beschränkt; Hostrouten oder sicherheitssensible Flow-Hooks werden nicht verwendet.
 
+## Kontextbezogene Vokabeldefinitionen
+
+Vokabeldatensätze demonstrieren nun die Definitionspriorität aus PR #196 anhand des einbuchstabigen Worts `a`. Seine lokalisierte Bedeutung beschreibt den unbestimmten Artikel und unterscheidet sich bewusst von der Buchstabendefinition der Alphabet-Quellkarte. Jede enthaltene Vokabelkarte behält ihre eigene Bedeutung in vier Sprachen, wenn der lexikalische Begriff abweicht; der Host darf eine Quelldefinition nur verwenden, wenn ein lexikalischer Eintrag keine eigene bereitstellt, und verwirft diesen Rückfall bei nicht zusammenhängender Navigation.
+
 ## Dokumentation und Verträge
 
-Das Manifest verlangt `study:library`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.33.
+Das Manifest verlangt `study:library`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.34.
 
 ## Commits
+
+- [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/090e11f)
 
 - [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a5e4adb)
 

@@ -18,6 +18,24 @@
         ]
     },
     {
+        "id": "en:word:a",
+        "label": "a",
+        "fields": {
+            "part_of_speech": "article"
+        },
+        "references": [
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:definition:word:a",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
         "id": "en:word:do",
         "label": "do",
         "fields": {

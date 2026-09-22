@@ -278,3 +278,63 @@ test("every seeded alphabet record resolves a module-owned definition string", a
         }
     }
 });
+
+test("seeded vocabulary owns contextual localized definitions", async () => {
+    const words = JSON.parse(
+        await readFile("data/content/words/common.json", "utf8"),
+    );
+    const definitions = JSON.parse(
+        await readFile("data/content/definitions/common.json", "utf8"),
+    );
+    const definitionsById = new Map(
+        definitions.map((definition) => [definition.id, definition]),
+    );
+    const localeDocuments = Object.fromEntries(
+        await Promise.all(
+            ["de", "en", "id", "ja"].map(async (locale) => [
+                locale,
+                await readFile(`ui/languages/${locale}/strings.xml`, "utf8"),
+            ]),
+        ),
+    );
+
+    for (const word of words) {
+        const definitionReference = word.references.find(
+            ({ relation }) => relation === "definitions",
+        );
+        const definition = definitionsById.get(definitionReference?.entryId);
+        assert.ok(definition, `${word.id} contextual definition`);
+        for (const [locale, document] of Object.entries(localeDocuments)) {
+            const translation = definition.fields.translations[locale];
+            assert.ok(translation, `${word.id} ${locale}`);
+            assert.match(
+                document,
+                new RegExp(
+                    `name="${definition.fields.string_key}"[^>]*>${translation.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}<`,
+                ),
+            );
+        }
+    }
+
+    const article = words.find(({ id }) => id === "en:word:a");
+    assert.deepEqual(article, {
+        id: "en:word:a",
+        label: "a",
+        fields: { part_of_speech: "article" },
+        references: [
+            {
+                entryId: "en:char:a-lowercase",
+                relation: "spelling",
+                position: 0,
+            },
+            {
+                entryId: "en:definition:word:a",
+                relation: "definitions",
+            },
+        ],
+    });
+    assert.notEqual(
+        definitionsById.get("en:definition:word:a")?.fields.translations.en,
+        definitionsById.get("en:definition:letter:a")?.fields.translations.en,
+    );
+});

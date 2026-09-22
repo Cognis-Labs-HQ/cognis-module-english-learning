@@ -54,11 +54,17 @@ Schema version 13 separates alternate-form identity from visual hierarchy as req
 
 Cognis PR #220 restricts unprivileged modules to registrations under their own module ID. Because this language module must publish the host-defined `study:language:en` capability, its manifest now explicitly sets `privileged: true`. The request is narrowly documented: runtime behavior remains limited to content-pack ingestion, the language descriptor, and module-owned locale exposure, with no host routes or security-sensitive flow hooks.
 
+## Contextual vocabulary definitions
+
+Vocabulary records now demonstrate PR #196’s definition priority with the single-letter word `a`. Its localized meaning describes the indefinite article and deliberately differs from the source alphabet card’s letter definition. Every seeded vocabulary card retains its own four-locale meaning where the lexical concept is distinct; the host may use a source definition only when a lexical entry supplies none, and unrelated navigation clears that fallback.
+
 ## Documentation and contracts
 
-The manifest requires `study:library`, follows the current host-owned atomic activation contract, and publishes module version 1.2.33.
+The manifest requires `study:library`, follows the current host-owned atomic activation contract, and publishes module version 1.2.34.
 
 ## Commits
+
+- [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/090e11f)
 
 - [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a5e4adb)
 

@@ -54,11 +54,17 @@ Skema versi 13 memisahkan identitas bentuk alternatif dari hierarki visual sesua
 
 Cognis PR #220 membatasi modul tanpa privilege agar hanya mendaftar di bawah ID modulnya sendiri. Karena modul bahasa ini harus menerbitkan kapabilitas yang ditentukan host `study:language:en`, manifesnya kini secara eksplisit menetapkan `privileged: true`. Permintaan ini didokumentasikan secara terbatas: perilaku runtime tetap hanya mencakup ingesti paket konten, deskriptor bahasa, dan pemaparan lokal milik modul, tanpa rute host atau hook alur yang sensitif terhadap keamanan.
 
+## Definisi kosakata kontekstual
+
+Rekaman kosakata kini mendemonstrasikan prioritas definisi PR #196 melalui kata satu huruf `a`. Makna terlokalisasinya menjelaskan artikel tak tentu dan sengaja berbeda dari definisi huruf pada kartu alfabet sumber. Setiap kartu kosakata bawaan mempertahankan maknanya sendiri dalam empat bahasa ketika konsep leksikalnya berbeda; host hanya boleh memakai definisi sumber jika entri leksikal tidak menyediakan makna sendiri, dan navigasi yang tidak terkait menghapus fallback tersebut.
+
 ## Dokumentasi dan kontrak
 
-Manifes mewajibkan `study:library`, mengikuti kontrak aktivasi atomik milik host terkini, dan menerbitkan modul versi 1.2.33.
+Manifes mewajibkan `study:library`, mengikuti kontrak aktivasi atomik milik host terkini, dan menerbitkan modul versi 1.2.34.
 
 ## Commit
+
+- [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/090e11f)
 
 - [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a5e4adb)
 
