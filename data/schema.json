@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 13,
+    "version": 14,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -15,6 +15,11 @@
             "en": "Core English writing, vocabulary, and sentence content.",
             "id": "Materi inti tulisan, kosakata, dan kalimat bahasa Inggris.",
             "ja": "英語の文字・語彙・文の基本コンテンツ。"
+        },
+        "provider": {
+            "moduleId": "study-language-en",
+            "contract": "external-package",
+            "stable": true
         }
     },
     "layers": [

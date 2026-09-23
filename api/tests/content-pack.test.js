@@ -12,11 +12,21 @@ test("content pack declares valid records for the English schema", async () => {
     assert.equal(manifest.id, "english-core");
     assert.equal(manifest.namespace, "en");
     assert.equal(manifest.schema, "schema.json");
+    assert.equal(manifest.protected, true);
+    assert.deepEqual(manifest.metadata, {
+        contentKind: "language-core",
+        features: ["alphabet", "composites", "vocabulary", "sentences"],
+    });
     assert.equal(schema.id, "english");
     assert.equal(schema.namespace, manifest.namespace);
-    assert.equal(schema.version, 13);
+    assert.equal(schema.version, 14);
     assert.equal(schema.language, "en");
     assert.equal(schema.metadata.labels.ja, "英語");
+    assert.deepEqual(schema.metadata.provider, {
+        moduleId: "study-language-en",
+        contract: "external-package",
+        stable: true,
+    });
     assert.equal(alphabet.length, 52);
     assert.deepEqual(alphabet[0], {
         id: "en:char:a",

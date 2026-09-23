@@ -4,7 +4,7 @@
 
 ## Materi pembelajaran berbasis kapabilitas
 
-Modul kini memasang paket konten bahasa Inggris deklaratifnya secara atomik melalui kapabilitas `study:library` yang disediakan host. API, penyimpanan, halaman, dan entri navigasi pustaka yang rangkap telah dihapus demi rendering host berbasis skema.
+Modul kini memasang paket konten bahasa Inggris deklaratifnya secara atomik melalui kapabilitas `study:library:provider` yang disediakan host. API, penyimpanan, halaman, dan entri navigasi pustaka yang rangkap telah dihapus demi rendering host berbasis skema.
 
 ## Gambar bendera Inggris
 
@@ -32,7 +32,7 @@ Paket ini mengikuti skema Pustaka Study terbaru: data alfabet menyediakan daftar
 
 ## Kompatibilitas host terbaru
 
-Paket kini memakai skema dan paket konten versi 13. Hanya lapisan karakter alfabet yang menetapkan `minimal: true`; komposit, definisi, kata, partikel, dan kalimat sengaja mempertahankan kartu standar. Kisi huruf kecil memakai ID tampilan numerik yang stabil, alternatif huruf kapital secara eksplisit mendeklarasikan identitas varian dan induk spasial, dan lapisan kata, partikel, serta kalimat memakai definisi tampilan terlokalisasi yang wajib. Komposisi digraf tetap terpisah dari definisi; nilai awal metadata wajib dan identitas stabil mempertahankan perilaku host terkini.
+Paket kini memakai skema dan paket konten versi 14. Hanya lapisan karakter alfabet yang menetapkan `minimal: true`; komposit, definisi, kata, partikel, dan kalimat sengaja mempertahankan kartu standar. Kisi huruf kecil memakai ID tampilan numerik yang stabil, alternatif huruf kapital secara eksplisit mendeklarasikan identitas varian dan induk spasial, dan lapisan kata, partikel, serta kalimat memakai definisi tampilan terlokalisasi yang wajib. Komposisi digraf tetap terpisah dari definisi; nilai awal metadata wajib dan identitas stabil mempertahankan perilaku host terkini.
 
 ## Permukaan peramban terisolasi
 
@@ -48,7 +48,7 @@ Alfabet kini dirender sebagai bagan seimbang tujuh kolom dan empat baris dengan 
 
 ## Relasi anak spasial eksplisit
 
-Skema versi 13 memisahkan identitas bentuk alternatif dari hierarki visual sesuai kontrak host terbaru. Relasi huruf kapital ke huruf kecil kini mendeklarasikan `variant: true` dan `child: true`: yang pertama mengklasifikasikan rekaman huruf kapital sebagai ejaan alternatif, sedangkan hanya yang kedua mengizinkan kartu terbuka di sekitar induk huruf kecil yang sebenarnya.
+Skema versi 14 memisahkan identitas bentuk alternatif dari hierarki visual sesuai kontrak host terbaru. Relasi huruf kapital ke huruf kecil kini mendeklarasikan `variant: true` dan `child: true`: yang pertama mengklasifikasikan rekaman huruf kapital sebagai ejaan alternatif, sedangkan hanya yang kedua mengizinkan kartu terbuka di sekitar induk huruf kecil yang sebenarnya.
 
 ## Privilege namespace host eksplisit
 
@@ -58,11 +58,17 @@ Cognis PR #220 membatasi modul tanpa privilege agar hanya mendaftar di bawah ID 
 
 Rekaman kosakata kini mendemonstrasikan prioritas definisi PR #196 melalui kata satu huruf `a`. Makna terlokalisasinya menjelaskan artikel tak tentu dan sengaja berbeda dari definisi huruf pada kartu alfabet sumber. Setiap kartu kosakata bawaan mempertahankan maknanya sendiri dalam empat bahasa ketika konsep leksikalnya berbeda; host hanya boleh memakai definisi sumber jika entri leksikal tidak menyediakan makna sendiri, dan navigasi yang tidak terkait menghapus fallback tersebut.
 
+## Kontrak paket eksternal resmi
+
+Skema versi 14 mengadopsi batas paket eksternal Cognis PR #226. Manifes konten menandai rekaman penyedia sebagai terlindungi dan membawa metadata katalog kompatibel JSON yang tervalidasi; metadata skema juga menerbitkan identitas penyedia yang stabil. Bootstrap kini mengambil kapabilitas publik `study:library:provider`, mewajibkan `inspectContentPack` dan `ingestContentPack`, menjalankan inspeksi tanpa mutasi terlebih dahulu, lalu meminta ingesti atomik. Semua bidang tetap memakai jenis bawaan yang tervalidasi sehingga tidak memerlukan celah validasi khusus.
+
 ## Dokumentasi dan kontrak
 
-Manifes mewajibkan `study:library`, mengikuti kontrak aktivasi atomik milik host terkini, dan menerbitkan modul versi 1.2.34.
+Manifes mewajibkan `study:library:provider`, mengikuti kontrak aktivasi atomik milik host terkini, dan menerbitkan modul versi 1.2.35.
 
 ## Commit
+
+- [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/0c579e3)
 
 - [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/090e11f)
 

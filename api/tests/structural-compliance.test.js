@@ -84,6 +84,7 @@ test("external module metadata and declared files are consistent", () => {
         true,
         "the host-owned study:language:en capability requires explicit privilege",
     );
+    assert.deepEqual(manifest.requiresCapabilities, ["study:library:provider"]);
     assert.ok(Array.isArray(routes));
     for (const entrypoint of Object.values(manifest.entrypoints)) {
         assert.ok(statSync(resolve(ROOT, entrypoint)).isFile());

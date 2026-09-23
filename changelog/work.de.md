@@ -4,7 +4,7 @@
 
 ## Capability-gestützte Lerninhalte
 
-Das Modul installiert sein deklaratives englisches Inhaltspaket jetzt atomar über die vom Host bereitgestellte Capability `study:library`. Die doppelte Bibliotheks-API samt Speicher, Seite und Navigationseintrag wurde zugunsten der schemagesteuerten Hostdarstellung entfernt.
+Das Modul installiert sein deklaratives englisches Inhaltspaket jetzt atomar über die vom Host bereitgestellte Capability `study:library:provider`. Die doppelte Bibliotheks-API samt Speicher, Seite und Navigationseintrag wurde zugunsten der schemagesteuerten Hostdarstellung entfernt.
 
 ## Englische Flaggengrafik
 
@@ -32,7 +32,7 @@ Das Paket folgt dem neuesten Schema der Study-Bibliothek: Alphabetdatensätze en
 
 ## Aktuelle Host-Kompatibilität
 
-Das Paket verwendet nun Schema- und Inhaltspaketversion 13. Nur die Alphabet-Zeichenebene setzt `minimal: true`; Zusammensetzungen, Definitionen, Wörter, Partikeln und Sätze behalten bewusst Standardkarten. Das Kleinbuchstabenraster löst stabile numerische Anzeige-IDs auf, Großbuchstabenalternativen deklarieren ausdrücklich sowohl Variantenidentität als auch räumliche Elternschaft, und Wort-, Partikel- sowie Satzebenen verwenden erforderliche lokalisierte Anzeigedefinitionen. Digraphenzusammensetzungen bleiben von Definitionen getrennt; erforderliche Metadatenvorgaben und stabile Identitäten bewahren das aktuelle Hostverhalten.
+Das Paket verwendet nun Schema- und Inhaltspaketversion 14. Nur die Alphabet-Zeichenebene setzt `minimal: true`; Zusammensetzungen, Definitionen, Wörter, Partikeln und Sätze behalten bewusst Standardkarten. Das Kleinbuchstabenraster löst stabile numerische Anzeige-IDs auf, Großbuchstabenalternativen deklarieren ausdrücklich sowohl Variantenidentität als auch räumliche Elternschaft, und Wort-, Partikel- sowie Satzebenen verwenden erforderliche lokalisierte Anzeigedefinitionen. Digraphenzusammensetzungen bleiben von Definitionen getrennt; erforderliche Metadatenvorgaben und stabile Identitäten bewahren das aktuelle Hostverhalten.
 
 ## Isolierte Browseroberfläche
 
@@ -48,7 +48,7 @@ Das Alphabet wird nun als ausgeglichene Tafel mit sieben Spalten und vier Zeilen
 
 ## Ausdrückliche räumliche Kindbeziehungen
 
-Schemaversion 13 trennt entsprechend dem neuesten Hostvertrag die Identität als Alternativform von der visuellen Hierarchie. Die Beziehung vom Groß- zum Kleinbuchstaben deklariert nun sowohl `variant: true` als auch `child: true`: Ersteres klassifiziert den Großbuchstabendatensatz als alternative Schreibweise, Letzteres erlaubt allein das Aufklappen der Karte um ihr tatsächliches Kleinbuchstaben-Elternelement.
+Schemaversion 14 trennt entsprechend dem neuesten Hostvertrag die Identität als Alternativform von der visuellen Hierarchie. Die Beziehung vom Groß- zum Kleinbuchstaben deklariert nun sowohl `variant: true` als auch `child: true`: Ersteres klassifiziert den Großbuchstabendatensatz als alternative Schreibweise, Letzteres erlaubt allein das Aufklappen der Karte um ihr tatsächliches Kleinbuchstaben-Elternelement.
 
 ## Ausdrückliches Privileg für den Hostnamensraum
 
@@ -58,11 +58,17 @@ Cognis PR #220 beschränkt nicht privilegierte Module auf Registrierungen unter 
 
 Vokabeldatensätze demonstrieren nun die Definitionspriorität aus PR #196 anhand des einbuchstabigen Worts `a`. Seine lokalisierte Bedeutung beschreibt den unbestimmten Artikel und unterscheidet sich bewusst von der Buchstabendefinition der Alphabet-Quellkarte. Jede enthaltene Vokabelkarte behält ihre eigene Bedeutung in vier Sprachen, wenn der lexikalische Begriff abweicht; der Host darf eine Quelldefinition nur verwenden, wenn ein lexikalischer Eintrag keine eigene bereitstellt, und verwirft diesen Rückfall bei nicht zusammenhängender Navigation.
 
+## Maßgeblicher Vertrag für externe Pakete
+
+Schemaversion 14 übernimmt die Grenze für externe Pakete aus Cognis PR #226. Das Inhaltsmanifest kennzeichnet Anbieterdatensätze als geschützt und enthält validierte JSON-kompatible Katalogmetadaten; die Schemametadaten veröffentlichen ebenfalls eine stabile Anbieteridentität. Der Bootstrap löst nun die öffentliche Capability `study:library:provider` auf, verlangt `inspectContentPack` und `ingestContentPack`, führt zuerst die nicht verändernde Prüfung durch und fordert anschließend den atomaren Import an. Alle Felder verwenden weiterhin validierte eingebaute Typen, sodass keine benutzerdefinierte Validierungsausnahme nötig ist.
+
 ## Dokumentation und Verträge
 
-Das Manifest verlangt `study:library`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.34.
+Das Manifest verlangt `study:library:provider`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.35.
 
 ## Commits
+
+- [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/0c579e3)
 
 - [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/090e11f)
 

@@ -4,7 +4,7 @@
 
 ## Capability-backed learning records
 
-The module now installs its declarative English content pack atomically through the host-provided `study:library` capability. Its duplicate library API, store, page, and navigation entry have been removed in favor of schema-driven host rendering.
+The module now installs its declarative English content pack atomically through the host-provided `study:library:provider` capability. Its duplicate library API, store, page, and navigation entry have been removed in favor of schema-driven host rendering.
 
 ## English flag artwork
 
@@ -32,7 +32,7 @@ The pack follows the latest Study Library schema: alphabet records provide pronu
 
 ## Latest host compatibility
 
-The package now uses schema and content-pack version 13. Only the alphabet character layer sets `minimal: true`; composites, definitions, words, particles, and sentences deliberately retain standard cards. The lowercase grid resolves stable numeric display IDs, capitalized alternates explicitly declare both variant identity and spatial parentage, and word, particle, and sentence layers opt into required localized display definitions. Common digraph compositions remain separate from definitions, while required metadata defaults and stable identities preserve current host behavior.
+The package now uses schema and content-pack version 14. Only the alphabet character layer sets `minimal: true`; composites, definitions, words, particles, and sentences deliberately retain standard cards. The lowercase grid resolves stable numeric display IDs, capitalized alternates explicitly declare both variant identity and spatial parentage, and word, particle, and sentence layers opt into required localized display definitions. Common digraph compositions remain separate from definitions, while required metadata defaults and stable identities preserve current host behavior.
 
 ## Isolated browser surface
 
@@ -48,7 +48,7 @@ The alphabet now renders as a balanced seven-column, four-row chart with explici
 
 ## Explicit spatial child relationships
 
-Schema version 13 separates alternate-form identity from visual hierarchy as required by the latest host contract. The capital-to-lowercase relationship now declares both `variant: true` and `child: true`: the first classifies the uppercase record as an alternate spelling, while the second alone authorizes the card to unfold around its actual lowercase parent.
+Schema version 14 separates alternate-form identity from visual hierarchy as required by the latest host contract. The capital-to-lowercase relationship now declares both `variant: true` and `child: true`: the first classifies the uppercase record as an alternate spelling, while the second alone authorizes the card to unfold around its actual lowercase parent.
 
 ## Explicit host-namespace privilege
 
@@ -58,11 +58,17 @@ Cognis PR #220 restricts unprivileged modules to registrations under their own m
 
 Vocabulary records now demonstrate PR #196’s definition priority with the single-letter word `a`. Its localized meaning describes the indefinite article and deliberately differs from the source alphabet card’s letter definition. Every seeded vocabulary card retains its own four-locale meaning where the lexical concept is distinct; the host may use a source definition only when a lexical entry supplies none, and unrelated navigation clears that fallback.
 
+## Authoritative external-package contract
+
+Schema version 14 adopts Cognis PR #226’s external-package boundary. The content manifest marks provider records as protected and carries validated JSON-compatible catalog metadata; schema metadata likewise publishes stable provider identity. Bootstrap now resolves the public `study:library:provider` capability, requires both `inspectContentPack` and `ingestContentPack`, performs the non-mutating inspection first, and then requests atomic ingestion. All fields continue to use built-in validated types, so no custom validation escape hatch is needed.
+
 ## Documentation and contracts
 
-The manifest requires `study:library`, follows the current host-owned atomic activation contract, and publishes module version 1.2.34.
+The manifest requires `study:library:provider`, follows the current host-owned atomic activation contract, and publishes module version 1.2.35.
 
 ## Commits
+
+- [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/0c579e3)
 
 - [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/090e11f)
 

@@ -6,14 +6,25 @@ test("registers the data-only English package through ctx", async () => {
     const registrations = {
         staticDirectories: [],
         capabilities: [],
+        packOperations: [],
     };
     const ctx = {
         moduleRoot: process.cwd(),
         getCapability(name) {
-            assert.equal(name, "study:library");
+            assert.equal(name, "study:library:provider");
             return {
+                async inspectContentPack(root) {
+                    registrations.packOperations.push({
+                        operation: "inspect",
+                        root,
+                    });
+                },
                 async ingestContentPack(root) {
                     assert.equal(root, `${process.cwd()}/data`);
+                    registrations.packOperations.push({
+                        operation: "ingest",
+                        root,
+                    });
                 },
             };
         },
@@ -31,6 +42,10 @@ test("registers the data-only English package through ctx", async () => {
             root: `${process.cwd()}/ui/languages`,
         },
     ]);
+    assert.deepEqual(registrations.packOperations, [
+        { operation: "inspect", root: `${process.cwd()}/data` },
+        { operation: "ingest", root: `${process.cwd()}/data` },
+    ]);
     assert.equal(registrations.capabilities[0][0], "study:language:en");
     assert.equal(registrations.capabilities[0][1].languageCode, "en");
     assert.equal(registrations.capabilities[0][1].languageName, "English");
@@ -40,7 +55,7 @@ test("registers the data-only English package through ctx", async () => {
         "study-language-en",
     );
     assert.equal(registrations.capabilities[0][1].package.namespace, "en");
-    assert.equal(registrations.capabilities[0][1].package.version, "13.1.0");
+    assert.equal(registrations.capabilities[0][1].package.version, "14.0.0");
     assert.equal(
         Object.isFrozen(registrations.capabilities[0][1].package),
         true,
