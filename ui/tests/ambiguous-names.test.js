@@ -1,12 +1,12 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { readdirSync, readFileSync, statSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join, relative, resolve } from "node:path";
 
 const ROOT = resolve(import.meta.dirname, "../..");
-const SCAN_ROOTS = ["api", "ui", "cli", "tooling"].map((path) =>
-    resolve(ROOT, path),
-);
+const SCAN_ROOTS = ["api", "ui", "cli", "tooling"]
+    .map((path) => resolve(ROOT, path))
+    .filter(existsSync);
 const ALLOWED_NAMES = new Set([
     "x",
     "y",

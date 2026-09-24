@@ -1,0 +1,93 @@
+[
+    {
+        "id": "en:word:i",
+        "label": "I",
+        "fields": {
+            "part_of_speech": "pronoun"
+        },
+        "references": [
+            {
+                "entryId": "en:char:i",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:definition:word:i",
+                "relation": "definitions"
+            }
+        ],
+        "class": "lexical:pronoun"
+    },
+    {
+        "id": "en:word:a",
+        "label": "a",
+        "fields": {
+            "part_of_speech": "article"
+        },
+        "references": [
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:definition:word:a",
+                "relation": "definitions"
+            }
+        ],
+        "class": "lexical:article"
+    },
+    {
+        "id": "en:word:do",
+        "label": "do",
+        "fields": {
+            "part_of_speech": "verb"
+        },
+        "references": [
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:word:do",
+                "relation": "definitions"
+            }
+        ],
+        "class": "lexical:verb"
+    },
+    {
+        "id": "en:word:run",
+        "label": "run",
+        "fields": {
+            "part_of_speech": "verb"
+        },
+        "references": [
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:word:run",
+                "relation": "definitions"
+            }
+        ],
+        "class": "lexical:verb"
+    }
+]

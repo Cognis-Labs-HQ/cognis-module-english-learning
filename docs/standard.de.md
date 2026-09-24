@@ -1,14 +1,12 @@
 # Cognis-Englischmodul
 
-Das Cognis-Englischmodul stellt für das Cognis-Study-Gateway eine installierbare Englischlernumgebung mit Alphabetdaten, einer schreibgeschützten Lernbibliothek und Einstiegspunkten für den Unterricht bereit.
+Das Cognis-Englischmodul stellt für das Cognis-Study-Gateway eine installierbare Englischlernumgebung als versioniertes, deklaratives und ausschließlich datenbasiertes Inhaltspaket bereit.
 
 ## Anwendungsbeispiele
 
-- Öffnen Sie `/study/alphabet`, um die 26 Buchstaben des englischen Alphabets zu erkunden.
-- Öffnen Sie als Administrator `/study/en-library`, um die Lerninhalte des Moduls zu prüfen.
-- Öffnen Sie `/study/en-classroom`, um über Study eine Englischunterrichtssitzung zu beginnen.
-- Rufen Sie `/api/v1/modules/study-language-en/library` mit einem gültigen Cognis-Zugriffstoken auf, um die verfügbaren Bibliotheksebenen zu lesen.
-- Lösen Sie die Capability `study:language:en` auf, um die Sprachbeschreibung ohne Import von Modulinterna einzubinden.
+- Öffnen Sie `/study/library`, um die englischen Inhalte über die schemagesteuerte gemeinsame Study-Bibliothek zu erkunden.
+- Lösen Sie die vom Host bereitgestellte Capability `study:library` auf, um auf das versionierte Inhaltspaket im Namensraum `en` mit lokalisierten Schemametadaten, semantischen Ebenenrollen und durch moduleigene Zeichenketten gestützten Definitionsbeziehungen zuzugreifen.
+- Lösen Sie die Capability `study:language:en` auf, um den kanonischen Deskriptor mit `languageCode: "en"` für die erzeugte Schaltfläche der Study-Unternavigation zu erhalten.
 
 ## Technische Spezifikation
 
@@ -17,18 +15,27 @@ Das Modul ist eine schreibgeschützte externe Cognis-Erweiterung. Seine dauerhaf
 ### Integrationsvertrag
 
 - `bootstrap.js` ist der einzige Integrationseinstiegspunkt für die Plattform.
-- Das bereitgestellte `ctx` ist der einzige komponentenübergreifende Bus für Routen, UI-Registrierungen, Capabilities und Flow-Hooks.
+- Die Browserfreigabe ist auf `ui/languages` beschränkt; das reine Datenmodul trägt weder eine Host-UI-Erweiterung noch einen Hook für eine Plattform-Bootstrap-Stufe bei.
+- Das bereitgestellte `ctx` ist der einzige komponentenübergreifende Bus für Capability-, Flow- und Sprachressourcenregistrierungen.
 - Laufzeitimporte bleiben repository-relativ und greifen niemals auf Cognis-Interna oder benachbarte Komponenten zu.
 - Bereichsgebundene Registrierungen lassen sich beim Deaktivieren oder Deinstallieren des Moduls entfernen.
 
 - Der Deinstallations-Hook protokolliert die Lebenszyklus-Bereinigung; das Modul hat keine gespeicherte Konfiguration oder nutzereigenen Inhalte, da seine Lerndatensätze schreibgeschützte Paketdateien sind.
 
+### Aktuelles Study-Datenmodell
+
+Schemaversion 14 modelliert Alphabeteinträge als atomare Schrifteinheiten mit Aussprachelisten und HTTPS-Audioverweisen. Wörter werden mit geordneten Buchstabenfolgen und lokalisierten Definitionen verknüpft, grammatische Partikeln werden eigens modelliert, und Sätze setzen sich aus geordneten Wort- und Partikelverweisen zusammen. Audio bleibt extern, daher liefert das Modul keine binären Medien aus. Häufige Digraphen werden außerdem als zusammengesetzte Schrifteinheiten modelliert, deren resolvergestützte Zusammensetzungsverweise von ihren lokalisierten Definitionsverweisen getrennt sind. Das Alphabet veröffentlicht ein festes Raster, und erforderliche Metadatenfilter deklarieren ihre anfänglichen Tags. Die Kleinbuchstabenkarten im Raster werden über stabile numerische Anzeige-IDs adressiert; jede großgeschriebene Alternative verwendet eine Beziehung, die sowohl ihre Identität als Alternativform als auch ihren Kleinbuchstaben als begriffliches Elternelement ausdrücklich kennzeichnet. Wort-, Partikel- und Satzkarten bevorzugen ihre erforderliche lokalisierte Definition gegenüber internen Datensatzbezeichnungen. Nur die Alphabet-Zeichenebene fordert minimale Karten an, sodass ihre Einträge kompakte Hauptbezeichnungen zeigen, während Zusammensetzungen und alle höheren Ebenen ihre vollständige Darstellung behalten. Satzbeschriftungen müssen sich nach der Leerraumnormalisierung exakt aus lückenlosen geordneten Verweisen auf lexikalische Einheiten und Partikeln rekonstruieren lassen; der enthaltene Punkt ist deshalb eine ausdrückliche Satzzeichenpartikel und kein unverknüpfter Beschriftungstext. Das Alphabet verwendet sieben Spalten und zwei ausdrückliche Leerfelder am Ende, sodass vier ausgeglichene Zeilen entstehen. Buchstabendatensätze enthalten ihre Namen und häufige IPA-Phoneme; sieben enthaltene Digraphen decken `ch`, `sh`, `th`, `ph`, `wh`, `ng` und `ck` ab. Variantenbeziehungen schreiben keine Richtung mehr vor; `variant: true` kennzeichnet die Alternativform, während `child: true` sie unabhängig in die räumliche Hierarchie aufnimmt, und der aktuelle Host wählt dynamisch eine verfügbare Position innerhalb der Grenzen. Enthaltene Vokabeldatensätze besitzen eigene lokalisierte Bedeutungen, wenn sich ihr lexikalischer Begriff von einem Quellzeichen unterscheidet; beispielsweise wird das Wort `a` als unbestimmter Artikel definiert, anstatt „Der Buchstabe A.“ zu übernehmen. Der Host verwendet die Quelldefinitions-Rückfallregel daher nur für lexikalische Einträge ohne eigene Bedeutung und verwirft sie bei nicht zusammenhängender Navigation. Das Paket deklariert `protected: true`, damit anbietereigene Datensätze weder verschoben noch gelöscht werden können, und veröffentlicht JSON-kompatible Katalogmetadaten sowohl im Paketmanifest als auch im Schema. Der Bootstrap löst die während des Lebenszyklus verfügbare Capability `study:library` auf, führt deren schreibgeschützte Vorprüfung `inspectContentPack` aus und fordert erst danach den atomaren Import an. Das maßgebliche Paket 14.1.0 entwickelt die Schemakompatibilitätsversion 14 am selben Ort weiter: Inhaltsdatensätze veröffentlichen nun anbieterneutrale Klassen, Definitionen sind ausdrücklich ausgeblendet, Partikeln nicht bearbeitbar und echte Schreib- oder Sequenzkanten deklarieren `presentationRole: "composition"`. Definitions-, Varianten- und Rückwärtsabhängigkeitskanten bleiben Beziehungen ohne Resolver und erscheinen daher nur in der vereinheitlichten Rückwärtsnavigation. Bearbeitbare Felder veröffentlichen lokalisierte `input`-Verträge einschließlich einer begrenzten Auswahl englischer Audiodateien.
+
+### Richtlinie für Bootstrap-Fehler
+
+Das Einlesen der Inhalte und die Capability `study:language:en` bilden das gesamte Laufzeitverhalten des Moduls. Der aktuelle Host führt Inhaltsimporte atomar aus und setzt das Modul nach jedem verbleibenden Bootstrap-Fehler wieder auf deaktiviert. Das Modul folgt daher dieser hosteigenen Richtlinie ohne Manifest-Ausnahme.
+
 ### Sicherheit
 
-- Bibliotheksendpunkte authentifizieren Anfragen, bevor Daten gelesen werden.
-- Ebenennamen stehen auf einer Positivliste, und die Datensatzpfade sind im Modulspeicher fest vorgegeben.
-- API-Antworten verwenden stabile öffentliche Fehler, ohne Implementierungsdetails offenzulegen.
-- Initialisierungsfehler werden mit sicheren strukturierten Metadaten an den Host-Logger übergeben.
+- Das Manifest fordert ausdrücklich eine privilegierte Registrierung an, weil die öffentliche Capability `study:language:en` zum durch PR #220 geschützten Hostnamensraum gehört; das Modul verwendet dieses Privileg weder für Hostrouten noch für sicherheitssensible Flows.
+
+- Die Host-Bibliothek prüft Paketnamensraum, semantische Version, Lizenz, sichere Pfade, lokalisiertes Schema, typisierte Felder und den vollständigen Datensatzgraphen vor einem atomaren Schreibvorgang.
+- Fehler beim Einlesen werden mit sicheren strukturierten Metadaten an den Host-Logger übergeben.
 
 ### Freigabeprozess
 

@@ -2,38 +2,64 @@ import assert from "node:assert/strict";
 import test from "node:test";
 import { bootstrapModule, uninstallModule } from "../../bootstrap.js";
 
-test("registers English surfaces through ctx", () => {
-    const registrations = { routes: [], capabilities: [], extensions: [] };
+test("registers the data-only English package through ctx", async () => {
+    const registrations = {
+        staticDirectories: [],
+        capabilities: [],
+        packOperations: [],
+    };
     const ctx = {
         moduleRoot: process.cwd(),
-        router: {
-            get(path) {
-                registrations.routes.push(path);
-            },
-        },
         getCapability(name) {
-            assert.equal(name, "auth:requireAuth");
-            return () => ({ role: "user" });
+            assert.equal(name, "study:library");
+            return {
+                async inspectContentPack(root) {
+                    registrations.packOperations.push({
+                        operation: "inspect",
+                        root,
+                    });
+                },
+                async ingestContentPack(root) {
+                    assert.equal(root, `${process.cwd()}/data`);
+                    registrations.packOperations.push({
+                        operation: "ingest",
+                        root,
+                    });
+                },
+            };
         },
-        registerStaticDir() {},
-        registerSpaRoute(route) {
-            registrations.routes.push(route.base);
+        registerStaticDir(prefix, root) {
+            registrations.staticDirectories.push({ prefix, root });
         },
-        registerNavbarPlugin() {},
         contributePublicCapability(name, value) {
             registrations.capabilities.push([name, value]);
         },
-        flow: {
-            extend(...args) {
-                registrations.extensions.push(args);
-            },
-        },
     };
-    bootstrapModule(ctx);
-    assert.ok(registrations.routes.includes("/study/alphabet"));
+    await bootstrapModule(ctx);
+    assert.deepEqual(registrations.staticDirectories, [
+        {
+            prefix: "languages",
+            root: `${process.cwd()}/ui/languages`,
+        },
+    ]);
+    assert.deepEqual(registrations.packOperations, [
+        { operation: "inspect", root: `${process.cwd()}/data` },
+        { operation: "ingest", root: `${process.cwd()}/data` },
+    ]);
     assert.equal(registrations.capabilities[0][0], "study:language:en");
-    assert.equal(registrations.capabilities[0][1].code, "en");
-    assert.equal(registrations.extensions[0][0], "bootstrap-platform");
+    assert.equal(registrations.capabilities[0][1].languageCode, "en");
+    assert.equal(registrations.capabilities[0][1].languageName, "English");
+    assert.equal(registrations.capabilities[0][1].code, undefined);
+    assert.equal(
+        registrations.capabilities[0][1].moduleId,
+        "study-language-en",
+    );
+    assert.equal(registrations.capabilities[0][1].package.namespace, "en");
+    assert.equal(registrations.capabilities[0][1].package.version, "14.1.0");
+    assert.equal(
+        Object.isFrozen(registrations.capabilities[0][1].package),
+        true,
+    );
 });
 
 test("supports uninstall cleanup without deleting packaged learning data", async () => {

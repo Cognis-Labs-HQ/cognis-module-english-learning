@@ -1,13 +1,13 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { readdirSync, readFileSync, statSync } from "node:fs";
+import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { join, relative, resolve } from "node:path";
 
 const ROOT = resolve(import.meta.dirname, "../..");
 const SCAN_ROOTS = ["api", "ui", "cli", "tooling"]
     .map((path) => resolve(ROOT, path))
-    .filter((path) => statSync(path).isDirectory());
+    .filter((path) => existsSync(path) && statSync(path).isDirectory());
 const SOURCE_EXTENSIONS = new Set([".js", ".mjs", ".css", ".html"]);
 
 function walk(directory) {
@@ -79,6 +79,12 @@ test("external module metadata and declared files are consistent", () => {
     const routes = JSON.parse(readFileSync(resolve(ROOT, "routes.json")));
     assert.equal(manifest.version, packageJson.version);
     assert.equal(manifest.version, packageLock.version);
+    assert.equal(
+        manifest.privileged,
+        true,
+        "the host-owned study:language:en capability requires explicit privilege",
+    );
+    assert.deepEqual(manifest.requiresCapabilities, ["study:library"]);
     assert.ok(Array.isArray(routes));
     for (const entrypoint of Object.values(manifest.entrypoints)) {
         assert.ok(statSync(resolve(ROOT, entrypoint)).isFile());

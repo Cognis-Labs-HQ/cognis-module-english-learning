@@ -1,0 +1,32 @@
+[
+    {
+        "id": "en:particle:not",
+        "label": "not",
+        "fields": {
+            "function": "negation"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:particle:not",
+                "relation": "definitions"
+            }
+        ],
+        "class": "grammar:negation",
+        "editable": false
+    },
+    {
+        "id": "en:particle:period",
+        "label": ".",
+        "fields": {
+            "function": "punctuation"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:particle:period",
+                "relation": "definitions"
+            }
+        ],
+        "class": "grammar:punctuation",
+        "editable": false
+    }
+]

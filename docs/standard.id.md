@@ -1,14 +1,12 @@
 # Modul Cognis English
 
-Modul Cognis English menyediakan pengalaman belajar bahasa Inggris yang dapat dipasang untuk gateway Cognis Study, termasuk data alfabet, pustaka pembelajaran hanya-baca, dan titik masuk kelas.
+Modul Cognis English menyediakan pengalaman belajar bahasa Inggris untuk gateway Cognis Study sebagai paket konten khusus data yang deklaratif dan berversi.
 
 ## Contoh Penggunaan
 
-- Buka `/study/alphabet` untuk mempelajari 26 huruf alfabet bahasa Inggris.
-- Buka `/study/en-library` sebagai administrator untuk meninjau materi pembelajaran modul.
-- Buka `/study/en-classroom` untuk memulai sesi kelas bahasa Inggris melalui Study.
-- Minta `/api/v1/modules/study-language-en/library` dengan token akses Cognis yang valid untuk membaca lapisan pustaka yang tersedia.
-- Gunakan kapabilitas `study:language:en` untuk mengintegrasikan deskriptor bahasa tanpa mengimpor internal modul.
+- Buka `/study/library` untuk menjelajahi konten bahasa Inggris melalui pustaka Study bersama yang digerakkan oleh skema.
+- Gunakan kapabilitas `study:library` yang disediakan host untuk mengakses paket konten berversi dalam namespace `en` dengan metadata skema terlokalisasi, peran semantik lapisan, dan relasi definisi yang didukung string milik modul.
+- Gunakan kapabilitas `study:language:en` untuk memperoleh deskriptor kanonis dengan `languageCode: "en"` bagi tombol subnavigasi Study yang dibuat.
 
 ## Spesifikasi Teknis
 
@@ -17,18 +15,27 @@ Modul ini merupakan ekstensi Cognis eksternal yang hanya-baca. UUID permanennya 
 ### Kontrak Integrasi
 
 - `bootstrap.js` adalah satu-satunya entrypoint integrasi platform.
-- `ctx` yang diberikan adalah satu-satunya bus lintas komponen untuk rute, registrasi UI, kapabilitas, dan hook alur.
+- Eksposur peramban dibatasi pada `ui/languages`; modul khusus data ini tidak menyumbangkan ekstensi UI host maupun hook tahap bootstrap platform.
+- `ctx` yang diberikan adalah satu-satunya bus lintas komponen untuk registrasi kapabilitas, alur, dan sumber daya bahasa.
 - Impor runtime selalu relatif terhadap repositori dan tidak pernah mengakses internal Cognis atau komponen lain.
 - Registrasi tercakup dapat dihapus saat modul dinonaktifkan atau dicopot.
 
 - Hook penghapusan instalasi mencatat pembersihan siklus hidup; modul ini tidak memiliki konfigurasi tersimpan atau konten milik pengguna karena set data pembelajarannya berupa berkas paket hanya-baca.
 
+### Model data Study terkini
+
+Skema versi 14 memodelkan entri alfabet sebagai unit tulisan atomik dengan daftar pelafalan dan rujukan audio HTTPS. Kata ditautkan ke ejaan huruf yang berurutan dan definisi terlokalisasi, partikel tata bahasa dimodelkan tersendiri, dan kalimat disusun dari rujukan kata serta partikel yang berurutan. Audio tetap berada di luar paket sehingga modul tidak menyertakan media biner. Digraf umum juga dimodelkan sebagai unit tulisan majemuk dengan rujukan komposisi berbasis resolver yang terpisah dari rujukan definisi terlokalisasinya. Alfabet menerbitkan kisi tetap dan filter metadata wajib mendeklarasikan tag awalnya. Kartu huruf kecil dalam kisi dialamatkan melalui ID tampilan numerik yang stabil, dan setiap alternatif huruf kapital memakai relasi yang secara eksplisit menandai identitas bentuk alternatif dan induk konseptual huruf kecilnya. Kartu kata, partikel, dan kalimat mengutamakan definisi terlokalisasi wajib daripada label rekaman internal. Hanya lapisan karakter alfabet yang meminta kartu minimal, sehingga entrinya menampilkan label utama ringkas sementara komposit dan semua lapisan tingkat lebih tinggi mempertahankan tampilan lengkap. Label kalimat harus dapat direkonstruksi tepat setelah normalisasi spasi dari rujukan unit leksikal dan partikel yang berurutan tanpa celah; karena itu, tanda titik bawaan merupakan partikel tanda baca eksplisit, bukan teks label yang tidak tertaut. Alfabet memakai tujuh kolom dan dua ruang kosong eksplisit di akhir untuk membentuk empat baris yang seimbang. Rekaman huruf memuat nama huruf dan fonem IPA umum, sedangkan tujuh digraf bawaan mencakup `ch`, `sh`, `th`, `ph`, `wh`, `ng`, dan `ck`. Relasi varian tidak lagi menentukan arah; `variant: true` mengidentifikasi bentuk alternatif sedangkan `child: true` secara terpisah memasukkannya ke hierarki spasial, dan host saat ini memilih posisi tersedia yang berbatas secara dinamis. Rekaman kosakata bawaan memiliki makna terlokalisasi sendiri setiap kali konsep leksikalnya berbeda dari karakter sumber; misalnya, kata `a` didefinisikan sebagai artikel tak tentu alih-alih mewarisi “Huruf A.” Karena itu, host hanya memakai fallback definisi sumber untuk entri leksikal tanpa makna yang disediakan dan menghapusnya saat navigasi tidak terkait. Paket mendeklarasikan `protected: true` agar rekaman milik penyedia tidak dapat dipindahkan atau dihapus, serta menerbitkan metadata katalog yang kompatibel dengan JSON dalam manifes paket dan skema. Bootstrap mengambil kapabilitas `study:library` yang tersedia selama siklus hidup, menjalankan prapemeriksaan hanya-baca `inspectContentPack`, lalu meminta ingesti atomik. Paket resmi 14.1.0 mengembangkan versi kompatibilitas skema 14 di tempat: rekaman konten kini menerbitkan kelas netral-penyedia, definisi disembunyikan secara eksplisit, partikel tidak dapat disunting, dan edge ejaan atau urutan sejati mendeklarasikan `presentationRole: "composition"`. Edge definisi, varian, dan dependensi balik tetap berupa relasi tanpa resolver sehingga hanya muncul melalui navigasi balik terpadu. Bidang yang dapat disunting menerbitkan kontrak `input` terlokalisasi, termasuk pemilihan berkas audio bahasa Inggris yang dibatasi.
+
+### Kebijakan kegagalan bootstrap
+
+Ingesti konten dan kapabilitas `study:language:en` merupakan seluruh perilaku runtime modul. Host terkini menjalankan impor konten secara atomik dan mengembalikan modul ke keadaan nonaktif setelah kegagalan bootstrap yang tersisa, sehingga modul mengikuti kebijakan milik host tersebut tanpa pengecualian manifes.
+
 ### Keamanan
 
-- Endpoint pustaka mengautentikasi permintaan sebelum membaca data.
-- Nama lapisan dibatasi oleh daftar izin, dan jalur kumpulan data ditetapkan oleh penyimpanan modul.
-- Respons API menggunakan kesalahan publik yang stabil tanpa mengungkapkan detail implementasi.
-- Kegagalan inisialisasi dikirim ke logger host dengan metadata terstruktur yang aman.
+- Manifes secara eksplisit meminta registrasi berprivilege karena kapabilitas publik `study:language:en` berada dalam namespace host yang dilindungi PR #220; modul tidak menggunakan privilege tersebut untuk rute host atau alur yang sensitif terhadap keamanan.
+
+- Pustaka host memvalidasi namespace paket, versi semantik, lisensi, jalur aman, skema terlokalisasi, bidang bertipe, dan seluruh graf rekaman sebelum penulisan atomik.
+- Kegagalan penyerapan dikirim ke logger host dengan metadata terstruktur yang aman.
 
 ### Proses Rilis
 
