@@ -50,6 +50,10 @@
                     "detail": {
                         "renderer": "text",
                         "order": 1
+                    },
+                    "input": {
+                        "control": "freeText",
+                        "immutable": true
                     }
                 },
                 {
@@ -67,6 +71,9 @@
                     "detail": {
                         "renderer": "text",
                         "order": 2
+                    },
+                    "input": {
+                        "control": "tagList"
                     }
                 },
                 {
@@ -84,6 +91,13 @@
                     "detail": {
                         "renderer": "media",
                         "order": 3
+                    },
+                    "input": {
+                        "control": "audioFile",
+                        "file": {
+                            "namespace": "study-library-audio",
+                            "prefix": "en/"
+                        }
                     }
                 }
             ],
@@ -106,8 +120,7 @@
                     "minimum": 1,
                     "maximum": 1,
                     "requiredTarget": true,
-                    "onDelete": "restrict",
-                    "resolverRole": "explicit"
+                    "onDelete": "restrict"
                 },
                 {
                     "id": "variant-of",
@@ -122,7 +135,6 @@
                     },
                     "maximum": 1,
                     "onDelete": "detach",
-                    "resolverRole": "explicit",
                     "variant": true,
                     "child": true
                 }
@@ -205,6 +217,9 @@
                     "detail": {
                         "renderer": "text",
                         "order": 1
+                    },
+                    "input": {
+                        "control": "tagList"
                     }
                 },
                 {
@@ -222,6 +237,13 @@
                     "detail": {
                         "renderer": "media",
                         "order": 2
+                    },
+                    "input": {
+                        "control": "audioFile",
+                        "file": {
+                            "namespace": "study-library-audio",
+                            "prefix": "en/"
+                        }
                     }
                 }
             ],
@@ -244,7 +266,8 @@
                     "ordered": true,
                     "requiredTarget": true,
                     "onDelete": "restrict",
-                    "resolverRole": "grapheme"
+                    "resolverRole": "grapheme",
+                    "presentationRole": "composition"
                 },
                 {
                     "id": "definitions",
@@ -259,8 +282,7 @@
                     },
                     "minimum": 1,
                     "requiredTarget": true,
-                    "onDelete": "restrict",
-                    "resolverRole": "explicit"
+                    "onDelete": "restrict"
                 }
             ],
             "activityCompatibility": [
@@ -303,6 +325,10 @@
                         "renderer": "text",
                         "order": 1,
                         "hidden": true
+                    },
+                    "input": {
+                        "control": "freeText",
+                        "immutable": true
                     }
                 },
                 {
@@ -320,6 +346,10 @@
                     "detail": {
                         "renderer": "text",
                         "order": 2
+                    },
+                    "input": {
+                        "control": "localizedText",
+                        "immutable": false
                     }
                 }
             ],
@@ -360,6 +390,66 @@
                         "exclusive": true,
                         "required": true,
                         "defaultTag": "verb"
+                    },
+                    "input": {
+                        "control": "singleSelect",
+                        "options": [
+                            {
+                                "value": "pronoun",
+                                "metadata": {
+                                    "labels": {
+                                        "de": "Pronomen",
+                                        "en": "Pronoun",
+                                        "id": "Pronomina",
+                                        "ja": "代名詞"
+                                    }
+                                }
+                            },
+                            {
+                                "value": "article",
+                                "metadata": {
+                                    "labels": {
+                                        "de": "Artikel",
+                                        "en": "Article",
+                                        "id": "Artikel",
+                                        "ja": "冠詞"
+                                    }
+                                }
+                            },
+                            {
+                                "value": "verb",
+                                "metadata": {
+                                    "labels": {
+                                        "de": "Verb",
+                                        "en": "Verb",
+                                        "id": "Verba",
+                                        "ja": "動詞"
+                                    }
+                                }
+                            },
+                            {
+                                "value": "noun",
+                                "metadata": {
+                                    "labels": {
+                                        "de": "Substantiv",
+                                        "en": "Noun",
+                                        "id": "Nomina",
+                                        "ja": "名詞"
+                                    }
+                                }
+                            },
+                            {
+                                "value": "adjective",
+                                "metadata": {
+                                    "labels": {
+                                        "de": "Adjektiv",
+                                        "en": "Adjective",
+                                        "id": "Adjektiva",
+                                        "ja": "形容詞"
+                                    }
+                                }
+                            }
+                        ]
                     }
                 }
             ],
@@ -379,7 +469,8 @@
                     "ordered": true,
                     "requiredTarget": true,
                     "onDelete": "restrict",
-                    "resolverRole": "grapheme"
+                    "resolverRole": "grapheme",
+                    "presentationRole": "composition"
                 },
                 {
                     "id": "definitions",
@@ -394,8 +485,7 @@
                     },
                     "minimum": 1,
                     "requiredTarget": true,
-                    "onDelete": "restrict",
-                    "resolverRole": "explicit"
+                    "onDelete": "restrict"
                 }
             ],
             "detail": {
@@ -442,6 +532,33 @@
                         "exclusive": true,
                         "required": true,
                         "defaultTag": "negation"
+                    },
+                    "input": {
+                        "control": "singleSelect",
+                        "options": [
+                            {
+                                "value": "negation",
+                                "metadata": {
+                                    "labels": {
+                                        "de": "Verneinung",
+                                        "en": "Negation",
+                                        "id": "Negasi",
+                                        "ja": "否定"
+                                    }
+                                }
+                            },
+                            {
+                                "value": "punctuation",
+                                "metadata": {
+                                    "labels": {
+                                        "de": "Satzzeichen",
+                                        "en": "Punctuation",
+                                        "id": "Tanda baca",
+                                        "ja": "句読点"
+                                    }
+                                }
+                            }
+                        ]
                     }
                 }
             ],
@@ -459,8 +576,7 @@
                     },
                     "minimum": 1,
                     "requiredTarget": true,
-                    "onDelete": "restrict",
-                    "resolverRole": "explicit"
+                    "onDelete": "restrict"
                 }
             ],
             "detail": {
@@ -497,7 +613,8 @@
                     "ordered": true,
                     "requiredTarget": true,
                     "onDelete": "restrict",
-                    "resolverRole": "longestMatch"
+                    "resolverRole": "longestMatch",
+                    "presentationRole": "composition"
                 },
                 {
                     "id": "particles",
@@ -512,7 +629,8 @@
                     },
                     "ordered": true,
                     "onDelete": "restrict",
-                    "resolverRole": "explicit"
+                    "resolverRole": "explicit",
+                    "presentationRole": "composition"
                 },
                 {
                     "id": "definitions",
@@ -527,8 +645,7 @@
                     },
                     "minimum": 1,
                     "requiredTarget": true,
-                    "onDelete": "restrict",
-                    "resolverRole": "explicit"
+                    "onDelete": "restrict"
                 }
             ],
             "activityCompatibility": ["study:reading", "study:grammar"],

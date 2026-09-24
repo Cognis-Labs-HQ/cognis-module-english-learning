@@ -14,8 +14,8 @@ test("content pack declares valid records for the English schema", async () => {
     assert.equal(manifest.schema, "schema.json");
     assert.equal(manifest.protected, true);
     assert.deepEqual(manifest.metadata, {
-        contentKind: "language-core",
-        features: ["alphabet", "composites", "vocabulary", "sentences"],
+        catalog: { category: "language", featured: true },
+        tags: ["english", "study"],
     });
     assert.equal(schema.id, "english");
     assert.equal(schema.namespace, manifest.namespace);
@@ -46,6 +46,7 @@ test("content pack declares valid records for the English schema", async () => {
                 relation: "variant-of",
             },
         ],
+        class: "writing:letter",
     });
 });
 
@@ -141,7 +142,16 @@ test("content follows the current writing-unit and sentence contracts", async ()
         ({ id }) => id === "composition",
     );
     assert.equal(composition.resolverRole, "grapheme");
+    assert.equal(composition.presentationRole, "composition");
     assert.equal(composition.targetLayer, "alphabet");
+    assert.equal(
+        alphabetLayer.fields.find(({ id }) => id === "audio")?.input?.control,
+        "audioFile",
+    );
+    assert.deepEqual(
+        alphabetLayer.fields.find(({ id }) => id === "audio")?.input?.file,
+        { namespace: "study-library-audio", prefix: "en/" },
+    );
     for (const layerId of ["words", "particles", "sentences"]) {
         assert.equal(
             schema.layers.find(({ id }) => id === layerId)?.displayDefinition,
@@ -149,6 +159,31 @@ test("content follows the current writing-unit and sentence contracts", async ()
             layerId,
         );
     }
+    for (const layer of schema.layers) {
+        for (const relationship of layer.relationships ?? []) {
+            if (
+                ["definition", "definitions", "variant-of"].includes(
+                    relationship.id,
+                )
+            ) {
+                assert.equal(
+                    relationship.resolverRole,
+                    undefined,
+                    relationship.id,
+                );
+            }
+        }
+    }
+    const sentenceLayer = schema.layers.find(({ id }) => id === "sentences");
+    assert.deepEqual(
+        sentenceLayer.relationships
+            .filter(({ id }) => ["words", "particles"].includes(id))
+            .map(({ id, presentationRole }) => ({ id, presentationRole })),
+        [
+            { id: "words", presentationRole: "composition" },
+            { id: "particles", presentationRole: "composition" },
+        ],
+    );
     assert.equal(composites.length, 7);
     assert.deepEqual(
         composites.map(({ id }) => id),
@@ -190,6 +225,11 @@ test("content follows the current writing-unit and sentence contracts", async ()
     assert.ok(words.length > 0);
     assert.ok(particles.length > 0);
     assert.ok(sentences.length > 0);
+    assert.ok(
+        sentences.every(
+            ({ class: contentClass }) => contentClass === "composite",
+        ),
+    );
     const run = words.find(({ id }) => id === "en:word:run");
     assert.deepEqual(
         run?.references
@@ -232,6 +272,8 @@ test("content follows the current writing-unit and sentence contracts", async ()
                     relation: "definitions",
                 },
             ],
+            class: "grammar:punctuation",
+            editable: false,
         },
     );
 });
@@ -262,6 +304,12 @@ test("every seeded alphabet record resolves a module-owned definition string", a
     });
     const definitionsById = new Map(
         definitions.map((definition) => [definition.id, definition]),
+    );
+    assert.ok(
+        definitions.every(
+            ({ class: contentClass, hidden }) =>
+                contentClass === "definition" && hidden === true,
+        ),
     );
 
     for (const letter of alphabet) {
@@ -342,6 +390,7 @@ test("seeded vocabulary owns contextual localized definitions", async () => {
                 relation: "definitions",
             },
         ],
+        class: "lexical:article",
     });
     assert.notEqual(
         definitionsById.get("en:definition:word:a")?.fields.translations.en,

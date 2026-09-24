@@ -62,11 +62,17 @@ Rekaman kosakata kini mendemonstrasikan prioritas definisi PR #196 melalui kata 
 
 Skema versi 14 mengadopsi batas paket eksternal Cognis PR #226. Manifes konten menandai rekaman penyedia sebagai terlindungi dan membawa metadata katalog kompatibel JSON yang tervalidasi; metadata skema juga menerbitkan identitas penyedia yang stabil. Bootstrap kini mengambil kapabilitas publik `study:library:provider`, mewajibkan `inspectContentPack` dan `ingestContentPack`, menjalankan inspeksi tanpa mutasi terlebih dahulu, lalu meminta ingesti atomik. Semua bidang tetap memakai jenis bawaan yang tervalidasi sehingga tidak memerlukan celah validasi khusus.
 
+## Semantik penulisan dan relasi eksplisit
+
+Rilis resmi 14.1.0 mengembangkan versi kompatibilitas skema 14 di tempat, mengikuti migrasi paket pada implementasi referensi bahasa Jepang. Setiap rekaman kini memiliki kelas konten netral-penyedia; definisi disembunyikan, kalimat bersifat komposit, dan partikel secara eksplisit tidak dapat disunting. Relasi ejaan serta urutan yang sesungguhnya mendeklarasikan `composition`, sedangkan tautan definisi dan varian tidak memiliki peran resolver agar navigasi balik tetap terpadu tanpa mencemari judul tersusun. Skema bidang kini menyediakan kontrol penulisan terlokalisasi dan kontrak berkas audio khusus bahasa Inggris tanpa mengaktifkan editor milik modul.
+
 ## Dokumentasi dan kontrak
 
-Manifes mewajibkan `study:library:provider`, mengikuti kontrak aktivasi atomik milik host terkini, dan menerbitkan modul versi 1.2.35.
+Manifes mewajibkan `study:library:provider`, mengikuti kontrak aktivasi atomik milik host terkini, dan menerbitkan modul versi 1.2.36.
 
 ## Commit
+
+- [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/0c5afdd)
 
 - [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/0c579e3)
 

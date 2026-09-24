@@ -62,11 +62,17 @@ Vokabeldatensätze demonstrieren nun die Definitionspriorität aus PR #196 anhan
 
 Schemaversion 14 übernimmt die Grenze für externe Pakete aus Cognis PR #226. Das Inhaltsmanifest kennzeichnet Anbieterdatensätze als geschützt und enthält validierte JSON-kompatible Katalogmetadaten; die Schemametadaten veröffentlichen ebenfalls eine stabile Anbieteridentität. Der Bootstrap löst nun die öffentliche Capability `study:library:provider` auf, verlangt `inspectContentPack` und `ingestContentPack`, führt zuerst die nicht verändernde Prüfung durch und fordert anschließend den atomaren Import an. Alle Felder verwenden weiterhin validierte eingebaute Typen, sodass keine benutzerdefinierte Validierungsausnahme nötig ist.
 
+## Ausdrückliche Autoren- und Beziehungssemantik
+
+Die maßgebliche Version 14.1.0 entwickelt die Schemakompatibilitätsversion 14 am selben Ort weiter und folgt damit der Paketmigration der japanischen Referenzimplementierung. Jeder Datensatz trägt nun eine anbieterneutrale Inhaltsklasse; Definitionen sind ausgeblendet, Sätze zusammengesetzt und Partikeln ausdrücklich nicht bearbeitbar. Echte Schreib- und geordnete Sequenzbeziehungen deklarieren `composition`, während Definitions- und Variantenverknüpfungen keine Resolverrolle besitzen, sodass die Rückwärtsnavigation vereinheitlicht bleibt, ohne zusammengesetzte Titel zu verfälschen. Feldschemata bieten nun lokalisierte Autorensteuerelemente und einen auf Englisch begrenzten Audiodateivertrag, ohne einen moduleigenen Editor zu aktivieren.
+
 ## Dokumentation und Verträge
 
-Das Manifest verlangt `study:library:provider`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.35.
+Das Manifest verlangt `study:library:provider`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.36.
 
 ## Commits
+
+- [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/0c5afdd)
 
 - [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/0c579e3)
 

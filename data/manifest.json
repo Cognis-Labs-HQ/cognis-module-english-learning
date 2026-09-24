@@ -2,8 +2,8 @@
     "id": "english-core",
     "publisher": "Cognis Labs HQ",
     "namespace": "en",
-    "version": "14.0.0",
-    "contentRevision": "2026-09-23.1",
+    "version": "14.1.0",
+    "contentRevision": "2026-09-24.1",
     "schema": "schema.json",
     "content": "content",
     "license": {
@@ -12,7 +12,10 @@
     },
     "protected": true,
     "metadata": {
-        "contentKind": "language-core",
-        "features": ["alphabet", "composites", "vocabulary", "sentences"]
+        "catalog": {
+            "category": "language",
+            "featured": true
+        },
+        "tags": ["english", "study"]
     }
 }
