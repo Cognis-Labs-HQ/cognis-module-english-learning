@@ -4,7 +4,7 @@
 
 ## Materi pembelajaran berbasis kapabilitas
 
-Modul kini memasang paket konten bahasa Inggris deklaratifnya secara atomik melalui kapabilitas `study:library:provider` yang disediakan host. API, penyimpanan, halaman, dan entri navigasi pustaka yang rangkap telah dihapus demi rendering host berbasis skema.
+Modul kini memasang paket konten bahasa Inggris deklaratifnya secara atomik melalui kapabilitas `study:library` yang disediakan host. API, penyimpanan, halaman, dan entri navigasi pustaka yang rangkap telah dihapus demi rendering host berbasis skema.
 
 ## Gambar bendera Inggris
 
@@ -60,17 +60,23 @@ Rekaman kosakata kini mendemonstrasikan prioritas definisi PR #196 melalui kata 
 
 ## Kontrak paket eksternal resmi
 
-Skema versi 14 mengadopsi batas paket eksternal Cognis PR #226. Manifes konten menandai rekaman penyedia sebagai terlindungi dan membawa metadata katalog kompatibel JSON yang tervalidasi; metadata skema juga menerbitkan identitas penyedia yang stabil. Bootstrap kini mengambil kapabilitas publik `study:library:provider`, mewajibkan `inspectContentPack` dan `ingestContentPack`, menjalankan inspeksi tanpa mutasi terlebih dahulu, lalu meminta ingesti atomik. Semua bidang tetap memakai jenis bawaan yang tervalidasi sehingga tidak memerlukan celah validasi khusus.
+Skema versi 14 mengadopsi batas paket eksternal Cognis PR #226. Manifes konten menandai rekaman penyedia sebagai terlindungi dan membawa metadata katalog kompatibel JSON yang tervalidasi; metadata skema juga menerbitkan identitas penyedia yang stabil. Bootstrap kini mengambil kapabilitas `study:library` yang tersedia selama siklus hidup, mewajibkan `inspectContentPack` dan `ingestContentPack`, menjalankan inspeksi tanpa mutasi terlebih dahulu, lalu meminta ingesti atomik. Semua bidang tetap memakai jenis bawaan yang tervalidasi sehingga tidak memerlukan celah validasi khusus.
 
 ## Semantik penulisan dan relasi eksplisit
 
 Rilis resmi 14.1.0 mengembangkan versi kompatibilitas skema 14 di tempat, mengikuti migrasi paket pada implementasi referensi bahasa Jepang. Setiap rekaman kini memiliki kelas konten netral-penyedia; definisi disembunyikan, kalimat bersifat komposit, dan partikel secara eksplisit tidak dapat disunting. Relasi ejaan serta urutan yang sesungguhnya mendeklarasikan `composition`, sedangkan tautan definisi dan varian tidak memiliki peran resolver agar navigasi balik tetap terpadu tanpa mencemari judul tersusun. Skema bidang kini menyediakan kontrol penulisan terlokalisasi dan kontrak berkas audio khusus bahasa Inggris tanpa mengaktifkan editor milik modul.
 
+## Ketersediaan kapabilitas saat pengaktifan
+
+Modul kini mengikuti referensi bahasa Jepang yang berfungsi dengan mendeklarasikan dan mengambil kapabilitas `study:library` yang tersedia selama siklus hidup. Permukaan `study:library:provider` yang diterbitkan terpisah tidak dijamin tersedia saat prapemeriksaan dependensi modul eksternal, sehingga pengaktifan gagal dengan HTTP 409 sebelum bootstrap berjalan. Inspeksi hanya-baca dan ingesti atomik tetap berurutan melalui layanan Pustaka internal; perilaku validasi tidak berubah dan pengaktifan tidak lagi bergantung pada kapabilitas yang diterbitkan belakangan.
+
 ## Dokumentasi dan kontrak
 
-Manifes mewajibkan `study:library:provider`, mengikuti kontrak aktivasi atomik milik host terkini, dan menerbitkan modul versi 1.2.36.
+Manifes mewajibkan `study:library`, mengikuti kontrak aktivasi atomik milik host terkini, dan menerbitkan modul versi 1.2.37.
 
 ## Commit
+
+- [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/75314e2)
 
 - [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/0c5afdd)
 

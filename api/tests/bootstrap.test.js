@@ -11,7 +11,7 @@ test("registers the data-only English package through ctx", async () => {
     const ctx = {
         moduleRoot: process.cwd(),
         getCapability(name) {
-            assert.equal(name, "study:library:provider");
+            assert.equal(name, "study:library");
             return {
                 async inspectContentPack(root) {
                     registrations.packOperations.push({

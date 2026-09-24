@@ -6,7 +6,7 @@ const LANGUAGE = Object.freeze({
     languageCode: "en",
     languageName: "English",
     languageFlag: "GB",
-    version: "1.2.36",
+    version: "1.2.37",
 });
 
 async function ingestContentPack(library, moduleRoot) {
@@ -35,20 +35,16 @@ export async function bootstrapModule(ctx) {
         "languages",
         path.join(ctx.moduleRoot, "ui", "languages"),
     );
-    const library = ctx.getCapability("study:library:provider");
+    const library = ctx.getCapability("study:library");
     if (
         !library ||
         typeof library.inspectContentPack !== "function" ||
         typeof library.ingestContentPack !== "function"
     ) {
-        ctx.log?.(
-            "error",
-            "Study library provider capability is unavailable.",
-            {
-                component: "study-language-en",
-                operation: "ingest_content_pack",
-            },
-        );
+        ctx.log?.("error", "Study library capability is unavailable.", {
+            component: "study-language-en",
+            operation: "ingest_content_pack",
+        });
         throw new Error("study_library_unavailable");
     }
     let packageDescriptor;

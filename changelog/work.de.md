@@ -4,7 +4,7 @@
 
 ## Capability-gestützte Lerninhalte
 
-Das Modul installiert sein deklaratives englisches Inhaltspaket jetzt atomar über die vom Host bereitgestellte Capability `study:library:provider`. Die doppelte Bibliotheks-API samt Speicher, Seite und Navigationseintrag wurde zugunsten der schemagesteuerten Hostdarstellung entfernt.
+Das Modul installiert sein deklaratives englisches Inhaltspaket jetzt atomar über die vom Host bereitgestellte Capability `study:library`. Die doppelte Bibliotheks-API samt Speicher, Seite und Navigationseintrag wurde zugunsten der schemagesteuerten Hostdarstellung entfernt.
 
 ## Englische Flaggengrafik
 
@@ -60,17 +60,23 @@ Vokabeldatensätze demonstrieren nun die Definitionspriorität aus PR #196 anhan
 
 ## Maßgeblicher Vertrag für externe Pakete
 
-Schemaversion 14 übernimmt die Grenze für externe Pakete aus Cognis PR #226. Das Inhaltsmanifest kennzeichnet Anbieterdatensätze als geschützt und enthält validierte JSON-kompatible Katalogmetadaten; die Schemametadaten veröffentlichen ebenfalls eine stabile Anbieteridentität. Der Bootstrap löst nun die öffentliche Capability `study:library:provider` auf, verlangt `inspectContentPack` und `ingestContentPack`, führt zuerst die nicht verändernde Prüfung durch und fordert anschließend den atomaren Import an. Alle Felder verwenden weiterhin validierte eingebaute Typen, sodass keine benutzerdefinierte Validierungsausnahme nötig ist.
+Schemaversion 14 übernimmt die Grenze für externe Pakete aus Cognis PR #226. Das Inhaltsmanifest kennzeichnet Anbieterdatensätze als geschützt und enthält validierte JSON-kompatible Katalogmetadaten; die Schemametadaten veröffentlichen ebenfalls eine stabile Anbieteridentität. Der Bootstrap löst nun die während des Lebenszyklus verfügbare Capability `study:library` auf, verlangt `inspectContentPack` und `ingestContentPack`, führt zuerst die nicht verändernde Prüfung durch und fordert anschließend den atomaren Import an. Alle Felder verwenden weiterhin validierte eingebaute Typen, sodass keine benutzerdefinierte Validierungsausnahme nötig ist.
 
 ## Ausdrückliche Autoren- und Beziehungssemantik
 
 Die maßgebliche Version 14.1.0 entwickelt die Schemakompatibilitätsversion 14 am selben Ort weiter und folgt damit der Paketmigration der japanischen Referenzimplementierung. Jeder Datensatz trägt nun eine anbieterneutrale Inhaltsklasse; Definitionen sind ausgeblendet, Sätze zusammengesetzt und Partikeln ausdrücklich nicht bearbeitbar. Echte Schreib- und geordnete Sequenzbeziehungen deklarieren `composition`, während Definitions- und Variantenverknüpfungen keine Resolverrolle besitzen, sodass die Rückwärtsnavigation vereinheitlicht bleibt, ohne zusammengesetzte Titel zu verfälschen. Feldschemata bieten nun lokalisierte Autorensteuerelemente und einen auf Englisch begrenzten Audiodateivertrag, ohne einen moduleigenen Editor zu aktivieren.
 
+## Verfügbarkeit der Capability beim Aktivieren
+
+Das Modul folgt nun der funktionierenden japanischen Referenz und deklariert sowie bezieht die während des Lebenszyklus verfügbare Capability `study:library`. Die separat veröffentlichte Oberfläche `study:library:provider` ist bei der Abhängigkeitsvorprüfung externer Module nicht garantiert verfügbar; dadurch schlug die Aktivierung bereits vor dem Bootstrap mit HTTP 409 fehl. Schreibgeschützte Prüfung und atomarer Import bleiben über den internen Bibliotheksdienst geordnet, sodass das Validierungsverhalten unverändert bleibt und die Aktivierung nicht mehr von einer spät veröffentlichten Capability abhängt.
+
 ## Dokumentation und Verträge
 
-Das Manifest verlangt `study:library:provider`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.36.
+Das Manifest verlangt `study:library`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.37.
 
 ## Commits
+
+- [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/75314e2)
 
 - [Previous implementation](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/0c5afdd)
 

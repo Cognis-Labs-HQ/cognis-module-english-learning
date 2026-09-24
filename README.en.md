@@ -15,7 +15,7 @@ Cognis English is the installable English language-learning extension for the Co
 - Capitalized letters marked independently as alternate forms and spatial children of lowercase base cards.
 - A readable seven-column alphabet chart with four complete rows, numeric display positions, and localized definition-first labels.
 - Compact minimal cards limited to the alphabet character layer.
-- A declarative English content pack ingested through the host-provided `study:library:provider` capability.
+- A declarative English content pack ingested through the host-provided `study:library` capability.
 - Module-owned localized definition strings linked from every seeded alphabet record.
 - A `study:language:en` capability for Study integration without importing Cognis internals.
 - Localized schema and marketplace metadata in English, German, Indonesian, and Japanese.
