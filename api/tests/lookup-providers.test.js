@@ -230,3 +230,31 @@ test("content loading failures can retry and are logged by the owning provider",
         ),
     );
 });
+
+test("dictionary attribution retains approved sources while card detail metadata stays hidden", async () => {
+    const record = dictionaryRecord("swim");
+    record.license = {
+        name: "CC BY-SA 3.0",
+        url: "https://creativecommons.org/licenses/by-sa/3.0",
+    };
+    record.sourceUrls = [
+        "https://en.wiktionary.org/wiki/swim",
+        "javascript:unsafe",
+        "https://unrelated.test/word",
+    ];
+    const provider = dictionary(
+        async () => new Response(JSON.stringify([record])),
+    );
+    const [result] = await provider.lookup({ schema, layer, label: "swim" });
+    const attribution = JSON.parse(result.fields.dictionary_data);
+    assert.equal(attribution.license.name, "CC BY-SA 3.0");
+    assert.deepEqual(attribution.sourceUrls, [
+        "https://en.wiktionary.org/wiki/swim",
+    ]);
+    const { readFile } = await import("node:fs/promises");
+    const descriptor = JSON.parse(await readFile("data/schema.json", "utf8"));
+    const metadataField = descriptor.layers
+        .find(({ id }) => id === "words")
+        .fields.find(({ id }) => id === "dictionary_data");
+    assert.equal(metadataField.detail.hidden, true);
+});
