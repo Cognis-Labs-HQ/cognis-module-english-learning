@@ -1,0 +1,459 @@
+[
+    {
+        "id": "en:word:new",
+        "label": "new",
+        "fields": {
+            "part_of_speech": "adjective",
+            "pronunciation": ["/njuː/"]
+        },
+        "class": "lexical:adjective",
+        "tags": ["adjective", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:w-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:word:new",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:old",
+        "label": "old",
+        "fields": {
+            "part_of_speech": "adjective",
+            "pronunciation": ["/əʊld/"]
+        },
+        "class": "lexical:adjective",
+        "tags": ["adjective", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:word:old",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:happy",
+        "label": "happy",
+        "fields": {
+            "part_of_speech": "adjective",
+            "pronunciation": ["/ˈhæpi/"]
+        },
+        "class": "lexical:adjective",
+        "tags": ["adjective", "beginner", "paradigm-happy"],
+        "references": [
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:p-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:p-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:y-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:word:happy",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:sad",
+        "label": "sad",
+        "fields": {
+            "part_of_speech": "adjective",
+            "pronunciation": ["/sæd/"]
+        },
+        "class": "lexical:adjective",
+        "tags": ["adjective", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:word:sad",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:hot",
+        "label": "hot",
+        "fields": {
+            "part_of_speech": "adjective",
+            "pronunciation": ["/hɒt/"]
+        },
+        "class": "lexical:adjective",
+        "tags": ["adjective", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:word:hot",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:cold",
+        "label": "cold",
+        "fields": {
+            "part_of_speech": "adjective",
+            "pronunciation": ["/kəʊld/"]
+        },
+        "class": "lexical:adjective",
+        "tags": ["adjective", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:c-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:word:cold",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:fast",
+        "label": "fast",
+        "fields": {
+            "part_of_speech": "adjective",
+            "pronunciation": ["/fɑːst/"]
+        },
+        "class": "lexical:adjective",
+        "tags": ["adjective", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:f-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:word:fast",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:slow",
+        "label": "slow",
+        "fields": {
+            "part_of_speech": "adjective",
+            "pronunciation": ["/sləʊ/"]
+        },
+        "class": "lexical:adjective",
+        "tags": ["adjective", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:w-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:word:slow",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:beautiful",
+        "label": "beautiful",
+        "fields": {
+            "part_of_speech": "adjective",
+            "pronunciation": ["/ˈbjuːtɪfəl/"]
+        },
+        "class": "lexical:adjective",
+        "tags": ["adjective", "beginner", "paradigm-beautiful"],
+        "references": [
+            {
+                "entryId": "en:char:b-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:char:f-lowercase",
+                "relation": "spelling",
+                "position": 6
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "spelling",
+                "position": 7
+            },
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "spelling",
+                "position": 8
+            },
+            {
+                "entryId": "en:definition:word:beautiful",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:important",
+        "label": "important",
+        "fields": {
+            "part_of_speech": "adjective",
+            "pronunciation": ["/ɪmˈpɔːtənt/"]
+        },
+        "class": "lexical:adjective",
+        "tags": ["adjective", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:m-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:p-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 6
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 7
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 8
+            },
+            {
+                "entryId": "en:definition:word:important",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:one",
+        "label": "one",
+        "fields": {
+            "part_of_speech": "numeral",
+            "pronunciation": ["/wʌn/"]
+        },
+        "class": "lexical:numeral",
+        "tags": ["numeral", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:word:one",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:two",
+        "label": "two",
+        "fields": {
+            "part_of_speech": "numeral",
+            "pronunciation": ["/tuː/"]
+        },
+        "class": "lexical:numeral",
+        "tags": ["numeral", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:w-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:word:two",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

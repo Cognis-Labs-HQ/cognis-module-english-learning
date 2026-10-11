@@ -1,44 +1,41 @@
 # Cognis English Module
 
-The Cognis English module provides an installable English learning experience for the Cognis Study gateway, as a versioned, declarative data-only content pack.
+Cognis English 1.3.0 supplies a versioned learning graph, English dictionary enrichment, original print-letter writing guides and four starter decks. Cognis owns the learning UI and all user data.
 
 ## Usage Examples
 
-- Open `/study/library` to explore the English content through the schema-driven shared Study library.
-- Resolve the host-provided `study:library` capability to access the versioned `en` content pack with localized schema metadata, semantic layer roles, and definition relationships backed by module-owned strings.
-- Resolve the `study:language:en` capability to obtain the canonical `languageCode: "en"` descriptor used by the generated Study sub-navigation button.
+- Explore `/study/explore/en/alphabet`, `/study/explore/en/letter-combinations`, `/study/explore/en/vocabulary`, `/study/explore/en/particles` and `/study/explore/en/sentences`.
+- Search with Free Dictionary in the Study navigation; selected vocabulary results populate the host composer.
+- Browse the English Alphabet, First English Words, Everyday English Verbs and First English Sentences decks under `/study/flashcards`. Cognis manages deck study, favourites and sharing.
 
 ## Technical Specification
 
-The module is a read-only external Cognis extension. Its permanent UUID identifies it across releases, and its `requires` entry declares the Study gateway by UUID.
+### Provider contract and lifecycle
 
-### Integration Contract
+The permanent module UUID is `b1adc29f-9d54-5785-9bea-2ce76f1981e4`; the required Study gateway UUID is `338b9237-a2c8-5bcf-9437-bccc9abd9a27`. Bootstrap requires `ctx.capabilities.require("study:library:provider")` with working `ingestContentPack`, `registerLookupProvider` and `deleteContentPack` methods. It registers the writing and dictionary providers, ingests `data/`, then publishes `study:language:en` and a removable `bootstrap-platform` flow contribution. The descriptor has `code`, `languageCode`, module version, package and `starterDecks`.
 
-- `bootstrap.js` is the only platform integration entrypoint.
-- Browser exposure is restricted to `ui/languages`; the data-only module contributes no host UI extension and no platform-bootstrap stage hook.
-- The supplied `ctx` is the only cross-component bus for capability, flow, and locale-resource registrations.
-- Runtime imports remain repository-relative and never access Cognis internals or sibling components.
-- Scoped registrations are removable when the module is disabled or uninstalled.
+Lookup registrations are removed on disable or failed activation. Host-scoped routes, static directories, capabilities and hooks follow the module lifecycle. An administrator-only `DELETE /api/v1/modules/study-language-en/config` returns 204 and remains available when disabled; the module stores no configuration. On uninstall, `deleteContent: false` retains the pack; `true` invokes the lifecycle-available provider's `deleteContentPack`. Cognis owns transactional cascade deletion and notifications. Failures propagate with safe structured logs.
 
-- The uninstall hook records lifecycle cleanup; the module has no saved configuration or user-owned content because its learning datasets are read-only packaged files.
+### Content graph
 
-### Current Study data model
+Pack `english-core` 15.0.0, schema `english` revision 15 and content revision `2026-10-11.1` preserve the existing namespace and record identities. The pack contains 635 records: 52 alphabet entries, 17 letter combinations, 123 visible vocabulary entries, 135 hidden inflections, 10 hidden capitalized sentence starters, 21 grammar/punctuation entries, 45 sentences and 232 hidden definitions. All definitions have English, German, Indonesian and Japanese meanings. Definition localization uses the host's `studyenglish:definitions` prefix; marketplace keys use `module.study_language_en.*`.
 
-Schema version 14 models alphabet entries as atomic writing units with pronunciation lists and HTTPS audio references. It links words to ordered letter spellings and localized definitions, introduces grammatical particles, and composes sentences from ordered word and particle references. Audio remains remote, so the module ships no binary media. It also models common digraphs as compound writing units whose resolver-backed composition references are distinct from their localized definition references. The alphabet publishes a fixed chart grid, and required metadata filters declare their initial tags. The lowercase chart cards are addressed by stable numeric display IDs, and every capitalized alternate uses a relationship that explicitly marks both its alternate-form identity and its lowercase conceptual parent. Word, particle, and sentence cards prefer their required localized definition instead of exposing internal record labels. Only the alphabet character layer requests minimal cards, so its entries show compact primary labels while composites and every higher-level layer retain their full presentation. Sentence labels must be reconstructed exactly after whitespace normalization from contiguous ordered lexical-unit and particle references; the seeded period is therefore an explicit punctuation particle rather than unlinked label text. The alphabet uses seven columns and two explicit trailing blanks to form four balanced rows. Letter records include their names and common IPA phonemes, while seven seeded digraphs cover `ch`, `sh`, `th`, `ph`, `wh`, `ng`, and `ck`. Variant relationships no longer prescribe a direction; `variant: true` identifies the alternate form while `child: true` independently opts it into the spatial hierarchy, and the current host selects a bounded available position dynamically. Seeded vocabulary records own localized meanings whenever their lexical concept differs from a source character; for example, the word `a` is defined as an indefinite article rather than inheriting “The letter A.” The host’s source-definition fallback is therefore reserved for lexical entries with no supplied meaning and is cleared for unrelated navigation. The pack declares `protected: true` so provider-owned records cannot be moved or deleted, and publishes JSON-compatible catalog metadata in both the pack manifest and schema. Bootstrap resolves the lifecycle-available `study:library` capability, performs its read-only `inspectContentPack` preflight, and only then requests atomic ingestion. The authoritative 14.1.0 pack evolves schema compatibility version 14 in place: content records now publish provider-neutral classes, definitions are explicitly hidden, particles are non-editable, and true spelling or sequence edges declare `presentationRole: "composition"`. Definition, variant, and reverse-dependency edges remain non-resolver relationships so they appear only through unified reverse navigation. Editable fields publish localized `input` contracts, including bounded English audio-file selection.
+Ordered spelling and sentence references resolve to actual records. Hidden inflection cards provide literal targets for seeded sentence validation; interactive forms use 37 declarative verb, copula and adjective paradigms, including irregular forms and their IPA. IPA readings remain speech notation rather than being linked to unrelated alphabet glyphs. Capitalized sentence starters preserve actual sentence text. Grammar particles include negation, prepositions, conjunctions and punctuation, and are non-editable. Definition relationships have a maximum of ten.
 
-### Bootstrap failure policy
+The form contracts declare alphabet/composite writing fields, vocabulary spelling carousels, sentence word/particle carousels and a sentence-structure carousel. The host controls form validation, UUID resolution, literal spacing, imports, limits and user notifications. The alphabet retains its seven-column chart and uppercase child variants. Only atomic letters request minimal previews.
 
-Content ingestion and the `study:language:en` capability are the module’s complete runtime behavior. The current host performs content imports atomically and returns the module to its disabled state after any remaining bootstrap failure, so the module follows that host-owned policy without a manifest override.
+### Writing guides and media
 
-### Security
+Every alphabet and letter-combination record has an original normalized JSON print-letter guide with ordered strokes, timestamps and per-character groups. The stroke provider returns cloned packaged patterns and performs no remote request. These are introductory print guides, not a mandatory handwriting style. No binary media is shipped. Audio is optional: external TTS URLs are not valid packaged audio assets and are therefore omitted. Cognis may use its own pronunciation facilities or user-uploaded audio.
 
-- The manifest explicitly requests privileged registration because the public `study:language:en` capability belongs to the host namespace protected by PR #220; the module does not use that privilege for host routes or security-sensitive flows.
+### Dictionary boundary
 
-- The host Library validates the package namespace, semantic version, license, safe paths, localized schema, typed fields, and complete record graph before an atomic write.
-- Ingestion failures are sent to the host logger with safe structured metadata.
+Free Dictionary queries `https://api.dictionaryapi.dev/api/v2/entries/en/<word>` for English vocabulary only. It is searchable, versioned and field-focused; it does not translate sentences or supply writing guidance. Input is restricted to bounded English words, the endpoint is fixed, redirects are rejected, requests have a 15-second timeout and responses are validated and bounded. Duplicate readings/glosses are removed while source order is retained, and at most ten definitions/readings are returned. Source/license attribution is retained in hidden `dictionary_data`; externally supplied meanings stay English until the host's localization facility supplies other languages. See the dictionary documentation for details.
 
-### Release Process
+Native records retain their curated primary IPA and paradigm tags. New alphabet-only spellings link to packaged letters; unknown verbs receive no guessed irregular paradigm. A 404 uses a genuine native match when available, while failed/malformed requests produce a safe error. Cognis core owns persisted query caching, one-hour probes and twelve-hour changed-result publication. The module only retains immutable content indexes, not dictionary-response caches or timers.
 
-- Keep the versions in `manifest.json`, `package.json`, and `package-lock.json` synchronized, and never change the module UUID.
-- Run `npm install`, `npm test`, `npm run lint`, `npm run manifest:hashes`, `npm run check:manifest`, and `git diff --check` before committing a release.
-- Regenerate `manifest.files` after the final shipped-file change so every repository-relative path and SHA-256 digest remains verifiable.
+### Packaging and validation
+
+Privilege is needed for the host-owned language namespace; it does not bypass Study permissions. Runtime imports are repository-relative and tests use local public-contract fakes. All four locale bundles and documentation variants ship together. Original content and guides use the pack's AGPL-3.0-or-later license; dictionary results retain their external attribution separately.
+
+Run `npm install`, `npm run manifest:hashes`, `npm test`, `npm run lint`, `npm run check:manifest` and `git diff --check`. After final shipped-file edits, regenerate manifest hashes. Changelogs are release metadata outside the packaged inventory.

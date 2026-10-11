@@ -28,5 +28,290 @@
         ],
         "class": "grammar:punctuation",
         "editable": false
+    },
+    {
+        "id": "en:particle:to",
+        "label": "to",
+        "fields": {
+            "function": "infinitive"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:particle:to",
+                "relation": "definitions"
+            }
+        ],
+        "class": "grammar:infinitive",
+        "editable": false
+    },
+    {
+        "id": "en:particle:in",
+        "label": "in",
+        "fields": {
+            "function": "preposition"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:particle:in",
+                "relation": "definitions"
+            }
+        ],
+        "class": "grammar:preposition",
+        "editable": false
+    },
+    {
+        "id": "en:particle:on",
+        "label": "on",
+        "fields": {
+            "function": "preposition"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:particle:on",
+                "relation": "definitions"
+            }
+        ],
+        "class": "grammar:preposition",
+        "editable": false
+    },
+    {
+        "id": "en:particle:at",
+        "label": "at",
+        "fields": {
+            "function": "preposition"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:particle:at",
+                "relation": "definitions"
+            }
+        ],
+        "class": "grammar:preposition",
+        "editable": false
+    },
+    {
+        "id": "en:particle:from",
+        "label": "from",
+        "fields": {
+            "function": "preposition"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:particle:from",
+                "relation": "definitions"
+            }
+        ],
+        "class": "grammar:preposition",
+        "editable": false
+    },
+    {
+        "id": "en:particle:with",
+        "label": "with",
+        "fields": {
+            "function": "preposition"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:particle:with",
+                "relation": "definitions"
+            }
+        ],
+        "class": "grammar:preposition",
+        "editable": false
+    },
+    {
+        "id": "en:particle:for",
+        "label": "for",
+        "fields": {
+            "function": "preposition"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:particle:for",
+                "relation": "definitions"
+            }
+        ],
+        "class": "grammar:preposition",
+        "editable": false
+    },
+    {
+        "id": "en:particle:of",
+        "label": "of",
+        "fields": {
+            "function": "preposition"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:particle:of",
+                "relation": "definitions"
+            }
+        ],
+        "class": "grammar:preposition",
+        "editable": false
+    },
+    {
+        "id": "en:particle:up",
+        "label": "up",
+        "fields": {
+            "function": "adverbial"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:particle:up",
+                "relation": "definitions"
+            }
+        ],
+        "class": "grammar:adverbial",
+        "editable": false
+    },
+    {
+        "id": "en:particle:down",
+        "label": "down",
+        "fields": {
+            "function": "adverbial"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:particle:down",
+                "relation": "definitions"
+            }
+        ],
+        "class": "grammar:adverbial",
+        "editable": false
+    },
+    {
+        "id": "en:particle:and",
+        "label": "and",
+        "fields": {
+            "function": "conjunction"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:particle:and",
+                "relation": "definitions"
+            }
+        ],
+        "class": "grammar:conjunction",
+        "editable": false
+    },
+    {
+        "id": "en:particle:but",
+        "label": "but",
+        "fields": {
+            "function": "conjunction"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:particle:but",
+                "relation": "definitions"
+            }
+        ],
+        "class": "grammar:conjunction",
+        "editable": false
+    },
+    {
+        "id": "en:particle:or",
+        "label": "or",
+        "fields": {
+            "function": "conjunction"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:particle:or",
+                "relation": "definitions"
+            }
+        ],
+        "class": "grammar:conjunction",
+        "editable": false
+    },
+    {
+        "id": "en:particle:because",
+        "label": "because",
+        "fields": {
+            "function": "conjunction"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:particle:because",
+                "relation": "definitions"
+            }
+        ],
+        "class": "grammar:conjunction",
+        "editable": false
+    },
+    {
+        "id": "en:particle:if",
+        "label": "if",
+        "fields": {
+            "function": "conjunction"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:particle:if",
+                "relation": "definitions"
+            }
+        ],
+        "class": "grammar:conjunction",
+        "editable": false
+    },
+    {
+        "id": "en:particle:comma",
+        "label": ",",
+        "fields": {
+            "function": "punctuation"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:particle:comma",
+                "relation": "definitions"
+            }
+        ],
+        "class": "grammar:punctuation",
+        "editable": false
+    },
+    {
+        "id": "en:particle:question",
+        "label": "?",
+        "fields": {
+            "function": "punctuation"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:particle:question",
+                "relation": "definitions"
+            }
+        ],
+        "class": "grammar:punctuation",
+        "editable": false
+    },
+    {
+        "id": "en:particle:exclamation",
+        "label": "!",
+        "fields": {
+            "function": "punctuation"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:particle:exclamation",
+                "relation": "definitions"
+            }
+        ],
+        "class": "grammar:punctuation",
+        "editable": false
+    },
+    {
+        "id": "en:particle:by",
+        "label": "by",
+        "fields": {
+            "function": "preposition"
+        },
+        "class": "grammar:preposition",
+        "editable": false,
+        "references": [
+            {
+                "entryId": "en:definition:particle:by",
+                "relation": "definitions"
+            }
+        ]
     }
 ]

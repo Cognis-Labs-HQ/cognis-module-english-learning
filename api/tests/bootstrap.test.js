@@ -1,87 +1,189 @@
 import assert from "node:assert/strict";
+import path from "node:path";
 import test from "node:test";
 import { bootstrapModule, uninstallModule } from "../../bootstrap.js";
 
-test("registers the data-only English package through ctx", async () => {
-    const registrations = {
-        staticDirectories: [],
+function context(failure) {
+    const calls = {
+        providers: [],
+        removed: [],
         capabilities: [],
-        packOperations: [],
+        imports: [],
+        routes: [],
+        logs: [],
+        hooks: [],
+    };
+    const provider = {
+        registerLookupProvider(value) {
+            calls.providers.push(value);
+            return () => calls.removed.push(value.id);
+        },
+        async ingestContentPack(root) {
+            if (failure === "ingest") throw new Error("ingestion_failed");
+            calls.imports.push(root);
+            return {
+                packId: "english-core",
+                contentRevision: "2026-10-11.1",
+                unchanged: false,
+            };
+        },
+        async deleteContentPack(root) {
+            calls.deleted = root;
+        },
     };
     const ctx = {
         moduleRoot: process.cwd(),
+        capabilities: {
+            require(name) {
+                assert.equal(name, "study:library:provider");
+                return provider;
+            },
+        },
         getCapability(name) {
-            assert.equal(name, "study:library");
-            return {
-                async inspectContentPack(root) {
-                    registrations.packOperations.push({
-                        operation: "inspect",
-                        root,
-                    });
-                },
-                async ingestContentPack(root) {
-                    assert.equal(root, `${process.cwd()}/data`);
-                    registrations.packOperations.push({
-                        operation: "ingest",
-                        root,
-                    });
-                },
-            };
+            assert.equal(name, "study:library:provider");
+            return provider;
         },
         registerStaticDir(prefix, root) {
-            registrations.staticDirectories.push({ prefix, root });
+            calls.static = { prefix, root };
+        },
+        registerApiDelete(route, handler, options) {
+            calls.routes.push({ route, handler, options });
         },
         contributePublicCapability(name, value) {
-            registrations.capabilities.push([name, value]);
+            if (failure === "publish") throw new Error("publication_failed");
+            calls.capabilities.push({ name, value });
+        },
+        flow: {
+            extend(...args) {
+                if (failure === "flow") throw new Error("registration_failed");
+                calls.hooks.push(args);
+            },
+        },
+        log(level, message, metadata) {
+            calls.logs.push({ level, message, metadata });
         },
     };
-    await bootstrapModule(ctx);
-    assert.deepEqual(registrations.staticDirectories, [
-        {
-            prefix: "languages",
-            root: `${process.cwd()}/ui/languages`,
-        },
-    ]);
-    assert.deepEqual(registrations.packOperations, [
-        { operation: "inspect", root: `${process.cwd()}/data` },
-        { operation: "ingest", root: `${process.cwd()}/data` },
-    ]);
-    assert.equal(registrations.capabilities[0][0], "study:language:en");
-    assert.equal(registrations.capabilities[0][1].languageCode, "en");
-    assert.equal(registrations.capabilities[0][1].languageName, "English");
-    assert.equal(registrations.capabilities[0][1].code, undefined);
-    assert.equal(
-        registrations.capabilities[0][1].moduleId,
-        "study-language-en",
+    return { ctx, calls, provider };
+}
+
+test("registers providers, ingests the pack, and publishes the language through ctx", async () => {
+    const { ctx, calls } = context();
+    const dispose = await bootstrapModule(ctx);
+    assert.deepEqual(calls.imports, [path.join(process.cwd(), "data")]);
+    assert.equal(calls.capabilities[0].name, "study:language:en");
+    const descriptor = calls.capabilities[0].value;
+    assert.equal(descriptor.code, "en");
+    assert.equal(descriptor.languageCode, "en");
+    assert.equal(descriptor.version, "1.3.0");
+    assert.equal(descriptor.starterDecks.length, 4);
+    assert.deepEqual(
+        calls.providers.map(({ capabilities }) => capabilities),
+        [["strokePattern"], ["dictionary"]],
     );
-    assert.equal(registrations.capabilities[0][1].package.namespace, "en");
-    assert.equal(registrations.capabilities[0][1].package.version, "14.1.0");
-    assert.equal(
-        Object.isFrozen(registrations.capabilities[0][1].package),
-        true,
+    assert.equal(calls.providers[1].searchable, true);
+    assert.deepEqual(calls.static, {
+        prefix: "languages",
+        root: path.join(process.cwd(), "ui", "languages"),
+    });
+    assert.equal(calls.hooks[0][0], "bootstrap-platform");
+    assert.equal(calls.hooks[0][3](), descriptor);
+    dispose();
+    dispose();
+    assert.deepEqual(
+        calls.removed,
+        calls.providers.map(({ id }) => id).reverse(),
+    );
+    const nextDispose = await bootstrapModule(ctx);
+    nextDispose();
+    assert.equal(calls.removed.length, 4);
+});
+
+test("config cleanup remains available to administrators while disabled", async () => {
+    const { ctx, calls } = context();
+    const dispose = await bootstrapModule(ctx);
+    const { route, handler, options } = calls.routes[0];
+    assert.equal(route, "/api/v1/modules/study-language-en/config");
+    assert.deepEqual(options, {
+        access: { minRole: "admin" },
+        allowWhenDisabled: true,
+    });
+    let status;
+    let ended = false;
+    handler(
+        {},
+        {
+            writeHead(value) {
+                status = value;
+            },
+            end() {
+                ended = true;
+            },
+        },
+    );
+    assert.equal(status, 204);
+    assert.equal(ended, true);
+    dispose();
+});
+
+test("failed activation unregisters both providers and logs safe failure details", async () => {
+    for (const failure of ["ingest", "publish", "flow"]) {
+        const { ctx, calls } = context(failure);
+        await assert.rejects(bootstrapModule(ctx));
+        assert.equal(calls.removed.length, 2);
+        assert.equal(calls.logs.at(-1).metadata.fatal, true);
+        assert.equal(calls.logs.at(-1).metadata.errorName, "Error");
+    }
+});
+
+test("activation requires a complete provider contract before registering anything", async () => {
+    for (const method of [
+        "ingestContentPack",
+        "registerLookupProvider",
+        "deleteContentPack",
+    ]) {
+        const { ctx, provider, calls } = context();
+        delete provider[method];
+        await assert.rejects(
+            bootstrapModule(ctx),
+            /Invalid Study Library provider capability/,
+        );
+        assert.equal(calls.providers.length, 0);
+    }
+    await assert.rejects(
+        bootstrapModule({
+            capabilities: {
+                require() {
+                    throw new Error("provider_unavailable");
+                },
+            },
+        }),
+        /provider_unavailable/,
     );
 });
 
-test("supports uninstall cleanup without deleting packaged learning data", async () => {
-    const entries = [];
-    await uninstallModule(
-        {
-            log(level, message, metadata) {
-                entries.push({ level, message, metadata });
-            },
-        },
-        { deleteContent: true },
-    );
+test("uninstall retains or deletes content according to the host decision", async () => {
+    const { ctx, calls } = context();
+    await uninstallModule(ctx, { deleteContent: false });
+    assert.equal(calls.logs.at(-1).metadata.deleteContent, false);
+    await uninstallModule(ctx, { deleteContent: true });
+    assert.equal(calls.deleted, path.join(ctx.moduleRoot, "data"));
+    assert.equal(calls.logs.at(-1).metadata.operation, "delete_content_pack");
+});
 
-    assert.deepEqual(entries, [
-        {
-            level: "info",
-            message: "English learning module cleanup completed.",
-            metadata: {
-                component: "study-language-en",
-                operation: "uninstall_cleanup",
-                deleteContent: true,
-            },
-        },
-    ]);
+test("uninstall surfaces cleanup failures without claiming success", async () => {
+    const { ctx, provider, calls } = context();
+    provider.deleteContentPack = async () => {
+        throw new Error("private_runtime_details");
+    };
+    await assert.rejects(
+        uninstallModule(ctx, { deleteContent: true }),
+        /private_runtime_details/,
+    );
+    assert.equal(calls.logs.at(-1).level, "error");
+    assert.equal(calls.logs.at(-1).metadata.errorName, "Error");
+    delete provider.deleteContentPack;
+    await assert.rejects(
+        uninstallModule(ctx, { deleteContent: true }),
+        /cleanup_unavailable/,
+    );
 });

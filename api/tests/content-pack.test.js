@@ -1,399 +1,231 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
+import { readContentLayers } from "../../reuse/content.js";
 
-test("content pack declares valid records for the English schema", async () => {
-    const manifest = JSON.parse(await readFile("data/manifest.json", "utf8"));
-    const schema = JSON.parse(await readFile("data/schema.json", "utf8"));
-    const alphabet = JSON.parse(
-        await readFile("data/content/alphabet/common.json", "utf8"),
+const schema = JSON.parse(await readFile("data/schema.json", "utf8"));
+const manifest = JSON.parse(await readFile("data/manifest.json", "utf8"));
+const layers = await readContentLayers(
+    "data/content",
+    schema.layers.map(({ id }) => id),
+);
+const entries = new Map(
+    [...layers.values()].flat().map((record) => [record.id, record]),
+);
+
+function layerSchema(id) {
+    return schema.layers.find((layer) => layer.id === id);
+}
+
+function assertStrokePattern(pattern) {
+    assert.equal(pattern.coordinateSystem, "normalized");
+    assert.ok(pattern.strokes.length > 0);
+    assert.equal(
+        pattern.groups.reduce((total, count) => total + count, 0),
+        pattern.strokes.length,
     );
+    assert.equal(pattern.groups.length, pattern.columns);
+    for (const stroke of pattern.strokes) {
+        assert.ok(stroke.points.length >= 2);
+        for (const [index, point] of stroke.points.entries()) {
+            assert.ok(point.x >= 0 && point.x <= 1);
+            assert.ok(point.y >= 0 && point.y <= 1);
+            if (index) assert.ok(point.time > stroke.points[index - 1].time);
+        }
+    }
+}
 
+test("pack declares a stable English namespace and usable provider schema", () => {
     assert.equal(manifest.id, "english-core");
-    assert.equal(manifest.namespace, "en");
-    assert.equal(manifest.schema, "schema.json");
+    assert.equal(manifest.namespace, schema.namespace);
     assert.equal(manifest.protected, true);
-    assert.deepEqual(manifest.metadata, {
-        catalog: { category: "language", featured: true },
-        tags: ["english", "study"],
-    });
     assert.equal(schema.id, "english");
-    assert.equal(schema.namespace, manifest.namespace);
-    assert.equal(schema.version, 14);
     assert.equal(schema.language, "en");
-    assert.equal(schema.metadata.labels.ja, "英語");
-    assert.deepEqual(schema.metadata.provider, {
-        moduleId: "study-language-en",
-        contract: "external-package",
-        stable: true,
-    });
-    assert.equal(alphabet.length, 52);
-    assert.deepEqual(alphabet[0], {
-        id: "en:char:a",
-        label: "A",
-        fields: {
-            symbol: "A",
-            pronunciation: ["ay", "/æ/", "/eɪ/", "/ɑː/"],
-            audio: "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=A&tl=en",
-        },
-        references: [
-            {
-                entryId: "en:definition:letter:a",
-                relation: "definition",
-            },
-            {
-                entryId: "en:char:a-lowercase",
-                relation: "variant-of",
-            },
-        ],
-        class: "writing:letter",
-    });
+    assert.equal(schema.version, 15);
+    assert.equal(manifest.version, "15.0.0");
+    assert.equal(schema.metadata.provider.moduleId, "study-language-en");
+    assert.equal(entries.size, [...layers.values()].flat().length);
+    for (const layer of schema.layers) {
+        assert.ok(layer.navigationSlug);
+        for (const relation of layer.relationships ?? []) {
+            assert.ok(layerSchema(relation.targetLayer));
+            if (relation.targetLayer === "definitions")
+                assert.ok(relation.maximum <= 10);
+        }
+    }
 });
 
-test("content follows the current writing-unit and sentence contracts", async () => {
-    const schema = JSON.parse(await readFile("data/schema.json", "utf8"));
-    const alphabet = JSON.parse(
-        await readFile("data/content/alphabet/common.json", "utf8"),
-    );
-    const composites = JSON.parse(
-        await readFile("data/content/composites/common.json", "utf8"),
-    );
-    const words = JSON.parse(
-        await readFile("data/content/words/common.json", "utf8"),
-    );
-    const particles = JSON.parse(
-        await readFile("data/content/particles/common.json", "utf8"),
-    );
-    const sentences = JSON.parse(
-        await readFile("data/content/sentences/common.json", "utf8"),
-    );
-    const alphabetLayer = schema.layers.find(
-        (layer) => layer.semanticRole === "atomicWritingUnit",
-    );
-    assert.deepEqual(
-        schema.layers.filter(({ minimal }) => minimal).map(({ id }) => id),
-        ["alphabet"],
-    );
-    assert.equal(
-        alphabetLayer.fields.find((field) => field.id === "pronunciation")
-            ?.type,
-        "stringList",
-    );
-    assert.equal(
-        alphabetLayer.fields.find((field) => field.id === "audio")?.type,
-        "audio",
-    );
-    assert.ok(
-        alphabet.every(
-            (letter) =>
-                Array.isArray(letter.fields.pronunciation) &&
-                letter.fields.pronunciation.length > 1 &&
-                letter.fields.pronunciation.some(
-                    (pronunciation) =>
-                        pronunciation.startsWith("/") &&
-                        pronunciation.endsWith("/"),
-                ) &&
-                letter.fields.audio.startsWith("https://"),
+test("all packaged references resolve to the declared target layer and bounded relationship", () => {
+    const sourceLayers = new Map(
+        [...layers].flatMap(([layer, records]) =>
+            records.map(({ id }) => [id, layer]),
         ),
     );
-    for (const capital of alphabet.slice(0, 26)) {
-        const lowercase = alphabet.find(
-            ({ id }) => id === `${capital.id}-lowercase`,
+    for (const [layer, records] of layers) {
+        const relations = new Map(
+            (layerSchema(layer).relationships ?? []).map((relation) => [
+                relation.id,
+                relation,
+            ]),
         );
-        assert.deepEqual(
-            capital.fields.pronunciation,
-            lowercase?.fields.pronunciation,
-            capital.id,
-        );
+        for (const record of records) {
+            assert.match(record.id, /^en:/);
+            for (const reference of record.references ?? []) {
+                const relation = relations.get(reference.relation);
+                assert.ok(relation, `${record.id}: ${reference.relation}`);
+                assert.ok(
+                    entries.has(reference.entryId),
+                    `${record.id}: ${reference.entryId}`,
+                );
+                assert.equal(
+                    sourceLayers.get(reference.entryId),
+                    relation.targetLayer,
+                );
+            }
+            for (const relation of relations.values()) {
+                const count = (record.references ?? []).filter(
+                    ({ relation: name }) => name === relation.id,
+                ).length;
+                assert.ok(count >= (relation.minimum ?? 0), record.id);
+                if (relation.maximum)
+                    assert.ok(count <= relation.maximum, record.id);
+            }
+            for (const field of layerSchema(layer).fields ?? []) {
+                if (field.required)
+                    assert.ok(
+                        record.fields?.[field.id] !== undefined,
+                        `${record.id}: ${field.id}`,
+                    );
+            }
+        }
     }
-    const lowercaseA = alphabet.find(({ id }) => id === "en:char:a-lowercase");
-    assert.equal(lowercaseA?.label, "a");
-    assert.equal(lowercaseA?.displayId, 1);
-    assert.equal(
-        lowercaseA?.references.some(
-            ({ relation }) => relation === "variant-of",
-        ),
-        false,
-    );
-    assert.deepEqual(
-        alphabet[0].references.find(
-            ({ relation }) => relation === "variant-of",
-        ),
-        { entryId: "en:char:a-lowercase", relation: "variant-of" },
-    );
-    const variantRelationship = alphabetLayer.relationships.find(
+});
+
+test("alphabet variants and letter combinations carry complete normalized writing guides", () => {
+    assert.equal(layers.get("alphabet").length, 52);
+    assert.equal(layers.get("composites").length, 17);
+    const variant = layerSchema("alphabet").relationships.find(
         ({ id }) => id === "variant-of",
     );
-    assert.equal(variantRelationship?.variant, true);
-    assert.equal(variantRelationship?.child, true);
-    assert.equal(Object.hasOwn(variantRelationship, "variantDirection"), false);
-    assert.deepEqual(alphabetLayer.grid, {
-        rowSize: 7,
-        items: [
-            ...Array.from({ length: 26 }, (_, index) => index + 1),
-            { blank: true },
-            { blank: true },
-        ],
-    });
-    const compositeLayer = schema.layers.find(
-        (layer) => layer.semanticRole === "compoundWritingUnit",
-    );
-    const composition = compositeLayer.relationships.find(
-        ({ id }) => id === "composition",
-    );
-    assert.equal(composition.resolverRole, "grapheme");
-    assert.equal(composition.presentationRole, "composition");
-    assert.equal(composition.targetLayer, "alphabet");
-    assert.equal(
-        alphabetLayer.fields.find(({ id }) => id === "audio")?.input?.control,
-        "audioFile",
-    );
-    assert.deepEqual(
-        alphabetLayer.fields.find(({ id }) => id === "audio")?.input?.file,
-        { namespace: "study-library-audio", prefix: "en/" },
-    );
-    for (const layerId of ["words", "particles", "sentences"]) {
-        assert.equal(
-            schema.layers.find(({ id }) => id === layerId)?.displayDefinition,
-            true,
-            layerId,
-        );
-    }
-    for (const layer of schema.layers) {
-        for (const relationship of layer.relationships ?? []) {
-            if (
-                ["definition", "definitions", "variant-of"].includes(
-                    relationship.id,
-                )
-            ) {
+    assert.equal(variant.child, true);
+    assert.equal(variant.variant, true);
+    for (const layer of ["alphabet", "composites"]) {
+        for (const record of layers.get(layer)) {
+            assertStrokePattern(record.fields.stroke_pattern);
+            assert.ok(record.fields.pronunciation.length);
+            if (layer === "composites") {
+                const spelling = record.references
+                    .filter(({ relation }) => relation === "composition")
+                    .toSorted((left, right) => left.position - right.position)
+                    .map(({ entryId }) => entries.get(entryId).label)
+                    .join("");
+                assert.equal(spelling, record.label);
                 assert.equal(
-                    relationship.resolverRole,
-                    undefined,
-                    relationship.id,
+                    record.fields.stroke_pattern.columns,
+                    [...record.label].length,
                 );
             }
         }
     }
-    const sentenceLayer = schema.layers.find(({ id }) => id === "sentences");
-    assert.deepEqual(
-        sentenceLayer.relationships
-            .filter(({ id }) => ["words", "particles"].includes(id))
-            .map(({ id, presentationRole }) => ({ id, presentationRole })),
-        [
-            { id: "words", presentationRole: "composition" },
-            { id: "particles", presentationRole: "composition" },
-        ],
-    );
-    assert.equal(composites.length, 7);
-    assert.deepEqual(
-        composites.map(({ id }) => id),
-        [
-            "en:composite:ch",
-            "en:composite:sh",
-            "en:composite:th",
-            "en:composite:ph",
-            "en:composite:wh",
-            "en:composite:ng",
-            "en:composite:ck",
-        ],
-    );
-    assert.deepEqual(
-        composites[0].references.map(({ relation }) => relation),
-        ["composition", "composition", "definitions"],
-    );
-    assert.equal(
-        schema.layers.find((layer) => layer.id === "particles")?.semanticRole,
-        "particle",
-    );
-    const partOfSpeech = schema.layers
-        .find((layer) => layer.id === "words")
-        ?.fields.find((field) => field.id === "part_of_speech");
-    assert.deepEqual(
-        {
-            group: partOfSpeech?.detail?.group,
-            exclusive: partOfSpeech?.detail?.exclusive,
-            required: partOfSpeech?.detail?.required,
-            defaultTag: partOfSpeech?.detail?.defaultTag,
-        },
-        {
-            group: "part-of-speech",
-            exclusive: true,
-            required: true,
-            defaultTag: "verb",
-        },
-    );
-    assert.ok(words.length > 0);
-    assert.ok(particles.length > 0);
-    assert.ok(sentences.length > 0);
-    assert.ok(
-        sentences.every(
-            ({ class: contentClass }) => contentClass === "composite",
-        ),
-    );
-    const run = words.find(({ id }) => id === "en:word:run");
-    assert.deepEqual(
-        run?.references
+});
+
+test("beginner vocabulary and grammar resolve genuine localized meanings and spellings", async () => {
+    const vocabulary = layers.get("words").filter(({ hidden }) => !hidden);
+    assert.equal(vocabulary.length, 123);
+    assert.equal(layers.get("particles").length, 21);
+    for (const record of vocabulary) {
+        const spellings = record.references
             .filter(({ relation }) => relation === "spelling")
-            .map(({ entryId }) => entryId),
-        ["en:char:r-lowercase", "en:char:u-lowercase", "en:char:n-lowercase"],
-    );
-    assert.deepEqual(
-        sentences[0].references
-            .filter(({ relation }) => relation !== "definitions")
-            .map(({ relation, position }) => ({ relation, position })),
-        [
-            { relation: "words", position: 0 },
-            { relation: "words", position: 1 },
-            { relation: "particles", position: 2 },
-            { relation: "words", position: 3 },
-            { relation: "particles", position: 4 },
-        ],
-    );
-    const sentenceConstituents = new Map(
-        [...words, ...particles].map(({ id, label }) => [id, label]),
-    );
-    const orderedSentenceLabels = sentences[0].references
-        .filter(({ position }) => position !== undefined)
-        .sort((left, right) => left.position - right.position)
-        .map(({ entryId }) => sentenceConstituents.get(entryId));
-    assert.equal(
-        orderedSentenceLabels.join("").replaceAll(/\s/gu, ""),
-        sentences[0].label.replaceAll(/\s/gu, ""),
-    );
-    assert.deepEqual(
-        particles.find(({ id }) => id === "en:particle:period"),
-        {
-            id: "en:particle:period",
-            label: ".",
-            fields: { function: "punctuation" },
-            references: [
-                {
-                    entryId: "en:definition:particle:period",
-                    relation: "definitions",
-                },
-            ],
-            class: "grammar:punctuation",
-            editable: false,
-        },
-    );
-});
-
-test("every seeded alphabet record resolves a module-owned definition string", async () => {
-    const schema = JSON.parse(await readFile("data/schema.json", "utf8"));
-    const alphabet = JSON.parse(
-        await readFile("data/content/alphabet/common.json", "utf8"),
-    );
-    const definitions = JSON.parse(
-        await readFile("data/content/definitions/common.json", "utf8"),
-    );
-    const localeDocuments = Object.fromEntries(
-        await Promise.all(
-            ["de", "en", "id", "ja"].map(async (locale) => [
-                locale,
-                await readFile(`ui/languages/${locale}/strings.xml`, "utf8"),
-            ]),
-        ),
-    );
-    const definitionLayer = schema.layers.find(
-        (layer) => layer.semanticRole === "definition",
-    );
-    assert.deepEqual(definitionLayer.definitionLocalization, {
-        stringKeyPrefix: "studyenglish:definitions",
-        stringKeyField: "string_key",
-        translationsField: "translations",
-    });
-    const definitionsById = new Map(
-        definitions.map((definition) => [definition.id, definition]),
-    );
-    assert.ok(
-        definitions.every(
-            ({ class: contentClass, hidden }) =>
-                contentClass === "definition" && hidden === true,
-        ),
-    );
-
-    for (const letter of alphabet) {
-        const definitionReference = letter.references.find(
-            (reference) => reference.relation === "definition",
-        );
-        const definition = definitionsById.get(definitionReference?.entryId);
-        assert.ok(definition, `${letter.id} definition`);
+            .toSorted((left, right) => left.position - right.position)
+            .map(({ entryId }) => entries.get(entryId).label)
+            .join("");
+        assert.equal(spellings, record.label.replaceAll(" ", ""));
         assert.ok(
-            definition.fields.string_key.startsWith(
-                `${definitionLayer.definitionLocalization.stringKeyPrefix}:`,
+            record.fields.pronunciation.every((reading) =>
+                /^\/.+\/$/.test(reading),
             ),
-            `${definition.id} string key prefix`,
         );
-        for (const [locale, document] of Object.entries(localeDocuments)) {
-            const translation = definition.fields.translations[locale];
-            assert.ok(translation, `${definition.id} ${locale}`);
-            assert.match(
-                document,
-                new RegExp(
-                    `name="${definition.fields.string_key}"[^>]*>${translation.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}<`,
+    }
+    const resources = Object.fromEntries(
+        await Promise.all(
+            ["en", "de", "id", "ja"].map(async (language) => [
+                language,
+                await readFile(`ui/languages/${language}/strings.xml`, "utf8"),
+            ]),
+        ),
+    );
+    for (const definition of layers.get("definitions")) {
+        assert.equal(definition.hidden, true);
+        for (const language of Object.keys(resources)) {
+            assert.ok(definition.fields.translations[language]);
+            assert.ok(
+                resources[language].includes(
+                    `name="${definition.fields.string_key}"`,
                 ),
             );
+        }
+    }
+    for (const record of layers.get("particles"))
+        assert.equal(record.editable, false);
+});
+
+test("all 45 sentences preserve every ordered word, inflection, and punctuation", () => {
+    assert.equal(layers.get("sentences").length, 45);
+    for (const sentence of layers.get("sentences")) {
+        const constituents = sentence.references
+            .filter(({ relation }) => relation !== "definitions")
+            .toSorted((left, right) => left.position - right.position);
+        assert.deepEqual(
+            constituents.map(({ position }) => position),
+            constituents.map((_reference, index) => index),
+        );
+        const text = constituents
+            .map(({ entryId }) => entries.get(entryId).label)
+            .join("");
+        assert.equal(text, sentence.label.replaceAll(/\s/gu, ""), sentence.id);
+    }
+});
+
+test("curated transformations cover irregular verbs and contextual IPA", () => {
+    assert.equal(schema.transformSets.length, 37);
+    const findForm = (word, ruleId) =>
+        schema.transformSets
+            .find(({ id }) => id === `english-${word}`)
+            .rules.find(({ id }) => id === ruleId);
+    assert.equal(findForm("run", "past").append, "ran");
+    assert.equal(findForm("run", "present-participle").append, "running");
+    assert.equal(findForm("read", "past").pronunciation.append, "/red/");
+    assert.equal(findForm("study", "third-person").append, "studies");
+    assert.equal(findForm("be", "are").append, "are");
+    assert.equal(findForm("good", "comparative").append, "better");
+    const roots = layers.get("words").filter(({ hidden }) => !hidden);
+    for (const set of schema.transformSets) {
+        const targets = roots.filter(({ tags }) =>
+            set.matchTags.every((tag) => tags.includes(tag)),
+        );
+        assert.equal(targets.length, 1, set.id);
+        for (const rule of set.rules) {
+            assert.equal(rule.removeSuffix, targets[0].label);
+            assert.equal(
+                rule.pronunciation.removeSuffix,
+                targets[0].fields.pronunciation[0],
+            );
+            assert.ok(rule.pronunciation.append.startsWith("/"));
+            assert.equal(Object.keys(rule.metadata.labels).length, 4);
         }
     }
 });
 
-test("seeded vocabulary owns contextual localized definitions", async () => {
-    const words = JSON.parse(
-        await readFile("data/content/words/common.json", "utf8"),
-    );
-    const definitions = JSON.parse(
-        await readFile("data/content/definitions/common.json", "utf8"),
-    );
-    const definitionsById = new Map(
-        definitions.map((definition) => [definition.id, definition]),
-    );
-    const localeDocuments = Object.fromEntries(
-        await Promise.all(
-            ["de", "en", "id", "ja"].map(async (locale) => [
-                locale,
-                await readFile(`ui/languages/${locale}/strings.xml`, "utf8"),
-            ]),
-        ),
-    );
-
-    for (const word of words) {
-        const definitionReference = word.references.find(
-            ({ relation }) => relation === "definitions",
-        );
-        const definition = definitionsById.get(definitionReference?.entryId);
-        assert.ok(definition, `${word.id} contextual definition`);
-        for (const [locale, document] of Object.entries(localeDocuments)) {
-            const translation = definition.fields.translations[locale];
-            assert.ok(translation, `${word.id} ${locale}`);
-            assert.match(
-                document,
-                new RegExp(
-                    `name="${definition.fields.string_key}"[^>]*>${translation.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}<`,
-                ),
-            );
+test("starter decks use visible records from the published schema", async () => {
+    const decks = JSON.parse(await readFile("data/starter-decks.json", "utf8"));
+    assert.equal(decks.length, 4);
+    for (const deck of decks) {
+        assert.equal(deck.schemaId, schema.id);
+        assert.equal(Object.keys(deck.name).length, 4);
+        assert.ok(deck.sourceRecordIds.length >= 10);
+        for (const id of deck.sourceRecordIds) {
+            assert.ok(entries.has(id), id);
+            assert.ok(!entries.get(id).hidden, id);
         }
     }
-
-    const article = words.find(({ id }) => id === "en:word:a");
-    assert.deepEqual(article, {
-        id: "en:word:a",
-        label: "a",
-        fields: { part_of_speech: "article" },
-        references: [
-            {
-                entryId: "en:char:a-lowercase",
-                relation: "spelling",
-                position: 0,
-            },
-            {
-                entryId: "en:definition:word:a",
-                relation: "definitions",
-            },
-        ],
-        class: "lexical:article",
-    });
-    assert.notEqual(
-        definitionsById.get("en:definition:word:a")?.fields.translations.en,
-        definitionsById.get("en:definition:letter:a")?.fields.translations.en,
-    );
 });

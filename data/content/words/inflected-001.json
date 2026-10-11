@@ -1,0 +1,499 @@
+[
+    {
+        "id": "en:word:form-english-do-third-person",
+        "label": "does",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/dʌz/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:word:do",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:do",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-do-past",
+        "label": "did",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/dɪd/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:word:do",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:do",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-do-present-participle",
+        "label": "doing",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/ˈduːɪŋ/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:word:do",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:do",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-do-past-participle",
+        "label": "done",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/dʌn/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:word:do",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:do",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-run-third-person",
+        "label": "runs",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/rʌnz/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:word:run",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:run",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-run-past",
+        "label": "ran",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/ræn/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:word:run",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:run",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-run-present-participle",
+        "label": "running",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/ˈrʌnɪŋ/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "spelling",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:word:run",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:run",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-have-third-person",
+        "label": "has",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/hæz/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:word:have",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:have",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-have-past",
+        "label": "had",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/hæd/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:word:have",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:have",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-have-present-participle",
+        "label": "having",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/ˈhævɪŋ/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:v-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:word:have",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:have",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-have-past-participle",
+        "label": "had",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/hæd/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:word:have",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:have",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-go-third-person",
+        "label": "goes",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/ɡəʊz/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:word:go",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:go",
+                "relation": "inflected-from"
+            }
+        ]
+    }
+]

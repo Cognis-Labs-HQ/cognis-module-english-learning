@@ -1,47 +1,33 @@
 # Cognis English
 
-**English** · [Deutsch](README.de.md) · [Bahasa Indonesia](README.id.md) · [日本語](README.ja.md)
+[English](README.en.md) · [Deutsch](README.de.md) · [Bahasa Indonesia](README.id.md) · [日本語](README.ja.md)
 
-Cognis English is the installable English language-learning extension for the Cognis Study gateway. It preserves the permanent module UUID and packaged English library data from the original built-in Study language module while following the Cognis external-module contract.
+English learning content and provider integration for Cognis Study.
 
 ## Features
 
-- English alphabet, vocabulary, particle, and sentence data rendered by the shared Study library at `/study/library`.
-- Context-specific localized vocabulary meanings override source-card definitions where their concepts differ.
-- Provider-neutral content classes, explicit composition roles, and localized editing controls follow the latest Library authoring contract.
-- Sentence labels are fully represented by contiguous ordered word, particle, and punctuation references.
-- Letter-name and common phoneme pronunciations with HTTPS audio references and no packaged binary media.
-- Seven common English digraphs with composition links kept separate from localized definitions.
-- Capitalized letters marked independently as alternate forms and spatial children of lowercase base cards.
-- A readable seven-column alphabet chart with four complete rows, numeric display positions, and localized definition-first labels.
-- Compact minimal cards limited to the alphabet character layer.
-- A declarative English content pack ingested through the host-provided `study:library` capability.
-- Module-owned localized definition strings linked from every seeded alphabet record.
-- A `study:language:en` capability for Study integration without importing Cognis internals.
-- Localized schema and marketplace metadata in English, German, Indonesian, and Japanese.
-- A scalable English flag SVG for the module icon.
-- An uninstall cleanup hook for the module lifecycle.
+- 52 alphabet cards and 17 letter combinations with original JSON writing guides; 123 beginner words, 21 grammar/punctuation cards and 45 linked sentences.
+- 37 curated verb, copula and adjective paradigms with irregular forms and IPA; hidden supporting forms preserve complete sentence graphs.
+- Searchable Free Dictionary lookup, bounded definitions/readings, hidden attribution and host-owned caching.
+- Four localized starter decks use Cognis flashcards, favourites and sharing.
 
 ## Installation
 
-Add this Git repository as a module source in the Cognis module marketplace, review its declared Study gateway dependency and Study library capability, install it, and enable it. The required Study gateway UUID is `338b9237-a2c8-5bcf-9437-bccc9abd9a27`.
+Install and enable this repository through the Cognis module marketplace. The Study gateway and `study:library:provider` capability are required.
 
 ## Architecture
 
-`bootstrap.js` is the only host integration point. It ingests its declarative content pack through `ctx`, contributes the English language descriptor as a public capability, and exposes only its locale directory under the module static namespace. The manifest explicitly requests privilege solely because PR #220 protects contributions to the host-owned `study:language:en` namespace; the module does not register host routes or extend security-sensitive flows. Runtime code uses repository-relative imports and does not import Cognis internals.
+Bootstrap registers providers through ctx, ingests the protected pack, publishes the English descriptor and contributes a removable flow hook. Disabling removes providers; uninstall may retain or cascade-delete the pack through Cognis. No host UI, cache policy or private component implementation is duplicated.
 
-The canonical language descriptor supplies `languageCode: "en"` for the Study sub-navigation button; Cognis carries this selection in router state rather than URL query parameters.
+[`docs/standard.en.md`](docs/standard.en.md) · [`docs/dictionary.en.md`](docs/dictionary.en.md)
 
-The manifest publishes `ui.stringsBaseUrl` so Cognis can load module-owned translations before Study renders the package. The only static registration serves these locale resources, and disabling or uninstalling the module leaves no module-owned executable UI behind.
-
-## Contributor quality checks
+## Contributor Checks
 
 ```sh
 npm install
-npm run lint
+npm run manifest:hashes
 npm test
+npm run lint
 npm run check:manifest
 git diff --check
 ```
-
-After changing a shipped file, run `npm run manifest:hashes` before validating or committing. See [`docs/standard.en.md`](docs/standard.en.md) for the complete integration contract; equivalent German, Indonesian, and Japanese references live beside it.

@@ -1,0 +1,186 @@
+[
+    {
+        "id": "en:sentence:do-you-like-coffee",
+        "label": "Do you like coffee?",
+        "references": [
+            {
+                "entryId": "en:word:capital-do",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:you",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:like",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:coffee",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:question",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:do-you-like-coffee",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:i-do-not-eat-bread",
+        "label": "I do not eat bread.",
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:do",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:not",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:eat",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:bread",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:sentence:i-do-not-eat-bread",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:i-like-tea-but-not-coffee",
+        "label": "I like tea, but not coffee.",
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:like",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:tea",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:comma",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:but",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:not",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:word:coffee",
+                "relation": "words",
+                "position": 6
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 7
+            },
+            {
+                "entryId": "en:definition:sentence:i-like-tea-but-not-coffee",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:she-is-happy-because-she-has-a-friend",
+        "label": "She is happy because she has a friend.",
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:happy",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:because",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:she",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:form-english-have-third-person",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 6
+            },
+            {
+                "entryId": "en:word:friend",
+                "relation": "words",
+                "position": 7
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 8
+            },
+            {
+                "entryId": "en:definition:sentence:she-is-happy-because-she-has-a-friend",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    }
+]

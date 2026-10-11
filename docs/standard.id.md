@@ -1,44 +1,41 @@
-# Modul Cognis English
+# Modul Inggris Cognis
 
-Modul Cognis English menyediakan pengalaman belajar bahasa Inggris untuk gateway Cognis Study sebagai paket konten khusus data yang deklaratif dan berversi.
+Cognis English 1.3.0 menyediakan graf pembelajaran berversi, pengayaan kamus Inggris, panduan huruf cetak asli dan empat dek awal. Cognis mengelola antarmuka belajar serta seluruh data pengguna.
 
 ## Contoh Penggunaan
 
-- Buka `/study/library` untuk menjelajahi konten bahasa Inggris melalui pustaka Study bersama yang digerakkan oleh skema.
-- Gunakan kapabilitas `study:library` yang disediakan host untuk mengakses paket konten berversi dalam namespace `en` dengan metadata skema terlokalisasi, peran semantik lapisan, dan relasi definisi yang didukung string milik modul.
-- Gunakan kapabilitas `study:language:en` untuk memperoleh deskriptor kanonis dengan `languageCode: "en"` bagi tombol subnavigasi Study yang dibuat.
+- Jelajahi `/study/explore/en/alphabet`, `/study/explore/en/letter-combinations`, `/study/explore/en/vocabulary`, `/study/explore/en/particles` dan `/study/explore/en/sentences`.
+- Cari dengan Kamus Gratis di navigasi Study. Hasil kosakata terpilih mengisi penyusun kartu milik host.
+- Buka dek Alfabet Inggris, Kata Inggris Pertama, Verba Inggris Sehari-hari dan Kalimat Inggris Pertama di `/study/flashcards`. Cognis mengelola belajar, favorit dan berbagi.
 
 ## Spesifikasi Teknis
 
-Modul ini merupakan ekstensi Cognis eksternal yang hanya-baca. UUID permanennya mengidentifikasi modul di seluruh rilis, sedangkan entri `requires` mendeklarasikan gateway Study berdasarkan UUID.
+### Kontrak Penyedia dan Siklus Hidup
 
-### Kontrak Integrasi
+UUID tetap modul adalah `b1adc29f-9d54-5785-9bea-2ce76f1981e4`; UUID gateway Study yang diperlukan adalah `338b9237-a2c8-5bcf-9437-bccc9abd9a27`. Bootstrap memerlukan `ctx.capabilities.require("study:library:provider")` dengan metode `ingestContentPack`, `registerLookupProvider` dan `deleteContentPack` yang berfungsi. Penyedia tulisan dan kamus didaftarkan, `data/` dimuat, lalu `study:language:en` dan kontribusi alur `bootstrap-platform` yang dapat dilepas diterbitkan. Deskriptor menyertakan `code`, `languageCode`, versi modul, paket dan `starterDecks`.
 
-- `bootstrap.js` adalah satu-satunya entrypoint integrasi platform.
-- Eksposur peramban dibatasi pada `ui/languages`; modul khusus data ini tidak menyumbangkan ekstensi UI host maupun hook tahap bootstrap platform.
-- `ctx` yang diberikan adalah satu-satunya bus lintas komponen untuk registrasi kapabilitas, alur, dan sumber daya bahasa.
-- Impor runtime selalu relatif terhadap repositori dan tidak pernah mengakses internal Cognis atau komponen lain.
-- Registrasi tercakup dapat dihapus saat modul dinonaktifkan atau dicopot.
+Pendaftaran pencarian dilepas saat dinonaktifkan atau aktivasi gagal. Host mengelola rute, direktori statis, kapabilitas dan kait sesuai lingkup modul. `DELETE /api/v1/modules/study-language-en/config` khusus administrator mengembalikan 204 dan tetap tersedia saat modul nonaktif; modul tidak menyimpan konfigurasi. Saat dihapus, `deleteContent: false` mempertahankan paket, sedangkan `true` memanggil `deleteContentPack` melalui penyedia yang tersedia pada siklus hidup. Cognis mengelola penghapusan berantai transaksional dan notifikasi. Kegagalan diteruskan dengan log terstruktur yang aman.
 
-- Hook penghapusan instalasi mencatat pembersihan siklus hidup; modul ini tidak memiliki konfigurasi tersimpan atau konten milik pengguna karena set data pembelajarannya berupa berkas paket hanya-baca.
+### Graf Konten
 
-### Model data Study terkini
+Paket `english-core` 15.0.0, skema `english` revisi 15 dan revisi konten `2026-10-11.1` mempertahankan ruang nama dan identitas lama. Ada 635 rekaman: 52 huruf, 17 gabungan huruf, 123 kosakata terlihat, 135 bentuk infleksi tersembunyi, 10 awal kalimat berhuruf kapital tersembunyi, 21 kartu tata bahasa/tanda baca, 45 kalimat dan 232 definisi tersembunyi. Setiap definisi memiliki makna Inggris, Jerman, Indonesia dan Jepang. Lokalisasi definisi memakai awalan host `studyenglish:definitions`; metadata pasar memakai `module.study_language_en.*`.
 
-Skema versi 14 memodelkan entri alfabet sebagai unit tulisan atomik dengan daftar pelafalan dan rujukan audio HTTPS. Kata ditautkan ke ejaan huruf yang berurutan dan definisi terlokalisasi, partikel tata bahasa dimodelkan tersendiri, dan kalimat disusun dari rujukan kata serta partikel yang berurutan. Audio tetap berada di luar paket sehingga modul tidak menyertakan media biner. Digraf umum juga dimodelkan sebagai unit tulisan majemuk dengan rujukan komposisi berbasis resolver yang terpisah dari rujukan definisi terlokalisasinya. Alfabet menerbitkan kisi tetap dan filter metadata wajib mendeklarasikan tag awalnya. Kartu huruf kecil dalam kisi dialamatkan melalui ID tampilan numerik yang stabil, dan setiap alternatif huruf kapital memakai relasi yang secara eksplisit menandai identitas bentuk alternatif dan induk konseptual huruf kecilnya. Kartu kata, partikel, dan kalimat mengutamakan definisi terlokalisasi wajib daripada label rekaman internal. Hanya lapisan karakter alfabet yang meminta kartu minimal, sehingga entrinya menampilkan label utama ringkas sementara komposit dan semua lapisan tingkat lebih tinggi mempertahankan tampilan lengkap. Label kalimat harus dapat direkonstruksi tepat setelah normalisasi spasi dari rujukan unit leksikal dan partikel yang berurutan tanpa celah; karena itu, tanda titik bawaan merupakan partikel tanda baca eksplisit, bukan teks label yang tidak tertaut. Alfabet memakai tujuh kolom dan dua ruang kosong eksplisit di akhir untuk membentuk empat baris yang seimbang. Rekaman huruf memuat nama huruf dan fonem IPA umum, sedangkan tujuh digraf bawaan mencakup `ch`, `sh`, `th`, `ph`, `wh`, `ng`, dan `ck`. Relasi varian tidak lagi menentukan arah; `variant: true` mengidentifikasi bentuk alternatif sedangkan `child: true` secara terpisah memasukkannya ke hierarki spasial, dan host saat ini memilih posisi tersedia yang berbatas secara dinamis. Rekaman kosakata bawaan memiliki makna terlokalisasi sendiri setiap kali konsep leksikalnya berbeda dari karakter sumber; misalnya, kata `a` didefinisikan sebagai artikel tak tentu alih-alih mewarisi “Huruf A.” Karena itu, host hanya memakai fallback definisi sumber untuk entri leksikal tanpa makna yang disediakan dan menghapusnya saat navigasi tidak terkait. Paket mendeklarasikan `protected: true` agar rekaman milik penyedia tidak dapat dipindahkan atau dihapus, serta menerbitkan metadata katalog yang kompatibel dengan JSON dalam manifes paket dan skema. Bootstrap mengambil kapabilitas `study:library` yang tersedia selama siklus hidup, menjalankan prapemeriksaan hanya-baca `inspectContentPack`, lalu meminta ingesti atomik. Paket resmi 14.1.0 mengembangkan versi kompatibilitas skema 14 di tempat: rekaman konten kini menerbitkan kelas netral-penyedia, definisi disembunyikan secara eksplisit, partikel tidak dapat disunting, dan edge ejaan atau urutan sejati mendeklarasikan `presentationRole: "composition"`. Edge definisi, varian, dan dependensi balik tetap berupa relasi tanpa resolver sehingga hanya muncul melalui navigasi balik terpadu. Bidang yang dapat disunting menerbitkan kontrak `input` terlokalisasi, termasuk pemilihan berkas audio bahasa Inggris yang dibatasi.
+Referensi ejaan dan kalimat berurutan menunjuk ke rekaman nyata. Kartu infleksi tersembunyi menjadi sasaran literal validasi kalimat; formulir interaktif memakai 37 paradigma deklaratif verba, kopula dan adjektiva, termasuk bentuk tidak beraturan dan IPA. IPA adalah notasi bunyi, bukan referensi ke huruf yang tidak sesuai. Awal kalimat kapital mempertahankan teks asli. Partikel negasi, preposisi, konjungsi dan tanda baca tidak dapat diedit. Hubungan definisi dibatasi sepuluh.
 
-### Kebijakan kegagalan bootstrap
+Kontrak formulir menetapkan bidang tulisan, karusel huruf untuk kosakata, karusel kata/partikel untuk kalimat dan karusel struktur kalimat. Host mengelola validasi, resolusi UUID, spasi, impor, batas dan notifikasi. Alfabet mempertahankan tujuh kolom dengan huruf kapital sebagai anak huruf kecil. Hanya huruf atomik memakai pratinjau minimal.
 
-Ingesti konten dan kapabilitas `study:language:en` merupakan seluruh perilaku runtime modul. Host terkini menjalankan impor konten secara atomik dan mengembalikan modul ke keadaan nonaktif setelah kegagalan bootstrap yang tersisa, sehingga modul mengikuti kebijakan milik host tersebut tanpa pengecualian manifes.
+### Panduan Tulisan dan Media
 
-### Keamanan
+Setiap huruf dan gabungan memiliki panduan cetak JSON asli yang dinormalisasi, dengan goresan berurutan, waktu dan kelompok per karakter. Penyedia mengembalikan salinan pola paket tanpa permintaan jarak jauh. Panduan pengantar ini tidak menetapkan gaya tulisan tangan wajib. Tidak ada media biner. Audio opsional: URL TTS eksternal bukan aset audio paket yang sah, sehingga dihilangkan. Cognis dapat memakai fasilitas pelafalan sendiri atau audio unggahan pengguna.
 
-- Manifes secara eksplisit meminta registrasi berprivilege karena kapabilitas publik `study:language:en` berada dalam namespace host yang dilindungi PR #220; modul tidak menggunakan privilege tersebut untuk rute host atau alur yang sensitif terhadap keamanan.
+### Batas Kamus
 
-- Pustaka host memvalidasi namespace paket, versi semantik, lisensi, jalur aman, skema terlokalisasi, bidang bertipe, dan seluruh graf rekaman sebelum penulisan atomik.
-- Kegagalan penyerapan dikirim ke logger host dengan metadata terstruktur yang aman.
+Kamus Gratis hanya mencari kosakata Inggris melalui `https://api.dictionaryapi.dev/api/v2/entries/en/<word>`. Penyedia berversi dan berbasis bidang mendukung pencarian, bukan terjemahan kalimat atau panduan tulisan. Masukan dibatasi, alamat layanan tetap, pengalihan ditolak, waktu permintaan maksimal 15 detik dan respons divalidasi serta dibatasi. Pelafalan dan makna duplikat dihapus tanpa mengubah urutan sumber; maksimal sepuluh definisi dan pelafalan dikembalikan. Atribusi sumber/lisensi tersimpan di `dictionary_data` yang tersembunyi. Makna eksternal tetap Inggris sampai fasilitas lokalisasi host melengkapi bahasa lain. Rincian tersedia dalam dokumentasi kamus.
 
-### Proses Rilis
+Rekaman asli mempertahankan IPA utama dan tag paradigma terkurasi. Ejaan baru yang hanya berisi huruf ditautkan ke alfabet paket; verba tidak dikenal tidak mendapat bentuk tebakan. Respons 404 memakai kecocokan asli bila tersedia; respons gagal atau rusak menghasilkan kesalahan aman. Cognis core mengelola cache kueri persisten, pemeriksaan setelah satu jam dan publikasi perubahan setelah dua belas jam. Modul hanya menyimpan indeks konten tetap, tanpa cache respons kamus atau pengatur waktu.
 
-- Selaraskan versi dalam `manifest.json`, `package.json`, dan `package-lock.json`, serta jangan pernah mengubah UUID modul.
-- Jalankan `npm install`, `npm test`, `npm run lint`, `npm run manifest:hashes`, `npm run check:manifest`, dan `git diff --check` sebelum melakukan commit rilis.
-- Buat ulang `manifest.files` setelah perubahan terakhir pada berkas distribusi agar setiap jalur relatif repositori dan hash SHA-256 tetap dapat diverifikasi.
+### Pengemasan dan Validasi
+
+Hak istimewa diperlukan untuk ruang nama bahasa milik host, bukan untuk melewati izin Study. Impor runtime tetap dalam repositori, pengujian memakai tiruan kontrak publik lokal. Keempat bahasa dan varian dokumentasi dikemas bersama. Konten serta panduan asli berlisensi AGPL-3.0-or-later; atribusi kamus eksternal dipisahkan.
+
+Jalankan `npm install`, `npm run manifest:hashes`, `npm test`, `npm run lint`, `npm run check:manifest` dan `git diff --check`. Perbarui hash setelah perubahan terakhir pada berkas paket. Catatan perubahan tidak masuk inventaris paket.

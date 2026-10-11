@@ -3,7 +3,8 @@
         "id": "en:word:i",
         "label": "I",
         "fields": {
-            "part_of_speech": "pronoun"
+            "part_of_speech": "pronoun",
+            "pronunciation": ["/aɪ/"]
         },
         "references": [
             {
@@ -16,13 +17,15 @@
                 "relation": "definitions"
             }
         ],
-        "class": "lexical:pronoun"
+        "class": "lexical:pronoun",
+        "tags": ["pronoun", "beginner"]
     },
     {
         "id": "en:word:a",
         "label": "a",
         "fields": {
-            "part_of_speech": "article"
+            "part_of_speech": "article",
+            "pronunciation": ["/ə/"]
         },
         "references": [
             {
@@ -35,13 +38,15 @@
                 "relation": "definitions"
             }
         ],
-        "class": "lexical:article"
+        "class": "lexical:article",
+        "tags": ["article", "beginner"]
     },
     {
         "id": "en:word:do",
         "label": "do",
         "fields": {
-            "part_of_speech": "verb"
+            "part_of_speech": "verb",
+            "pronunciation": ["/duː/"]
         },
         "references": [
             {
@@ -59,13 +64,15 @@
                 "relation": "definitions"
             }
         ],
-        "class": "lexical:verb"
+        "class": "lexical:verb",
+        "tags": ["verb", "beginner", "paradigm-do"]
     },
     {
         "id": "en:word:run",
         "label": "run",
         "fields": {
-            "part_of_speech": "verb"
+            "part_of_speech": "verb",
+            "pronunciation": ["/rʌn/"]
         },
         "references": [
             {
@@ -88,6 +95,7 @@
                 "relation": "definitions"
             }
         ],
-        "class": "lexical:verb"
+        "class": "lexical:verb",
+        "tags": ["verb", "beginner", "paradigm-run"]
     }
 ]

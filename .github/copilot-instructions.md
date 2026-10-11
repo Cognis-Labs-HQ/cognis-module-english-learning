@@ -49,3 +49,11 @@ Before committing, run `npm install`, `npm test`, `npm run lint`, `npm run manif
 ## Review discipline
 
 Treat human and automated review comments as actionable unless they conflict with higher-priority requirements. Record intentionally deferred items in root `TODO.md` with a concrete technical reason. Keep changes focused while improving directly adjacent violations.
+
+## Persistent review preferences
+
+Apply the [Cognis review preferences](https://github.com/Cognis-Labs-HQ/Cognis/blob/feature-update-external-package-contract-definitions/.github/copilot-instructions.md#persistent-review-preferences) before changing this module. The full historical review archive is kept outside repository source in `/workspace/feedback-deploy/review-memory/` when that workspace is available.
+
+Keep provider behavior and tests inside this module. Require the narrow `study:library:provider` contract, validate cleanup before activation, remove lookup registrations on every failed activation, and delegate content deletion to the host. Never fall back to broader capabilities. Modules supply data and lookup enrichment; Cognis owns routes, composition, permissions, cache schedules, notifications, imports, flashcards and sharing.
+
+Preserve blank declaration boundaries and split cohesive responsibilities instead of compressing source or raising size guards. Reuse the module content loader; never import another module's implementation. Retain authoritative pronunciation order, cap definitions at ten, and only advertise curated transformations with accurate inflections. English IPA is not alphabet spelling: never connect speech symbols to unrelated letter cards. Keep remote attribution hidden, localize metadata and documentation in all four languages, and verify the complete content graph against the public host ingestion contract.

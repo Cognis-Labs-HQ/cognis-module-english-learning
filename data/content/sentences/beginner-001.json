@@ -1,0 +1,280 @@
+[
+    {
+        "id": "en:sentence:i-am-a-student",
+        "label": "I am a student.",
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-be-am",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:student",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:i-am-a-student",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:you-are-my-friend",
+        "label": "You are my friend.",
+        "references": [
+            {
+                "entryId": "en:word:capital-you",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-be-are",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:my",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:friend",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:you-are-my-friend",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:she-is-a-teacher",
+        "label": "She is a teacher.",
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:teacher",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:she-is-a-teacher",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:he-has-a-book",
+        "label": "He has a book.",
+        "references": [
+            {
+                "entryId": "en:word:capital-he",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-have-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:book",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:he-has-a-book",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:we-learn-english",
+        "label": "We learn English.",
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:learn",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:english",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:sentence:we-learn-english",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:they-go-to-school",
+        "label": "They go to school.",
+        "references": [
+            {
+                "entryId": "en:word:capital-they",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:go",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:to",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:school",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:they-go-to-school",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:i-drink-water",
+        "label": "I drink water.",
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:drink",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:water",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:sentence:i-drink-water",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:the-cat-is-small",
+        "label": "The cat is small.",
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:cat",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:small",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:the-cat-is-small",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    }
+]

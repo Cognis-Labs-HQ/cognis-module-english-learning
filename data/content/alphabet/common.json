@@ -5,7 +5,47 @@
         "fields": {
             "symbol": "A",
             "pronunciation": ["ay", "/æ/", "/eɪ/", "/ɑː/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=A&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.2,
+                                "y": 0.85,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.85,
+                                "time": 80
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.32,
+                                "y": 0.58,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.68,
+                                "y": 0.58,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -25,7 +65,82 @@
         "fields": {
             "symbol": "B",
             "pronunciation": ["bee", "/b/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=B&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.15,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.72,
+                                "y": 0.25,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.72,
+                                "y": 0.4,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.5,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 240
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.55,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.77,
+                                "y": 0.6,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.77,
+                                "y": 0.75,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.85,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -45,7 +160,58 @@
         "fields": {
             "symbol": "C",
             "pronunciation": ["cee", "/k/", "/s/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=C&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.8,
+                                "y": 0.25,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.15,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.35,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.85,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.85,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.75,
+                                "time": 280
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -65,7 +231,58 @@
         "fields": {
             "symbol": "D",
             "pronunciation": ["dee", "/d/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=D&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.15,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.3,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.5,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.7,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.85,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 280
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -85,7 +302,52 @@
         "fields": {
             "symbol": "E",
             "pronunciation": ["ee", "/ɛ/", "/iː/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=E&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.85,
+                                "time": 120
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.5,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -105,7 +367,47 @@
         "fields": {
             "symbol": "F",
             "pronunciation": ["ef", "/f/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=F&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.15,
+                                "time": 80
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.5,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -125,7 +427,68 @@
         "fields": {
             "symbol": "G",
             "pronunciation": ["gee", "/ɡ/", "/dʒ/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=G&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.8,
+                                "y": 0.25,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.15,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.35,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.85,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.85,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.7,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.5,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.5,
+                                "time": 360
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -145,7 +508,56 @@
         "fields": {
             "symbol": "H",
             "pronunciation": ["aitch", "/h/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=H&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.85,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.5,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [3],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -165,7 +577,56 @@
         "fields": {
             "symbol": "I",
             "pronunciation": ["eye", "/ɪ/", "/aɪ/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=I&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.3,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.15,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.5,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.85,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.3,
+                                "y": 0.85,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.85,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [3],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -185,7 +646,57 @@
         "fields": {
             "symbol": "J",
             "pronunciation": ["jay", "/dʒ/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=J&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.3,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.15,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.65,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.7,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.85,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.85,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.7,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -205,7 +716,47 @@
         "fields": {
             "symbol": "K",
             "pronunciation": ["kay", "/k/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=K&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.55,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.85,
+                                "time": 80
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -225,7 +776,33 @@
         "fields": {
             "symbol": "L",
             "pronunciation": ["el", "/l/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=L&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.85,
+                                "time": 80
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -245,7 +822,43 @@
         "fields": {
             "symbol": "M",
             "pronunciation": ["em", "/m/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=M&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.2,
+                                "y": 0.85,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.55,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.15,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.85,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -265,7 +878,38 @@
         "fields": {
             "symbol": "N",
             "pronunciation": ["en", "/n/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=N&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.85,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.15,
+                                "time": 120
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -285,7 +929,73 @@
         "fields": {
             "symbol": "O",
             "pronunciation": ["oh", "/ɒ/", "/oʊ/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=O&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.5,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.2,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.4,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.6,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.8,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.85,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.6,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.4,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.2,
+                                "time": 360
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.15,
+                                "time": 400
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -305,7 +1015,53 @@
         "fields": {
             "symbol": "P",
             "pronunciation": ["pee", "/p/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=P&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.15,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.25,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.4,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.5,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 240
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -325,7 +1081,87 @@
         "fields": {
             "symbol": "Q",
             "pronunciation": ["cue", "/k/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=Q&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.5,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.2,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.4,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.6,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.8,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.85,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.6,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.4,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.2,
+                                "time": 360
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.15,
+                                "time": 400
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.55,
+                                "y": 0.65,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.85,
+                                "y": 0.9,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -345,7 +1181,67 @@
         "fields": {
             "symbol": "R",
             "pronunciation": ["ar", "/ɹ/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=R&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.15,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.25,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.4,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.5,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 240
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.85,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -365,7 +1261,78 @@
         "fields": {
             "symbol": "S",
             "pronunciation": ["ess", "/s/", "/z/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=S&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.25,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.15,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.25,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.4,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.5,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.5,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.6,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.75,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.85,
+                                "time": 360
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.85,
+                                "time": 400
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.75,
+                                "time": 440
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -385,7 +1352,42 @@
         "fields": {
             "symbol": "T",
             "pronunciation": ["tee", "/t/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=T&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.2,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.15,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.5,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.85,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -405,7 +1407,53 @@
         "fields": {
             "symbol": "U",
             "pronunciation": ["you", "/ʌ/", "/juː/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=U&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.65,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.8,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.85,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.8,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.65,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.15,
+                                "time": 240
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -425,7 +1473,33 @@
         "fields": {
             "symbol": "V",
             "pronunciation": ["vee", "/v/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=V&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.2,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.85,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.15,
+                                "time": 80
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -445,7 +1519,43 @@
         "fields": {
             "symbol": "W",
             "pronunciation": ["double-u", "/w/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=W&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.15,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.85,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.4,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.85,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.85,
+                                "y": 0.15,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -465,7 +1575,42 @@
         "fields": {
             "symbol": "X",
             "pronunciation": ["ex", "/ks/", "/ɡz/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=X&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.85,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -485,7 +1630,47 @@
         "fields": {
             "symbol": "Y",
             "pronunciation": ["why", "/j/", "/ɪ/", "/aɪ/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=Y&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.2,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.15,
+                                "time": 80
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.85,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -505,7 +1690,38 @@
         "fields": {
             "symbol": "Z",
             "pronunciation": ["zed", "zee", "/z/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=Z&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.85,
+                                "time": 120
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -525,7 +1741,68 @@
         "fields": {
             "symbol": "a",
             "pronunciation": ["ay", "/æ/", "/eɪ/", "/ɑː/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=A&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.7,
+                                "y": 0.45,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.4,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.55,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.7,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.65,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.35,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.8,
+                                "time": 360
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -542,7 +1819,72 @@
         "fields": {
             "symbol": "b",
             "pronunciation": ["bee", "/b/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=B&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.65,
+                                "time": 280
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -559,7 +1901,58 @@
         "fields": {
             "symbol": "c",
             "pronunciation": ["cee", "/k/", "/s/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=C&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.45,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.7,
+                                "time": 280
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -576,7 +1969,72 @@
         "fields": {
             "symbol": "d",
             "pronunciation": ["dee", "/d/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=D&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.65,
+                                "time": 280
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -593,7 +2051,68 @@
         "fields": {
             "symbol": "e",
             "pronunciation": ["ee", "/ɛ/", "/iː/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=E&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.55,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.55,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.4,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.35,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.35,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.65,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.8,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.7,
+                                "time": 360
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -610,7 +2129,52 @@
         "fields": {
             "symbol": "f",
             "pronunciation": ["ef", "/f/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=F&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.7,
+                                "y": 0.2,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.25,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 120
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.4,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.4,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -627,7 +2191,83 @@
         "fields": {
             "symbol": "g",
             "pronunciation": ["gee", "/ɡ/", "/dʒ/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=G&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.7,
+                                "y": 0.45,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.4,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.55,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.65,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.35,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.85,
+                                "time": 360
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.95,
+                                "time": 400
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.95,
+                                "time": 440
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.9,
+                                "time": 480
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -644,7 +2284,57 @@
         "fields": {
             "symbol": "h",
             "pronunciation": ["aitch", "/h/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=H&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.8,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -661,7 +2351,42 @@
         "fields": {
             "symbol": "i",
             "pronunciation": ["eye", "/ɪ/", "/aɪ/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=I&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.5,
+                                "y": 0.4,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.5,
+                                "y": 0.2,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.22,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -678,7 +2403,57 @@
         "fields": {
             "symbol": "j",
             "pronunciation": ["jay", "/dʒ/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=J&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.6,
+                                "y": 0.4,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.85,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.95,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.95,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.9,
+                                "time": 160
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.6,
+                                "y": 0.2,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.22,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -695,7 +2470,47 @@
         "fields": {
             "symbol": "k",
             "pronunciation": ["kay", "/k/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=K&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.3,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.6,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.8,
+                                "time": 80
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -712,7 +2527,38 @@
         "fields": {
             "symbol": "l",
             "pronunciation": ["el", "/l/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=L&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.45,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.45,
+                                "y": 0.7,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.8,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.8,
+                                "time": 120
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -729,7 +2575,86 @@
         "fields": {
             "symbol": "m",
             "pronunciation": ["em", "/m/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=M&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.15,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.15,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.15,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.45,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.45,
+                                "y": 0.8,
+                                "time": 160
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.45,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.8,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [3],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -746,7 +2671,57 @@
         "fields": {
             "symbol": "n",
             "pronunciation": ["en", "/n/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=N&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.8,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -763,7 +2738,73 @@
         "fields": {
             "symbol": "o",
             "pronunciation": ["oh", "/ɒ/", "/oʊ/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=O&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.5,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.4,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.55,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.65,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.8,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.85,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.65,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.55,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.4,
+                                "time": 360
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.35,
+                                "time": 400
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -780,7 +2821,72 @@
         "fields": {
             "symbol": "p",
             "pronunciation": ["pee", "/p/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=P&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.95,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.65,
+                                "time": 280
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -797,7 +2903,72 @@
         "fields": {
             "symbol": "q",
             "pronunciation": ["cue", "/k/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=Q&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.95,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.65,
+                                "time": 280
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -814,7 +2985,52 @@
         "fields": {
             "symbol": "r",
             "pronunciation": ["ar", "/ɹ/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=R&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.3,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.3,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.45,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.4,
+                                "time": 120
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -831,7 +3047,68 @@
         "fields": {
             "symbol": "s",
             "pronunciation": ["ess", "/s/", "/z/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=S&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.7,
+                                "y": 0.45,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.45,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.55,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.6,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.7,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.8,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.7,
+                                "time": 360
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -848,7 +3125,52 @@
         "fields": {
             "symbol": "t",
             "pronunciation": ["tee", "/t/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=T&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.45,
+                                "y": 0.2,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.45,
+                                "y": 0.7,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.8,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.75,
+                                "time": 120
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.4,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.4,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -865,7 +3187,53 @@
         "fields": {
             "symbol": "u",
             "pronunciation": ["you", "/ʌ/", "/juː/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=U&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.65,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.8,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.35,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.8,
+                                "time": 240
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -882,7 +3250,33 @@
         "fields": {
             "symbol": "v",
             "pronunciation": ["vee", "/v/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=V&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.8,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.35,
+                                "time": 80
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -899,7 +3293,43 @@
         "fields": {
             "symbol": "w",
             "pronunciation": ["double-u", "/w/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=W&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.15,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.8,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.45,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.8,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.85,
+                                "y": 0.35,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -916,7 +3346,42 @@
         "fields": {
             "symbol": "x",
             "pronunciation": ["ex", "/ks/", "/ɡz/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=X&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -933,7 +3398,47 @@
         "fields": {
             "symbol": "y",
             "pronunciation": ["why", "/j/", "/ɪ/", "/aɪ/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=Y&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.45,
+                                "y": 0.95,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.95,
+                                "time": 80
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            }
         },
         "references": [
             {
@@ -950,7 +3455,38 @@
         "fields": {
             "symbol": "z",
             "pronunciation": ["zed", "zee", "/z/"],
-            "audio": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=Z&tl=en"
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.8,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.8,
+                                "time": 120
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            }
         },
         "references": [
             {

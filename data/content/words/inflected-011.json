@@ -1,0 +1,594 @@
+[
+    {
+        "id": "en:word:form-english-be-were",
+        "label": "were",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "copula",
+            "pronunciation": ["/wɜː/"]
+        },
+        "class": "lexical:copula",
+        "tags": ["copula", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:w-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:word:be",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:be",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-be-present-participle",
+        "label": "being",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "copula",
+            "pronunciation": ["/ˈbiːɪŋ/"]
+        },
+        "class": "lexical:copula",
+        "tags": ["copula", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:b-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:word:be",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:be",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-be-past-participle",
+        "label": "been",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "copula",
+            "pronunciation": ["/biːn/"]
+        },
+        "class": "lexical:copula",
+        "tags": ["copula", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:b-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:word:be",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:be",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-big-comparative",
+        "label": "bigger",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "adjective",
+            "pronunciation": ["/ˈbɪɡə/"]
+        },
+        "class": "lexical:adjective",
+        "tags": ["adjective", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:b-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:word:big",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:big",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-big-superlative",
+        "label": "biggest",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "adjective",
+            "pronunciation": ["/ˈbɪɡɪst/"]
+        },
+        "class": "lexical:adjective",
+        "tags": ["adjective", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:b-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:word:big",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:big",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-small-comparative",
+        "label": "smaller",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "adjective",
+            "pronunciation": ["/ˈsmɔːlə/"]
+        },
+        "class": "lexical:adjective",
+        "tags": ["adjective", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:m-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:word:small",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:small",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-small-superlative",
+        "label": "smallest",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "adjective",
+            "pronunciation": ["/ˈsmɔːlɪst/"]
+        },
+        "class": "lexical:adjective",
+        "tags": ["adjective", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:m-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 6
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 7
+            },
+            {
+                "entryId": "en:definition:word:small",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:small",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-good-comparative",
+        "label": "better",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "adjective",
+            "pronunciation": ["/ˈbetə/"]
+        },
+        "class": "lexical:adjective",
+        "tags": ["adjective", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:b-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:word:good",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:good",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-good-superlative",
+        "label": "best",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "adjective",
+            "pronunciation": ["/best/"]
+        },
+        "class": "lexical:adjective",
+        "tags": ["adjective", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:b-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:word:good",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:good",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-bad-comparative",
+        "label": "worse",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "adjective",
+            "pronunciation": ["/wɜːs/"]
+        },
+        "class": "lexical:adjective",
+        "tags": ["adjective", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:w-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:word:bad",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:bad",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-bad-superlative",
+        "label": "worst",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "adjective",
+            "pronunciation": ["/wɜːst/"]
+        },
+        "class": "lexical:adjective",
+        "tags": ["adjective", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:w-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:word:bad",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:bad",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-happy-comparative",
+        "label": "happier",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "adjective",
+            "pronunciation": ["/ˈhæpiə/"]
+        },
+        "class": "lexical:adjective",
+        "tags": ["adjective", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:p-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:p-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:word:happy",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:happy",
+                "relation": "inflected-from"
+            }
+        ]
+    }
+]

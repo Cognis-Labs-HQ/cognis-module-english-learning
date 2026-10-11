@@ -1,68 +1,139 @@
-import { readFile } from "node:fs/promises";
+import { readFileSync } from "node:fs";
 import path from "node:path";
+import { createDictionaryProvider } from "./api/dictionary-provider.js";
+import { createStrokePatternProvider } from "./api/stroke-pattern-provider.js";
 
+const MODULE_MANIFEST = JSON.parse(
+    readFileSync(new URL("./manifest.json", import.meta.url), "utf8"),
+);
+const CONTENT_PACK = Object.freeze(
+    JSON.parse(
+        readFileSync(new URL("./data/manifest.json", import.meta.url), "utf8"),
+    ),
+);
 const LANGUAGE = Object.freeze({
     moduleId: "study-language-en",
+    code: "en",
     languageCode: "en",
     languageName: "English",
-    languageFlag: "GB",
-    version: "1.2.37",
+    languageFlag: "🇬🇧",
+    version: MODULE_MANIFEST.version,
+    package: CONTENT_PACK,
+    childComponents: [],
+    starterDecks: JSON.parse(
+        readFileSync(
+            new URL("./data/starter-decks.json", import.meta.url),
+            "utf8",
+        ),
+    ),
 });
 
-async function ingestContentPack(library, moduleRoot) {
-    const root = path.join(moduleRoot, "data");
-    const descriptor = JSON.parse(
-        await readFile(path.join(root, "manifest.json"), "utf8"),
-    );
-    await library.inspectContentPack(root);
-    await library.ingestContentPack(root);
-    return Object.freeze({
-        ...descriptor,
-        license: Object.freeze({ ...descriptor.license }),
-    });
-}
-
 export async function uninstallModule(ctx, { deleteContent }) {
-    ctx.log?.("info", "English learning module cleanup completed.", {
+    const log = ctx.log;
+    if (!deleteContent) {
+        log?.("info", "English language pack content retained.", {
+            component: "study-language-en",
+            operation: "uninstall_cleanup",
+            deleteContent: false,
+        });
+        return;
+    }
+    const library = ctx.getCapability("study:library:provider");
+    if (typeof library?.deleteContentPack !== "function") {
+        log?.("error", "English language pack cleanup is unavailable.", {
+            component: "study-language-en",
+            operation: "delete_content_pack",
+            packId: CONTENT_PACK.id,
+        });
+        throw new Error("study_library_cleanup_unavailable");
+    }
+    try {
+        await library.deleteContentPack(path.join(ctx.moduleRoot, "data"));
+    } catch (error) {
+        log?.("error", "English language pack cleanup failed.", {
+            component: "study-language-en",
+            operation: "delete_content_pack",
+            packId: CONTENT_PACK.id,
+            errorName: error instanceof Error ? error.name : "Error",
+        });
+        throw error;
+    }
+    log?.("info", "English language pack content deleted.", {
         component: "study-language-en",
-        operation: "uninstall_cleanup",
-        deleteContent,
+        operation: "delete_content_pack",
+        packId: CONTENT_PACK.id,
     });
 }
 
 export async function bootstrapModule(ctx) {
+    const library = ctx.capabilities.require("study:library:provider");
+    if (
+        ![
+            "ingestContentPack",
+            "registerLookupProvider",
+            "deleteContentPack",
+        ].every((method) => typeof library?.[method] === "function")
+    )
+        throw new Error("Invalid Study Library provider capability.");
+    const log = ctx.log;
     ctx.registerStaticDir(
         "languages",
         path.join(ctx.moduleRoot, "ui", "languages"),
     );
-    const library = ctx.getCapability("study:library");
-    if (
-        !library ||
-        typeof library.inspectContentPack !== "function" ||
-        typeof library.ingestContentPack !== "function"
-    ) {
-        ctx.log?.("error", "Study library capability is unavailable.", {
-            component: "study-language-en",
-            operation: "ingest_content_pack",
-        });
-        throw new Error("study_library_unavailable");
-    }
-    let packageDescriptor;
+    ctx.registerApiDelete(
+        "/api/v1/modules/study-language-en/config",
+        (_request, response) => {
+            response.writeHead(204);
+            response.end();
+        },
+        { access: { minRole: "admin" }, allowWhenDisabled: true },
+    );
+    const providerRemovers = [];
+    const removeProviders = () => {
+        for (const removeProvider of providerRemovers.splice(0).reverse())
+            removeProvider();
+    };
+    let receipt;
     try {
-        packageDescriptor = await ingestContentPack(library, ctx.moduleRoot);
+        const options = {
+            contentRoot: path.join(ctx.moduleRoot, "data", "content"),
+            cacheRevision: MODULE_MANIFEST.version,
+            log,
+        };
+        providerRemovers.push(
+            library.registerLookupProvider(
+                createStrokePatternProvider(options),
+            ),
+        );
+        providerRemovers.push(
+            library.registerLookupProvider(createDictionaryProvider(options)),
+        );
+        receipt = await library.ingestContentPack(
+            path.join(ctx.moduleRoot, "data"),
+        );
+        ctx.contributePublicCapability("study:language:en", LANGUAGE);
+        ctx.flow.extend(
+            "bootstrap-platform",
+            "register-flows",
+            { id: "study-language-en:register-language" },
+            () => LANGUAGE,
+        );
     } catch (error) {
-        ctx.log?.("error", "English content-pack ingestion failed.", {
+        removeProviders();
+        log?.("error", "English language pack activation failed.", {
             component: "study-language-en",
-            operation: "ingest_content_pack",
+            operation: "bootstrap",
             fatal: true,
-            error: error instanceof Error ? error.message : String(error),
+            errorName: error instanceof Error ? error.name : "Error",
         });
         throw error;
     }
-    const language = Object.freeze({ ...LANGUAGE, package: packageDescriptor });
-    ctx.contributePublicCapability("study:language:en", language);
-    ctx.log?.("info", "English learning module enabled.", {
+    log?.("info", "English learning module enabled.", {
         component: "study-language-en",
         operation: "bootstrap",
+        packId: receipt.packId,
+        contentRevision: receipt.contentRevision,
+        unchanged: receipt.unchanged,
     });
+    return removeProviders;
 }

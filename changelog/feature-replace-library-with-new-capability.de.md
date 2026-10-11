@@ -1,0 +1,23 @@
+# Englische Anbieteranpassung
+
+**Feature-Zweig:** feature-replace-library-with-new-capability
+
+## Erweiterter Lerngraph
+
+635 validierte Datensätze umfassen 123 sichtbare Wörter, 45 Sätze, Schreibvorlagen, 37 genaue Flexionsparadigmen und vier Startdecks. Namensraum und Quell-IDs bleiben erhalten; verborgene Formen und großgeschriebene Satzanfänge bilden Abhängigkeiten vollständig ab.
+
+## Aktueller Cognis-Anbietervertrag
+
+Der eng begrenzte Anbietervertrag ist Pflicht. Registrierungen werden bei Fehlern oder Deaktivierung entfernt; gewünschte Inhaltslöschung erfolgt über den Host. Abläufe, Caches, Berechtigungen, Lernkarten und Freigaben bleiben beim Host.
+
+## Such- und Schreibergänzungen
+
+Das freie Wörterbuch liefert begrenzte Bedeutungen und IPA, erhält Quellenangaben und verknüpft Buchstaben. Eigene JSON-Vorlagen decken 52 Buchstaben und 17 Verbindungen ohne Binärassets ab. Ungültige Paket-TTS-URLs wurden entfernt; Audio ist optional.
+
+## Prüfung und Dokumentation
+
+Eigenständige Verhaltenstests prüfen Lebenszyklus, Wörterbuchfehler und Grenzen, Graphen, Formen und Decks. Lesbarkeitsprüfungen erhalten Leerzeilen. Standards, Wörterbuchanleitungen, README-Dateien und Texte sind in vier Sprachen abgestimmt. Modul 1.3.0 liefert Paket 15.0.0/Schema 15.
+
+## Commits
+
+- [796ce05](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/796ce057c656b30ae7a5a5fe013e1e4f1678daf8)

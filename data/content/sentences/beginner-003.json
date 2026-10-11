@@ -1,0 +1,275 @@
+[
+    {
+        "id": "en:sentence:the-room-is-cold",
+        "label": "The room is cold.",
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:room",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:cold",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:the-room-is-cold",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:today-is-a-good-day",
+        "label": "Today is a good day.",
+        "references": [
+            {
+                "entryId": "en:word:capital-today",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:good",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:day",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:sentence:today-is-a-good-day",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:i-have-two-books",
+        "label": "I have two books.",
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:have",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:two",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:books",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:i-have-two-books",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:she-speaks-english",
+        "label": "She speaks English.",
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-speak-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:english",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:sentence:she-speaks-english",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:he-works-at-home",
+        "label": "He works at home.",
+        "references": [
+            {
+                "entryId": "en:word:capital-he",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-work-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:at",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:home",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:he-works-at-home",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:i-am-happy",
+        "label": "I am happy.",
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-be-am",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:happy",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:sentence:i-am-happy",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:we-are-here",
+        "label": "We are here.",
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-be-are",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:here",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:sentence:we-are-here",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:they-are-there",
+        "label": "They are there.",
+        "references": [
+            {
+                "entryId": "en:word:capital-they",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-be-are",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:there",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:sentence:they-are-there",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    }
+]

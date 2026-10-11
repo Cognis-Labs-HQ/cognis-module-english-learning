@@ -1,0 +1,275 @@
+[
+    {
+        "id": "en:sentence:we-went-home",
+        "label": "We went home.",
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-go-past",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:home",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:sentence:we-went-home",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:they-were-happy",
+        "label": "They were happy.",
+        "references": [
+            {
+                "entryId": "en:word:capital-they",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-be-were",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:happy",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:sentence:they-were-happy",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:i-am-reading-a-book",
+        "label": "I am reading a book.",
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-be-am",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-read-present-participle",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:book",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:sentence:i-am-reading-a-book",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:she-is-drinking-tea",
+        "label": "She is drinking tea.",
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-drink-present-participle",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:tea",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:she-is-drinking-tea",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:he-is-learning-english",
+        "label": "He is learning English.",
+        "references": [
+            {
+                "entryId": "en:word:capital-he",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-learn-present-participle",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:english",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:he-is-learning-english",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:the-dog-is-bigger",
+        "label": "The dog is bigger.",
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:dog",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:form-english-big-comparative",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:the-dog-is-bigger",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:this-is-the-best-book",
+        "label": "This is the best book.",
+        "references": [
+            {
+                "entryId": "en:word:capital-this",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:form-english-good-superlative",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:book",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:sentence:this-is-the-best-book",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    },
+    {
+        "id": "en:sentence:hello",
+        "label": "Hello!",
+        "references": [
+            {
+                "entryId": "en:word:capital-hello",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:particle:exclamation",
+                "relation": "particles",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:sentence:hello",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite"
+    }
+]

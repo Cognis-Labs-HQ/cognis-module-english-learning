@@ -1,0 +1,489 @@
+[
+    {
+        "id": "en:word:dog",
+        "label": "dog",
+        "fields": {
+            "part_of_speech": "noun",
+            "pronunciation": ["/dɒɡ/"]
+        },
+        "class": "lexical:noun",
+        "tags": ["noun", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:word:dog",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:cat",
+        "label": "cat",
+        "fields": {
+            "part_of_speech": "noun",
+            "pronunciation": ["/kæt/"]
+        },
+        "class": "lexical:noun",
+        "tags": ["noun", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:c-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:word:cat",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:bird",
+        "label": "bird",
+        "fields": {
+            "part_of_speech": "noun",
+            "pronunciation": ["/bɜːd/"]
+        },
+        "class": "lexical:noun",
+        "tags": ["noun", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:b-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:word:bird",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:house",
+        "label": "house",
+        "fields": {
+            "part_of_speech": "noun",
+            "pronunciation": ["/haʊs/"]
+        },
+        "class": "lexical:noun",
+        "tags": ["noun", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:word:house",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:home",
+        "label": "home",
+        "fields": {
+            "part_of_speech": "noun",
+            "pronunciation": ["/həʊm/"]
+        },
+        "class": "lexical:noun",
+        "tags": ["noun", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:m-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:word:home",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:room",
+        "label": "room",
+        "fields": {
+            "part_of_speech": "noun",
+            "pronunciation": ["/ruːm/"]
+        },
+        "class": "lexical:noun",
+        "tags": ["noun", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:m-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:word:room",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:door",
+        "label": "door",
+        "fields": {
+            "part_of_speech": "noun",
+            "pronunciation": ["/dɔː/"]
+        },
+        "class": "lexical:noun",
+        "tags": ["noun", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:word:door",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:window",
+        "label": "window",
+        "fields": {
+            "part_of_speech": "noun",
+            "pronunciation": ["/ˈwɪndəʊ/"]
+        },
+        "class": "lexical:noun",
+        "tags": ["noun", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:w-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:w-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:word:window",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:school",
+        "label": "school",
+        "fields": {
+            "part_of_speech": "noun",
+            "pronunciation": ["/skuːl/"]
+        },
+        "class": "lexical:noun",
+        "tags": ["noun", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:c-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:word:school",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:teacher",
+        "label": "teacher",
+        "fields": {
+            "part_of_speech": "noun",
+            "pronunciation": ["/ˈtiːtʃə/"]
+        },
+        "class": "lexical:noun",
+        "tags": ["noun", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:c-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:word:teacher",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:student",
+        "label": "student",
+        "fields": {
+            "part_of_speech": "noun",
+            "pronunciation": ["/ˈstjuːdənt/"]
+        },
+        "class": "lexical:noun",
+        "tags": ["noun", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:word:student",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:friend",
+        "label": "friend",
+        "fields": {
+            "part_of_speech": "noun",
+            "pronunciation": ["/frend/"]
+        },
+        "class": "lexical:noun",
+        "tags": ["noun", "beginner"],
+        "references": [
+            {
+                "entryId": "en:char:f-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:word:friend",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

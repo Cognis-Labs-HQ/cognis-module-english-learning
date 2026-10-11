@@ -2,7 +2,7 @@
     "id": "study-language-en",
     "uuid": "b1adc29f-9d54-5785-9bea-2ce76f1981e4",
     "name": "module.study_language_en.name",
-    "version": "1.2.37",
+    "version": "1.3.0",
     "class": "extension",
     "privileged": true,
     "coreApiVersion": "v1",
@@ -11,7 +11,7 @@
     "ui": { "stringsBaseUrl": "/static/modules/study-language-en/languages" },
     "publisher": "Cognis Labs HQ",
     "requires": ["338b9237-a2c8-5bcf-9437-bccc9abd9a27"],
-    "requiresCapabilities": ["study:library"],
+    "requiresCapabilities": ["study:library:provider"],
     "summary": "module.study_language_en.summary",
     "description": "module.study_language_en.description",
     "categories": ["module.study_language_en.category_education"],
@@ -48,7 +48,7 @@
         },
         {
             "path": ".github/copilot-instructions.md",
-            "sha256": "4de94bcddb3d56990b6e650bcae33542959773c7ad933b5a8eb9339cbfbb0f00"
+            "sha256": "f1bda484c9252f33f257a6b8f75eabe5889f99c0cb6710428a8e53990803d7cf"
         },
         {
             "path": ".gitignore",
@@ -64,7 +64,7 @@
         },
         {
             "path": "AGENTS.md",
-            "sha256": "4de94bcddb3d56990b6e650bcae33542959773c7ad933b5a8eb9339cbfbb0f00"
+            "sha256": "f1bda484c9252f33f257a6b8f75eabe5889f99c0cb6710428a8e53990803d7cf"
         },
         {
             "path": "LICENSE",
@@ -72,39 +72,51 @@
         },
         {
             "path": "README.de.md",
-            "sha256": "6d006c540569bd79012474fee41068747a7913d416e924503de0b2a313d56be4"
+            "sha256": "e3c0e078d9e16680b0892794d2afcd8e4d074ef586f3004b303ee84f85ae4d21"
         },
         {
             "path": "README.en.md",
-            "sha256": "9575ee8d297b1d38b1c8e1bcd725ce0ca1790e8b2273cb8cf18d7669f5ccbcf0"
+            "sha256": "73b76fa11ddbf1bc286332766cc75c235cd3106c8128450abb9095097118b7fa"
         },
         {
             "path": "README.id.md",
-            "sha256": "318aa249d73533162a27df3cad93010ffdfcc7fe42eda4af0967c4ec9a0c2bc5"
+            "sha256": "e3b93f815d04d1058ee886b6e06fcdd106c04d4c8e49603a8645bc356acf0621"
         },
         {
             "path": "README.ja.md",
-            "sha256": "63f0e8861c9072cdc75eb85998a02ca22993907df2e7447a98ab91dfb81b0c77"
+            "sha256": "c8c28d283c26367e71e66adfc533fcc129fc6b638ec35077537feb8758f1cbaf"
         },
         {
             "path": "README.md",
-            "sha256": "9575ee8d297b1d38b1c8e1bcd725ce0ca1790e8b2273cb8cf18d7669f5ccbcf0"
+            "sha256": "73b76fa11ddbf1bc286332766cc75c235cd3106c8128450abb9095097118b7fa"
+        },
+        {
+            "path": "api/dictionary-provider.js",
+            "sha256": "99b1aab74027946bc30c0678c0d88de039dc96ca99cbda942db0638647d4ba95"
+        },
+        {
+            "path": "api/stroke-pattern-provider.js",
+            "sha256": "4069f80f691f252bad206ef1dfa027813ae9d726db41338b2c8199df73d6d1e3"
         },
         {
             "path": "api/tests/bootstrap.test.js",
-            "sha256": "1e3929aa1120b5e041c8f56b77c43e26a4a25b638ce97626925692afc867c214"
+            "sha256": "848833d7f4bbdbfd7378ff478cf33c24f204fc8f767e0aa628116c997743429c"
         },
         {
             "path": "api/tests/content-pack.test.js",
-            "sha256": "61e992dbbda1e4ffffc590693fcefc18f31ea7ef496fd77a964a103fb465fa11"
+            "sha256": "0acde68f51b041e701ae61750c25009a28263157138657d7b7ec204a260cb0ad"
         },
         {
             "path": "api/tests/documentation-convention.test.js",
             "sha256": "0ba4c2212e079ce3bbf338e9217e7e9dd3a06251447cd5142cb9964d5106d5cd"
         },
         {
+            "path": "api/tests/lookup-providers.test.js",
+            "sha256": "38fd21650c925484bf62e1a456bb4d0bb50efccf86368755a400a1a1a8122acd"
+        },
+        {
             "path": "api/tests/structural-compliance.test.js",
-            "sha256": "b49621f66ec588c7a7d0fc1988e297c134f311debe60faf3e2446e3d2a32d1c5"
+            "sha256": "ae8add61d5a5dd669f34185d654aa6a04acbc7831c2209c0757d756c54d3957a"
         },
         {
             "path": "assets/banner.svg",
@@ -116,63 +128,247 @@
         },
         {
             "path": "bootstrap.js",
-            "sha256": "6720b6d2935d1d1b3ad1f7ccc2f7b693c59709c2e531c0899c77ad9482ad2d87"
+            "sha256": "1d6ef3e405eb2aa2e82cecf2cfe69c16b0c632ca1a286785ae1f0d5be42053dd"
         },
         {
             "path": "data/content/alphabet/common.json",
-            "sha256": "65ba46a8665c7bfc63ce039ff1a571ff8683780dac684e991d995d04170b1ce3"
+            "sha256": "160415efecbeeefb1df6c662b30fe4316a22174008e718a2e91b9e9f2ab9b273"
         },
         {
             "path": "data/content/composites/common.json",
-            "sha256": "3347fb2b86c8656f421f07384d611b8eb82c0594d9d24ed5339a5c468766dd7e"
+            "sha256": "51025c349e39536bf2e11bef3b200a66271e08ebafb346536531ad67f5349084"
+        },
+        {
+            "path": "data/content/composites/vowels.json",
+            "sha256": "9b6fa567baf830fd04af2a0ecf938792ab1838dd5fc24a45906527c54e72ebe2"
+        },
+        {
+            "path": "data/content/definitions/beginner-001.json",
+            "sha256": "76413b00e4143f50516b44cf2d75bd4db0dd1f2259a537207cb772f28978fbaf"
+        },
+        {
+            "path": "data/content/definitions/beginner-002.json",
+            "sha256": "039c73ede81d2eae4de25633ae668c194b56aa66267aaf5a503a98e57d1f1be8"
+        },
+        {
+            "path": "data/content/definitions/beginner-003.json",
+            "sha256": "d756d653b7ab6f6496613e34766c63ed47ef16800acbdbb8edb42bc6f406d505"
+        },
+        {
+            "path": "data/content/definitions/beginner-004.json",
+            "sha256": "289be1980284ebaf7d9a83a3cd6df55a5c7dbdb16160f0b7bd83316026e023f7"
+        },
+        {
+            "path": "data/content/definitions/beginner-005.json",
+            "sha256": "6805e3b03055e16f0872ef3ec534915e74c409f7a492d3e11740febb55052983"
+        },
+        {
+            "path": "data/content/definitions/beginner-006.json",
+            "sha256": "feb727b87c0bddcf90477ad848f930f8c4c25dca798f7a8d392839eff45e9949"
+        },
+        {
+            "path": "data/content/definitions/beginner-007.json",
+            "sha256": "6fdc3546373aacbfb1cfd8aefa83c3a3549ae0d7120981b193a5afaea44f4a7e"
+        },
+        {
+            "path": "data/content/definitions/beginner-008.json",
+            "sha256": "a3e50cf87b644b0a9c2d3c2119a5c084a2a12247e96d6bdee0cdafc11cc48fb9"
+        },
+        {
+            "path": "data/content/definitions/beginner-009.json",
+            "sha256": "6deffd619685861e7dc0a1dd91bacb3e20a8e7a329f0e8f4474aaaac1794a30b"
+        },
+        {
+            "path": "data/content/definitions/beginner-010.json",
+            "sha256": "74dafe42e2b0afd2fc3c5832f7b6996d425b9b1e1d209a5249c1ff4b9da35a3d"
         },
         {
             "path": "data/content/definitions/common.json",
-            "sha256": "d4190c75298608c3e539fb36d6a3363e8a6ae41a8ded1a2c67533644d8829e87"
+            "sha256": "23c932dd08ad0d48b156a30de9387b81ea2089496dd47b97412200143907a3a0"
         },
         {
             "path": "data/content/particles/common.json",
-            "sha256": "bb0feeb1d0c8e8677a801a761654bb62e8b52854e2e46f7788d0d5a0baa26131"
+            "sha256": "6be2eb0084d5fb5c7ee3159c1f6e4a0313157d571fba755f18032fa99ef3d614"
+        },
+        {
+            "path": "data/content/sentences/beginner-001.json",
+            "sha256": "838c63754f69028bc5327b3d632e8f45e292de2ed72c8847e3112a30e8fd65be"
+        },
+        {
+            "path": "data/content/sentences/beginner-002.json",
+            "sha256": "ff1ab7f67a199db3b3356f6b2535d276ffec23a0192690b1c8ae42c426cbca4b"
+        },
+        {
+            "path": "data/content/sentences/beginner-003.json",
+            "sha256": "7a7602d53c04af7d40d92ecb82f7b6a48829a2566f91ae925ecce4fe6365330a"
+        },
+        {
+            "path": "data/content/sentences/beginner-004.json",
+            "sha256": "10c1ae175248d049a52402dc447df52892c480efbb7ab8f87654c24646797dc4"
+        },
+        {
+            "path": "data/content/sentences/beginner-005.json",
+            "sha256": "39f5ca303cc4bb73e27b01c9a29c6992870178a031ed67a15a13532ca4e0402e"
+        },
+        {
+            "path": "data/content/sentences/beginner-006.json",
+            "sha256": "2d3d66ef55bf828d82c086c292959f84b32751de32ac99f9711daf747fe32582"
         },
         {
             "path": "data/content/sentences/common.json",
             "sha256": "fbda16260e5794643b0284b50a78bfa1fa3fa02bd36111a042dd80486b6bcd93"
         },
         {
+            "path": "data/content/words/beginner-001.json",
+            "sha256": "c796d7ce01422548d148b8c0a47304ce6ea02d7376f7ecfb162d8f6c92a57aab"
+        },
+        {
+            "path": "data/content/words/beginner-002.json",
+            "sha256": "67d26de739d3e0c86f2337ddf969641f6b79a8a5e88c755a401708d0dccd2212"
+        },
+        {
+            "path": "data/content/words/beginner-003.json",
+            "sha256": "4af04219ee2d35682a083db4c02f6da355e4c250de5b1255fe826e23067aec62"
+        },
+        {
+            "path": "data/content/words/beginner-004.json",
+            "sha256": "13e41121de2a169c3151cedccd0cd9f7fdcf19289862426a61659b1ca176f96a"
+        },
+        {
+            "path": "data/content/words/beginner-005.json",
+            "sha256": "7aebedad2c3c7a98774ea32fd698794ae47122e6a646b1cc1907e014f3eeff58"
+        },
+        {
+            "path": "data/content/words/beginner-006.json",
+            "sha256": "5765312887e5e13dbacd4f743c1c5a20f95c8b8751a743fb1ff2e40d579a1f0e"
+        },
+        {
+            "path": "data/content/words/beginner-007.json",
+            "sha256": "4ed0835683a2353ccd4ec194320c3fc599b4c5eaf1c6eb0aa06723ceefd745f2"
+        },
+        {
+            "path": "data/content/words/beginner-008.json",
+            "sha256": "900d35f74c4518c75400f2f26a3448ce44aa25edfe67c221dd86f797c55dfddc"
+        },
+        {
+            "path": "data/content/words/beginner-009.json",
+            "sha256": "6a33872ebaf4413eea8c11e521712411aafd3d9be607d5008fd93c7f4038aee2"
+        },
+        {
+            "path": "data/content/words/beginner-010.json",
+            "sha256": "aca8c22b0fd8d4ea55cc8fafe18a3bca641a9456dc1c21f89411268cd39a6991"
+        },
+        {
+            "path": "data/content/words/capitalized-001.json",
+            "sha256": "633bbf5799ff67c7b10a294edbba3d6cff8c2082b836efa9d797e7cba98776cf"
+        },
+        {
             "path": "data/content/words/common.json",
-            "sha256": "5416e6fdb0373d31a150121e43e7433ba73cdb77a6c714fa15b904306f08e025"
+            "sha256": "8a677e6fc26d3409775dbde7f4032c7975dd8b5bc68cd2860ea418a23da3dc0d"
+        },
+        {
+            "path": "data/content/words/inflected-001.json",
+            "sha256": "c5054c046d837fd07e84b7118c9b379cc5f57b4e371b56eb6c06a9a56409eb07"
+        },
+        {
+            "path": "data/content/words/inflected-002.json",
+            "sha256": "83fcfd1eaceda29a1b044121c3b8d190b32494720be74e977ac2ac6ea35201be"
+        },
+        {
+            "path": "data/content/words/inflected-003.json",
+            "sha256": "94fa97fc368b32c1a0ec660538cce729c32b96516d2f50885f9676005abdb658"
+        },
+        {
+            "path": "data/content/words/inflected-004.json",
+            "sha256": "c4ed3a2086e130af4ce3c4bb92a901d04345ab6eff08f8f3903b113790209046"
+        },
+        {
+            "path": "data/content/words/inflected-005.json",
+            "sha256": "0df4eadd1683649dbd5f17679c90f7124b6570cbf18938506181336634dcbaaf"
+        },
+        {
+            "path": "data/content/words/inflected-006.json",
+            "sha256": "938fb01720a1a12c2eb25ff185ea6e8d8f3f67b52d562906ad4966fee3908a5b"
+        },
+        {
+            "path": "data/content/words/inflected-007.json",
+            "sha256": "39f43488c01742410e40ac5f3356086282ac3ed63507242fcaa68c6f6a356f8c"
+        },
+        {
+            "path": "data/content/words/inflected-008.json",
+            "sha256": "6543d44b54031d654abacb7906c8336339f823e64e5164dcc4e38c8a4bf830ad"
+        },
+        {
+            "path": "data/content/words/inflected-009.json",
+            "sha256": "68956ce3f298b2991267577165938969edcb11b86f7c9b1fb9c9fea7ef17845e"
+        },
+        {
+            "path": "data/content/words/inflected-010.json",
+            "sha256": "2d2cb77ace9b1a77674fa622885c3acf2cf0abc33ca386f85c671e6f115d9806"
+        },
+        {
+            "path": "data/content/words/inflected-011.json",
+            "sha256": "2f9dffd70c95cb11d9545d6c10d836c54e558ff7c394324690fa3bdc7c72960d"
+        },
+        {
+            "path": "data/content/words/inflected-012.json",
+            "sha256": "8ff0cb2707667c7117136839c9e9b08d8a23969d640d620e4bd87b2f8702b8bd"
         },
         {
             "path": "data/manifest.json",
-            "sha256": "2c218f1594b93e09ad2c600789ada0b7ce069bf36dddbd67bc27bd4a2562737d"
+            "sha256": "4936d8a98971c52285d72e3605d85bcd04dd10637fff5ba88c0727af86ce9f45"
         },
         {
             "path": "data/schema.json",
-            "sha256": "bca9321e4f25e545a092600d63c9605c649eed6f9eade2878449352de762f420"
+            "sha256": "0727a6b658720fa2dd9a86cbd392a39d23d4cf95e7faf23e5a842afffebcfb93"
+        },
+        {
+            "path": "data/starter-decks.json",
+            "sha256": "e3145b5d4b017226236fec5f4c9e5527b478a8fc33fa1e918d6aba0226fdee46"
+        },
+        {
+            "path": "docs/dictionary.de.md",
+            "sha256": "2494fa275cc503ea540d0f0fb39008aa7ebda09cb7f33447086c9520c741c3d0"
+        },
+        {
+            "path": "docs/dictionary.en.md",
+            "sha256": "e7e893e6b6be9b30358a74ff717afd9aff078a813335ce04fb0705d6239dd2eb"
+        },
+        {
+            "path": "docs/dictionary.id.md",
+            "sha256": "c56c62d20490d0ff7a1ed42b2f631df897cc0bf9df357bf1bbeba7ab68abc319"
+        },
+        {
+            "path": "docs/dictionary.ja.md",
+            "sha256": "5e83a4c904fd9b06956960ea25725aea86f68c75b3dd28f444a69c1e6f7d841b"
         },
         {
             "path": "docs/standard.de.md",
-            "sha256": "802d5fd12418595b65ec2903bc6e4ad72d1fba04ebb018427ca151a831823f94"
+            "sha256": "b359648e7eecbfd787685dbde438a20d9769cafbcf990e6ed2a0e671c323f549"
         },
         {
             "path": "docs/standard.en.md",
-            "sha256": "03c4638273fbfa4e729caecdfb2d84cdff788b891094d6d50b57391b0e5e557d"
+            "sha256": "6c8fb1aeae3fdec33f910f499d0cbd6da2b63210787d517d71cb13fde82016ab"
         },
         {
             "path": "docs/standard.id.md",
-            "sha256": "148d94e4a82f602cb8c7c65570d7c6096207f77a2c951f958ebfa5bb20402d5e"
+            "sha256": "f6bb11f8923632193400324d85b792480381a6abd4e05fa2aea2308b27d1d3fb"
         },
         {
             "path": "docs/standard.ja.md",
-            "sha256": "17c4a2bd5945edb67fd4363b8d1c5ebeb9ddc02d8f4f92c920ed29d039dabe74"
+            "sha256": "c8f89ec59cf19cd05c6f1fb064b5a8f8590efa665aab31e196a024071a253b6a"
         },
         {
             "path": "package-lock.json",
-            "sha256": "1c56d29dec47186c1283ce9e05c31c5542fcd4fbca101ed62155dc823b3b7f01"
+            "sha256": "3af1f0ec760b4db5d0c761962fa3759182d2b24fc0e9e141f3af1d942ec71f4e"
         },
         {
             "path": "package.json",
-            "sha256": "f6678c3d264d77fd74d0db9e3ae06059e1ccbc5b62934c798d37228abcaba612"
+            "sha256": "7f5b5b4de179d0b0bc2cbd0b6fd6e8683b0be0c8967ea9434a67ddb5042a28c6"
+        },
+        {
+            "path": "reuse/content.js",
+            "sha256": "90a0394e209f568a97d2957afe398e763a5cb97198ca04fbe3dab263855d12e5"
         },
         {
             "path": "routes.json",
@@ -187,28 +383,32 @@
             "sha256": "97b725de097b60dd41b8642593c3f9bc7ebe8ed7c74aca13edf76061c60ba211"
         },
         {
+            "path": "tooling/scripts/declaration-spacing.mjs",
+            "sha256": "9ffe78c648f87fe145206cd1564dad7fa68a203cdfdd7c8d6d1b06442e512e5a"
+        },
+        {
             "path": "tooling/scripts/lint-placeholder.mjs",
             "sha256": "c869f4af45abd4f82500f836d5e50af93b9988a56283477ae45bd0aa45f47fd1"
         },
         {
             "path": "tooling/scripts/lint-readable.mjs",
-            "sha256": "fff2e006b2709345baafe18b4147c00541cd3f83d78ff113bb82032f2abcb45f"
+            "sha256": "cb35ba9bea65c0fe59bb11764f8c86fd8d95bbdb5a2315f66741fb93f592cd07"
         },
         {
             "path": "ui/languages/de/strings.xml",
-            "sha256": "2e51f27ce4aadeed1883e0424461552bbc6a0bc2d66d37204b8b01ac06d1045a"
+            "sha256": "283c8842817b258d60c88bb83539923fb7958e7e1f0f4624de66311ef2435aed"
         },
         {
             "path": "ui/languages/en/strings.xml",
-            "sha256": "f45d4c797c5de2f32036e4a5fb1f77d4c3da6e423e17f7f67b0d510607ab830a"
+            "sha256": "47b96c0f9631e0082508810d85472156a09bc56b0d4c90946b13426bee85afac"
         },
         {
             "path": "ui/languages/id/strings.xml",
-            "sha256": "cf7cbe7d612a3e12400f8cad1267f5258173450def86cb0a1757519da90bd9c0"
+            "sha256": "0fd349cc34fe1706ba05900e1fbfef602104f40636475a65f49f6394f5b9d03f"
         },
         {
             "path": "ui/languages/ja/strings.xml",
-            "sha256": "75f5743894843ca5ede804e70342df1ad299a0358e40d75ddf0740dd05009a29"
+            "sha256": "2a4ae8c39daa14fb787bfc45bd8b7aac1f1db5591572bd0847f46d0288b99d56"
         },
         {
             "path": "ui/tests/ambiguous-names.test.js",

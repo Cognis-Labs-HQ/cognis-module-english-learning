@@ -1,44 +1,41 @@
-# Cognis-Englischmodul
+# Cognis Englischmodul
 
-Das Cognis-Englischmodul stellt für das Cognis-Study-Gateway eine installierbare Englischlernumgebung als versioniertes, deklaratives und ausschließlich datenbasiertes Inhaltspaket bereit.
+Cognis English 1.3.0 liefert einen versionierten Lerngraphen, englische Wörterbuchergänzungen, eigene Druckschrift-Vorlagen und vier Startdecks. Cognis verwaltet die Lernoberfläche und sämtliche Nutzerdaten.
 
-## Anwendungsbeispiele
+## Nutzungsbeispiele
 
-- Öffnen Sie `/study/library`, um die englischen Inhalte über die schemagesteuerte gemeinsame Study-Bibliothek zu erkunden.
-- Lösen Sie die vom Host bereitgestellte Capability `study:library` auf, um auf das versionierte Inhaltspaket im Namensraum `en` mit lokalisierten Schemametadaten, semantischen Ebenenrollen und durch moduleigene Zeichenketten gestützten Definitionsbeziehungen zuzugreifen.
-- Lösen Sie die Capability `study:language:en` auf, um den kanonischen Deskriptor mit `languageCode: "en"` für die erzeugte Schaltfläche der Study-Unternavigation zu erhalten.
+- Erkunden Sie `/study/explore/en/alphabet`, `/study/explore/en/letter-combinations`, `/study/explore/en/vocabulary`, `/study/explore/en/particles` und `/study/explore/en/sentences`.
+- Suchen Sie mit dem freien Wörterbuch in der Study-Navigation. Ausgewählte Wortschatztreffer füllen den Karteneditor des Hosts.
+- Unter `/study/flashcards` stehen Englisches Alphabet, Erste englische Wörter, Englische Verben im Alltag und Erste englische Sätze bereit. Cognis übernimmt Lernen, Favoriten und Freigaben.
 
 ## Technische Spezifikation
 
-Das Modul ist eine schreibgeschützte externe Cognis-Erweiterung. Seine dauerhafte UUID identifiziert es versionsübergreifend, und sein `requires`-Eintrag deklariert das Study-Gateway per UUID.
+### Anbietervertrag und Lebenszyklus
 
-### Integrationsvertrag
+Die dauerhafte Modul-UUID lautet `b1adc29f-9d54-5785-9bea-2ce76f1981e4`, die erforderliche Study-Gateway-UUID `338b9237-a2c8-5bcf-9437-bccc9abd9a27`. Bootstrap verlangt `ctx.capabilities.require("study:library:provider")` mit funktionsfähigen Methoden `ingestContentPack`, `registerLookupProvider` und `deleteContentPack`. Nach Registrierung der Schreib- und Wörterbuchanbieter wird `data/` eingelesen. Anschließend werden `study:language:en` und ein entfernbarer Beitrag zum Ablauf `bootstrap-platform` veröffentlicht. Der Deskriptor enthält `code`, `languageCode`, Modulversion, Paket und `starterDecks`.
 
-- `bootstrap.js` ist der einzige Integrationseinstiegspunkt für die Plattform.
-- Die Browserfreigabe ist auf `ui/languages` beschränkt; das reine Datenmodul trägt weder eine Host-UI-Erweiterung noch einen Hook für eine Plattform-Bootstrap-Stufe bei.
-- Das bereitgestellte `ctx` ist der einzige komponentenübergreifende Bus für Capability-, Flow- und Sprachressourcenregistrierungen.
-- Laufzeitimporte bleiben repository-relativ und greifen niemals auf Cognis-Interna oder benachbarte Komponenten zu.
-- Bereichsgebundene Registrierungen lassen sich beim Deaktivieren oder Deinstallieren des Moduls entfernen.
+Bei Deaktivierung oder fehlgeschlagenem Start werden Suchanbieter entfernt. Der Host verwaltet Routen, statische Verzeichnisse, Fähigkeiten und Ablaufbeiträge im Modulkontext. Das nur Administratoren erlaubte `DELETE /api/v1/modules/study-language-en/config` liefert 204 und bleibt bei Deaktivierung verfügbar; das Modul speichert keine Konfiguration. Bei Deinstallation behält `deleteContent: false` das Paket, während `true` die weiterhin verfügbare Anbietermethode `deleteContentPack` aufruft. Cognis übernimmt transaktionale Kaskadenlöschung und Benachrichtigungen. Fehler werden weitergegeben und sicher strukturiert protokolliert.
 
-- Der Deinstallations-Hook protokolliert die Lebenszyklus-Bereinigung; das Modul hat keine gespeicherte Konfiguration oder nutzereigenen Inhalte, da seine Lerndatensätze schreibgeschützte Paketdateien sind.
+### Inhaltsgraph
 
-### Aktuelles Study-Datenmodell
+Paket `english-core` 15.0.0, Schema `english` Revision 15 und Inhaltsrevision `2026-10-11.1` erhalten Namensraum und vorhandene Datensatzidentitäten. Die 635 Datensätze umfassen 52 Buchstaben, 17 Buchstabenverbindungen, 123 sichtbare Wörter, 135 verborgene Flexionsformen, 10 verborgene großgeschriebene Satzanfänge, 21 Grammatik-/Satzzeichenkarten, 45 Sätze und 232 verborgene Definitionen. Jede Definition enthält Englisch, Deutsch, Indonesisch und Japanisch. Definitionen verwenden das Host-Präfix `studyenglish:definitions`, Marktplatztexte `module.study_language_en.*`.
 
-Schemaversion 14 modelliert Alphabeteinträge als atomare Schrifteinheiten mit Aussprachelisten und HTTPS-Audioverweisen. Wörter werden mit geordneten Buchstabenfolgen und lokalisierten Definitionen verknüpft, grammatische Partikeln werden eigens modelliert, und Sätze setzen sich aus geordneten Wort- und Partikelverweisen zusammen. Audio bleibt extern, daher liefert das Modul keine binären Medien aus. Häufige Digraphen werden außerdem als zusammengesetzte Schrifteinheiten modelliert, deren resolvergestützte Zusammensetzungsverweise von ihren lokalisierten Definitionsverweisen getrennt sind. Das Alphabet veröffentlicht ein festes Raster, und erforderliche Metadatenfilter deklarieren ihre anfänglichen Tags. Die Kleinbuchstabenkarten im Raster werden über stabile numerische Anzeige-IDs adressiert; jede großgeschriebene Alternative verwendet eine Beziehung, die sowohl ihre Identität als Alternativform als auch ihren Kleinbuchstaben als begriffliches Elternelement ausdrücklich kennzeichnet. Wort-, Partikel- und Satzkarten bevorzugen ihre erforderliche lokalisierte Definition gegenüber internen Datensatzbezeichnungen. Nur die Alphabet-Zeichenebene fordert minimale Karten an, sodass ihre Einträge kompakte Hauptbezeichnungen zeigen, während Zusammensetzungen und alle höheren Ebenen ihre vollständige Darstellung behalten. Satzbeschriftungen müssen sich nach der Leerraumnormalisierung exakt aus lückenlosen geordneten Verweisen auf lexikalische Einheiten und Partikeln rekonstruieren lassen; der enthaltene Punkt ist deshalb eine ausdrückliche Satzzeichenpartikel und kein unverknüpfter Beschriftungstext. Das Alphabet verwendet sieben Spalten und zwei ausdrückliche Leerfelder am Ende, sodass vier ausgeglichene Zeilen entstehen. Buchstabendatensätze enthalten ihre Namen und häufige IPA-Phoneme; sieben enthaltene Digraphen decken `ch`, `sh`, `th`, `ph`, `wh`, `ng` und `ck` ab. Variantenbeziehungen schreiben keine Richtung mehr vor; `variant: true` kennzeichnet die Alternativform, während `child: true` sie unabhängig in die räumliche Hierarchie aufnimmt, und der aktuelle Host wählt dynamisch eine verfügbare Position innerhalb der Grenzen. Enthaltene Vokabeldatensätze besitzen eigene lokalisierte Bedeutungen, wenn sich ihr lexikalischer Begriff von einem Quellzeichen unterscheidet; beispielsweise wird das Wort `a` als unbestimmter Artikel definiert, anstatt „Der Buchstabe A.“ zu übernehmen. Der Host verwendet die Quelldefinitions-Rückfallregel daher nur für lexikalische Einträge ohne eigene Bedeutung und verwirft sie bei nicht zusammenhängender Navigation. Das Paket deklariert `protected: true`, damit anbietereigene Datensätze weder verschoben noch gelöscht werden können, und veröffentlicht JSON-kompatible Katalogmetadaten sowohl im Paketmanifest als auch im Schema. Der Bootstrap löst die während des Lebenszyklus verfügbare Capability `study:library` auf, führt deren schreibgeschützte Vorprüfung `inspectContentPack` aus und fordert erst danach den atomaren Import an. Das maßgebliche Paket 14.1.0 entwickelt die Schemakompatibilitätsversion 14 am selben Ort weiter: Inhaltsdatensätze veröffentlichen nun anbieterneutrale Klassen, Definitionen sind ausdrücklich ausgeblendet, Partikeln nicht bearbeitbar und echte Schreib- oder Sequenzkanten deklarieren `presentationRole: "composition"`. Definitions-, Varianten- und Rückwärtsabhängigkeitskanten bleiben Beziehungen ohne Resolver und erscheinen daher nur in der vereinheitlichten Rückwärtsnavigation. Bearbeitbare Felder veröffentlichen lokalisierte `input`-Verträge einschließlich einer begrenzten Auswahl englischer Audiodateien.
+Geordnete Schreib- und Satzverweise führen zu echten Karten. Verborgene Flexionskarten liefern wörtliche Ziele für die Satzvalidierung; interaktive Formulare verwenden 37 deklarative Verb-, Kopula- und Adjektivparadigmen mit unregelmäßigen Formen und IPA. IPA bleibt Lautschrift und wird nicht mit sachfremden Buchstaben verknüpft. Großgeschriebene Satzanfänge erhalten den tatsächlichen Satztext. Nicht editierbare Grammatikpartikeln umfassen Verneinung, Präpositionen, Konjunktionen und Satzzeichen. Definitionsbeziehungen sind auf zehn Einträge begrenzt.
 
-### Richtlinie für Bootstrap-Fehler
+Formverträge deklarieren Schreibfelder, Buchstabenkarussells für Wörter, Wort-/Partikelkarussells für Sätze und ein Satzstrukturkarussell. Der Host übernimmt Validierung, UUID-Auflösung, Leerzeichen, Import, Grenzen und Benachrichtigungen. Das Alphabet behält sieben Spalten und Großbuchstaben als Kinder der Kleinbuchstaben. Nur atomare Buchstaben verwenden minimale Vorschauen.
 
-Das Einlesen der Inhalte und die Capability `study:language:en` bilden das gesamte Laufzeitverhalten des Moduls. Der aktuelle Host führt Inhaltsimporte atomar aus und setzt das Modul nach jedem verbleibenden Bootstrap-Fehler wieder auf deaktiviert. Das Modul folgt daher dieser hosteigenen Richtlinie ohne Manifest-Ausnahme.
+### Schreibvorlagen und Medien
 
-### Sicherheit
+Alle Buchstaben und Verbindungen enthalten eigene normalisierte JSON-Druckschriftvorlagen mit geordneten Strichen, Zeitstempeln und Zeichengruppen. Der Schreibanbieter liefert Kopien der Paketdaten ohne Netzabfragen. Diese einführenden Vorlagen schreiben keinen Handschriftstil vor. Binärmedien werden nicht mitgeliefert. Audio ist optional: externe TTS-URLs sind keine gültigen Paket-Audioassets und wurden entfernt. Cognis kann eigene Aussprachefunktionen oder hochgeladene Audiodateien verwenden.
 
-- Das Manifest fordert ausdrücklich eine privilegierte Registrierung an, weil die öffentliche Capability `study:language:en` zum durch PR #220 geschützten Hostnamensraum gehört; das Modul verwendet dieses Privileg weder für Hostrouten noch für sicherheitssensible Flows.
+### Wörterbuchgrenze
 
-- Die Host-Bibliothek prüft Paketnamensraum, semantische Version, Lizenz, sichere Pfade, lokalisiertes Schema, typisierte Felder und den vollständigen Datensatzgraphen vor einem atomaren Schreibvorgang.
-- Fehler beim Einlesen werden mit sicheren strukturierten Metadaten an den Host-Logger übergeben.
+Das freie Wörterbuch fragt ausschließlich englische Wörter über `https://api.dictionaryapi.dev/api/v2/entries/en/<word>` ab. Der versionierte, feldbezogene Anbieter unterstützt die Suche, aber weder Satzübersetzung noch Schreibvorlagen. Eingaben sind begrenzt, der Endpunkt ist fest, Weiterleitungen werden abgelehnt, Anfragen enden nach 15 Sekunden und Antworten werden validiert und begrenzt. Doppelte Lesungen und Bedeutungen werden bei erhaltener Quellenreihenfolge entfernt; höchstens zehn Definitionen und Lesungen werden geliefert. Quellen und Lizenzangaben verbleiben im verborgenen Feld `dictionary_data`. Externe Bedeutungen bleiben Englisch, bis die Host-Lokalisierung weitere Sprachen ergänzt. Einzelheiten stehen in der Wörterbuchdokumentation.
 
-### Freigabeprozess
+Paketkarten behalten ihre kuratierte primäre IPA und Paradigmen-Tags. Neue reine Buchstabenschreibungen verknüpfen vorhandene Buchstaben; unbekannte Verben erhalten keine geratenen Formen. Bei 404 wird ein echter lokaler Treffer verwendet, andere fehlerhafte Antworten erzeugen einen sicheren Fehler. Cognis Core verwaltet dauerhafte Suchcaches, Prüfungen nach einer Stunde und die Veröffentlichung geänderter Ergebnisse nach zwölf Stunden. Das Modul hält nur unveränderliche Inhaltsindizes, keine Antwortcaches oder Zeitgeber.
 
-- Halten Sie die Versionen in `manifest.json`, `package.json` und `package-lock.json` synchron und ändern Sie niemals die Modul-UUID.
-- Führen Sie vor einem Release-Commit `npm install`, `npm test`, `npm run lint`, `npm run manifest:hashes`, `npm run check:manifest` und `git diff --check` aus.
-- Erzeugen Sie `manifest.files` nach der letzten Änderung an einer ausgelieferten Datei neu, damit alle repository-relativen Pfade und SHA-256-Prüfsummen überprüfbar bleiben.
+### Paketierung und Prüfung
+
+Privilegien erlauben den Host-Sprachnamensraum, umgehen aber keine Study-Berechtigungen. Laufzeitimporte bleiben im Repository, Tests verwenden lokale öffentliche Vertragsattrappen. Alle vier Sprachen und Dokumentationsvarianten werden mitgeliefert. Eigene Inhalte und Vorlagen stehen unter AGPL-3.0-or-later; externe Wörterbuchangaben bleiben getrennt.
+
+Führen Sie `npm install`, `npm run manifest:hashes`, `npm test`, `npm run lint`, `npm run check:manifest` und `git diff --check` aus. Erzeugen Sie die Manifest-Hashes nach den letzten Änderungen neu. Änderungsprotokolle gehören nicht zum Paketinhalt.

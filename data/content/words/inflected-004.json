@@ -1,0 +1,539 @@
+[
+    {
+        "id": "en:word:form-english-say-third-person",
+        "label": "says",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/sez/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:y-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:word:say",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:say",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-say-past",
+        "label": "said",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/sed/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:word:say",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:say",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-say-present-participle",
+        "label": "saying",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/ˈseɪɪŋ/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:y-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:word:say",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:say",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-say-past-participle",
+        "label": "said",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/sed/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:word:say",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:say",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-make-third-person",
+        "label": "makes",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/meɪks/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:m-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:k-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:word:make",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:make",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-make-past",
+        "label": "made",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/meɪd/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:m-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:word:make",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:make",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-make-present-participle",
+        "label": "making",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/ˈmeɪkɪŋ/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:m-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:k-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:word:make",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:make",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-make-past-participle",
+        "label": "made",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/meɪd/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:m-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:word:make",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:make",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-take-third-person",
+        "label": "takes",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/teɪks/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:k-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:word:take",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:take",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-take-past",
+        "label": "took",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/tʊk/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:k-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:word:take",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:take",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-take-present-participle",
+        "label": "taking",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/ˈteɪkɪŋ/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:k-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:word:take",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:take",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:form-english-take-past-participle",
+        "label": "taken",
+        "hidden": true,
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/ˈteɪkən/"]
+        },
+        "class": "lexical:verb",
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:k-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:word:take",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:take",
+                "relation": "inflected-from"
+            }
+        ]
+    }
+]
