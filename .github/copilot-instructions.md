@@ -14,7 +14,7 @@ Keep the versions in `manifest.json`, `package.json`, and `package-lock.json` sy
 
 ## Component isolation and ctx
 
-`bootstrap.js` is the sole system integration entrypoint. Runtime code and tests must not import Cognis internals, sibling components, or private implementations. Treat `ctx` as the complete cross-component bus: obtain behavior through capabilities, register behavior through capabilities and named flow stages, detect optional components through capabilities, and keep all registrations removable. Route handlers validate and orchestrate; ctx-provided capabilities execute provider-specific work.
+`bootstrap.js` is the sole system integration entrypoint. Runtime code and tests must not import Cognis internals, sibling components, or private implementations. Treat `ctx` as the application backbone rather than a convenience. Every supported action participates in its owning declared staged host flow, and behavioral contract tests must fail bypasses. The module provides language data and lookup enrichment; Cognis owns action orchestration. Treat `ctx` as the complete cross-component bus: obtain behavior through capabilities, register behavior through capabilities and named flow stages, detect optional components through capabilities, and keep all registrations removable. Route handlers validate and orchestrate; ctx-provided capabilities execute provider-specific work.
 
 Return a disposer from `bootstrapModule` or export `teardownModule(ctx)` when the module owns work that scoped registration cannot remove. Enable-disable-enable and uninstall cycles must leave no module-owned routes, contributions, capabilities, hooks, timers, listeners, or sockets behind.
 

@@ -41,8 +41,8 @@ test("pack declares a stable English namespace and usable provider schema", () =
     assert.equal(manifest.protected, true);
     assert.equal(schema.id, "english");
     assert.equal(schema.language, "en");
-    assert.equal(schema.version, 15);
-    assert.equal(manifest.version, "15.0.0");
+    assert.equal(schema.version, 16);
+    assert.equal(manifest.version, "16.0.0");
     assert.equal(schema.metadata.provider.moduleId, "study-language-en");
     assert.equal(entries.size, [...layers.values()].flat().length);
     for (const layer of schema.layers) {
@@ -218,7 +218,7 @@ test("curated transformations cover irregular verbs and contextual IPA", () => {
 
 test("starter decks use visible records from the published schema", async () => {
     const decks = JSON.parse(await readFile("data/starter-decks.json", "utf8"));
-    assert.equal(decks.length, 4);
+    assert.equal(decks.length, 7);
     for (const deck of decks) {
         assert.equal(deck.schemaId, schema.id);
         assert.equal(Object.keys(deck.name).length, 4);
@@ -226,6 +226,45 @@ test("starter decks use visible records from the published schema", async () => 
         for (const id of deck.sourceRecordIds) {
             assert.ok(entries.has(id), id);
             assert.ok(!entries.get(id).hidden, id);
+        }
+    }
+});
+
+test("composer selection options have unique values in every layer", () => {
+    for (const layer of schema.layers) {
+        for (const field of layer.fields ?? []) {
+            const options = field.input?.options;
+            if (!Array.isArray(options)) continue;
+            assert.equal(
+                new Set(options.map(({ value }) => value)).size,
+                options.length,
+                `${layer.id}.${field.id}`,
+            );
+        }
+    }
+});
+
+test("writing decks preserve complete alphabets and validated spelling patterns", async () => {
+    const decks = JSON.parse(await readFile("data/starter-decks.json", "utf8"));
+    const lower = decks.find(({ key }) => key === "alphabet-basics");
+    const upper = decks.find(({ key }) => key === "uppercase-alphabet");
+    assert.equal(
+        lower.sourceRecordIds.map((id) => entries.get(id).label).join(""),
+        "abcdefghijklmnopqrstuvwxyz",
+    );
+    assert.equal(
+        upper.sourceRecordIds.map((id) => entries.get(id).label).join(""),
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    );
+    for (const deck of decks) {
+        assert.equal(
+            new Set(deck.sourceRecordIds).size,
+            deck.sourceRecordIds.length,
+        );
+        for (const id of deck.sourceRecordIds) {
+            const entry = entries.get(id);
+            if (entry.fields?.stroke_pattern)
+                assertStrokePattern(entry.fields?.stroke_pattern);
         }
     }
 });

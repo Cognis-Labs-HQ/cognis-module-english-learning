@@ -23,3 +23,11 @@ Eigenständige Verhaltenstests prüfen Lebenszyklus, Wörterbuchfehler und Grenz
 - [796ce05](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/796ce057c656b30ae7a5a5fe013e1e4f1678daf8)
 - [808c1a7](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/808c1a7269c7a0e149dde37411107d5fc23636a8)
 - [eb8095f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/eb8095fe6f6e13dd5ad2e09540ac0d6ff8f9a183)
+
+## Erweiterte Startdecks
+
+Englisch liefert sieben Startdecks. Großbuchstaben, Buchstabenverbindungen und Alltagsadjektive ergänzen die vier bestehenden Stapel. Stabile Schlüssel, übersetzte Namen und vollständige Alphabetreihen werden geprüft.
+
+## Inhalte und Verträge
+
+Schemarevision 16 entfernt den doppelten Adjektivfilter. Modul 1.3.1 und Inhaltspaket 16.0.0 behalten Datensatzidentitäten. Die Anleitung verankert ctx als Anwendungsrückgrat; Cognis besitzt Aktionsabläufe, Nutzerdaten und Wörterbuchcaches.

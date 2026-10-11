@@ -23,3 +23,11 @@ Pengujian mandiri memeriksa siklus hidup, kegagalan/batas kamus, graf, infleksi 
 - [796ce05](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/796ce057c656b30ae7a5a5fe013e1e4f1678daf8)
 - [808c1a7](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/808c1a7269c7a0e149dde37411107d5fc23636a8)
 - [eb8095f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/eb8095fe6f6e13dd5ad2e09540ac0d6ff8f9a183)
+
+## Dek Awal Diperluas
+
+Bahasa Inggris menyediakan tujuh dek awal. Huruf kapital, gabungan ejaan dan adjektiva sehari-hari melengkapi empat dek lama. Kunci stabil, nama lokal dan urutan alfabet lengkap divalidasi.
+
+## Perbaikan Konten dan Kontrak
+
+Revisi skema 16 menghapus pilihan adjektiva ganda. Modul 1.3.1 dan paket 16.0.0 mempertahankan identitas data. Instruksi menetapkan ctx sebagai tulang punggung aplikasi; Cognis memiliki alur tindakan, data pengguna dan cache kamus.

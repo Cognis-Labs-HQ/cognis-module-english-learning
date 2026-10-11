@@ -23,3 +23,11 @@
 - [796ce05](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/796ce057c656b30ae7a5a5fe013e1e4f1678daf8)
 - [808c1a7](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/808c1a7269c7a0e149dde37411107d5fc23636a8)
 - [eb8095f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/eb8095fe6f6e13dd5ad2e09540ac0d6ff8f9a183)
+
+## 初期デッキの拡充
+
+英語は七つの初期デッキを提供します。既存の四つに、大文字、綴りの組み合わせ、日常形容詞を追加します。固定キー、各言語の名称、完全なアルファベット順を検証します。
+
+## 内容と契約の訂正
+
+スキーマ改訂16は重複した形容詞フィルターを削除します。モジュール1.3.1とパッケージ16.0.0は既存のデータ ID を保持します。指示は ctx を基盤とし、操作フロー、利用者データ、辞書キャッシュは Cognis が所有します。

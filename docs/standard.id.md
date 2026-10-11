@@ -1,6 +1,6 @@
 # Modul Inggris Cognis
 
-Cognis English 1.3.0 menyediakan graf pembelajaran berversi, pengayaan kamus Inggris, panduan huruf cetak asli dan empat dek awal. Cognis mengelola antarmuka belajar serta seluruh data pengguna.
+Cognis English 1.3.1 menyediakan graf pembelajaran berversi, pengayaan kamus Inggris, panduan huruf cetak asli dan tujuh dek awal. Cognis mengelola antarmuka belajar serta seluruh data pengguna.
 
 ## Contoh Penggunaan
 
@@ -18,7 +18,7 @@ Pendaftaran pencarian dilepas saat dinonaktifkan atau aktivasi gagal. Host menge
 
 ### Graf Konten
 
-Paket `english-core` 15.0.0, skema `english` revisi 15 dan revisi konten `2026-10-11.1` mempertahankan ruang nama dan identitas lama. Ada 635 rekaman: 52 huruf, 17 gabungan huruf, 123 kosakata terlihat, 135 bentuk infleksi tersembunyi, 10 awal kalimat berhuruf kapital tersembunyi, 21 kartu tata bahasa/tanda baca, 45 kalimat dan 232 definisi tersembunyi. Setiap definisi memiliki makna Inggris, Jerman, Indonesia dan Jepang. Lokalisasi definisi memakai awalan host `studyenglish:definitions`; metadata pasar memakai `module.study_language_en.*`.
+Paket `english-core` 16.0.0, skema `english` revisi 16 dan revisi konten `2026-10-11.3` mempertahankan ruang nama dan identitas lama. Ada 635 rekaman: 52 huruf, 17 gabungan huruf, 123 kosakata terlihat, 135 bentuk infleksi tersembunyi, 10 awal kalimat berhuruf kapital tersembunyi, 21 kartu tata bahasa/tanda baca, 45 kalimat dan 232 definisi tersembunyi. Setiap definisi memiliki makna Inggris, Jerman, Indonesia dan Jepang. Lokalisasi definisi memakai awalan host `studyenglish:definitions`; metadata pasar memakai `module.study_language_en.*`.
 
 Referensi ejaan dan kalimat berurutan menunjuk ke rekaman nyata. Kartu infleksi tersembunyi menjadi sasaran literal validasi kalimat; formulir interaktif memakai 37 paradigma deklaratif verba, kopula dan adjektiva, termasuk bentuk tidak beraturan dan IPA. IPA adalah notasi bunyi, bukan referensi ke huruf yang tidak sesuai. Awal kalimat kapital mempertahankan teks asli. Partikel negasi, preposisi, konjungsi dan tanda baca tidak dapat diedit. Hubungan definisi dibatasi sepuluh.
 
@@ -39,3 +39,9 @@ Rekaman asli mempertahankan IPA utama dan tag paradigma terkurasi. Ejaan baru ya
 Hak istimewa diperlukan untuk ruang nama bahasa milik host, bukan untuk melewati izin Study. Impor runtime tetap dalam repositori, pengujian memakai tiruan kontrak publik lokal. Keempat bahasa dan varian dokumentasi dikemas bersama. Konten serta panduan asli berlisensi AGPL-3.0-or-later; atribusi kamus eksternal dipisahkan.
 
 Jalankan `npm install`, `npm run manifest:hashes`, `npm test`, `npm run lint`, `npm run check:manifest` dan `git diff --check`. Perbarui hash setelah perubahan terakhir pada berkas paket. Catatan perubahan tidak masuk inventaris paket.
+
+## Dek Awal Diperluas
+
+Bahasa Inggris menyediakan tujuh dek awal. Huruf kapital, gabungan ejaan dan adjektiva sehari-hari melengkapi empat dek lama. Kunci stabil, nama lokal dan urutan alfabet lengkap divalidasi.
+
+Revisi skema 16 menghapus pilihan adjektiva ganda. Modul 1.3.1 dan paket 16.0.0 mempertahankan identitas data. Instruksi menetapkan ctx sebagai tulang punggung aplikasi; Cognis memiliki alur tindakan, data pengguna dan cache kamus.

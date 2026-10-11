@@ -1,6 +1,6 @@
 # Cognis Englischmodul
 
-Cognis English 1.3.0 liefert einen versionierten Lerngraphen, englische Wörterbuchergänzungen, eigene Druckschrift-Vorlagen und vier Startdecks. Cognis verwaltet die Lernoberfläche und sämtliche Nutzerdaten.
+Cognis English 1.3.1 liefert einen versionierten Lerngraphen, englische Wörterbuchergänzungen, eigene Druckschrift-Vorlagen und sieben Startdecks. Cognis verwaltet die Lernoberfläche und sämtliche Nutzerdaten.
 
 ## Nutzungsbeispiele
 
@@ -18,7 +18,7 @@ Bei Deaktivierung oder fehlgeschlagenem Start werden Suchanbieter entfernt. Der 
 
 ### Inhaltsgraph
 
-Paket `english-core` 15.0.0, Schema `english` Revision 15 und Inhaltsrevision `2026-10-11.1` erhalten Namensraum und vorhandene Datensatzidentitäten. Die 635 Datensätze umfassen 52 Buchstaben, 17 Buchstabenverbindungen, 123 sichtbare Wörter, 135 verborgene Flexionsformen, 10 verborgene großgeschriebene Satzanfänge, 21 Grammatik-/Satzzeichenkarten, 45 Sätze und 232 verborgene Definitionen. Jede Definition enthält Englisch, Deutsch, Indonesisch und Japanisch. Definitionen verwenden das Host-Präfix `studyenglish:definitions`, Marktplatztexte `module.study_language_en.*`.
+Paket `english-core` 16.0.0, Schema `english` Revision 16 und Inhaltsrevision `2026-10-11.3` erhalten Namensraum und vorhandene Datensatzidentitäten. Die 635 Datensätze umfassen 52 Buchstaben, 17 Buchstabenverbindungen, 123 sichtbare Wörter, 135 verborgene Flexionsformen, 10 verborgene großgeschriebene Satzanfänge, 21 Grammatik-/Satzzeichenkarten, 45 Sätze und 232 verborgene Definitionen. Jede Definition enthält Englisch, Deutsch, Indonesisch und Japanisch. Definitionen verwenden das Host-Präfix `studyenglish:definitions`, Marktplatztexte `module.study_language_en.*`.
 
 Geordnete Schreib- und Satzverweise führen zu echten Karten. Verborgene Flexionskarten liefern wörtliche Ziele für die Satzvalidierung; interaktive Formulare verwenden 37 deklarative Verb-, Kopula- und Adjektivparadigmen mit unregelmäßigen Formen und IPA. IPA bleibt Lautschrift und wird nicht mit sachfremden Buchstaben verknüpft. Großgeschriebene Satzanfänge erhalten den tatsächlichen Satztext. Nicht editierbare Grammatikpartikeln umfassen Verneinung, Präpositionen, Konjunktionen und Satzzeichen. Definitionsbeziehungen sind auf zehn Einträge begrenzt.
 
@@ -39,3 +39,9 @@ Paketkarten behalten ihre kuratierte primäre IPA und Paradigmen-Tags. Neue rein
 Privilegien erlauben den Host-Sprachnamensraum, umgehen aber keine Study-Berechtigungen. Laufzeitimporte bleiben im Repository, Tests verwenden lokale öffentliche Vertragsattrappen. Alle vier Sprachen und Dokumentationsvarianten werden mitgeliefert. Eigene Inhalte und Vorlagen stehen unter AGPL-3.0-or-later; externe Wörterbuchangaben bleiben getrennt.
 
 Führen Sie `npm install`, `npm run manifest:hashes`, `npm test`, `npm run lint`, `npm run check:manifest` und `git diff --check` aus. Erzeugen Sie die Manifest-Hashes nach den letzten Änderungen neu. Änderungsprotokolle gehören nicht zum Paketinhalt.
+
+## Erweiterte Startdecks
+
+Englisch liefert sieben Startdecks. Großbuchstaben, Buchstabenverbindungen und Alltagsadjektive ergänzen die vier bestehenden Stapel. Stabile Schlüssel, übersetzte Namen und vollständige Alphabetreihen werden geprüft.
+
+Schemarevision 16 entfernt den doppelten Adjektivfilter. Modul 1.3.1 und Inhaltspaket 16.0.0 behalten Datensatzidentitäten. Die Anleitung verankert ctx als Anwendungsrückgrat; Cognis besitzt Aktionsabläufe, Nutzerdaten und Wörterbuchcaches.

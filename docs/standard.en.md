@@ -1,6 +1,6 @@
 # Cognis English Module
 
-Cognis English 1.3.0 supplies a versioned learning graph, English dictionary enrichment, original print-letter writing guides and four starter decks. Cognis owns the learning UI and all user data.
+Cognis English 1.3.1 supplies a versioned learning graph, English dictionary enrichment, original print-letter writing guides and seven starter decks. Cognis owns the learning UI and all user data.
 
 ## Usage Examples
 
@@ -18,7 +18,7 @@ Lookup registrations are removed on disable or failed activation. Host-scoped ro
 
 ### Content graph
 
-Pack `english-core` 15.0.0, schema `english` revision 15 and content revision `2026-10-11.1` preserve the existing namespace and record identities. The pack contains 635 records: 52 alphabet entries, 17 letter combinations, 123 visible vocabulary entries, 135 hidden inflections, 10 hidden capitalized sentence starters, 21 grammar/punctuation entries, 45 sentences and 232 hidden definitions. All definitions have English, German, Indonesian and Japanese meanings. Definition localization uses the host's `studyenglish:definitions` prefix; marketplace keys use `module.study_language_en.*`.
+Pack `english-core` 16.0.0, schema `english` revision 16 and content revision `2026-10-11.3` preserve the existing namespace and record identities. The pack contains 635 records: 52 alphabet entries, 17 letter combinations, 123 visible vocabulary entries, 135 hidden inflections, 10 hidden capitalized sentence starters, 21 grammar/punctuation entries, 45 sentences and 232 hidden definitions. All definitions have English, German, Indonesian and Japanese meanings. Definition localization uses the host's `studyenglish:definitions` prefix; marketplace keys use `module.study_language_en.*`.
 
 Ordered spelling and sentence references resolve to actual records. Hidden inflection cards provide literal targets for seeded sentence validation; interactive forms use 37 declarative verb, copula and adjective paradigms, including irregular forms and their IPA. IPA readings remain speech notation rather than being linked to unrelated alphabet glyphs. Capitalized sentence starters preserve actual sentence text. Grammar particles include negation, prepositions, conjunctions and punctuation, and are non-editable. Definition relationships have a maximum of ten.
 
@@ -39,3 +39,9 @@ Native records retain their curated primary IPA and paradigm tags. New alphabet-
 Privilege is needed for the host-owned language namespace; it does not bypass Study permissions. Runtime imports are repository-relative and tests use local public-contract fakes. All four locale bundles and documentation variants ship together. Original content and guides use the pack's AGPL-3.0-or-later license; dictionary results retain their external attribution separately.
 
 Run `npm install`, `npm run manifest:hashes`, `npm test`, `npm run lint`, `npm run check:manifest` and `git diff --check`. After final shipped-file edits, regenerate manifest hashes. Changelogs are release metadata outside the packaged inventory.
+
+## Expanded Starter Decks
+
+English now supplies seven starter decks, adding uppercase alphabet, common spelling combinations and everyday adjectives to the four existing decks. Existing keys remain stable; localized names and complete alphabet order are validated.
+
+Schema revision 16 removes the duplicate adjective filter option. Module 1.3.1 and content pack 16.0.0 retain the existing content identities. Instructions establish ctx as the application backbone; Cognis owns action flows, user data and dictionary caching.

@@ -108,5 +108,96 @@
             "en:sentence:we-live-in-a-city",
             "en:sentence:she-reads-a-book"
         ]
+    },
+    {
+        "key": "uppercase-alphabet",
+        "name": {
+            "en": "Uppercase English Alphabet",
+            "de": "Englische Großbuchstaben",
+            "id": "Huruf Besar Inggris",
+            "ja": "英語の大文字"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:char:a",
+            "en:char:b",
+            "en:char:c",
+            "en:char:d",
+            "en:char:e",
+            "en:char:f",
+            "en:char:g",
+            "en:char:h",
+            "en:char:i",
+            "en:char:j",
+            "en:char:k",
+            "en:char:l",
+            "en:char:m",
+            "en:char:n",
+            "en:char:o",
+            "en:char:p",
+            "en:char:q",
+            "en:char:r",
+            "en:char:s",
+            "en:char:t",
+            "en:char:u",
+            "en:char:v",
+            "en:char:w",
+            "en:char:x",
+            "en:char:y",
+            "en:char:z"
+        ]
+    },
+    {
+        "key": "common-spellings",
+        "name": {
+            "en": "Common English Spellings",
+            "de": "Häufige englische Schreibweisen",
+            "id": "Ejaan Inggris Umum",
+            "ja": "英語のよくある綴り"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:composite:ch",
+            "en:composite:sh",
+            "en:composite:th",
+            "en:composite:ph",
+            "en:composite:wh",
+            "en:composite:ng",
+            "en:composite:ck",
+            "en:composite:ai",
+            "en:composite:ee",
+            "en:composite:oa",
+            "en:composite:oo",
+            "en:composite:ou",
+            "en:composite:oi",
+            "en:composite:ar",
+            "en:composite:er",
+            "en:composite:or",
+            "en:composite:igh"
+        ]
+    },
+    {
+        "key": "everyday-adjectives",
+        "name": {
+            "en": "Everyday English Adjectives",
+            "de": "Englische Adjektive im Alltag",
+            "id": "Adjektiva Inggris Sehari-hari",
+            "ja": "日常の英語形容詞"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:word:good",
+            "en:word:bad",
+            "en:word:big",
+            "en:word:small",
+            "en:word:happy",
+            "en:word:sad",
+            "en:word:hot",
+            "en:word:cold",
+            "en:word:new",
+            "en:word:old",
+            "en:word:fast",
+            "en:word:slow"
+        ]
     }
 ]
