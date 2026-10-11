@@ -21,3 +21,4 @@ Pengujian mandiri memeriksa siklus hidup, kegagalan/batas kamus, graf, infleksi 
 ## Komit
 
 - [796ce05](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/796ce057c656b30ae7a5a5fe013e1e4f1678daf8)
+- [808c1a7](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/808c1a7269c7a0e149dde37411107d5fc23636a8)
