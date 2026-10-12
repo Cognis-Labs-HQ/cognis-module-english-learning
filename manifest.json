@@ -2,7 +2,7 @@
     "id": "study-language-en",
     "uuid": "b1adc29f-9d54-5785-9bea-2ce76f1981e4",
     "name": "module.study_language_en.name",
-    "version": "1.3.2",
+    "version": "1.3.3",
     "class": "extension",
     "privileged": true,
     "coreApiVersion": "v1",
@@ -100,11 +100,11 @@
         },
         {
             "path": "api/tests/bootstrap.test.js",
-            "sha256": "d36d1b94b2c10189713b40e9c1d55e7641f02bd6fc96ef195a9d064bcc7b6e23"
+            "sha256": "2af49ae46f94b7761e287fad04df0e31d6e2461ccd1ecf7250b40551ccfe1c11"
         },
         {
             "path": "api/tests/content-pack.test.js",
-            "sha256": "5bf8bba5148abbb5bae59ec1ea5d6357481f219ac0f9b1becaf8d6f685486591"
+            "sha256": "8f94dad1e2e923d5087379f46fe20a4c1c75a369d2d8a413f24953feebdea071"
         },
         {
             "path": "api/tests/documentation-convention.test.js",
@@ -132,7 +132,7 @@
         },
         {
             "path": "data/content/alphabet/common.json",
-            "sha256": "160415efecbeeefb1df6c662b30fe4316a22174008e718a2e91b9e9f2ab9b273"
+            "sha256": "86f324bdf126a87efb78344fb6010ce3c550f399c008cb2c3155fc3a87514215"
         },
         {
             "path": "data/content/composites/common.json",
@@ -187,8 +187,24 @@
             "sha256": "23c932dd08ad0d48b156a30de9387b81ea2089496dd47b97412200143907a3a0"
         },
         {
+            "path": "data/content/definitions/sentence-structures-001.json",
+            "sha256": "448405746b981becb043f8c6251cad0ea557b01af37cb41f23acc4ff6cf2ed2c"
+        },
+        {
+            "path": "data/content/definitions/sentence-structures-002.json",
+            "sha256": "124b11c5c526c4aa91b8584a46ef70ee332bb598ef78d68ded3fb3c8359f085e"
+        },
+        {
+            "path": "data/content/definitions/sentence-structures-003.json",
+            "sha256": "168138b213563983b2d2c1e457eb0fb49f633c40dc427c9aa059363f9ba0a1e5"
+        },
+        {
+            "path": "data/content/definitions/sentence-structures-004.json",
+            "sha256": "4977ad7e4b851edccd5d69f57b325b8f1f8d00c70627325487bdce4e077ff091"
+        },
+        {
             "path": "data/content/particles/common.json",
-            "sha256": "6be2eb0084d5fb5c7ee3159c1f6e4a0313157d571fba755f18032fa99ef3d614"
+            "sha256": "1f8775059eb71413e4dc22e014e708141d3d95fcbe838ad612a0794ba11937f7"
         },
         {
             "path": "data/content/sentences/beginner-001.json",
@@ -232,19 +248,19 @@
         },
         {
             "path": "data/content/words/beginner-004.json",
-            "sha256": "13e41121de2a169c3151cedccd0cd9f7fdcf19289862426a61659b1ca176f96a"
+            "sha256": "8d0c50a8cbed8fbd833fafd827c2334a85e29a8387d90643717b4f749eaecf53"
         },
         {
             "path": "data/content/words/beginner-005.json",
-            "sha256": "7aebedad2c3c7a98774ea32fd698794ae47122e6a646b1cc1907e014f3eeff58"
+            "sha256": "a3b80a8da8800d7e2417dbcbdfc290260504f02cbd7399d3c6fccf7aa47fd248"
         },
         {
             "path": "data/content/words/beginner-006.json",
-            "sha256": "5765312887e5e13dbacd4f743c1c5a20f95c8b8751a743fb1ff2e40d579a1f0e"
+            "sha256": "dc3d1f2069248275ff440f9ce7fa4aa5f803961819bc93fc7cca4cace124dc39"
         },
         {
             "path": "data/content/words/beginner-007.json",
-            "sha256": "4ed0835683a2353ccd4ec194320c3fc599b4c5eaf1c6eb0aa06723ceefd745f2"
+            "sha256": "89609982a108f2fb859602dd2c6adb9398798092e3aa9984c181c62811dc44ac"
         },
         {
             "path": "data/content/words/beginner-008.json",
@@ -256,7 +272,7 @@
         },
         {
             "path": "data/content/words/beginner-010.json",
-            "sha256": "aca8c22b0fd8d4ea55cc8fafe18a3bca641a9456dc1c21f89411268cd39a6991"
+            "sha256": "35061e0959fe874b9ba04b0d351409b6a69257d47e03fd1066207aa8155913a0"
         },
         {
             "path": "data/content/words/capitalized-001.json",
@@ -315,12 +331,28 @@
             "sha256": "8ff0cb2707667c7117136839c9e9b08d8a23969d640d620e4bd87b2f8702b8bd"
         },
         {
+            "path": "data/content/words/sentence-structures-001.json",
+            "sha256": "d4e6eb1a47ea573183f54219e46290f959390e8e988d30fb89208c6739059bbd"
+        },
+        {
+            "path": "data/content/words/sentence-structures-002.json",
+            "sha256": "1735555be12d55b3e70bdefee763c3da8be3a9eb7856e1ace973e0d1b288d770"
+        },
+        {
+            "path": "data/content/words/sentence-structures-003.json",
+            "sha256": "d0b68593f5ce89ca2ca41e3c5257ef67299f8541c690ec2c07d768c7bbaaaa3d"
+        },
+        {
+            "path": "data/content/words/sentence-structures-004.json",
+            "sha256": "3fbfc4c19e1df98537ed62ca98d30d87f431112a6f3de203920db9ed6c37eceb"
+        },
+        {
             "path": "data/manifest.json",
-            "sha256": "856ffd12d24136c04d4ceafcd9e095df4a1fd1d81de1caf502174141a3b37c35"
+            "sha256": "2aacae9fae1d06311b4f14af3c0319b0ad3c738f51d8e340120ec0afa21d80c7"
         },
         {
             "path": "data/schema.json",
-            "sha256": "d4560595236860e3af2c24a20a7ab80e72cfc69bef8f6b017d12261b0ee24bb3"
+            "sha256": "b7a8bf878009f00ca02d2c1c1d7e2b1effdf61267d89ded5c2d7056ab66350cd"
         },
         {
             "path": "data/starter-decks.json",
@@ -344,27 +376,27 @@
         },
         {
             "path": "docs/standard.de.md",
-            "sha256": "799b563516012497fb216f12719f9616065e7a6e96aa4cec6bf1aafce6e334c8"
+            "sha256": "7db037cefb39a6df593c58fd7dffd9c5ad207658552fc8635c927ae564067842"
         },
         {
             "path": "docs/standard.en.md",
-            "sha256": "905922e7f5674f78941323a5ba2ef7295e2c3951144272e692b0d2e94659cf81"
+            "sha256": "a87bc5c549c40fe1a8f7f99b2079f44e02d28e702245aa87d21004911a9e1c5d"
         },
         {
             "path": "docs/standard.id.md",
-            "sha256": "974ec6943e0a7f0a9962187b7c2b25986722ceac71cca783a97ffc93153bf63d"
+            "sha256": "b32d787e5dbbdcfd74178cac4347e9e929e28145ab4b1fc182a548681da863c9"
         },
         {
             "path": "docs/standard.ja.md",
-            "sha256": "721486a861fb518a21e32087b4f212f2124e7e64bce87b78d2d2a025ae6fc056"
+            "sha256": "350d671e2d453312ca9439c43a5ea0f58c20e9a87089cbb10ea5e70c911f69fc"
         },
         {
             "path": "package-lock.json",
-            "sha256": "8eeeb0be5a67a6f46163e2b168ce4f6a5d3384d7989a3e4b88163565d6b6b2cb"
+            "sha256": "a2517a94c95f8d5561d123039e4379e06e27d141b46ddd8a67135e044cb0f0d0"
         },
         {
             "path": "package.json",
-            "sha256": "37ad89ad6127de1902ec4b27a42ab558985887ae5b56269df5e07657086de061"
+            "sha256": "2f5ce46674447aa4279230ee65942764750e87901840af77204f2f914db4d574"
         },
         {
             "path": "reuse/content.js",
@@ -396,19 +428,19 @@
         },
         {
             "path": "ui/languages/de/strings.xml",
-            "sha256": "283c8842817b258d60c88bb83539923fb7958e7e1f0f4624de66311ef2435aed"
+            "sha256": "a85067834fdb5faab8b5b466f615285d8807a88e6f30fb50499bb980269664e8"
         },
         {
             "path": "ui/languages/en/strings.xml",
-            "sha256": "47b96c0f9631e0082508810d85472156a09bc56b0d4c90946b13426bee85afac"
+            "sha256": "0e37cbc1ca825f0d0e598d877791b7b1e86d4751f3bace02bd462ca0ce31d30e"
         },
         {
             "path": "ui/languages/id/strings.xml",
-            "sha256": "0fd349cc34fe1706ba05900e1fbfef602104f40636475a65f49f6394f5b9d03f"
+            "sha256": "82c50428724abead14fb6721472118e7509ed10c251cd90b186d021258e01f98"
         },
         {
             "path": "ui/languages/ja/strings.xml",
-            "sha256": "2a4ae8c39daa14fb787bfc45bd8b7aac1f1db5591572bd0847f46d0288b99d56"
+            "sha256": "383df2a50927a19db2e690174905180663c767efa288a346568e3dd44ec1e718"
         },
         {
             "path": "ui/tests/ambiguous-names.test.js",

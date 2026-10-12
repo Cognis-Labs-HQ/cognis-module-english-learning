@@ -49,3 +49,7 @@ Schemarevision 16 entfernt den doppelten Adjektivfilter. Modul 1.3.2 und Inhalts
 ## Gemeinsame Sprachseiten
 
 Die Sprachauswahl öffnet Cognis-eigene Erkunden-Seiten auch ohne Unterseiten des Inhaltsanbieters. Ein Sprachwechsel behält die entsprechende Schrift-, Wortschatz- oder Satzrolle. Lernkarten, Bibliothek und Anfragen behalten ihren gemeinsamen Seitenkontext. Englisch deklariert Alphabet, Buchstabenverbindungen, Wortschatz und Sätze über eigene Pfadnamen. Abgebrochene Favoritenabfragen beenden die Einbindung ohne irreführende Fehlermeldung.
+
+## Alphabet, Grammatik und Substantivzahl
+
+Schema 17 und Inhaltspaket 17.0.0 trennen Buchstabennamen von optionalen IPA-Angaben in `letter_sounds` und enthalten keine leeren Füllzellen. Satzzeichen erhalten ein eigenes Karussell. Zweiundzwanzig zusätzliche Satz- und Diskursstrukturen besitzen lokalisierte Bedeutungen und Lautschriften. Dreiunddreißig geprüfte zählbare Substantivgruppen aktivieren Cognis-Pluralformen über `optInTag: plural`, einschließlich geänderter Schreibweisen und Aussprachen. Stoffnamen bleiben ausgenommen. Formen entstehen aus Basiskarten statt doppelten Einträgen. Modulversion: 1.3.3.

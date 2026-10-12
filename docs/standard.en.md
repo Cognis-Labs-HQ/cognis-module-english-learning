@@ -49,3 +49,7 @@ Schema revision 16 removes the duplicate adjective filter option. Module 1.3.2 a
 ## Shared Language Pages
 
 Language selection opens Cognis-owned Explore pages even when content providers declare no child pages. Switching languages preserves the equivalent writing, vocabulary or sentence role; Flashcards, Library and Requests keep their shared page context. English declares alphabet, letter combinations, vocabulary and sentences using its opinionated slugs. Aborted favourites loads release their mount without misleading failure toasts.
+
+## Alphabet, grammar and noun-number families
+
+Schema 17 and content pack 17.0.0 separate letter names from optional `letter_sounds` IPA details and contain no filler alphabet cells. Punctuation has its own sentence-composer carousel. Twenty-two additional clause and discourse structures include localized meanings and speech pronunciations. Thirty-three reviewed countable noun families opt into Cognis plural transformations with `optInTag: plural`; rules include changed spellings and readings. Mass nouns remain outside those families. Forms are derived from base cards rather than shipped as duplicate entries. Module version: 1.3.3.

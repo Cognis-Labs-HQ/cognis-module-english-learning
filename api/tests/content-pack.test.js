@@ -41,8 +41,8 @@ test("pack declares a stable English namespace and usable provider schema", () =
     assert.equal(manifest.protected, true);
     assert.equal(schema.id, "english");
     assert.equal(schema.language, "en");
-    assert.equal(schema.version, 16);
-    assert.equal(manifest.version, "16.0.0");
+    assert.equal(schema.version, 17);
+    assert.equal(manifest.version, "17.0.0");
     assert.equal(schema.metadata.provider.moduleId, "study-language-en");
     assert.equal(entries.size, [...layers.values()].flat().length);
     for (const layer of schema.layers) {
@@ -131,7 +131,7 @@ test("alphabet variants and letter combinations carry complete normalized writin
 
 test("beginner vocabulary and grammar resolve genuine localized meanings and spellings", async () => {
     const vocabulary = layers.get("words").filter(({ hidden }) => !hidden);
-    assert.equal(vocabulary.length, 123);
+    assert.equal(vocabulary.length, 145);
     assert.equal(layers.get("particles").length, 21);
     for (const record of vocabulary) {
         const spellings = record.references
@@ -187,7 +187,7 @@ test("all 45 sentences preserve every ordered word, inflection, and punctuation"
 });
 
 test("curated transformations cover irregular verbs and contextual IPA", () => {
-    assert.equal(schema.transformSets.length, 37);
+    assert.equal(schema.transformSets.length, 70);
     const findForm = (word, ruleId) =>
         schema.transformSets
             .find(({ id }) => id === `english-${word}`)
@@ -285,5 +285,38 @@ test("English exposes the shared Study Explore layers with opinionated navigatio
             "lexicalUnit",
             "orderedLexicalSequence",
         ],
+    );
+});
+
+test("alphabet uses letter names and separates speech sounds without blank cells", () => {
+    const alphabet = schema.layers.find(({ id }) => id === "alphabet");
+    assert.equal(alphabet.grid.items.length, 26);
+    assert.ok(alphabet.grid.items.every((item) => !item.blank));
+    for (const card of layers.get("alphabet")) {
+        assert.ok(
+            card.fields.pronunciation.every((name) => !name.startsWith("/")),
+        );
+        assert.ok(Array.isArray(card.fields.letter_sounds));
+    }
+});
+
+test("plural opt-in exposes dogs from dog and leaves mass nouns without a plural family", () => {
+    const dog = entries.get("en:word:dog");
+    const set = schema.transformSets.find(
+        (set) =>
+            set.optInTag === "plural" &&
+            set.matchTags.every((tag) => dog.tags.includes(tag)),
+    );
+    assert.ok(dog.tags.includes(set.optInTag));
+    assert.equal(set.rules[0].append, "dogs");
+    const water = [...entries.values()].find(
+        (card) => card.label === "water" && !card.hidden,
+    );
+    assert.ok(!water.tags.includes("plural"));
+    const sentence = schema.layers.find(({ id }) => id === "sentences");
+    assert.ok(
+        sentence.cardConstructor.tag_carousels.some(
+            ({ tag }) => tag === "punctuation",
+        ),
     );
 });

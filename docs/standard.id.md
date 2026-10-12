@@ -49,3 +49,7 @@ Revisi skema 16 menghapus pilihan adjektiva ganda. Modul 1.3.2 dan paket 16.0.0 
 ## Halaman Bahasa Bersama
 
 Pilihan bahasa membuka halaman Jelajahi milik Cognis meskipun penyedia konten tidak mendeklarasikan halaman anak. Pergantian bahasa mempertahankan peran tulisan, kosakata atau kalimat yang setara; Flashcards, Library dan Permintaan mempertahankan konteks halaman bersama. Inggris mendeklarasikan alfabet, gabungan huruf, kosakata dan kalimat melalui slug sendiri. Pemuatan favorit yang dibatalkan melepaskan pemasangan tanpa pesan kegagalan yang menyesatkan.
+
+## Alfabet, tata bahasa, dan jumlah nomina
+
+Skema 17 dan paket konten 17.0.0 memisahkan nama huruf dari rincian IPA opsional `letter_sounds` tanpa sel alfabet pengisi. Tanda baca memiliki karusel tersendiri. Dua puluh dua struktur klausa dan wacana tambahan menyediakan makna terlokalisasi dan pelafalan. Tiga puluh tiga keluarga nomina terhitung mengaktifkan transformasi jamak Cognis melalui `optInTag: plural`, termasuk perubahan ejaan dan bacaan. Nomina massa tidak termasuk. Bentuk diturunkan dari kartu dasar tanpa entri duplikat. Versi modul: 1.3.3.
