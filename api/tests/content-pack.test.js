@@ -268,3 +268,22 @@ test("writing decks preserve complete alphabets and validated spelling patterns"
         }
     }
 });
+
+test("English exposes the shared Study Explore layers with opinionated navigation slugs", () => {
+    const learnerLayers = schema.layers.filter((layer) =>
+        ["alphabet", "composites", "words", "sentences"].includes(layer.id),
+    );
+    assert.deepEqual(
+        learnerLayers.map((layer) => layer.navigationSlug),
+        ["alphabet", "letter-combinations", "vocabulary", "sentences"],
+    );
+    assert.deepEqual(
+        learnerLayers.map((layer) => layer.semanticRole),
+        [
+            "atomicWritingUnit",
+            "compoundWritingUnit",
+            "lexicalUnit",
+            "orderedLexicalSequence",
+        ],
+    );
+});

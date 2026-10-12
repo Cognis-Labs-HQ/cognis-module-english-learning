@@ -1,10 +1,10 @@
 # Modul Inggris Cognis
 
-Cognis English 1.3.1 menyediakan graf pembelajaran berversi, pengayaan kamus Inggris, panduan huruf cetak asli dan tujuh dek awal. Cognis mengelola antarmuka belajar serta seluruh data pengguna.
+Cognis English 1.3.2 menyediakan graf pembelajaran berversi, pengayaan kamus Inggris, panduan huruf cetak asli dan tujuh dek awal. Cognis mengelola antarmuka belajar serta seluruh data pengguna.
 
 ## Contoh Penggunaan
 
-- Jelajahi `/study/explore/en/alphabet`, `/study/explore/en/letter-combinations`, `/study/explore/en/vocabulary`, `/study/explore/en/particles` dan `/study/explore/en/sentences`.
+- Jelajahi `/study/explore/en/alphabet`, `/study/explore/en/letter-combinations`, `/study/explore/en/vocabulary` dan `/study/explore/en/sentences`.
 - Cari dengan Kamus Gratis di navigasi Study. Hasil kosakata terpilih mengisi penyusun kartu milik host.
 - Buka dek Alfabet Inggris, Kata Inggris Pertama, Verba Inggris Sehari-hari dan Kalimat Inggris Pertama di `/study/flashcards`. Cognis mengelola belajar, favorit dan berbagi.
 
@@ -44,4 +44,8 @@ Jalankan `npm install`, `npm run manifest:hashes`, `npm test`, `npm run lint`, `
 
 Bahasa Inggris menyediakan tujuh dek awal. Huruf kapital, gabungan ejaan dan adjektiva sehari-hari melengkapi empat dek lama. Kunci stabil, nama lokal dan urutan alfabet lengkap divalidasi.
 
-Revisi skema 16 menghapus pilihan adjektiva ganda. Modul 1.3.1 dan paket 16.0.0 mempertahankan identitas data. Instruksi menetapkan ctx sebagai tulang punggung aplikasi; Cognis memiliki alur tindakan, data pengguna dan cache kamus.
+Revisi skema 16 menghapus pilihan adjektiva ganda. Modul 1.3.2 dan paket 16.0.0 mempertahankan identitas data. Instruksi menetapkan ctx sebagai tulang punggung aplikasi; Cognis memiliki alur tindakan, data pengguna dan cache kamus.
+
+## Halaman Bahasa Bersama
+
+Pilihan bahasa membuka halaman Jelajahi milik Cognis meskipun penyedia konten tidak mendeklarasikan halaman anak. Pergantian bahasa mempertahankan peran tulisan, kosakata atau kalimat yang setara; Flashcards, Library dan Permintaan mempertahankan konteks halaman bersama. Inggris mendeklarasikan alfabet, gabungan huruf, kosakata dan kalimat melalui slug sendiri. Pemuatan favorit yang dibatalkan melepaskan pemasangan tanpa pesan kegagalan yang menyesatkan.

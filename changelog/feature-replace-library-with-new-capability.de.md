@@ -26,6 +26,10 @@ Englisch liefert sieben Startdecks. Großbuchstaben, Buchstabenverbindungen und 
 
 Schemarevision 16 entfernt den doppelten Adjektivfilter. Modul 1.3.1 und Inhaltspaket 16.0.0 behalten Datensatzidentitäten. Die Anleitung verankert ctx als Anwendungsrückgrat; Cognis besitzt Aktionsabläufe, Nutzerdaten und Wörterbuchcaches.
 
+## Gemeinsame Sprachseiten
+
+Die Sprachauswahl öffnet Cognis-eigene Erkunden-Seiten auch ohne Unterseiten des Inhaltsanbieters. Ein Sprachwechsel behält die entsprechende Schrift-, Wortschatz- oder Satzrolle. Lernkarten, Bibliothek und Anfragen behalten ihren gemeinsamen Seitenkontext. Englisch deklariert Alphabet, Buchstabenverbindungen, Wortschatz und Sätze über eigene Pfadnamen. Abgebrochene Favoritenabfragen beenden die Einbindung ohne irreführende Fehlermeldung.
+
 ## Commits
 
 - [4212babe](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4212babec6746044c254c6b38f466d79be0202c6)

@@ -1,10 +1,10 @@
 # Cognis Englischmodul
 
-Cognis English 1.3.1 liefert einen versionierten Lerngraphen, englische Wörterbuchergänzungen, eigene Druckschrift-Vorlagen und sieben Startdecks. Cognis verwaltet die Lernoberfläche und sämtliche Nutzerdaten.
+Cognis English 1.3.2 liefert einen versionierten Lerngraphen, englische Wörterbuchergänzungen, eigene Druckschrift-Vorlagen und sieben Startdecks. Cognis verwaltet die Lernoberfläche und sämtliche Nutzerdaten.
 
 ## Nutzungsbeispiele
 
-- Erkunden Sie `/study/explore/en/alphabet`, `/study/explore/en/letter-combinations`, `/study/explore/en/vocabulary`, `/study/explore/en/particles` und `/study/explore/en/sentences`.
+- Erkunden Sie `/study/explore/en/alphabet`, `/study/explore/en/letter-combinations`, `/study/explore/en/vocabulary` und `/study/explore/en/sentences`.
 - Suchen Sie mit dem freien Wörterbuch in der Study-Navigation. Ausgewählte Wortschatztreffer füllen den Karteneditor des Hosts.
 - Unter `/study/flashcards` stehen Englisches Alphabet, Erste englische Wörter, Englische Verben im Alltag und Erste englische Sätze bereit. Cognis übernimmt Lernen, Favoriten und Freigaben.
 
@@ -44,4 +44,8 @@ Führen Sie `npm install`, `npm run manifest:hashes`, `npm test`, `npm run lint`
 
 Englisch liefert sieben Startdecks. Großbuchstaben, Buchstabenverbindungen und Alltagsadjektive ergänzen die vier bestehenden Stapel. Stabile Schlüssel, übersetzte Namen und vollständige Alphabetreihen werden geprüft.
 
-Schemarevision 16 entfernt den doppelten Adjektivfilter. Modul 1.3.1 und Inhaltspaket 16.0.0 behalten Datensatzidentitäten. Die Anleitung verankert ctx als Anwendungsrückgrat; Cognis besitzt Aktionsabläufe, Nutzerdaten und Wörterbuchcaches.
+Schemarevision 16 entfernt den doppelten Adjektivfilter. Modul 1.3.2 und Inhaltspaket 16.0.0 behalten Datensatzidentitäten. Die Anleitung verankert ctx als Anwendungsrückgrat; Cognis besitzt Aktionsabläufe, Nutzerdaten und Wörterbuchcaches.
+
+## Gemeinsame Sprachseiten
+
+Die Sprachauswahl öffnet Cognis-eigene Erkunden-Seiten auch ohne Unterseiten des Inhaltsanbieters. Ein Sprachwechsel behält die entsprechende Schrift-, Wortschatz- oder Satzrolle. Lernkarten, Bibliothek und Anfragen behalten ihren gemeinsamen Seitenkontext. Englisch deklariert Alphabet, Buchstabenverbindungen, Wortschatz und Sätze über eigene Pfadnamen. Abgebrochene Favoritenabfragen beenden die Einbindung ohne irreführende Fehlermeldung.

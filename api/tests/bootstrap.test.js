@@ -74,7 +74,7 @@ test("registers providers, ingests the pack, and publishes the language through 
     const descriptor = calls.capabilities[0].value;
     assert.equal(descriptor.code, "en");
     assert.equal(descriptor.languageCode, "en");
-    assert.equal(descriptor.version, "1.3.1");
+    assert.equal(descriptor.version, "1.3.2");
     assert.equal(descriptor.starterDecks.length, 7);
     assert.deepEqual(
         calls.providers.map(({ capabilities }) => capabilities),
