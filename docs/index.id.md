@@ -4,7 +4,7 @@ Cognis English 1.3.2 menyediakan graf pembelajaran berversi, pengayaan kamus Ing
 
 ## Contoh Penggunaan
 
-- Jelajahi `/study/explore/en/alphabet`, `/study/explore/en/letter-combinations`, `/study/explore/en/vocabulary` dan `/study/explore/en/sentences`.
+- Jelajahi `/study/en/alphabet`, `/study/en/letter-combinations`, `/study/en/vocabulary` dan `/study/en/sentences`.
 - Cari dengan Kamus Gratis di navigasi Study. Hasil kosakata terpilih mengisi penyusun kartu milik host.
 - Buka dek Alfabet Inggris, Kata Inggris Pertama, Verba Inggris Sehari-hari dan Kalimat Inggris Pertama di `/study/flashcards`. Cognis mengelola belajar, favorit dan berbagi.
 
@@ -18,7 +18,7 @@ Pendaftaran pencarian dilepas saat dinonaktifkan atau aktivasi gagal. Host menge
 
 ### Graf Konten
 
-Paket `english-core` 16.0.0, skema `english` revisi 16 dan revisi konten `2026-10-11.3` mempertahankan ruang nama dan identitas lama. Ada 635 rekaman: 52 huruf, 17 gabungan huruf, 123 kosakata terlihat, 135 bentuk infleksi tersembunyi, 10 awal kalimat berhuruf kapital tersembunyi, 21 kartu tata bahasa/tanda baca, 45 kalimat dan 232 definisi tersembunyi. Setiap definisi memiliki makna Inggris, Jerman, Indonesia dan Jepang. Lokalisasi definisi memakai awalan host `studyenglish:definitions`; metadata pasar memakai `module.study_language_en.*`.
+Paket `english-core` 16.0.0, skema `english` revisi 16 dan revisi konten `2026-10-11.3` mempertahankan ruang nama dan identitas lama. Ada 635 rekaman: 52 huruf, 17 gabungan huruf, 123 kosakata terlihat, 135 bentuk infleksi tersembunyi, 10 awal kalimat berhuruf kapital tersembunyi, 21 kartu tata bahasa/tanda baca, 45 kalimat dan 232 definisi tersembunyi. Setiap definisi memiliki makna Inggris, Jerman, Indonesia dan Jepang. Lokalisasi definisi memakai awalan host `studyenglish:definitions`; metadata pasar memakai `module.study.language.en.*`.
 
 Referensi ejaan dan kalimat berurutan menunjuk ke rekaman nyata. Kartu infleksi tersembunyi menjadi sasaran literal validasi kalimat; formulir interaktif memakai 37 paradigma deklaratif verba, kopula dan adjektiva, termasuk bentuk tidak beraturan dan IPA. IPA adalah notasi bunyi, bukan referensi ke huruf yang tidak sesuai. Awal kalimat kapital mempertahankan teks asli. Partikel negasi, preposisi, konjungsi dan tanda baca tidak dapat diedit. Hubungan definisi dibatasi sepuluh.
 
@@ -53,3 +53,9 @@ Pilihan bahasa membuka halaman Jelajahi milik Cognis meskipun penyedia konten ti
 ## Alfabet, tata bahasa, dan jumlah nomina
 
 Skema 17 dan paket konten 17.0.0 memisahkan nama huruf dari rincian IPA opsional `letter_sounds` tanpa sel alfabet pengisi. Tanda baca memiliki karusel tersendiri. Dua puluh dua struktur klausa dan wacana tambahan menyediakan makna terlokalisasi dan pelafalan. Tiga puluh tiga keluarga nomina terhitung mengaktifkan transformasi jamak Cognis melalui `optInTag: plural`, termasuk perubahan ejaan dan bacaan. Nomina massa tidak termasuk. Bentuk diturunkan dari kartu dasar tanpa entri duplikat. Versi modul: 1.3.3.
+
+### Struktur kontributor dan kepemilikan host
+
+Mulai modul baru dari [cognis-module-template](https://github.com/Cognis-Labs-HQ/cognis-module-template); repositori ini mengikuti revisi panduan yang dicatat dalam `AGENTS.md`. `bootstrap.js` mengatur siklus hidup, `api/index.js` menghubungkan dependensi ctx, `api/routes/<domain>/index.js` menangani HTTP, dan `api/reuse/` berisi kode server yang dipakai ulang. Fitur browser berada di `ui/`, gaya di `ui/styles/`, templat bersama di `ui/templates/`, dan dokumentasi terjemahan di `docs/index.<locale>.md`. Riwayat rilis berada di `docs/changelog/` dan dikecualikan dari hash paket. Bagian opsional yang tidak didukung tidak dibuat.
+
+Gunakan kapabilitas ctx publik dan alur yang dideklarasikan; jangan mengimpor bagian internal Cognis atau modul lain. Penyedia kapabilitas dan navigasi dasbor mengekspor `mountProvider(scopedUiCtx)` dan mengembalikan fungsi pembersihan sumber daya miliknya. Impor tidak boleh mendaftarkan perilaku modul. Host menghapus kapabilitas, kait alur, listener, dan status penyedia saat dinonaktifkan, lalu memasang kembali penyedia yang tersimpan saat diaktifkan ulang. Pabrik pengaturan, administrasi, dan penyedia deskriptor footer autentikasi mengikuti kontrak host masing-masing. Uji kontrak dengan pengganti mandiri, jalankan pemeriksaan struktur, perbarui hash setelah perubahan paket terakhir, lalu jalankan lint, pengujian, dan validasi manifes sebelum publikasi.

@@ -19,7 +19,7 @@ Cognis モジュール市場からこのリポジトリをインストールし�
 
 初期化は ctx でプロバイダーを登録し、保護されたパッケージを取り込み、英語記述子と解除可能なフローフックを公開します。無効化はプロバイダーを解除し、アンインストールは Cognis 経由で内容を保持または連鎖削除します。ホスト画面、キャッシュ方針、内部実装は複製しません。
 
-[`docs/standard.ja.md`](docs/standard.ja.md) · [`docs/dictionary.ja.md`](docs/dictionary.ja.md)
+[`docs/index.ja.md`](docs/index.ja.md) · [`docs/dictionary.ja.md`](docs/dictionary.ja.md)
 
 ## 貢献時の検証
 

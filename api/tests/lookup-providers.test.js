@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import test from "node:test";
-import { createDictionaryProvider } from "../dictionary-provider.js";
-import { createStrokePatternProvider } from "../stroke-pattern-provider.js";
+import { createDictionaryProvider } from "../dictionary/index.js";
+import { createStrokePatternProvider } from "../strokes/index.js";
 
 const contentRoot = "data/content";
 const schema = { id: "english", language: "en" };

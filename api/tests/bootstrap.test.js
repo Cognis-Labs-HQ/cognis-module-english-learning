@@ -91,8 +91,8 @@ test("registers providers, ingests the pack, and publishes the language through 
     );
     assert.equal(calls.providers[1].searchable, true);
     assert.deepEqual(calls.static, {
-        prefix: "languages",
-        root: path.join(process.cwd(), "ui", "languages"),
+        prefix: "",
+        root: path.join(process.cwd(), "ui"),
     });
     assert.equal(calls.hooks[0][0], "bootstrap-platform");
     assert.equal(calls.hooks[0][3](), descriptor);

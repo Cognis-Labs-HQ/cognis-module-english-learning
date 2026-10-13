@@ -19,7 +19,7 @@ Install and enable this repository through the Cognis module marketplace. The St
 
 Bootstrap registers providers through ctx, ingests the protected pack, publishes the English descriptor and contributes a removable flow hook. Disabling removes providers; uninstall may retain or cascade-delete the pack through Cognis. No host UI, cache policy or private component implementation is duplicated.
 
-[`docs/standard.en.md`](docs/standard.en.md) · [`docs/dictionary.en.md`](docs/dictionary.en.md)
+[`docs/index.en.md`](docs/index.en.md) · [`docs/dictionary.en.md`](docs/dictionary.en.md)
 
 ## Contributor Checks
 

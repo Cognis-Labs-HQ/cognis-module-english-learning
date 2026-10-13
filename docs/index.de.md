@@ -4,7 +4,7 @@ Cognis English 1.3.2 liefert einen versionierten Lerngraphen, englische Wörterb
 
 ## Nutzungsbeispiele
 
-- Erkunden Sie `/study/explore/en/alphabet`, `/study/explore/en/letter-combinations`, `/study/explore/en/vocabulary` und `/study/explore/en/sentences`.
+- Erkunden Sie `/study/en/alphabet`, `/study/en/letter-combinations`, `/study/en/vocabulary` und `/study/en/sentences`.
 - Suchen Sie mit dem freien Wörterbuch in der Study-Navigation. Ausgewählte Wortschatztreffer füllen den Karteneditor des Hosts.
 - Unter `/study/flashcards` stehen Englisches Alphabet, Erste englische Wörter, Englische Verben im Alltag und Erste englische Sätze bereit. Cognis übernimmt Lernen, Favoriten und Freigaben.
 
@@ -18,7 +18,7 @@ Bei Deaktivierung oder fehlgeschlagenem Start werden Suchanbieter entfernt. Der 
 
 ### Inhaltsgraph
 
-Paket `english-core` 16.0.0, Schema `english` Revision 16 und Inhaltsrevision `2026-10-11.3` erhalten Namensraum und vorhandene Datensatzidentitäten. Die 635 Datensätze umfassen 52 Buchstaben, 17 Buchstabenverbindungen, 123 sichtbare Wörter, 135 verborgene Flexionsformen, 10 verborgene großgeschriebene Satzanfänge, 21 Grammatik-/Satzzeichenkarten, 45 Sätze und 232 verborgene Definitionen. Jede Definition enthält Englisch, Deutsch, Indonesisch und Japanisch. Definitionen verwenden das Host-Präfix `studyenglish:definitions`, Marktplatztexte `module.study_language_en.*`.
+Paket `english-core` 16.0.0, Schema `english` Revision 16 und Inhaltsrevision `2026-10-11.3` erhalten Namensraum und vorhandene Datensatzidentitäten. Die 635 Datensätze umfassen 52 Buchstaben, 17 Buchstabenverbindungen, 123 sichtbare Wörter, 135 verborgene Flexionsformen, 10 verborgene großgeschriebene Satzanfänge, 21 Grammatik-/Satzzeichenkarten, 45 Sätze und 232 verborgene Definitionen. Jede Definition enthält Englisch, Deutsch, Indonesisch und Japanisch. Definitionen verwenden das Host-Präfix `studyenglish:definitions`, Marktplatztexte `module.study.language.en.*`.
 
 Geordnete Schreib- und Satzverweise führen zu echten Karten. Verborgene Flexionskarten liefern wörtliche Ziele für die Satzvalidierung; interaktive Formulare verwenden 37 deklarative Verb-, Kopula- und Adjektivparadigmen mit unregelmäßigen Formen und IPA. IPA bleibt Lautschrift und wird nicht mit sachfremden Buchstaben verknüpft. Großgeschriebene Satzanfänge erhalten den tatsächlichen Satztext. Nicht editierbare Grammatikpartikeln umfassen Verneinung, Präpositionen, Konjunktionen und Satzzeichen. Definitionsbeziehungen sind auf zehn Einträge begrenzt.
 
@@ -53,3 +53,9 @@ Die Sprachauswahl öffnet Cognis-eigene Erkunden-Seiten auch ohne Unterseiten de
 ## Alphabet, Grammatik und Substantivzahl
 
 Schema 17 und Inhaltspaket 17.0.0 trennen Buchstabennamen von optionalen IPA-Angaben in `letter_sounds` und enthalten keine leeren Füllzellen. Satzzeichen erhalten ein eigenes Karussell. Zweiundzwanzig zusätzliche Satz- und Diskursstrukturen besitzen lokalisierte Bedeutungen und Lautschriften. Dreiunddreißig geprüfte zählbare Substantivgruppen aktivieren Cognis-Pluralformen über `optInTag: plural`, einschließlich geänderter Schreibweisen und Aussprachen. Stoffnamen bleiben ausgenommen. Formen entstehen aus Basiskarten statt doppelten Einträgen. Modulversion: 1.3.3.
+
+### Mitwirkendenstruktur und Zuständigkeit des Hosts
+
+Neue Module beginnen mit [cognis-module-template](https://github.com/Cognis-Labs-HQ/cognis-module-template); dieses Repository folgt der in `AGENTS.md` festgehaltenen Vorlagenrevision. `bootstrap.js` orchestriert den Lebenszyklus, `api/index.js` verdrahtet ctx-Abhängigkeiten, `api/routes/<domain>/index.js` enthält HTTP-Handler und `api/reuse/` wiederverwendbaren Servercode. Browserfunktionen liegen unter `ui/`, Styles unter `ui/styles/`, wiederverwendbare Vorlagen unter `ui/templates/` und lokalisierte Dokumentation unter `docs/index.<locale>.md`. Historische Veröffentlichungen liegen in `docs/changelog/` und werden nicht gehasht. Nicht unterstützte optionale Bereiche entfallen.
+
+Öffentliche ctx-Fähigkeiten und deklarierte Abläufe nutzen; niemals Cognis-Interna oder benachbarte Module importieren. Dashboard-Anbieter für Fähigkeiten und Navigation exportieren `mountProvider(scopedUiCtx)` und geben Aufräumfunktionen für eigene Ressourcen zurück. Importe registrieren kein Modulverhalten. Der Host entfernt Fähigkeiten, Ablauf-Hooks, Listener und Anbieterzustand beim Deaktivieren und bindet zwischengespeicherte Anbieter beim erneuten Aktivieren neu ein. Einstellungen, Administration und Anmeldefußzeilen folgen ihren jeweiligen dokumentierten Host-Verträgen. Diese Verträge mit eigenständigen Testdoubles prüfen, die ausführbare Strukturprüfung ausführen, Hashes nach der letzten Paketänderung erneuern und vor der Veröffentlichung Lint, Tests und Manifestprüfung ausführen.

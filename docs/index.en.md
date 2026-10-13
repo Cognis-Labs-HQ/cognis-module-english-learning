@@ -4,7 +4,7 @@ Cognis English 1.3.2 supplies a versioned learning graph, English dictionary enr
 
 ## Usage Examples
 
-- Explore `/study/explore/en/alphabet`, `/study/explore/en/letter-combinations`, `/study/explore/en/vocabulary` and `/study/explore/en/sentences`.
+- Explore `/study/en/alphabet`, `/study/en/letter-combinations`, `/study/en/vocabulary` and `/study/en/sentences`.
 - Search with Free Dictionary in the Study navigation; selected vocabulary results populate the host composer.
 - Browse the English Alphabet, First English Words, Everyday English Verbs and First English Sentences decks under `/study/flashcards`. Cognis manages deck study, favourites and sharing.
 
@@ -18,7 +18,7 @@ Lookup registrations are removed on disable or failed activation. Host-scoped ro
 
 ### Content graph
 
-Pack `english-core` 16.0.0, schema `english` revision 16 and content revision `2026-10-11.3` preserve the existing namespace and record identities. The pack contains 635 records: 52 alphabet entries, 17 letter combinations, 123 visible vocabulary entries, 135 hidden inflections, 10 hidden capitalized sentence starters, 21 grammar/punctuation entries, 45 sentences and 232 hidden definitions. All definitions have English, German, Indonesian and Japanese meanings. Definition localization uses the host's `studyenglish:definitions` prefix; marketplace keys use `module.study_language_en.*`.
+Pack `english-core` 16.0.0, schema `english` revision 16 and content revision `2026-10-11.3` preserve the existing namespace and record identities. The pack contains 635 records: 52 alphabet entries, 17 letter combinations, 123 visible vocabulary entries, 135 hidden inflections, 10 hidden capitalized sentence starters, 21 grammar/punctuation entries, 45 sentences and 232 hidden definitions. All definitions have English, German, Indonesian and Japanese meanings. Definition localization uses the host's `studyenglish:definitions` prefix; marketplace keys use `module.study.language.en.*`.
 
 Ordered spelling and sentence references resolve to actual records. Hidden inflection cards provide literal targets for seeded sentence validation; interactive forms use 37 declarative verb, copula and adjective paradigms, including irregular forms and their IPA. IPA readings remain speech notation rather than being linked to unrelated alphabet glyphs. Capitalized sentence starters preserve actual sentence text. Grammar particles include negation, prepositions, conjunctions and punctuation, and are non-editable. Definition relationships have a maximum of ten.
 
@@ -53,3 +53,9 @@ Language selection opens Cognis-owned Explore pages even when content providers 
 ## Alphabet, grammar and noun-number families
 
 Schema 17 and content pack 17.0.0 separate letter names from optional `letter_sounds` IPA details and contain no filler alphabet cells. Punctuation has its own sentence-composer carousel. Twenty-two additional clause and discourse structures include localized meanings and speech pronunciations. Thirty-three reviewed countable noun families opt into Cognis plural transformations with `optInTag: plural`; rules include changed spellings and readings. Mass nouns remain outside those families. Forms are derived from base cards rather than shipped as duplicate entries. Module version: 1.3.3.
+
+### Contributor layout and host ownership
+
+Start new modules from [cognis-module-template](https://github.com/Cognis-Labs-HQ/cognis-module-template); this repository follows its pinned contributor guidance in `AGENTS.md`. `bootstrap.js` owns lifecycle orchestration, `api/index.js` wires ctx-derived dependencies, `api/routes/<domain>/index.js` owns HTTP handlers, and reusable server code belongs in `api/reuse/`. Browser features stay under `ui/`, styles under `ui/styles/`, reusable markup under `ui/templates/`, and localized documentation under `docs/index.<locale>.md`. Historical release entries live in `docs/changelog/` and are excluded from package hashes. Optional concerns are omitted when unsupported.
+
+Consume public ctx capabilities and declared flows; do not import Cognis internals or sibling modules. Dashboard capability/navbar providers export `mountProvider(scopedUiCtx)` and return cleanup for owned resources. Imports must not register module behavior. The host disposes scoped capabilities, flow hooks, listeners and provider state when disabled, then mounts cached providers again when re-enabled. Settings/admin factories and authentication-footer descriptor providers follow their own documented host contracts. Test these contracts with standalone fakes, run the executable layout guard, regenerate hashes after the final packaged edit, and run lint, tests and manifest validation before publishing.

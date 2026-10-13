@@ -19,7 +19,7 @@ Pasang dan aktifkan repositori ini melalui pasar modul Cognis. Gateway Study dan
 
 Bootstrap mendaftarkan penyedia melalui ctx, memuat paket terlindungi, menerbitkan deskriptor Inggris dan kait alur yang dapat dilepas. Penonaktifan melepas penyedia; penghapusan dapat mempertahankan atau menghapus paket secara berantai melalui Cognis. Antarmuka, kebijakan cache dan implementasi privat host tidak diduplikasi.
 
-[`docs/standard.id.md`](docs/standard.id.md) · [`docs/dictionary.id.md`](docs/dictionary.id.md)
+[`docs/index.id.md`](docs/index.id.md) · [`docs/dictionary.id.md`](docs/dictionary.id.md)
 
 ## Pemeriksaan Kontributor
 

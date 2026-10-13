@@ -1,7 +1,8 @@
+import { registerApi } from "./api/index.js";
 import { readFileSync } from "node:fs";
 import path from "node:path";
-import { createDictionaryProvider } from "./api/dictionary-provider.js";
-import { createStrokePatternProvider } from "./api/stroke-pattern-provider.js";
+import { createDictionaryProvider } from "./api/dictionary/index.js";
+import { createStrokePatternProvider } from "./api/strokes/index.js";
 
 const MODULE_MANIFEST = JSON.parse(
     readFileSync(new URL("./manifest.json", import.meta.url), "utf8"),
@@ -76,18 +77,8 @@ export async function bootstrapModule(ctx) {
     )
         throw new Error("Invalid Study Library provider capability.");
     const log = ctx.log;
-    ctx.registerStaticDir(
-        "languages",
-        path.join(ctx.moduleRoot, "ui", "languages"),
-    );
-    ctx.registerApiDelete(
-        "/api/v1/modules/study-language-en/config",
-        (_request, response) => {
-            response.writeHead(204);
-            response.end();
-        },
-        { access: { minRole: "admin" }, allowWhenDisabled: true },
-    );
+    registerApi(ctx);
+
     const providerRemovers = [];
     const removeProviders = () => {
         for (const removeProvider of providerRemovers.splice(0).reverse())
@@ -115,7 +106,7 @@ export async function bootstrapModule(ctx) {
         ctx.flow.extend(
             "bootstrap-platform",
             "register-flows",
-            { id: "study-language-en:register-language" },
+            { id: "study-language-en:registerLanguage" },
             () => LANGUAGE,
         );
     } catch (error) {

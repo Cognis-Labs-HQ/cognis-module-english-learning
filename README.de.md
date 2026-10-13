@@ -19,7 +19,7 @@ Installieren und aktivieren Sie dieses Repository im Cognis-Modulmarktplatz. Stu
 
 Bootstrap registriert Anbieter über ctx, importiert das geschützte Paket, veröffentlicht den englischen Deskriptor und einen entfernbaren Ablaufbeitrag. Deaktivierung entfernt Anbieter; Deinstallation behält Inhalte oder löscht sie über Cognis kaskadierend. Host-Oberfläche, Cache-Richtlinien und interne Komponenten werden nicht dupliziert.
 
-[`docs/standard.de.md`](docs/standard.de.md) · [`docs/dictionary.de.md`](docs/dictionary.de.md)
+[`docs/index.de.md`](docs/index.de.md) · [`docs/dictionary.de.md`](docs/dictionary.de.md)
 
 ## Prüfungen für Beiträge
 

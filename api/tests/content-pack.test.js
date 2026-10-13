@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
-import { readContentLayers } from "../../reuse/content.js";
+import { readContentLayers } from "../reuse/content.js";
 
 const schema = JSON.parse(await readFile("data/schema.json", "utf8"));
 const manifest = JSON.parse(await readFile("data/manifest.json", "utf8"));

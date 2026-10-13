@@ -49,7 +49,10 @@ test("manifest display metadata uses keys available in every language", () => {
         ...manifest.tags,
     ];
     for (const key of metadataKeys) {
-        assert.match(key, /^module\.study_language_en\.[a-z0-9_]+$/);
+        assert.match(
+            key,
+            /^module\.study\.language\.en\.[a-z0-9]+(?:\.[a-z0-9]+)*$/,
+        );
         for (const language of LANGUAGES) {
             assert.ok(strings(language).has(key), `${language}: ${key}`);
         }
