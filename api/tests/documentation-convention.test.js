@@ -24,7 +24,7 @@ test("changelogs are excluded from the packaged manifest", () => {
         readFileSync(resolve(ROOT, "manifest.json"), "utf8"),
     );
     assert.equal(
-        manifest.files.some((file) => file.path.startsWith("changelog/")),
+        manifest.files.some((file) => file.path.startsWith("docs/changelog/")),
         false,
     );
 });
@@ -38,7 +38,7 @@ function markdownFiles(directory) {
 }
 
 function changelogFiles() {
-    const changelogDirectory = resolve(ROOT, "changelog");
+    const changelogDirectory = resolve(ROOT, "docs/changelog");
     return readdirSync(changelogDirectory)
         .filter((name) => name.endsWith(".md"))
         .map((name) => resolve(changelogDirectory, name));
@@ -99,7 +99,7 @@ test("changelogs use localized variants and include provenance", () => {
     const files = changelogFiles();
     const variantsByTopic = new Map();
     const violations = files.flatMap((path) => {
-        const filename = relative(resolve(ROOT, "changelog"), path);
+        const filename = relative(resolve(ROOT, "docs/changelog"), path);
         const match = /^(.*)\.(de|en|id|ja)\.md$/.exec(filename);
         if (!match) return [relative(ROOT, path)];
         const [, topic, language] = match;

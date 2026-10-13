@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import path from "node:path";
 import test from "node:test";
 import { bootstrapModule, uninstallModule } from "../../bootstrap.js";
@@ -74,7 +75,15 @@ test("registers providers, ingests the pack, and publishes the language through 
     const descriptor = calls.capabilities[0].value;
     assert.equal(descriptor.code, "en");
     assert.equal(descriptor.languageCode, "en");
-    assert.equal(descriptor.version, "1.3.3");
+    assert.equal(
+        descriptor.version,
+        JSON.parse(
+            readFileSync(
+                new URL("../../manifest.json", import.meta.url),
+                "utf8",
+            ),
+        ).version,
+    );
     assert.equal(descriptor.starterDecks.length, 7);
     assert.deepEqual(
         calls.providers.map(({ capabilities }) => capabilities),

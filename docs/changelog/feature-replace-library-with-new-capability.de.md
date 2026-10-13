@@ -34,6 +34,10 @@ Die Sprachauswahl öffnet Cognis-eigene Erkunden-Seiten auch ohne Unterseiten de
 
 Schema 17 und Inhaltspaket 17.0.0 trennen Buchstabennamen von optionalen IPA-Angaben in `letter_sounds` und enthalten keine leeren Füllzellen. Satzzeichen erhalten ein eigenes Karussell. Zweiundzwanzig zusätzliche Satz- und Diskursstrukturen besitzen lokalisierte Bedeutungen und Lautschriften. Dreiunddreißig geprüfte zählbare Substantivgruppen aktivieren Cognis-Pluralformen über `optInTag: plural`, einschließlich geänderter Schreibweisen und Aussprachen. Stoffnamen bleiben ausgenommen. Formen entstehen aus Basiskarten statt doppelten Einträgen. Modulversion: 1.3.3.
 
+## Beitragsstandard der Vorlage
+
+AGENTS.md mit der externen Modulvorlage synchronisieren und Domänenregeln beibehalten. Den kanonischen Release-Verzeichnispfad übernehmen; historische Inhalte und dauerhafte Modulidentität erhalten.
+
 ## Commits
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)

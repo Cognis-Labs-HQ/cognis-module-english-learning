@@ -34,6 +34,10 @@ Pilihan bahasa membuka halaman Jelajahi milik Cognis meskipun penyedia konten ti
 
 Skema 17 dan paket konten 17.0.0 memisahkan nama huruf dari rincian IPA opsional `letter_sounds` tanpa sel alfabet pengisi. Tanda baca memiliki karusel tersendiri. Dua puluh dua struktur klausa dan wacana tambahan menyediakan makna terlokalisasi dan pelafalan. Tiga puluh tiga keluarga nomina terhitung mengaktifkan transformasi jamak Cognis melalui `optInTag: plural`, termasuk perubahan ejaan dan bacaan. Nomina massa tidak termasuk. Bentuk diturunkan dari kartu dasar tanpa entri duplikat. Versi modul: 1.3.3.
 
+## Standar kontributor templat
+
+Selaraskan AGENTS.md dengan templat modul eksternal sambil mempertahankan aturan domain. Gunakan lokasi catatan rilis kanonis dan pertahankan konten historis serta identitas modul permanen.
+
 ## Komit
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)
