@@ -253,7 +253,7 @@
     },
     {
         "id": "en:sentence:hello",
-        "label": "Hello!",
+        "label": "Hello, my friend!",
         "references": [
             {
                 "entryId": "en:word:capital-hello",
@@ -261,9 +261,24 @@
                 "position": 0
             },
             {
-                "entryId": "en:particle:exclamation",
+                "entryId": "en:particle:comma",
                 "relation": "particles",
                 "position": 1
+            },
+            {
+                "entryId": "en:word:my",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:friend",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:exclamation",
+                "relation": "particles",
+                "position": 4
             },
             {
                 "entryId": "en:definition:sentence:hello",

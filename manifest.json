@@ -2,7 +2,7 @@
     "id": "study-language-en",
     "uuid": "b1adc29f-9d54-5785-9bea-2ce76f1981e4",
     "name": "module.study.language.en.name",
-    "version": "1.3.8",
+    "version": "1.3.9",
     "class": "extension",
     "privileged": true,
     "coreApiVersion": "v1",
@@ -108,7 +108,7 @@
         },
         {
             "path": "api/tests/content-pack.test.js",
-            "sha256": "ef2b8970a96a64d72a34c3534bd6162e291350c0b073cbfc817f3152b3b82a61"
+            "sha256": "b8b59a5ead103e1c2ba90dacd6d693353e757b34b6acebe3871c36d902951d16"
         },
         {
             "path": "api/tests/documentation-convention.test.js",
@@ -188,7 +188,7 @@
         },
         {
             "path": "data/content/definitions/beginner-009.json",
-            "sha256": "6deffd619685861e7dc0a1dd91bacb3e20a8e7a329f0e8f4474aaaac1794a30b"
+            "sha256": "f747bc23be0cdd9349211ab86ac8a93251a23fe279165cd57fd1902e6c058bfa"
         },
         {
             "path": "data/content/definitions/beginner-010.json",
@@ -236,7 +236,7 @@
         },
         {
             "path": "data/content/sentences/beginner-005.json",
-            "sha256": "39f5ca303cc4bb73e27b01c9a29c6992870178a031ed67a15a13532ca4e0402e"
+            "sha256": "20408c3359c329bd7d7f51db77b68c4b0c0a3aeed9b0d343202e92971752b457"
         },
         {
             "path": "data/content/sentences/beginner-006.json",
@@ -360,11 +360,11 @@
         },
         {
             "path": "data/manifest.json",
-            "sha256": "2aacae9fae1d06311b4f14af3c0319b0ad3c738f51d8e340120ec0afa21d80c7"
+            "sha256": "08607ef9c740b08a89cb9539dcaff6435e55f80cafd54a14cc5cafeccc08ddc3"
         },
         {
             "path": "data/schema.json",
-            "sha256": "b7a8bf878009f00ca02d2c1c1d7e2b1effdf61267d89ded5c2d7056ab66350cd"
+            "sha256": "a2dd7e46f9c751d6f15272b58c21633d620d550794e818d6cc2680c948472765"
         },
         {
             "path": "data/starter-decks.json",
@@ -388,27 +388,27 @@
         },
         {
             "path": "docs/index.de.md",
-            "sha256": "1ca867ba7ea24bcb48576e7336c059f0867e3c8d4232ff9060b34239cdecce88"
+            "sha256": "579e0c7ba5aeb3324040abbbf09aaadbe2bfe9264e77aa5dae81733d3f080866"
         },
         {
             "path": "docs/index.en.md",
-            "sha256": "5cb6d5afb5d96b686b4cfcc0ccea97cf0de709b84df187e76016edfefe8b7b74"
+            "sha256": "02e46a026356eb07db13950f387bb118650982bd1e8add7ba4f396e2c07d7fa8"
         },
         {
             "path": "docs/index.id.md",
-            "sha256": "e6582387ccbe1fd8d416807d83c5cb32fd09e4b361ca0782121207e763877970"
+            "sha256": "b329bcd86f6da78b2435b5c82bcf2d7cd260ffe8d739380824259cef25cf7fcb"
         },
         {
             "path": "docs/index.ja.md",
-            "sha256": "95c5f3809e39ef360adf5b04963f8c3287585fc5ef4e88e37d59aa6b943fdc68"
+            "sha256": "61539c844f55180366e5244a24db78313cf13a0d66db914d468a191714d736fd"
         },
         {
             "path": "package-lock.json",
-            "sha256": "46840a9060ce546abb30900b9b84767a24f1baa36af9a921d768f7f177c8af51"
+            "sha256": "3d9d58c609ab68ec1717e1b15e5c267f966b346c0c25f666e99419dd8d0ab356"
         },
         {
             "path": "package.json",
-            "sha256": "884c065e40c03287928036de187a627e15fb4ab0afa777aa0194f900a33e79fb"
+            "sha256": "41113024dcb43fc9a7b6bf10797f15b50bb1fc1622764fb9185f7bf1789ecd3c"
         },
         {
             "path": "routes.json",
@@ -440,19 +440,19 @@
         },
         {
             "path": "ui/languages/de/strings.xml",
-            "sha256": "54ef2200841d42958b0fbbb34c967987d8a4a55d00c4e103b208134feb89ad39"
+            "sha256": "5e4f154f69f8814c995b93ffef723e6b8c2c563477e240f75b3a50962dbbc058"
         },
         {
             "path": "ui/languages/en/strings.xml",
-            "sha256": "2887852696ac7a99c47e69ee96ea3435ebdf753b6def02a520bc0cdb962162d4"
+            "sha256": "d7efc6355d200538fc68b8f736b843ed2c6fff705b766bad4c72950ffa0c7bf2"
         },
         {
             "path": "ui/languages/id/strings.xml",
-            "sha256": "c84ad69fd3d89879c7c1fd2ae04363978ba51400b7a3e549b42afb0da9015364"
+            "sha256": "28674ad2c73d08a460980e2d1a6e887e228809027318487acd12f97a7604e8ff"
         },
         {
             "path": "ui/languages/ja/strings.xml",
-            "sha256": "1010ba192d71b3d013acaa9120a1bd192609c6c5a5d0e2d81fdbb3aa00e9d866"
+            "sha256": "0251b680118e8f4128622c30437b38d8c9d75988c30b87d3504de588f45dea86"
         },
         {
             "path": "ui/tests/ambiguous-names.test.js",

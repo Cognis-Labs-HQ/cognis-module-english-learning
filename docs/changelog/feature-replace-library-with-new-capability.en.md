@@ -54,6 +54,10 @@ Rebrand the module as English Study and provide a matching PNG icon and banner, 
 
 Use short action summaries and concrete feature descriptions across marketplace metadata, keeping localized meanings aligned.
 
+## Require multiword sentences
+
+Sentence cards require at least two word references through the Library schema. The starter greeting is “Hello, my friend!” with matching composition links and localized definitions. Precise IPA remains the pronunciation format; the host Library renders its symbols with readable typography.
+
 ## Commits
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)

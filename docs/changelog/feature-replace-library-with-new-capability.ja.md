@@ -54,6 +54,10 @@
 
 Marketplace のメタデータに短い操作概要と具体的な機能説明を使用し、翻訳の意味を揃えます。
 
+## 文を複数の単語で構成
+
+文カードは Library スキーマを通じて最低2つの単語参照を必要とします。初級のあいさつを「Hello, my friend!」に変更し、対応する構成リンクと各言語の定義を用意します。正確な IPA を発音形式として維持し、ホストの Library が読みやすい書体で記号を表示します。
+
 ## コミット
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)

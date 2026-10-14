@@ -41,8 +41,8 @@ test("pack declares a stable English namespace and usable provider schema", () =
     assert.equal(manifest.protected, true);
     assert.equal(schema.id, "english");
     assert.equal(schema.language, "en");
-    assert.equal(schema.version, 17);
-    assert.equal(manifest.version, "17.0.0");
+    assert.equal(schema.version, 18);
+    assert.equal(manifest.version, "18.0.0");
     assert.equal(schema.metadata.provider.moduleId, "study-language-en");
     assert.equal(entries.size, [...layers.values()].flat().length);
     for (const layer of schema.layers) {
@@ -319,4 +319,25 @@ test("plural opt-in exposes dogs from dog and leaves mass nouns without a plural
             ({ tag }) => tag === "punctuation",
         ),
     );
+});
+
+test("sentence cards require at least two words and preserve precise IPA", () => {
+    const words = layerSchema("sentences").relationships.find(
+        ({ id }) => id === "words",
+    );
+    assert.equal(words.minimum, 2);
+    for (const sentence of layers.get("sentences")) {
+        assert.ok(
+            sentence.label.trim().split(/\s+/u).length >= 2,
+            sentence.label,
+        );
+        assert.ok(
+            sentence.references.filter(({ relation }) => relation === "words")
+                .length >= 2,
+            sentence.id,
+        );
+    }
+    assert.deepEqual(entries.get("en:word:language").fields.pronunciation, [
+        "/ˈlæŋɡwɪdʒ/",
+    ]);
 });
