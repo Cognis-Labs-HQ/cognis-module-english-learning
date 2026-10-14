@@ -46,6 +46,10 @@
 
 モジュールを「英語学習」へ改名し、対応する PNG アイコンとバナーを用意します。重要な画像は Marketplace の中央の安全領域に収めます。表示名と統合ドキュメントを翻訳・更新し、モジュール UUID、言語コード、パッケージ名、コンテンツ識別情報を維持します。
 
+## Marketplace の説明を統一する
+
+Marketplace のメタデータに短い操作概要と具体的な機能説明を使用し、翻訳の意味を揃えます。
+
 ## コミット
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)

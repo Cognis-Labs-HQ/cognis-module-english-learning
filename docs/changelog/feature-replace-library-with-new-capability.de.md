@@ -46,6 +46,10 @@ Vorlagenrichtlinien, domänenspezifische Routenpfade, übersetzte Integrationsdo
 
 Das Modul heißt jetzt Englisch lernen und erhält ein passendes PNG-Icon und Banner. Wichtige Bildinhalte bleiben im sicheren mittigen Marketplace-Bereich. Sichtbarer Name und Integrationsdokumentation werden übersetzt und aktualisiert; Modul-UUIDs, Sprachcodes, Paketnamen und Inhaltsidentitäten bleiben erhalten.
 
+## Einheitliche Marketplace-Texte
+
+Verwenden Sie kurze Aktionszusammenfassungen und konkrete Funktionsbeschreibungen in den Marketplace-Metadaten mit inhaltlich abgestimmten Übersetzungen.
+
 ## Commits
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)

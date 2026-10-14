@@ -46,6 +46,10 @@ Sinkronkan panduan templat, jalur rute domain, dokumentasi integrasi terjemahan,
 
 Namai ulang modul menjadi Belajar Bahasa Inggris dan sediakan ikon serta banner PNG yang serasi, dengan ilustrasi penting di area tengah yang aman dari pemotongan Marketplace. Perbarui nama terjemahan dan dokumentasi integrasi sambil mempertahankan UUID modul, kode bahasa, nama paket dan identitas konten.
 
+## Deskripsi Marketplace yang konsisten
+
+Gunakan ringkasan tindakan singkat dan deskripsi fitur konkret pada metadata Marketplace dengan makna terjemahan yang selaras.
+
 ## Komit
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)
