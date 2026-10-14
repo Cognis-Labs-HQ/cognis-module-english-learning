@@ -2,7 +2,7 @@
     "id": "study-language-en",
     "uuid": "b1adc29f-9d54-5785-9bea-2ce76f1981e4",
     "name": "module.study.language.en.name",
-    "version": "1.3.7",
+    "version": "1.3.8",
     "class": "extension",
     "privileged": true,
     "coreApiVersion": "v1",
@@ -48,7 +48,7 @@
         },
         {
             "path": ".github/copilot-instructions.md",
-            "sha256": "499c33d139d6ab33a64dc83e8be9547ccd5e02df50d16c7e363ecffba466a534"
+            "sha256": "bc6cdaf5694909f465e459c9826b5a1048247d9a4461206fa01f7d91a092dc7e"
         },
         {
             "path": ".gitignore",
@@ -117,6 +117,10 @@
         {
             "path": "api/tests/lookup-providers.test.js",
             "sha256": "fa2d10cf1dc197018c8e5c72af3f748f8110efeb77b21fd1172ba4dfd95057fb"
+        },
+        {
+            "path": "api/tests/manifest-targets.test.js",
+            "sha256": "ead5d55842241939d629b43556cb20f87590b6a6c4b8cd5ae3c3dd4a8f188dd6"
         },
         {
             "path": "api/tests/module-structure.test.js",
@@ -384,27 +388,27 @@
         },
         {
             "path": "docs/index.de.md",
-            "sha256": "9ad3bf9c2f7309ee931fd78b2804a93380e8fca984e9995023b6bc547b01ce32"
+            "sha256": "1ca867ba7ea24bcb48576e7336c059f0867e3c8d4232ff9060b34239cdecce88"
         },
         {
             "path": "docs/index.en.md",
-            "sha256": "6bebd408c3bf931e79b04553ee9233eb664f23fbc82baa3422a781818b21601c"
+            "sha256": "5cb6d5afb5d96b686b4cfcc0ccea97cf0de709b84df187e76016edfefe8b7b74"
         },
         {
             "path": "docs/index.id.md",
-            "sha256": "5be5f1887dc87eaadace7c98a12e6693034b5b8cab922cae902e358b9c8aae04"
+            "sha256": "e6582387ccbe1fd8d416807d83c5cb32fd09e4b361ca0782121207e763877970"
         },
         {
             "path": "docs/index.ja.md",
-            "sha256": "cb5a3ea21a6ef4ac87fa397bbfa91a8aa36597667d6cabed39e094383cb774d7"
+            "sha256": "95c5f3809e39ef360adf5b04963f8c3287585fc5ef4e88e37d59aa6b943fdc68"
         },
         {
             "path": "package-lock.json",
-            "sha256": "d6001f2e626b0d451eca7c90c2b862af879866d56ab0934e3f0d617e558d2ac9"
+            "sha256": "46840a9060ce546abb30900b9b84767a24f1baa36af9a921d768f7f177c8af51"
         },
         {
             "path": "package.json",
-            "sha256": "01c61a9bc00cb70426f9d09fd079f37b6d3d7777fe8285d57cb09041c813e478"
+            "sha256": "884c065e40c03287928036de187a627e15fb4ab0afa777aa0194f900a33e79fb"
         },
         {
             "path": "routes.json",
@@ -420,7 +424,7 @@
         },
         {
             "path": "scripts/validate-manifest.js",
-            "sha256": "c1981f7bfb7842fc6536047a52839d2fdd79764dfd3924bf42a81843576272fe"
+            "sha256": "944205e7335ee60ee6db1404e20c36733da8536ca594c76efbca1f130443b298"
         },
         {
             "path": "tooling/scripts/declaration-spacing.mjs",

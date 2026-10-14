@@ -2,6 +2,10 @@
 
 **Cabang Fitur:** feature-replace-library-with-new-capability
 
+## Target paket dan panduan pengembang
+
+Rilis 1.3.8 — Validasi paket memastikan titik masuk, ikon, banner, dan tangkapan layar berupa file reguler di dalam checkout, termasuk setelah resolusi jalur. Dokumentasi menjelaskan kontrak publik dan merujuk manifes untuk metadata rilis; changelog mempertahankan asal-usul rilis.
+
 ## Graf pembelajaran diperluas
 
 635 rekaman tervalidasi meliputi 123 kata terlihat, 45 kalimat, panduan tulisan, 37 paradigma transformasi akurat dan empat dek awal. Ruang nama dan ID sumber dipertahankan; bentuk tersembunyi dan awal kalimat kapital membentuk dependensi lengkap.

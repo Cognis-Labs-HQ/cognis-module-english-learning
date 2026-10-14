@@ -2,6 +2,10 @@
 
 **Feature Branch:** feature-replace-library-with-new-capability
 
+## Package targets and developer guidance
+
+Release 1.3.8 — Package validation checks that entrypoints, icons, banners and screenshots are regular files inside the checkout, including resolved paths. Documentation describes public contracts and refers to manifests for release metadata; changelogs retain release provenance.
+
 ## Expanded learning graph
 
 635 validated records include 123 visible words, 45 sentences, writing guides, 37 accurate transformation sets and four starter decks. Existing namespace and source IDs are preserved; hidden forms and capitalized starters make sentence dependencies explicit.

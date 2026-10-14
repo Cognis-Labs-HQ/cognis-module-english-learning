@@ -2,6 +2,10 @@
 
 **Feature-Zweig:** feature-replace-library-with-new-capability
 
+## Paketziele und Entwicklerhinweise
+
+Ausgabe 1.3.8 — Die Paketprüfung stellt sicher, dass Einstiegspunkte, Icons, Banner und Screenshots reguläre Dateien innerhalb des Checkouts sind, auch nach Pfadauflösung. Die Dokumentation beschreibt öffentliche Verträge und verweist für Veröffentlichungsmetadaten auf Manifeste; Änderungsprotokolle behalten die Herkunft der Veröffentlichung.
+
 ## Erweiterter Lerngraph
 
 635 validierte Datensätze umfassen 123 sichtbare Wörter, 45 Sätze, Schreibvorlagen, 37 genaue Flexionsparadigmen und vier Startdecks. Namensraum und Quell-IDs bleiben erhalten; verborgene Formen und großgeschriebene Satzanfänge bilden Abhängigkeiten vollständig ab.
