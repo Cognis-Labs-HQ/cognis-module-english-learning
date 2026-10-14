@@ -1,4 +1,4 @@
-# Cognis English
+# English Study
 
 [English](README.en.md) · [Deutsch](README.de.md) · [Bahasa Indonesia](README.id.md) · [日本語](README.ja.md)
 

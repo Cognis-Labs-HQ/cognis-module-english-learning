@@ -1,6 +1,6 @@
-# Cognis English Module
+# English Study
 
-Cognis English 1.3.2 supplies a versioned learning graph, English dictionary enrichment, original print-letter writing guides and seven starter decks. Cognis owns the learning UI and all user data.
+English Study supplies a versioned learning graph, English dictionary enrichment, original print-letter writing guides and seven starter decks. Cognis owns the learning UI and all user data.
 
 ## Usage Examples
 

@@ -1,6 +1,6 @@
-# Modul Inggris Cognis
+# Belajar Bahasa Inggris
 
-Cognis English 1.3.2 menyediakan graf pembelajaran berversi, pengayaan kamus Inggris, panduan huruf cetak asli dan tujuh dek awal. Cognis mengelola antarmuka belajar serta seluruh data pengguna.
+Belajar Bahasa Inggris menyediakan graf pembelajaran berversi, pengayaan kamus Inggris, panduan huruf cetak asli dan tujuh dek awal. Cognis mengelola antarmuka belajar serta seluruh data pengguna.
 
 ## Contoh Penggunaan
 

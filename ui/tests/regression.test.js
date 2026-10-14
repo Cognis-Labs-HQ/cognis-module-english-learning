@@ -14,10 +14,10 @@ test("keeps locale keys synchronized", async () => {
         assert.deepEqual(keys(locale), keys(locales[0]));
 });
 
-test("uses an English flag SVG for the module icon", async () => {
-    const icon = await readFile("assets/icon.svg", "utf8");
-
-    assert.match(icon, /<title[^>]*>Flag of England<\/title>/);
-    assert.match(icon, /fill="#ce1124"/);
-    assert.doesNotMatch(icon, /<text\b/);
+test("ships a square PNG study icon declared in the manifest", async () => {
+    const manifest = JSON.parse(await readFile("manifest.json", "utf8"));
+    const icon = await readFile(manifest.assets.icon);
+    assert.equal(icon.subarray(1, 4).toString(), "PNG");
+    assert.equal(icon.readUInt32BE(16), icon.readUInt32BE(20));
+    assert.ok(icon.readUInt32BE(16) >= 64);
 });

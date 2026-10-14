@@ -2,7 +2,7 @@
     "id": "study-language-en",
     "uuid": "b1adc29f-9d54-5785-9bea-2ce76f1981e4",
     "name": "module.study.language.en.name",
-    "version": "1.3.5",
+    "version": "1.3.6",
     "class": "extension",
     "privileged": true,
     "coreApiVersion": "v1",
@@ -21,8 +21,8 @@
     "support": "https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/issues",
     "assets": {
         "screenshots": [],
-        "icon": "assets/icon.svg",
-        "banner": "assets/banner.svg"
+        "icon": "assets/icon.png",
+        "banner": "assets/banner.png"
     },
     "tags": [
         "module.study.language.en.tag.english",
@@ -68,19 +68,19 @@
         },
         {
             "path": "README.de.md",
-            "sha256": "6602b24ef41bc7db6672b853fb3f62d3a4fd322a83c564f731691d9b3c6a3734"
+            "sha256": "a680c46a812e73d41c4c98d1f0f62fef5e63c0641c3fae8586ca051d4b653725"
         },
         {
             "path": "README.en.md",
-            "sha256": "176939ffcbcfba066cb62abab89c66e25589e74f15c462e42abd916f376e4f84"
+            "sha256": "2ce12af490f2aa2b071bbec022a5b962edc93b78aa1b11b3ac8a080215890a26"
         },
         {
             "path": "README.id.md",
-            "sha256": "82a2f620cf5dc4b7b28a3edcddd3c788d35a1f0cd8259bd35016c14cba8126a1"
+            "sha256": "3cfe82a900aa80eb64a03fc33264feff176a2cb0aecb8c2cd2a37e781b515337"
         },
         {
             "path": "README.ja.md",
-            "sha256": "98ba9f3d04600a7bc44d600398d43a08f90246c110c27b867e2662cc616f3271"
+            "sha256": "b6cff5825c2a4a148c48a7583bf13cded803a2cdd850c7b019b35f502f8a8f2c"
         },
         {
             "path": "api/dictionary/index.js",
@@ -127,12 +127,12 @@
             "sha256": "ae8add61d5a5dd669f34185d654aa6a04acbc7831c2209c0757d756c54d3957a"
         },
         {
-            "path": "assets/banner.svg",
-            "sha256": "3ae321f68d202518e0cc36db52b0c83845bf8892c5fd7197850d6e3efe4334af"
+            "path": "assets/banner.png",
+            "sha256": "24b1b33de3483fde17b767b19bbb45f1e0440181fd7a00755359e100ce725ca1"
         },
         {
-            "path": "assets/icon.svg",
-            "sha256": "6fcd58c4ffc38aeb1838d2392195f7bd0860fdadad1cec49c8b365f49b5e4aba"
+            "path": "assets/icon.png",
+            "sha256": "cf73662ec0c568d69bd0be01c2257d2e22ddc0ec83229d09d37df7c4eb4077b3"
         },
         {
             "path": "bootstrap.js",
@@ -384,27 +384,27 @@
         },
         {
             "path": "docs/index.de.md",
-            "sha256": "de9ac7bea2ef6218dfa8b093ce839ff2a5af90ae672bbbca484e69183adb2fbe"
+            "sha256": "9ad3bf9c2f7309ee931fd78b2804a93380e8fca984e9995023b6bc547b01ce32"
         },
         {
             "path": "docs/index.en.md",
-            "sha256": "02340fc48624784ccea10d1b8f4adff0d4cf0e3e15b682c355a982ae88d5b173"
+            "sha256": "6bebd408c3bf931e79b04553ee9233eb664f23fbc82baa3422a781818b21601c"
         },
         {
             "path": "docs/index.id.md",
-            "sha256": "acc0f2fb8039ddf1733409dfc413d5ca64c8eab13b6c0d03ad16469c3a5c3916"
+            "sha256": "5be5f1887dc87eaadace7c98a12e6693034b5b8cab922cae902e358b9c8aae04"
         },
         {
             "path": "docs/index.ja.md",
-            "sha256": "eca0d0b940ed7298b3fb35c3ea34be390b4d1bb2eb70e13fd5c9f676eef3153e"
+            "sha256": "cb5a3ea21a6ef4ac87fa397bbfa91a8aa36597667d6cabed39e094383cb774d7"
         },
         {
             "path": "package-lock.json",
-            "sha256": "e3648e18ccafd8cf02e9165e50725de84601467c7189c78d2da9675c572f7b4e"
+            "sha256": "c87cbf064ff4ddc5e48ff072ddc33be50a5801b2063011d50852c45b5a7bcd12"
         },
         {
             "path": "package.json",
-            "sha256": "79c2952cd0916f2f231e3bb6f2205b0bcdc6e36b4e81fcbac844bf43139dada1"
+            "sha256": "9855a8d99063a1d8e8cc609510cf966754c939a45bd9a9d98131888312fe82b2"
         },
         {
             "path": "routes.json",
@@ -436,19 +436,19 @@
         },
         {
             "path": "ui/languages/de/strings.xml",
-            "sha256": "b89b6473ae44160154d98a218d5cf6b6d7e8289d665b6f3a77b1a608153bf1e0"
+            "sha256": "d22650376a3a9f90751b725ca9b48827f082828fd27759abcc3a27b3c1134dc1"
         },
         {
             "path": "ui/languages/en/strings.xml",
-            "sha256": "c34a26e348a3a6ed83cb388c77efeecaf5f1e09cff0534d3953ecae1399c3424"
+            "sha256": "9e3bdbf37631954c8744cc9603a4bdbccbdf8df303b5bbfba1b61c57cf0a894a"
         },
         {
             "path": "ui/languages/id/strings.xml",
-            "sha256": "8207905ae4201edbe206fc2ac9d83ce9be9352f9675cbecba6d7d79e065a2631"
+            "sha256": "614225c8280de9885ab0fc272064b3e03744a2234be08140011bc81bb81c7c9c"
         },
         {
             "path": "ui/languages/ja/strings.xml",
-            "sha256": "824dc7c30a2fb757df6c167974893ff37857ddde740d15e561f42ffa8b07f1b6"
+            "sha256": "536a472957d419fbc093e83af3cdbda55c58d4c60e9416689f9f590c21f45548"
         },
         {
             "path": "ui/tests/ambiguous-names.test.js",
@@ -460,7 +460,7 @@
         },
         {
             "path": "ui/tests/regression.test.js",
-            "sha256": "1b8f98d1fa4f454ea6737c8ad9b52e78a629f18ccc640f42aa99ea5b49773127"
+            "sha256": "a0d1fe0c0ea6993843dfc41d2bb78f6e246a684509cbc6df12a0aae508e69936"
         }
     ]
 }

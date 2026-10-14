@@ -42,6 +42,10 @@ AGENTS.md mit der externen Modulvorlage synchronisieren und Domänenregeln beibe
 
 Vorlagenrichtlinien, domänenspezifische Routenpfade, übersetzte Integrationsdokumentation, ausführbare Strukturprüfungen und endgültige Paket-Hashes synchronisieren. Öffentliche URLs und Modulidentität bleiben erhalten. Browserbeiträge folgen den Lebenszyklusverträgen des zuständigen Hosts.
 
+## Lernmarke und Bildmaterial
+
+Das Modul heißt jetzt Englisch lernen und erhält ein passendes PNG-Icon und Banner. Wichtige Bildinhalte bleiben im sicheren mittigen Marketplace-Bereich. Sichtbarer Name und Integrationsdokumentation werden übersetzt und aktualisiert; Modul-UUIDs, Sprachcodes, Paketnamen und Inhaltsidentitäten bleiben erhalten.
+
 ## Commits
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)

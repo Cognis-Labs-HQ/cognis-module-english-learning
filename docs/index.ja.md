@@ -1,10 +1,10 @@
-# Cognis 英語モジュール
+# 英語学習
 
-Cognis English 1.3.2 は、版管理された学習グラフ、英語辞書による補完、独自の活字体ガイド、七つの初期デッキを提供します。学習画面と利用者データは Cognis が管理します。
+英語学習 は、版管理された学習グラフ、英語辞書による補完、独自の活字体ガイド、七つの初期デッキを提供します。学習画面と利用者データは Cognis が管理します。
 
 ## 使用例
 
-- `/study/en/alphabet`、`/study/en/letter-combinations`、`/study/en/vocabulary`、、`/study/en/sentences` から学習内容を参照します。
+- `/study/en/alphabet`、`/study/en/letter-combinations`、`/study/en/vocabulary`、`/study/en/sentences` から学習内容を参照します。
 - Study ナビゲーションの無料辞書で検索すると、選択した語彙がホストのカード編集フォームに反映されます。
 - `/study/flashcards` には英語のアルファベット、はじめての英単語、日常の英語動詞、はじめての英文があります。学習、お気に入り、共有は Cognis が処理します。
 
