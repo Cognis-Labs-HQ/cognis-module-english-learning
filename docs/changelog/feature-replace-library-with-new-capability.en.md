@@ -62,6 +62,30 @@ Sentence cards require at least two word references through the Library schema. 
 
 AI instructions prohibit hardcoded English user-facing strings in every path. Missing preferred-language values may use the same keys from English XML resources; absent or empty English fallback values must fail explicitly instead of rendering literal English, raw keys, or blank text. Missing-translation errors must not be suppressed.
 
+## Keep dictionary senses representable
+
+Free Dictionary returns separate suggestions per part of speech, with only matching definitions, tags, and curated paradigms. Queries containing apostrophes or hyphens are rejected because the current alphabet graph cannot represent those spellings.
+
+## Bound streamed dictionary responses
+
+Response bodies are limited to one million streamed bytes and cancelled immediately when oversized.
+
+## Preserve the published bootstrap stage
+
+The published `study-language-en:bootstrap-registration` flow identifier remains unchanged.
+
+## Correct noun plural transformations
+
+Plural derivation stays on singular `book`, not already-plural `books`; `houses` uses `/haʊzɪz/`.
+
+## Document seven starter decks
+
+Seven localized starter decks are documented.
+
+## Study module layout
+
+The content pack lives in `data/library/`: its manifest, schema, and content shards form one ingestion and deletion boundary. Starter decks remain in `data/starter-decks.json`. Runtime providers live in `api/dictionary/` and `api/strokes/`; deterministic shard loading and byte-bounded response decoding live in `api/reuse/`. Cross-layer content and lifecycle tests live in `tests/`, while provider, transport, and API tests live in `api/tests/`. The manifest declares `api/routes/config/index.js` as `disabledApi`; that entrypoint registers only the administrator-only configuration DELETE route and does not ingest content or activate providers. Published flow identifiers remain stable.
+
 ## Commits
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)

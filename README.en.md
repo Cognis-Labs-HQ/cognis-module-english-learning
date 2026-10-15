@@ -9,7 +9,7 @@ English learning content and provider integration for Cognis Study.
 - 52 alphabet cards and 17 letter combinations with original JSON writing guides; 123 beginner words, 21 grammar/punctuation cards and 45 linked sentences.
 - 37 curated verb, copula and adjective paradigms with irregular forms and IPA; hidden supporting forms preserve complete sentence graphs.
 - Searchable Free Dictionary lookup, bounded definitions/readings, hidden attribution and host-owned caching.
-- Four localized starter decks use Cognis flashcards, favourites and sharing.
+- Seven localized starter decks use Cognis flashcards, favourites and sharing.
 
 ## Installation
 

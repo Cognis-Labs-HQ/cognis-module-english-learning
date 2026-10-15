@@ -9,7 +9,7 @@ Englische Lerninhalte und Anbieterintegration für Cognis Study.
 - 52 Buchstabenkarten und 17 Verbindungen mit eigenen JSON-Schreibvorlagen; 123 Anfängerwörter, 21 Grammatik-/Satzzeichenkarten und 45 verknüpfte Sätze.
 - 37 kuratierte Verb-, Kopula- und Adjektivparadigmen mit unregelmäßigen Formen und IPA; verborgene Karten erhalten vollständige Satzgraphen.
 - Suchbares freies Wörterbuch mit begrenzten Definitionen und Lesungen, verborgenen Quellenangaben und hostverwaltetem Cache.
-- Vier lokalisierte Startdecks verwenden Cognis-Lernkarten, Favoriten und Freigaben.
+- Sieben lokalisierte Startdecks verwenden Cognis-Lernkarten, Favoriten und Freigaben.
 
 ## Installation
 

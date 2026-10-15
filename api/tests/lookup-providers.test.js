@@ -3,7 +3,7 @@ import test from "node:test";
 import { createDictionaryProvider } from "../dictionary/index.js";
 import { createStrokePatternProvider } from "../strokes/index.js";
 
-const contentRoot = "data/content";
+const contentRoot = "data/library/content";
 const schema = { id: "english", language: "en" };
 const layer = { id: "words" };
 
@@ -252,7 +252,9 @@ test("dictionary attribution retains approved sources while card detail metadata
         "https://en.wiktionary.org/wiki/swim",
     ]);
     const { readFile } = await import("node:fs/promises");
-    const descriptor = JSON.parse(await readFile("data/schema.json", "utf8"));
+    const descriptor = JSON.parse(
+        await readFile("data/library/schema.json", "utf8"),
+    );
     const metadataField = descriptor.layers
         .find(({ id }) => id === "words")
         .fields.find(({ id }) => id === "dictionary_data");

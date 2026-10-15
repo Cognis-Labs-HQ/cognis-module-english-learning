@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 18,
+    "version": 19,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -5739,7 +5739,7 @@
                     "append": "houses",
                     "pronunciation": {
                         "removeSuffix": "/haʊs/",
-                        "append": "/haʊsɪz/"
+                        "append": "/haʊzɪz/"
                     },
                     "definitionTransform": {
                         "template": {
@@ -6100,51 +6100,6 @@
                     "pronunciation": {
                         "removeSuffix": "/frend/",
                         "append": "/frendz/"
-                    },
-                    "definitionTransform": {
-                        "template": {
-                            "labels": {
-                                "en": "{{ definition }} (plural)",
-                                "de": "{{ definition }} (Plural)",
-                                "id": "{{ definition }} (jamak)",
-                                "ja": "{{ definition }}（複数）"
-                            }
-                        }
-                    }
-                }
-            ],
-            "optInTag": "plural"
-        },
-        {
-            "id": "noun-books",
-            "metadata": {
-                "labels": {
-                    "en": "Noun Number",
-                    "de": "Substantivzahl",
-                    "id": "Jumlah Nomina",
-                    "ja": "名詞の数"
-                }
-            },
-            "matchTags": ["noun", "plural-books"],
-            "baseState": "base",
-            "rules": [
-                {
-                    "id": "plural",
-                    "metadata": {
-                        "labels": {
-                            "en": "Plural",
-                            "de": "Plural",
-                            "id": "Jamak",
-                            "ja": "複数形"
-                        }
-                    },
-                    "fromState": "base",
-                    "toState": "plural",
-                    "removeSuffix": "books",
-                    "append": "bookses",
-                    "pronunciation": {
-                        "removeSuffix": "/bʊks/",
-                        "append": "/bʊksɪz/"
                     },
                     "definitionTransform": {
                         "template": {

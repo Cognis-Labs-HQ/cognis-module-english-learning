@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import test from "node:test";
-import { bootstrapModule, uninstallModule } from "../../bootstrap.js";
+import { bootstrapModule, uninstallModule } from "../bootstrap.js";
 
 function context(failure) {
     const calls = {
@@ -70,7 +70,9 @@ function context(failure) {
 test("registers providers, ingests the pack, and publishes the language through ctx", async () => {
     const { ctx, calls } = context();
     const dispose = await bootstrapModule(ctx);
-    assert.deepEqual(calls.imports, [path.join(process.cwd(), "data")]);
+    assert.deepEqual(calls.imports, [
+        path.join(process.cwd(), "data", "library"),
+    ]);
     assert.equal(calls.capabilities[0].name, "study:language:en");
     const descriptor = calls.capabilities[0].value;
     assert.equal(descriptor.code, "en");
@@ -78,10 +80,7 @@ test("registers providers, ingests the pack, and publishes the language through 
     assert.equal(
         descriptor.version,
         JSON.parse(
-            readFileSync(
-                new URL("../../manifest.json", import.meta.url),
-                "utf8",
-            ),
+            readFileSync(new URL("../manifest.json", import.meta.url), "utf8"),
         ).version,
     );
     assert.equal(descriptor.starterDecks.length, 7);
@@ -95,6 +94,10 @@ test("registers providers, ingests the pack, and publishes the language through 
         root: path.join(process.cwd(), "ui"),
     });
     assert.equal(calls.hooks[0][0], "bootstrap-platform");
+    assert.equal(
+        calls.hooks[0][2].id,
+        "study-language-en:bootstrap-registration",
+    );
     assert.equal(calls.hooks[0][3](), descriptor);
     dispose();
     dispose();
@@ -107,7 +110,7 @@ test("registers providers, ingests the pack, and publishes the language through 
     assert.equal(calls.removed.length, 4);
 });
 
-test("config cleanup remains available to administrators while disabled", async () => {
+test("enabled bootstrap registers the admin configuration cleanup policy", async () => {
     const { ctx, calls } = context();
     const dispose = await bootstrapModule(ctx);
     const { route, handler, options } = calls.routes[0];
@@ -175,7 +178,7 @@ test("uninstall retains or deletes content according to the host decision", asyn
     await uninstallModule(ctx, { deleteContent: false });
     assert.equal(calls.logs.at(-1).metadata.deleteContent, false);
     await uninstallModule(ctx, { deleteContent: true });
-    assert.equal(calls.deleted, path.join(ctx.moduleRoot, "data"));
+    assert.equal(calls.deleted, path.join(ctx.moduleRoot, "data", "library"));
     assert.equal(calls.logs.at(-1).metadata.operation, "delete_content_pack");
 });
 

@@ -1,9 +1,10 @@
+import { requestDictionary } from "./request.js";
 import { readContentLayers } from "../reuse/content.js";
 
 const PROVIDER_ID = "study-language-en:dictionary";
 const ENDPOINT = "https://api.dictionaryapi.dev/api/v2/entries/en/";
 const MAX_DEFINITIONS = 10;
-const WORD_PATTERN = /^[A-Za-z]+(?:[ '-][A-Za-z]+)*$/;
+const WORD_PATTERN = /^[A-Za-z]+(?: [A-Za-z]+)*$/;
 const PARTS_OF_SPEECH = new Set([
     "noun",
     "verb",
@@ -17,6 +18,14 @@ const PARTS_OF_SPEECH = new Set([
     "conjunction",
     "interjection",
 ]);
+
+function dictionaryPartOfSpeech(meaning) {
+    return meaning.partOfSpeech === "determiner"
+        ? "article"
+        : meaning.partOfSpeech === "proper noun"
+          ? "noun"
+          : meaning.partOfSpeech;
+}
 
 function nativeSuggestion(record, definitions) {
     return {
@@ -37,7 +46,7 @@ function nativeSuggestion(record, definitions) {
     };
 }
 
-function dictionarySuggestion(record, native, query) {
+function dictionarySuggestion(record, native, query, selectedPart) {
     if (typeof record?.word !== "string" || !Array.isArray(record.meanings))
         throw new Error("english_dictionary_response_invalid");
     if (record.word.toLowerCase() !== query.toLowerCase()) return null;
@@ -50,12 +59,8 @@ function dictionarySuggestion(record, native, query) {
             !Array.isArray(meaning.definitions)
         )
             throw new Error("english_dictionary_response_invalid");
-        const partOfSpeech =
-            meaning.partOfSpeech === "determiner"
-                ? "article"
-                : meaning.partOfSpeech === "proper noun"
-                  ? "noun"
-                  : meaning.partOfSpeech;
+        const partOfSpeech = dictionaryPartOfSpeech(meaning);
+        if (partOfSpeech !== selectedPart) continue;
         if (PARTS_OF_SPEECH.has(partOfSpeech)) parts.add(partOfSpeech);
         for (const entry of meaning.definitions) {
             if (typeof entry?.definition !== "string")
@@ -136,7 +141,7 @@ function dictionarySuggestion(record, native, query) {
         ...(native ? { references: structuredClone(native.references) } : {}),
         definitions,
         sourceUrl: `${ENDPOINT}${encodeURIComponent(query)}`,
-        provenance: `free-dictionary:${encodeURIComponent(query)}`,
+        provenance: `free-dictionary:${encodeURIComponent(query)}:${selectedPart}`,
         confidence: 1,
     };
 }
@@ -211,27 +216,38 @@ export function createDictionaryProvider({
                 : [];
             if (typeof fetchImplementation !== "function") return packaged;
             try {
-                const response = await fetchImplementation(
+                const records = await requestDictionary(
+                    fetchImplementation,
                     `${ENDPOINT}${encodeURIComponent(query)}`,
-                    {
-                        headers: { accept: "application/json" },
-                        signal: AbortSignal.timeout(15000),
-                        redirect: "error",
-                    },
                 );
-                if (response.status === 404) return packaged;
-                if (!response.ok)
-                    throw new Error("english_dictionary_request_failed");
-                const text = await response.text();
-                if (text.length > 1_000_000)
-                    throw new Error("english_dictionary_response_too_large");
-                const records = JSON.parse(text);
-                if (!Array.isArray(records))
-                    throw new Error("english_dictionary_response_invalid");
                 const suggestions = records
-                    .map((record) =>
-                        dictionarySuggestion(record, native, query),
-                    )
+                    .flatMap((record) => {
+                        if (!Array.isArray(record?.meanings))
+                            throw new Error(
+                                "english_dictionary_response_invalid",
+                            );
+                        const parts = [
+                            ...new Set(
+                                record.meanings.map(dictionaryPartOfSpeech),
+                            ),
+                        ];
+                        if (parts.some((part) => typeof part !== "string"))
+                            throw new Error(
+                                "english_dictionary_response_invalid",
+                            );
+                        return parts
+                            .filter((part) => PARTS_OF_SPEECH.has(part))
+                            .map((part) =>
+                                dictionarySuggestion(
+                                    record,
+                                    native?.fields?.part_of_speech === part
+                                        ? native
+                                        : undefined,
+                                    query,
+                                    part,
+                                ),
+                            );
+                    })
                     .filter(Boolean);
                 const alphabet = new Map(
                     layers
@@ -250,7 +266,12 @@ export function createDictionaryProvider({
                             }),
                         );
                 }
-                return suggestions.length ? suggestions : packaged;
+                const complete = suggestions.filter((suggestion) =>
+                    suggestion.references?.some(
+                        ({ relation }) => relation === "spelling",
+                    ),
+                );
+                return complete.length ? complete : packaged;
             } catch (error) {
                 log?.("error", "English dictionary lookup failed.", {
                     component: "study-language-en",

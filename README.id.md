@@ -9,7 +9,7 @@ Konten belajar bahasa Inggris dan integrasi penyedia untuk Cognis Study.
 - 52 kartu huruf dan 17 gabungan dengan panduan tulisan JSON asli; 123 kata pemula, 21 kartu tata bahasa/tanda baca dan 45 kalimat tertaut.
 - 37 paradigma verba, kopula dan adjektiva terkurasi beserta bentuk tidak beraturan dan IPA; kartu pendukung tersembunyi mempertahankan graf kalimat lengkap.
 - Kamus Gratis yang dapat dicari, batas definisi/pelafalan, atribusi tersembunyi dan cache milik host.
-- Empat dek awal terlokalisasi memakai kartu kilas, favorit dan berbagi Cognis.
+- Tujuh dek awal terlokalisasi memakai kartu kilas, favorit dan berbagi Cognis.
 
 ## Pemasangan
 

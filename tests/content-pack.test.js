@@ -1,12 +1,14 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
-import { readContentLayers } from "../reuse/content.js";
+import { readContentLayers } from "../api/reuse/content.js";
 
-const schema = JSON.parse(await readFile("data/schema.json", "utf8"));
-const manifest = JSON.parse(await readFile("data/manifest.json", "utf8"));
+const schema = JSON.parse(await readFile("data/library/schema.json", "utf8"));
+const manifest = JSON.parse(
+    await readFile("data/library/manifest.json", "utf8"),
+);
 const layers = await readContentLayers(
-    "data/content",
+    "data/library/content",
     schema.layers.map(({ id }) => id),
 );
 const entries = new Map(
@@ -41,8 +43,8 @@ test("pack declares a stable English namespace and usable provider schema", () =
     assert.equal(manifest.protected, true);
     assert.equal(schema.id, "english");
     assert.equal(schema.language, "en");
-    assert.equal(schema.version, 18);
-    assert.equal(manifest.version, "18.0.0");
+    assert.equal(schema.version, 19);
+    assert.equal(manifest.version, "19.0.0");
     assert.equal(schema.metadata.provider.moduleId, "study-language-en");
     assert.equal(entries.size, [...layers.values()].flat().length);
     for (const layer of schema.layers) {
@@ -187,7 +189,7 @@ test("all 45 sentences preserve every ordered word, inflection, and punctuation"
 });
 
 test("curated transformations cover irregular verbs and contextual IPA", () => {
-    assert.equal(schema.transformSets.length, 70);
+    assert.equal(schema.transformSets.length, 69);
     const findForm = (word, ruleId) =>
         schema.transformSets
             .find(({ id }) => id === `english-${word}`)
@@ -340,4 +342,18 @@ test("sentence cards require at least two words and preserve precise IPA", () =>
     assert.deepEqual(entries.get("en:word:language").fields.pronunciation, [
         "/ˈlæŋɡwɪdʒ/",
     ]);
+});
+
+test("plural derivation belongs to singular nouns and houses has voiced IPA", () => {
+    const books = entries.get("en:word:books");
+    assert.ok(
+        !schema.transformSets.some(({ matchTags }) =>
+            matchTags.every((tag) => books.tags.includes(tag)),
+        ),
+    );
+    const book = schema.transformSets.find(({ id }) => id === "noun-book");
+    assert.equal(book.rules[0].append, "books");
+    const house = schema.transformSets.find(({ id }) => id === "noun-house");
+    assert.equal(house.rules[0].append, "houses");
+    assert.equal(house.rules[0].pronunciation.append, "/haʊzɪz/");
 });

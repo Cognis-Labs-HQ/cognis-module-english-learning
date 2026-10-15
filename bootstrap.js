@@ -9,7 +9,10 @@ const MODULE_MANIFEST = JSON.parse(
 );
 const CONTENT_PACK = Object.freeze(
     JSON.parse(
-        readFileSync(new URL("./data/manifest.json", import.meta.url), "utf8"),
+        readFileSync(
+            new URL("./data/library/manifest.json", import.meta.url),
+            "utf8",
+        ),
     ),
 );
 const LANGUAGE = Object.freeze({
@@ -49,7 +52,9 @@ export async function uninstallModule(ctx, { deleteContent }) {
         throw new Error("study_library_cleanup_unavailable");
     }
     try {
-        await library.deleteContentPack(path.join(ctx.moduleRoot, "data"));
+        await library.deleteContentPack(
+            path.join(ctx.moduleRoot, "data", "library"),
+        );
     } catch (error) {
         log?.("error", "English language pack cleanup failed.", {
             component: "study-language-en",
@@ -87,7 +92,12 @@ export async function bootstrapModule(ctx) {
     let receipt;
     try {
         const options = {
-            contentRoot: path.join(ctx.moduleRoot, "data", "content"),
+            contentRoot: path.join(
+                ctx.moduleRoot,
+                "data",
+                "library",
+                "content",
+            ),
             cacheRevision: MODULE_MANIFEST.version,
             log,
         };
@@ -100,13 +110,13 @@ export async function bootstrapModule(ctx) {
             library.registerLookupProvider(createDictionaryProvider(options)),
         );
         receipt = await library.ingestContentPack(
-            path.join(ctx.moduleRoot, "data"),
+            path.join(ctx.moduleRoot, "data", "library"),
         );
         ctx.contributePublicCapability("study:language:en", LANGUAGE);
         ctx.flow.extend(
             "bootstrap-platform",
             "register-flows",
-            { id: "study-language-en:registerLanguage" },
+            { id: "study-language-en:bootstrap-registration" },
             () => LANGUAGE,
         );
     } catch (error) {

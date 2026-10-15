@@ -4,7 +4,7 @@ import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { createHash } from "node:crypto";
 import { join, relative, resolve } from "node:path";
 
-const ROOT = resolve(import.meta.dirname, "../..");
+const ROOT = resolve(import.meta.dirname, "..");
 const SCAN_ROOTS = ["api", "ui", "cli", "tooling"]
     .map((path) => resolve(ROOT, path))
     .filter((path) => existsSync(path) && statSync(path).isDirectory());

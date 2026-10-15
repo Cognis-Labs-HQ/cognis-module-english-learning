@@ -2,12 +2,15 @@
     "id": "study-language-en",
     "uuid": "b1adc29f-9d54-5785-9bea-2ce76f1981e4",
     "name": "module.study.language.en.name",
-    "version": "1.3.9",
+    "version": "1.3.10",
     "class": "extension",
     "privileged": true,
     "coreApiVersion": "v1",
     "capabilities": ["study:language:en"],
-    "entrypoints": { "bootstrap": "./bootstrap.js" },
+    "entrypoints": {
+        "bootstrap": "./bootstrap.js",
+        "disabledApi": "./api/routes/config/index.js"
+    },
     "ui": { "stringsBaseUrl": "/static/modules/study-language-en/languages" },
     "publisher": "Cognis Labs HQ",
     "requires": ["338b9237-a2c8-5bcf-9437-bccc9abd9a27"],
@@ -48,7 +51,7 @@
         },
         {
             "path": ".github/copilot-instructions.md",
-            "sha256": "413b60bb5f366daeffd9ca91db116872b3289e251b2f49571a95b0fc3f05b853"
+            "sha256": "268569f6023a1d19accfcb3655f754939e43c09971d74bcdb2c5329644cf3968"
         },
         {
             "path": ".gitignore",
@@ -68,55 +71,59 @@
         },
         {
             "path": "README.de.md",
-            "sha256": "a680c46a812e73d41c4c98d1f0f62fef5e63c0641c3fae8586ca051d4b653725"
+            "sha256": "9e1599d64658f836d13f5346e15332d41a87c4a2b2de737708c76ee53721d30f"
         },
         {
             "path": "README.en.md",
-            "sha256": "2ce12af490f2aa2b071bbec022a5b962edc93b78aa1b11b3ac8a080215890a26"
+            "sha256": "9158ca50012cdea0e7b6fbfa614a1c30a5b43fb7ee9f56ec43536864219f4337"
         },
         {
             "path": "README.id.md",
-            "sha256": "3cfe82a900aa80eb64a03fc33264feff176a2cb0aecb8c2cd2a37e781b515337"
+            "sha256": "109b6318193b703ebc00678c2031f23503f6dc5fd9255dd2e78ab5d224b6bb68"
         },
         {
             "path": "README.ja.md",
-            "sha256": "b6cff5825c2a4a148c48a7583bf13cded803a2cdd850c7b019b35f502f8a8f2c"
+            "sha256": "4ea6362a3ca748d3d15454d85ce1b4dd3c5088d8c7b7c96698f9b8d83c2446f8"
         },
         {
             "path": "api/dictionary/index.js",
-            "sha256": "99b1aab74027946bc30c0678c0d88de039dc96ca99cbda942db0638647d4ba95"
+            "sha256": "b5ec6373c602ffed2c2853362cd43542fcd796265e1fa519fb74f66f74f6b67c"
+        },
+        {
+            "path": "api/dictionary/request.js",
+            "sha256": "22e04885d467fbc4e35cf41ce0a0b621f472ee9c986f146b0d7888bdc5d0744a"
         },
         {
             "path": "api/index.js",
-            "sha256": "bd33e9008c525195d4d7a0ae34831e3d4bb093105fe26c670bc9b60308f49345"
+            "sha256": "9c7655b1ccab8b70436db041e1e9631ab8cb0b59d2f3e7df0917a079890194d7"
         },
         {
             "path": "api/reuse/content.js",
             "sha256": "90a0394e209f568a97d2957afe398e763a5cb97198ca04fbe3dab263855d12e5"
         },
         {
+            "path": "api/reuse/response.js",
+            "sha256": "d88fe43dcb2d188e759c84859262e3295034c5b96e1f713d0ef48a980fa97159"
+        },
+        {
             "path": "api/routes/config/index.js",
-            "sha256": "d1bc600420cd71a8a75f25afefc38307e6dcc7ed5213fee7c09047ae4aea28f7"
+            "sha256": "90b18cb0bf62bdb94824cd66f8ff8b2806ba2436ccb2229e242ddd7df1a65b3e"
         },
         {
             "path": "api/strokes/index.js",
             "sha256": "4069f80f691f252bad206ef1dfa027813ae9d726db41338b2c8199df73d6d1e3"
         },
         {
-            "path": "api/tests/bootstrap.test.js",
-            "sha256": "47aba0e11af5437ca93669709ea8bafe70a06da41e9ca36cd44ad51e136dbc36"
+            "path": "api/tests/config-routes.test.js",
+            "sha256": "a31de549b763363a60097f8231a383071cb139fb32d44300afc29005f91f52c9"
         },
         {
-            "path": "api/tests/content-pack.test.js",
-            "sha256": "b8b59a5ead103e1c2ba90dacd6d693353e757b34b6acebe3871c36d902951d16"
-        },
-        {
-            "path": "api/tests/documentation-convention.test.js",
-            "sha256": "a94bde30d570d505767c6ee6741618832202a288946596c771ba3faeaee29b86"
+            "path": "api/tests/dictionary-boundary.test.js",
+            "sha256": "4a4592324144514b652160b5c0a9223a7dd2905c43b92d22a00ab4814e375d27"
         },
         {
             "path": "api/tests/lookup-providers.test.js",
-            "sha256": "fa2d10cf1dc197018c8e5c72af3f748f8110efeb77b21fd1172ba4dfd95057fb"
+            "sha256": "e6f57ec2cc1c7962247e6e6894f3728aee4ff7dbe9b445045d4c6ecdd5e534fa"
         },
         {
             "path": "api/tests/manifest-targets.test.js",
@@ -127,8 +134,8 @@
             "sha256": "45cd21b2b31873c1831e52e3a1cfe97c5e52318bd99cb18ded73d21c9c74c83b"
         },
         {
-            "path": "api/tests/structural-compliance.test.js",
-            "sha256": "ae8add61d5a5dd669f34185d654aa6a04acbc7831c2209c0757d756c54d3957a"
+            "path": "api/tests/response.test.js",
+            "sha256": "ec8a5475f75addc9a0e1d8262efdd2d3bc7065dfc4b1e2118eb13f79f9253e01"
         },
         {
             "path": "assets/banner.png",
@@ -140,231 +147,231 @@
         },
         {
             "path": "bootstrap.js",
-            "sha256": "5d952904425a9c0e1ef63811d31d6c9d4e1a0fcb3ec278ee6fc200ef1e15113d"
+            "sha256": "4719545af21641cab78c30410388206591aedda8ebd6b749c9e6b74259bef49a"
         },
         {
-            "path": "data/content/alphabet/common.json",
+            "path": "data/library/content/alphabet/common.json",
             "sha256": "86f324bdf126a87efb78344fb6010ce3c550f399c008cb2c3155fc3a87514215"
         },
         {
-            "path": "data/content/composites/common.json",
+            "path": "data/library/content/composites/common.json",
             "sha256": "51025c349e39536bf2e11bef3b200a66271e08ebafb346536531ad67f5349084"
         },
         {
-            "path": "data/content/composites/vowels.json",
+            "path": "data/library/content/composites/vowels.json",
             "sha256": "9b6fa567baf830fd04af2a0ecf938792ab1838dd5fc24a45906527c54e72ebe2"
         },
         {
-            "path": "data/content/definitions/beginner-001.json",
+            "path": "data/library/content/definitions/beginner-001.json",
             "sha256": "76413b00e4143f50516b44cf2d75bd4db0dd1f2259a537207cb772f28978fbaf"
         },
         {
-            "path": "data/content/definitions/beginner-002.json",
+            "path": "data/library/content/definitions/beginner-002.json",
             "sha256": "039c73ede81d2eae4de25633ae668c194b56aa66267aaf5a503a98e57d1f1be8"
         },
         {
-            "path": "data/content/definitions/beginner-003.json",
+            "path": "data/library/content/definitions/beginner-003.json",
             "sha256": "d756d653b7ab6f6496613e34766c63ed47ef16800acbdbb8edb42bc6f406d505"
         },
         {
-            "path": "data/content/definitions/beginner-004.json",
+            "path": "data/library/content/definitions/beginner-004.json",
             "sha256": "289be1980284ebaf7d9a83a3cd6df55a5c7dbdb16160f0b7bd83316026e023f7"
         },
         {
-            "path": "data/content/definitions/beginner-005.json",
+            "path": "data/library/content/definitions/beginner-005.json",
             "sha256": "6805e3b03055e16f0872ef3ec534915e74c409f7a492d3e11740febb55052983"
         },
         {
-            "path": "data/content/definitions/beginner-006.json",
+            "path": "data/library/content/definitions/beginner-006.json",
             "sha256": "feb727b87c0bddcf90477ad848f930f8c4c25dca798f7a8d392839eff45e9949"
         },
         {
-            "path": "data/content/definitions/beginner-007.json",
+            "path": "data/library/content/definitions/beginner-007.json",
             "sha256": "6fdc3546373aacbfb1cfd8aefa83c3a3549ae0d7120981b193a5afaea44f4a7e"
         },
         {
-            "path": "data/content/definitions/beginner-008.json",
+            "path": "data/library/content/definitions/beginner-008.json",
             "sha256": "a3e50cf87b644b0a9c2d3c2119a5c084a2a12247e96d6bdee0cdafc11cc48fb9"
         },
         {
-            "path": "data/content/definitions/beginner-009.json",
+            "path": "data/library/content/definitions/beginner-009.json",
             "sha256": "f747bc23be0cdd9349211ab86ac8a93251a23fe279165cd57fd1902e6c058bfa"
         },
         {
-            "path": "data/content/definitions/beginner-010.json",
+            "path": "data/library/content/definitions/beginner-010.json",
             "sha256": "74dafe42e2b0afd2fc3c5832f7b6996d425b9b1e1d209a5249c1ff4b9da35a3d"
         },
         {
-            "path": "data/content/definitions/common.json",
+            "path": "data/library/content/definitions/common.json",
             "sha256": "23c932dd08ad0d48b156a30de9387b81ea2089496dd47b97412200143907a3a0"
         },
         {
-            "path": "data/content/definitions/sentence-structures-001.json",
+            "path": "data/library/content/definitions/sentence-structures-001.json",
             "sha256": "448405746b981becb043f8c6251cad0ea557b01af37cb41f23acc4ff6cf2ed2c"
         },
         {
-            "path": "data/content/definitions/sentence-structures-002.json",
+            "path": "data/library/content/definitions/sentence-structures-002.json",
             "sha256": "124b11c5c526c4aa91b8584a46ef70ee332bb598ef78d68ded3fb3c8359f085e"
         },
         {
-            "path": "data/content/definitions/sentence-structures-003.json",
+            "path": "data/library/content/definitions/sentence-structures-003.json",
             "sha256": "168138b213563983b2d2c1e457eb0fb49f633c40dc427c9aa059363f9ba0a1e5"
         },
         {
-            "path": "data/content/definitions/sentence-structures-004.json",
+            "path": "data/library/content/definitions/sentence-structures-004.json",
             "sha256": "4977ad7e4b851edccd5d69f57b325b8f1f8d00c70627325487bdce4e077ff091"
         },
         {
-            "path": "data/content/particles/common.json",
+            "path": "data/library/content/particles/common.json",
             "sha256": "1f8775059eb71413e4dc22e014e708141d3d95fcbe838ad612a0794ba11937f7"
         },
         {
-            "path": "data/content/sentences/beginner-001.json",
+            "path": "data/library/content/sentences/beginner-001.json",
             "sha256": "838c63754f69028bc5327b3d632e8f45e292de2ed72c8847e3112a30e8fd65be"
         },
         {
-            "path": "data/content/sentences/beginner-002.json",
+            "path": "data/library/content/sentences/beginner-002.json",
             "sha256": "ff1ab7f67a199db3b3356f6b2535d276ffec23a0192690b1c8ae42c426cbca4b"
         },
         {
-            "path": "data/content/sentences/beginner-003.json",
+            "path": "data/library/content/sentences/beginner-003.json",
             "sha256": "7a7602d53c04af7d40d92ecb82f7b6a48829a2566f91ae925ecce4fe6365330a"
         },
         {
-            "path": "data/content/sentences/beginner-004.json",
+            "path": "data/library/content/sentences/beginner-004.json",
             "sha256": "10c1ae175248d049a52402dc447df52892c480efbb7ab8f87654c24646797dc4"
         },
         {
-            "path": "data/content/sentences/beginner-005.json",
+            "path": "data/library/content/sentences/beginner-005.json",
             "sha256": "20408c3359c329bd7d7f51db77b68c4b0c0a3aeed9b0d343202e92971752b457"
         },
         {
-            "path": "data/content/sentences/beginner-006.json",
+            "path": "data/library/content/sentences/beginner-006.json",
             "sha256": "2d3d66ef55bf828d82c086c292959f84b32751de32ac99f9711daf747fe32582"
         },
         {
-            "path": "data/content/sentences/common.json",
+            "path": "data/library/content/sentences/common.json",
             "sha256": "fbda16260e5794643b0284b50a78bfa1fa3fa02bd36111a042dd80486b6bcd93"
         },
         {
-            "path": "data/content/words/beginner-001.json",
+            "path": "data/library/content/words/beginner-001.json",
             "sha256": "c796d7ce01422548d148b8c0a47304ce6ea02d7376f7ecfb162d8f6c92a57aab"
         },
         {
-            "path": "data/content/words/beginner-002.json",
+            "path": "data/library/content/words/beginner-002.json",
             "sha256": "67d26de739d3e0c86f2337ddf969641f6b79a8a5e88c755a401708d0dccd2212"
         },
         {
-            "path": "data/content/words/beginner-003.json",
+            "path": "data/library/content/words/beginner-003.json",
             "sha256": "4af04219ee2d35682a083db4c02f6da355e4c250de5b1255fe826e23067aec62"
         },
         {
-            "path": "data/content/words/beginner-004.json",
+            "path": "data/library/content/words/beginner-004.json",
             "sha256": "8d0c50a8cbed8fbd833fafd827c2334a85e29a8387d90643717b4f749eaecf53"
         },
         {
-            "path": "data/content/words/beginner-005.json",
+            "path": "data/library/content/words/beginner-005.json",
             "sha256": "a3b80a8da8800d7e2417dbcbdfc290260504f02cbd7399d3c6fccf7aa47fd248"
         },
         {
-            "path": "data/content/words/beginner-006.json",
+            "path": "data/library/content/words/beginner-006.json",
             "sha256": "dc3d1f2069248275ff440f9ce7fa4aa5f803961819bc93fc7cca4cace124dc39"
         },
         {
-            "path": "data/content/words/beginner-007.json",
+            "path": "data/library/content/words/beginner-007.json",
             "sha256": "89609982a108f2fb859602dd2c6adb9398798092e3aa9984c181c62811dc44ac"
         },
         {
-            "path": "data/content/words/beginner-008.json",
+            "path": "data/library/content/words/beginner-008.json",
             "sha256": "900d35f74c4518c75400f2f26a3448ce44aa25edfe67c221dd86f797c55dfddc"
         },
         {
-            "path": "data/content/words/beginner-009.json",
+            "path": "data/library/content/words/beginner-009.json",
             "sha256": "6a33872ebaf4413eea8c11e521712411aafd3d9be607d5008fd93c7f4038aee2"
         },
         {
-            "path": "data/content/words/beginner-010.json",
-            "sha256": "35061e0959fe874b9ba04b0d351409b6a69257d47e03fd1066207aa8155913a0"
+            "path": "data/library/content/words/beginner-010.json",
+            "sha256": "aca8c22b0fd8d4ea55cc8fafe18a3bca641a9456dc1c21f89411268cd39a6991"
         },
         {
-            "path": "data/content/words/capitalized-001.json",
+            "path": "data/library/content/words/capitalized-001.json",
             "sha256": "633bbf5799ff67c7b10a294edbba3d6cff8c2082b836efa9d797e7cba98776cf"
         },
         {
-            "path": "data/content/words/common.json",
+            "path": "data/library/content/words/common.json",
             "sha256": "8a677e6fc26d3409775dbde7f4032c7975dd8b5bc68cd2860ea418a23da3dc0d"
         },
         {
-            "path": "data/content/words/inflected-001.json",
+            "path": "data/library/content/words/inflected-001.json",
             "sha256": "c5054c046d837fd07e84b7118c9b379cc5f57b4e371b56eb6c06a9a56409eb07"
         },
         {
-            "path": "data/content/words/inflected-002.json",
+            "path": "data/library/content/words/inflected-002.json",
             "sha256": "83fcfd1eaceda29a1b044121c3b8d190b32494720be74e977ac2ac6ea35201be"
         },
         {
-            "path": "data/content/words/inflected-003.json",
+            "path": "data/library/content/words/inflected-003.json",
             "sha256": "94fa97fc368b32c1a0ec660538cce729c32b96516d2f50885f9676005abdb658"
         },
         {
-            "path": "data/content/words/inflected-004.json",
+            "path": "data/library/content/words/inflected-004.json",
             "sha256": "c4ed3a2086e130af4ce3c4bb92a901d04345ab6eff08f8f3903b113790209046"
         },
         {
-            "path": "data/content/words/inflected-005.json",
+            "path": "data/library/content/words/inflected-005.json",
             "sha256": "0df4eadd1683649dbd5f17679c90f7124b6570cbf18938506181336634dcbaaf"
         },
         {
-            "path": "data/content/words/inflected-006.json",
+            "path": "data/library/content/words/inflected-006.json",
             "sha256": "938fb01720a1a12c2eb25ff185ea6e8d8f3f67b52d562906ad4966fee3908a5b"
         },
         {
-            "path": "data/content/words/inflected-007.json",
+            "path": "data/library/content/words/inflected-007.json",
             "sha256": "39f43488c01742410e40ac5f3356086282ac3ed63507242fcaa68c6f6a356f8c"
         },
         {
-            "path": "data/content/words/inflected-008.json",
+            "path": "data/library/content/words/inflected-008.json",
             "sha256": "6543d44b54031d654abacb7906c8336339f823e64e5164dcc4e38c8a4bf830ad"
         },
         {
-            "path": "data/content/words/inflected-009.json",
+            "path": "data/library/content/words/inflected-009.json",
             "sha256": "68956ce3f298b2991267577165938969edcb11b86f7c9b1fb9c9fea7ef17845e"
         },
         {
-            "path": "data/content/words/inflected-010.json",
+            "path": "data/library/content/words/inflected-010.json",
             "sha256": "2d2cb77ace9b1a77674fa622885c3acf2cf0abc33ca386f85c671e6f115d9806"
         },
         {
-            "path": "data/content/words/inflected-011.json",
+            "path": "data/library/content/words/inflected-011.json",
             "sha256": "2f9dffd70c95cb11d9545d6c10d836c54e558ff7c394324690fa3bdc7c72960d"
         },
         {
-            "path": "data/content/words/inflected-012.json",
+            "path": "data/library/content/words/inflected-012.json",
             "sha256": "8ff0cb2707667c7117136839c9e9b08d8a23969d640d620e4bd87b2f8702b8bd"
         },
         {
-            "path": "data/content/words/sentence-structures-001.json",
+            "path": "data/library/content/words/sentence-structures-001.json",
             "sha256": "d4e6eb1a47ea573183f54219e46290f959390e8e988d30fb89208c6739059bbd"
         },
         {
-            "path": "data/content/words/sentence-structures-002.json",
+            "path": "data/library/content/words/sentence-structures-002.json",
             "sha256": "1735555be12d55b3e70bdefee763c3da8be3a9eb7856e1ace973e0d1b288d770"
         },
         {
-            "path": "data/content/words/sentence-structures-003.json",
+            "path": "data/library/content/words/sentence-structures-003.json",
             "sha256": "d0b68593f5ce89ca2ca41e3c5257ef67299f8541c690ec2c07d768c7bbaaaa3d"
         },
         {
-            "path": "data/content/words/sentence-structures-004.json",
+            "path": "data/library/content/words/sentence-structures-004.json",
             "sha256": "3fbfc4c19e1df98537ed62ca98d30d87f431112a6f3de203920db9ed6c37eceb"
         },
         {
-            "path": "data/manifest.json",
-            "sha256": "08607ef9c740b08a89cb9539dcaff6435e55f80cafd54a14cc5cafeccc08ddc3"
+            "path": "data/library/manifest.json",
+            "sha256": "1a4cdec922c29aa73cfda49a7defc0758cb0f375cf2537f17d60440c1adc560f"
         },
         {
-            "path": "data/schema.json",
-            "sha256": "a2dd7e46f9c751d6f15272b58c21633d620d550794e818d6cc2680c948472765"
+            "path": "data/library/schema.json",
+            "sha256": "4ab1f98a7bdb18f51a9d3999615a59c0b10b1e0ec01318c2391ab5dea76b021b"
         },
         {
             "path": "data/starter-decks.json",
@@ -388,27 +395,27 @@
         },
         {
             "path": "docs/index.de.md",
-            "sha256": "579e0c7ba5aeb3324040abbbf09aaadbe2bfe9264e77aa5dae81733d3f080866"
+            "sha256": "ecb1cc18f6c90716bf0cbed10b9e4c7e2d92341cb230dbef71ffa168bc4b4aed"
         },
         {
             "path": "docs/index.en.md",
-            "sha256": "02e46a026356eb07db13950f387bb118650982bd1e8add7ba4f396e2c07d7fa8"
+            "sha256": "91395c14535437dee224acab42014078b25f0423cefa0dbc948428f848553bc6"
         },
         {
             "path": "docs/index.id.md",
-            "sha256": "b329bcd86f6da78b2435b5c82bcf2d7cd260ffe8d739380824259cef25cf7fcb"
+            "sha256": "399a353a005cad26a683294f78e97d9a413fbadea793fc11b6f59067daf57b85"
         },
         {
             "path": "docs/index.ja.md",
-            "sha256": "61539c844f55180366e5244a24db78313cf13a0d66db914d468a191714d736fd"
+            "sha256": "332e8adef48e04d323012fcae91c8530fb38fc5404d733a3279a3b7a8782a2ec"
         },
         {
             "path": "package-lock.json",
-            "sha256": "3d9d58c609ab68ec1717e1b15e5c267f966b346c0c25f666e99419dd8d0ab356"
+            "sha256": "7573d85c198da69ccf502bf404a0fed105b14803afd8e2e527448639e47546d4"
         },
         {
             "path": "package.json",
-            "sha256": "41113024dcb43fc9a7b6bf10797f15b50bb1fc1622764fb9185f7bf1789ecd3c"
+            "sha256": "6445c92e11dd5915b348404a321f7e6f16198615aae1520c8ae9cb6bea987c90"
         },
         {
             "path": "routes.json",
@@ -425,6 +432,34 @@
         {
             "path": "scripts/validate-manifest.js",
             "sha256": "944205e7335ee60ee6db1404e20c36733da8536ca594c76efbca1f130443b298"
+        },
+        {
+            "path": "tests/ambiguous-names.test.js",
+            "sha256": "e340db1cc77104950a7f36fdb83f293b9748ddd89a3834b3b0a43a6291451004"
+        },
+        {
+            "path": "tests/bootstrap.test.js",
+            "sha256": "22711680b3edd5be285baa05ac069be332e94340f8192b587b96ddec1e3c1b74"
+        },
+        {
+            "path": "tests/content-pack.test.js",
+            "sha256": "d2c2e800a5da2d9d91e2157201372389e880f45e93b7fa76b174531a9922ce73"
+        },
+        {
+            "path": "tests/documentation-convention.test.js",
+            "sha256": "453cded6957ce6f8febf38d7f9ee75f9ccd92b2bc47f790d5f0a6fdff1a62525"
+        },
+        {
+            "path": "tests/localization-quality.test.js",
+            "sha256": "3c22bcfae65bd87c4cb50b363830ef9c53d80b3cb4d8a4bef6e490713d4ab196"
+        },
+        {
+            "path": "tests/regression.test.js",
+            "sha256": "a0d1fe0c0ea6993843dfc41d2bb78f6e246a684509cbc6df12a0aae508e69936"
+        },
+        {
+            "path": "tests/structural-compliance.test.js",
+            "sha256": "f0887fcc75c82dd3f0ce4811537df3327cccc6df51e33d5ce24238e0aa8c273a"
         },
         {
             "path": "tooling/scripts/declaration-spacing.mjs",
@@ -453,18 +488,6 @@
         {
             "path": "ui/languages/ja/strings.xml",
             "sha256": "0251b680118e8f4128622c30437b38d8c9d75988c30b87d3504de588f45dea86"
-        },
-        {
-            "path": "ui/tests/ambiguous-names.test.js",
-            "sha256": "e2192b0edb65e3648a440ea4515a6b6f07bc470a7893d5e98fc61c13fecafe1a"
-        },
-        {
-            "path": "ui/tests/localization-quality.test.js",
-            "sha256": "d50df4b7208873eccfbbcc1ff18ff5eb9e8b8351ae1c204168aeb3bf9ffbca41"
-        },
-        {
-            "path": "ui/tests/regression.test.js",
-            "sha256": "a0d1fe0c0ea6993843dfc41d2bb78f6e246a684509cbc6df12a0aae508e69936"
         }
     ]
 }
