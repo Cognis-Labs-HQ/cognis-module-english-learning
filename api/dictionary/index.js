@@ -1,3 +1,4 @@
+import { addSpellingReferences } from "./spelling.js";
 import { requestDictionary } from "./request.js";
 import { readContentLayers } from "../reuse/content.js";
 
@@ -46,7 +47,7 @@ function nativeSuggestion(record, definitions) {
     };
 }
 
-function dictionarySuggestion(record, native, query, selectedPart) {
+export function dictionarySuggestion(record, native, query, selectedPart) {
     if (typeof record?.word !== "string" || !Array.isArray(record.meanings))
         throw new Error("english_dictionary_response_invalid");
     if (record.word.toLowerCase() !== query.toLowerCase()) return null;
@@ -249,23 +250,7 @@ export function createDictionaryProvider({
                             );
                     })
                     .filter(Boolean);
-                const alphabet = new Map(
-                    layers
-                        .get("alphabet")
-                        .map((record) => [record.label, record.id]),
-                );
-                for (const suggestion of suggestions) {
-                    if (suggestion.references) continue;
-                    const letters = [...suggestion.label.replaceAll(" ", "")];
-                    if (letters.every((letter) => alphabet.has(letter)))
-                        suggestion.references = letters.map(
-                            (letter, position) => ({
-                                entryId: alphabet.get(letter),
-                                relation: "spelling",
-                                position,
-                            }),
-                        );
-                }
+                addSpellingReferences(suggestions, layers.get("alphabet"));
                 const complete = suggestions.filter((suggestion) =>
                     suggestion.references?.some(
                         ({ relation }) => relation === "spelling",

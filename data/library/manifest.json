@@ -2,8 +2,8 @@
     "id": "english-core",
     "publisher": "Cognis Labs HQ",
     "namespace": "en",
-    "version": "20.0.0",
-    "contentRevision": "2026-10-15.audio",
+    "version": "21.0.0",
+    "contentRevision": "2026-10-15.audio-quality-reference",
     "schema": "schema.json",
     "content": "content",
     "license": {
@@ -19,10 +19,9 @@
         },
         "tags": ["english", "study"],
         "audio": {
-            "source": "piper-ljspeech",
-            "license": "AGPL-3.0-or-later",
-            "attribution": "LJ Speech Dataset; public domain recordings.",
-            "datasetLicense": "LicenseRef-Public-Domain"
+            "source": "kokoro-multilingual",
+            "license": "Apache-2.0",
+            "attribution": "Kokoro multilingual model; hexgrad and contributors; https://huggingface.co/hexgrad/Kokoro-82M"
         }
     },
     "assets": "assets"

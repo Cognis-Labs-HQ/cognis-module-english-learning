@@ -95,7 +95,7 @@ test("audio registrations roll back on activation failure and dispose across rem
     fail = false;
     for (let cycle = 0; cycle < 2; cycle++) {
         const dispose = await bootstrapModule(ctx);
-        assert.equal(active.size, 3);
+        assert.equal(active.size, 4);
         dispose();
         assert.equal(active.size, 0);
     }

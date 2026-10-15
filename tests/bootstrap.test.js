@@ -88,7 +88,7 @@ test("registers providers, ingests the pack, and publishes the language through 
     assert.equal(descriptor.starterDecks.length, 7);
     assert.deepEqual(
         calls.providers.map(({ capabilities }) => capabilities),
-        [["strokePattern"], ["dictionary"]],
+        [["strokePattern"], ["dictionary"], ["dictionary"]],
     );
     assert.equal(calls.providers[1].searchable, true);
     assert.deepEqual(calls.static, {
@@ -109,7 +109,7 @@ test("registers providers, ingests the pack, and publishes the language through 
     );
     const nextDispose = await bootstrapModule(ctx);
     nextDispose();
-    assert.equal(calls.removed.length, 4);
+    assert.equal(calls.removed.length, 6);
 });
 
 test("enabled bootstrap registers the admin configuration cleanup policy", async () => {
@@ -139,11 +139,11 @@ test("enabled bootstrap registers the admin configuration cleanup policy", async
     dispose();
 });
 
-test("failed activation unregisters both providers and logs safe failure details", async () => {
+test("failed activation unregisters all providers and logs safe failure details", async () => {
     for (const failure of ["ingest", "publish", "flow"]) {
         const { ctx, calls } = context(failure);
         await assert.rejects(bootstrapModule(ctx));
-        assert.equal(calls.removed.length, 2);
+        assert.equal(calls.removed.length, 3);
         assert.equal(calls.logs.at(-1).metadata.fatal, true);
         assert.equal(calls.logs.at(-1).metadata.errorName, "Error");
     }

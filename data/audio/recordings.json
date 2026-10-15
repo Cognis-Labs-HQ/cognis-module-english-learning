@@ -1,5 +1,5 @@
 {
-    "source": "piper-ljspeech",
+    "source": "kokoro-multilingual",
     "format": "audio/mpeg",
     "recordings": [
         {
@@ -2334,5 +2334,12 @@
             "entries": ["en:particle:by"]
         }
     ],
-    "voiceAttribution": "Piper LJSpeech high; LJ Speech dataset recordings are public domain."
+    "voiceAttribution": "Kokoro multilingual model, hexgrad and contributors; Apache License 2.0.",
+    "processing": {
+        "voice": "bf_emma",
+        "speed": 0.9,
+        "bitrate": "128k",
+        "leadInMs": 200,
+        "tailMs": 180
+    }
 }

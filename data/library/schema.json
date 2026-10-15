@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 20,
+    "version": 21,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -932,6 +932,9 @@
                     "en": "Sentences",
                     "id": "Kalimat",
                     "ja": "文"
+                },
+                "audio": {
+                    "wordGapMs": 90
                 }
             },
             "semanticRole": "orderedLexicalSequence",
@@ -1033,7 +1036,33 @@
                     }
                 ]
             },
-            "dictionary_lookup": false
+            "dictionary_lookup": false,
+            "fields": [
+                {
+                    "id": "audio",
+                    "metadata": {
+                        "labels": {
+                            "de": "Audio",
+                            "en": "Audio",
+                            "id": "Audio",
+                            "ja": "音声"
+                        }
+                    },
+                    "type": "audio",
+                    "required": false,
+                    "detail": {
+                        "renderer": "media",
+                        "order": 3
+                    },
+                    "input": {
+                        "control": "audioFile",
+                        "file": {
+                            "namespace": "study-library-audio",
+                            "prefix": "en/"
+                        }
+                    }
+                }
+            ]
         }
     ],
     "transformSets": [

@@ -1,3 +1,4 @@
+import { createReferenceProvider } from "./api/dictionary/reference.js";
 import { createAudioProvider } from "./api/audio/index.js";
 import { registerApi } from "./api/index.js";
 import { readFileSync } from "node:fs";
@@ -139,6 +140,33 @@ export async function bootstrapModule(ctx) {
         );
         providerRemovers.push(
             library.registerLookupProvider(createDictionaryProvider(options)),
+        );
+        const reference = JSON.parse(
+            readFileSync(
+                new URL("./data/reference/manifest.json", import.meta.url),
+                "utf8",
+            ),
+        );
+        providerRemovers.push(
+            library.registerLookupProvider(
+                createReferenceProvider({
+                    contentRoot: path.join(
+                        ctx.moduleRoot,
+                        "data",
+                        "library",
+                        "content",
+                    ),
+                    referenceRoot: path.join(
+                        ctx.moduleRoot,
+                        "data",
+                        "reference",
+                    ),
+                    cacheRevision: MODULE_MANIFEST.version,
+                    metadata: reference.metadata,
+                    source: reference.source,
+                    log,
+                }),
+            ),
         );
         receipt = await library.ingestContentPack(
             path.join(ctx.moduleRoot, "data", "library"),
