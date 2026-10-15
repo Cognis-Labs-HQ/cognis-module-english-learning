@@ -26,7 +26,7 @@ The form contracts declare alphabet/composite writing fields, vocabulary spellin
 
 ### Writing guides and media
 
-Every alphabet and letter-combination record has an original normalized JSON print-letter guide with ordered strokes, timestamps and per-character groups. The stroke provider returns cloned packaged patterns and performs no remote request. These are introductory print guides, not a mandatory handwriting style. No binary media is shipped. Audio is optional: external TTS URLs are not valid packaged audio assets and are therefore omitted. Cognis may use its own pronunciation facilities or user-uploaded audio.
+Every alphabet and letter-combination record has an original normalized JSON print-letter guide with ordered strokes, timestamps and per-character groups. The stroke provider returns cloned packaged patterns and performs no remote request. These are introductory print guides, not a mandatory handwriting style. Seeded audio files are described below; external TTS URLs are not packaged assets.
 
 ### Dictionary boundary
 
@@ -83,3 +83,9 @@ Regenerate the inventory with `node scripts/generate-audio.mjs`. For local synth
 Bootstrap requires `study:audio:provider` and registers one removable audio provider alongside dictionary and stroke providers. It resolves module-bundled recordings by spoken label and preferred reading, with bounded file reads and explicit missing-audio errors. Removal aborts pending retrieval. Cognis authorizes card access, derives selected transformation text from the schema, and caches recordings privately through Files without modifying authored fields. The `study:library:audio` flow executes authorization, validation and resolution; `study:audio:fetch` validates and retrieves provider bytes. Sentence audio remains ordered constituent playback.
 
 Audio retrieval begins only when the learner requests playback. Merely opening a card makes no audio request. Playback failures use the host localized toast and structured logs. Sentence constituents retain their selected transformation descriptors; the authenticated audio endpoint derives the spoken form from the schema rather than accepting arbitrary display text. English letter-combination seed clips are synthesized from their authored IPA phonemes, while alphabet clips speak letter names.
+
+## Dictionary audio and host caching
+
+When a requested pronunciation is not bundled, English Study retrieves the word from the English Dictionary API and downloads a matching MP3 from its pronunciation media endpoint. A preferred IPA reading must match; a different pronunciation is never substituted. Only HTTPS media on `api.dictionaryapi.dev` is accepted, redirects are rejected, lookup and download share one deadline, and both responses have streaming byte limits. Missing recordings remain explicit errors. No Google speech service is used.
+
+Cognis owns the recording cache, not the module. After authorization, its private Files cache reuses successful recordings across cards and restarts. Concurrent playback requests share retrieval and persistence. Keys include provider identity, revision, language, role, label and readings; a changed reading or provider revision resolves independently. Failed requests or writes remain retryable. The module contacts the dictionary only on a cache miss when playback is requested.

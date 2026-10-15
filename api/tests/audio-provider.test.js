@@ -27,6 +27,7 @@ function provider(options = {}) {
         revision: "test",
         audioRoot: join(root, "data/library/assets"),
         recordings: index.recordings,
+        fetchImplementation: async () => new Response(null, { status: 404 }),
         ...options,
     });
 }

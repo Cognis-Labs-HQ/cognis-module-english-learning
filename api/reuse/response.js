@@ -1,13 +1,12 @@
 /** Read a Fetch response without buffering more than the byte limit. */
-export async function readBoundedText(response, maxBytes = 1_000_000) {
+export async function readBoundedBytes(response, maxBytes = 1_000_000) {
     const declaredLength = Number(response.headers?.get("content-length"));
     if (declaredLength > maxBytes) {
         await response.body?.cancel();
         throw new Error("response_too_large");
     }
-    if (!response.body) return "";
+    if (!response.body) return new Uint8Array();
     const reader = response.body.getReader();
-    const decoder = new TextDecoder();
     const chunks = [];
     let received = 0;
     try {
@@ -19,11 +18,20 @@ export async function readBoundedText(response, maxBytes = 1_000_000) {
                 await reader.cancel();
                 throw new Error("response_too_large");
             }
-            chunks.push(decoder.decode(value, { stream: true }));
+            chunks.push(value);
         }
-        chunks.push(decoder.decode());
-        return chunks.join("");
+        const result = new Uint8Array(received);
+        let offset = 0;
+        for (const chunk of chunks) {
+            result.set(chunk, offset);
+            offset += chunk.byteLength;
+        }
+        return result;
     } finally {
         reader.releaseLock();
     }
+}
+
+export async function readBoundedText(response, maxBytes = 1_000_000) {
+    return new TextDecoder().decode(await readBoundedBytes(response, maxBytes));
 }

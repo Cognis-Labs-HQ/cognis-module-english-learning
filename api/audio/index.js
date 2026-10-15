@@ -1,6 +1,8 @@
 import { readFile, stat } from "node:fs/promises";
 import path from "node:path";
 
+import { requestAudio } from "./request.js";
+
 const ROLES = new Set([
     "atomicWritingUnit",
     "compoundWritingUnit",
@@ -27,6 +29,7 @@ export function createAudioProvider({
     revision,
     audioRoot,
     recordings,
+    fetchImplementation = globalThis.fetch,
     log,
 }) {
     return Object.freeze({
@@ -57,7 +60,12 @@ export function createAudioProvider({
                             : candidate.text === text) &&
                         /^audio\/[a-f0-9]{64}\.mp3$/.test(candidate.path),
                 );
-                if (!recording) throw new Error("audio_not_found");
+                if (!recording)
+                    return await requestAudio(
+                        fetchImplementation,
+                        input,
+                        signal,
+                    );
                 const asset = path.join(audioRoot, recording.path);
                 const metadata = await stat(asset);
                 if (!metadata.isFile() || metadata.size > 2_000_000)
@@ -77,7 +85,7 @@ export function createAudioProvider({
                     component: `study-language-${voice.language}`,
                     operation: "fetch_audio",
                     language: voice.language,
-                    source: "bundled-recordings",
+                    source: "pronunciation-recordings",
                     errorName: error instanceof Error ? error.name : "Error",
                 });
                 throw error;
