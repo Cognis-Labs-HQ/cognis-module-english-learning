@@ -71,3 +71,15 @@ Paket konten berada di `data/library/`: manifes, skema, dan berkas kontennya mem
 ## Jaga ketepatan jenis kata dan bentuk jamak
 
 Kamus Gratis mengembalikan saran terpisah per jenis kata dengan definisi, tag, dan paradigma terkurasi yang sesuai saja. Kueri dengan apostrof atau tanda hubung ditolak karena graf alfabet saat ini tidak dapat merepresentasikan ejaannya. Respons dibatasi satu juta byte saat dialirkan dan langsung dibatalkan jika terlalu besar. Pengenal alur publik `study-language-en:bootstrap-registration` tetap dipertahankan. Pembentukan jamak berlaku pada `book` tunggal, bukan `books` yang sudah jamak; `houses` memakai `/haʊzɪz/`. Tujuh dek awal terlokalisasi didokumentasikan.
+
+## Audio pelafalan
+
+Kartu awal yang diucapkan menyertakan MP3 hasil sintesis di `data/library/assets/audio/`; teks ucapan identik memakai satu berkas bersama. Bahasa Inggris memakai Piper secara offline dengan suara berdasarkan dataset LJ Speech domain publik. Bahasa Jepang memakai Open JTalk secara offline dengan HTS Voice Mei, dengan atribusi kepada tim proyek MMDAgent dan Nagoya Institute of Technology di bawah CC BY. Pemberitahuan suara dan inventaris rekaman berada di `data/audio/`. Tanda baca tidak dibunyikan dan kalimat tidak memiliki rekaman sintesis: Cognis memutar audio unsur penyusunnya secara berurutan.
+
+Perbarui inventaris dengan `node scripts/generate-audio.mjs`. Untuk sintesis lokal, instal alat opsional dari `scripts/audio-requirements.txt`, sediakan FFmpeg, lalu jalankan `python3 scripts/synthesize-audio.py`; bahasa Inggris juga memerlukan `--english-model` yang menunjuk model Piper LJSpeech. Sinkronkan atribusi suara, metadata paket, dan hash berkas.
+
+## Kontrak penyedia audio
+
+Bootstrap memerlukan `study:audio:provider` dan mendaftarkan penyedia audio yang dapat dilepas bersama penyedia kamus dan goresan. Penyedia mencocokkan rekaman bawaan berdasarkan label ucapan dan bacaan pilihan, dengan pembacaan berkas terbatas serta kesalahan eksplisit bila audio tidak tersedia. Pelepasan membatalkan pengambilan yang tertunda. Cognis mengotorisasi akses kartu, menurunkan teks transformasi dari skema, dan menyimpan rekaman secara privat melalui Files tanpa mengubah bidang yang ditulis. Alur `study:library:audio` menjalankan otorisasi, validasi, dan resolusi; `study:audio:fetch` memvalidasi serta mengambil byte penyedia. Audio kalimat tetap memutar unsur penyusunnya secara berurutan.
+
+Audio baru diambil ketika pelajar meminta pemutaran. Membuka kartu saja tidak membuat permintaan audio. Kegagalan pemutaran memakai toast terlokalisasi host dan log terstruktur. Unsur kalimat mempertahankan deskriptor transformasi terpilih; endpoint audio terautentikasi menurunkan bentuk ucapan dari skema, bukan menerima teks tampilan sembarang. Rekaman awal kombinasi huruf Inggris disintesis dari fonem IPA yang ditulis, sedangkan rekaman alfabet mengucapkan nama huruf.

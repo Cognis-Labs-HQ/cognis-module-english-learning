@@ -2,8 +2,8 @@
     "id": "english-core",
     "publisher": "Cognis Labs HQ",
     "namespace": "en",
-    "version": "19.0.0",
-    "contentRevision": "2026-10-15.1",
+    "version": "20.0.0",
+    "contentRevision": "2026-10-15.audio",
     "schema": "schema.json",
     "content": "content",
     "license": {
@@ -17,6 +17,13 @@
             "category": "language",
             "featured": true
         },
-        "tags": ["english", "study"]
-    }
+        "tags": ["english", "study"],
+        "audio": {
+            "source": "piper-ljspeech",
+            "license": "AGPL-3.0-or-later",
+            "attribution": "LJ Speech Dataset; public domain recordings.",
+            "datasetLicense": "LicenseRef-Public-Domain"
+        }
+    },
+    "assets": "assets"
 }

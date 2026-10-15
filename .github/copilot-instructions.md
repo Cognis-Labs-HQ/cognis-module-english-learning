@@ -129,3 +129,5 @@ Both Study modules keep library manifests, schemas, and content under `data/libr
 Template guidance baseline: [d71b980](https://github.com/Cognis-Labs-HQ/cognis-module-template/blob/d71b98077d8d7af087b44009dafc2d736f86b617/.github/copilot-instructions.md).
 
 Modules supply language data and dictionary enrichment; Cognis owns routes, composition, permissions, cache schedules, notifications, imports, flashcards and sharing. Require the narrow `study:library:provider` capability. Preserve authoritative pronunciation order, cap definitions at ten, and validate the complete content graph. English IPA is not alphabet spelling: never link speech symbols to unrelated letter cards.
+
+Keep seeded pronunciation files under `data/library/assets/audio/` and their source inventory and voice notices under `data/audio/`. Audio fetchers register through `study:audio:provider`, return bounded recording bytes, and release their registration on teardown or failed activation. Sentences use host-owned ordered constituent playback; never generate a full-sentence recording. Preserve reading-specific audio identities rather than merging homographs by spelling.

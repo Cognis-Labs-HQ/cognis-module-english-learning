@@ -36,6 +36,8 @@ function context(failure) {
         moduleRoot: process.cwd(),
         capabilities: {
             require(name) {
+                if (name === "study:audio:provider")
+                    return { registerProvider: () => () => {} };
                 assert.equal(name, "study:library:provider");
                 return provider;
             },
@@ -164,7 +166,9 @@ test("activation requires a complete provider contract before registering anythi
     await assert.rejects(
         bootstrapModule({
             capabilities: {
-                require() {
+                require(id) {
+                    if (id === "study:audio:provider")
+                        return { registerProvider: () => () => {} };
                     throw new Error("provider_unavailable");
                 },
             },

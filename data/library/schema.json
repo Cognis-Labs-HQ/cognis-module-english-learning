@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 19,
+    "version": 20,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -622,6 +622,30 @@
                         "renderer": "text",
                         "hidden": true
                     }
+                },
+                {
+                    "id": "audio",
+                    "metadata": {
+                        "labels": {
+                            "de": "Audio",
+                            "en": "Audio",
+                            "id": "Audio",
+                            "ja": "音声"
+                        }
+                    },
+                    "type": "audio",
+                    "required": false,
+                    "detail": {
+                        "renderer": "media",
+                        "order": 3
+                    },
+                    "input": {
+                        "control": "audioFile",
+                        "file": {
+                            "namespace": "study-library-audio",
+                            "prefix": "en/"
+                        }
+                    }
                 }
             ],
             "relationships": [
@@ -690,7 +714,7 @@
                         "ja": "単語"
                     }
                 },
-                "fields": ["part_of_speech", "pronunciation"],
+                "fields": ["part_of_speech", "pronunciation", "audio"],
                 "relationships": ["spelling", "definitions"],
                 "input_carousels": ["alphabet"],
                 "pronunciation_carousels": [],
@@ -847,6 +871,30 @@
                                 }
                             }
                         ]
+                    }
+                },
+                {
+                    "id": "audio",
+                    "metadata": {
+                        "labels": {
+                            "de": "Audio",
+                            "en": "Audio",
+                            "id": "Audio",
+                            "ja": "音声"
+                        }
+                    },
+                    "type": "audio",
+                    "required": false,
+                    "detail": {
+                        "renderer": "media",
+                        "order": 3
+                    },
+                    "input": {
+                        "control": "audioFile",
+                        "file": {
+                            "namespace": "study-library-audio",
+                            "prefix": "en/"
+                        }
                     }
                 }
             ],

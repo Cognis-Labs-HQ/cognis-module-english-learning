@@ -1,3 +1,4 @@
+import { createAudioProvider } from "./api/audio/index.js";
 import { registerApi } from "./api/index.js";
 import { readFileSync } from "node:fs";
 import path from "node:path";
@@ -82,6 +83,7 @@ export async function bootstrapModule(ctx) {
     )
         throw new Error("Invalid Study Library provider capability.");
     const log = ctx.log;
+    const audio = ctx.capabilities.require("study:audio:provider");
     registerApi(ctx);
 
     const providerRemovers = [];
@@ -91,6 +93,35 @@ export async function bootstrapModule(ctx) {
     };
     let receipt;
     try {
+        providerRemovers.push(
+            audio.registerProvider(
+                createAudioProvider({
+                    voice: JSON.parse(
+                        readFileSync(
+                            new URL("./data/audio/voice.json", import.meta.url),
+                            "utf8",
+                        ),
+                    ),
+                    audioRoot: path.join(
+                        ctx.moduleRoot,
+                        "data",
+                        "library",
+                        "assets",
+                    ),
+                    recordings: JSON.parse(
+                        readFileSync(
+                            new URL(
+                                "./data/audio/recordings.json",
+                                import.meta.url,
+                            ),
+                            "utf8",
+                        ),
+                    ).recordings,
+                    revision: MODULE_MANIFEST.version,
+                    log,
+                }),
+            ),
+        );
         const options = {
             contentRoot: path.join(
                 ctx.moduleRoot,
