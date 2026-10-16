@@ -2,7 +2,7 @@
     "id": "study-language-en",
     "uuid": "b1adc29f-9d54-5785-9bea-2ce76f1981e4",
     "name": "module.study.language.en.name",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "class": "extension",
     "privileged": true,
     "coreApiVersion": "v1",
@@ -85,19 +85,19 @@
         },
         {
             "path": "README.de.md",
-            "sha256": "895e3e7dba28d1ffbf840052d75c865648740f63c896e03a22b68631214567b6"
+            "sha256": "190768def96ab1ebc4a13da49f6b224379d893ddfbc811bb16dfcbb172f76c04"
         },
         {
             "path": "README.en.md",
-            "sha256": "75449207f98e4a026a8963aa68360edf401e6bb2b89ec580d55bd8f839cc507b"
+            "sha256": "54c8aaca01d0a6f9e3449aba6b3083dddcec390160c5bf38392762db811a3424"
         },
         {
             "path": "README.id.md",
-            "sha256": "e66347bd0eb2fb01417438969d4b35707d0d76de071d20f8183b806a771aa324"
+            "sha256": "207caf0bd3cfc48ae63cc65064c1afe329546c9e93c7028eaba7ce2e397adb66"
         },
         {
             "path": "README.ja.md",
-            "sha256": "2943899023dba802f8e2017f80822b47dc3879fba18fb285ee19f25e5899c79d"
+            "sha256": "022d8b761760b7b75ae621944a4d4f5a794c04a2ec8c418f6cccce142aa81fd1"
         },
         {
             "path": "api/configuration.js",
@@ -1465,27 +1465,27 @@
         },
         {
             "path": "docs/index.de.md",
-            "sha256": "0b03216932ee4c014faeddea2cce9d79699ebc350a00d6459d2fafae78a3e561"
+            "sha256": "b7e3011472a95c8100ada9554e18690f3682f15d4df80154741854d1bc1a8c53"
         },
         {
             "path": "docs/index.en.md",
-            "sha256": "44e84b1a3bfa3c781545e8a70d9a91edc5aaef78193a392751a2286251efdca2"
+            "sha256": "dd23730d40b112f8abb82740c21cd66ea59d72dffe783bf0a67cbc7e20d9a7a6"
         },
         {
             "path": "docs/index.id.md",
-            "sha256": "15cd7a1c28355a40f9fa09b346cfea251185a0f0e0d69222afc619f9354041f2"
+            "sha256": "f4602aa7cf8cf922dc5e4f65bb96df208672dc81ecd012191f88978057e510f6"
         },
         {
             "path": "docs/index.ja.md",
-            "sha256": "39be88f83893465dcf9072bb767623dd905dc66573278d32b2839d0dbeffbaf6"
+            "sha256": "590b868a48526356dde0ccbb460478f08a590e3b4dec601e8c6ae775688b8882"
         },
         {
             "path": "package-lock.json",
-            "sha256": "bf7c4644a541df96a5e0a7a7628ed5e42b3c6cd9c53eeabc55e5a1a3d3e4937b"
+            "sha256": "f75d987becb73f48a9fbe9855c2861340398f297320faae04abcb6d08c355d44"
         },
         {
             "path": "package.json",
-            "sha256": "a312d301661b7d42c389fa8871ea036e7afced4a69613d6bc4a829fd24d5ec96"
+            "sha256": "ebc637f6107110271ce152b85c3b138a2aee2e6b9e0f95a9567a1166e25b2895"
         },
         {
             "path": "routes.json",
@@ -1533,7 +1533,7 @@
         },
         {
             "path": "tests/structural-compliance.test.js",
-            "sha256": "e2eadcddf4898ad428a2c0242bfead2c46137bdb870ac63134bc575e19a8e783"
+            "sha256": "93bb0de3f1c5e87ce664c2bf718e0761c46a6fbdbb482eabae46eebe7c8070c9"
         },
         {
             "path": "tooling/scripts/declaration-spacing.mjs",
@@ -1563,5 +1563,6 @@
             "path": "ui/languages/ja/strings.xml",
             "sha256": "3559422cf096aa86bbd911920a08bde0877582c92f090b2b7da3671e326dc983"
         }
-    ]
+    ],
+    "softDependencies": ["2b71bcdf-e29c-408b-8d12-ead6e377c82e"]
 }
