@@ -130,6 +130,10 @@ ElevenLabsを任意のモジュール依存関係として宣言します。イ�
 
 公開機能は `configured` で現在の準備状態を通知します。StudyはAPIキーと既定の声が保存された後にのみ自動音声を有効にします。ElevenLabsが未導入・無効・未設定でも言語登録は成功し、アップロード音声と既存音声の結合を利用できます。合成は要求しません。
 
+## メディアを同梱しないインストールを修正
+
+データ専用コンテンツパックから未使用のアセットディレクトリ宣言を削除し、パックのバージョンを更新します。パッケージ対象のファイルだけで一時インストールを作成し、宣言されたパスを検証することで、空のローカルディレクトリに依存する有効化を防ぎます。
+
 ## コミット
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)
@@ -152,3 +156,4 @@ ElevenLabsを任意のモジュール依存関係として宣言します。イ�
 - [d376277](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d376277ad28a779f25e66b0b625bea17e86302f1)
 - [52d26dd](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/52d26ddbf52d2610823de8236eaca96589ba8f14)
 - [de24655](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/de2465556e5827c262321c94a6a28b15fbb379c9)
+- [779be5b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/779be5b2842b5600d05c87fa4e78d0e010ca971e)
