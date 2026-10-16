@@ -74,9 +74,9 @@ Free Dictionary liefert getrennte Vorschläge je Wortart mit ausschließlich pas
 
 ## Ausspracheaufnahmen
 
-Die Startaufnahmen verwenden das offline betriebene mehrsprachige neuronale Kokoro-Modell mit `bf_emma` für Englisch und `jf_alpha` für Japanisch. Die Clips haben 128 kbit/s, 200 ms Vorlauf, 180 ms Nachlauf, begrenzte Spitzennormalisierung und langsameres Sprechtempo. Modellherkunft und Apache-Lizenz stehen in `data/audio/VOICE-LICENSE.txt`.
+Die Startaufnahmen werden mit der ElevenLabs-API erzeugt: `ELEVENLABS_EN_VOICE_ID` bestimmt die englische und `ELEVENLABS_JA_VOICE_ID` die japanische Stimme. Die Clips verwenden langsameres Sprechtempo, 128 kbit/s, 200 ms Vorlauf, 180 ms Nachlauf und begrenzte Spitzennormalisierung. Das Verzeichnis dokumentiert Modell und Verarbeitung; `data/audio/VOICE-LICENSE.txt` erläutert die geltenden ElevenLabs-Bedingungen.
 
-Das Verzeichnis wird mit `node scripts/generate-audio.mjs` erneuert. Die optionalen Werkzeuge aus `scripts/audio-requirements.txt` und FFmpeg installieren und `python3 scripts/synthesize-audio.py --model <kokoro-model> --voices <voice-bank> --force` ausführen. Sprachmodelle bleiben Entwicklerwerkzeuge und werden nicht als Produktionsabhängigkeiten ausgeliefert.
+Das Verzeichnis mit `node scripts/generate-audio.mjs` erneuern. Python, FFmpeg, `ELEVENLABS_API_KEY` und die Stimmenvariable der Sprache bereitstellen und `python3 scripts/synthesize-audio.py --cache <privates-cache-verzeichnis>` ausführen. Der Cache verwendet API-Antworten bei einer Fortsetzung erneut. Zugangsdaten und Stimmenkennungen werden nie im Paket gespeichert. Die Erzeugung ist ein Entwicklerwerkzeug; die Wiedergabe benötigt keine ElevenLabs-Zugangsdaten.
 
 ## Vertrag des Audioanbieters
 

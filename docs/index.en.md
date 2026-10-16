@@ -74,9 +74,9 @@ Free Dictionary returns separate suggestions per part of speech, with only match
 
 ## Pronunciation audio
 
-Seed recordings use the offline Kokoro multilingual neural model with the English `bf_emma` and Japanese `jf_alpha` voices. Clips are encoded at 128 kbps with a 200 ms lead-in, a 180 ms tail, bounded peak normalization and slower speech. Model attribution and Apache licensing are recorded in `data/audio/VOICE-LICENSE.txt`; the recording inventory records the voice and processing settings.
+Seed recordings are generated with the ElevenLabs API using `ELEVENLABS_EN_VOICE_ID` for English and `ELEVENLABS_JA_VOICE_ID` for Japanese. Clips use slower speech, 128 kbps encoding, a 200 ms quiet lead-in, a 180 ms tail and bounded peak normalization. The inventory records model and processing parameters; `data/audio/VOICE-LICENSE.txt` describes the applicable ElevenLabs terms.
 
-Regenerate the inventory with `node scripts/generate-audio.mjs`. Install optional tools from `scripts/audio-requirements.txt`, provide FFmpeg, and run `python3 scripts/synthesize-audio.py --model <kokoro-model> --voices <voice-bank> --force`. Voice models remain developer tooling and are not shipped as production dependencies.
+Regenerate the inventory with `node scripts/generate-audio.mjs`. Provide Python, FFmpeg and `ELEVENLABS_API_KEY` together with the language voice variable, then run `python3 scripts/synthesize-audio.py --cache <private-cache-directory>`. The cache reuses API responses when resuming a run. Credentials and voice identifiers are never written to the package. Generation is developer tooling; playback requires no ElevenLabs credentials.
 
 ## Audio provider contract
 

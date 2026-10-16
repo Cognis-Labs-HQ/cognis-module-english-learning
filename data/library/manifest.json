@@ -3,7 +3,7 @@
     "publisher": "Cognis Labs HQ",
     "namespace": "en",
     "version": "21.0.0",
-    "contentRevision": "2026-10-15.audio-quality-reference",
+    "contentRevision": "2026-10-16.elevenlabs-audio",
     "schema": "schema.json",
     "content": "content",
     "license": {
@@ -19,9 +19,9 @@
         },
         "tags": ["english", "study"],
         "audio": {
-            "source": "kokoro-multilingual",
-            "license": "Apache-2.0",
-            "attribution": "Kokoro multilingual model; hexgrad and contributors; https://huggingface.co/hexgrad/Kokoro-82M"
+            "source": "elevenlabs",
+            "license": "LicenseRef-ElevenLabs-Terms",
+            "attribution": "Generated with ElevenLabs using the configured language voice. https://elevenlabs.io/terms-of-use"
         }
     },
     "assets": "assets"

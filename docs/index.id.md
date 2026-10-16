@@ -74,9 +74,9 @@ Kamus Gratis mengembalikan saran terpisah per jenis kata dengan definisi, tag, d
 
 ## Audio pelafalan
 
-Rekaman awal memakai model neural multibahasa Kokoro secara offline dengan suara Inggris `bf_emma` dan Jepang `jf_alpha`. Klip memakai 128 kbps, jeda awal 200 ms, jeda akhir 180 ms, normalisasi puncak terbatas, dan ucapan lebih lambat. Atribusi model dan lisensi Apache disimpan di `data/audio/VOICE-LICENSE.txt`; inventaris mencatat suara dan pengolahannya.
+Rekaman awal dibuat melalui API ElevenLabs dengan `ELEVENLABS_EN_VOICE_ID` untuk bahasa Inggris dan `ELEVENLABS_JA_VOICE_ID` untuk bahasa Jepang. Klip menggunakan ucapan lebih lambat, pengodean 128 kbps, jeda awal 200 ms, jeda akhir 180 ms, dan normalisasi puncak terbatas. Inventaris mencatat model dan parameter pengolahan; `data/audio/VOICE-LICENSE.txt` menjelaskan ketentuan ElevenLabs yang berlaku.
 
-Perbarui inventaris dengan `node scripts/generate-audio.mjs`. Instal alat opsional dari `scripts/audio-requirements.txt`, sediakan FFmpeg, lalu jalankan `python3 scripts/synthesize-audio.py --model <kokoro-model> --voices <voice-bank> --force`. Model suara hanya menjadi alat pengembang dan tidak disertakan sebagai dependensi produksi.
+Buat ulang inventaris dengan `node scripts/generate-audio.mjs`. Siapkan Python, FFmpeg, `ELEVENLABS_API_KEY`, dan variabel suara bahasa, lalu jalankan `python3 scripts/synthesize-audio.py --cache <direktori-cache-pribadi>`. Cache memakai kembali respons API saat proses dilanjutkan. Kredensial dan pengenal suara tidak pernah disimpan dalam paket. Pembuatan merupakan alat pengembang; pemutaran tidak memerlukan kredensial ElevenLabs.
 
 ## Kontrak penyedia audio
 

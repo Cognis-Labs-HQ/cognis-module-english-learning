@@ -74,9 +74,9 @@ Free Dictionaryは品詞ごとに候補を分け、対応する定義、タグ�
 
 ## 発音音声
 
-初期録音は多言語ニューラルモデル Kokoro をオフラインで使用し、英語に `bf_emma`、日本語に `jf_alpha` を使用します。クリップは 128 kbps、開始前の無音 200 ms、終了後の無音 180 ms、上限付きピーク正規化、遅めの発話速度で生成します。モデルの帰属表示と Apache ライセンスは `data/audio/VOICE-LICENSE.txt`、声と処理設定は録音一覧に記録します。
+初期録音は ElevenLabs API で生成し、英語には `ELEVENLABS_EN_VOICE_ID`、日本語には `ELEVENLABS_JA_VOICE_ID` を使用します。遅めの発話、128 kbps、開始前の無音 200 ms、終了後の無音 180 ms、上限付きピーク正規化を適用します。一覧にモデルと処理設定を記録し、`data/audio/VOICE-LICENSE.txt` に適用される ElevenLabs の利用条件を示します。
 
-`node scripts/generate-audio.mjs` で一覧を再生成します。`scripts/audio-requirements.txt` の任意ツールと FFmpeg を用意し、`python3 scripts/synthesize-audio.py --model <kokoro-model> --voices <voice-bank> --force` を実行します。音声モデルは開発用ツールであり、実行時依存関係として配布しません。
+`node scripts/generate-audio.mjs` で一覧を再生成します。Python、FFmpeg、`ELEVENLABS_API_KEY` と対象言語の声の環境変数を用意し、`python3 scripts/synthesize-audio.py --cache <非公開キャッシュディレクトリ>` を実行します。再開時はキャッシュ内の API 応答を再利用します。認証情報や声の識別子はパッケージに保存しません。生成は開発用ツールであり、再生に ElevenLabs の認証情報は不要です。
 
 ## 音声プロバイダー契約
 
