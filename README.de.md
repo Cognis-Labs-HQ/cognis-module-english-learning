@@ -31,3 +31,11 @@ npm run lint
 npm run check:manifest
 git diff --check
 ```
+
+## Sprache und Aufnahmen
+
+Das Modul registriert seine Sprache bei `study:audio:provider` und speichert eine optionale ElevenLabs-Stimmen-ID über `db:executor`. Leer lassen, um `voiceId` auszulassen und die Standardstimme zu verwenden. Zugangsdaten, Stimmensuche und Testaudio werden im separaten ElevenLabs-Modul konfiguriert. Sprachpakete enthalten keine erzeugten Aufnahmen oder HTTP-Implementierung des Anbieters.
+
+Cognis prüft gespeicherte globale Karten vor dem Aufruf von `speech:synthesis`. Beim Öffnen einer Karte wird kein Audio erzeugt. Administratoren können globale Karten im Editor neben dem Player neu vertonen. Private und Klassenkarten erlauben Uploads oder Mikrofonaufnahmen bis 5 MiB. Sätze behalten die kontinuierliche Zusammenstellung vorhandener Aufnahmen als Rückfall; dabei wird für private und Klassenkarten niemals Synthese ausgelöst. Explizite Aufnahmen haben Vorrang. Nur die erste verfasste Aussprache wird verwendet.
+
+Die Inhaltspaketversion wird bei Inhaltsänderungen erhöht, um Konflikte mit früher eingelesenen Revisionen zu verhindern.

@@ -26,7 +26,7 @@ The form contracts declare alphabet/composite writing fields, vocabulary spellin
 
 ### Writing guides and media
 
-Every alphabet and letter-combination record has an original normalized JSON print-letter guide with ordered strokes, timestamps and per-character groups. The stroke provider returns cloned packaged patterns and performs no remote request. These are introductory print guides, not a mandatory handwriting style. Seeded audio files are described below; external TTS URLs are not packaged assets.
+Every alphabet and letter-combination record has an original normalized JSON print-letter guide with ordered strokes, timestamps and per-character groups. The stroke provider returns cloned packaged patterns and performs no remote request. These are introductory print guides, not a mandatory handwriting style.
 
 ### Dictionary boundary
 
@@ -72,40 +72,10 @@ The content pack lives in `data/library/`: its manifest, schema, and content sha
 
 Free Dictionary returns separate suggestions per part of speech, with only matching definitions, tags, and curated paradigms. Queries containing apostrophes or hyphens are rejected because the current alphabet graph cannot represent those spellings. Response bodies are limited to one million streamed bytes and cancelled immediately when oversized. The published `study-language-en:bootstrap-registration` flow identifier remains unchanged. Plural derivation stays on singular `book`, not already-plural `books`; `houses` uses `/haʊzɪz/`. Seven localized starter decks are documented.
 
-## Pronunciation audio
+## Speech and recordings
 
-Seed recordings are generated with the ElevenLabs API using `ELEVENLABS_EN_VOICE_ID` for English and `ELEVENLABS_JA_VOICE_ID` for Japanese. Clips use slower speech, 128 kbps encoding, a 200 ms quiet lead-in, a 180 ms tail and bounded peak normalization. The inventory records model and processing parameters; `data/audio/VOICE-LICENSE.txt` describes the applicable ElevenLabs terms.
+The module registers its language with `study:audio:provider` and stores an optional ElevenLabs voice ID using `db:executor`. Leave it blank to omit `voiceId` from speech requests and use the speech module default. Configure credentials, voice discovery and test audio in the separate ElevenLabs module. Language packs contain no generated recordings or provider HTTP implementation.
 
-Regenerate the inventory with `node scripts/generate-audio.mjs`. Provide Python, FFmpeg and `ELEVENLABS_API_KEY` together with the language voice variable, then run `python3 scripts/synthesize-audio.py --cache <private-cache-directory>`. The cache reuses API responses when resuming a run. Credentials and voice identifiers are never written to the package. Generation is developer tooling; playback requires no ElevenLabs credentials.
+Cognis authorizes saved global cards before requesting `speech:synthesis`. Merely opening a card does not generate audio. Administrators can regenerate global-card audio beside the player when editing. Private and classroom cards accept manual uploads or microphone recordings, limited to 5 MiB. Sentences retain the continuous composite fallback when constituent recordings are already available; private and classroom composition never triggers provider synthesis. Explicit recordings take priority. Only the primary authored pronunciation is used.
 
-## Audio provider contract
-
-Bootstrap requires `study:audio:provider` and registers one removable audio provider alongside dictionary and stroke providers. It resolves module-bundled recordings by spoken label and preferred reading, with bounded file reads and explicit missing-audio errors. Removal aborts pending retrieval. Cognis authorizes card access, derives selected transformation text from the schema, and caches recordings privately through Files without modifying authored fields. The `study:library:audio` flow executes authorization, validation and resolution; `study:audio:fetch` validates and retrieves provider bytes. Sentence audio remains ordered constituent playback.
-
-Audio retrieval begins only when the learner requests playback. Merely opening a card makes no audio request. Playback failures use the host localized toast and structured logs. Sentence constituents retain their selected transformation descriptors; the authenticated audio endpoint derives the spoken form from the schema rather than accepting arbitrary display text. English letter-combination seed clips are synthesized from their authored IPA phonemes, while alphabet clips speak letter names.
-
-## Dictionary audio and host caching
-
-When a requested pronunciation is not bundled, English Study retrieves the word from the English Dictionary API and downloads a matching MP3 from its pronunciation media endpoint. A preferred IPA reading must match; a different pronunciation is never substituted. Only HTTPS media on `api.dictionaryapi.dev` is accepted, redirects are rejected, lookup and download share one deadline, and both responses have streaming byte limits. Missing recordings remain explicit errors. No Google speech service is used.
-
-Cognis owns the recording cache, not the module. After authorization, its private Files cache reuses successful recordings across cards and restarts. Concurrent playback requests share retrieval and persistence. Keys include provider identity, revision, language, role, label and readings; a changed reading or provider revision resolves independently. Failed requests or writes remain retryable. The module contacts the dictionary only on a cache miss when playback is requested.
-
-## Paced composition and replacement
-
-An audio field is optional on sentence cards. On first playback Cognis authorizes every constituent, selects only the first pronunciation group, applies selected transformations, and creates one continuous WAV with a quiet lead-in and deliberate word, comma and sentence pauses. The generated recording is cached privately; constituent bytes, reading changes, transformations and pacing affect its identity. It is generated on demand for new cards as well as existing cards. Uploading an audio file in the normal composer replaces generated playback immediately. Removing that explicit file restores automatic composition. Providers supply lexical clips; Cognis owns composition and cache policy.
-
-## Reference inventory coverage
-
-The Japanese reference catalog includes all 13,108 characters in the packaged official KANJIDIC2 snapshot. The English catalog includes all 135,969 Open English WordNet lexical entries (127,311 normalized keys). These are separate lazy dictionary providers, not 149,077 eagerly imported seed cards. Choose Reference Dictionary in Study search to import supported entries through the normal graph validation. Source records without meanings or usable readings remain unknown; no pronunciation, translation or stroke diagram is fabricated. This inventory is not all Unicode Han and is not a claim to enumerate every possible English word.
-
-Japanese Kanji readings are ranked from common JMdict attestations and available frequency markers, including okurigana forms; grouped links and seed audio follow that exact order. Kanji playback always uses the first authored pronunciation. Existing English word cards have one authored IPA reading; reference entries preserve authoritative order within the preferred British variety before other varieties. Pronunciation frequency depends on context, and the sources do not provide a universal frequency rank for every reading.
-
-Rebuild the reference shards with `python3 scripts/import-reference.py --source <source-file>`; Japanese accepts `--priorities <reading-priorities.json>`. `data/reference/manifest.json` records the source checksum, attribution, counts and shard digests. Shards are loaded only for requested keys, and runtime lookup results use Cognis caching.
-
-## Whole-reading reference audio
-
-Japanese additionally ships 2,913 whole-reading neural clips in bounded banks under `data/audio/reference/`. Together with seed recordings they cover the primary readings of all 12,356 source characters that have a reading; the remaining 752 source characters have no recorded reading and do not receive invented audio. The bank index selects the first authored reading and checks file bounds and cancellation. Generate a plan with `python3 scripts/reference-audio.py plan --work <directory>`, render its inventories with the synthesis script, then use `pack` to write the bounded banks.
-
-The Japanese ranking tool accepts `--dictionary <JMdict.gz> --kanji-dictionary <KANJIDIC2.xml.gz> --output <priorities.json>` and optional `--content-root data/library/content`. It prefers common standalone lexical readings, ranks other readings from frequency-weighted alignments of attested words, and preserves reviewed isolated-card choices from `data/audio/primary-readings.json`. Voicing and gemination map back to canonical source readings. Kun, on and name readings remain available; a selected first reading alone determines playback and lookup cache identity. Source frequency markers are an ordering aid, not a universal pronunciation-frequency measurement.
-
-Automatic composition requires recordings for its spoken constituents. Missing recordings remain explicit errors and can be supplied through the normal audio upload field. Reference spellings that cannot be linked to the packaged alphabet retain their source text and definitions without fabricated spelling links.
+Content pack versions advance whenever packaged content changes, preventing activation conflicts with earlier ingested revisions.

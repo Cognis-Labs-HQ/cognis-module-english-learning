@@ -2,8 +2,8 @@
     "id": "english-core",
     "publisher": "Cognis Labs HQ",
     "namespace": "en",
-    "version": "21.0.0",
-    "contentRevision": "2026-10-16.elevenlabs-audio",
+    "version": "22.0.0",
+    "contentRevision": "2026-10-16.shared-speech",
     "schema": "schema.json",
     "content": "content",
     "license": {
@@ -17,12 +17,7 @@
             "category": "language",
             "featured": true
         },
-        "tags": ["english", "study"],
-        "audio": {
-            "source": "elevenlabs",
-            "license": "LicenseRef-ElevenLabs-Terms",
-            "attribution": "Generated with ElevenLabs using the configured language voice. https://elevenlabs.io/terms-of-use"
-        }
+        "tags": ["english", "study"]
     },
     "assets": "assets"
 }

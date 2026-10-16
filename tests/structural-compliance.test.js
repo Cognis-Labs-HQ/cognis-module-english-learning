@@ -87,6 +87,7 @@ test("external module metadata and declared files are consistent", () => {
     assert.deepEqual(manifest.requiresCapabilities, [
         "study:library:provider",
         "study:audio:provider",
+        "db:executor",
     ]);
     assert.ok(Array.isArray(routes));
     for (const entrypoint of Object.values(manifest.entrypoints)) {

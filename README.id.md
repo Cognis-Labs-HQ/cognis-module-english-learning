@@ -31,3 +31,11 @@ npm run lint
 npm run check:manifest
 git diff --check
 ```
+
+## Ucapan dan rekaman
+
+Modul mendaftarkan bahasa melalui `study:audio:provider` dan menyimpan ID suara ElevenLabs opsional melalui `db:executor`. Kosongkan untuk menghilangkan `voiceId` dari permintaan dan memakai suara bawaan. Kredensial, pencarian suara, dan audio uji diatur pada modul ElevenLabs terpisah. Paket bahasa tidak memuat rekaman hasil generasi atau implementasi HTTP penyedia.
+
+Cognis memeriksa kartu global tersimpan sebelum meminta `speech:synthesis`. Membuka kartu tidak membuat audio. Administrator dapat membuat ulang audio kartu global di samping pemutar saat mengedit. Kartu pribadi dan kelas menerima unggahan atau rekaman mikrofon hingga 5 MiB. Kalimat tetap memakai komposisi berkelanjutan sebagai cadangan bila rekaman kartu penyusun tersedia; komposisi pribadi dan kelas tidak memicu sintesis penyedia. Rekaman eksplisit diutamakan. Hanya pelafalan pertama yang digunakan.
+
+Versi paket konten dinaikkan saat konten berubah untuk mencegah konflik aktivasi dengan revisi yang telah dimasukkan.

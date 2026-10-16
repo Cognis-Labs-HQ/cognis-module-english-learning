@@ -1,8 +1,16 @@
+import { withConfiguration } from "../api/tests/configuration-context.js";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import path from "node:path";
 import test from "node:test";
-import { bootstrapModule, uninstallModule } from "../bootstrap.js";
+import {
+    bootstrapModule as bootstrapLanguageModule,
+    uninstallModule,
+} from "../bootstrap.js";
+
+function bootstrapModule(ctx) {
+    return bootstrapLanguageModule(withConfiguration(ctx));
+}
 
 function context(failure) {
     const calls = {
@@ -37,7 +45,7 @@ function context(failure) {
         capabilities: {
             require(name) {
                 if (name === "study:audio:provider")
-                    return { registerProvider: () => () => {} };
+                    return { registerLanguage: () => () => {} };
                 assert.equal(name, "study:library:provider");
                 return provider;
             },
@@ -123,7 +131,7 @@ test("enabled bootstrap registers the admin configuration cleanup policy", async
     });
     let status;
     let ended = false;
-    handler(
+    await handler(
         {},
         {
             writeHead(value) {
@@ -134,7 +142,7 @@ test("enabled bootstrap registers the admin configuration cleanup policy", async
             },
         },
     );
-    assert.equal(status, 204);
+    assert.equal(status, 200);
     assert.equal(ended, true);
     dispose();
 });
@@ -168,7 +176,7 @@ test("activation requires a complete provider contract before registering anythi
             capabilities: {
                 require(id) {
                     if (id === "study:audio:provider")
-                        return { registerProvider: () => () => {} };
+                        return { registerLanguage: () => () => {} };
                     throw new Error("provider_unavailable");
                 },
             },
