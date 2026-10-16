@@ -118,6 +118,10 @@ Free Dictionaryは品詞ごとに候補を分け、対応する定義、タグ�
 
 日本語の並べ替えツールは `--dictionary <JMdict.gz> --kanji-dictionary <KANJIDIC2.xml.gz> --output <priorities.json>` と任意の `--content-root data/library/content` に対応します。一般的な独立語の読みを優先し、他の読みは実在語の対応付けを頻度で重み付けして並べ、`data/audio/primary-readings.json` の確認済み単字カード用の指定を維持します。連濁と促音化は原資料の標準読みに戻して集計します。訓・音・名乗りの読みを保持し、選択された最初の読みだけが再生とキャッシュ識別を決めます。頻度情報は順序付けの手掛かりであり、全発音に通用する普遍的な頻度測定ではありません。
 
+## 任意の音声連携
+
+ElevenLabsを任意のモジュール依存関係として宣言します。インストール時に音声合成用として選択できますが、未導入でもStudyの有効化と録音・結合音声を使用できます。
+
 ## コミット
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)
@@ -137,3 +141,4 @@ Free Dictionaryは品詞ごとに候補を分け、対応する定義、タグ�
 - [e0171127](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e017112787f2903824214ee731dbdfb9e55eb916)
 - [0284e55f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/0284e55ff120336df0c3ee54df9ed41df94ef1fa)
 - [9ee99c98](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/9ee99c9854cbd2409ecc32921a04741a87c929e2)
+- [d376277](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d376277ad28a779f25e66b0b625bea17e86302f1)
