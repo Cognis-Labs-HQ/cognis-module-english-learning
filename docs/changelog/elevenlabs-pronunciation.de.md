@@ -1,6 +1,6 @@
 # ElevenLabs-Aussprache
 
-**Feature-Branch:** feature-replace-library-with-new-capability
+**Feature-Zweig:** feature-replace-library-with-new-capability
 
 ## Alle Aufnahmen neu erzeugen
 
