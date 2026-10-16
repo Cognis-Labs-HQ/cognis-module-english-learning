@@ -226,8 +226,12 @@ test("language audio resolves the optional module-owned speech capability live",
     assert.equal(language, "en");
     assert.deepEqual(configuration(), {});
     assert.equal(speech(), undefined);
-    calls.speech = { revision: "one", synthesize() {} };
+    calls.speech = { configured: false, revision: "one", synthesize() {} };
+    assert.equal(speech(), undefined);
+    calls.speech.configured = true;
     assert.equal(speech(), calls.speech);
+    calls.speech.configured = false;
+    assert.equal(speech(), undefined);
     calls.speech = undefined;
     assert.equal(speech(), undefined);
     dispose();
