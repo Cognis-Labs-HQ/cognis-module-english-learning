@@ -15,6 +15,7 @@ function bootstrapModule(ctx) {
 function context(failure) {
     const calls = {
         providers: [],
+        audio: [],
         removed: [],
         capabilities: [],
         imports: [],
@@ -45,12 +46,18 @@ function context(failure) {
         capabilities: {
             require(name) {
                 if (name === "study:audio:provider")
-                    return { registerLanguage: () => () => {} };
+                    return {
+                        registerLanguage: (...args) => {
+                            calls.audio.push(args);
+                            return () => {};
+                        },
+                    };
                 assert.equal(name, "study:library:provider");
                 return provider;
             },
         },
         getCapability(name) {
+            if (name === "elevenlabs-tts:synthesis") return calls.speech;
             assert.equal(name, "study:library:provider");
             return provider;
         },
@@ -210,4 +217,18 @@ test("uninstall surfaces cleanup failures without claiming success", async () =>
         uninstallModule(ctx, { deleteContent: true }),
         /cleanup_unavailable/,
     );
+});
+
+test("language audio resolves the optional module-owned speech capability live", async () => {
+    const { ctx, calls } = context();
+    const dispose = await bootstrapModule(ctx);
+    const [language, configuration, speech] = calls.audio[0];
+    assert.equal(language, "en");
+    assert.deepEqual(configuration(), {});
+    assert.equal(speech(), undefined);
+    calls.speech = { revision: "one", synthesize() {} };
+    assert.equal(speech(), calls.speech);
+    calls.speech = undefined;
+    assert.equal(speech(), undefined);
+    dispose();
 });

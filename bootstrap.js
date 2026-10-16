@@ -94,7 +94,11 @@ export async function bootstrapModule(ctx) {
     let receipt;
     try {
         providerRemovers.push(
-            audio.registerLanguage("en", () => configuration.value),
+            audio.registerLanguage(
+                "en",
+                () => configuration.value,
+                () => ctx.getCapability("elevenlabs-tts:synthesis"),
+            ),
         );
         const options = {
             contentRoot: path.join(
