@@ -47,7 +47,7 @@ function context(failure) {
             require(name) {
                 if (name === "study:audio:provider")
                     return {
-                        registerLanguage: (...args) => {
+                        registerProvider: (...args) => {
                             calls.audio.push(args);
                             return () => {};
                         },
@@ -183,7 +183,7 @@ test("activation requires a complete provider contract before registering anythi
             capabilities: {
                 require(id) {
                     if (id === "study:audio:provider")
-                        return { registerLanguage: () => () => {} };
+                        return { registerProvider: () => () => {} };
                     throw new Error("provider_unavailable");
                 },
             },
@@ -222,17 +222,31 @@ test("uninstall surfaces cleanup failures without claiming success", async () =>
 test("language audio resolves the optional module-owned speech capability live", async () => {
     const { ctx, calls } = context();
     const dispose = await bootstrapModule(ctx);
-    const [language, configuration, speech] = calls.audio[0];
-    assert.equal(language, "en");
-    assert.deepEqual(configuration(), {});
-    assert.equal(speech(), undefined);
-    calls.speech = { configured: false, revision: "one", synthesize() {} };
-    assert.equal(speech(), undefined);
-    calls.speech.configured = true;
-    assert.equal(speech(), calls.speech);
+    const provider = calls.audio[0][0];
+    assert.deepEqual(provider.languages, ["en"]);
+    const input = {
+        language: "en",
+        label: "unbundled",
+        semanticRole: "lexicalUnit",
+        readings: [],
+    };
+    await assert.rejects(
+        provider.fetchAudio(input),
+        /audio_lookup_unavailable/,
+    );
+    calls.speech = {
+        configured: true,
+        revision: "one",
+        synthesize: async () => ({
+            mediaType: "audio/mpeg",
+            data: new Uint8Array([1]),
+        }),
+    };
+    assert.equal((await provider.fetchAudio(input)).mediaType, "audio/mpeg");
     calls.speech.configured = false;
-    assert.equal(speech(), undefined);
-    calls.speech = undefined;
-    assert.equal(speech(), undefined);
+    await assert.rejects(
+        provider.fetchAudio(input),
+        /audio_lookup_unavailable/,
+    );
     dispose();
 });
