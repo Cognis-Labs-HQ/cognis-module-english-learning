@@ -150,6 +150,10 @@ Menambahkan kolom daftar gambar opsional, unggahan privat, dan galeri detail. Ke
 
 Kalimat bawaan memakai rekaman kalimat utuh yang dibuat langsung sebelum audio komposit. Kalimat baru atau yang belum direkam memakai komposisi host dengan PCM penyusun berurutan dan transformasi terpilih; varian yang hilang tidak diganti bentuk dasarnya. Rekaman mencakup paket terkurasi, bukan seluruh entri kamus atau semua kemungkinan kalimat buatan pengguna. Menyertakan 45 rekaman kalimat baru dengan suara `gJx1vCzNCD1EQHT212Ls`. Bahasa Jepang membuat ulang 124 klip kana dan mengirim kana/kanji, bukan romaji. Permintaan menyimpan model stabil, kecepatan, kemiripan, seed, serta asal suara yang terdokumentasi.
 
+## Foto Referensi Kosakata
+
+63 kartu kosakata terkurasi kini memiliki foto referensi bawaan (55 berkas gambar). Cakupan meliputi semua nomina konkret serta tindakan dan sifat yang jelas secara visual; tata bahasa, pronomina, dan konsep abstrak tidak diberi gambar pengisi yang menyesatkan. Homofon Jepang seperti 花/鼻, 橋/箸, 雨/飴, dan 紙/髪/神 memakai referensi berbeda. Gambar dimuat secara lokal melalui galeri detail kartu dan pratinjau gambar penuh yang sudah ada. Judul sumber, pembuat, lisensi Creative Commons/domain publik per gambar, serta checksum dicatat dalam [katalog gambar](../../data/library/assets/images/catalog.json) dan [kredit foto](../../data/library/assets/images/LICENSE.md). Gambar kartu khusus pengguna tetap dilindungi host saat penyedia dimuat ulang.
+
 ## Komit
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)

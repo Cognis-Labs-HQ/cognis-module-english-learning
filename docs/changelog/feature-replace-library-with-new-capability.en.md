@@ -150,6 +150,10 @@ Add optional image-list fields, private image uploads and detail galleries. Both
 
 Shipped sentences use directly generated whole-sentence recordings before composite audio. New or unrecorded sentences use host composition with the exact ordered constituent PCM and selected transformations; missing variants never substitute their base form. Recordings cover the curated pack, not every lazy dictionary entry or possible user-authored sentence. Includes 45 newly generated sentence recordings using voice `gJx1vCzNCD1EQHT212Ls`. Japanese regenerates 124 kana clips and sends kana/kanji rather than romaji. Requests retain documented stable model, speed, similarity, seed and voice provenance.
 
+## Vocabulary Reference Photos
+
+63 curated vocabulary cards now have bundled reference photographs (55 image files). Coverage includes every concrete noun plus visually clear actions and qualities; grammar, pronouns and other abstract concepts do not receive misleading filler images. Japanese homophones such as 花/鼻, 橋/箸, 雨/飴 and 紙/髪/神 use distinct references. Images load locally through the existing card detail gallery and full-image preview. Source titles, creators, individual Creative Commons/public-domain licenses and file checksums are recorded in [the image catalog](../../data/library/assets/images/catalog.json) and [photo credits](../../data/library/assets/images/LICENSE.md). Existing custom card images remain protected by the host during provider reloads.
+
 ## Commits
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)

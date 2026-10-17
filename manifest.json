@@ -2,7 +2,7 @@
     "id": "study-language-en",
     "uuid": "b1adc29f-9d54-5785-9bea-2ce76f1981e4",
     "name": "module.study.language.en.name",
-    "version": "1.5.6",
+    "version": "1.5.7",
     "class": "extension",
     "privileged": true,
     "coreApiVersion": "v1",
@@ -85,19 +85,19 @@
         },
         {
             "path": "README.de.md",
-            "sha256": "c595e7b51b756419acefc8bc81f9fdab354ea9c2906ec26db5258cc81c3115c8"
+            "sha256": "63585e2c04f4942c4d3d2722a655d994b92286a19d4da98a048d054ad1af1c76"
         },
         {
             "path": "README.en.md",
-            "sha256": "26516bc696a1813d1018de566910f7dd3b5b224f9872733c9ff97ad279d77ebd"
+            "sha256": "5145a2a6ee476023db22db9b7ef0ac313084ae3fe6c27c53bc10bcf3b26e50fe"
         },
         {
             "path": "README.id.md",
-            "sha256": "3d4949a8707138c4b5023e4720973cf07ef2afe196ef3d5408f53fb2c67fb13b"
+            "sha256": "aaf40f6f7bcd0893ce194c45a06c306bbbb9b61dee49c066433c0d664aeb281d"
         },
         {
             "path": "README.ja.md",
-            "sha256": "13957250af31dc6b7bc7d482160295217b8d0333a1b16104cce2801468e8c3d9"
+            "sha256": "b4eab05ec0a145161a0fcb8cfc499ef49c13ea1b0fe19e76e33510823125d2a0"
         },
         {
             "path": "api/audio/index.js",
@@ -2009,11 +2009,231 @@
         },
         {
             "path": "data/library/assets/images/LICENSE.md",
-            "sha256": "778b04550a7fc0e420dcd3b3ae486c75064f7de372221b568d04a15f74fddb44"
+            "sha256": "ef12f9e06b41d0311d102e7d3aa716304ef99c3418e7345b6e02f069b5a9e612"
+        },
+        {
+            "path": "data/library/assets/images/apple.jpg",
+            "sha256": "60baaee8cff7502bc7cde3cefaf940247a8a9ee5bff7522efc515710b54f36ce"
+        },
+        {
+            "path": "data/library/assets/images/beautiful.jpg",
+            "sha256": "fb6ffb3bcac4a207458fd0111f8681b4fdb3d03e6f9caee4c04505fb619edc6f"
+        },
+        {
+            "path": "data/library/assets/images/bird.jpg",
+            "sha256": "79f211bb81085c665f9c3af9543221ddac54b9fae7015b84f955010b8a209a20"
+        },
+        {
+            "path": "data/library/assets/images/book.jpg",
+            "sha256": "b37c55facbd2f5ee645c829aac00586911edcb4fe6f4646013c6124fc4a0a294"
+        },
+        {
+            "path": "data/library/assets/images/books.jpg",
+            "sha256": "1211497b7cc5f09d4db58c55ce44fdff5f9238b60bad51635f98517130cd9ea2"
+        },
+        {
+            "path": "data/library/assets/images/bread.jpg",
+            "sha256": "5f16944135590e991f1451f5784a556f9af0dd6fc52b440c2bb0f84d4579d754"
+        },
+        {
+            "path": "data/library/assets/images/bus.jpg",
+            "sha256": "ff75d31b62090a56e07e450eb40eec3d0cd0f697ca2232ce46e887460c481c3a"
+        },
+        {
+            "path": "data/library/assets/images/car.jpg",
+            "sha256": "b335eaa429306f7e72165721cced26c822ec625d7f3ce602c864bf521eb38f58"
+        },
+        {
+            "path": "data/library/assets/images/cat.jpg",
+            "sha256": "9b46595fdf92b4a91d380e6b94721da5a68ec18ace40f4829a29db357d79bda5"
+        },
+        {
+            "path": "data/library/assets/images/catalog.json",
+            "sha256": "7730a65c3f85fe546d3847daf07c0294ba68f9aaad45501979a0875caac942bc"
+        },
+        {
+            "path": "data/library/assets/images/city.jpg",
+            "sha256": "d0b7738d50e28c9a14407a73a8a3108fe17f6ce928588fdac7e1603ed04e65bf"
+        },
+        {
+            "path": "data/library/assets/images/clock.jpg",
+            "sha256": "09fc0065b0cfc5272f215b16e34930186d9b9fba829d5419873243d409f5967e"
+        },
+        {
+            "path": "data/library/assets/images/coffee.jpg",
+            "sha256": "f12ec73e564ab5a58aa2ef89d9b89987b64d3b8b512d0e8a5b5bbb53b16f28c2"
+        },
+        {
+            "path": "data/library/assets/images/cold.jpg",
+            "sha256": "53b471c787052085bd02da99b83a458b42390b3777ee4ff7aabbe8e9330dfbe2"
+        },
+        {
+            "path": "data/library/assets/images/day.jpg",
+            "sha256": "d80a52619e1822e55ca300ffdc225f8ffde1183b32b44e6fe8e9717d65e6583c"
         },
         {
             "path": "data/library/assets/images/dog.jpg",
             "sha256": "d4cb12ea8a768582562e1f1c0c930ea6fc4757f5b66551b986b41498efd75ca1"
+        },
+        {
+            "path": "data/library/assets/images/door.jpg",
+            "sha256": "e629f71d5713722e1b78e3a2e5eb595214fb9e2d3868b71de8b6ddff27dd7a3b"
+        },
+        {
+            "path": "data/library/assets/images/drinking.jpg",
+            "sha256": "f2a6e77eba67d3c96e54d18365a2b684837ce32061bc14264368df20c648e2a3"
+        },
+        {
+            "path": "data/library/assets/images/eating.jpg",
+            "sha256": "b2934a0e0941e995b57b3b656aeef6b66a0619a575b39528b1e18cf8fe7ff571"
+        },
+        {
+            "path": "data/library/assets/images/family.jpg",
+            "sha256": "5789724940eb23f2f56a14368c674aec4d39ffe658cb9fd4c6fab745f0ec8fe4"
+        },
+        {
+            "path": "data/library/assets/images/father.jpg",
+            "sha256": "fda931a7254010b3e007580398cd2858cc03dc89659168e25e34d0ebf148fae5"
+        },
+        {
+            "path": "data/library/assets/images/food.jpg",
+            "sha256": "2212e46687eafb9a3e9bda2e16f33b83804d857f3d7ce75e1eadca8212e3f5a4"
+        },
+        {
+            "path": "data/library/assets/images/friends.jpg",
+            "sha256": "b680394a14fae5ee2dbd4c887e585c5fdfcc0a3a613789e51a29029ae2ae8514"
+        },
+        {
+            "path": "data/library/assets/images/happy.jpg",
+            "sha256": "338d3c64dbfbd842658cd81ca8ae28b5f7586a213c321672706fac97b5da5af5"
+        },
+        {
+            "path": "data/library/assets/images/helping.jpg",
+            "sha256": "1deae8b80073d69f58e2393d2aaea3421ff41327fe1d26614c228e95b807e4dc"
+        },
+        {
+            "path": "data/library/assets/images/hot.jpg",
+            "sha256": "ffa2796dc035ac6b6f3a55f444ce069f06d95b5f51629485bedcb0d060ebc122"
+        },
+        {
+            "path": "data/library/assets/images/house.jpg",
+            "sha256": "c5ac55fe23807edb77a15cfa0bfe3aa96c24ea1bc353a56a83ad13e71fef8ba3"
+        },
+        {
+            "path": "data/library/assets/images/learning.jpg",
+            "sha256": "80a881d6875f397aeb055fcdd2d56c8afb9acebb2ecd74b0c29e01168843189b"
+        },
+        {
+            "path": "data/library/assets/images/listening.jpg",
+            "sha256": "f4cb2ce323b6cde0c5234683eab3538612e84450dd84f08d538cb0fc20829c50"
+        },
+        {
+            "path": "data/library/assets/images/looking.jpg",
+            "sha256": "2533d8f3545a01f29954f3868deee87020fdd6e8ddad8dadc7bf701eab9e9726"
+        },
+        {
+            "path": "data/library/assets/images/making.jpg",
+            "sha256": "37570466586ce3c3116f249c36898e034d2063f9833241f096d845ce60c0956b"
+        },
+        {
+            "path": "data/library/assets/images/milk.jpg",
+            "sha256": "23898fd4bd889da3745ca6cbf18b2e54065362c09ed81cd85be2e079d348df95"
+        },
+        {
+            "path": "data/library/assets/images/morning.jpg",
+            "sha256": "cb0e14d1b18ba0374928f97309b4f25c9fdae3d0f403fbd70a583b9e9941b2d8"
+        },
+        {
+            "path": "data/library/assets/images/mother.jpg",
+            "sha256": "15d4a6e89c90fcee6c711aad5e2c09fd6b90d586a0227a38711154018de03183"
+        },
+        {
+            "path": "data/library/assets/images/music.jpg",
+            "sha256": "f904682f82c3d69034a484b645eb88d6b756a1c6cf17715d8adc3cbf56abf7be"
+        },
+        {
+            "path": "data/library/assets/images/night.jpg",
+            "sha256": "8ade7eb5f5574f982c67a207268ba54876fc043fe42f94cd04b9c7956079003c"
+        },
+        {
+            "path": "data/library/assets/images/park.jpg",
+            "sha256": "26620e7b52222f4fb78e980f5a7b756baaab3c2a0a571ea6d7f15d302d6239f0"
+        },
+        {
+            "path": "data/library/assets/images/playing.jpg",
+            "sha256": "a6d1fd4472e03769716bd8924ef2170047f326265c3cb1fc418665bda2c57803"
+        },
+        {
+            "path": "data/library/assets/images/reading.jpg",
+            "sha256": "1075c9439d59812cc3cf43df27cbd978ef9f567bc21e1357a6d989d47a3a6d03"
+        },
+        {
+            "path": "data/library/assets/images/room.jpg",
+            "sha256": "a6d37c04fc8e8805dea05e8d1bdbd3705395b00c48fda88bfc18f7d9f62bbb2f"
+        },
+        {
+            "path": "data/library/assets/images/running.jpg",
+            "sha256": "b3b210e46450f92e788e76ee8672d7575b420566a2537224b783718507436920"
+        },
+        {
+            "path": "data/library/assets/images/sad.jpg",
+            "sha256": "9cafa4f4498b6621b2c4dd04ec146671415d8bac0e63aa34d862aed010d18c30"
+        },
+        {
+            "path": "data/library/assets/images/school.jpg",
+            "sha256": "5709efe045fd62adf31dc9471a8d621691369636ae0cd8609c717ab55e0a7749"
+        },
+        {
+            "path": "data/library/assets/images/sizes.jpg",
+            "sha256": "023718add19086cc698da7ec5661af0e39efaf2800ea8f8ff12d2e2f5402b03e"
+        },
+        {
+            "path": "data/library/assets/images/sleeping.jpg",
+            "sha256": "c3008c0b83ed855f584489156868274737ee43a6651ffedc5e2c77422fcbc0fd"
+        },
+        {
+            "path": "data/library/assets/images/slow.jpg",
+            "sha256": "3225d8c67964c0e9b83cc544e279f18a696f3a897d5869ba09f113b948c33f4f"
+        },
+        {
+            "path": "data/library/assets/images/speaking.jpg",
+            "sha256": "a73ffdc85fca91b7112772ae0629f178abe9c5abade654ccc11f9a4eca445e11"
+        },
+        {
+            "path": "data/library/assets/images/student.jpg",
+            "sha256": "1d81330cc1db186b8adf8d9f5db9985792340365b482704d5644d58f17b7c6fe"
+        },
+        {
+            "path": "data/library/assets/images/tea.jpg",
+            "sha256": "24cb952d850fa859179a9d2dd8479492f70421c10486f5bae976ad19d27bd0f4"
+        },
+        {
+            "path": "data/library/assets/images/teacher.jpg",
+            "sha256": "627515904855adb216835b78d4718ba19a19eeed63256d148dbe48e50eb97514"
+        },
+        {
+            "path": "data/library/assets/images/train.jpg",
+            "sha256": "8f8a5d3223adebaff1c75044bbe1ab121e943bca63d7b032afb9c010234f4daf"
+        },
+        {
+            "path": "data/library/assets/images/walking.jpg",
+            "sha256": "1bc9a2dd364c162389d61b898fbf12dfb6c8f875615fdb32059d74039898bfd9"
+        },
+        {
+            "path": "data/library/assets/images/water.jpg",
+            "sha256": "0410448e061ef30c35c90344ed92323ff1cbc9a82134cca31162669d9d281e75"
+        },
+        {
+            "path": "data/library/assets/images/window.jpg",
+            "sha256": "959ff3d89704a0224de3cf9ffac0a1ac2c5e5c0ceadd3cb2e906f8e6936d9fd6"
+        },
+        {
+            "path": "data/library/assets/images/working.jpg",
+            "sha256": "d8ef38ebe9f889491937f517ae19ed946151c514b34490a4748e7b89b5a135a2"
+        },
+        {
+            "path": "data/library/assets/images/writing.jpg",
+            "sha256": "6e37b87321ea6a18fd05f569b34a9bd9383337ebdb60ba93230fb10a36c3f7b0"
         },
         {
             "path": "data/library/content/alphabet/common.json",
@@ -2125,31 +2345,31 @@
         },
         {
             "path": "data/library/content/words/beginner-002.json",
-            "sha256": "e07e12f7807015aacbc0bbf6db1a25937bc74937e29f11ea1feda7077b5d4ca5"
+            "sha256": "e32e63b0f53c5a5a427955f91844d85da2fa498ddb447747f1bca07a238401ca"
         },
         {
             "path": "data/library/content/words/beginner-003.json",
-            "sha256": "c3d1a24af2c4ff1b7e616987bc7af2ae5cc89700e0e42e641c1553bbc7e13917"
+            "sha256": "9b0a80c20e59cee4b0cf1fef245003d164259a5e02dd76c1934fd670740f2b1e"
         },
         {
             "path": "data/library/content/words/beginner-004.json",
-            "sha256": "83e8e2c430f426b73fd9d36de45993ba92e6db3ce556452219865630cbd6850a"
+            "sha256": "d9cce296284cdedb0cc371820b32b9859796181437b5b6c0bd35785eea14ae8a"
         },
         {
             "path": "data/library/content/words/beginner-005.json",
-            "sha256": "979b893d14ee63f36782f71a3be26c7ebc02dd96a8add637328d70aced44ac17"
+            "sha256": "e7ca173c6bc9b275b896c00857a66283905a00e56c79425d33d65c338833a6e5"
         },
         {
             "path": "data/library/content/words/beginner-006.json",
-            "sha256": "3f293c7e5961dc0af4855ef7261762a745dfec418b156bcb4284730e7c6bbb80"
+            "sha256": "47f636530a30c1e988743ade97035da4ad8fe5e5e43acb754e344cc8e5654ac6"
         },
         {
             "path": "data/library/content/words/beginner-007.json",
-            "sha256": "d87ed92bd43bd2008a2205caec2cc7ca83ea351d5421b934ee2a77b264f229f9"
+            "sha256": "da96e95521c0289e9fb70a01a0b430baa0404a956c59e2a8ae148b37bb536638"
         },
         {
             "path": "data/library/content/words/beginner-008.json",
-            "sha256": "ac8f8575e7f6e747be41a066b79443424de76a46c34deb4e6f75beb7077d8fa9"
+            "sha256": "f723a136bbfb0ee288737aad04caa0fcadfda8ccbafe25125af4e605bc8e2c0c"
         },
         {
             "path": "data/library/content/words/beginner-009.json",
@@ -2157,7 +2377,7 @@
         },
         {
             "path": "data/library/content/words/beginner-010.json",
-            "sha256": "2aaf83ea81c3dd7220fd50602aed7e54fb4a5b6bed6a8aad7d3652d384f5c8fd"
+            "sha256": "c042e74b97d4fc7547052890792b39ba80dd73c409da9c70bd6a80cdfabb50a8"
         },
         {
             "path": "data/library/content/words/capitalized-001.json",
@@ -2165,7 +2385,7 @@
         },
         {
             "path": "data/library/content/words/common.json",
-            "sha256": "aca9fa29f4c949ceec651abcb936c04e94673ad8a268cd06235e6d514a938523"
+            "sha256": "d3579f8587a4023914979e1d113bdae3e249319343e4010dfbbe11fdaa8e3779"
         },
         {
             "path": "data/library/content/words/inflected-001.json",
@@ -2233,7 +2453,7 @@
         },
         {
             "path": "data/library/manifest.json",
-            "sha256": "91ae1e4e75e1764370efeeae276734d0f77ac4fdc9bec8f94008d38645f54fbc"
+            "sha256": "bf85c92eb0255cb1c5338a838c4eb26047c4df405a9d8260317a2374d5c8190d"
         },
         {
             "path": "data/library/schema.json",
@@ -3309,11 +3529,11 @@
         },
         {
             "path": "package-lock.json",
-            "sha256": "3f3765ed55981d6de53e9c3a8f2514640dae3b438b621e048d7524ae70cc0918"
+            "sha256": "191d74f720f88df21c1e7134d05a2303b2ca91d9cb738376c6ec8876906e1891"
         },
         {
             "path": "package.json",
-            "sha256": "d02dc307f0bb8f996d14144d45b986836b3c2d7df0544b4578bc8a57715daed1"
+            "sha256": "9648d66c0b0b4969aa8c15f8f2c0223df6d88220a45ee103052d5c16ce13038f"
         },
         {
             "path": "routes.json",
@@ -3349,7 +3569,7 @@
         },
         {
             "path": "tests/content-pack.test.js",
-            "sha256": "dab29d7a654590a795e28db9c7c9bad35fa984b9da6c6e102a01b37a1a5e86b7"
+            "sha256": "cf27716a6234107dc713b32a8cefad8a57a570142bb7245896f8309c6a4bacdf"
         },
         {
             "path": "tests/documentation-convention.test.js",
@@ -3365,7 +3585,7 @@
         },
         {
             "path": "tests/reference-images.test.js",
-            "sha256": "0713ab0dc99ba2a918f509b34442cc82e77683d16fd34d41deb94121d296d87a"
+            "sha256": "7ee3818b9cb4f3473ff963881723df01762d809c0fffd17c47341e3b79f8e274"
         },
         {
             "path": "tests/regression.test.js",

@@ -150,6 +150,10 @@ Optionale Bildlistenfelder, private Bild-Uploads und Detailgalerien ergänzen. B
 
 Mitgelieferte Sätze verwenden direkt erzeugte vollständige Satzaufnahmen vor zusammengesetztem Audio. Neue oder nicht aufgezeichnete Sätze nutzen die Zusammenstellung des Hosts mit exakt geordneten PCM-Bestandteilen und ausgewählten Transformationen; fehlende Varianten werden niemals durch die Grundform ersetzt. Die Aufnahmen decken das kuratierte Paket ab, nicht jeden Wörterbucheintrag oder möglichen selbst verfassten Satz. Enthält 45 neu erzeugte Satzaufnahmen mit Stimme `gJx1vCzNCD1EQHT212Ls`. Japanisch erzeugt 124 Kana-Clips neu und sendet Kana/Kanji statt Romaji. Anforderungen behalten dokumentierte stabile Modelle, Geschwindigkeit, Ähnlichkeit, Startwerte und Stimmnachweise.
 
+## Referenzfotos für Vokabeln
+
+63 kuratierte Vokabelkarten enthalten jetzt mitgelieferte Referenzfotos (55 Bilddateien). Alle konkreten Substantive sowie bildlich klare Handlungen und Eigenschaften sind abgedeckt; Grammatik, Pronomen und andere abstrakte Begriffe erhalten keine irreführenden Füllbilder. Japanische Homophone wie 花/鼻, 橋/箸, 雨/飴 und 紙/髪/神 verwenden unterschiedliche Referenzen. Die Bilder werden lokal in der vorhandenen Detailgalerie und Vollbildvorschau geladen. Quelltitel, Urheber, individuelle Creative-Commons- beziehungsweise Gemeinfreiheitslizenzen und Prüfsummen stehen im [Bildkatalog](../../data/library/assets/images/catalog.json) und in den [Bildnachweisen](../../data/library/assets/images/LICENSE.md). Eigene Kartenbilder bleiben beim erneuten Laden der Anbieter durch den Host geschützt.
+
 ## Commits
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)

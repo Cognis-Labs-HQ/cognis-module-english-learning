@@ -2,8 +2,8 @@
     "id": "english-core",
     "publisher": "Cognis Labs HQ",
     "namespace": "en",
-    "version": "22.1.1",
-    "contentRevision": "2026-10-17.neural-sentences",
+    "version": "22.1.2",
+    "contentRevision": "2026-10-17.vocabulary-photos",
     "schema": "schema.json",
     "content": "content",
     "license": {
@@ -26,7 +26,11 @@
                 "attribution": "Elf (original photograph), Djmirko (derivative)",
                 "derivedFields": ["words.reference_images"]
             }
-        ]
+        ],
+        "referenceImages": {
+            "catalog": "assets/images/catalog.json",
+            "attribution": "assets/images/LICENSE.md"
+        }
     },
     "assets": "assets"
 }
