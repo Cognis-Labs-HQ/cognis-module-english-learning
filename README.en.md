@@ -42,6 +42,10 @@ Bootstrap registers a removable `study:audio:provider.registerProvider` implemen
 
 Generated files use 24 kHz mono 16-bit PCM with bounded peaks and verified non-silent output. Requests use fixed per-language models, speed 0.9, similarity 0.85 and style 0; stability is 0.75 for English and 0.9 for Japanese. Seeds are retained per request; rejected silent outputs are recorded and retried without changing voices. English uses IPA phoneme tags where authored. The content manifest declares its packaged asset directory and advances the content-pack version for installation.
 
-## Vocabulary Reference Photos
+## Vocabulary Illustrations
 
-63 curated vocabulary cards now have bundled reference photographs (55 image files). Coverage includes every concrete noun plus visually clear actions and qualities; grammar, pronouns and other abstract concepts do not receive misleading filler images. Japanese homophones such as 花/鼻, 橋/箸, 雨/飴 and 紙/髪/神 use distinct references. Images load locally through the existing card detail gallery and full-image preview. Source titles, creators, individual Creative Commons/public-domain licenses and file checksums are recorded in [the image catalog](data/library/assets/images/catalog.json) and [photo credits](data/library/assets/images/LICENSE.md). Existing custom card images remain protected by the host during provider reloads.
+Every shipped vocabulary card now has its own generated colored-pencil and watercolor illustration (160 cards). Concrete objects, actions and contextual scenes for abstract concepts use the existing card-detail gallery and full-image popup. The old source photographs have been replaced. [The image catalog](data/library/assets/images/catalog.json) records generation source, style, crop provenance, checksums and card assignments; [image licensing](data/library/assets/images/LICENSE.md) describes the bundled artwork. Images load locally, and the host preserves custom user images during provider reloads.
+
+## Household Vocabulary
+
+Fifteen everyday nouns cover furniture, clothing, objects and food, with four-language meanings, pronunciation links, dedicated recordings and a Household Essentials deck. English countable nouns include recorded plural transformations, including unchanged plural fish; rice remains a mass noun. Japanese beginner spellings link complete readings to atomic kana, including the long-vowel mark ー used in テーブル and コート.

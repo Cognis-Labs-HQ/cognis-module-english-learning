@@ -2,8 +2,8 @@
     "id": "english-core",
     "publisher": "Cognis Labs HQ",
     "namespace": "en",
-    "version": "22.1.2",
-    "contentRevision": "2026-10-17.vocabulary-photos",
+    "version": "23.0.0",
+    "contentRevision": "2026-10-18.illustrated-household",
     "schema": "schema.json",
     "content": "content",
     "license": {
@@ -18,18 +18,11 @@
             "featured": true
         },
         "tags": ["english", "study"],
-        "sources": [
-            {
-                "id": "wikimedia-labrador",
-                "url": "https://commons.wikimedia.org/wiki/File:YellowLabradorLooking_new.jpg",
-                "license": "CC-BY-SA-3.0",
-                "attribution": "Elf (original photograph), Djmirko (derivative)",
-                "derivedFields": ["words.reference_images"]
-            }
-        ],
+        "sources": [],
         "referenceImages": {
             "catalog": "assets/images/catalog.json",
-            "attribution": "assets/images/LICENSE.md"
+            "attribution": "assets/images/LICENSE.md",
+            "style": "colored-pencil-watercolor"
         }
     },
     "assets": "assets"

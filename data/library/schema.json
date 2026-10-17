@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 22,
+    "version": 23,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -7178,6 +7178,636 @@
                     "pronunciation": {
                         "removeSuffix": "/deɪ/",
                         "append": "/deɪz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-table",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-table"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "table",
+                    "append": "tables",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈteɪbəl/",
+                        "append": "/ˈteɪbəlz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-chair",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-chair"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "chair",
+                    "append": "chairs",
+                    "pronunciation": {
+                        "removeSuffix": "/tʃeə/",
+                        "append": "/tʃeəz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-bed",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-bed"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "bed",
+                    "append": "beds",
+                    "pronunciation": {
+                        "removeSuffix": "/bed/",
+                        "append": "/bedz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-bag",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-bag"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "bag",
+                    "append": "bags",
+                    "pronunciation": {
+                        "removeSuffix": "/bæɡ/",
+                        "append": "/bæɡz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-shoe",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-shoe"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "shoe",
+                    "append": "shoes",
+                    "pronunciation": {
+                        "removeSuffix": "/ʃuː/",
+                        "append": "/ʃuːz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-hat",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-hat"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "hat",
+                    "append": "hats",
+                    "pronunciation": {
+                        "removeSuffix": "/hæt/",
+                        "append": "/hæts/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-coat",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-coat"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "coat",
+                    "append": "coats",
+                    "pronunciation": {
+                        "removeSuffix": "/kəʊt/",
+                        "append": "/kəʊts/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-key",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-key"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "key",
+                    "append": "keys",
+                    "pronunciation": {
+                        "removeSuffix": "/kiː/",
+                        "append": "/kiːz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-phone",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-phone"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "phone",
+                    "append": "phones",
+                    "pronunciation": {
+                        "removeSuffix": "/fəʊn/",
+                        "append": "/fəʊnz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-computer",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-computer"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "computer",
+                    "append": "computers",
+                    "pronunciation": {
+                        "removeSuffix": "/kəmˈpjuːtə/",
+                        "append": "/kəmˈpjuːtəz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-clock",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-clock"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "clock",
+                    "append": "clocks",
+                    "pronunciation": {
+                        "removeSuffix": "/klɒk/",
+                        "append": "/klɒks/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-umbrella",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-umbrella"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "umbrella",
+                    "append": "umbrellas",
+                    "pronunciation": {
+                        "removeSuffix": "/ʌmˈbrelə/",
+                        "append": "/ʌmˈbreləz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-egg",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-egg"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "egg",
+                    "append": "eggs",
+                    "pronunciation": {
+                        "removeSuffix": "/eɡ/",
+                        "append": "/eɡz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-fish",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-fish"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "fish",
+                    "append": "fish",
+                    "pronunciation": {
+                        "removeSuffix": "/fɪʃ/",
+                        "append": "/fɪʃ/"
                     },
                     "definitionTransform": {
                         "template": {

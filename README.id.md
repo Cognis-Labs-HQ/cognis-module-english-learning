@@ -42,6 +42,10 @@ Bootstrap mendaftarkan penyedia yang dapat dilepas melalui `study:audio:provider
 
 Berkas memakai PCM mono 24 kHz 16 bit dengan puncak terbatas dan keluaran yang dipastikan tidak hening. Permintaan memakai model tetap per bahasa, kecepatan 0,9, kemiripan 0,85, serta gaya 0; stabilitasnya 0,75 untuk bahasa Inggris dan 0,9 untuk bahasa Jepang. Nilai seed disimpan per permintaan; keluaran hening yang ditolak dicatat dan dicoba ulang tanpa mengganti suara. Bahasa Inggris memakai tag fonem IPA yang ditulis dalam data. Manifes konten menyatakan direktori aset paket dan menaikkan versi paket untuk instalasi.
 
-## Foto Referensi Kosakata
+## Ilustrasi Kosakata
 
-63 kartu kosakata terkurasi kini memiliki foto referensi bawaan (55 berkas gambar). Cakupan meliputi semua nomina konkret serta tindakan dan sifat yang jelas secara visual; tata bahasa, pronomina, dan konsep abstrak tidak diberi gambar pengisi yang menyesatkan. Homofon Jepang seperti 花/鼻, 橋/箸, 雨/飴, dan 紙/髪/神 memakai referensi berbeda. Gambar dimuat secara lokal melalui galeri detail kartu dan pratinjau gambar penuh yang sudah ada. Judul sumber, pembuat, lisensi Creative Commons/domain publik per gambar, serta checksum dicatat dalam [katalog gambar](data/library/assets/images/catalog.json) dan [kredit foto](data/library/assets/images/LICENSE.md). Gambar kartu khusus pengguna tetap dilindungi host saat penyedia dimuat ulang.
+Setiap kartu kosakata bawaan kini memiliki ilustrasi tersendiri yang dihasilkan dengan gaya pensil warna dan cat air (160 kartu). Benda konkret, tindakan, dan adegan kontekstual untuk konsep abstrak ditampilkan melalui galeri detail kartu dan popup gambar yang sudah ada. Foto sumber lama telah diganti. [Katalog gambar](data/library/assets/images/catalog.json) mencatat sumber pembuatan, gaya, asal potongan, checksum, dan pemetaan kartu; [lisensi gambar](data/library/assets/images/LICENSE.md) menjelaskan karya bawaan. Gambar dimuat secara lokal, dan host mempertahankan gambar khusus pengguna saat penyedia dimuat ulang.
+
+## Kosakata Rumah Tangga
+
+Lima belas nomina sehari-hari mencakup furnitur, pakaian, benda, dan makanan, dilengkapi makna dalam empat bahasa, tautan pelafalan, rekaman khusus, serta dek Benda Sehari-hari. Nomina bahasa Inggris yang dapat dihitung menyertakan transformasi jamak dengan rekaman, termasuk fish yang tidak berubah; rice tetap nomina tak terhitung. Ejaan Jepang untuk pemula menautkan bacaan lengkap ke kana atomik, termasuk tanda vokal panjang ー dalam テーブル dan コート.
