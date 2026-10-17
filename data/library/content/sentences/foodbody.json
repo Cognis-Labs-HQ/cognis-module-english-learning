@@ -1,0 +1,148 @@
+[
+    {
+        "id": "en:sentence:i-eat-a-banana",
+        "label": "I eat a banana.",
+        "class": "composite",
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:eat",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:banana",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:i-eat-a-banana",
+                "relation": "definitions"
+            }
+        ],
+        "fields": {
+            "audio": "audio/837c83ac2b1535981662285ce8dfe4a84692414ea89f53478c0cd3fcb6840ab1.wav"
+        }
+    },
+    {
+        "id": "en:sentence:we-need-soup",
+        "label": "We need soup.",
+        "class": "composite",
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:need",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:soup",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:sentence:we-need-soup",
+                "relation": "definitions"
+            }
+        ],
+        "fields": {
+            "audio": "audio/8801646e565eb9818595b9fb5043e509bcb06f26e2421db227b8842b6954dd3b.wav"
+        }
+    },
+    {
+        "id": "en:sentence:they-like-cheese",
+        "label": "They like cheese.",
+        "class": "composite",
+        "references": [
+            {
+                "entryId": "en:word:capital-they",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:like",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:cheese",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:sentence:they-like-cheese",
+                "relation": "definitions"
+            }
+        ],
+        "fields": {
+            "audio": "audio/cb8f832001a6e039fbca7a7031590ef325a32cb9b38bf7b130aaa994aa4b594c.wav"
+        }
+    },
+    {
+        "id": "en:sentence:you-have-a-mouth",
+        "label": "You have a mouth.",
+        "class": "composite",
+        "references": [
+            {
+                "entryId": "en:word:capital-you",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:have",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:mouth",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:you-have-a-mouth",
+                "relation": "definitions"
+            }
+        ],
+        "fields": {
+            "audio": "audio/719baf9575836fa2c407b12ced42ec104a70a772cdbb7e28f4b76b4ba0e81003.wav"
+        }
+    }
+]

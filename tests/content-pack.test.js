@@ -43,8 +43,8 @@ test("pack declares a stable English namespace and usable provider schema", () =
     assert.equal(manifest.protected, true);
     assert.equal(schema.id, "english");
     assert.equal(schema.language, "en");
-    assert.equal(schema.version, 23);
-    assert.equal(manifest.version, "23.0.0");
+    assert.equal(schema.version, 24);
+    assert.equal(manifest.version, "24.0.0");
     assert.equal(schema.metadata.provider.moduleId, "study-language-en");
     assert.equal(entries.size, [...layers.values()].flat().length);
     for (const layer of schema.layers) {
@@ -133,7 +133,7 @@ test("alphabet variants and letter combinations carry complete normalized writin
 
 test("beginner vocabulary and grammar resolve genuine localized meanings and spellings", async () => {
     const vocabulary = layers.get("words").filter(({ hidden }) => !hidden);
-    assert.equal(vocabulary.length, 160);
+    assert.equal(vocabulary.length, 192);
     assert.equal(layers.get("particles").length, 21);
     for (const record of vocabulary) {
         const spellings = record.references
@@ -171,8 +171,8 @@ test("beginner vocabulary and grammar resolve genuine localized meanings and spe
         assert.equal(record.editable, false);
 });
 
-test("all 45 sentences preserve every ordered word, inflection, and punctuation", () => {
-    assert.equal(layers.get("sentences").length, 45);
+test("all 49 sentences preserve every ordered word, inflection, and punctuation", () => {
+    assert.equal(layers.get("sentences").length, 49);
     for (const sentence of layers.get("sentences")) {
         const constituents = sentence.references
             .filter(({ relation }) => relation !== "definitions")
@@ -189,7 +189,7 @@ test("all 45 sentences preserve every ordered word, inflection, and punctuation"
 });
 
 test("curated transformations cover irregular verbs and contextual IPA", () => {
-    assert.equal(schema.transformSets.length, 83);
+    assert.equal(schema.transformSets.length, 108);
     const findForm = (word, ruleId) =>
         schema.transformSets
             .find(({ id }) => id === `english-${word}`)
@@ -220,7 +220,7 @@ test("curated transformations cover irregular verbs and contextual IPA", () => {
 
 test("starter decks use visible records from the published schema", async () => {
     const decks = JSON.parse(await readFile("data/starter-decks.json", "utf8"));
-    assert.equal(decks.length, 8);
+    assert.equal(decks.length, 10);
     for (const deck of decks) {
         assert.equal(deck.schemaId, schema.id);
         assert.equal(Object.keys(deck.name).length, 4);
