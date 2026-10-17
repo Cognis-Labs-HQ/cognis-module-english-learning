@@ -15,3 +15,7 @@ Makna mengikuti urutan penyedia; entri kosong dan duplikat dibuang, maksimal sep
 404 menghasilkan kecocokan paket nyata atau hasil kosong. Kegagalan jaringan, server dan penguraian dicatat secara aman dan diteruskan ke Cognis. Indeks konten yang gagal dapat dicoba ulang. Modul tidak menyimpan atau menjadwalkan hasil kueri; Cognis menangani pemeriksaan satu jam, publikasi perubahan dua belas jam dan hasil persisten.
 
 Definisi eksternal tetap Inggris; lokalisasi host dapat menerjemahkan. `dictionary_data` tersembunyi memuat alamat layanan, lisensi dan sumber Wiktionary yang diizinkan, bukan respons mentah lengkap. Hasil dapat memiliki kewajiban CC BY-SA 3.0 dan atribusi Wiktionary; pertahankan saat menggunakan ulang definisi. Beberapa kelas kata bisa muncul pada ejaan sama. Layanan tidak menyediakan paradigma infleksi otoritatif.
+
+## Kontrol Belajar Tersimpan
+
+Katalog referensi bawaan bernama Open English WordNet. Rekaman khusus mencakup seluruh 32 bentuk jamak nomina bawaan. Pemutaran bentuk terpilih mencari setiap varian melalui label dan bacaan utamanya; bentuk yang tidak tersedia tidak diganti dengan rekaman dasar.

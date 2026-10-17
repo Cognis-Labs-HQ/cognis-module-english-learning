@@ -138,6 +138,10 @@ Remove the unused asset-directory declaration from the data-only content pack an
 
 Package designated-language recordings for every spoken curated card and reachable plural or verb/adverb variant. Sentence WAV files reuse exact ordered constituent PCM, including selected transformations. Voice/model/request provenance, digests and silence checks are recorded; no credentials are bundled.
 
+## Saved Study Controls
+
+The bundled reference catalog is named Open English WordNet. Dedicated recordings cover all 32 curated noun plural forms. Selected-form playback resolves each variant by its label and preferred reading; missing forms never substitute a base recording.
+
 ## Commits
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)

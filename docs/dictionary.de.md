@@ -15,3 +15,7 @@ Bedeutungen behalten die Anbieterreihenfolge; leere und doppelte Einträge werde
 404 liefert einen echten Paketreffer oder keine Ergebnisse. Netz-, Server- und Parserfehler werden sicher protokolliert und an Cognis gemeldet. Fehlgeschlagene Inhaltsindizes können erneut geladen werden. Suchergebnisse werden nicht im Modul zwischengespeichert oder zeitgesteuert; Cognis verwaltet Stundenprüfungen, Veröffentlichung nach zwölf Stunden und dauerhafte Ergebnisse.
 
 Externe Definitionen bleiben Englisch; die Host-Lokalisierung kann sie übersetzen. Das verborgene Feld `dictionary_data` enthält Endpunkt, Lizenz und zugelassene Wiktionary-Quellen statt der Rohantwort. Ergebnisse können CC BY-SA 3.0 und Wiktionary-Quellenangaben erfordern; diese Pflichten gelten bei Weiterverwendung. Mehrere Wortarten unter derselben Schreibweise sind möglich. Der Dienst liefert keine verbindlichen Flexionsparadigmen.
+
+## Gespeicherte Lernsteuerung
+
+Der mitgelieferte Referenzkatalog heißt Open English WordNet. Für alle 32 mitgelieferten Substantiv-Pluralformen gibt es eigene Aufnahmen. Die Wiedergabe der gewählten Form löst jede Variante über Bezeichnung und bevorzugte Lesung auf; fehlende Formen werden niemals durch die Basisaufnahme ersetzt.

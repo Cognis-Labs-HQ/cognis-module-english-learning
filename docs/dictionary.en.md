@@ -15,3 +15,7 @@ Meanings retain provider order, remove duplicate/empty glosses and stop at ten. 
 A 404 returns a genuine packaged match, or no results. Server/network/parse failures are logged safely and reported to Cognis. Failed loads discard the immutable index promise so later attempts can retry. Query results are never cached or scheduled by the module: Cognis owns one-hour probes, twelve-hour changed-result publication and persisted results.
 
 Definitions received from the service remain English. Cognis may translate through its localization capability. `dictionary_data` is hidden from card details and retains the endpoint, declared license and approved Wiktionary sources rather than the complete raw response. Results may carry CC BY-SA 3.0 and Wiktionary attribution; preserve those obligations when reusing external definitions. The service may provide multiple parts of speech under one spelling and does not publish authoritative inflection paradigms.
+
+## Saved Study Controls
+
+The bundled reference catalog is named Open English WordNet. Dedicated recordings cover all 32 curated noun plural forms. Selected-form playback resolves each variant by its label and preferred reading; missing forms never substitute a base recording.

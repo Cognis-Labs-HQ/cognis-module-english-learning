@@ -138,6 +138,10 @@ Die ungenutzte Medienverzeichnis-Deklaration aus dem reinen Datenpaket entfernen
 
 Festgelegte Sprachaufnahmen werden für jede vertonte kuratierte Karte und jede erreichbare Plural-, Verb- oder Adverbform mitgeliefert. Satz-WAV-Dateien verwenden exakt die geordneten PCM-Daten der Bestandteile einschließlich ausgewählter Transformationen. Stimme, Modell, Anforderungen, Prüfsummen und Stilleprüfungen sind dokumentiert; Zugangsdaten werden nicht mitgeliefert.
 
+## Gespeicherte Lernsteuerung
+
+Der mitgelieferte Referenzkatalog heißt Open English WordNet. Für alle 32 mitgelieferten Substantiv-Pluralformen gibt es eigene Aufnahmen. Die Wiedergabe der gewählten Form löst jede Variante über Bezeichnung und bevorzugte Lesung auf; fehlende Formen werden niemals durch die Basisaufnahme ersetzt.
+
 ## Commits
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)

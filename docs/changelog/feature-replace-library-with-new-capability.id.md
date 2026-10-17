@@ -138,6 +138,10 @@ Hapus deklarasi direktori aset yang tidak digunakan dari paket konten khusus dat
 
 Rekaman dengan suara khusus bahasa disertakan untuk semua kartu terkurasi yang bersuara serta varian jamak atau verba/adverbia yang dapat dicapai. WAV kalimat memakai PCM penyusun yang sama persis sesuai urutan dan transformasi terpilih. Asal suara, model, permintaan, checksum, dan pemeriksaan keheningan dicatat tanpa menyertakan kredensial.
 
+## Kontrol Belajar Tersimpan
+
+Katalog referensi bawaan bernama Open English WordNet. Rekaman khusus mencakup seluruh 32 bentuk jamak nomina bawaan. Pemutaran bentuk terpilih mencari setiap varian melalui label dan bacaan utamanya; bentuk yang tidak tersedia tidak diganti dengan rekaman dasar.
+
 ## Komit
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)
