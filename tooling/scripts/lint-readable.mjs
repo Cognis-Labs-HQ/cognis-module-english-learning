@@ -1,6 +1,8 @@
 import { readFileSync, readdirSync, statSync } from "node:fs";
 import { join, relative, resolve } from "node:path";
 
+import { declarationSpacingIssues } from "./declaration-spacing.mjs";
+
 const ROOT = resolve(process.cwd());
 const ignoredDirectories = new Set([".git", "node_modules"]);
 const sourceExtensions = new Set([".js", ".mjs", ".css", ".html"]);
@@ -20,6 +22,14 @@ function walk(directory) {
             continue;
         }
         const source = readFileSync(path, "utf8");
+        if (/\.m?js$/.test(path)) {
+            for (const line of declarationSpacingIssues(source))
+                violations.push(
+                    `${relative(ROOT, path)}:${line}: missing blank declaration boundary`,
+                );
+        }
+        if (source.split("\n").some((line) => /[ \t]+$/.test(line)))
+            violations.push(`${relative(ROOT, path)}: trailing whitespace`);
         if (source.includes("\t")) {
             violations.push(
                 `${relative(ROOT, path)}: contains tab indentation`,

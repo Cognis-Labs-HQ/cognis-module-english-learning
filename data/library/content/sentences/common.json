@@ -1,0 +1,41 @@
+[
+    {
+        "id": "en:sentence:i-do-not-run",
+        "label": "I do not run.",
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:do",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:not",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:run",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:i-do-not-run",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite",
+        "fields": {
+            "audio": "audio/eb3f707fbab15b5eda4cca4d5d7cb8a361fe80d687325a9662f089467b8ee9ed.wav"
+        }
+    }
+]

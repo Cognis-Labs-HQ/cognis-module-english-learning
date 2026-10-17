@@ -1,0 +1,1364 @@
+[
+    {
+        "id": "en:composite:ai",
+        "label": "ai",
+        "fields": {
+            "pronunciation": ["/eɪ/"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.35,
+                                "y": 0.45,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.275,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.175,
+                                "y": 0.4,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.55,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.7,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.275,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.65,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.35,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.8,
+                                "time": 360
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.4,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.2,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.22,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1, 2],
+                "columns": 2
+            },
+            "audio": "audio/c6d3ee41c0d18e5af05e1fda44e7c35f2251739f5a5ef697d60311d7737e3aef.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "composition",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "composition",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:composite:ai",
+                "relation": "definitions"
+            }
+        ],
+        "class": "writing:digraph"
+    },
+    {
+        "id": "en:composite:ee",
+        "label": "ee",
+        "fields": {
+            "pronunciation": ["/iː/"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.125,
+                                "y": 0.55,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.375,
+                                "y": 0.55,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.4,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.275,
+                                "y": 0.35,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.35,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.5,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.65,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.8,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.8,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.375,
+                                "y": 0.7,
+                                "time": 360
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.625,
+                                "y": 0.55,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.875,
+                                "y": 0.55,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.85,
+                                "y": 0.4,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.775,
+                                "y": 0.35,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.35,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.625,
+                                "y": 0.5,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.625,
+                                "y": 0.65,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.8,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.8,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.875,
+                                "y": 0.7,
+                                "time": 360
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1, 1],
+                "columns": 2
+            },
+            "audio": "audio/1e83b626d42053dfbf1523deacfd4d8d7b617329305ccc0e2dd9f3b4beb257f6.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "composition",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "composition",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:composite:ee",
+                "relation": "definitions"
+            }
+        ],
+        "class": "writing:digraph"
+    },
+    {
+        "id": "en:composite:oa",
+        "label": "oa",
+        "fields": {
+            "pronunciation": ["/əʊ/"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.175,
+                                "y": 0.4,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.55,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.65,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.175,
+                                "y": 0.8,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.325,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.375,
+                                "y": 0.65,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.375,
+                                "y": 0.55,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.325,
+                                "y": 0.4,
+                                "time": 360
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 400
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.85,
+                                "y": 0.45,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.775,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.675,
+                                "y": 0.4,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.625,
+                                "y": 0.55,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.625,
+                                "y": 0.7,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.775,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.85,
+                                "y": 0.65,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.85,
+                                "y": 0.35,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.85,
+                                "y": 0.8,
+                                "time": 360
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1, 1],
+                "columns": 2
+            },
+            "audio": "audio/f578d95d01bd6de50ae6b7366cc9cc4b7d69028c75e209968002afa6c4d0e167.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "composition",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "composition",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:composite:oa",
+                "relation": "definitions"
+            }
+        ],
+        "class": "writing:digraph"
+    },
+    {
+        "id": "en:composite:oo",
+        "label": "oo",
+        "fields": {
+            "pronunciation": ["/uː/"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.175,
+                                "y": 0.4,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.55,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.65,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.175,
+                                "y": 0.8,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.325,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.375,
+                                "y": 0.65,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.375,
+                                "y": 0.55,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.325,
+                                "y": 0.4,
+                                "time": 360
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 400
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.675,
+                                "y": 0.4,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.625,
+                                "y": 0.55,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.625,
+                                "y": 0.65,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.675,
+                                "y": 0.8,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.85,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.825,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.875,
+                                "y": 0.65,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.875,
+                                "y": 0.55,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.825,
+                                "y": 0.4,
+                                "time": 360
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.35,
+                                "time": 400
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1, 1],
+                "columns": 2
+            },
+            "audio": "audio/b9daff8842573b1b7b94bf05c00cc9d2e36cfaad29e7089b50ab6a0c15a7b89f.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "composition",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "composition",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:composite:oo",
+                "relation": "definitions"
+            }
+        ],
+        "class": "writing:digraph"
+    },
+    {
+        "id": "en:composite:ou",
+        "label": "ou",
+        "fields": {
+            "pronunciation": ["/aʊ/"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.175,
+                                "y": 0.4,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.55,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.65,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.175,
+                                "y": 0.8,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.325,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.375,
+                                "y": 0.65,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.375,
+                                "y": 0.55,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.325,
+                                "y": 0.4,
+                                "time": 360
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 400
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.625,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.625,
+                                "y": 0.65,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.8,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.775,
+                                "y": 0.8,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.875,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.875,
+                                "y": 0.35,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.875,
+                                "y": 0.8,
+                                "time": 240
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1, 1],
+                "columns": 2
+            },
+            "audio": "audio/54a5b80a544f4fd393a7fbbf46e66a18fb1f8283e165c52136ca4e7fc4e7c5fc.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "composition",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "composition",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:composite:ou",
+                "relation": "definitions"
+            }
+        ],
+        "class": "writing:digraph"
+    },
+    {
+        "id": "en:composite:oi",
+        "label": "oi",
+        "fields": {
+            "pronunciation": ["/ɔɪ/"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.175,
+                                "y": 0.4,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.55,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.65,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.175,
+                                "y": 0.8,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.325,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.375,
+                                "y": 0.65,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.375,
+                                "y": 0.55,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.325,
+                                "y": 0.4,
+                                "time": 360
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 400
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.4,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.2,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.22,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1, 2],
+                "columns": 2
+            },
+            "audio": "audio/ab59ec887b85e2add29fdb6e1dd18b1afab849f42e546968d4eead9945280017.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "composition",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "composition",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:composite:oi",
+                "relation": "definitions"
+            }
+        ],
+        "class": "writing:digraph"
+    },
+    {
+        "id": "en:composite:ar",
+        "label": "ar",
+        "fields": {
+            "pronunciation": ["/ɑː/"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.35,
+                                "y": 0.45,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.275,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.175,
+                                "y": 0.4,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.55,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.7,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.275,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.65,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.35,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.8,
+                                "time": 360
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.65,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.65,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.725,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.85,
+                                "y": 0.4,
+                                "time": 120
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1, 2],
+                "columns": 2
+            },
+            "audio": "audio/8ea7c7746fa4332ffbf31ddebc622458f68c291739015909ea8bb3ab5ce7212b.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "composition",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "composition",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:composite:ar",
+                "relation": "definitions"
+            }
+        ],
+        "class": "writing:digraph"
+    },
+    {
+        "id": "en:composite:er",
+        "label": "er",
+        "fields": {
+            "pronunciation": ["/ɜː/"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.125,
+                                "y": 0.55,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.375,
+                                "y": 0.55,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.4,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.275,
+                                "y": 0.35,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.35,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.5,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.65,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.8,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.8,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.375,
+                                "y": 0.7,
+                                "time": 360
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.65,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.65,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.725,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.85,
+                                "y": 0.4,
+                                "time": 120
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1, 2],
+                "columns": 2
+            },
+            "audio": "audio/818946c979708998399dd5a5177d1bfff5d6cd912197c692bc3222c3a98f3e94.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "composition",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "composition",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:composite:er",
+                "relation": "definitions"
+            }
+        ],
+        "class": "writing:digraph"
+    },
+    {
+        "id": "en:composite:or",
+        "label": "or",
+        "fields": {
+            "pronunciation": ["/ɔː/"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.175,
+                                "y": 0.4,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.55,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.65,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.175,
+                                "y": 0.8,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.325,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.375,
+                                "y": 0.65,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.375,
+                                "y": 0.55,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.325,
+                                "y": 0.4,
+                                "time": 360
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 400
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.65,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.65,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.725,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.85,
+                                "y": 0.4,
+                                "time": 120
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1, 2],
+                "columns": 2
+            },
+            "audio": "audio/1c2d41aae6f9ce1802b74370b68bee5da42309e56c8b3d9d504a733cbc5c5387.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "composition",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "composition",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:composite:or",
+                "relation": "definitions"
+            }
+        ],
+        "class": "writing:digraph"
+    },
+    {
+        "id": "en:composite:igh",
+        "label": "igh",
+        "fields": {
+            "pronunciation": ["/aɪ/"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.1667,
+                                "y": 0.4,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.1667,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.1667,
+                                "y": 0.2,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.1667,
+                                "y": 0.22,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.5667,
+                                "y": 0.45,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.5167,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.45,
+                                "y": 0.4,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.4167,
+                                "y": 0.55,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.4167,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.4667,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.5167,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.5667,
+                                "y": 0.65,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.5667,
+                                "y": 0.35,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.5667,
+                                "y": 0.85,
+                                "time": 360
+                            },
+                            {
+                                "x": 0.5167,
+                                "y": 0.95,
+                                "time": 400
+                            },
+                            {
+                                "x": 0.45,
+                                "y": 0.95,
+                                "time": 440
+                            },
+                            {
+                                "x": 0.4167,
+                                "y": 0.9,
+                                "time": 480
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.8667,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.9167,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.9167,
+                                "y": 0.8,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2, 1, 2],
+                "columns": 3
+            },
+            "audio": "audio/9a09e003323aeed8320d74e1333a111431dadf34e443ad7cb94d3d9ccb6ba25a.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "composition",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "composition",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "composition",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:composite:igh",
+                "relation": "definitions"
+            }
+        ],
+        "class": "writing:trigraph"
+    }
+]
