@@ -177,3 +177,4 @@ Mitgelieferte Sätze verwenden direkt erzeugte vollständige Satzaufnahmen vor z
 - [1c31c7c](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/1c31c7cb63c6d377a1059e1206b928cc4716068c)
 - [3dfd7f1](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/3dfd7f1e52402dbc876c5011c75c066cb0f1c1d9)
 - [1ae45ef](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/1ae45efa393bd95002a2622e9d871a66fa1eab12)
+- [f79d59e](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/f79d59e97f4bcad73be1ba89090b0e1370d2e7e5)
