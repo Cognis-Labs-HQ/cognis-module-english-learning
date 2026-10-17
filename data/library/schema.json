@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 21,
+    "version": 22,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -135,6 +135,21 @@
                     "input": {
                         "control": "strokePattern"
                     }
+                },
+                {
+                    "id": "reference_images",
+                    "type": "imageList",
+                    "metadata": {
+                        "labels": {
+                            "en": "Reference Images",
+                            "de": "Referenzbilder",
+                            "ja": "参考画像",
+                            "id": "Gambar Referensi"
+                        }
+                    },
+                    "input": {
+                        "control": "imageFiles"
+                    }
                 }
             ],
             "detail": {
@@ -209,7 +224,8 @@
                     "pronunciation",
                     "audio",
                     "stroke_pattern",
-                    "letter_sounds"
+                    "letter_sounds",
+                    "reference_images"
                 ],
                 "relationships": ["definition", "variant-of"],
                 "input_carousels": [],
@@ -297,6 +313,21 @@
                     "input": {
                         "control": "strokePattern"
                     }
+                },
+                {
+                    "id": "reference_images",
+                    "type": "imageList",
+                    "metadata": {
+                        "labels": {
+                            "en": "Reference Images",
+                            "de": "Referenzbilder",
+                            "ja": "参考画像",
+                            "id": "Gambar Referensi"
+                        }
+                    },
+                    "input": {
+                        "control": "imageFiles"
+                    }
                 }
             ],
             "detail": {
@@ -354,7 +385,12 @@
                         "ja": "文字の組み合わせ"
                     }
                 },
-                "fields": ["pronunciation", "audio", "stroke_pattern"],
+                "fields": [
+                    "pronunciation",
+                    "audio",
+                    "stroke_pattern",
+                    "reference_images"
+                ],
                 "relationships": ["composition", "definitions"],
                 "input_carousels": ["alphabet"],
                 "pronunciation_carousels": []
@@ -418,6 +454,21 @@
                     "input": {
                         "control": "localizedText",
                         "immutable": false
+                    }
+                },
+                {
+                    "id": "reference_images",
+                    "type": "imageList",
+                    "metadata": {
+                        "labels": {
+                            "en": "Reference Images",
+                            "de": "Referenzbilder",
+                            "ja": "参考画像",
+                            "id": "Gambar Referensi"
+                        }
+                    },
+                    "input": {
+                        "control": "imageFiles"
                     }
                 }
             ],
@@ -646,6 +697,21 @@
                             "prefix": "en/"
                         }
                     }
+                },
+                {
+                    "id": "reference_images",
+                    "type": "imageList",
+                    "metadata": {
+                        "labels": {
+                            "en": "Reference Images",
+                            "de": "Referenzbilder",
+                            "ja": "参考画像",
+                            "id": "Gambar Referensi"
+                        }
+                    },
+                    "input": {
+                        "control": "imageFiles"
+                    }
                 }
             ],
             "relationships": [
@@ -714,7 +780,12 @@
                         "ja": "単語"
                     }
                 },
-                "fields": ["part_of_speech", "pronunciation", "audio"],
+                "fields": [
+                    "part_of_speech",
+                    "pronunciation",
+                    "audio",
+                    "reference_images"
+                ],
                 "relationships": ["spelling", "definitions"],
                 "input_carousels": ["alphabet"],
                 "pronunciation_carousels": [],
@@ -896,6 +967,21 @@
                             "prefix": "en/"
                         }
                     }
+                },
+                {
+                    "id": "reference_images",
+                    "type": "imageList",
+                    "metadata": {
+                        "labels": {
+                            "en": "Reference Images",
+                            "de": "Referenzbilder",
+                            "ja": "参考画像",
+                            "id": "Gambar Referensi"
+                        }
+                    },
+                    "input": {
+                        "control": "imageFiles"
+                    }
                 }
             ],
             "relationships": [
@@ -1003,7 +1089,7 @@
                         "ja": "文"
                     }
                 },
-                "fields": [],
+                "fields": ["reference_images"],
                 "relationships": ["words", "particles", "definitions"],
                 "input_carousels": ["words", "particles"],
                 "pronunciation_carousels": [],
@@ -1060,6 +1146,21 @@
                             "namespace": "study-library-audio",
                             "prefix": "en/"
                         }
+                    }
+                },
+                {
+                    "id": "reference_images",
+                    "type": "imageList",
+                    "metadata": {
+                        "labels": {
+                            "en": "Reference Images",
+                            "de": "Referenzbilder",
+                            "ja": "参考画像",
+                            "id": "Gambar Referensi"
+                        }
+                    },
+                    "input": {
+                        "control": "imageFiles"
                     }
                 }
             ]

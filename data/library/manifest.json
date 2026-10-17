@@ -2,8 +2,8 @@
     "id": "english-core",
     "publisher": "Cognis Labs HQ",
     "namespace": "en",
-    "version": "22.0.2",
-    "contentRevision": "2026-10-16.locked-voice-recordings.variants",
+    "version": "22.1.0",
+    "contentRevision": "2026-10-17.reference-images",
     "schema": "schema.json",
     "content": "content",
     "license": {
@@ -17,7 +17,16 @@
             "category": "language",
             "featured": true
         },
-        "tags": ["english", "study"]
+        "tags": ["english", "study"],
+        "sources": [
+            {
+                "id": "wikimedia-labrador",
+                "url": "https://commons.wikimedia.org/wiki/File:YellowLabradorLooking_new.jpg",
+                "license": "CC-BY-SA-3.0",
+                "attribution": "Elf (original photograph), Djmirko (derivative)",
+                "derivedFields": ["words.reference_images"]
+            }
+        ]
     },
     "assets": "assets"
 }

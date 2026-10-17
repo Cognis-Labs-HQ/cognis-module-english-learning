@@ -2,7 +2,7 @@
     "id": "study-language-en",
     "uuid": "b1adc29f-9d54-5785-9bea-2ce76f1981e4",
     "name": "module.study.language.en.name",
-    "version": "1.5.4",
+    "version": "1.5.5",
     "class": "extension",
     "privileged": true,
     "coreApiVersion": "v1",
@@ -1828,6 +1828,14 @@
             "sha256": "79ad0a57cb5e99fc060803280b8b945ed84d4c5e6040d862d59da95eeaebce31"
         },
         {
+            "path": "data/library/assets/images/LICENSE.md",
+            "sha256": "778b04550a7fc0e420dcd3b3ae486c75064f7de372221b568d04a15f74fddb44"
+        },
+        {
+            "path": "data/library/assets/images/dog.jpg",
+            "sha256": "d4cb12ea8a768582562e1f1c0c930ea6fc4757f5b66551b986b41498efd75ca1"
+        },
+        {
             "path": "data/library/content/alphabet/common.json",
             "sha256": "8ee481b616b6a6b8cdd9261fb14163b0a0433e8c31891c3fc71fa4eb5d1d418e"
         },
@@ -1949,7 +1957,7 @@
         },
         {
             "path": "data/library/content/words/beginner-005.json",
-            "sha256": "86829095ee401f8f37e641f335d63820a77434cbdd4ff55ff7f066f56e119464"
+            "sha256": "979b893d14ee63f36782f71a3be26c7ebc02dd96a8add637328d70aced44ac17"
         },
         {
             "path": "data/library/content/words/beginner-006.json",
@@ -2045,11 +2053,11 @@
         },
         {
             "path": "data/library/manifest.json",
-            "sha256": "b3fcd5ff10d29b7a88a99d481a789f8aca3036bdf1787f278c2db7c3a1df6681"
+            "sha256": "b0476ac3cf10e43546e08d68d45707d4c4e95263a0d12a63499efd6c9b8f4733"
         },
         {
             "path": "data/library/schema.json",
-            "sha256": "8f025c4dedce837f7cbeb98a9d0cbfd679071df8946173ff30399e9318ef7fe7"
+            "sha256": "1138a94490cde66f0567535fe69a51264ed3e545cbdd67e198958f8354e939f6"
         },
         {
             "path": "data/reference/00.json.gz",
@@ -3105,27 +3113,27 @@
         },
         {
             "path": "docs/index.de.md",
-            "sha256": "25cd20c29b5145a040720a0773e1eb07f781fffb9de1ae5d8307ba27d267ff49"
+            "sha256": "df16ed56bd0aa924fa567df819bcea82811d8a147b13e4baa7a902cb5da5228c"
         },
         {
             "path": "docs/index.en.md",
-            "sha256": "d7587879194ffcdee6fafb7a1e01d4953c67acbf485660d8da861bce031c5135"
+            "sha256": "76dd1810fd7d8dcd2bed81d0b87f667cdbb79fe8dbe311f69cef48cec95d3a0b"
         },
         {
             "path": "docs/index.id.md",
-            "sha256": "aa74736e778e5436529bc3e2c5da746858d1ffbc448d42b9bca0c735749176b1"
+            "sha256": "d35d39f6a83474928410e15d1e36de05ce48e22aa372629e402af14d4f0f7050"
         },
         {
             "path": "docs/index.ja.md",
-            "sha256": "cc4ac9cd6356919590c81df9583bb0d4071c99080986428a0b53c6b0157252eb"
+            "sha256": "479ef0790e0b41fc2d14c303eb8738a98e6f8b6b2c95e3afd11d053493999246"
         },
         {
             "path": "package-lock.json",
-            "sha256": "a9798b47e4d9f9a80c76d3176adbc2efbd7d80a8ffe3b6af6b51ff472b2d7c1b"
+            "sha256": "080160e8e050dd5566b058bef9b36ac8762131d03a3375c74b7cedcd84760b82"
         },
         {
             "path": "package.json",
-            "sha256": "b205435661f6fabb0886d0353104642e0898655d2b78837dfdd187ce71126095"
+            "sha256": "ff03a3dce78f7eb22904780fc8ffef0bfb28fe9ffd6126cb702550b15829e6ee"
         },
         {
             "path": "routes.json",
@@ -3161,7 +3169,7 @@
         },
         {
             "path": "tests/content-pack.test.js",
-            "sha256": "c42f1e5c8ca9447a0a2790095f2bbf9e5553daabd5b9e27a6f264e303713361e"
+            "sha256": "f3dbc73f297fa3c3682767236e406f1ce32d6499fa9b71454458e8ee930d75ba"
         },
         {
             "path": "tests/documentation-convention.test.js",
@@ -3174,6 +3182,10 @@
         {
             "path": "tests/packaging.test.js",
             "sha256": "a783f1c2a43f51cb85d962617d34cdd62833d5c018ef1578526fa50a3e5d9d15"
+        },
+        {
+            "path": "tests/reference-images.test.js",
+            "sha256": "0713ab0dc99ba2a918f509b34442cc82e77683d16fd34d41deb94121d296d87a"
         },
         {
             "path": "tests/regression.test.js",
