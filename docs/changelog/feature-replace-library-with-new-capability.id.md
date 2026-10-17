@@ -196,3 +196,4 @@ Tambahkan 32 nomina berilustrasi: enam belas makanan dan enam belas istilah tubu
 - [f79d59e](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/f79d59e97f4bcad73be1ba89090b0e1370d2e7e5)
 - [f446d6c](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/f446d6c46cda70e1075185883126c2f65cb5af40)
 - [b21877e](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b21877e5e193c54e89de4e0458fd3d2055f41cf5)
+- [5579d8c](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/5579d8ced788d25f09c459de54cfd4d7f58c56de)
