@@ -146,6 +146,10 @@ Katalog referensi bawaan bernama Open English WordNet. Rekaman khusus mencakup s
 
 Menambahkan kolom daftar gambar opsional, unggahan privat, dan galeri detail. Kedua modul bahasa menyertakan foto referensi berlisensi dan menyediakan kolom yang sama pada setiap lapisan.
 
+## Rekaman Kalimat Langsung
+
+Kalimat bawaan memakai rekaman kalimat utuh yang dibuat langsung sebelum audio komposit. Kalimat baru atau yang belum direkam memakai komposisi host dengan PCM penyusun berurutan dan transformasi terpilih; varian yang hilang tidak diganti bentuk dasarnya. Rekaman mencakup paket terkurasi, bukan seluruh entri kamus atau semua kemungkinan kalimat buatan pengguna. Menyertakan 45 rekaman kalimat baru dengan suara `gJx1vCzNCD1EQHT212Ls`. Bahasa Jepang membuat ulang 124 klip kana dan mengirim kana/kanji, bukan romaji. Permintaan menyimpan model stabil, kecepatan, kemiripan, seed, serta asal suara yang terdokumentasi.
+
 ## Komit
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)

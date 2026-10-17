@@ -18,12 +18,14 @@ const entries = new Map(
 );
 const assets = new Map(
     await Promise.all(
-        [...inventory.recordings, ...inventory.compositions].map(
-            async (clip) => [
-                clip.path,
-                await readFile(`data/library/assets/${clip.path}`),
-            ],
-        ),
+        [
+            ...inventory.recordings,
+            ...inventory.compositions,
+            ...inventory.sentences,
+        ].map(async (clip) => [
+            clip.path,
+            await readFile(`data/library/assets/${clip.path}`),
+        ]),
     ),
 );
 const makeProvider = (speech = () => undefined) =>
@@ -96,7 +98,11 @@ test("every packaged clip has the designated language voice, stable settings, au
             ? "xya0RvcJtofTcFTOdX4E"
             : "gJx1vCzNCD1EQHT212Ls";
     assert.equal(inventory.voiceId, expectedVoice);
-    for (const clip of [...inventory.recordings, ...inventory.compositions]) {
+    for (const clip of [
+        ...inventory.recordings,
+        ...inventory.compositions,
+        ...inventory.sentences,
+    ]) {
         const data = assets.get(clip.path);
         assert.ok(data.length < 2_000_000, clip.path);
         assert.equal(data.toString("ascii", 0, 4), "RIFF");
@@ -183,7 +189,7 @@ test("every spoken seed card and every reachable transformation has a playable b
     assert.ok(variants > 100);
 });
 
-test("sentence PCM reuses exact ordered constituent clips and selected transformation paths", () => {
+test("composite fallback sentence PCM reuses exact ordered constituent clips and selected transformation paths", () => {
     for (const sentence of inventory.compositions) {
         const references = entries
             .get(sentence.entryId)
@@ -295,4 +301,18 @@ test("unbundled lexical synthesis uses only this language and its designated def
         /audio_lookup_unavailable/,
     );
     assert.equal(requests.length, 1);
+});
+
+test("direct sentence recordings take priority over constituent composition and runtime synthesis", async () => {
+    const provider = makeProvider(() => {
+        throw new Error("unexpected_synthesis");
+    });
+    assert.equal(inventory.sentences.length, inventory.compositions.length);
+    for (const sentence of inventory.sentences) {
+        assert.equal(entries.get(sentence.entryId).fields.audio, sentence.path);
+        assert.equal(sentence.voiceId, inventory.voiceId);
+        assert.equal(sentence.request.text, sentence.inputs[0].label);
+        const result = await provider.fetchAudio(sentence.inputs[0]);
+        assert.deepEqual(Buffer.from(result.data), assets.get(sentence.path));
+    }
 });

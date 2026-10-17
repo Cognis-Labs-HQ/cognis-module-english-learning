@@ -146,6 +146,10 @@ The bundled reference catalog is named Open English WordNet. Dedicated recording
 
 Add optional image-list fields, private image uploads and detail galleries. Both language modules bundle a licensed reference photograph and expose the same field on every layer.
 
+## Direct Sentence Audio
+
+Shipped sentences use directly generated whole-sentence recordings before composite audio. New or unrecorded sentences use host composition with the exact ordered constituent PCM and selected transformations; missing variants never substitute their base form. Recordings cover the curated pack, not every lazy dictionary entry or possible user-authored sentence. Includes 45 newly generated sentence recordings using voice `gJx1vCzNCD1EQHT212Ls`. Japanese regenerates 124 kana clips and sends kana/kanji rather than romaji. Requests retain documented stable model, speed, similarity, seed and voice provenance.
+
 ## Commits
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)

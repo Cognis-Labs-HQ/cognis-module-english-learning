@@ -15024,5 +15024,1357 @@
                 "readings": []
             }
         }
+    ],
+    "sentences": [
+        {
+            "path": "audio/e60d38c69cebd32a2d93f5f79bedaf379d50bdda38d2daee8bc95db35654c59d.wav",
+            "entryId": "en:sentence:i-am-a-student",
+            "label": "I am a student.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "I am a student.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "I am a student.",
+            "request": {
+                "text": "I am a student.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "b4d7ea92d3b3d09296be080a01bcf2c6442def1d806e8c256f34dde79ebc9726",
+            "frames": 31053
+        },
+        {
+            "path": "audio/1366e65b2f256ec615e412da28c616bffb73c1d990d1c566dc8e813938af4368.wav",
+            "entryId": "en:sentence:you-are-my-friend",
+            "label": "You are my friend.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "You are my friend.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "You are my friend.",
+            "request": {
+                "text": "You are my friend.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "c04c67021cf53e3df7fce3d4cd4eaefe587d043d857323ec7832e0efc413c32e",
+            "frames": 29939
+        },
+        {
+            "path": "audio/c0aaddcfae6a19766267bfd0d548e2f71368d0cd02eac895bd30eb38d1e44c11.wav",
+            "entryId": "en:sentence:she-is-a-teacher",
+            "label": "She is a teacher.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "She is a teacher.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "She is a teacher.",
+            "request": {
+                "text": "She is a teacher.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "0ddec9c0c6189c4fb3bd906a0a40a93e0d55efc9dd3930d3045f0c5e9643f6f4",
+            "frames": 31053
+        },
+        {
+            "path": "audio/fc296ad3700805b598ee4171b69229641294f35a6910c6e96ab2ace963432fea.wav",
+            "entryId": "en:sentence:he-has-a-book",
+            "label": "He has a book.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "He has a book.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "He has a book.",
+            "request": {
+                "text": "He has a book.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "6df568c849b82f4e5fdd90d1a9fcdb3066208261d87422695bd5c2685207fb42",
+            "frames": 41084
+        },
+        {
+            "path": "audio/bbe08213d62c5bbaba2404f344ff32b5901cf9d0c58e695d4f3073bef2c6f992.wav",
+            "entryId": "en:sentence:we-learn-english",
+            "label": "We learn English.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "We learn English.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "We learn English.",
+            "request": {
+                "text": "We learn English.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "00a1d8c786152fe4ea1c71e9a7757f821a4d7954c0c04b76167aa08bc2163ee8",
+            "frames": 32168
+        },
+        {
+            "path": "audio/1979bea83e035f13fc595b7bf4f6f68883cd266be00a4d0bc87fb6c2bc4bbe74.wav",
+            "entryId": "en:sentence:they-go-to-school",
+            "label": "They go to school.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "They go to school.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "They go to school.",
+            "request": {
+                "text": "They go to school.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "acbff5ff6402d506d424f8b3321c62e2fbad864f5906f72673a1452e17320b73",
+            "frames": 31053
+        },
+        {
+            "path": "audio/7950e888d8d350336e99a5bd564cd6ec8f6ebec52d39e9df92cb15906a7a452b.wav",
+            "entryId": "en:sentence:i-drink-water",
+            "label": "I drink water.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "I drink water.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "I drink water.",
+            "request": {
+                "text": "I drink water.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "8ce702430fca988eaf6a9c1be2bf593e0bede71d4315f97b594fe86ce8fa57cd",
+            "frames": 29939
+        },
+        {
+            "path": "audio/3a212ff188b524fa5c4c9d32925b9a42e121913c4b4adbade0c13efdda872340.wav",
+            "entryId": "en:sentence:the-cat-is-small",
+            "label": "The cat is small.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "The cat is small.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "The cat is small.",
+            "request": {
+                "text": "The cat is small.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "97cf2c3faa2eee32abc44e47d8562b725524c46608b0abe5626a125e6dbffed2",
+            "frames": 35511
+        },
+        {
+            "path": "audio/a0a549777bf6ede303ff73d33f12383ebaa9ca56d82a92bcc2151a5d688e4f39.wav",
+            "entryId": "en:sentence:the-dog-is-big",
+            "label": "The dog is big.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "The dog is big.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "The dog is big.",
+            "request": {
+                "text": "The dog is big.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "1d6805e621dfe4a90cc7e3bf9e47d8309c9b3e7dc957957e7be144c3f8d2c5b9",
+            "frames": 33282
+        },
+        {
+            "path": "audio/04667489a79dfc75d16c9e271cd631be30db05e5c2a9635c80c129af217ba77c.wav",
+            "entryId": "en:sentence:i-like-music",
+            "label": "I like music.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "I like music.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "I like music.",
+            "request": {
+                "text": "I like music.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "a928327ecc1f933c373559f5e92cf0e45f3cb97616a9d748b1e0c4f4e457b3aa",
+            "frames": 29939
+        },
+        {
+            "path": "audio/8d0e3c9b3d53362cea7983f112adf2859db8f1ee856bf10cb718e3f4afdcc518.wav",
+            "entryId": "en:sentence:we-live-in-a-city",
+            "label": "We live in a city.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "We live in a city.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "We live in a city.",
+            "request": {
+                "text": "We live in a city.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "6f88be2f08027ebc093eb47365b92c787415881144ddc97ccf448c53bf0d195d",
+            "frames": 31053
+        },
+        {
+            "path": "audio/a673fbbcaa8ec272f0d6fcdfeee8a0a8b76986e428a2adbbc41ad2a95d848d99.wav",
+            "entryId": "en:sentence:she-reads-a-book",
+            "label": "She reads a book.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "She reads a book.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "She reads a book.",
+            "request": {
+                "text": "She reads a book.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "60ec642e97c920420042e3a8180d60bcdcf147f6cd090584ad61859253e31521",
+            "frames": 31053
+        },
+        {
+            "path": "audio/35a5f82251551f8e80105cf8352a9ae2bee6dc65853dc951752a5c458a5e7f54.wav",
+            "entryId": "en:sentence:he-walks-to-school",
+            "label": "He walks to school.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "He walks to school.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "He walks to school.",
+            "request": {
+                "text": "He walks to school.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "a48f25f423148b5a06a33e439c977e5df72dba080edf3503e74b14654bbad728",
+            "frames": 33282
+        },
+        {
+            "path": "audio/0ed528d117b6156b8b16653552bdb6cacd38d8544eada9f19d73211eabe73a8e.wav",
+            "entryId": "en:sentence:they-play-in-the-park",
+            "label": "They play in the park.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "They play in the park.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "They play in the park.",
+            "request": {
+                "text": "They play in the park.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "280d28bf3c6564a51bbbb7e943f6adfe3922df8c69297c07a82ccd55d44df4d2",
+            "frames": 34397
+        },
+        {
+            "path": "audio/7e0c4c1cce28b68556b583fc6723602af6a046c9a64960ec6e936541a65056b1.wav",
+            "entryId": "en:sentence:i-want-to-eat",
+            "label": "I want to eat.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "I want to eat.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "I want to eat.",
+            "request": {
+                "text": "I want to eat.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "95dea1e3dcce25ba86a203453c64597421e2c67dca2f8382d9ac8c8c184c38db",
+            "frames": 32168
+        },
+        {
+            "path": "audio/e6f46b8570d644efe45b0790ce148db0ccd9dfea6e557c78af12c2aaa284778b.wav",
+            "entryId": "en:sentence:we-need-food-and-water",
+            "label": "We need food and water.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "We need food and water.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "We need food and water.",
+            "request": {
+                "text": "We need food and water.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "50b1bd68934b3bbeac7ca3dec5a0397fbc42cb58d8c230b3388fe5dfa6ae720d",
+            "frames": 36626
+        },
+        {
+            "path": "audio/0bc5d878b9139a7187c149ccd3b9c0b4db2cb8d6d5659dc615670a10a79d6991.wav",
+            "entryId": "en:sentence:the-room-is-cold",
+            "label": "The room is cold.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "The room is cold.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "The room is cold.",
+            "request": {
+                "text": "The room is cold.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "6ad230b8f1114f0bcaf06d3ba79571c7fbce901fc1f50fea018e54df8218aa36",
+            "frames": 33282
+        },
+        {
+            "path": "audio/c36577379f2f1f5202d88ce6821f211c73766f768d2865e25fa9151da11fda0c.wav",
+            "entryId": "en:sentence:today-is-a-good-day",
+            "label": "Today is a good day.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "Today is a good day.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "Today is a good day.",
+            "request": {
+                "text": "Today is a good day.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "ef3e7db0415178ea9c54cf1aef6da414d58b87b7ffbbbe68fb488779416ce40d",
+            "frames": 34397
+        },
+        {
+            "path": "audio/b807ae71b80ee86a7a313c7345b9b359e5f3b172ca44da360bd1795c55448ab3.wav",
+            "entryId": "en:sentence:i-have-two-books",
+            "label": "I have two books.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "I have two books.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "I have two books.",
+            "request": {
+                "text": "I have two books.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "aec2eeccbb986622e66c0b2b9a4dcdf895e3cf59699c94b585e9f85ab4392d76",
+            "frames": 35511
+        },
+        {
+            "path": "audio/7214b9a02fa8148be6f8d8cf57fae5e19e7c199946f262c65bef2a611bdbe24e.wav",
+            "entryId": "en:sentence:she-speaks-english",
+            "label": "She speaks English.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "She speaks English.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "She speaks English.",
+            "request": {
+                "text": "She speaks English.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "96b1813e5b7d7685de3ce64bec8d462565b90ea15a92abe5431d169e3da63d5f",
+            "frames": 33282
+        },
+        {
+            "path": "audio/e34d4e07e352057de56fc6609afe7593c3a7907b0f621f60a922a2fc0120b33c.wav",
+            "entryId": "en:sentence:he-works-at-home",
+            "label": "He works at home.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "He works at home.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "He works at home.",
+            "request": {
+                "text": "He works at home.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "c6de59de09545386684a222fbc962f9bd9ac52e902b2beee30db42b92e752410",
+            "frames": 32168
+        },
+        {
+            "path": "audio/7af62396f33af48ba552302a7d41ea2e2167a47fced5eb8479d388a3f30178e5.wav",
+            "entryId": "en:sentence:i-am-happy",
+            "label": "I am happy.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "I am happy.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "I am happy.",
+            "request": {
+                "text": "I am happy.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "ba860c77ff666ff64ae273d2f170f6be193503dc8ab45b145633a4c441264538",
+            "frames": 27709
+        },
+        {
+            "path": "audio/d8606a70e808ef4a6713f34bc191ebe48afdaaf4da67d26bf3809b60d68ba9d2.wav",
+            "entryId": "en:sentence:we-are-here",
+            "label": "We are here.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "We are here.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "We are here.",
+            "request": {
+                "text": "We are here.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "ae53881617b0648345d50299baf591d2ae2f5c7d93a0e7e1a82f907bb35499a4",
+            "frames": 25480
+        },
+        {
+            "path": "audio/9ea610d206fcd93f21021d3c18de0a191087a36e83ec96227856e8de6614195c.wav",
+            "entryId": "en:sentence:they-are-there",
+            "label": "They are there.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "They are there.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "They are there.",
+            "request": {
+                "text": "They are there.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "ce476eb7d8dfed00abc8565d178b11d5699ad67654763244518eca47aa3161d7",
+            "frames": 27709
+        },
+        {
+            "path": "audio/1606a17e717029879a2cea251d431dda0e0f5d47d218e70ec6ed05303ba2cb95.wav",
+            "entryId": "en:sentence:i-see-a-bird",
+            "label": "I see a bird.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "I see a bird.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "I see a bird.",
+            "request": {
+                "text": "I see a bird.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "1e87f64843f6d83c04912b8329a2b2675994ba8f5feee325fb2bb0b705bf5121",
+            "frames": 29939
+        },
+        {
+            "path": "audio/2a1891f3267c54dee8d9a89488cdabcd09cd9258793ca0b1eabe0b82f6153daa.wav",
+            "entryId": "en:sentence:i-read-and-write",
+            "label": "I read and write.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "I read and write.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "I read and write.",
+            "request": {
+                "text": "I read and write.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "7d1ab6e323961ae28284d154a5441000d6e65910b2818660fd183b2553885a70",
+            "frames": 32168
+        },
+        {
+            "path": "audio/24aaec8f49b473b276bd355beb90694c1b63f6e588d78295d53c3701e8cfef3f.wav",
+            "entryId": "en:sentence:you-speak-very-quickly",
+            "label": "You speak very quickly.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "You speak very quickly.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "You speak very quickly.",
+            "request": {
+                "text": "You speak very quickly.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "2a2cfeb6e9a7172580e566b0eeaa6a274c5367aa15c5bfc0cbab84b36a93e0a6",
+            "frames": 37740
+        },
+        {
+            "path": "audio/fbc228c49518b0f7c1f977eb35853b5ad005f61d29487acf53ae8d1e51c53682.wav",
+            "entryId": "en:sentence:she-walks-slowly",
+            "label": "She walks slowly.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "She walks slowly.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "She walks slowly.",
+            "request": {
+                "text": "She walks slowly.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "f17fa9eed2215b0da0a61addcd1c5a3f7e2a038818b4668bf1842d3a3933ee42",
+            "frames": 33282
+        },
+        {
+            "path": "audio/112020dd3aafe7641a694caace53822b1af235f7f98fb8a26364bd8809fe3f57.wav",
+            "entryId": "en:sentence:we-go-by-train",
+            "label": "We go by train.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "We go by train.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "We go by train.",
+            "request": {
+                "text": "We go by train.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "4317b2cc7652fb97ccf90ef983ea3646a25d92c83edd858ba16fc4ddbe7608b3",
+            "frames": 33282
+        },
+        {
+            "path": "audio/4a0ed7e229a7d7f52797e5e0adc7726b7e3492e3beb9835e935bf8f212f4309b.wav",
+            "entryId": "en:sentence:i-ate-an-apple",
+            "label": "I ate an apple.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "I ate an apple.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "I ate an apple.",
+            "request": {
+                "text": "I ate an apple.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "6bfe7279b45c6c9afe52dcd3dec6667b3189e70478417f976387cf7a7a925150",
+            "frames": 31053
+        },
+        {
+            "path": "audio/953742939d1bf77b8432a45c0779d4c8790ac974eae22a9228f4ea0322fa5267.wav",
+            "entryId": "en:sentence:he-drank-milk",
+            "label": "He drank milk.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "He drank milk.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "He drank milk.",
+            "request": {
+                "text": "He drank milk.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "6690e2deb92d099bf7e6c61a7feaaf38e4d10db219c265caab3eb560a3a08a16",
+            "frames": 29939
+        },
+        {
+            "path": "audio/b7f92c482f2704315357448ca33c6e57e1afb268c18f4ef310af58c8b631e8f4.wav",
+            "entryId": "en:sentence:she-wrote-an-answer",
+            "label": "She wrote an answer.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "She wrote an answer.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "She wrote an answer.",
+            "request": {
+                "text": "She wrote an answer.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "24ae59635e53105f89b58834268c2449a466ad3d878af3e38c4ac73499408d69",
+            "frames": 34397
+        },
+        {
+            "path": "audio/f8d7f06fedf97ad3afa34fc7d40a8ae0f86b77a2a1dec011a9e59e2c47dfb9de.wav",
+            "entryId": "en:sentence:we-went-home",
+            "label": "We went home.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "We went home.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "We went home.",
+            "request": {
+                "text": "We went home.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "5bd4269f1da94f27fca130ab027ee04037d541aea0ff2257a98d5c148dae180d",
+            "frames": 26595
+        },
+        {
+            "path": "audio/06cc8b33c28e6d727d4054d9ad23d73d95c92fa6e2bec316175d187555819bc2.wav",
+            "entryId": "en:sentence:they-were-happy",
+            "label": "They were happy.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "They were happy.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "They were happy.",
+            "request": {
+                "text": "They were happy.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "4bbf885f244ba85b4a15af637585df0fb4ac97a8ef1459d06f4cf3b27d822b57",
+            "frames": 28824
+        },
+        {
+            "path": "audio/d32ec8a8896048128340a0942576043457faa033dd3428fb87d20a0341cab8f6.wav",
+            "entryId": "en:sentence:i-am-reading-a-book",
+            "label": "I am reading a book.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "I am reading a book.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "I am reading a book.",
+            "request": {
+                "text": "I am reading a book.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "111440c86e7d95ad4d2dbef3781254e8417962b4edaacc9bd152f22ce2ff6c79",
+            "frames": 34397
+        },
+        {
+            "path": "audio/f1e43b0a2e182a923fbedc7425b47f3f83fa041a774d831be55d27d9da2e1221.wav",
+            "entryId": "en:sentence:she-is-drinking-tea",
+            "label": "She is drinking tea.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "She is drinking tea.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "She is drinking tea.",
+            "request": {
+                "text": "She is drinking tea.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "b31ff88b2ccf377c673d03509b8b0bcca4aa05b0efd751ef409009d251de7c25",
+            "frames": 35511
+        },
+        {
+            "path": "audio/050b08e0b8d926d9f468a37da3d4dfabe359927ce5c6b41fe0935f5658d07848.wav",
+            "entryId": "en:sentence:he-is-learning-english",
+            "label": "He is learning English.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "He is learning English.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "He is learning English.",
+            "request": {
+                "text": "He is learning English.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "ff8ee6e7ab4567f93fa8a1fa63bfde8b6e4593a2bd7432daa77c88c76867d968",
+            "frames": 50001
+        },
+        {
+            "path": "audio/55549ea60cfcf4bc4e8e6c56ccf4b85d7c28b4c1dd903a0cb26264c8216a4b5c.wav",
+            "entryId": "en:sentence:the-dog-is-bigger",
+            "label": "The dog is bigger.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "The dog is bigger.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "The dog is bigger.",
+            "request": {
+                "text": "The dog is bigger.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "19d0b080ba873d44ecb8ab57659d5e5ef4ec153b31be9993928f22e3376aaf4c",
+            "frames": 33282
+        },
+        {
+            "path": "audio/824488f3b1ce7790630e924b7ce48c21d34be5e01c6f3f5f8793c93ccac83704.wav",
+            "entryId": "en:sentence:this-is-the-best-book",
+            "label": "This is the best book.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "This is the best book.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "This is the best book.",
+            "request": {
+                "text": "This is the best book.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "3608911cc4e6fa1ca0deca9c96914ee71d4a527f3c70cbfd89c6c17a0b780a5b",
+            "frames": 36626
+        },
+        {
+            "path": "audio/b300e40518dca2c767dc361aa593732f8e65f93e806f074443d9788bc49c2f77.wav",
+            "entryId": "en:sentence:hello",
+            "label": "Hello, my friend!",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "Hello, my friend!",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "Hello, my friend!",
+            "request": {
+                "text": "Hello, my friend!",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "b00e135a0d22b34cfa568369758292763cbfe3f73e6d54edd8f54b78b02b4da0",
+            "frames": 32168
+        },
+        {
+            "path": "audio/04bb4eae6940cf9a75c6995cfb90ac84ae8bdde99f2422e9faa7285a278256c7.wav",
+            "entryId": "en:sentence:do-you-like-coffee",
+            "label": "Do you like coffee?",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "Do you like coffee?",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "Do you like coffee?",
+            "request": {
+                "text": "Do you like coffee?",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "a6234e655e7733e5c2ff6c82554c3006d69b33236dbc28aef65ba1dc69b2889a",
+            "frames": 31053
+        },
+        {
+            "path": "audio/7d7b7c17c29466cc769fa71d464a7f6826c5b8da1be2657d610512e40bf49be7.wav",
+            "entryId": "en:sentence:i-do-not-eat-bread",
+            "label": "I do not eat bread.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "I do not eat bread.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "I do not eat bread.",
+            "request": {
+                "text": "I do not eat bread.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "14a531ab907b5208932f9ae227006464dedbbdc305b25135b81a1bd855a7cccd",
+            "frames": 34397
+        },
+        {
+            "path": "audio/a508837146559c4477cb7ce4dd915b5c4933a99464683e3ee228ea67db5d377c.wav",
+            "entryId": "en:sentence:i-like-tea-but-not-coffee",
+            "label": "I like tea, but not coffee.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "I like tea, but not coffee.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "I like tea, but not coffee.",
+            "request": {
+                "text": "I like tea, but not coffee.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "cef1db85036be4acb54e5d9bb51d5b9d270b33a66620990f39c96b11b91495e2",
+            "frames": 51115
+        },
+        {
+            "path": "audio/68b45b164c5b600731a6d6d1b858d185656d336c1e4bbbde8fef677e282e8c4d.wav",
+            "entryId": "en:sentence:she-is-happy-because-she-has-a-friend",
+            "label": "She is happy because she has a friend.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "She is happy because she has a friend.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "She is happy because she has a friend.",
+            "request": {
+                "text": "She is happy because she has a friend.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "0b2887aea3cc538379abb6e7644457dcd18f552fdab44d7a251957df841d768b",
+            "frames": 56688
+        },
+        {
+            "path": "audio/eb3f707fbab15b5eda4cca4d5d7cb8a361fe80d687325a9662f089467b8ee9ed.wav",
+            "entryId": "en:sentence:i-do-not-run",
+            "label": "I do not run.",
+            "inputs": [
+                {
+                    "language": "en",
+                    "label": "I do not run.",
+                    "semanticRole": "orderedLexicalSequence",
+                    "readings": []
+                }
+            ],
+            "voiceId": "gJx1vCzNCD1EQHT212Ls",
+            "text": "I do not run.",
+            "request": {
+                "text": "I do not run.",
+                "model_id": "eleven_turbo_v2",
+                "seed": 42,
+                "voice_settings": {
+                    "stability": 0.75,
+                    "similarity_boost": 0.85,
+                    "style": 0,
+                    "use_speaker_boost": true,
+                    "speed": 0.9
+                },
+                "apply_text_normalization": "off"
+            },
+            "sha256": "b66490e20f8bbdb88d135601f70880d21da7dc29d50577312d3d620ac2ecf8b7",
+            "frames": 29939
+        }
     ]
 }

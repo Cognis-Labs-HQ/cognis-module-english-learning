@@ -146,6 +146,10 @@ Der mitgelieferte Referenzkatalog heißt Open English WordNet. Für alle 32 mitg
 
 Optionale Bildlistenfelder, private Bild-Uploads und Detailgalerien ergänzen. Beide Sprachmodule enthalten ein lizenziertes Referenzfoto und bieten das Feld auf jeder Ebene an.
 
+## Direkte Satzaufnahmen
+
+Mitgelieferte Sätze verwenden direkt erzeugte vollständige Satzaufnahmen vor zusammengesetztem Audio. Neue oder nicht aufgezeichnete Sätze nutzen die Zusammenstellung des Hosts mit exakt geordneten PCM-Bestandteilen und ausgewählten Transformationen; fehlende Varianten werden niemals durch die Grundform ersetzt. Die Aufnahmen decken das kuratierte Paket ab, nicht jeden Wörterbucheintrag oder möglichen selbst verfassten Satz. Enthält 45 neu erzeugte Satzaufnahmen mit Stimme `gJx1vCzNCD1EQHT212Ls`. Japanisch erzeugt 124 Kana-Clips neu und sendet Kana/Kanji statt Romaji. Anforderungen behalten dokumentierte stabile Modelle, Geschwindigkeit, Ähnlichkeit, Startwerte und Stimmnachweise.
+
 ## Commits
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)

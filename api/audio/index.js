@@ -25,6 +25,10 @@ export function createAudioProvider({
     for (const composition of inventory.compositions) {
         recordings.set(inputKey(composition.input), composition);
     }
+    for (const sentence of inventory.sentences) {
+        for (const input of sentence.inputs)
+            recordings.set(inputKey(input), sentence);
+    }
     return Object.freeze({
         id: `study-language-${inventory.language}:recordings`,
         languages: [inventory.language],
