@@ -282,5 +282,42 @@
             "en:word:knee",
             "en:word:skin"
         ]
+    },
+    {
+        "key": "food-and-drink-phrases",
+        "name": {
+            "en": "Food and Drink Phrases",
+            "de": "Sätze zu Essen und Trinken",
+            "id": "Ungkapan Makanan dan Minuman",
+            "ja": "食べ物と飲み物の表現"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:sentence:i-want-to-eat",
+            "en:sentence:we-need-food-and-water",
+            "en:sentence:i-eat-a-banana",
+            "en:sentence:we-need-soup",
+            "en:sentence:they-like-cheese",
+            "en:sentence:do-you-like-coffee",
+            "en:sentence:i-do-not-eat-bread",
+            "en:sentence:i-like-tea-but-not-coffee"
+        ]
+    },
+    {
+        "key": "past-events",
+        "name": {
+            "en": "Past Events",
+            "de": "Vergangene Ereignisse",
+            "id": "Peristiwa Lampau",
+            "ja": "過去の出来事"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:sentence:i-ate-an-apple",
+            "en:sentence:he-drank-milk",
+            "en:sentence:she-wrote-an-answer",
+            "en:sentence:we-went-home",
+            "en:sentence:they-were-happy"
+        ]
     }
 ]
