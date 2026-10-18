@@ -6,8 +6,11 @@ export async function requestDictionary(fetchImplementation, url) {
         signal: AbortSignal.timeout(15000),
         redirect: "error",
     });
-    if (response.status === 404) return [];
-    if (!response.ok) throw new Error("english_dictionary_request_failed");
+    if (!response.ok) {
+        await response.body?.cancel();
+        if (response.status === 404) return [];
+        throw new Error("english_dictionary_request_failed");
+    }
     const records = JSON.parse(await readBoundedText(response));
     if (!Array.isArray(records))
         throw new Error("english_dictionary_response_invalid");

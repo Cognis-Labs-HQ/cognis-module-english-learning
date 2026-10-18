@@ -166,6 +166,10 @@ Fünfzehn Alltagsnomen ergänzen Möbel, Kleidung, Gegenstände und Lebensmittel
 
 32 illustrierte Substantive ergänzen jeweils sechzehn Lebensmittel und Körperbegriffe mit Bedeutungen in vier Sprachen sowie eigenen Lernstapeln für Lebensmittel und Körperteile. Englisch enthält 25 aufgenommene Zahltransformationen, darunter feet, teeth, potatoes und mouths mit stimmhaftem Konsonanten; Stoffnamen wie Hühnerfleisch, Rindfleisch, Butter und Haut erhalten keine Pluralfamilie. Japanisch bewahrt vollständige Verknüpfungen zu einzelnen Kana, trennt die Bedeutungen Fuß und Bein von あし in eigene Definitionen und verwendet vorhandene muttersprachliche Aufnahmen bei identischen Ausspracheeingaben weiter. Vier einzeln verfasste Beispielsätze pro Sprache besitzen direkte neuronale Aufnahmen mit Vorrang vor exakt aus den Bestandteilen zusammengesetzten Ersatzaufnahmen. Alle Illustrationen werden lokal im etablierten sprachspezifischen Zeichenstil mitgeliefert.
 
+## Review-Korrekturen und Aufnahmeinventare
+
+Aufnahmemetadaten verwenden ein kompaktes Manifest und prüfsummengesicherte Inventare für Zeichen, Wortschatz, Transformationen, Sätze und Satzersatz. Audiodaten, Stimmen-/Anfrageherkunft und Suchpriorität bleiben erhalten. Referenzimporte lesen die paketierte Sprache; die Bereinigung versucht auch nach Fehlern alle Registrierungen zu entfernen. Wörterbuchfehler geben Antwortdaten frei und Referenzinhalte können erneut geladen werden. Die Dokumentation beschreibt die aktuelle Konfiguration und generierte Bilder.
+
 ## Commits
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)

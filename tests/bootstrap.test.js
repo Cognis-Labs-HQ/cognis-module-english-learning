@@ -250,3 +250,51 @@ test("language audio resolves the optional module-owned speech capability live",
     );
     dispose();
 });
+
+for (const activationFails of [false, true]) {
+    test(`all providers are removed when a disposer throws (activation failure: ${activationFails})`, async () => {
+        const registered = [],
+            removed = [];
+        const cleanupError = new Error("cleanup_failed");
+        const register = () => {
+            const id = registered.length;
+            registered.push(id);
+            return () => {
+                removed.push(id);
+                if (id === 1) throw cleanupError;
+            };
+        };
+        const ctx = {
+            moduleRoot: path.resolve("."),
+            capabilities: {
+                require(id) {
+                    if (id === "study:audio:provider")
+                        return { registerProvider: register };
+                    return {
+                        registerLookupProvider: register,
+                        async deleteContentPack() {},
+                        async ingestContentPack() {
+                            if (activationFails)
+                                throw new Error("activation_failed");
+                            return { packId: "test" };
+                        },
+                    };
+                },
+            },
+            registerStaticDir() {},
+            registerApiDelete() {},
+            contributePublicCapability() {},
+            flow: { extend() {} },
+            log() {},
+        };
+        if (activationFails)
+            await assert.rejects(bootstrapModule(ctx), /activation_failed/);
+        else {
+            const dispose = await bootstrapModule(ctx);
+            assert.throws(dispose, (error) => error === cleanupError);
+            dispose();
+        }
+        assert.deepEqual(removed, [...registered].reverse());
+        assert.ok(removed.length >= 3);
+    });
+}

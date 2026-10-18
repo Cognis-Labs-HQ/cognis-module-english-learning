@@ -166,6 +166,10 @@ Fifteen everyday nouns cover furniture, clothing, objects and food, with four-la
 
 Add 32 illustrated nouns: sixteen food items and sixteen body terms, with four-language meanings and separate Food and Body starter decks. English includes 25 recorded number transformations, including feet, teeth, potatoes and voiced mouths, while mass-noun senses such as chicken meat, beef, butter and skin have no plural family. Japanese keeps complete atomic-Kana paths, distinguishes both meanings of あし with separate foot and leg definitions, and reuses existing native recordings when pronunciation inputs are identical. Four individually authored example sentences per language have direct neural recordings that take priority over exact-constituent composite fallbacks. All illustrations are bundled locally in the established language-specific art style.
 
+## Review fixes and recording inventories
+
+Recording metadata now uses a compact manifest and checksummed inventories grouped by characters, vocabulary, transformations, sentences and sentence fallbacks. Audio bytes, voice/request provenance and lookup priority are preserved. Reference imports read packaged language metadata; provider cleanup attempts every registration even after a disposer fails. Dictionary failures release response bodies and reference content loads can retry. Documentation reflects the current configuration and generated artwork.
+
 ## Commits
 
 - [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)

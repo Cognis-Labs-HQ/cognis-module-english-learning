@@ -1,6 +1,6 @@
 # English Study
 
-English Study supplies a versioned learning graph, English dictionary enrichment, original print-letter writing guides and seven starter decks. Cognis owns the learning UI and all user data.
+English Study supplies a versioned learning graph, English dictionary enrichment, original print-letter writing guides and ten starter decks. Cognis owns the learning UI and all user data.
 
 ## Usage Examples
 
@@ -14,7 +14,7 @@ English Study supplies a versioned learning graph, English dictionary enrichment
 
 The permanent module UUID is `b1adc29f-9d54-5785-9bea-2ce76f1981e4`; the required Study gateway UUID is `338b9237-a2c8-5bcf-9437-bccc9abd9a27`. Bootstrap requires `ctx.capabilities.require("study:library:provider")` with working `ingestContentPack`, `registerLookupProvider` and `deleteContentPack` methods. It registers the writing and dictionary providers, ingests `data/`, then publishes `study:language:en` and a removable `bootstrap-platform` flow contribution. The descriptor has `code`, `languageCode`, module version, package and `starterDecks`.
 
-Lookup registrations are removed on disable or failed activation. Host-scoped routes, static directories, capabilities and hooks follow the module lifecycle. An administrator-only `DELETE /api/v1/modules/study-language-en/config` returns 204 and remains available when disabled; the module stores no configuration. On uninstall, `deleteContent: false` retains the pack; `true` invokes the lifecycle-available provider's `deleteContentPack`. Cognis owns transactional cascade deletion and notifications. Failures propagate with safe structured logs.
+Administrator-only `GET`, `PUT` and `DELETE /api/v1/modules/study-language-en/config` remain available while disabled. GET reads the persisted `voiceId`; PUT validates and saves it in `module_study_language_en_config`, surviving restarts and disable/enable cycles. DELETE clears only that configuration. All three return HTTP 200 with a JSON data envelope; clearing configuration does not delete learning content. Provider registrations are removed on disable or failed activation. Uninstall preserves content unless `deleteContent: true` requests the host provider’s transactional `deleteContentPack` operation. Failures propagate with safe structured logs.
 
 ### Content graph
 
@@ -42,7 +42,7 @@ Run `npm install`, `npm run manifest:hashes`, `npm test`, `npm run lint`, `npm r
 
 ## Expanded Starter Decks
 
-English now supplies seven starter decks, adding uppercase alphabet, common spelling combinations and everyday adjectives to the four existing decks. Existing keys remain stable; localized names and complete alphabet order are validated.
+English supplies ten localized starter decks covering alphabet, uppercase letters, spelling combinations, vocabulary, verbs, adjectives, sentences, everyday objects, food and body vocabulary. Stable keys and complete alphabet ordering are validated against `data/starter-decks.json`.
 
 The schema offers one adjective filter option and retains stable content identities. ctx is the application backbone; Cognis owns action flows, user data and dictionary caching.
 
@@ -66,11 +66,11 @@ Sentence cards require at least two word references through the Library schema. 
 
 ## Study module layout
 
-The content pack lives in `data/library/`: its manifest, schema, and content shards form one ingestion and deletion boundary. Starter decks remain in `data/starter-decks.json`. Runtime providers live in `api/dictionary/` and `api/strokes/`; deterministic shard loading and byte-bounded response decoding live in `api/reuse/`. Cross-layer content and lifecycle tests live in `tests/`, while provider, transport, and API tests live in `api/tests/`. The manifest declares `api/routes/config/index.js` as `disabledApi`; that entrypoint registers only the administrator-only configuration DELETE route and does not ingest content or activate providers. Published flow identifiers remain stable.
+The content pack lives in `data/library/`, with starter decks in `data/starter-decks.json`. Providers live in `api/dictionary/` and `api/strokes/`; deterministic loading and byte-bounded response decoding live in `api/reuse/`. Cross-layer tests live in `tests/` and API tests in `api/tests/`. The manifest declares `api/routes/config/index.js` as `disabledApi`, registering administrator-only GET, PUT and DELETE configuration routes while disabled, without ingesting content or activating providers. Published flow identifiers remain stable.
 
 ## Keep dictionary senses and plural forms correct
 
-Free Dictionary returns separate suggestions per part of speech, with only matching definitions, tags, and curated paradigms. Queries containing apostrophes or hyphens are rejected because the current alphabet graph cannot represent those spellings. Response bodies are limited to one million streamed bytes and cancelled immediately when oversized. The published `study-language-en:bootstrap-registration` flow identifier remains unchanged. Plural derivation stays on singular `book`, not already-plural `books`; `houses` uses `/haʊzɪz/`. Seven localized starter decks are documented.
+Free Dictionary returns separate suggestions per part of speech, with only matching definitions, tags, and curated paradigms. Queries containing apostrophes or hyphens are rejected because the current alphabet graph cannot represent those spellings. Response bodies are limited to one million streamed bytes and cancelled immediately when oversized. The published `study-language-en:bootstrap-registration` flow identifier remains unchanged. Plural derivation stays on singular `book`, not already-plural `books`; `houses` uses `/haʊzɪz/`. Ten localized starter decks are documented.
 
 ## Speech and recordings
 
@@ -82,4 +82,8 @@ Bootstrap registers a removable `study:audio:provider.registerProvider` implemen
 
 Generated files use 24 kHz mono 16-bit PCM with bounded peaks and verified non-silent output. Requests use fixed per-language models, speed 0.9, similarity 0.85 and style 0; stability is 0.75 for English and 0.9 for Japanese. Seeds are retained per request; rejected silent outputs are recorded and retried without changing voices. English uses IPA phoneme tags where authored. The content manifest declares its packaged asset directory and advances the content-pack version for installation.
 
-Every layer exposes the optional reference-image field in the host card editor and detail view. The dog card bundles a photograph by Elf, edited by Djmirko, licensed under CC BY-SA 3.0. Its source and attribution are included in `data/library/assets/images/LICENSE.md` and the content manifest. Administrators can upload additional reference images through Cognis.
+Every layer exposes the optional reference-image field in the host editor and detail view. Vocabulary uses original AI-generated colored-pencil and watercolor artwork made with OpenAI image generation; no third-party photographs are included. `data/library/assets/images/catalog.json` records generation and crop provenance, card assignments and checksums; `data/library/assets/images/LICENSE.md` documents the artwork license. Administrators can upload additional reference images through Cognis.
+
+## Recording Inventories
+
+`data/audio/recordings.json` is a compact manifest with language, voice, model, shared processing settings, totals and integrity-checked inventory paths. Purpose-grouped files under `data/audio/inventories/` separately describe characters, vocabulary, transformations, direct sentences and composite fallbacks. Each file stays below 800 lines and retains exact requests, per-clip voice provenance, transformation paths and audio checksums. Bootstrap verifies every inventory checksum and count before registering playback; the recording bytes and lookup precedence are unchanged.

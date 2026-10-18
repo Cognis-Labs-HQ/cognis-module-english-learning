@@ -1,6 +1,6 @@
 # Englisch lernen
 
-Englisch lernen liefert einen versionierten Lerngraphen, englische Wörterbuchergänzungen, eigene Druckschrift-Vorlagen und sieben Startdecks. Cognis verwaltet die Lernoberfläche und sämtliche Nutzerdaten.
+Englisch lernen liefert einen versionierten Lerngraphen, englische Wörterbuchergänzungen, eigene Druckschrift-Vorlagen und zehn Startdecks. Cognis verwaltet die Lernoberfläche und sämtliche Nutzerdaten.
 
 ## Nutzungsbeispiele
 
@@ -14,7 +14,7 @@ Englisch lernen liefert einen versionierten Lerngraphen, englische Wörterbucher
 
 Die dauerhafte Modul-UUID lautet `b1adc29f-9d54-5785-9bea-2ce76f1981e4`, die erforderliche Study-Gateway-UUID `338b9237-a2c8-5bcf-9437-bccc9abd9a27`. Bootstrap verlangt `ctx.capabilities.require("study:library:provider")` mit funktionsfähigen Methoden `ingestContentPack`, `registerLookupProvider` und `deleteContentPack`. Nach Registrierung der Schreib- und Wörterbuchanbieter wird `data/` eingelesen. Anschließend werden `study:language:en` und ein entfernbarer Beitrag zum Ablauf `bootstrap-platform` veröffentlicht. Der Deskriptor enthält `code`, `languageCode`, Modulversion, Paket und `starterDecks`.
 
-Bei Deaktivierung oder fehlgeschlagenem Start werden Suchanbieter entfernt. Der Host verwaltet Routen, statische Verzeichnisse, Fähigkeiten und Ablaufbeiträge im Modulkontext. Das nur Administratoren erlaubte `DELETE /api/v1/modules/study-language-en/config` liefert 204 und bleibt bei Deaktivierung verfügbar; das Modul speichert keine Konfiguration. Bei Deinstallation behält `deleteContent: false` das Paket, während `true` die weiterhin verfügbare Anbietermethode `deleteContentPack` aufruft. Cognis übernimmt transaktionale Kaskadenlöschung und Benachrichtigungen. Fehler werden weitergegeben und sicher strukturiert protokolliert.
+Die nur Administratoren erlaubten Routen `GET`, `PUT` und `DELETE /api/v1/modules/study-language-en/config` bleiben bei deaktiviertem Modul verfügbar. GET liest die gespeicherte `voiceId`; PUT prüft und speichert sie in `module_study_language_en_config`, auch über Neustarts und erneutes Aktivieren hinweg. DELETE löscht ausschließlich diese Konfiguration. Alle drei liefern HTTP 200 mit einem JSON-Datenumschlag; Lerninhalte werden dabei nicht gelöscht. Anbieter werden bei Deaktivierung oder fehlgeschlagenem Start entfernt. Die Deinstallation behält Inhalte, sofern nicht `deleteContent: true` die transaktionale Host-Operation `deleteContentPack` anfordert. Fehler werden weitergegeben und sicher strukturiert protokolliert.
 
 ### Inhaltsgraph
 
@@ -42,7 +42,7 @@ Führen Sie `npm install`, `npm run manifest:hashes`, `npm test`, `npm run lint`
 
 ## Erweiterte Startdecks
 
-Englisch liefert sieben Startdecks. Großbuchstaben, Buchstabenverbindungen und Alltagsadjektive ergänzen die vier bestehenden Stapel. Stabile Schlüssel, übersetzte Namen und vollständige Alphabetreihen werden geprüft.
+Englisch liefert zehn Startdecks. Großbuchstaben, Buchstabenverbindungen und Alltagsadjektive ergänzen die vier bestehenden Stapel. Stabile Schlüssel, übersetzte Namen und vollständige Alphabetreihen werden geprüft.
 
 Das Schema bietet eine Adjektivfilteroption und erhält stabile Inhaltsidentitäten. ctx ist das Anwendungsrückgrat; Cognis verwaltet Aktionsabläufe, Nutzerdaten und Wörterbuchcaches.
 
@@ -66,11 +66,11 @@ Satzkarten benötigen im Library-Schema mindestens zwei Wortverweise. Die Begrü
 
 ## Aufbau der Study-Module
 
-Das Inhaltspaket liegt in `data/library/`: Manifest, Schema und Inhaltsdateien bilden eine gemeinsame Import- und Löschgrenze. Startdecks bleiben in `data/starter-decks.json`. Laufzeitanbieter liegen in `api/dictionary/` und `api/strokes/`; deterministisches Laden und bytebegrenztes Dekodieren von Antworten liegen in `api/reuse/`. Übergreifende Inhalts- und Lebenszyklustests liegen in `tests/`, Anbieter-, Transport- und API-Tests in `api/tests/`. Das Manifest deklariert `api/routes/config/index.js` als `disabledApi`; dieser Einstiegspunkt registriert nur die administrative DELETE-Konfigurationsroute und aktiviert weder Inhalte noch Anbieter. Veröffentlichte Ablaufkennungen bleiben stabil.
+Das Inhaltspaket liegt in `data/library/`, Startdecks in `data/starter-decks.json`. Anbieter liegen in `api/dictionary/` und `api/strokes/`, deterministisches Laden und bytebegrenzte Antwortdekodierung in `api/reuse/`. Übergreifende Tests liegen in `tests/`, API-Tests in `api/tests/`. Das Manifest deklariert `api/routes/config/index.js` als `disabledApi`: Im deaktivierten Zustand registriert dieser Einstiegspunkt administrative GET-, PUT- und DELETE-Konfigurationsrouten, ohne Inhalte einzulesen oder Anbieter zu aktivieren. Veröffentlichte Ablaufkennungen bleiben stabil.
 
 ## Wortarten und Pluralformen korrekt halten
 
-Free Dictionary liefert getrennte Vorschläge je Wortart mit ausschließlich passenden Definitionen, Tags und kuratierten Flexionsmustern. Anfragen mit Apostroph oder Bindestrich werden abgelehnt, da der aktuelle Alphabetgraph diese Schreibweisen nicht abbildet. Antworten sind auf eine Million gestreamte Bytes begrenzt und werden bei Überschreitung sofort abgebrochen. Die veröffentlichte Ablaufkennung `study-language-en:bootstrap-registration` bleibt erhalten. Die Pluralbildung bleibt beim Singular `book`, nicht beim bereits pluralen `books`; `houses` verwendet `/haʊzɪz/`. Sieben lokalisierte Startdecks sind dokumentiert.
+Free Dictionary liefert getrennte Vorschläge je Wortart mit ausschließlich passenden Definitionen, Tags und kuratierten Flexionsmustern. Anfragen mit Apostroph oder Bindestrich werden abgelehnt, da der aktuelle Alphabetgraph diese Schreibweisen nicht abbildet. Antworten sind auf eine Million gestreamte Bytes begrenzt und werden bei Überschreitung sofort abgebrochen. Die veröffentlichte Ablaufkennung `study-language-en:bootstrap-registration` bleibt erhalten. Die Pluralbildung bleibt beim Singular `book`, nicht beim bereits pluralen `books`; `houses` verwendet `/haʊzɪz/`. Zehn lokalisierte Startdecks sind dokumentiert.
 
 ## Sprache und Aufnahmen
 
@@ -82,4 +82,8 @@ Bootstrap registriert einen entfernbaren Anbieter über `study:audio:provider.re
 
 Erzeugte Dateien enthalten Mono-PCM mit 24 kHz und 16 Bit, begrenzten Spitzenwerten und geprüftem hörbarem Inhalt. Anforderungen verwenden feste sprachspezifische Modelle, Geschwindigkeit 0,9, Ähnlichkeit 0,85 und Stil 0; die Stabilität beträgt für Englisch 0,75 und für Japanisch 0,9. Startwerte bleiben je Anforderung dokumentiert; verworfene stille Ausgaben werden ohne Stimmenwechsel erneut erzeugt. Englisch verwendet verfasste IPA-Phonem-Tags. Das Inhaltsmanifest deklariert das mitgelieferte Medienverzeichnis und erhöht die Paketversion für die Installation.
 
-Jede Ebene stellt das optionale Referenzbildfeld im Karteneditor und in der Detailansicht des Hosts bereit. Die Hundekarte enthält ein Foto von Elf, bearbeitet von Djmirko, unter CC BY-SA 3.0. Quelle und Namensnennung stehen in `data/library/assets/images/LICENSE.md` und im Inhaltsmanifest. Administratoren können weitere Referenzbilder über Cognis hochladen.
+Jede Ebene stellt das optionale Referenzbildfeld im Karteneditor und in der Detailansicht bereit. Vokabeln verwenden eigene, mit OpenAI erzeugte Illustrationen im Buntstift- und Aquarellstil; fremde Fotografien sind nicht enthalten. `data/library/assets/images/catalog.json` dokumentiert Erzeugung, Bildausschnitte, Kartenzuordnungen und Prüfsummen; `data/library/assets/images/LICENSE.md` beschreibt die Bildlizenz. Administratoren können weitere Referenzbilder über Cognis hochladen.
+
+## Aufnahmeverzeichnisse
+
+`data/audio/recordings.json` ist ein kompaktes Manifest mit Sprache, Stimme, Modell, gemeinsamen Verarbeitungseinstellungen, Gesamtzahlen und geprüften Inventarpfaden. Dateien unter `data/audio/inventories/` beschreiben getrennt Zeichen, Vokabeln, Transformationen, direkte Sätze und zusammengesetzte Ersatzaufnahmen. Jede Datei bleibt unter 800 Zeilen und enthält die genauen Anforderungen, Stimmenherkunft, Transformationspfade und Audio-Prüfsummen. Bootstrap prüft vor der Wiedergaberegistrierung jede Prüfsumme und Anzahl; Audiodaten und Suchpriorität bleiben unverändert.

@@ -47,21 +47,41 @@ export function createReferenceProvider({
                 )
                 .filter(Boolean);
             if (!suggestions.length) return [];
-            content ??= readContentLayers(contentRoot, ["alphabet"]);
-            addSpellingReferences(suggestions, (await content).get("alphabet"));
-            return suggestions.map((suggestion) => ({
-                ...suggestion,
-                sourceUrl: source.url,
-                provenance: `${source.id}:${encodeURIComponent(suggestion.label)}:${suggestion.fields.part_of_speech}`,
-                fields: {
-                    ...suggestion.fields,
-                    dictionary_data: JSON.stringify({
-                        provider: source.id,
-                        sourceUrl: source.url,
-                        license: source.license,
-                    }),
+            content ??= readContentLayers(contentRoot, ["alphabet"]).catch(
+                (error) => {
+                    content = undefined;
+                    log?.(
+                        "error",
+                        "English reference content could not be loaded.",
+                        {
+                            component: "study-language-en",
+                            operation: "load_reference_content",
+                            errorName: error?.name ?? "Error",
+                        },
+                    );
+                    throw new Error("english_reference_content_unavailable");
                 },
-            }));
+            );
+            addSpellingReferences(suggestions, (await content).get("alphabet"));
+            return suggestions
+                .filter((suggestion) =>
+                    suggestion.references?.some(
+                        ({ relation }) => relation === "spelling",
+                    ),
+                )
+                .map((suggestion) => ({
+                    ...suggestion,
+                    sourceUrl: source.url,
+                    provenance: `${source.id}:${encodeURIComponent(suggestion.label)}:${suggestion.fields.part_of_speech}`,
+                    fields: {
+                        ...suggestion.fields,
+                        dictionary_data: JSON.stringify({
+                            provider: source.id,
+                            sourceUrl: source.url,
+                            license: source.license,
+                        }),
+                    },
+                }));
         },
     });
 }

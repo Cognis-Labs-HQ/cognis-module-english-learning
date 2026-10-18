@@ -6,10 +6,10 @@ Englische Lerninhalte und Anbieterintegration für Cognis Study.
 
 ## Funktionen
 
-- 52 Buchstabenkarten und 17 Verbindungen mit eigenen JSON-Schreibvorlagen; 123 Anfängerwörter, 21 Grammatik-/Satzzeichenkarten und 45 verknüpfte Sätze.
+- 52 Buchstabenkarten und 17 Verbindungen mit eigenen JSON-Schreibvorlagen; 192 Anfängerwörter, 21 Grammatik-/Satzzeichenkarten und 49 verknüpfte Sätze.
 - 37 kuratierte Verb-, Kopula- und Adjektivparadigmen mit unregelmäßigen Formen und IPA; verborgene Karten erhalten vollständige Satzgraphen.
 - Suchbares freies Wörterbuch mit begrenzten Definitionen und Lesungen, verborgenen Quellenangaben und hostverwaltetem Cache.
-- Sieben lokalisierte Startdecks verwenden Cognis-Lernkarten, Favoriten und Freigaben.
+- Zehn lokalisierte Startdecks verwenden Cognis-Lernkarten, Favoriten und Freigaben.
 
 ## Installation
 
@@ -53,3 +53,7 @@ Fünfzehn Alltagsnomen ergänzen Möbel, Kleidung, Gegenstände und Lebensmittel
 ## Lebensmittel und Körperteile
 
 32 illustrierte Substantive ergänzen jeweils sechzehn Lebensmittel und Körperbegriffe mit Bedeutungen in vier Sprachen sowie eigenen Lernstapeln für Lebensmittel und Körperteile. Englisch enthält 25 aufgenommene Zahltransformationen, darunter feet, teeth, potatoes und mouths mit stimmhaftem Konsonanten; Stoffnamen wie Hühnerfleisch, Rindfleisch, Butter und Haut erhalten keine Pluralfamilie. Japanisch bewahrt vollständige Verknüpfungen zu einzelnen Kana, trennt die Bedeutungen Fuß und Bein von あし in eigene Definitionen und verwendet vorhandene muttersprachliche Aufnahmen bei identischen Ausspracheeingaben weiter. Vier einzeln verfasste Beispielsätze pro Sprache besitzen direkte neuronale Aufnahmen mit Vorrang vor exakt aus den Bestandteilen zusammengesetzten Ersatzaufnahmen. Alle Illustrationen werden lokal im etablierten sprachspezifischen Zeichenstil mitgeliefert.
+
+## Aufnahmeverzeichnisse
+
+`data/audio/recordings.json` ist ein kompaktes Manifest mit Sprache, Stimme, Modell, gemeinsamen Verarbeitungseinstellungen, Gesamtzahlen und geprüften Inventarpfaden. Dateien unter `data/audio/inventories/` beschreiben getrennt Zeichen, Vokabeln, Transformationen, direkte Sätze und zusammengesetzte Ersatzaufnahmen. Jede Datei bleibt unter 800 Zeilen und enthält die genauen Anforderungen, Stimmenherkunft, Transformationspfade und Audio-Prüfsummen. Bootstrap prüft vor der Wiedergaberegistrierung jede Prüfsumme und Anzahl; Audiodaten und Suchpriorität bleiben unverändert.

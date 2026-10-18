@@ -1,6 +1,6 @@
 # Belajar Bahasa Inggris
 
-Belajar Bahasa Inggris menyediakan graf pembelajaran berversi, pengayaan kamus Inggris, panduan huruf cetak asli dan tujuh dek awal. Cognis mengelola antarmuka belajar serta seluruh data pengguna.
+Belajar Bahasa Inggris menyediakan graf pembelajaran berversi, pengayaan kamus Inggris, panduan huruf cetak asli dan sepuluh dek awal. Cognis mengelola antarmuka belajar serta seluruh data pengguna.
 
 ## Contoh Penggunaan
 
@@ -14,7 +14,7 @@ Belajar Bahasa Inggris menyediakan graf pembelajaran berversi, pengayaan kamus I
 
 UUID tetap modul adalah `b1adc29f-9d54-5785-9bea-2ce76f1981e4`; UUID gateway Study yang diperlukan adalah `338b9237-a2c8-5bcf-9437-bccc9abd9a27`. Bootstrap memerlukan `ctx.capabilities.require("study:library:provider")` dengan metode `ingestContentPack`, `registerLookupProvider` dan `deleteContentPack` yang berfungsi. Penyedia tulisan dan kamus didaftarkan, `data/` dimuat, lalu `study:language:en` dan kontribusi alur `bootstrap-platform` yang dapat dilepas diterbitkan. Deskriptor menyertakan `code`, `languageCode`, versi modul, paket dan `starterDecks`.
 
-Pendaftaran pencarian dilepas saat dinonaktifkan atau aktivasi gagal. Host mengelola rute, direktori statis, kapabilitas dan kait sesuai lingkup modul. `DELETE /api/v1/modules/study-language-en/config` khusus administrator mengembalikan 204 dan tetap tersedia saat modul nonaktif; modul tidak menyimpan konfigurasi. Saat dihapus, `deleteContent: false` mempertahankan paket, sedangkan `true` memanggil `deleteContentPack` melalui penyedia yang tersedia pada siklus hidup. Cognis mengelola penghapusan berantai transaksional dan notifikasi. Kegagalan diteruskan dengan log terstruktur yang aman.
+Rute khusus administrator `GET`, `PUT`, dan `DELETE /api/v1/modules/study-language-en/config` tetap tersedia saat modul dinonaktifkan. GET membaca `voiceId` tersimpan; PUT memvalidasi dan menyimpannya di `module_study_language_en_config`, tetap bertahan setelah server dimulai ulang atau modul diaktifkan kembali. DELETE hanya menghapus konfigurasi tersebut. Ketiganya mengembalikan HTTP 200 dengan pembungkus data JSON; penghapusan konfigurasi tidak menghapus konten pembelajaran. Pendaftaran penyedia dilepas saat modul dinonaktifkan atau aktivasi gagal. Penghapusan modul mempertahankan konten kecuali `deleteContent: true` meminta operasi transaksional `deleteContentPack` milik host. Kegagalan diteruskan dengan log terstruktur yang aman.
 
 ### Graf Konten
 
@@ -42,7 +42,7 @@ Jalankan `npm install`, `npm run manifest:hashes`, `npm test`, `npm run lint`, `
 
 ## Dek Awal Diperluas
 
-Bahasa Inggris menyediakan tujuh dek awal. Huruf kapital, gabungan ejaan dan adjektiva sehari-hari melengkapi empat dek lama. Kunci stabil, nama lokal dan urutan alfabet lengkap divalidasi.
+Bahasa Inggris menyediakan sepuluh dek awal. Huruf kapital, gabungan ejaan dan adjektiva sehari-hari melengkapi empat dek lama. Kunci stabil, nama lokal dan urutan alfabet lengkap divalidasi.
 
 Skema menyediakan satu pilihan filter kata sifat dan mempertahankan identitas konten yang stabil. ctx adalah tulang punggung aplikasi; Cognis memiliki alur tindakan, data pengguna, dan cache kamus.
 
@@ -66,11 +66,11 @@ Kartu kalimat memerlukan sedikitnya dua referensi kata melalui skema Library. Sa
 
 ## Struktur modul Study
 
-Paket konten berada di `data/library/`: manifes, skema, dan berkas kontennya membentuk satu batas impor dan penghapusan. Dek awal tetap di `data/starter-decks.json`. Penyedia runtime berada di `api/dictionary/` dan `api/strokes/`; pemuatan deterministik serta dekode respons dengan batas byte berada di `api/reuse/`. Pengujian konten dan siklus hidup lintas lapisan berada di `tests/`, sedangkan pengujian penyedia, transportasi, dan API berada di `api/tests/`. Manifes mendeklarasikan `api/routes/config/index.js` sebagai `disabledApi`; titik masuk itu hanya mendaftarkan rute DELETE konfigurasi khusus administrator tanpa mengimpor konten atau mengaktifkan penyedia. Pengenal alur yang telah dipublikasikan tetap stabil.
+Paket konten berada di `data/library/` dan dek awal di `data/starter-decks.json`. Penyedia berada di `api/dictionary/` serta `api/strokes/`; pemuatan deterministis dan pembacaan respons terbatas byte berada di `api/reuse/`. Pengujian lintas lapisan berada di `tests/` dan pengujian API di `api/tests/`. Manifest menetapkan `api/routes/config/index.js` sebagai `disabledApi`, yang mendaftarkan rute konfigurasi GET, PUT, dan DELETE khusus administrator ketika modul dinonaktifkan, tanpa memuat konten atau mengaktifkan penyedia. Pengenal alur yang dipublikasikan tetap stabil.
 
 ## Jaga ketepatan jenis kata dan bentuk jamak
 
-Kamus Gratis mengembalikan saran terpisah per jenis kata dengan definisi, tag, dan paradigma terkurasi yang sesuai saja. Kueri dengan apostrof atau tanda hubung ditolak karena graf alfabet saat ini tidak dapat merepresentasikan ejaannya. Respons dibatasi satu juta byte saat dialirkan dan langsung dibatalkan jika terlalu besar. Pengenal alur publik `study-language-en:bootstrap-registration` tetap dipertahankan. Pembentukan jamak berlaku pada `book` tunggal, bukan `books` yang sudah jamak; `houses` memakai `/haʊzɪz/`. Tujuh dek awal terlokalisasi didokumentasikan.
+Kamus Gratis mengembalikan saran terpisah per jenis kata dengan definisi, tag, dan paradigma terkurasi yang sesuai saja. Kueri dengan apostrof atau tanda hubung ditolak karena graf alfabet saat ini tidak dapat merepresentasikan ejaannya. Respons dibatasi satu juta byte saat dialirkan dan langsung dibatalkan jika terlalu besar. Pengenal alur publik `study-language-en:bootstrap-registration` tetap dipertahankan. Pembentukan jamak berlaku pada `book` tunggal, bukan `books` yang sudah jamak; `houses` memakai `/haʊzɪz/`. Sepuluh dek awal terlokalisasi didokumentasikan.
 
 ## Ucapan dan rekaman
 
@@ -82,4 +82,8 @@ Bootstrap mendaftarkan penyedia yang dapat dilepas melalui `study:audio:provider
 
 Berkas memakai PCM mono 24 kHz 16 bit dengan puncak terbatas dan keluaran yang dipastikan tidak hening. Permintaan memakai model tetap per bahasa, kecepatan 0,9, kemiripan 0,85, serta gaya 0; stabilitasnya 0,75 untuk bahasa Inggris dan 0,9 untuk bahasa Jepang. Nilai seed disimpan per permintaan; keluaran hening yang ditolak dicatat dan dicoba ulang tanpa mengganti suara. Bahasa Inggris memakai tag fonem IPA yang ditulis dalam data. Manifes konten menyatakan direktori aset paket dan menaikkan versi paket untuk instalasi.
 
-Setiap lapisan menyediakan kolom gambar referensi opsional dalam editor kartu dan tampilan detail host. Kartu anjing menyertakan foto oleh Elf, disunting oleh Djmirko, dengan lisensi CC BY-SA 3.0. Sumber dan atribusi tercantum dalam `data/library/assets/images/LICENSE.md` serta manifes konten. Administrator dapat mengunggah gambar referensi tambahan melalui Cognis.
+Setiap lapisan menyediakan bidang gambar referensi opsional di editor dan tampilan detail host. Kosakata menggunakan ilustrasi asli buatan AI dengan gaya pensil warna dan cat air yang dibuat melalui pembuatan gambar OpenAI; tidak ada foto pihak ketiga. `data/library/assets/images/catalog.json` mencatat asal pembuatan dan potongan, pemetaan kartu, serta checksum; `data/library/assets/images/LICENSE.md` menjelaskan lisensi karya. Administrator dapat mengunggah gambar referensi tambahan melalui Cognis.
+
+## Inventaris Rekaman
+
+`data/audio/recordings.json` merupakan manifest ringkas berisi bahasa, suara, model, pengaturan pemrosesan bersama, jumlah total, dan jalur inventaris dengan pemeriksaan integritas. Berkas dalam `data/audio/inventories/` memisahkan karakter, kosakata, transformasi, kalimat langsung, dan rekaman gabungan pengganti. Setiap berkas berada di bawah 800 baris dan mempertahankan permintaan persis, asal suara tiap klip, jalur transformasi, serta checksum audio. Bootstrap memverifikasi checksum dan jumlah setiap inventaris sebelum mendaftarkan pemutaran; byte rekaman dan prioritas pencarian tidak berubah.
