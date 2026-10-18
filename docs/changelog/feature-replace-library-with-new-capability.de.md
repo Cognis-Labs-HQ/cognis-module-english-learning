@@ -1,6 +1,86 @@
-# Englische Anbieteranpassung
+# Aktualisierungen für Englischlernen
 
 **Feature-Zweig:** feature-replace-library-with-new-capability
+
+## Capability-gestützte Lerninhalte
+
+Das Modul installiert sein deklaratives englisches Inhaltspaket jetzt atomar über die vom Host bereitgestellte Capability `study:library`. Die doppelte Bibliotheks-API samt Speicher, Seite und Navigationseintrag wurde zugunsten der schemagesteuerten Hostdarstellung entfernt.
+
+## Englische Flaggengrafik
+
+Das Modulsymbol verwendet nun eine skalierbare SVG-Darstellung der englischen Flagge anstelle des allgemeinen Cognis-Buchstabensymbols.
+
+## Ausgewählte Sprache beibehalten
+
+Die Sprach-Capability liefert nun `languageCode: "en"` im kanonischen Study-Sprachdeskriptor. Cognis PR #215 speichert diesen Code auf der erzeugten Schaltfläche der Study-Unternavigation und übergibt die Auswahl im Routerzustand, sodass Modul-URLs ohne Sprachabfrage auskommen.
+
+## Vertrag für versionierte Sprachpakete
+
+Das Englischpaket besitzt nun den Namensraum `en`, veröffentlicht lokalisierte Schemametadaten und semantische Ebenenrollen, verwendet eine neue unveränderliche Schema- und Paketversion und gibt seine validierte Paketidentität gemäß Cognis PR #214 über die Sprach-Capability bekannt.
+
+## Reines Study-Datenpaket
+
+Die moduleigenen Alphabet-, Klassenzimmer-, Navigations-, CLI-, API- und Stiloberflächen wurden entfernt. Cognis erkennt und rendert das Englischpaket nun generisch anhand der veröffentlichten unveränderlichen Paketbeschreibung, des semantischen Schemas und der lokalisierten Metadaten. Statisch registriert bleibt nur das Sprachpaket.
+
+## Auflösbare Wörterbuchdefinitionen
+
+Das Schema deklariert nun den Bibliotheksvertrag für lokalisierte Definitionen und eine ausdrückliche erforderliche Beziehung vom Alphabet zur Definition. Jeder enthaltene Buchstabe verweist auf eine Definition, deren Zeichenkettenschlüssel in jedem Sprachpaket des Moduls auflösbar ist; der Datensatz enthält denselben lokalisierten Text.
+
+## Aktuelles Bibliotheksschema
+
+Das Paket folgt dem neuesten Schema der Study-Bibliothek: Alphabetdatensätze enthalten Aussprachelisten und externes Audio, Vokabeln sind mit geordneten Schreibweisen und lokalisierten Definitionen verknüpft, und Satzfolgen unterscheiden lexikalische Wörter von grammatischen Partikeln. Es werden keine binären Medien mitgeliefert.
+
+## Aktuelle Host-Kompatibilität
+
+Das Paket verwendet nun Schema- und Inhaltspaketversion 14. Nur die Alphabet-Zeichenebene setzt `minimal: true`; Zusammensetzungen, Definitionen, Wörter, Partikeln und Sätze behalten bewusst Standardkarten. Das Kleinbuchstabenraster löst stabile numerische Anzeige-IDs auf, Großbuchstabenalternativen deklarieren ausdrücklich sowohl Variantenidentität als auch räumliche Elternschaft, und Wort-, Partikel- sowie Satzebenen verwenden erforderliche lokalisierte Anzeigedefinitionen. Digraphenzusammensetzungen bleiben von Definitionen getrennt; erforderliche Metadatenvorgaben und stabile Identitäten bewahren das aktuelle Hostverhalten.
+
+## Isolierte Browseroberfläche
+
+Das Modul stellt im statischen Modulnamensraum nur noch sein Locale-Bündel bereit und hängt sich nicht mehr in den globalen Plattform-Bootstrap-Flow ein. Datenimport und öffentliche Sprach-Capability bleiben unverändert, sodass dieses reine Datenpaket weder an der Hostnavigation und Zusammensetzung des Benutzermenüs teilnimmt noch diese stören kann.
+
+## Vollständige Satzzusammensetzung
+
+Satzbeschriftungen werden nun vollständig aus lückenlosen geordneten Verweisen auf lexikalische Einheiten und Partikeln aufgelöst und entsprechen damit der neuesten Cognis-Inhaltspaketvalidierung. Der abschließende Punkt wird als Satzzeichenpartikel mit eigener lokalisierter Definition gespeichert, sodass der enthaltene Satz keinen unverknüpften Text mehr enthält.
+
+## Lesbares Alphabet und erweiterte Laute
+
+Das Alphabet wird nun als ausgeglichene Tafel mit sieben Spalten und vier Zeilen samt ausdrücklichen Leerfeldern am Ende dargestellt. Jeder Groß- und Kleinbuchstabendatensatz enthält den Buchstabennamen und häufige IPA-Phoneme; `ph`, `wh`, `ng` und `ck` ergänzen die vorhandenen Digraphen. Variantenbeziehungen verwenden nun den aktuellen Vertrag des Hosts für dynamische Platzierung innerhalb der Grenzen anstelle des entfernten Richtungshinweises, damit keine veralteten Darstellungsdaten zum gemeldeten Laufzeitfehler der Bibliothek beitragen.
+
+## Ausdrückliche räumliche Kindbeziehungen
+
+Schemaversion 14 trennt entsprechend dem neuesten Hostvertrag die Identität als Alternativform von der visuellen Hierarchie. Die Beziehung vom Groß- zum Kleinbuchstaben deklariert nun sowohl `variant: true` als auch `child: true`: Ersteres klassifiziert den Großbuchstabendatensatz als alternative Schreibweise, Letzteres erlaubt allein das Aufklappen der Karte um ihr tatsächliches Kleinbuchstaben-Elternelement.
+
+## Ausdrückliches Privileg für den Hostnamensraum
+
+Cognis PR #220 beschränkt nicht privilegierte Module auf Registrierungen unter ihrer eigenen Modul-ID. Da dieses Sprachmodul die vom Host definierte Capability `study:language:en` veröffentlichen muss, setzt sein Manifest nun ausdrücklich `privileged: true`. Die Anforderung ist eng begrenzt dokumentiert: Das Laufzeitverhalten bleibt auf den Inhaltspaketimport, die Sprachbeschreibung und moduleigene Locale-Ressourcen beschränkt; Hostrouten oder sicherheitssensible Flow-Hooks werden nicht verwendet.
+
+## Kontextbezogene Vokabeldefinitionen
+
+Vokabeldatensätze demonstrieren nun die Definitionspriorität aus PR #196 anhand des einbuchstabigen Worts `a`. Seine lokalisierte Bedeutung beschreibt den unbestimmten Artikel und unterscheidet sich bewusst von der Buchstabendefinition der Alphabet-Quellkarte. Jede enthaltene Vokabelkarte behält ihre eigene Bedeutung in vier Sprachen, wenn der lexikalische Begriff abweicht; der Host darf eine Quelldefinition nur verwenden, wenn ein lexikalischer Eintrag keine eigene bereitstellt, und verwirft diesen Rückfall bei nicht zusammenhängender Navigation.
+
+## Maßgeblicher Vertrag für externe Pakete
+
+Schemaversion 14 übernimmt die Grenze für externe Pakete aus Cognis PR #226. Das Inhaltsmanifest kennzeichnet Anbieterdatensätze als geschützt und enthält validierte JSON-kompatible Katalogmetadaten; die Schemametadaten veröffentlichen ebenfalls eine stabile Anbieteridentität. Der Bootstrap löst nun die während des Lebenszyklus verfügbare Capability `study:library` auf, verlangt `inspectContentPack` und `ingestContentPack`, führt zuerst die nicht verändernde Prüfung durch und fordert anschließend den atomaren Import an. Alle Felder verwenden weiterhin validierte eingebaute Typen, sodass keine benutzerdefinierte Validierungsausnahme nötig ist.
+
+## Ausdrückliche Autoren- und Beziehungssemantik
+
+Die maßgebliche Version 14.1.0 entwickelt die Schemakompatibilitätsversion 14 am selben Ort weiter und folgt damit der Paketmigration der japanischen Referenzimplementierung. Jeder Datensatz trägt nun eine anbieterneutrale Inhaltsklasse; Definitionen sind ausgeblendet, Sätze zusammengesetzt und Partikeln ausdrücklich nicht bearbeitbar. Echte Schreib- und geordnete Sequenzbeziehungen deklarieren `composition`, während Definitions- und Variantenverknüpfungen keine Resolverrolle besitzen, sodass die Rückwärtsnavigation vereinheitlicht bleibt, ohne zusammengesetzte Titel zu verfälschen. Feldschemata bieten nun lokalisierte Autorensteuerelemente und einen auf Englisch begrenzten Audiodateivertrag, ohne einen moduleigenen Editor zu aktivieren.
+
+## Verfügbarkeit der Capability beim Aktivieren
+
+Das Modul folgt nun der funktionierenden japanischen Referenz und deklariert sowie bezieht die während des Lebenszyklus verfügbare Capability `study:library`. Die separat veröffentlichte Oberfläche `study:library:provider` ist bei der Abhängigkeitsvorprüfung externer Module nicht garantiert verfügbar; dadurch schlug die Aktivierung bereits vor dem Bootstrap mit HTTP 409 fehl. Schreibgeschützte Prüfung und atomarer Import bleiben über den internen Bibliotheksdienst geordnet, sodass das Validierungsverhalten unverändert bleibt und die Aktivierung nicht mehr von einer spät veröffentlichten Capability abhängt.
+
+## Dokumentation und Verträge
+
+Das Manifest verlangt `study:library`, folgt dem aktuellen hosteigenen Vertrag für atomare Aktivierung und veröffentlicht Modulversion 1.2.37.
+
+## Changelog-Struktur vereinheitlicht
+
+Die lokalisierte Cognis-Konvention für ein Changelog pro Pull Request sowie automatische Prüfungen für Sprachparität, Eintragsdetails, Zweigmetadaten und Commit-Herkunft wurden ergänzt.
+
+## KI-Anweisungen synchronisiert
+
+Repository-lokale Copilot-Richtlinien wurden ergänzt und mit den modulweiten Agentenanweisungen abgeglichen, damit KI-unterstützte Beiträge denselben Regeln folgen.
 
 ## Vorbereitete Ausspracheaufnahmen ausliefern
 
@@ -178,25 +258,38 @@ Der Katalogleser erhält seine Normalisierungsregel vom Sprachanbieter: NFC für
 
 Dateinamen und IDs der Illustrationen verwenden ihren SHA-256-Hash; Quellblätter verwenden den Hash ihrer Quelldaten. Die Katalogmetadaten liefern deutsche, englische, indonesische und japanische Bezeichnungen aus den vorhandenen Bedeutungen der Karten. Anzeige und neutrale Speicherkennung sind getrennt. Bilddaten und Kartenidentitäten bleiben unverändert; Inhaltsrevisionen aktualisieren alle Bildverweise.
 
+## Nutzung
+
+ElevenLabs-Synthese in ein eigenes konfigurierbares Modul verlagern. Study nutzt optionale sprachbezogene Stimmen für gespeicherte globale Karten. Private und Klassenkarten erlauben begrenzte Uploads und Mikrofonaufnahmen. Die kontinuierliche Satzkomposition aus vorhandenen Aufnahmen bleibt als Rückfall erhalten. Administratoren können globale Audios im Editor neu erzeugen.
+
+## Study-Aktivierung reparieren
+
+Die tatsächlichen englischen und japanischen Inhaltspaketversionen beim Entfernen gebündelter Aufnahmen erhöhen. Unabhängige Module werden vor der Fehlermeldung vollständig abgeglichen, damit Einwilligungsrouten ihre registrierten Flows behalten.
+
+## Alle Aufnahmen neu erzeugen
+
+Alle 331 gebündelten Aufnahmen verwenden nun die konfigurierte ElevenLabs-Stimme dieser Sprache. Verfasste Lesungen, Kartenidentitäten, leise Vorläufe und die Satzkomposition mit Sprechpausen bleiben erhalten. Das Werkzeug nutzt Zugangsdaten aus der Umgebung, einen fortsetzbaren API-Antwortcache und atomaren Dateiaustausch; Pakete enthalten keine Zugangsdaten. Verzeichnisse, Herkunftsangaben, Inhaltsrevisionen und Integritätsprüfsummen entsprechen den neuen Aufnahmen.
+
 ## Commits
 
-- [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)
-- [4212babe](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4212babec6746044c254c6b38f466d79be0202c6)
-- [796ce057](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/796ce057c656b30ae7a5a5fe013e1e4f1678daf8)
-- [808c1a72](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/808c1a7269c7a0e149dde37411107d5fc23636a8)
-- [eb8095fe](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/eb8095fe6f6e13dd5ad2e09540ac0d6ff8f9a183)
-- [101385bb](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/101385bbe449519ef00798a2bf6f8c0322d26a6f)
 - [209951a](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/209951a165f6935eb242b265f01f2de568ba0b1d)
+- [8048575](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/80485757bae9c748a47691b2369673c467ebde6d)
+- [c92c612](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)
+- [4212bab](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4212babec6746044c254c6b38f466d79be0202c6)
+- [796ce05](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/796ce057c656b30ae7a5a5fe013e1e4f1678daf8)
+- [808c1a7](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/808c1a7269c7a0e149dde37411107d5fc23636a8)
+- [eb8095f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/eb8095fe6f6e13dd5ad2e09540ac0d6ff8f9a183)
+- [101385b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/101385bbe449519ef00798a2bf6f8c0322d26a6f)
 - [a97d873](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a97d8736fc474d6e1a24efeeb807b27f49c66441)
 - [3020bb3](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/3020bb32ed67ae87ac188a2635d76df652378bb2)
 - [30f117c](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/30f117c4549a670ed7b63f2dbc478080f28873a2)
 - [21a0c59](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/21a0c590906a9185fe75f7e565d6f86db8fe1b5c)
 - [a53cb1b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a53cb1bf905620bd7ad1183285cee1be2ced8823)
 - [8d5d822](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/8d5d82247993f5fd8759d33d923a818722c36075)
-- [d63f5ac5](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d63f5ac5ca942f59965c6ac517a6151db9fbb727)
-- [e0171127](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e017112787f2903824214ee731dbdfb9e55eb916)
-- [0284e55f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/0284e55ff120336df0c3ee54df9ed41df94ef1fa)
-- [9ee99c98](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/9ee99c9854cbd2409ecc32921a04741a87c929e2)
+- [d63f5ac](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d63f5ac5ca942f59965c6ac517a6151db9fbb727)
+- [e017112](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e017112787f2903824214ee731dbdfb9e55eb916)
+- [0284e55](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/0284e55ff120336df0c3ee54df9ed41df94ef1fa)
+- [9ee99c9](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/9ee99c9854cbd2409ecc32921a04741a87c929e2)
 - [d376277](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d376277ad28a779f25e66b0b625bea17e86302f1)
 - [52d26dd](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/52d26ddbf52d2610823de8236eaca96589ba8f14)
 - [de24655](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/de2465556e5827c262321c94a6a28b15fbb379c9)
@@ -212,3 +305,6 @@ Dateinamen und IDs der Illustrationen verwenden ihren SHA-256-Hash; Quellblätte
 - [b9c5743](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b9c57434a537e646516cbf3657a0d5b645773d86)
 - [2c2e676](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/2c2e6762e43ea9351ba0a22879a9cc3b32087bbb)
 - [c27ce4e](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c27ce4eb7e3b7197044d37656a8906a394df0935)
+- [af0ee61](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/af0ee61ea40640ece10fc7c9754769000bf6df5a)
+- [87be13f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/87be13f6b19b64c15d6866e62c10cfcd39040124)
+- [4b95cc1](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4b95cc17b5bd2dbba73f38f1d90298a5bb682a2b)

@@ -1,6 +1,86 @@
-# 英語プロバイダーの更新
+# 英語学習の更新
 
 **機能ブランチ:** feature-replace-library-with-new-capability
+
+## Capability ベースの学習データ
+
+宣言型の英語コンテンツパックを、ホスト提供の `study:library` capability 経由でアトミックに導入します。重複していたライブラリ API、ストア、ページ、ナビゲーション項目は削除し、スキーマ駆動のホスト表示に統一しました。
+
+## イングランド国旗のアートワーク
+
+モジュールアイコンを、汎用の Cognis 文字マークから拡大縮小可能なイングランド国旗の SVG に変更しました。
+
+## 選択言語の維持
+
+言語 capability は、正規の Study 言語記述子として `languageCode: "en"` を提供します。Cognis PR #215 は生成した Study サブナビゲーションボタンにこのコードを保存し、選択状態をルーター state で渡すため、モジュール URL に言語クエリを付ける必要がなくなりました。
+
+## バージョン付き言語パッケージ契約
+
+英語パックが `en` 名前空間を所有し、ローカライズ済みスキーマメタデータとレイヤーの意味的役割を公開するようにしました。新しい不変のスキーマ・パッケージ版を使い、Cognis PR #214 に従って検証済みパッケージ識別情報を言語 capability から通知します。
+
+## データ専用 Study パッケージ
+
+モジュール固有のアルファベット、クラスルーム、ナビゲーション、CLI、API、スタイルを削除しました。Cognis は、公開された不変のパッケージ記述子、意味的スキーマ、ローカライズ済みメタデータから英語パッケージを汎用的に検出して表示します。静的に登録するのは言語リソースだけです。
+
+## 解決可能な辞書定義
+
+スキーマにライブラリの定義ローカライズ契約と、アルファベットから定義への明示的な必須関係を追加しました。すべての同梱文字は、各モジュール言語バンドルで解決できる文字列キーを持つ定義を参照し、コンテンツレコードにも一致するローカライズ済みテキストを格納します。
+
+## 最新のライブラリスキーマ
+
+このパックは最新の Study ライブラリスキーマに準拠します。アルファベットには発音一覧と外部音声を持たせ、語彙を順序付き綴りと多言語定義に関連付け、文の並びでは語彙語と文法的な助詞を区別します。バイナリメディアは同梱しません。
+
+## 最新ホストとの互換性
+
+スキーマとコンテンツパックをバージョン 14 に更新しました。`minimal: true` を設定するのはアルファベット文字レイヤーだけで、複合文字・定義・単語・助詞・文は意図的に標準カードを維持します。小文字グリッドは安定した数値表示 ID を解決し、大文字の代替項目は異体識別と空間的な親子関係の両方を明示し、単語・助詞・文レイヤーは必須の多言語表示定義を使用します。二重字の構成は定義と分離したままにし、必須メタデータの初期値と安定した識別子によって現在のホスト動作を維持します。
+
+## 分離されたブラウザー領域
+
+モジュールの静的名前空間ではロケールバンドルだけを配信し、グローバルなプラットフォームブートストラップフローへのフックを廃止しました。データ取り込みと公開言語ケイパビリティは維持し、データ専用パッケージがホストのナビゲーションやユーザーメニュー構成へ参加したり干渉したりしないようにします。
+
+## 完全な文の構成
+
+最新の Cognis コンテンツパック検証に合わせ、文ラベル全体を位置が連続する語彙単位と助詞の順序付き参照から解決するようにしました。末尾のピリオドは独自の多言語定義を持つ句読点助詞として格納し、同梱文に未参照の文字列が残らないようにしています。
+
+## 読みやすいアルファベットと発音の拡充
+
+アルファベットを、末尾に明示的な空欄を持つ 7 列 4 行の均整の取れた表として表示するようにしました。大文字・小文字の各レコードに文字名と一般的な IPA 音素を持たせ、既存の二重字に `ph`、`wh`、`ng`、`ck` を追加しました。異体関係では廃止された方向ヒントを使わず、ホストの最新の境界付き動的配置契約に従うため、古い表示データが報告されたライブラリ実行時エラーの一因になることを防ぎます。
+
+## 明示的な空間的子関係
+
+スキーマバージョン 14 では、最新のホスト契約に従って代替形の識別と視覚階層を分離します。大文字から小文字への関係は `variant: true` と `child: true` の両方を宣言し、前者が大文字レコードを代替綴りとして分類し、後者だけが実際の小文字の親の周囲へカードを展開することを許可します。
+
+## ホスト名前空間向けの明示的な特権
+
+Cognis PR #220 は、非特権モジュールの登録を自身のモジュール ID 配下に制限します。この言語モジュールはホスト定義の `study:language:en` ケイパビリティを公開する必要があるため、マニフェストで `privileged: true` を明示するようにしました。要求範囲は明確に限定しており、実行時動作はコンテンツパックの取り込み、言語記述子、モジュール所有ロケールの公開だけです。ホストルートやセキュリティ上重要なフローフックは使用しません。
+
+## 文脈固有の語彙定義
+
+1 文字の単語 `a` により、PR #196 の定義優先順位を示すようにしました。その多言語定義は不定冠詞を説明し、参照元のアルファベットカードが持つ文字定義とは意図的に異なります。語彙上の概念が異なる同梱語彙カードはすべて 4 言語の固有定義を保持します。ホストが参照元定義を使うのは語彙項目に固有の意味がない場合だけで、無関係なナビゲーションではそのフォールバックを破棄します。
+
+## 正式な外部パッケージ契約
+
+スキーマバージョン 14 は Cognis PR #226 の外部パッケージ境界を採用します。コンテンツマニフェストはプロバイダー所有レコードを保護対象として指定し、検証済みの JSON 互換カタログメタデータを保持します。スキーマメタデータも安定したプロバイダー識別情報を公開します。ブートストラップはライフサイクル中に利用できる `study:library` ケイパビリティ を解決し、`inspectContentPack` と `ingestContentPack` の両方を必須として、非更新の検査後にアトミックな取り込みを要求します。すべてのフィールドは引き続き検証済みの組み込み型を使うため、独自検証の例外は不要です。
+
+## 明示的な作成・関係セマンティクス
+
+正式リリース 14.1.0 は、日本語の参照実装と同じパック内移行に従い、スキーマ互換バージョン 14 を同一バージョン内で発展させます。すべてのレコードにプロバイダー中立のコンテンツ分類を付け、定義を非表示、文を複合、助詞を明示的に編集不可としました。実際の綴りと順序付き並びの関係は `composition` を宣言し、定義・異体リンクにはリゾルバーロールを持たせないため、構成タイトルを汚さず逆方向ナビゲーションを統合できます。フィールドスキーマには多言語の作成コントロールと英語範囲の音声ファイル契約を追加しましたが、モジュール所有エディターは有効化していません。
+
+## 有効化時のケイパビリティ可用性
+
+動作している日本語参照実装に合わせ、ライフサイクル中に利用できる `study:library` ケイパビリティを宣言・解決するようにしました。別途公開される `study:library:provider` は外部モジュールの依存関係事前検証時に存在する保証がなく、ブートストラップ実行前に HTTP 409 で有効化が失敗していました。読み取り専用検査とアトミックな取り込みの順序は内部ライブラリサービスで維持されるため、検証動作を変えずに、遅れて公開されるケイパビリティへの有効化依存を解消します。
+
+## ドキュメントと契約
+
+マニフェストは `study:library` を必須とし、現在のホスト所有のアトミック有効化契約に従い、モジュールバージョン 1.2.37 を公開します。
+
+## 変更履歴の構造を標準化
+
+プルリクエストごとにローカライズされた変更履歴を用意する Cognis の規約と、言語の同等性、エントリーの詳細、ブランチ情報、コミット由来を確認する自動テストを追加しました。
+
+## AI 向け指示を同期
+
+リポジトリ固有の Copilot ガイダンスを追加し、モジュール全体のエージェント指示と統一することで、AI 支援のコントリビューションが同じ規則に従うようにしました。
 
 ## 初期カードの発音音声を同梱
 
@@ -178,25 +258,38 @@ ElevenLabsを任意のモジュール依存関係として宣言します。イ�
 
 画像ファイル名と ID は SHA-256 ハッシュを使用し、元シートの識別子も出典のハッシュを使用します。カタログのメタデータはカードに既存の意味からドイツ語・英語・インドネシア語・日本語のラベルを提供します。表示ラベルと中立的な保存識別子を分離しました。画像データとカード ID は維持し、コンテンツ改訂ですべての画像参照を更新します。
 
+## 使用方法
+
+ElevenLabs合成を設定可能な独立モジュールへ移します。Studyは保存済みグローバルカードに言語ごとの任意の声を使用し、個人・クラスカードは上限付きアップロードとマイク録音を受け付けます。既存の構成カード音声を連続結合する代替機能を維持し、管理者は編集時にグローバル音声を再生成できます。
+
+## Study有効化の修正
+
+同梱音声の削除時に英語と日本語の実際のコンテンツパックのバージョンを上げます。有効化の失敗を返す前に他のモジュールの再構築を完了し、同意ルートの登録済みフローを維持します。
+
+## すべての録音を再生成
+
+パッケージ内の 331 件の録音を、この言語に設定された ElevenLabs の声で再生成しました。既存の読み、カード識別子、開始前の無音、間を設けた文の音声合成を維持します。生成ツールは環境変数の認証情報、再開可能な API 応答キャッシュ、ファイルの原子的な置き換えを使用し、パッケージに認証情報を含めません。一覧、帰属表示、コンテンツ改訂、整合性ハッシュも新しい録音に合わせて更新します。
+
 ## コミット
 
-- [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)
-- [4212babe](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4212babec6746044c254c6b38f466d79be0202c6)
-- [796ce057](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/796ce057c656b30ae7a5a5fe013e1e4f1678daf8)
-- [808c1a72](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/808c1a7269c7a0e149dde37411107d5fc23636a8)
-- [eb8095fe](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/eb8095fe6f6e13dd5ad2e09540ac0d6ff8f9a183)
-- [101385bb](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/101385bbe449519ef00798a2bf6f8c0322d26a6f)
 - [209951a](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/209951a165f6935eb242b265f01f2de568ba0b1d)
+- [8048575](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/80485757bae9c748a47691b2369673c467ebde6d)
+- [c92c612](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)
+- [4212bab](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4212babec6746044c254c6b38f466d79be0202c6)
+- [796ce05](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/796ce057c656b30ae7a5a5fe013e1e4f1678daf8)
+- [808c1a7](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/808c1a7269c7a0e149dde37411107d5fc23636a8)
+- [eb8095f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/eb8095fe6f6e13dd5ad2e09540ac0d6ff8f9a183)
+- [101385b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/101385bbe449519ef00798a2bf6f8c0322d26a6f)
 - [a97d873](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a97d8736fc474d6e1a24efeeb807b27f49c66441)
 - [3020bb3](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/3020bb32ed67ae87ac188a2635d76df652378bb2)
 - [30f117c](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/30f117c4549a670ed7b63f2dbc478080f28873a2)
 - [21a0c59](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/21a0c590906a9185fe75f7e565d6f86db8fe1b5c)
 - [a53cb1b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a53cb1bf905620bd7ad1183285cee1be2ced8823)
 - [8d5d822](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/8d5d82247993f5fd8759d33d923a818722c36075)
-- [d63f5ac5](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d63f5ac5ca942f59965c6ac517a6151db9fbb727)
-- [e0171127](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e017112787f2903824214ee731dbdfb9e55eb916)
-- [0284e55f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/0284e55ff120336df0c3ee54df9ed41df94ef1fa)
-- [9ee99c98](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/9ee99c9854cbd2409ecc32921a04741a87c929e2)
+- [d63f5ac](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d63f5ac5ca942f59965c6ac517a6151db9fbb727)
+- [e017112](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e017112787f2903824214ee731dbdfb9e55eb916)
+- [0284e55](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/0284e55ff120336df0c3ee54df9ed41df94ef1fa)
+- [9ee99c9](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/9ee99c9854cbd2409ecc32921a04741a87c929e2)
 - [d376277](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d376277ad28a779f25e66b0b625bea17e86302f1)
 - [52d26dd](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/52d26ddbf52d2610823de8236eaca96589ba8f14)
 - [de24655](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/de2465556e5827c262321c94a6a28b15fbb379c9)
@@ -212,3 +305,6 @@ ElevenLabsを任意のモジュール依存関係として宣言します。イ�
 - [b9c5743](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b9c57434a537e646516cbf3657a0d5b645773d86)
 - [2c2e676](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/2c2e6762e43ea9351ba0a22879a9cc3b32087bbb)
 - [c27ce4e](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c27ce4eb7e3b7197044d37656a8906a394df0935)
+- [af0ee61](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/af0ee61ea40640ece10fc7c9754769000bf6df5a)
+- [87be13f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/87be13f6b19b64c15d6866e62c10cfcd39040124)
+- [4b95cc1](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4b95cc17b5bd2dbba73f38f1d90298a5bb682a2b)

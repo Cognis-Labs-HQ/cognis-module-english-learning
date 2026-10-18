@@ -1,6 +1,86 @@
-# Penyelarasan Penyedia Inggris
+# Pembaruan Belajar Bahasa Inggris
 
 **Cabang Fitur:** feature-replace-library-with-new-capability
+
+## Materi pembelajaran berbasis kapabilitas
+
+Modul kini memasang paket konten bahasa Inggris deklaratifnya secara atomik melalui kapabilitas `study:library` yang disediakan host. API, penyimpanan, halaman, dan entri navigasi pustaka yang rangkap telah dihapus demi rendering host berbasis skema.
+
+## Gambar bendera Inggris
+
+Ikon modul kini menggunakan representasi SVG bendera Inggris yang dapat diskalakan sebagai pengganti tanda huruf Cognis generik.
+
+## Mempertahankan bahasa yang dipilih
+
+Kapabilitas bahasa kini menyediakan `languageCode: "en"` melalui deskriptor bahasa Study kanonis. Cognis PR #215 menyimpan kode tersebut pada tombol subnavigasi Study yang dibuat dan membawa pilihan melalui state router, sehingga URL modul tetap bersih tanpa kueri bahasa.
+
+## Kontrak paket bahasa berversi
+
+Paket bahasa Inggris kini memiliki namespace `en`, menerbitkan metadata skema terlokalisasi dan peran semantik lapisan, menggunakan versi skema serta paket baru yang tetap, dan mengiklankan identitas paket tervalidasi melalui kapabilitas bahasa sesuai Cognis PR #214.
+
+## Paket Study khusus data
+
+Permukaan alfabet, kelas, navigasi, CLI, API, dan gaya milik modul telah dihapus. Cognis kini menemukan dan merender paket bahasa Inggris secara generik dari deskriptor paket tetap, skema semantik, dan metadata terlokalisasi yang dipublikasikan. Hanya bundel bahasa yang tetap didaftarkan secara statis.
+
+## Definisi kamus yang dapat diselesaikan
+
+Skema kini mendeklarasikan kontrak pelokalan definisi Pustaka dan relasi alfabet-ke-definisi yang eksplisit serta wajib. Setiap huruf bawaan tertaut ke definisi dengan kunci string yang dapat diselesaikan dalam setiap bundel bahasa modul, sementara rekaman kontennya menyimpan teks terlokalisasi yang sama.
+
+## Skema Pustaka terbaru
+
+Paket ini mengikuti skema Pustaka Study terbaru: data alfabet menyediakan daftar pelafalan dan audio jarak jauh, kosakata ditautkan ke ejaan berurutan dan definisi terlokalisasi, serta urutan kalimat membedakan kata leksikal dari partikel tata bahasa. Tidak ada media biner yang dikemas.
+
+## Kompatibilitas host terbaru
+
+Paket kini memakai skema dan paket konten versi 14. Hanya lapisan karakter alfabet yang menetapkan `minimal: true`; komposit, definisi, kata, partikel, dan kalimat sengaja mempertahankan kartu standar. Kisi huruf kecil memakai ID tampilan numerik yang stabil, alternatif huruf kapital secara eksplisit mendeklarasikan identitas varian dan induk spasial, dan lapisan kata, partikel, serta kalimat memakai definisi tampilan terlokalisasi yang wajib. Komposisi digraf tetap terpisah dari definisi; nilai awal metadata wajib dan identitas stabil mempertahankan perilaku host terkini.
+
+## Permukaan peramban terisolasi
+
+Modul kini hanya menyajikan bundel lokal melalui namespace statis modul dan tidak lagi memasang hook pada alur bootstrap platform global. Ingesti data dan kapabilitas bahasa publik tetap sama sehingga paket khusus data ini tidak ikut membentuk atau mengganggu navigasi host dan menu pengguna.
+
+## Komposisi kalimat lengkap
+
+Label kalimat kini diselesaikan sepenuhnya dari rujukan unit leksikal dan partikel yang berurutan tanpa celah sesuai validasi paket konten Cognis terbaru. Tanda titik terakhir disimpan sebagai partikel tanda baca dengan definisi terlokalisasinya sendiri sehingga kalimat bawaan tidak lagi memuat teks yang tidak tertaut.
+
+## Alfabet mudah dibaca dan bunyi yang diperluas
+
+Alfabet kini dirender sebagai bagan seimbang tujuh kolom dan empat baris dengan ruang kosong eksplisit di akhir. Setiap rekaman huruf kapital dan kecil memuat nama huruf serta fonem IPA umum, dan konten menambahkan `ph`, `wh`, `ng`, serta `ck` ke kumpulan digraf yang ada. Relasi varian kini mengikuti kontrak penempatan dinamis berbatas terbaru milik host, bukan petunjuk arah yang telah dihapus, sehingga data presentasi usang tidak ikut menyebabkan kegagalan runtime Pustaka yang dilaporkan.
+
+## Relasi anak spasial eksplisit
+
+Skema versi 14 memisahkan identitas bentuk alternatif dari hierarki visual sesuai kontrak host terbaru. Relasi huruf kapital ke huruf kecil kini mendeklarasikan `variant: true` dan `child: true`: yang pertama mengklasifikasikan rekaman huruf kapital sebagai ejaan alternatif, sedangkan hanya yang kedua mengizinkan kartu terbuka di sekitar induk huruf kecil yang sebenarnya.
+
+## Privilege namespace host eksplisit
+
+Cognis PR #220 membatasi modul tanpa privilege agar hanya mendaftar di bawah ID modulnya sendiri. Karena modul bahasa ini harus menerbitkan kapabilitas yang ditentukan host `study:language:en`, manifesnya kini secara eksplisit menetapkan `privileged: true`. Permintaan ini didokumentasikan secara terbatas: perilaku runtime tetap hanya mencakup ingesti paket konten, deskriptor bahasa, dan pemaparan lokal milik modul, tanpa rute host atau hook alur yang sensitif terhadap keamanan.
+
+## Definisi kosakata kontekstual
+
+Rekaman kosakata kini mendemonstrasikan prioritas definisi PR #196 melalui kata satu huruf `a`. Makna terlokalisasinya menjelaskan artikel tak tentu dan sengaja berbeda dari definisi huruf pada kartu alfabet sumber. Setiap kartu kosakata bawaan mempertahankan maknanya sendiri dalam empat bahasa ketika konsep leksikalnya berbeda; host hanya boleh memakai definisi sumber jika entri leksikal tidak menyediakan makna sendiri, dan navigasi yang tidak terkait menghapus fallback tersebut.
+
+## Kontrak paket eksternal resmi
+
+Skema versi 14 mengadopsi batas paket eksternal Cognis PR #226. Manifes konten menandai rekaman penyedia sebagai terlindungi dan membawa metadata katalog kompatibel JSON yang tervalidasi; metadata skema juga menerbitkan identitas penyedia yang stabil. Bootstrap kini mengambil kapabilitas `study:library` yang tersedia selama siklus hidup, mewajibkan `inspectContentPack` dan `ingestContentPack`, menjalankan inspeksi tanpa mutasi terlebih dahulu, lalu meminta ingesti atomik. Semua bidang tetap memakai jenis bawaan yang tervalidasi sehingga tidak memerlukan celah validasi khusus.
+
+## Semantik penulisan dan relasi eksplisit
+
+Rilis resmi 14.1.0 mengembangkan versi kompatibilitas skema 14 di tempat, mengikuti migrasi paket pada implementasi referensi bahasa Jepang. Setiap rekaman kini memiliki kelas konten netral-penyedia; definisi disembunyikan, kalimat bersifat komposit, dan partikel secara eksplisit tidak dapat disunting. Relasi ejaan serta urutan yang sesungguhnya mendeklarasikan `composition`, sedangkan tautan definisi dan varian tidak memiliki peran resolver agar navigasi balik tetap terpadu tanpa mencemari judul tersusun. Skema bidang kini menyediakan kontrol penulisan terlokalisasi dan kontrak berkas audio khusus bahasa Inggris tanpa mengaktifkan editor milik modul.
+
+## Ketersediaan kapabilitas saat pengaktifan
+
+Modul kini mengikuti referensi bahasa Jepang yang berfungsi dengan mendeklarasikan dan mengambil kapabilitas `study:library` yang tersedia selama siklus hidup. Permukaan `study:library:provider` yang diterbitkan terpisah tidak dijamin tersedia saat prapemeriksaan dependensi modul eksternal, sehingga pengaktifan gagal dengan HTTP 409 sebelum bootstrap berjalan. Inspeksi hanya-baca dan ingesti atomik tetap berurutan melalui layanan Pustaka internal; perilaku validasi tidak berubah dan pengaktifan tidak lagi bergantung pada kapabilitas yang diterbitkan belakangan.
+
+## Dokumentasi dan kontrak
+
+Manifes mewajibkan `study:library`, mengikuti kontrak aktivasi atomik milik host terkini, dan menerbitkan modul versi 1.2.37.
+
+## Struktur catatan perubahan distandardisasi
+
+Konvensi Cognis untuk catatan perubahan lokal per pull request telah ditambahkan, beserta pemeriksaan otomatis untuk kesetaraan bahasa, detail entri, metadata cabang, dan asal komit.
+
+## Instruksi AI disinkronkan
+
+Panduan Copilot khusus repositori telah ditambahkan dan diselaraskan dengan instruksi agen untuk seluruh modul agar kontribusi berbantuan AI mengikuti aturan yang sama.
 
 ## Sertakan rekaman pelafalan awal
 
@@ -178,25 +258,38 @@ Pembaca katalog menerima kebijakan normalisasi dari penyedia bahasa: NFC untuk I
 
 Nama berkas dan ID ilustrasi memakai digest SHA-256, sedangkan pengenal lembar sumber memakai digest sumber. Metadata katalog menyediakan label Jerman, Inggris, Indonesia, dan Jepang dari makna kartu yang sudah ditulis. Label tampilan terpisah dari pengenal penyimpanan netral. Data gambar dan identitas kartu tetap sama; revisi konten memperbarui semua referensi gambar paket.
 
+## Penggunaan
+
+Pindahkan sintesis ElevenLabs ke modul terpisah yang dapat dikonfigurasi. Study memakai suara opsional per bahasa untuk kartu global tersimpan, sedangkan kartu pribadi dan kelas menerima unggahan terbatas dan rekaman mikrofon. Pertahankan komposisi kalimat berkelanjutan sebagai cadangan dari rekaman penyusun yang tersedia. Administrator dapat membuat ulang audio global saat mengedit.
+
+## Perbaiki aktivasi Study
+
+Naikkan versi paket konten Inggris dan Jepang saat menghapus rekaman bawaan. Selesaikan rekonsiliasi modul lain sebelum melaporkan aktivasi gagal agar rute persetujuan tetap memiliki alur terdaftar.
+
+## Buat ulang seluruh rekaman
+
+Seluruh 331 rekaman dalam paket kini memakai suara ElevenLabs yang dikonfigurasi untuk bahasa ini. Bacaan yang ditulis, identitas kartu, jeda awal, dan komposisi kalimat berirama tetap dipertahankan. Alat pembuatan menggunakan kredensial lingkungan, cache respons API yang dapat dilanjutkan, dan penggantian berkas atomik; paket tidak berisi kredensial. Inventaris, atribusi, revisi konten, dan hash integritas mencerminkan rekaman baru.
+
 ## Komit
 
-- [c92c6123](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)
-- [4212babe](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4212babec6746044c254c6b38f466d79be0202c6)
-- [796ce057](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/796ce057c656b30ae7a5a5fe013e1e4f1678daf8)
-- [808c1a72](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/808c1a7269c7a0e149dde37411107d5fc23636a8)
-- [eb8095fe](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/eb8095fe6f6e13dd5ad2e09540ac0d6ff8f9a183)
-- [101385bb](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/101385bbe449519ef00798a2bf6f8c0322d26a6f)
 - [209951a](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/209951a165f6935eb242b265f01f2de568ba0b1d)
+- [8048575](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/80485757bae9c748a47691b2369673c467ebde6d)
+- [c92c612](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c92c6123e086f7a1cdccca8b258044e0c2deefcf)
+- [4212bab](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4212babec6746044c254c6b38f466d79be0202c6)
+- [796ce05](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/796ce057c656b30ae7a5a5fe013e1e4f1678daf8)
+- [808c1a7](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/808c1a7269c7a0e149dde37411107d5fc23636a8)
+- [eb8095f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/eb8095fe6f6e13dd5ad2e09540ac0d6ff8f9a183)
+- [101385b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/101385bbe449519ef00798a2bf6f8c0322d26a6f)
 - [a97d873](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a97d8736fc474d6e1a24efeeb807b27f49c66441)
 - [3020bb3](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/3020bb32ed67ae87ac188a2635d76df652378bb2)
 - [30f117c](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/30f117c4549a670ed7b63f2dbc478080f28873a2)
 - [21a0c59](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/21a0c590906a9185fe75f7e565d6f86db8fe1b5c)
 - [a53cb1b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a53cb1bf905620bd7ad1183285cee1be2ced8823)
 - [8d5d822](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/8d5d82247993f5fd8759d33d923a818722c36075)
-- [d63f5ac5](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d63f5ac5ca942f59965c6ac517a6151db9fbb727)
-- [e0171127](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e017112787f2903824214ee731dbdfb9e55eb916)
-- [0284e55f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/0284e55ff120336df0c3ee54df9ed41df94ef1fa)
-- [9ee99c98](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/9ee99c9854cbd2409ecc32921a04741a87c929e2)
+- [d63f5ac](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d63f5ac5ca942f59965c6ac517a6151db9fbb727)
+- [e017112](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e017112787f2903824214ee731dbdfb9e55eb916)
+- [0284e55](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/0284e55ff120336df0c3ee54df9ed41df94ef1fa)
+- [9ee99c9](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/9ee99c9854cbd2409ecc32921a04741a87c929e2)
 - [d376277](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d376277ad28a779f25e66b0b625bea17e86302f1)
 - [52d26dd](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/52d26ddbf52d2610823de8236eaca96589ba8f14)
 - [de24655](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/de2465556e5827c262321c94a6a28b15fbb379c9)
@@ -212,3 +305,6 @@ Nama berkas dan ID ilustrasi memakai digest SHA-256, sedangkan pengenal lembar s
 - [b9c5743](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b9c57434a537e646516cbf3657a0d5b645773d86)
 - [2c2e676](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/2c2e6762e43ea9351ba0a22879a9cc3b32087bbb)
 - [c27ce4e](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c27ce4eb7e3b7197044d37656a8906a394df0935)
+- [af0ee61](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/af0ee61ea40640ece10fc7c9754769000bf6df5a)
+- [87be13f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/87be13f6b19b64c15d6866e62c10cfcd39040124)
+- [4b95cc1](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4b95cc17b5bd2dbba73f38f1d90298a5bb682a2b)
