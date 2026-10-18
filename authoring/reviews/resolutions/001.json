@@ -1,0 +1,66 @@
+[
+    {
+        "entryId": "en:word:english",
+        "priorAssetSha256": "dd665fa655e03cde95169ebcd8a2aba00e4a628e4c04f0c8d227dc6f94149106",
+        "priorDecision": "artwork-priority",
+        "status": "resolved-with-localized-context",
+        "imageDisposition": "retain-as-contextual-cue",
+        "reviewObservation": "Book marked ABC also fits other Latin-script languages; not uniquely English.",
+        "reason": "The alphabet book is a cue for language study; ABC is not unique to English. The label names the language. Example: I study English.",
+        "runtimeEvidence": {
+            "field": "usage_notes",
+            "locales": ["de", "en", "id", "ja"],
+            "reviewedTextSha256": "27ba91d7825b94932d33abf5af6247b2909f5f9c6a1a9adb1cfef96cb3311439",
+            "imagePath": "images/dd665fa655e03cde95169ebcd8a2aba00e4a628e4c04f0c8d227dc6f94149106.jpg"
+        },
+        "audioListening": "not-performed; existing recordings unchanged; usage notes are text, not new audio-backed sentence records"
+    },
+    {
+        "entryId": "en:word:important",
+        "priorAssetSha256": "1ac7eaeb345d2f80a8be332eff16a9fb7f41439f3ac34a83315954afebadf7fa",
+        "priorDecision": "artwork-priority",
+        "status": "resolved-with-localized-context",
+        "imageDisposition": "retain-as-contextual-cue",
+        "reviewObservation": "Highlighted key at locked door does not alone establish importance.",
+        "reason": "The key matters because it is needed to open the locked door. Important describes significance, not brightness or size. Example: This key is important.",
+        "runtimeEvidence": {
+            "field": "usage_notes",
+            "locales": ["de", "en", "id", "ja"],
+            "reviewedTextSha256": "01804bf38cca49672dff61adca573bf4c2fda81793549df0c92908760fbb4a87",
+            "imagePath": "images/1ac7eaeb345d2f80a8be332eff16a9fb7f41439f3ac34a83315954afebadf7fa.jpg"
+        },
+        "audioListening": "not-performed; existing recordings unchanged; usage notes are text, not new audio-backed sentence records"
+    },
+    {
+        "entryId": "en:word:get",
+        "priorAssetSha256": "c75c3bb338b2381d32f15895382cab512d0db1ddcf6d0f92c75bfd68ce93f454",
+        "priorDecision": "artwork-priority",
+        "status": "resolved-with-localized-context",
+        "imageDisposition": "retain-as-contextual-cue",
+        "reviewObservation": "Gift exchanged between two people; recipient vs giver is not visually identified.",
+        "reason": "Read the gift scene from the woman’s receiving perspective: She gets a present from him. Here get means receive; the man gives the present. The picture alone does not identify the direction.",
+        "runtimeEvidence": {
+            "field": "usage_notes",
+            "locales": ["de", "en", "id", "ja"],
+            "reviewedTextSha256": "7f93710ccc758679d5e94d75f7e527d9171b7da33e9430539d74306908bcbac5",
+            "imagePath": "images/c75c3bb338b2381d32f15895382cab512d0db1ddcf6d0f92c75bfd68ce93f454.jpg"
+        },
+        "audioListening": "not-performed; existing recordings unchanged; usage notes are text, not new audio-backed sentence records"
+    },
+    {
+        "entryId": "en:word:your",
+        "priorAssetSha256": "ffe1c5f850aeac113ad8c8263f5b7fb847085d50ee5d72d90930a264c022e5f8",
+        "priorDecision": "artwork-priority",
+        "status": "resolved-with-localized-context",
+        "imageDisposition": "retain-as-contextual-cue",
+        "reviewObservation": "Book offered toward listener holding self-portrait; ownership transfer is ambiguous.",
+        "reason": "A speaker addressing the boy can say: This is your picture. Your identifies something belonging to the listener and comes before a noun; it does not mean giving. The boy’s portrait is the ownership cue.",
+        "runtimeEvidence": {
+            "field": "usage_notes",
+            "locales": ["de", "en", "id", "ja"],
+            "reviewedTextSha256": "1bb96152ff7a2763996fb55d60dcefccb9a82e0a1130d96b98982b14542684ad",
+            "imagePath": "images/ffe1c5f850aeac113ad8c8263f5b7fb847085d50ee5d72d90930a264c022e5f8.jpg"
+        },
+        "audioListening": "not-performed; existing recordings unchanged; usage notes are text, not new audio-backed sentence records"
+    }
+]

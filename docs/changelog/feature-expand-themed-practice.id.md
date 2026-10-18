@@ -10,6 +10,10 @@ Tambahkan empat dek awal tentang makanan dan minuman, peristiwa lampau, kegiatan
 
 Ganti delapan ilustrasi yang ambigu atau salah terpotong. Makna verba please ditampilkan dengan tepat, potongan panel lain dihilangkan, dan adegan lengkap memperjelas tingkat, akibat, serta penambahan.
 
+## Penggunaan dalam Konteks
+
+Catatan dan contoh terlokalisasi memperjelas pemilihan artikel, pertentangan, syarat, dan makna kata yang digambarkan. Adegan payung yang baru ditinjau menunjukkan tindakan berjaga-jaga dalam in case.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

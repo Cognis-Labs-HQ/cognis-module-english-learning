@@ -1,0 +1,67 @@
+[
+    {
+        "entryId": "en:word:structure-as-long-as",
+        "priorAssetSha256": "67f32f3a17337d45a75b0c00b87e9c2af867ff28f2da5a5ec2bf3598827b88fd",
+        "priorDecision": "context-priority",
+        "status": "resolved-with-localized-context",
+        "imageDisposition": "retain-as-contextual-cue",
+        "reviewObservation": "Watering healthy tomato plant suggests maintenance but condition/duration needs text.",
+        "reason": "As long as can state a condition. Example: The plant will stay healthy as long as you water it regularly. Regular watering is the condition in this example; the phrase can also express duration in other contexts.",
+        "runtimeEvidence": {
+            "field": "usage_notes",
+            "locales": ["de", "en", "id", "ja"],
+            "reviewedTextSha256": "c41751ffee5391a8c50907192e06bac40f8d80c66d0ef008807260af46090716",
+            "imagePath": "images/67f32f3a17337d45a75b0c00b87e9c2af867ff28f2da5a5ec2bf3598827b88fd.jpg"
+        },
+        "audioListening": "not-performed; existing recordings unchanged; usage notes are text, not new audio-backed sentence records"
+    },
+    {
+        "entryId": "en:word:structure-now-that",
+        "priorAssetSha256": "bc77340a7d40d57588231e97930ba919dd43d09c7c8f8d865d18d42f51e20567",
+        "priorDecision": "context-priority",
+        "status": "resolved-with-localized-context",
+        "imageDisposition": "retain-as-contextual-cue",
+        "reviewObservation": "Rain changes to sun before picnic setup, supporting changed circumstances.",
+        "reason": "Now that introduces a new situation that explains a result. Example: Now that the rain has stopped, we can have a picnic. The weather has already changed; this is not an uncertain future condition.",
+        "runtimeEvidence": {
+            "field": "usage_notes",
+            "locales": ["de", "en", "id", "ja"],
+            "reviewedTextSha256": "9d68e5c22b9a21c8e81fc4d4e6b49865207e4e5809ae79e29669565779e91994",
+            "imagePath": "images/bc77340a7d40d57588231e97930ba919dd43d09c7c8f8d865d18d42f51e20567.jpg"
+        },
+        "audioListening": "not-performed; existing recordings unchanged; usage notes are text, not new audio-backed sentence records"
+    },
+    {
+        "entryId": "en:word:structure-in-case",
+        "priorAssetSha256": "bdca0c0c6779632e2449d4db4f53c2eeb5afc1172c4fa4d0cc15212f53750e86",
+        "priorDecision": "artwork-priority",
+        "status": "resolved-with-replacement-and-context",
+        "imageDisposition": "replaced-to-show-precaution",
+        "reviewObservation": "Person packs bag under sunny weather; precaution in case is not visible without hypothetical risk.",
+        "reason": "In case introduces a possible event that motivates a precaution now. Example: I pack an umbrella in case it rains. I pack it before knowing whether it will rain; this differs from acting only if rain starts.",
+        "runtimeEvidence": {
+            "field": "usage_notes",
+            "locales": ["de", "en", "id", "ja"],
+            "reviewedTextSha256": "9a702c896d6a32c0f7861f0fb17f01a2e7ce7b22c691ff3bd3b622fd185771b9",
+            "imagePath": "images/5b3170e03b0b2de8aaf9b158d3bb0a8214b462f89a1514a296c215abe04b49ff.jpg"
+        },
+        "audioListening": "not-performed; existing recordings unchanged; usage notes are text, not new audio-backed sentence records",
+        "replacementSha256": "5b3170e03b0b2de8aaf9b158d3bb0a8214b462f89a1514a296c215abe04b49ff"
+    },
+    {
+        "entryId": "en:word:structure-so-far",
+        "priorAssetSha256": "5f71a929998f93a58d7e7a70f99ed239d25f39efdac75ea5a93ef2f83d714648",
+        "priorDecision": "context-priority",
+        "status": "resolved-with-localized-context",
+        "imageDisposition": "retain-as-contextual-cue",
+        "reviewObservation": "Footprints reach marker partway along trail, supporting progress so far.",
+        "reason": "So far means up to the present point. Example: We have walked two kilometres so far. The footprints end at the current marker; the unfinished trail continues beyond it.",
+        "runtimeEvidence": {
+            "field": "usage_notes",
+            "locales": ["de", "en", "id", "ja"],
+            "reviewedTextSha256": "c911831b27e26d4121d4feca8923338947aa2b4463563a88d3a64231799ed431",
+            "imagePath": "images/5f71a929998f93a58d7e7a70f99ed239d25f39efdac75ea5a93ef2f83d714648.jpg"
+        },
+        "audioListening": "not-performed; existing recordings unchanged; usage notes are text, not new audio-backed sentence records"
+    }
+]
