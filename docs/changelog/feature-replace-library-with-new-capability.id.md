@@ -168,7 +168,11 @@ Tambahkan 32 nomina berilustrasi: enam belas makanan dan enam belas istilah tubu
 
 ## Perbaikan tinjauan dan inventaris rekaman
 
-Metadata rekaman memakai manifes ringkas dan inventaris dengan checksum untuk karakter, kosakata, transformasi, kalimat, dan cadangan kalimat. Audio, asal suara/permintaan, dan prioritas pencarian tetap sama. Impor referensi membaca bahasa paket; pembersihan mencoba seluruh registrasi meskipun ada kegagalan. Kegagalan kamus membatalkan isi respons dan pemuatan referensi dapat dicoba lagi. Dokumentasi menjelaskan konfigurasi dan gambar yang dihasilkan.
+Metadata rekaman memakai manifes ringkas dan inventaris dengan checksum untuk karakter, kosakata, transformasi, kalimat, dan komposisi kalimat. Audio, asal suara/permintaan, dan prioritas pencarian tetap sama. Impor referensi membaca bahasa paket; pembersihan mencoba seluruh registrasi meskipun ada kegagalan. Kegagalan kamus membatalkan isi respons dan pemuatan referensi dapat dicoba lagi. Dokumentasi menjelaskan konfigurasi dan gambar yang dihasilkan.
+
+## Normalisasi katalog eksplisit dan inventaris komposisi kalimat
+
+Pembaca katalog menerima kebijakan normalisasi dari penyedia bahasa: NFC untuk Inggris, NFKC untuk Jepang. Kode pencarian bersama tidak lagi bercabang menurut bahasa tertentu. Inventaris komposisi kalimat bernama `sentence-compositions`; setiap entri menjelaskan rekaman paket nyata yang disusun dari klip penyusunnya secara berurutan. Rekaman kalimat neural langsung tetap terpisah dan diutamakan saat diputar.
 
 ## Komit
 

@@ -11,7 +11,11 @@ export function createReferenceProvider({
     cacheRevision,
     log,
 }) {
-    const lookup = createReferenceCatalog(referenceRoot, "en", log);
+    const lookup = createReferenceCatalog(
+        referenceRoot,
+        { normalization: "NFC", component: "study-language-en" },
+        log,
+    );
     let content;
     return Object.freeze({
         id: "study-language-en:reference",
