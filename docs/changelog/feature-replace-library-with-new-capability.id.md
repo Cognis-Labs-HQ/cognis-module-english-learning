@@ -201,3 +201,4 @@ Metadata rekaman memakai manifes ringkas dan inventaris dengan checksum untuk ka
 - [f446d6c](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/f446d6c46cda70e1075185883126c2f65cb5af40)
 - [b21877e](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b21877e5e193c54e89de4e0458fd3d2055f41cf5)
 - [5579d8c](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/5579d8ced788d25f09c459de54cfd4d7f58c56de)
+- [b9c5743](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b9c57434a537e646516cbf3657a0d5b645773d86)
