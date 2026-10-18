@@ -1,0 +1,55 @@
+{
+    "id": "en:sentence:travel-passport-here",
+    "label": "The passport is here.",
+    "reading": null,
+    "meanings": {
+        "en": "The passport is here.",
+        "de": "Der Reisepass ist hier.",
+        "id": "Paspornya ada di sini.",
+        "ja": "パスポートはここにあります。"
+    },
+    "orderedComposition": [
+        {
+            "position": 0,
+            "entryId": "en:word:capital-the",
+            "recordStatus": "existing",
+            "selectedForm": null,
+            "surface": "The",
+            "reading": "/ðə/"
+        },
+        {
+            "position": 1,
+            "entryId": "en:word:travel-passport",
+            "recordStatus": "staged",
+            "selectedForm": null,
+            "surface": "passport",
+            "reading": "/ˈpɑːspɔːt/"
+        },
+        {
+            "position": 2,
+            "entryId": "en:word:form-english-be-is",
+            "recordStatus": "existing",
+            "selectedForm": null,
+            "surface": "is",
+            "reading": "/ɪz/"
+        },
+        {
+            "position": 3,
+            "entryId": "en:word:here",
+            "recordStatus": "existing",
+            "selectedForm": null,
+            "surface": "here",
+            "reading": "/hɪə/"
+        },
+        {
+            "position": 4,
+            "entryId": "en:particle:period",
+            "recordStatus": "existing",
+            "selectedForm": null,
+            "surface": ".",
+            "reading": "."
+        }
+    ],
+    "sentenceAudio": "pending-exact-selected-constituent-PCM-and-listening",
+    "media": null
+}

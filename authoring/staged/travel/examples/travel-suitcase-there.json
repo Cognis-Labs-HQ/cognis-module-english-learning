@@ -1,0 +1,55 @@
+{
+    "id": "en:sentence:travel-suitcase-there",
+    "label": "The suitcase is there.",
+    "reading": null,
+    "meanings": {
+        "en": "The suitcase is there.",
+        "de": "Der Koffer ist dort.",
+        "id": "Kopernya ada di sana.",
+        "ja": "スーツケースはそこにあります。"
+    },
+    "orderedComposition": [
+        {
+            "position": 0,
+            "entryId": "en:word:capital-the",
+            "recordStatus": "existing",
+            "selectedForm": null,
+            "surface": "The",
+            "reading": "/ðə/"
+        },
+        {
+            "position": 1,
+            "entryId": "en:word:travel-suitcase",
+            "recordStatus": "staged",
+            "selectedForm": null,
+            "surface": "suitcase",
+            "reading": "/ˈsuːtkeɪs/"
+        },
+        {
+            "position": 2,
+            "entryId": "en:word:form-english-be-is",
+            "recordStatus": "existing",
+            "selectedForm": null,
+            "surface": "is",
+            "reading": "/ɪz/"
+        },
+        {
+            "position": 3,
+            "entryId": "en:word:there",
+            "recordStatus": "existing",
+            "selectedForm": null,
+            "surface": "there",
+            "reading": "/ðeə/"
+        },
+        {
+            "position": 4,
+            "entryId": "en:particle:period",
+            "recordStatus": "existing",
+            "selectedForm": null,
+            "surface": ".",
+            "reading": "."
+        }
+    ],
+    "sentenceAudio": "pending-exact-selected-constituent-PCM-and-listening",
+    "media": null
+}

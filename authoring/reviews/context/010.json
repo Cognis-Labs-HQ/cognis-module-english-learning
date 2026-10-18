@@ -1,0 +1,133 @@
+[
+    {
+        "assetId": "01ef65ff03521a3d4c6b495c2ff936f19eda4e2629ba6ef1733e53d0cd626838",
+        "entryIds": ["en:word:a"],
+        "observation": "Child selects one book from shelf; does not independently teach indefinite article.",
+        "decision": "context-priority",
+        "rationale": "A needs singular countable noun context; image cannot establish discourse indefiniteness.",
+        "existingDefinitions": [
+            {
+                "de": "Ein unbestimmter Artikel vor einem einzelnen zählbaren Substantiv.",
+                "en": "An indefinite article used before a singular countable noun.",
+                "id": "Artikel tak tentu yang digunakan sebelum nomina tunggal yang dapat dihitung.",
+                "ja": "単数の可算名詞の前で使う不定冠詞。"
+            }
+        ],
+        "existingExamples": [
+            {
+                "entryId": "en:sentence:she-is-happy-because-she-has-a-friend",
+                "label": "She is happy because she has a friend."
+            },
+            {
+                "entryId": "en:sentence:i-am-reading-a-book",
+                "label": "I am reading a book."
+            },
+            {
+                "entryId": "en:sentence:we-live-in-a-city",
+                "label": "We live in a city."
+            },
+            {
+                "entryId": "en:sentence:she-reads-a-book",
+                "label": "She reads a book."
+            },
+            {
+                "entryId": "en:sentence:i-see-a-bird",
+                "label": "I see a bird."
+            },
+            {
+                "entryId": "en:sentence:today-is-a-good-day",
+                "label": "Today is a good day."
+            },
+            {
+                "entryId": "en:sentence:i-am-a-student",
+                "label": "I am a student."
+            },
+            {
+                "entryId": "en:sentence:she-is-a-teacher",
+                "label": "She is a teacher."
+            },
+            {
+                "entryId": "en:sentence:he-has-a-book",
+                "label": "He has a book."
+            },
+            {
+                "entryId": "en:sentence:i-eat-a-banana",
+                "label": "I eat a banana."
+            },
+            {
+                "entryId": "en:sentence:you-have-a-mouth",
+                "label": "You have a mouth."
+            }
+        ],
+        "audioListening": "pending-not-claimed"
+    },
+    {
+        "assetId": "5099a30c0d0321e6011ab6fd1a3c3dd3fe9f6a1bf7539b075f1a450474701349",
+        "entryIds": ["en:word:do"],
+        "observation": "Person checking tasks while organizing; generic doing requires verbal context.",
+        "decision": "retain-with-existing-example",
+        "rationale": "The visible scene supports the stated sense; existing ordered example and localized meaning supply missing linguistic context.",
+        "existingDefinitions": [
+            {
+                "de": "Eine Handlung ausführen.",
+                "en": "To perform an action.",
+                "id": "Melakukan suatu tindakan.",
+                "ja": "ある行為をする。"
+            }
+        ],
+        "existingExamples": [
+            {
+                "entryId": "en:sentence:i-do-not-run",
+                "label": "I do not run."
+            },
+            {
+                "entryId": "en:sentence:do-you-like-coffee",
+                "label": "Do you like coffee?"
+            },
+            {
+                "entryId": "en:sentence:i-do-not-eat-bread",
+                "label": "I do not eat bread."
+            }
+        ],
+        "audioListening": "pending-not-claimed"
+    },
+    {
+        "assetId": "8d8087c2dea95b48c69b17f573e4aa775530af006048c7789044d28e30edd138",
+        "entryIds": ["en:word:however"],
+        "observation": "Sunny picnic contrasted with rainy picnic; contrast connective requires sentence context.",
+        "decision": "context-priority",
+        "rationale": "Localized meaning is present, but no packaged sentence directly uses this entry; prioritize an authored example before claiming contextual sufficiency.",
+        "existingDefinitions": [
+            {
+                "en": "however",
+                "de": "jedoch",
+                "id": "namun",
+                "ja": "しかし"
+            }
+        ],
+        "existingExamples": [],
+        "audioListening": "pending-not-claimed"
+    },
+    {
+        "assetId": "f21602e73e2d7e22fefb42c4579b34a61ef6e91c2b89059bab125aa707bc16ba",
+        "entryIds": ["en:word:today"],
+        "observation": "Highlighted calendar day paired with current scene supports today.",
+        "decision": "retain-with-existing-example",
+        "rationale": "The visible scene supports the stated sense; existing ordered example and localized meaning supply missing linguistic context.",
+        "existingDefinitions": [
+            {
+                "en": "today",
+                "de": "heute",
+                "id": "hari ini",
+                "ja": "今日"
+            }
+        ],
+        "existingExamples": [
+            {
+                "entryId": "en:sentence:today-is-a-good-day",
+                "label": "Today is a good day."
+            }
+        ],
+        "audioListening": "pending-not-claimed"
+    }
+]

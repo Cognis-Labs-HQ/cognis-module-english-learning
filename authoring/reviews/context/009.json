@@ -1,0 +1,205 @@
+[
+    {
+        "assetId": "8a77e6e448c997d5d104209e88607e786efa23f5d6ce6d413154372d1bf35be6",
+        "entryIds": ["en:word:an"],
+        "observation": "Apple selected from basket; does not visually encode initial vowel sound or an vs a.",
+        "decision": "context-priority",
+        "rationale": "An requires the following vowel SOUND. Preserve distinction from letter spelling and add an authored contextual example before treating image as sufficient.",
+        "existingDefinitions": [
+            {
+                "en": "an indefinite article before a vowel sound",
+                "de": "ein; eine vor einem Vokallaut",
+                "id": "kata sandang sebelum bunyi vokal",
+                "ja": "母音の前の不定冠詞"
+            }
+        ],
+        "existingExamples": [
+            {
+                "entryId": "en:sentence:i-ate-an-apple",
+                "label": "I ate an apple."
+            },
+            {
+                "entryId": "en:sentence:she-wrote-an-answer",
+                "label": "She wrote an answer."
+            }
+        ],
+        "audioListening": "pending-not-claimed"
+    },
+    {
+        "assetId": "26c45e50dd2132172cd57176435f3ee6e5dfc9d708f20f67e8e7b6b71252fa81",
+        "entryIds": ["en:word:be"],
+        "observation": "Doctor with matching portrait suggests identity; copula requires a sentence.",
+        "decision": "retain-with-existing-example",
+        "rationale": "The visible scene supports the stated sense; existing ordered example and localized meaning supply missing linguistic context.",
+        "existingDefinitions": [
+            {
+                "en": "to be",
+                "de": "sein",
+                "id": "ada; menjadi",
+                "ja": "である"
+            }
+        ],
+        "existingExamples": [
+            {
+                "entryId": "en:sentence:she-is-happy-because-she-has-a-friend",
+                "label": "She is happy because she has a friend."
+            },
+            {
+                "entryId": "en:sentence:they-were-happy",
+                "label": "They were happy."
+            },
+            {
+                "entryId": "en:sentence:i-am-reading-a-book",
+                "label": "I am reading a book."
+            },
+            {
+                "entryId": "en:sentence:she-is-drinking-tea",
+                "label": "She is drinking tea."
+            },
+            {
+                "entryId": "en:sentence:he-is-learning-english",
+                "label": "He is learning English."
+            },
+            {
+                "entryId": "en:sentence:the-dog-is-bigger",
+                "label": "The dog is bigger."
+            },
+            {
+                "entryId": "en:sentence:this-is-the-best-book",
+                "label": "This is the best book."
+            },
+            {
+                "entryId": "en:sentence:the-dog-is-big",
+                "label": "The dog is big."
+            },
+            {
+                "entryId": "en:sentence:the-room-is-cold",
+                "label": "The room is cold."
+            },
+            {
+                "entryId": "en:sentence:today-is-a-good-day",
+                "label": "Today is a good day."
+            },
+            {
+                "entryId": "en:sentence:i-am-happy",
+                "label": "I am happy."
+            },
+            {
+                "entryId": "en:sentence:we-are-here",
+                "label": "We are here."
+            },
+            {
+                "entryId": "en:sentence:they-are-there",
+                "label": "They are there."
+            },
+            {
+                "entryId": "en:sentence:i-am-a-student",
+                "label": "I am a student."
+            },
+            {
+                "entryId": "en:sentence:you-are-my-friend",
+                "label": "You are my friend."
+            },
+            {
+                "entryId": "en:sentence:she-is-a-teacher",
+                "label": "She is a teacher."
+            },
+            {
+                "entryId": "en:sentence:the-cat-is-small",
+                "label": "The cat is small."
+            }
+        ],
+        "audioListening": "pending-not-claimed"
+    },
+    {
+        "assetId": "0ca450c7e60d5a79ef059cbb79569884aa64ab5a06390e1c3e1b6ecfd6780d30",
+        "entryIds": ["en:word:i"],
+        "observation": "Person points to own chest; supports first-person speaker.",
+        "decision": "retain-with-existing-example",
+        "rationale": "The visible scene supports the stated sense; existing ordered example and localized meaning supply missing linguistic context.",
+        "existingDefinitions": [
+            {
+                "de": "Die sprechende oder schreibende Person.",
+                "en": "The person who is speaking or writing.",
+                "id": "Orang yang sedang berbicara atau menulis.",
+                "ja": "話したり書いたりしている人。"
+            }
+        ],
+        "existingExamples": [
+            {
+                "entryId": "en:sentence:i-do-not-run",
+                "label": "I do not run."
+            },
+            {
+                "entryId": "en:sentence:i-do-not-eat-bread",
+                "label": "I do not eat bread."
+            },
+            {
+                "entryId": "en:sentence:i-like-tea-but-not-coffee",
+                "label": "I like tea, but not coffee."
+            },
+            {
+                "entryId": "en:sentence:i-am-reading-a-book",
+                "label": "I am reading a book."
+            },
+            {
+                "entryId": "en:sentence:i-like-music",
+                "label": "I like music."
+            },
+            {
+                "entryId": "en:sentence:i-want-to-eat",
+                "label": "I want to eat."
+            },
+            {
+                "entryId": "en:sentence:i-see-a-bird",
+                "label": "I see a bird."
+            },
+            {
+                "entryId": "en:sentence:i-read-and-write",
+                "label": "I read and write."
+            },
+            {
+                "entryId": "en:sentence:i-ate-an-apple",
+                "label": "I ate an apple."
+            },
+            {
+                "entryId": "en:sentence:i-have-two-books",
+                "label": "I have two books."
+            },
+            {
+                "entryId": "en:sentence:i-am-happy",
+                "label": "I am happy."
+            },
+            {
+                "entryId": "en:sentence:i-am-a-student",
+                "label": "I am a student."
+            },
+            {
+                "entryId": "en:sentence:i-drink-water",
+                "label": "I drink water."
+            },
+            {
+                "entryId": "en:sentence:i-eat-a-banana",
+                "label": "I eat a banana."
+            }
+        ],
+        "audioListening": "pending-not-claimed"
+    },
+    {
+        "assetId": "4511a568c515da7dc1613ab37b0d721b5848db14ae74b181215b96a142af6264",
+        "entryIds": ["en:word:thanks"],
+        "observation": "Gift recipient smiles with hand on chest, supporting gratitude.",
+        "decision": "retain-with-existing-labels",
+        "rationale": "A conventional lexical/sense exemplar, not a grammatical contrast. Existing localized definition identifies the intended sense; qualification remains explicit.",
+        "existingDefinitions": [
+            {
+                "en": "thanks; gratitude",
+                "de": "danke; Dank",
+                "id": "terima kasih",
+                "ja": "ありがとう"
+            }
+        ],
+        "existingExamples": [],
+        "audioListening": "pending-not-claimed"
+    }
+]

@@ -1,0 +1,106 @@
+[
+    {
+        "assetId": "90ce0858ac86615d7d34d67e30d58e6f5bd1778209d4dff771da34a35e7ec6ea",
+        "entryIds": ["en:word:coffee"],
+        "observation": "Dark brewed drink in a coffee mug; beverage identity is conventional.",
+        "decision": "retain-with-existing-example",
+        "rationale": "The visible scene supports the stated sense; existing ordered example and localized meaning supply missing linguistic context.",
+        "existingDefinitions": [
+            {
+                "en": "coffee",
+                "de": "Kaffee",
+                "id": "kopi",
+                "ja": "コーヒー"
+            }
+        ],
+        "existingExamples": [
+            {
+                "entryId": "en:sentence:do-you-like-coffee",
+                "label": "Do you like coffee?"
+            },
+            {
+                "entryId": "en:sentence:i-like-tea-but-not-coffee",
+                "label": "I like tea, but not coffee."
+            }
+        ],
+        "audioListening": "pending-not-claimed"
+    },
+    {
+        "assetId": "f38d5efcf07f3bfaff91bce74cc19f12713b44a9718bd28e2b8a3a4884d44a77",
+        "entryIds": ["en:word:home"],
+        "observation": "Family welcoming children at doorway; supports home as lived place.",
+        "decision": "retain-with-existing-example",
+        "rationale": "The visible scene supports the stated sense; existing ordered example and localized meaning supply missing linguistic context.",
+        "existingDefinitions": [
+            {
+                "en": "home",
+                "de": "Zuhause",
+                "id": "rumah; tempat tinggal",
+                "ja": "自宅"
+            }
+        ],
+        "existingExamples": [
+            {
+                "entryId": "en:sentence:we-went-home",
+                "label": "We went home."
+            },
+            {
+                "entryId": "en:sentence:he-works-at-home",
+                "label": "He works at home."
+            }
+        ],
+        "audioListening": "pending-not-claimed"
+    },
+    {
+        "assetId": "abb2c4ef845a7627b45fb42f5a9f06bfb56ec77f851d8334ada5d9af474d2694",
+        "entryIds": ["en:word:room"],
+        "observation": "Furnished bedroom demonstrates a room, specifically a bedroom.",
+        "decision": "retain-with-existing-example",
+        "rationale": "The visible scene supports the stated sense; existing ordered example and localized meaning supply missing linguistic context.",
+        "existingDefinitions": [
+            {
+                "en": "room",
+                "de": "Zimmer",
+                "id": "kamar",
+                "ja": "部屋"
+            }
+        ],
+        "existingExamples": [
+            {
+                "entryId": "en:sentence:the-room-is-cold",
+                "label": "The room is cold."
+            }
+        ],
+        "audioListening": "pending-not-claimed"
+    },
+    {
+        "assetId": "3cff6a3d2580947ec3ce6931c7acb64dbc88f11028a275edb2e08a6ef3d31b3e",
+        "entryIds": ["en:word:friend"],
+        "observation": "Two children smiling together; friendship is contextual, not directly observable.",
+        "decision": "retain-with-existing-example",
+        "rationale": "The visible scene supports the stated sense; existing ordered example and localized meaning supply missing linguistic context.",
+        "existingDefinitions": [
+            {
+                "en": "friend",
+                "de": "Freund; Freundin",
+                "id": "teman",
+                "ja": "友達"
+            }
+        ],
+        "existingExamples": [
+            {
+                "entryId": "en:sentence:she-is-happy-because-she-has-a-friend",
+                "label": "She is happy because she has a friend."
+            },
+            {
+                "entryId": "en:sentence:hello",
+                "label": "Hello, my friend!"
+            },
+            {
+                "entryId": "en:sentence:you-are-my-friend",
+                "label": "You are my friend."
+            }
+        ],
+        "audioListening": "pending-not-claimed"
+    }
+]

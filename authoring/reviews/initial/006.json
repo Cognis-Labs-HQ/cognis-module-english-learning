@@ -1,0 +1,258 @@
+[
+    {
+        "catalogIndex": 80,
+        "assetId": "63dcf0e06c9f1f618a154804287bc94e1948e1d2337159ae9c8e214a34cc63d5",
+        "path": "images/63dcf0e06c9f1f618a154804287bc94e1948e1d2337159ae9c8e214a34cc63d5.jpg",
+        "sha256": "63dcf0e06c9f1f618a154804287bc94e1948e1d2337159ae9c8e214a34cc63d5",
+        "entryIds": ["en:word:open"],
+        "targetLabels": {
+            "en": "to open",
+            "de": "öffnen",
+            "id": "membuka",
+            "ja": "開ける"
+        },
+        "status": "pass",
+        "observation": "Hand opens door with arrow toward exterior opening.",
+        "nextAction": "Eligible for existing concept; review again if target meaning or image bytes change."
+    },
+    {
+        "catalogIndex": 81,
+        "assetId": "11fef1e723cf1f2b0c93f1f2397dd1bedd60ccb09132340f5631ed284439484b",
+        "path": "images/11fef1e723cf1f2b0c93f1f2397dd1bedd60ccb09132340f5631ed284439484b.jpg",
+        "sha256": "11fef1e723cf1f2b0c93f1f2397dd1bedd60ccb09132340f5631ed284439484b",
+        "entryIds": ["en:word:close"],
+        "targetLabels": {
+            "en": "to close",
+            "de": "schließen",
+            "id": "menutup",
+            "ja": "閉める"
+        },
+        "status": "pass",
+        "observation": "Hand closes door with inward arrow.",
+        "nextAction": "Eligible for existing concept; review again if target meaning or image bytes change."
+    },
+    {
+        "catalogIndex": 82,
+        "assetId": "f41d0f0fa76cf8b70340e0faab97bf88a9e38d309d9356955da6de6e0e9187be",
+        "path": "images/f41d0f0fa76cf8b70340e0faab97bf88a9e38d309d9356955da6de6e0e9187be.jpg",
+        "sha256": "f41d0f0fa76cf8b70340e0faab97bf88a9e38d309d9356955da6de6e0e9187be",
+        "entryIds": ["en:word:you"],
+        "targetLabels": {
+            "en": "you",
+            "de": "du; Sie",
+            "id": "kamu; Anda",
+            "ja": "あなた"
+        },
+        "status": "context-required",
+        "observation": "Speaker points toward conversation partner; supports second-person reference.",
+        "nextAction": "Retain sense/context qualification; do not treat illustration as proof of grammatical form."
+    },
+    {
+        "catalogIndex": 83,
+        "assetId": "a63d8369dc67995eaf9b95a9c497971e21f98b89ff53d18e659fcee3812f4fa8",
+        "path": "images/a63d8369dc67995eaf9b95a9c497971e21f98b89ff53d18e659fcee3812f4fa8.jpg",
+        "sha256": "a63d8369dc67995eaf9b95a9c497971e21f98b89ff53d18e659fcee3812f4fa8",
+        "entryIds": ["en:word:he"],
+        "targetLabels": {
+            "en": "he",
+            "de": "er",
+            "id": "dia laki-laki",
+            "ja": "彼"
+        },
+        "status": "context-required",
+        "observation": "Speaker gestures toward distant man; grammatical gender requires language context.",
+        "nextAction": "Retain sense/context qualification; do not treat illustration as proof of grammatical form."
+    },
+    {
+        "catalogIndex": 84,
+        "assetId": "4e1907095e8c044491ce13fc7d5aa91d7abc3314d94d995bb597a3a184f2a659",
+        "path": "images/4e1907095e8c044491ce13fc7d5aa91d7abc3314d94d995bb597a3a184f2a659.jpg",
+        "sha256": "4e1907095e8c044491ce13fc7d5aa91d7abc3314d94d995bb597a3a184f2a659",
+        "entryIds": ["en:word:she"],
+        "targetLabels": {
+            "en": "she",
+            "de": "sie",
+            "id": "dia perempuan",
+            "ja": "彼女"
+        },
+        "status": "context-required",
+        "observation": "Speaker gestures toward distant woman; grammatical gender requires language context.",
+        "nextAction": "Retain sense/context qualification; do not treat illustration as proof of grammatical form."
+    },
+    {
+        "catalogIndex": 85,
+        "assetId": "527e297c144624c6d4b7db51f760706dd912aaf33b753f3f10e653d8c008608f",
+        "path": "images/527e297c144624c6d4b7db51f760706dd912aaf33b753f3f10e653d8c008608f.jpg",
+        "sha256": "527e297c144624c6d4b7db51f760706dd912aaf33b753f3f10e653d8c008608f",
+        "entryIds": ["en:word:we"],
+        "targetLabels": {
+            "en": "we",
+            "de": "wir",
+            "id": "kami; kita",
+            "ja": "私たち"
+        },
+        "status": "context-required",
+        "observation": "Two people point toward themselves inside grouping arrow.",
+        "nextAction": "Retain sense/context qualification; do not treat illustration as proof of grammatical form."
+    },
+    {
+        "catalogIndex": 86,
+        "assetId": "79eb9b5cf8d0bec40b4b51f9d0afd6fa20b6b3d5cd2a20015622b82c092242bb",
+        "path": "images/79eb9b5cf8d0bec40b4b51f9d0afd6fa20b6b3d5cd2a20015622b82c092242bb.jpg",
+        "sha256": "79eb9b5cf8d0bec40b4b51f9d0afd6fa20b6b3d5cd2a20015622b82c092242bb",
+        "entryIds": ["en:word:they"],
+        "targetLabels": {
+            "en": "they",
+            "de": "sie (Mehrzahl)",
+            "id": "mereka",
+            "ja": "彼ら"
+        },
+        "status": "context-required",
+        "observation": "Speaker indicates a separate group of people.",
+        "nextAction": "Retain sense/context qualification; do not treat illustration as proof of grammatical form."
+    },
+    {
+        "catalogIndex": 87,
+        "assetId": "da262c5eab258bf19683f40f1063da5c7493ab5a0324c3b6382e384e1396d51e",
+        "path": "images/da262c5eab258bf19683f40f1063da5c7493ab5a0324c3b6382e384e1396d51e.jpg",
+        "sha256": "da262c5eab258bf19683f40f1063da5c7493ab5a0324c3b6382e384e1396d51e",
+        "entryIds": ["en:word:it"],
+        "targetLabels": {
+            "en": "it",
+            "de": "es",
+            "id": "itu",
+            "ja": "それ"
+        },
+        "status": "context-required",
+        "observation": "Speaker points to inanimate ball; pronoun requires referent context.",
+        "nextAction": "Retain sense/context qualification; do not treat illustration as proof of grammatical form."
+    },
+    {
+        "catalogIndex": 88,
+        "assetId": "9df18844694cf6d86d8f2ebd480839f3c2104cdb2179796aeb0ed623a077e0c4",
+        "path": "images/9df18844694cf6d86d8f2ebd480839f3c2104cdb2179796aeb0ed623a077e0c4.jpg",
+        "sha256": "9df18844694cf6d86d8f2ebd480839f3c2104cdb2179796aeb0ed623a077e0c4",
+        "entryIds": ["en:word:my"],
+        "targetLabels": {
+            "en": "my",
+            "de": "mein",
+            "id": "milik saya",
+            "ja": "私の"
+        },
+        "status": "context-required",
+        "observation": "Child points to own chest while holding book; possession needs phrase context.",
+        "nextAction": "Retain sense/context qualification; do not treat illustration as proof of grammatical form."
+    },
+    {
+        "catalogIndex": 89,
+        "assetId": "ffe1c5f850aeac113ad8c8263f5b7fb847085d50ee5d72d90930a264c022e5f8",
+        "path": "images/ffe1c5f850aeac113ad8c8263f5b7fb847085d50ee5d72d90930a264c022e5f8.jpg",
+        "sha256": "ffe1c5f850aeac113ad8c8263f5b7fb847085d50ee5d72d90930a264c022e5f8",
+        "entryIds": ["en:word:your"],
+        "targetLabels": {
+            "en": "your",
+            "de": "dein; Ihr",
+            "id": "milikmu",
+            "ja": "あなたの"
+        },
+        "status": "context-required",
+        "observation": "Book offered toward listener holding self-portrait; ownership transfer is ambiguous.",
+        "nextAction": "Retain sense/context qualification; do not treat illustration as proof of grammatical form."
+    },
+    {
+        "catalogIndex": 90,
+        "assetId": "c2a3d12b3a62e15ba5c0db1e71454d6b35cdb2caa0249d20e42865c282a9d563",
+        "path": "images/c2a3d12b3a62e15ba5c0db1e71454d6b35cdb2caa0249d20e42865c282a9d563.jpg",
+        "sha256": "c2a3d12b3a62e15ba5c0db1e71454d6b35cdb2caa0249d20e42865c282a9d563",
+        "entryIds": ["en:word:this"],
+        "targetLabels": {
+            "en": "this",
+            "de": "dieser; diese; dieses",
+            "id": "ini",
+            "ja": "これ"
+        },
+        "status": "pass",
+        "observation": "Hand indicates nearby apple.",
+        "nextAction": "Eligible for existing concept; review again if target meaning or image bytes change."
+    },
+    {
+        "catalogIndex": 91,
+        "assetId": "979229f12eb87948e773e8bbb108ffeb192a89388447cb924790cf75f3711d9a",
+        "path": "images/979229f12eb87948e773e8bbb108ffeb192a89388447cb924790cf75f3711d9a.jpg",
+        "sha256": "979229f12eb87948e773e8bbb108ffeb192a89388447cb924790cf75f3711d9a",
+        "entryIds": ["en:word:that"],
+        "targetLabels": {
+            "en": "that",
+            "de": "jener; jene; jenes",
+            "id": "itu",
+            "ja": "あれ"
+        },
+        "status": "pass",
+        "observation": "Speaker indicates distant apple with long arrow.",
+        "nextAction": "Eligible for existing concept; review again if target meaning or image bytes change."
+    },
+    {
+        "catalogIndex": 92,
+        "assetId": "ca7c66669f5394e48e93ca28e37551937170d0c3c83eaa5959209627a076a164",
+        "path": "images/ca7c66669f5394e48e93ca28e37551937170d0c3c83eaa5959209627a076a164.jpg",
+        "sha256": "ca7c66669f5394e48e93ca28e37551937170d0c3c83eaa5959209627a076a164",
+        "entryIds": ["en:word:the"],
+        "targetLabels": {
+            "en": "the definite article",
+            "de": "der; die; das",
+            "id": "kata sandang tertentu",
+            "ja": "定冠詞"
+        },
+        "status": "context-required",
+        "observation": "One cup singled out among three; cannot establish definiteness without discourse.",
+        "nextAction": "Retain sense/context qualification; do not treat illustration as proof of grammatical form."
+    },
+    {
+        "catalogIndex": 93,
+        "assetId": "8a77e6e448c997d5d104209e88607e786efa23f5d6ce6d413154372d1bf35be6",
+        "path": "images/8a77e6e448c997d5d104209e88607e786efa23f5d6ce6d413154372d1bf35be6.jpg",
+        "sha256": "8a77e6e448c997d5d104209e88607e786efa23f5d6ce6d413154372d1bf35be6",
+        "entryIds": ["en:word:an"],
+        "targetLabels": {
+            "en": "an indefinite article before a vowel sound",
+            "de": "ein; eine vor einem Vokallaut",
+            "id": "kata sandang sebelum bunyi vokal",
+            "ja": "母音の前の不定冠詞"
+        },
+        "status": "context-required",
+        "observation": "Apple selected from basket; does not visually encode initial vowel sound or an vs a.",
+        "nextAction": "Retain sense/context qualification; do not treat illustration as proof of grammatical form."
+    },
+    {
+        "catalogIndex": 94,
+        "assetId": "26c45e50dd2132172cd57176435f3ee6e5dfc9d708f20f67e8e7b6b71252fa81",
+        "path": "images/26c45e50dd2132172cd57176435f3ee6e5dfc9d708f20f67e8e7b6b71252fa81.jpg",
+        "sha256": "26c45e50dd2132172cd57176435f3ee6e5dfc9d708f20f67e8e7b6b71252fa81",
+        "entryIds": ["en:word:be"],
+        "targetLabels": {
+            "en": "to be",
+            "de": "sein",
+            "id": "ada; menjadi",
+            "ja": "である"
+        },
+        "status": "context-required",
+        "observation": "Doctor with matching portrait suggests identity; copula requires a sentence.",
+        "nextAction": "Retain sense/context qualification; do not treat illustration as proof of grammatical form."
+    },
+    {
+        "catalogIndex": 95,
+        "assetId": "0ca450c7e60d5a79ef059cbb79569884aa64ab5a06390e1c3e1b6ecfd6780d30",
+        "path": "images/0ca450c7e60d5a79ef059cbb79569884aa64ab5a06390e1c3e1b6ecfd6780d30.jpg",
+        "sha256": "0ca450c7e60d5a79ef059cbb79569884aa64ab5a06390e1c3e1b6ecfd6780d30",
+        "entryIds": ["en:word:i"],
+        "targetLabels": {
+            "en": "The person who is speaking or writing.",
+            "de": "Die sprechende oder schreibende Person.",
+            "id": "Orang yang sedang berbicara atau menulis.",
+            "ja": "話したり書いたりしている人。"
+        },
+        "status": "context-required",
+        "observation": "Person points to own chest; supports first-person speaker.",
+        "nextAction": "Retain sense/context qualification; do not treat illustration as proof of grammatical form."
+    }
+]

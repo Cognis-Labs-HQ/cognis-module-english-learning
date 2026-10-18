@@ -1,0 +1,113 @@
+{
+    "schemaVersion": 1,
+    "status": "staged-not-importable",
+    "publishable": false,
+    "theme": {
+        "en": "Travel Essentials",
+        "de": "Grundlagen für Reisen",
+        "id": "Dasar Perjalanan",
+        "ja": "旅行の基本"
+    },
+    "sourceHead": "7cd56bdb3860f1610ad40ca88145d93a6a8ef246",
+    "scope": "Authoring specification only, excluded from runtime manifest and Library content. No media generated for these proposed new entries. Not ready for import.",
+    "releaseGates": [
+        "Actual listening review for every new base, transformed and sentence audio clip.",
+        "Visual review of every generated picture against its exact target sense.",
+        "Author complete transformation graphs with four-language definition transforms and verify every reachable form.",
+        "Resolve complete record graphs, including atomic spelling/readings and English selected-form wrappers.",
+        "Compose sentence PCM from exact selected constituent clips; retain independent sentence recordings/provenance separately.",
+        "Run module and host import/lifecycle/regression checks after complete implementation."
+    ],
+    "audio": {
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "provider": "elevenlabs",
+        "generationAuthorized": false,
+        "listeningReview": "pending-no-perceptible-audio-interface",
+        "technicalReview": "not-started-no-generated-clips",
+        "policy": "Use real written language input. Japanese input must contain kana/kanji, never romaji-only. Existing voice inventory is provenance, not spending authorization."
+    },
+    "imageStyle": "colored-pencil-watercolor",
+    "orthographyPolicy": "Use existing spelling records; inflected sentence words require the existing hidden selected-form convention.",
+    "duplicateCheck": {
+        "scope": "All current packaged seed records, including hidden records. External dictionary inventories are not seed duplicates.",
+        "vocabularyConflicts": [],
+        "sentenceConflicts": []
+    },
+    "plannedDecks": [
+        {
+            "key": "travel-vocabulary",
+            "name": {
+                "en": "Travel Vocabulary",
+                "de": "Reisewortschatz",
+                "id": "Kosakata Perjalanan",
+                "ja": "旅行の語彙"
+            },
+            "sourceRecordIds": [
+                "en:word:travel-ticket",
+                "en:word:travel-station",
+                "en:word:travel-platform",
+                "en:word:travel-airport",
+                "en:word:travel-passport",
+                "en:word:travel-suitcase",
+                "en:word:travel-bicycle",
+                "en:word:travel-map",
+                "en:word:travel-arrive",
+                "en:word:travel-depart",
+                "en:word:travel-buy",
+                "en:word:travel-wait"
+            ]
+        },
+        {
+            "key": "travel-in-context",
+            "name": {
+                "en": "Travel in Context",
+                "de": "Reisen im Zusammenhang",
+                "id": "Perjalanan dalam Konteks",
+                "ja": "旅行の表現"
+            },
+            "sourceRecordIds": [
+                "en:sentence:travel-bought-ticket",
+                "en:sentence:travel-arrived-station",
+                "en:sentence:travel-wait-platform",
+                "en:sentence:travel-depart-airport",
+                "en:sentence:travel-passport-here",
+                "en:sentence:travel-suitcase-there",
+                "en:sentence:travel-bicycle-school",
+                "en:sentence:travel-read-map"
+            ]
+        }
+    ],
+    "validation": {
+        "duplicateSeedCheck": "pass",
+        "orderedExampleSurfaces": "pass",
+        "orderedJapaneseReadings": "not-applicable-IPA-must-not-link-to-alphabet",
+        "atomicSpellingOrReadingTargets": "pass",
+        "localizedMeaningKeys": "de,en,id,ja",
+        "schemaImplementation": "pending-authoring-specification-only",
+        "mediaValidation": "pending-no-new-media-created"
+    },
+    "vocabularyFiles": [
+        "authoring/staged/travel/vocabulary/travel-ticket.json",
+        "authoring/staged/travel/vocabulary/travel-station.json",
+        "authoring/staged/travel/vocabulary/travel-platform.json",
+        "authoring/staged/travel/vocabulary/travel-airport.json",
+        "authoring/staged/travel/vocabulary/travel-passport.json",
+        "authoring/staged/travel/vocabulary/travel-suitcase.json",
+        "authoring/staged/travel/vocabulary/travel-bicycle.json",
+        "authoring/staged/travel/vocabulary/travel-map.json",
+        "authoring/staged/travel/vocabulary/travel-arrive.json",
+        "authoring/staged/travel/vocabulary/travel-depart.json",
+        "authoring/staged/travel/vocabulary/travel-buy.json",
+        "authoring/staged/travel/vocabulary/travel-wait.json"
+    ],
+    "examplesFiles": [
+        "authoring/staged/travel/examples/travel-bought-ticket.json",
+        "authoring/staged/travel/examples/travel-arrived-station.json",
+        "authoring/staged/travel/examples/travel-wait-platform.json",
+        "authoring/staged/travel/examples/travel-depart-airport.json",
+        "authoring/staged/travel/examples/travel-passport-here.json",
+        "authoring/staged/travel/examples/travel-suitcase-there.json",
+        "authoring/staged/travel/examples/travel-bicycle-school.json",
+        "authoring/staged/travel/examples/travel-read-map.json"
+    ]
+}

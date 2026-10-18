@@ -1,0 +1,108 @@
+{
+    "id": "en:word:travel-station",
+    "concept": "station",
+    "label": "station",
+    "reading": "/ˈsteɪʃən/",
+    "class": "lexical:noun",
+    "meanings": {
+        "en": "railway station",
+        "de": "Bahnhof",
+        "id": "stasiun kereta",
+        "ja": "鉄道の駅"
+    },
+    "forms": [
+        {
+            "form": "plural",
+            "label": "stations",
+            "reading": "/ˈsteɪʃənz/",
+            "meaning": {
+                "en": "railway station (plural)",
+                "de": "Bahnhof (Mehrzahl)",
+                "id": "stasiun kereta (jamak)",
+                "ja": "鉄道の駅 (複数形)"
+            },
+            "atomicSpellingPlan": [
+                {
+                    "position": 0,
+                    "entryId": "en:char:s-lowercase",
+                    "character": "s"
+                },
+                {
+                    "position": 1,
+                    "entryId": "en:char:t-lowercase",
+                    "character": "t"
+                },
+                {
+                    "position": 2,
+                    "entryId": "en:char:a-lowercase",
+                    "character": "a"
+                },
+                {
+                    "position": 3,
+                    "entryId": "en:char:t-lowercase",
+                    "character": "t"
+                },
+                {
+                    "position": 4,
+                    "entryId": "en:char:i-lowercase",
+                    "character": "i"
+                },
+                {
+                    "position": 5,
+                    "entryId": "en:char:o-lowercase",
+                    "character": "o"
+                },
+                {
+                    "position": 6,
+                    "entryId": "en:char:n-lowercase",
+                    "character": "n"
+                },
+                {
+                    "position": 7,
+                    "entryId": "en:char:s-lowercase",
+                    "character": "s"
+                }
+            ]
+        }
+    ],
+    "artworkBrief": "Railway station entrance with visible tracks/train behind; distinguish from bus stop.",
+    "audioText": "station",
+    "media": null,
+    "atomicSpellingPlan": [
+        {
+            "position": 0,
+            "entryId": "en:char:s-lowercase",
+            "character": "s"
+        },
+        {
+            "position": 1,
+            "entryId": "en:char:t-lowercase",
+            "character": "t"
+        },
+        {
+            "position": 2,
+            "entryId": "en:char:a-lowercase",
+            "character": "a"
+        },
+        {
+            "position": 3,
+            "entryId": "en:char:t-lowercase",
+            "character": "t"
+        },
+        {
+            "position": 4,
+            "entryId": "en:char:i-lowercase",
+            "character": "i"
+        },
+        {
+            "position": 5,
+            "entryId": "en:char:o-lowercase",
+            "character": "o"
+        },
+        {
+            "position": 6,
+            "entryId": "en:char:n-lowercase",
+            "character": "n"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+[
+    {
+        "assetId": "b8fe5998d171a5cf7a9eb09a24da276727a0cade1cd3efd9d41ebf73ebe6c5a5",
+        "entryIds": ["en:word:head"],
+        "observation": "Whole head portrait including hair and ears; distinguish from tighter face crop.",
+        "decision": "retain-with-existing-labels",
+        "rationale": "A conventional lexical/sense exemplar, not a grammatical contrast. Existing localized definition identifies the intended sense; qualification remains explicit.",
+        "existingDefinitions": [
+            {
+                "en": "head",
+                "de": "Kopf",
+                "id": "kepala",
+                "ja": "頭"
+            }
+        ],
+        "existingExamples": [],
+        "audioListening": "pending-not-claimed"
+    },
+    {
+        "assetId": "700eaadee03c7d4a57d9a50fe6e57e66515c9e138ed1a550332537bc379efe0b",
+        "entryIds": ["en:word:mouth"],
+        "observation": "Closed lips represent external mouth rather than oral cavity.",
+        "decision": "retain-with-existing-example",
+        "rationale": "The visible scene supports the stated sense; existing ordered example and localized meaning supply missing linguistic context.",
+        "existingDefinitions": [
+            {
+                "en": "mouth",
+                "de": "Mund",
+                "id": "mulut",
+                "ja": "口"
+            }
+        ],
+        "existingExamples": [
+            {
+                "entryId": "en:sentence:you-have-a-mouth",
+                "label": "You have a mouth."
+            }
+        ],
+        "audioListening": "pending-not-claimed"
+    },
+    {
+        "assetId": "db5656e470606135e42a6beec389917b9c857e805a30670a8d3c1650f5252994",
+        "entryIds": ["en:word:stomach"],
+        "observation": "Hand and glow over belly; matches colloquial belly sense, not internal stomach anatomy.",
+        "decision": "retain-with-existing-labels",
+        "rationale": "A conventional lexical/sense exemplar, not a grammatical contrast. Existing localized definition identifies the intended sense; qualification remains explicit.",
+        "existingDefinitions": [
+            {
+                "en": "stomach",
+                "de": "Bauch",
+                "id": "perut",
+                "ja": "お腹"
+            }
+        ],
+        "existingExamples": [],
+        "audioListening": "pending-not-claimed"
+    }
+]

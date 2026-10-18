@@ -6,6 +6,10 @@
 
 Vier Startstapel zu Essen und Trinken, vergangenen Ereignissen, laufenden Handlungen sowie Orten und Bewegung ergänzen das Angebot. Sie ermöglichen gezieltes Üben mit 23 vorhandenen Sätzen und ihren verknüpften Bedeutungen und grammatischen Formen.
 
+## Klarere Illustrationen
+
+Acht mehrdeutige oder falsch zugeschnittene Illustrationen werden ersetzt. Die Verbbedeutung von please wird korrekt dargestellt; fremde Bildausschnitte entfallen. Vollständige Szenen verdeutlichen Grad, Folge und Ergänzung.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

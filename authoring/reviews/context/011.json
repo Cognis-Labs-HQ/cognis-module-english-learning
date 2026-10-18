@@ -1,0 +1,70 @@
+[
+    {
+        "assetId": "b7a215212dd8d55f6e597dc55278ad6fd439e30442926d6cf038758d6cd17e95",
+        "entryIds": ["en:word:now"],
+        "observation": "Finger points at clock hands; now vs time requires deictic context.",
+        "decision": "context-priority",
+        "rationale": "Clock illustration does not distinguish now from time. Add explicit present-moment context.",
+        "existingDefinitions": [
+            {
+                "en": "now",
+                "de": "jetzt",
+                "id": "sekarang",
+                "ja": "今"
+            }
+        ],
+        "existingExamples": [],
+        "audioListening": "pending-not-claimed"
+    },
+    {
+        "assetId": "95e7fc6274764e5b73f3955351ade7be71268fed21cdff69afe70fefc00acc0b",
+        "entryIds": ["en:word:always"],
+        "observation": "Repeated daily toothbrushing across all panels supports habitual always.",
+        "decision": "retain-with-existing-labels",
+        "rationale": "A conventional lexical/sense exemplar, not a grammatical contrast. Existing localized definition identifies the intended sense; qualification remains explicit.",
+        "existingDefinitions": [
+            {
+                "en": "always",
+                "de": "immer",
+                "id": "selalu",
+                "ja": "いつも"
+            }
+        ],
+        "existingExamples": [],
+        "audioListening": "pending-not-claimed"
+    },
+    {
+        "assetId": "b2a993d8e2cf2f2149f4021bd33ace18c8fad8eec932672645f98d9b5f73a7a6",
+        "entryIds": ["en:word:never"],
+        "observation": "Repeated crossed-arm refusal and prohibition across all panels supports never.",
+        "decision": "retain-with-existing-labels",
+        "rationale": "A conventional lexical/sense exemplar, not a grammatical contrast. Existing localized definition identifies the intended sense; qualification remains explicit.",
+        "existingDefinitions": [
+            {
+                "en": "never",
+                "de": "nie",
+                "id": "tidak pernah",
+                "ja": "決してない"
+            }
+        ],
+        "existingExamples": [],
+        "audioListening": "pending-not-claimed"
+    },
+    {
+        "assetId": "5674479f32f97bb27a8a84b76fd3d7ad0bfd03968e2c7163fb33c42812bb71f1",
+        "entryIds": ["en:word:structure-although"],
+        "observation": "Person enjoys picnic despite rain, supporting concessive contrast in a sentence.",
+        "decision": "context-priority",
+        "rationale": "Localized meaning is present, but no packaged sentence directly uses this entry; prioritize an authored example before claiming contextual sufficiency.",
+        "existingDefinitions": [
+            {
+                "en": "although",
+                "de": "obwohl",
+                "id": "meskipun",
+                "ja": "〜だけれども"
+            }
+        ],
+        "existingExamples": [],
+        "audioListening": "pending-not-claimed"
+    }
+]

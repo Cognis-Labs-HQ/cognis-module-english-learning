@@ -2,7 +2,7 @@
     "id": "study-language-en",
     "uuid": "b1adc29f-9d54-5785-9bea-2ce76f1981e4",
     "name": "module.study.language.en.name",
-    "version": "1.5.15",
+    "version": "1.5.16",
     "class": "extension",
     "privileged": true,
     "coreApiVersion": "v1",
@@ -62,7 +62,7 @@
         },
         {
             "path": ".github/copilot-instructions.md",
-            "sha256": "7d6982cea89b6c88b8f9813420b4633fc72c08423372e58519a4775ec30e1155"
+            "sha256": "c15e6aab31f848f9327071ab7c836d1c1eceb19f0f5f0c3c6ba1cbf3efea9de0"
         },
         {
             "path": ".gitignore",
@@ -2573,20 +2573,12 @@
             "sha256": "0ebfd23f757da15101401e8fceab6273433de55eec7e15cf2df1dc939893c3ea"
         },
         {
-            "path": "data/library/assets/images/0f9fb282c474ecb9d999abd0d58a469f7cde2a5eeb8f573e7a673b7af2723d06.jpg",
-            "sha256": "0f9fb282c474ecb9d999abd0d58a469f7cde2a5eeb8f573e7a673b7af2723d06"
-        },
-        {
             "path": "data/library/assets/images/11505b07ed6a920d9f8e5c6bcb27e750d0dc4d205fc6c0b7748968a418c9db59.jpg",
             "sha256": "11505b07ed6a920d9f8e5c6bcb27e750d0dc4d205fc6c0b7748968a418c9db59"
         },
         {
             "path": "data/library/assets/images/11fef1e723cf1f2b0c93f1f2397dd1bedd60ccb09132340f5631ed284439484b.jpg",
             "sha256": "11fef1e723cf1f2b0c93f1f2397dd1bedd60ccb09132340f5631ed284439484b"
-        },
-        {
-            "path": "data/library/assets/images/14c47f39340f1eef93ecf5f779e29e3df2835c15cf18852f4a6a56c7e82c2ce4.jpg",
-            "sha256": "14c47f39340f1eef93ecf5f779e29e3df2835c15cf18852f4a6a56c7e82c2ce4"
         },
         {
             "path": "data/library/assets/images/15fb1902f63bae89d9389ff6705e9d32af9a0e4ee808ba0efe349612e78af273.jpg",
@@ -2621,6 +2613,10 @@
             "sha256": "1d85a8b77aa5983793f6895e41b4ca8020f9eef3b61620a5882ac293ce9ead64"
         },
         {
+            "path": "data/library/assets/images/207149e096b8f23a67a33961fc8aaad8b96a6559232e179dcf22b81a25fd31ab.jpg",
+            "sha256": "207149e096b8f23a67a33961fc8aaad8b96a6559232e179dcf22b81a25fd31ab"
+        },
+        {
             "path": "data/library/assets/images/220d2e32ffdd72cc01cec01f737dbf8f7898c4ac0dc8b0e414130e71bdc064fc.jpg",
             "sha256": "220d2e32ffdd72cc01cec01f737dbf8f7898c4ac0dc8b0e414130e71bdc064fc"
         },
@@ -2635,6 +2631,10 @@
         {
             "path": "data/library/assets/images/284f6012e6ea83380a1489eb211ba8436838f94e9b5eeb98806dd0398f26db8c.jpg",
             "sha256": "284f6012e6ea83380a1489eb211ba8436838f94e9b5eeb98806dd0398f26db8c"
+        },
+        {
+            "path": "data/library/assets/images/2ad68a434839aa755d848d50ff21b6fbc76f04a44c5c6cac011602568cc2673b.jpg",
+            "sha256": "2ad68a434839aa755d848d50ff21b6fbc76f04a44c5c6cac011602568cc2673b"
         },
         {
             "path": "data/library/assets/images/2c866e5931d208615c20ca1634e525e46183770573f8192e7be07239fbc5d004.jpg",
@@ -2675,10 +2675,6 @@
         {
             "path": "data/library/assets/images/3e334ace492fbaf00709a65578028a40742c49517d826a7760ab6b61aa78042f.jpg",
             "sha256": "3e334ace492fbaf00709a65578028a40742c49517d826a7760ab6b61aa78042f"
-        },
-        {
-            "path": "data/library/assets/images/3f11e9c4569a177854663439f172d91e3f41d2c43c8a14f91385c9bca7986f01.jpg",
-            "sha256": "3f11e9c4569a177854663439f172d91e3f41d2c43c8a14f91385c9bca7986f01"
         },
         {
             "path": "data/library/assets/images/4197e7ade988f9fbbeeba06180f5ab795514da681718628619599c5bf7de40b2.jpg",
@@ -2725,10 +2721,6 @@
             "sha256": "4b5b62bb9190892f121b5ae12b07dfb59e30a315849e032c34ab53686e2235de"
         },
         {
-            "path": "data/library/assets/images/4d55821785f1c47e74308c7408e043fc6ef3876a0fe9bb3d47e754d4481f750c.jpg",
-            "sha256": "4d55821785f1c47e74308c7408e043fc6ef3876a0fe9bb3d47e754d4481f750c"
-        },
-        {
             "path": "data/library/assets/images/4e1907095e8c044491ce13fc7d5aa91d7abc3314d94d995bb597a3a184f2a659.jpg",
             "sha256": "4e1907095e8c044491ce13fc7d5aa91d7abc3314d94d995bb597a3a184f2a659"
         },
@@ -2747,14 +2739,6 @@
         {
             "path": "data/library/assets/images/50a50617929f3fdef702b2a51f1801277abbf35636a43a438600176567ebb105.jpg",
             "sha256": "50a50617929f3fdef702b2a51f1801277abbf35636a43a438600176567ebb105"
-        },
-        {
-            "path": "data/library/assets/images/50c3acc30af9cc3a92e0fb037ce0173869c49d8c0e45301307e1089aad0cf3e0.jpg",
-            "sha256": "50c3acc30af9cc3a92e0fb037ce0173869c49d8c0e45301307e1089aad0cf3e0"
-        },
-        {
-            "path": "data/library/assets/images/51ef545bc6a950f18d3480372c3942ecea429e747255f2173314b14d3b3e2237.jpg",
-            "sha256": "51ef545bc6a950f18d3480372c3942ecea429e747255f2173314b14d3b3e2237"
         },
         {
             "path": "data/library/assets/images/524c06181b5d8f714e7fb823f83164c7db83a492ee9f56546ff2f2ec3f5bc95d.jpg",
@@ -2861,6 +2845,10 @@
             "sha256": "6e660894ef37d1c92edbd094e929645d1176113894da615da7427afd05ab5776"
         },
         {
+            "path": "data/library/assets/images/6f0cd72f4491e1baa0c8ffde897fd8b894a033494a0aae1fa8cd6c2675c4c4ad.jpg",
+            "sha256": "6f0cd72f4491e1baa0c8ffde897fd8b894a033494a0aae1fa8cd6c2675c4c4ad"
+        },
+        {
             "path": "data/library/assets/images/6f78f405b59fde1d34152e3cf520d4746ff315003fdbb124c07e8209873a3fe8.jpg",
             "sha256": "6f78f405b59fde1d34152e3cf520d4746ff315003fdbb124c07e8209873a3fe8"
         },
@@ -2891,6 +2879,10 @@
         {
             "path": "data/library/assets/images/79eb9b5cf8d0bec40b4b51f9d0afd6fa20b6b3d5cd2a20015622b82c092242bb.jpg",
             "sha256": "79eb9b5cf8d0bec40b4b51f9d0afd6fa20b6b3d5cd2a20015622b82c092242bb"
+        },
+        {
+            "path": "data/library/assets/images/79f23696d8c2012fcaedeae5f23fd4b345beab90781c202a60215794720ec642.jpg",
+            "sha256": "79f23696d8c2012fcaedeae5f23fd4b345beab90781c202a60215794720ec642"
         },
         {
             "path": "data/library/assets/images/7a30e4adac0f2e702042499655b359358a08dd182f9e3abdfe25f6fd1183689f.jpg",
@@ -2993,6 +2985,10 @@
             "sha256": "9df18844694cf6d86d8f2ebd480839f3c2104cdb2179796aeb0ed623a077e0c4"
         },
         {
+            "path": "data/library/assets/images/9e12b30db65e7520068c62285463683c1aa6bce45f8a057f074de48d3bff8553.jpg",
+            "sha256": "9e12b30db65e7520068c62285463683c1aa6bce45f8a057f074de48d3bff8553"
+        },
+        {
             "path": "data/library/assets/images/9eef124cbbc7a29eedf95265f413829372a595d5fb480bd04353e8e0aae76904.jpg",
             "sha256": "9eef124cbbc7a29eedf95265f413829372a595d5fb480bd04353e8e0aae76904"
         },
@@ -3002,7 +2998,7 @@
         },
         {
             "path": "data/library/assets/images/LICENSE.md",
-            "sha256": "0fbc3e8eefc0585b278c2be30f0b7b123d59e3bf673f218c9d50af335808ccd5"
+            "sha256": "2f9540250b5a304a39c02db047aafc741b167e34143bbc172e56bab01abc5890"
         },
         {
             "path": "data/library/assets/images/a43b223b2add93b20e5a21ac8c506dd120ed4b1f639575ed8c6a1e6de8b4fa49.jpg",
@@ -3089,6 +3085,10 @@
             "sha256": "bc77340a7d40d57588231e97930ba919dd43d09c7c8f8d865d18d42f51e20567"
         },
         {
+            "path": "data/library/assets/images/bd688c08b178cef5c683b42477e81de31f508b0b49fcf580de58f1312118b8ef.jpg",
+            "sha256": "bd688c08b178cef5c683b42477e81de31f508b0b49fcf580de58f1312118b8ef"
+        },
+        {
             "path": "data/library/assets/images/bd83353462d6ca3b42547377060db0c75e014e4590da28e730067ed87fe3b69a.jpg",
             "sha256": "bd83353462d6ca3b42547377060db0c75e014e4590da28e730067ed87fe3b69a"
         },
@@ -3105,10 +3105,6 @@
             "sha256": "becc7b9ffc19c522f983025f611effbc21eba79b13167a8f7251e178e176de83"
         },
         {
-            "path": "data/library/assets/images/bf8ee290124163c90fff65369b458a4649db52e422c5a7cd2e4789265112b0d4.jpg",
-            "sha256": "bf8ee290124163c90fff65369b458a4649db52e422c5a7cd2e4789265112b0d4"
-        },
-        {
             "path": "data/library/assets/images/c2a3d12b3a62e15ba5c0db1e71454d6b35cdb2caa0249d20e42865c282a9d563.jpg",
             "sha256": "c2a3d12b3a62e15ba5c0db1e71454d6b35cdb2caa0249d20e42865c282a9d563"
         },
@@ -3119,6 +3115,10 @@
         {
             "path": "data/library/assets/images/c89423c14ef788c4b5755aa193923c182260bf4c2d153fb1feb7cb9a655871b1.jpg",
             "sha256": "c89423c14ef788c4b5755aa193923c182260bf4c2d153fb1feb7cb9a655871b1"
+        },
+        {
+            "path": "data/library/assets/images/c8ee54dac864753579d2e4705af6ae44b87ed938cf5d6b2886c8d44f1d7c6a4e.jpg",
+            "sha256": "c8ee54dac864753579d2e4705af6ae44b87ed938cf5d6b2886c8d44f1d7c6a4e"
         },
         {
             "path": "data/library/assets/images/c904a990d4d69bfdf8213f2fff00850bbb808e0bc41a910216e10ece6ad566a1.jpg",
@@ -3138,7 +3138,7 @@
         },
         {
             "path": "data/library/assets/images/catalog.json",
-            "sha256": "4fbfdb28b390809dded996f3d0dbfe5c6020274913fc06cb9991f8fc857ceb79"
+            "sha256": "293a5feac5c53cc0bc6cab1c69733bdf01d05950226d5db1dd18fe30a412de20"
         },
         {
             "path": "data/library/assets/images/cdd570029258ee5f5a216a183a3b149545e46e74920187b1046ce4adc0c11b55.jpg",
@@ -3147,6 +3147,10 @@
         {
             "path": "data/library/assets/images/d0057ca0c8d528f33eb97cd210475d12a9557c4ac0b1df29dcb85a810f1c9b08.jpg",
             "sha256": "d0057ca0c8d528f33eb97cd210475d12a9557c4ac0b1df29dcb85a810f1c9b08"
+        },
+        {
+            "path": "data/library/assets/images/d0a1501146dbcae642f55da1986469cc834b25a58c54302d8630d83333273b15.jpg",
+            "sha256": "d0a1501146dbcae642f55da1986469cc834b25a58c54302d8630d83333273b15"
         },
         {
             "path": "data/library/assets/images/d2dbce8e11839b5396d916fd695923367949f74fccbc8bf4b5f32c19454236ae.jpg",
@@ -3231,10 +3235,6 @@
         {
             "path": "data/library/assets/images/e8388e3a5954704025c9f5f2ef25e2f21b6c9714337be9d797292723d4120927.jpg",
             "sha256": "e8388e3a5954704025c9f5f2ef25e2f21b6c9714337be9d797292723d4120927"
-        },
-        {
-            "path": "data/library/assets/images/ec7b913f393c79c987903eec78dbaaae8f29a025a63a7c1b21a8e0a66bf2aa5c.jpg",
-            "sha256": "ec7b913f393c79c987903eec78dbaaae8f29a025a63a7c1b21a8e0a66bf2aa5c"
         },
         {
             "path": "data/library/assets/images/edf833e37b5a28f47bb2fd0c97770db55345c5afd41e298d266223d1091302ac.jpg",
@@ -3426,7 +3426,7 @@
         },
         {
             "path": "data/library/content/words/beginner-003.json",
-            "sha256": "6d921d038b058bc945a52f9863a3bee51a366c2a0dd13830f333160352f29f45"
+            "sha256": "63c19db514282ac10d6d7db1bde221e359e5d8f3bd6c49e2a2699a837b483714"
         },
         {
             "path": "data/library/content/words/beginner-004.json",
@@ -3450,11 +3450,11 @@
         },
         {
             "path": "data/library/content/words/beginner-009.json",
-            "sha256": "e3daf767c6f4c213297f159612a4aaf75c3427f94071c05170ed11571c2088ea"
+            "sha256": "99342a00ce6f1361e7d415dd8940af3e3481d65b4ba29675e0b747ce0482f0b0"
         },
         {
             "path": "data/library/content/words/beginner-010.json",
-            "sha256": "bffa41088e87c634e7f82d119d0fa7358f787e9dfe748dec6a49085b25a51472"
+            "sha256": "3e4abd7285000586854447e0134c991356fd02a6dfe57798d4aee402b3582773"
         },
         {
             "path": "data/library/content/words/capitalized-001.json",
@@ -3558,11 +3558,11 @@
         },
         {
             "path": "data/library/content/words/sentence-structures-002.json",
-            "sha256": "c3cc1e5e9d820298551f5c4f7e5e5d9610c57f60a973f9f199f11058740f2c2d"
+            "sha256": "49ea9eefe2186e4b98c4e2a01a445b10b4e76e79978a0af05e395eb749455009"
         },
         {
             "path": "data/library/content/words/sentence-structures-003.json",
-            "sha256": "39bbbb711a5755c39f1c133bef17cede42a381ef9a981fa68a96e6299f31bad1"
+            "sha256": "fbf56bc29fb2731a9b629665f5f46302085c4f955b0fd185529f2c42b37d8c89"
         },
         {
             "path": "data/library/content/words/sentence-structures-004.json",
@@ -3570,7 +3570,7 @@
         },
         {
             "path": "data/library/manifest.json",
-            "sha256": "5e717e90a6c13bb6836e73f30396fc69281989230db89c91e31b27c52c478a80"
+            "sha256": "fce26aa86db21ebe32ce9d000ecaedda30e661e465b413d8595d9915086e951f"
         },
         {
             "path": "data/library/schema.json",
@@ -4646,11 +4646,11 @@
         },
         {
             "path": "package-lock.json",
-            "sha256": "519fa683c65dd1c34e10fd072572751fdfa33ef0cf5a5515d0806692f7c82bde"
+            "sha256": "9645798b471744578a26c83467077c0c4b60771dcfca2402078cc6389cce6b4b"
         },
         {
             "path": "package.json",
-            "sha256": "23e450c2c5657d05128806f14eb1af933afe868be3d240fa5a951e1a30df3e4d"
+            "sha256": "b017962f0a62c26a21e73462346648031fddb045341fb0c5822201321e1ddfd4"
         },
         {
             "path": "routes.json",
@@ -4666,11 +4666,11 @@
         },
         {
             "path": "scripts/update-manifest-hashes.js",
-            "sha256": "97b2cd93f2b872c7ba5d9608960083c9227b4108987e15e1ea7b9a1a1bf08a30"
+            "sha256": "371f6c29bcb4983fd71123484172afa27130c719a260c2851205ca4829790b7b"
         },
         {
             "path": "scripts/validate-manifest.js",
-            "sha256": "944205e7335ee60ee6db1404e20c36733da8536ca594c76efbca1f130443b298"
+            "sha256": "32b9402f9fc7e37ddbdb31c52c91c19cdb625c24052cb7a70e96fece8da7787f"
         },
         {
             "path": "tests/ambiguous-names.test.js",
@@ -4685,12 +4685,16 @@
             "sha256": "0074c5f4acb6fa66dbf992ad9fd57146722bf867d79696a70b90f3a4739b0642"
         },
         {
+            "path": "tests/authoring-validation.test.js",
+            "sha256": "a44cde2c5337c9f55f6dc4b69239597738ac3ecd96c08cf54aff614735c12820"
+        },
+        {
             "path": "tests/bootstrap.test.js",
             "sha256": "f0504d10636d948a4f78cbdbc95a3b5cca29d75cdb14d06f2e2528b65f7d7771"
         },
         {
             "path": "tests/content-pack.test.js",
-            "sha256": "4b43ff855014e7f654b2fd7efd81ee0e2222dc5085f2154a93c6a44d43e7be11"
+            "sha256": "706a66e125dd97350c1cbf5168c1dfe5df486ec084fb97bb33977e7113ff5b4d"
         },
         {
             "path": "tests/documentation-convention.test.js",

@@ -1,0 +1,87 @@
+[
+    {
+        "assetId": "1d85a8b77aa5983793f6895e41b4ca8020f9eef3b61620a5882ac293ce9ead64",
+        "entryIds": ["en:word:beautiful"],
+        "observation": "Colorful flower garden exemplifies beauty; subjective judgment is contextual.",
+        "decision": "retain-with-existing-labels",
+        "rationale": "A conventional lexical/sense exemplar, not a grammatical contrast. Existing localized definition identifies the intended sense; qualification remains explicit.",
+        "existingDefinitions": [
+            {
+                "en": "beautiful",
+                "de": "schön",
+                "id": "indah",
+                "ja": "美しい"
+            }
+        ],
+        "existingExamples": [],
+        "audioListening": "pending-not-claimed"
+    },
+    {
+        "assetId": "1ac7eaeb345d2f80a8be332eff16a9fb7f41439f3ac34a83315954afebadf7fa",
+        "entryIds": ["en:word:important"],
+        "observation": "Highlighted key at locked door does not alone establish importance.",
+        "decision": "artwork-priority",
+        "rationale": "Key at lock primarily teaches key; show an explicitly consequential need for the key.",
+        "existingDefinitions": [
+            {
+                "en": "important",
+                "de": "wichtig",
+                "id": "penting",
+                "ja": "重要な"
+            }
+        ],
+        "existingExamples": [],
+        "audioListening": "pending-not-claimed"
+    },
+    {
+        "assetId": "9fa612720760b24e461e954720a498c30e8387c4ff89655bc1ff295efdb4615c",
+        "entryIds": ["en:word:have"],
+        "observation": "Child holding bicycle; possession is plausible but ownership needs context.",
+        "decision": "retain-with-existing-example",
+        "rationale": "The visible scene supports the stated sense; existing ordered example and localized meaning supply missing linguistic context.",
+        "existingDefinitions": [
+            {
+                "en": "to have",
+                "de": "haben",
+                "id": "memiliki",
+                "ja": "持つ"
+            }
+        ],
+        "existingExamples": [
+            {
+                "entryId": "en:sentence:she-is-happy-because-she-has-a-friend",
+                "label": "She is happy because she has a friend."
+            },
+            {
+                "entryId": "en:sentence:i-have-two-books",
+                "label": "I have two books."
+            },
+            {
+                "entryId": "en:sentence:he-has-a-book",
+                "label": "He has a book."
+            },
+            {
+                "entryId": "en:sentence:you-have-a-mouth",
+                "label": "You have a mouth."
+            }
+        ],
+        "audioListening": "pending-not-claimed"
+    },
+    {
+        "assetId": "6691d5084fc359b1da91762a40539b899aeb91dbfd62eb0be689138348ffee91",
+        "entryIds": ["en:word:say"],
+        "observation": "Speaker and speech bubble depict saying something; utterance unspecified.",
+        "decision": "retain-with-existing-labels",
+        "rationale": "A conventional lexical/sense exemplar, not a grammatical contrast. Existing localized definition identifies the intended sense; qualification remains explicit.",
+        "existingDefinitions": [
+            {
+                "en": "to say",
+                "de": "sagen",
+                "id": "mengatakan",
+                "ja": "言う"
+            }
+        ],
+        "existingExamples": [],
+        "audioListening": "pending-not-claimed"
+    }
+]

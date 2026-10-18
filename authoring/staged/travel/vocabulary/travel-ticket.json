@@ -1,0 +1,98 @@
+{
+    "id": "en:word:travel-ticket",
+    "concept": "ticket",
+    "label": "ticket",
+    "reading": "/ˈtɪkɪt/",
+    "class": "lexical:noun",
+    "meanings": {
+        "en": "ticket",
+        "de": "Fahrkarte",
+        "id": "tiket",
+        "ja": "きっぷ"
+    },
+    "forms": [
+        {
+            "form": "plural",
+            "label": "tickets",
+            "reading": "/ˈtɪkɪts/",
+            "meaning": {
+                "en": "ticket (plural)",
+                "de": "Fahrkarte (Mehrzahl)",
+                "id": "tiket (jamak)",
+                "ja": "きっぷ (複数形)"
+            },
+            "atomicSpellingPlan": [
+                {
+                    "position": 0,
+                    "entryId": "en:char:t-lowercase",
+                    "character": "t"
+                },
+                {
+                    "position": 1,
+                    "entryId": "en:char:i-lowercase",
+                    "character": "i"
+                },
+                {
+                    "position": 2,
+                    "entryId": "en:char:c-lowercase",
+                    "character": "c"
+                },
+                {
+                    "position": 3,
+                    "entryId": "en:char:k-lowercase",
+                    "character": "k"
+                },
+                {
+                    "position": 4,
+                    "entryId": "en:char:e-lowercase",
+                    "character": "e"
+                },
+                {
+                    "position": 5,
+                    "entryId": "en:char:t-lowercase",
+                    "character": "t"
+                },
+                {
+                    "position": 6,
+                    "entryId": "en:char:s-lowercase",
+                    "character": "s"
+                }
+            ]
+        }
+    ],
+    "artworkBrief": "A railway paper ticket beside ticket gate; avoid showing a receipt or passport.",
+    "audioText": "ticket",
+    "media": null,
+    "atomicSpellingPlan": [
+        {
+            "position": 0,
+            "entryId": "en:char:t-lowercase",
+            "character": "t"
+        },
+        {
+            "position": 1,
+            "entryId": "en:char:i-lowercase",
+            "character": "i"
+        },
+        {
+            "position": 2,
+            "entryId": "en:char:c-lowercase",
+            "character": "c"
+        },
+        {
+            "position": 3,
+            "entryId": "en:char:k-lowercase",
+            "character": "k"
+        },
+        {
+            "position": 4,
+            "entryId": "en:char:e-lowercase",
+            "character": "e"
+        },
+        {
+            "position": 5,
+            "entryId": "en:char:t-lowercase",
+            "character": "t"
+        }
+    ]
+}
