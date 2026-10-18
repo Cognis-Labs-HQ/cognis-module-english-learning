@@ -2,7 +2,7 @@
     "id": "study-language-en",
     "uuid": "b1adc29f-9d54-5785-9bea-2ce76f1981e4",
     "name": "module.study.language.en.name",
-    "version": "1.5.14",
+    "version": "1.5.15",
     "class": "extension",
     "privileged": true,
     "coreApiVersion": "v1",
@@ -4610,7 +4610,7 @@
         },
         {
             "path": "data/starter-decks.json",
-            "sha256": "578e7dc514d28dd5072b37662b790f910ef9824ed6b0978e7407242af636d293"
+            "sha256": "c4042d59028c33472b341bb5bda5e91baaa64876bde5d046c9688021ab5c4429"
         },
         {
             "path": "docs/dictionary.de.md",
@@ -4646,11 +4646,11 @@
         },
         {
             "path": "package-lock.json",
-            "sha256": "671eb8844f16d63b71310958da284ef67f93b2cc3bce71ebda0dd910065b8951"
+            "sha256": "519fa683c65dd1c34e10fd072572751fdfa33ef0cf5a5515d0806692f7c82bde"
         },
         {
             "path": "package.json",
-            "sha256": "82787d86d7c1fd02491ebf56f1c86f8f506d34aa09b6317e7333c8c4dc7b8527"
+            "sha256": "23e450c2c5657d05128806f14eb1af933afe868be3d240fa5a951e1a30df3e4d"
         },
         {
             "path": "routes.json",
@@ -4686,15 +4686,19 @@
         },
         {
             "path": "tests/bootstrap.test.js",
-            "sha256": "cc6f4c060e4431cedec15dca197975419cb2a81044c59dc70f6e33b77ab7f788"
+            "sha256": "f0504d10636d948a4f78cbdbc95a3b5cca29d75cdb14d06f2e2528b65f7d7771"
         },
         {
             "path": "tests/content-pack.test.js",
-            "sha256": "e4c565ce474a38d9ae581503464848e2cc82354d7ba3c420be287e9e33c89f50"
+            "sha256": "4b43ff855014e7f654b2fd7efd81ee0e2222dc5085f2154a93c6a44d43e7be11"
         },
         {
             "path": "tests/documentation-convention.test.js",
             "sha256": "453cded6957ce6f8febf38d7f9ee75f9ccd92b2bc47f790d5f0a6fdff1a62525"
+        },
+        {
+            "path": "tests/fixtures/themed-practice-review.json",
+            "sha256": "86a0dd494a5d933c64946c0dc79cd61e7dc6bef41a6d4ebbe1646a5b503befa5"
         },
         {
             "path": "tests/food-body.test.js",

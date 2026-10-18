@@ -220,7 +220,7 @@ test("curated transformations cover irregular verbs and contextual IPA", () => {
 
 test("starter decks use visible records from the published schema", async () => {
     const decks = JSON.parse(await readFile("data/starter-decks.json", "utf8"));
-    assert.equal(decks.length, 12);
+    assert.equal(decks.length, 14);
     for (const deck of decks) {
         assert.equal(deck.schemaId, schema.id);
         assert.equal(Object.keys(deck.name).length, 4);

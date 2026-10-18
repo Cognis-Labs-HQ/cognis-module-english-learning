@@ -319,5 +319,39 @@
             "en:sentence:we-went-home",
             "en:sentence:they-were-happy"
         ]
+    },
+    {
+        "key": "actions-in-progress",
+        "name": {
+            "en": "Actions in Progress",
+            "de": "Laufende Handlungen",
+            "id": "Kegiatan yang Sedang Berlangsung",
+            "ja": "進行中の動作"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:sentence:i-am-reading-a-book",
+            "en:sentence:she-is-drinking-tea",
+            "en:sentence:he-is-learning-english"
+        ]
+    },
+    {
+        "key": "places-and-movement",
+        "name": {
+            "en": "Places and Movement",
+            "de": "Orte und Bewegung",
+            "id": "Tempat dan Pergerakan",
+            "ja": "場所と移動"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:sentence:he-walks-to-school",
+            "en:sentence:they-play-in-the-park",
+            "en:sentence:we-go-by-train",
+            "en:sentence:she-walks-slowly",
+            "en:sentence:he-works-at-home",
+            "en:sentence:we-are-here",
+            "en:sentence:they-are-there"
+        ]
     }
 ]
