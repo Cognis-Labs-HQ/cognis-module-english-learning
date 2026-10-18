@@ -211,3 +211,4 @@ ElevenLabsを任意のモジュール依存関係として宣言します。イ�
 - [5579d8c](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/5579d8ced788d25f09c459de54cfd4d7f58c56de)
 - [b9c5743](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b9c57434a537e646516cbf3657a0d5b645773d86)
 - [2c2e676](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/2c2e6762e43ea9351ba0a22879a9cc3b32087bbb)
+- [c27ce4e](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c27ce4eb7e3b7197044d37656a8906a394df0935)
