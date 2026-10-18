@@ -312,3 +312,4 @@ Die Deinstallation löscht gespeicherte Stimmeneinstellungen unabhängig vom Erh
 - [af0ee61](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/af0ee61ea40640ece10fc7c9754769000bf6df5a)
 - [87be13f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/87be13f6b19b64c15d6866e62c10cfcd39040124)
 - [4b95cc1](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4b95cc17b5bd2dbba73f38f1d90298a5bb682a2b)
+- [d2f980d](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d2f980d39c4920f23dc4d147f3abf8f24caf7688)
