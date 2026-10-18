@@ -12,9 +12,9 @@ Belajar Bahasa Inggris menyediakan graf pembelajaran berversi, pengayaan kamus I
 
 ### Kontrak Penyedia dan Siklus Hidup
 
-UUID tetap modul adalah `b1adc29f-9d54-5785-9bea-2ce76f1981e4`; UUID gateway Study yang diperlukan adalah `338b9237-a2c8-5bcf-9437-bccc9abd9a27`. Bootstrap memerlukan `ctx.capabilities.require("study:library:provider")` dengan metode `ingestContentPack`, `registerLookupProvider` dan `deleteContentPack` yang berfungsi. Penyedia tulisan dan kamus didaftarkan, `data/` dimuat, lalu `study:language:en` dan kontribusi alur `bootstrap-platform` yang dapat dilepas diterbitkan. Deskriptor menyertakan `code`, `languageCode`, versi modul, paket dan `starterDecks`.
+UUID tetap modul adalah `b1adc29f-9d54-5785-9bea-2ce76f1981e4`; UUID gateway Study yang diperlukan adalah `338b9237-a2c8-5bcf-9437-bccc9abd9a27`. Bootstrap memerlukan `ctx.capabilities.require("study:library:provider")` dengan metode `ingestContentPack`, `registerLookupProvider` dan `deleteContentPack` yang berfungsi. Penyedia tulisan dan kamus didaftarkan, `data/library/` dimuat, lalu `study:language:en` dan kontribusi alur `bootstrap-platform` yang dapat dilepas diterbitkan. Deskriptor menyertakan `code`, `languageCode`, versi modul, paket dan `starterDecks`.
 
-Rute khusus administrator `GET`, `PUT`, dan `DELETE /api/v1/modules/study-language-en/config` tetap tersedia saat modul dinonaktifkan. GET membaca `voiceId` tersimpan; PUT memvalidasi dan menyimpannya di `module_study_language_en_config`, tetap bertahan setelah server dimulai ulang atau modul diaktifkan kembali. DELETE hanya menghapus konfigurasi tersebut. Ketiganya mengembalikan HTTP 200 dengan pembungkus data JSON; penghapusan konfigurasi tidak menghapus konten pembelajaran. Pendaftaran penyedia dilepas saat modul dinonaktifkan atau aktivasi gagal. Penghapusan modul mempertahankan konten kecuali `deleteContent: true` meminta operasi transaksional `deleteContentPack` milik host. Kegagalan diteruskan dengan log terstruktur yang aman.
+Rute konfigurasi GET, PUT, dan DELETE khusus administrator hanya didaftarkan saat bootstrap modul aktif. Modul tidak memiliki titik masuk runtime ketika nonaktif. Pengaturan suara bertahan setelah penonaktifan dan mulai ulang, lalu dihapus saat pencopotan tanpa bergantung pada retensi konten belajar.
 
 ### Graf Konten
 
@@ -66,7 +66,7 @@ Kartu kalimat memerlukan sedikitnya dua referensi kata melalui skema Library. Sa
 
 ## Struktur modul Study
 
-Paket konten berada di `data/library/` dan dek awal di `data/starter-decks.json`. Penyedia berada di `api/dictionary/` serta `api/strokes/`; pemuatan deterministis dan pembacaan respons terbatas byte berada di `api/reuse/`. Pengujian lintas lapisan berada di `tests/` dan pengujian API di `api/tests/`. Manifest menetapkan `api/routes/config/index.js` sebagai `disabledApi`, yang mendaftarkan rute konfigurasi GET, PUT, dan DELETE khusus administrator ketika modul dinonaktifkan, tanpa memuat konten atau mengaktifkan penyedia. Pengenal alur yang dipublikasikan tetap stabil.
+Rute konfigurasi GET, PUT, dan DELETE khusus administrator hanya didaftarkan saat bootstrap modul aktif. Modul tidak memiliki titik masuk runtime ketika nonaktif. Pengaturan suara bertahan setelah penonaktifan dan mulai ulang, lalu dihapus saat pencopotan tanpa bergantung pada retensi konten belajar.
 
 ## Jaga ketepatan jenis kata dan bentuk jamak
 
@@ -86,12 +86,16 @@ Setiap lapisan menyediakan bidang gambar referensi opsional di editor dan tampil
 
 ## Inventaris Rekaman
 
-`data/audio/recordings.json` merupakan manifest ringkas berisi bahasa, suara, model, pengaturan pemrosesan bersama, jumlah total, dan jalur inventaris dengan pemeriksaan integritas. Berkas dalam `data/audio/inventories/` memisahkan karakter, kosakata, transformasi, kalimat langsung, dan rekaman gabungan pengganti. Setiap berkas berada di bawah 800 baris dan mempertahankan permintaan persis, asal suara tiap klip, jalur transformasi, serta checksum audio. Bootstrap memverifikasi checksum dan jumlah setiap inventaris sebelum mendaftarkan pemutaran; byte rekaman dan prioritas pencarian tidak berubah.
+Pemutaran kalimat paket memakai PCM yang disusun persis dari klip penyusun, termasuk transformasi terpilih. Rekaman seluruh kalimat yang dihasilkan terpisah tetap diinventarisasi dengan asal suara dan permintaan asli, tetapi tidak menimpa rekaman komposisi. Kalimat baru tetap memakai komposisi dan cache milik host.
 
 ## Normalisasi katalog eksplisit dan inventaris komposisi kalimat
 
-Pembaca katalog menerima kebijakan normalisasi dari penyedia bahasa: NFC untuk Inggris, NFKC untuk Jepang. Kode pencarian bersama tidak lagi bercabang menurut bahasa tertentu. Inventaris komposisi kalimat bernama `sentence-compositions`; setiap entri menjelaskan rekaman paket nyata yang disusun dari klip penyusunnya secara berurutan. Rekaman kalimat neural langsung tetap terpisah dan diutamakan saat diputar.
+Pemutaran kalimat paket memakai PCM yang disusun persis dari klip penyusun, termasuk transformasi terpilih. Rekaman seluruh kalimat yang dihasilkan terpisah tetap diinventarisasi dengan asal suara dan permintaan asli, tetapi tidak menimpa rekaman komposisi. Kalimat baru tetap memakai komposisi dan cache milik host.
 
 ## Label ilustrasi terlokalisasi dan nama aset netral
 
 Nama berkas dan ID ilustrasi memakai digest SHA-256, sedangkan pengenal lembar sumber memakai digest sumber. Metadata katalog menyediakan label Jerman, Inggris, Indonesia, dan Jepang dari makna kartu yang sudah ditulis. Label tampilan terpisah dari pengenal penyimpanan netral. Data gambar dan identitas kartu tetap sama; revisi konten memperbarui semua referensi gambar paket.
+
+## Tinjauan Akhir dan Akses Bahasa Nonaktif
+
+Pencopotan menghapus konfigurasi suara tanpa bergantung pada retensi konten. Penonaktifan menghapus rute modul, UI statis, dan registrasi penyedia; konfigurasi bertahan saat dinonaktifkan atau dimulai ulang dan hanya dilayani ketika aktif. Cognis membatasi skema, kartu, dan media tersimpan menurut penyedia bahasa aktif serta memulihkan akses saat diaktifkan kembali. Hasil referensi menggabungkan identitas sumber setara sambil mempertahankan rekaman sumber, urutan bacaan, dan makna. Kalimat paket mengutamakan PCM komposisi persis dari klip penyusun, sebelum rekaman langsung yang disimpan terpisah. Permintaan suara memvalidasi teks bahasa ternormalisasi dengan batas panjang; KanjiVG membatalkan isi respons gagal dan menerima tanda vokal panjang.

@@ -1,3 +1,4 @@
+import { mergeReferenceRecords } from "./reference-records.js";
 import { createReferenceCatalog } from "./catalog.js";
 import { dictionarySuggestion } from "./index.js";
 import { addSpellingReferences } from "./spelling.js";
@@ -38,7 +39,7 @@ export function createReferenceProvider({
                 return [];
             const query = label.trim().normalize("NFC");
             const records = await lookup(query);
-            const suggestions = records
+            const suggestions = mergeReferenceRecords(records)
                 .flatMap((record) =>
                     record.meanings.map((meaning) =>
                         dictionarySuggestion(
@@ -83,6 +84,7 @@ export function createReferenceProvider({
                             provider: source.id,
                             sourceUrl: source.url,
                             license: source.license,
+                            records,
                         }),
                     },
                 }));

@@ -270,6 +270,10 @@ Die tatsächlichen englischen und japanischen Inhaltspaketversionen beim Entfern
 
 Alle 331 gebündelten Aufnahmen verwenden nun die konfigurierte ElevenLabs-Stimme dieser Sprache. Verfasste Lesungen, Kartenidentitäten, leise Vorläufe und die Satzkomposition mit Sprechpausen bleiben erhalten. Das Werkzeug nutzt Zugangsdaten aus der Umgebung, einen fortsetzbaren API-Antwortcache und atomaren Dateiaustausch; Pakete enthalten keine Zugangsdaten. Verzeichnisse, Herkunftsangaben, Inhaltsrevisionen und Integritätsprüfsummen entsprechen den neuen Aufnahmen.
 
+## Abschließende Prüfung und Zugriff bei deaktivierter Sprache
+
+Die Deinstallation löscht gespeicherte Stimmeneinstellungen unabhängig vom Erhalt der Lerninhalte. Deaktivieren entfernt Modulrouten, statische Oberflächen und Anbieterregistrierungen; Einstellungen überstehen Deaktivierung und Neustarts und sind nur im aktivierten Zustand erreichbar. Cognis sperrt gespeicherte Schemata, Karten und Medien anhand des aktiven Sprachanbieters und stellt den Zugriff beim Aktivieren wieder her. Referenzergebnisse vereinen gleichwertige Quellenidentitäten und bewahren Quelldaten, Lesereihenfolge und Bedeutungen. Vorbereitete Sätze verwenden exakte zusammengesetzte PCM-Aufnahmen vor getrennt erhaltenen Direktaufnahmen. Sprachanfragen prüfen normalisierten, begrenzten Text; KanjiVG verwirft abgelehnte Antwortdaten und akzeptiert Langvokalzeichen.
+
 ## Commits
 
 - [209951a](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/209951a165f6935eb242b265f01f2de568ba0b1d)

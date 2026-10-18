@@ -270,6 +270,10 @@ Advance the actual English and Japanese content-pack versions when removing bund
 
 All 331 packaged recordings now use the configured ElevenLabs voice for this language. Authored readings, card identities, quiet lead-ins and paced sentence composition are preserved. The generation tool uses environment credentials, resumable API-response caching and atomic output replacement; packages contain no credentials. Inventories, attribution, content revisions and integrity hashes reflect the new recordings.
 
+## Final Review and Disabled-Language Access
+
+Uninstall clears stored voice configuration independently of content retention. Disable removes module routes, static UI and provider registrations; configuration persists across disable/restart and is served only while enabled. Cognis gates retained schemas, cards and media by the live language provider, restoring access on re-enable. Reference results merge equivalent source identities while preserving source records, ordered readings and meanings. Packaged sentences use exact constituent-composed PCM before separately retained direct recordings. Speech requests validate normalized, bounded language text; KanjiVG cancels rejected response bodies and accepts prolonged sound marks.
+
 ## Commits
 
 - [209951a](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/209951a165f6935eb242b265f01f2de568ba0b1d)

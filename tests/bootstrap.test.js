@@ -5,7 +5,7 @@ import path from "node:path";
 import test from "node:test";
 import {
     bootstrapModule as bootstrapLanguageModule,
-    uninstallModule,
+    uninstallModule as uninstallLanguageModule,
 } from "../bootstrap.js";
 
 function bootstrapModule(ctx) {
@@ -134,7 +134,6 @@ test("enabled bootstrap registers the admin configuration cleanup policy", async
     assert.equal(route, "/api/v1/modules/study-language-en/config");
     assert.deepEqual(options, {
         access: { minRole: "admin" },
-        allowWhenDisabled: true,
     });
     let status;
     let ended = false;
@@ -297,4 +296,8 @@ for (const activationFails of [false, true]) {
         assert.deepEqual(removed, [...registered].reverse());
         assert.ok(removed.length >= 3);
     });
+}
+
+function uninstallModule(ctx, options) {
+    return uninstallLanguageModule(withConfiguration(ctx), options);
 }

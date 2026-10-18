@@ -1,3 +1,4 @@
+import { speechText } from "./speech-text.js";
 import { readFile, stat } from "node:fs/promises";
 import path from "node:path";
 
@@ -22,12 +23,12 @@ export function createAudioProvider({
         for (const input of recording.inputs)
             recordings.set(inputKey(input), recording);
     }
-    for (const composition of inventory.compositions) {
-        recordings.set(inputKey(composition.input), composition);
-    }
     for (const sentence of inventory.sentences) {
         for (const input of sentence.inputs)
             recordings.set(inputKey(input), sentence);
+    }
+    for (const composition of inventory.compositions) {
+        recordings.set(inputKey(composition.input), composition);
     }
     return Object.freeze({
         id: `study-language-${inventory.language}:recordings`,
@@ -70,6 +71,8 @@ export function createAudioProvider({
                     !synthesizer
                 )
                     throw new Error("audio_lookup_unavailable");
+                const text = speechText(input);
+                if (!text) throw new Error("audio_lookup_unavailable");
                 const reading = input.readings?.[0];
                 const phonemes = /^\/[^/]+\/$/u.test(reading ?? "")
                     ? reading.slice(1, -1)
@@ -77,7 +80,7 @@ export function createAudioProvider({
                 return await synthesizer.synthesize(
                     {
                         language: inventory.language,
-                        text: phonemes ? input.label : reading || input.label,
+                        text,
                         ...(phonemes ? { phonemes } : {}),
                         voiceId: configuration().voiceId || inventory.voiceId,
                     },

@@ -52,7 +52,7 @@ Fifteen everyday nouns cover furniture, clothing, objects and food, with four-la
 
 ## Food and Body Vocabulary
 
-Add 32 illustrated nouns: sixteen food items and sixteen body terms, with four-language meanings and separate Food and Body starter decks. English includes 25 recorded number transformations, including feet, teeth, potatoes and voiced mouths, while mass-noun senses such as chicken meat, beef, butter and skin have no plural family. Japanese keeps complete atomic-Kana paths, distinguishes both meanings of あし with separate foot and leg definitions, and reuses existing native recordings when pronunciation inputs are identical. Four individually authored example sentences per language have direct neural recordings that take priority over exact-constituent precomposed sentence recordings. All illustrations are bundled locally in the established language-specific art style.
+Packaged sentence playback uses exact constituent-composed PCM, including selected transformations. Independently generated whole-sentence recordings remain inventoried with their original voice and request provenance, but do not override the composed recording. New sentences continue through host-owned composition and caching.
 
 ## Recording Inventories
 
@@ -60,8 +60,12 @@ Add 32 illustrated nouns: sixteen food items and sixteen body terms, with four-l
 
 ## Explicit catalog normalization and sentence composition inventories
 
-The catalog reader accepts its normalization policy from the language provider: NFC for English, NFKC for Japanese. Shared lookup code no longer branches on a specific language. Sentence composition inventories are named `sentence-compositions`; each entry describes a real packaged recording assembled from its ordered constituent clips. Direct neural sentence recordings remain separate and take playback priority.
+The catalog reader accepts its normalization policy from the language provider: NFC for English, NFKC for Japanese. Shared lookup code no longer branches on a specific language. Sentence composition inventories are named `sentence-compositions`; each entry describes a real packaged recording assembled from its ordered constituent clips. Constituent-composed recordings take playback priority; direct neural recordings remain inventoried separately.
 
 ## Localized illustration labels and neutral asset names
 
 Illustration filenames and IDs use their SHA-256 digest, and source-sheet identifiers use source digests. Catalog metadata supplies labels in German, English, Indonesian and Japanese from each card’s existing authored meanings. Display labels are separate from neutral storage identifiers. Artwork bytes and card identities are unchanged; content revisions update every bundled image reference.
+
+## Final Review and Disabled-Language Access
+
+Uninstall clears stored voice configuration independently of content retention. Disable removes module routes, static UI and provider registrations; configuration persists across disable/restart and is served only while enabled. Cognis gates retained schemas, cards and media by the live language provider, restoring access on re-enable. Reference results merge equivalent source identities while preserving source records, ordered readings and meanings. Packaged sentences use exact constituent-composed PCM before separately retained direct recordings. Speech requests validate normalized, bounded language text; KanjiVG cancels rejected response bodies and accepts prolonged sound marks.

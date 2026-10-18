@@ -12,9 +12,9 @@ English Study supplies a versioned learning graph, English dictionary enrichment
 
 ### Provider contract and lifecycle
 
-The permanent module UUID is `b1adc29f-9d54-5785-9bea-2ce76f1981e4`; the required Study gateway UUID is `338b9237-a2c8-5bcf-9437-bccc9abd9a27`. Bootstrap requires `ctx.capabilities.require("study:library:provider")` with working `ingestContentPack`, `registerLookupProvider` and `deleteContentPack` methods. It registers the writing and dictionary providers, ingests `data/`, then publishes `study:language:en` and a removable `bootstrap-platform` flow contribution. The descriptor has `code`, `languageCode`, module version, package and `starterDecks`.
+The permanent module UUID is `b1adc29f-9d54-5785-9bea-2ce76f1981e4`; the required Study gateway UUID is `338b9237-a2c8-5bcf-9437-bccc9abd9a27`. Bootstrap requires `ctx.capabilities.require("study:library:provider")` with working `ingestContentPack`, `registerLookupProvider` and `deleteContentPack` methods. It registers the writing and dictionary providers, ingests `data/library/`, then publishes `study:language:en` and a removable `bootstrap-platform` flow contribution. The descriptor has `code`, `languageCode`, module version, package and `starterDecks`.
 
-Administrator-only `GET`, `PUT` and `DELETE /api/v1/modules/study-language-en/config` remain available while disabled. GET reads the persisted `voiceId`; PUT validates and saves it in `module_study_language_en_config`, surviving restarts and disable/enable cycles. DELETE clears only that configuration. All three return HTTP 200 with a JSON data envelope; clearing configuration does not delete learning content. Provider registrations are removed on disable or failed activation. Uninstall preserves content unless `deleteContent: true` requests the host provider’s transactional `deleteContentPack` operation. Failures propagate with safe structured logs.
+Administrator-only GET, PUT and DELETE configuration routes are registered only during enabled bootstrap. The module has no disabled-runtime entrypoint. Voice settings persist through disable/restart and are cleared on uninstall, independently of whether learning content is retained.
 
 ### Content graph
 
@@ -66,7 +66,7 @@ Sentence cards require at least two word references through the Library schema. 
 
 ## Study module layout
 
-The content pack lives in `data/library/`, with starter decks in `data/starter-decks.json`. Providers live in `api/dictionary/` and `api/strokes/`; deterministic loading and byte-bounded response decoding live in `api/reuse/`. Cross-layer tests live in `tests/` and API tests in `api/tests/`. The manifest declares `api/routes/config/index.js` as `disabledApi`, registering administrator-only GET, PUT and DELETE configuration routes while disabled, without ingesting content or activating providers. Published flow identifiers remain stable.
+Administrator-only GET, PUT and DELETE configuration routes are registered only during enabled bootstrap. The module has no disabled-runtime entrypoint. Voice settings persist through disable/restart and are cleared on uninstall, independently of whether learning content is retained.
 
 ## Keep dictionary senses and plural forms correct
 
@@ -90,8 +90,12 @@ Every layer exposes the optional reference-image field in the host editor and de
 
 ## Explicit catalog normalization and sentence composition inventories
 
-The catalog reader accepts its normalization policy from the language provider: NFC for English, NFKC for Japanese. Shared lookup code no longer branches on a specific language. Sentence composition inventories are named `sentence-compositions`; each entry describes a real packaged recording assembled from its ordered constituent clips. Direct neural sentence recordings remain separate and take playback priority.
+The catalog reader accepts its normalization policy from the language provider: NFC for English, NFKC for Japanese. Shared lookup code no longer branches on a specific language. Sentence composition inventories are named `sentence-compositions`; each entry describes a real packaged recording assembled from its ordered constituent clips. Constituent-composed recordings take playback priority; direct neural recordings remain inventoried separately.
 
 ## Localized illustration labels and neutral asset names
 
 Illustration filenames and IDs use their SHA-256 digest, and source-sheet identifiers use source digests. Catalog metadata supplies labels in German, English, Indonesian and Japanese from each card’s existing authored meanings. Display labels are separate from neutral storage identifiers. Artwork bytes and card identities are unchanged; content revisions update every bundled image reference.
+
+## Final Review and Disabled-Language Access
+
+Uninstall clears stored voice configuration independently of content retention. Disable removes module routes, static UI and provider registrations; configuration persists across disable/restart and is served only while enabled. Cognis gates retained schemas, cards and media by the live language provider, restoring access on re-enable. Reference results merge equivalent source identities while preserving source records, ordered readings and meanings. Packaged sentences use exact constituent-composed PCM before separately retained direct recordings. Speech requests validate normalized, bounded language text; KanjiVG cancels rejected response bodies and accepts prolonged sound marks.
