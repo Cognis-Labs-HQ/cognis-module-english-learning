@@ -206,3 +206,4 @@ Der Katalogleser erhält seine Normalisierungsregel vom Sprachanbieter: NFC für
 - [b21877e](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b21877e5e193c54e89de4e0458fd3d2055f41cf5)
 - [5579d8c](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/5579d8ced788d25f09c459de54cfd4d7f58c56de)
 - [b9c5743](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b9c57434a537e646516cbf3657a0d5b645773d86)
+- [2c2e676](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/2c2e6762e43ea9351ba0a22879a9cc3b32087bbb)
