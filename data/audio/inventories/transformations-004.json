@@ -1,0 +1,685 @@
+[
+    {
+        "path": "audio/686c0db59021dbcd956d845fbd5cf488d0e2cb85d948fc611c6e4303fc88e829.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "works",
+        "phonemes": "wɜːks",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɜːks\">works</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "works",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɜːks/"]
+            }
+        ],
+        "entries": ["en:word:form-english-work-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:work",
+                "setId": "english-work",
+                "path": ["third-person"],
+                "state": "third-person"
+            }
+        ],
+        "sha256": "1302ba37c9abe7c7737af1f138111460e69e5e0faf1da7d8033a3c4a23ec8b43",
+        "frames": 14441
+    },
+    {
+        "path": "audio/0c5d0747293af7d26ef1545c74528536c06adaf9138f7f691a8070e40b7e39ae.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "worked",
+        "phonemes": "wɜːkt",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɜːkt\">worked</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "worked",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɜːkt/"]
+            }
+        ],
+        "entries": [
+            "en:word:form-english-work-past",
+            "en:word:form-english-work-past-participle"
+        ],
+        "variants": [
+            {
+                "entryId": "en:word:work",
+                "setId": "english-work",
+                "path": ["past"],
+                "state": "past"
+            },
+            {
+                "entryId": "en:word:work",
+                "setId": "english-work",
+                "path": ["past-participle"],
+                "state": "past-participle"
+            }
+        ],
+        "sha256": "9e50a19602cd7b9f3a765eb2be0804feb1465c27c44cb8ff690c459d202a086b",
+        "frames": 10065
+    },
+    {
+        "path": "audio/7ceabd83f3dd3917a56bd414d48d085df4d9d5998b6b6da770c5ac9aeced5771.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "working",
+        "phonemes": "ˈwɜːkɪŋ",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈwɜːkɪŋ\">working</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "working",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈwɜːkɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-english-work-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:work",
+                "setId": "english-work",
+                "path": ["present-participle"],
+                "state": "present-participle"
+            }
+        ],
+        "sha256": "b238c687de2b905d51eb42d757bd3566d254ae90a73a32bd51b72e350e7c8f79",
+        "frames": 12695
+    },
+    {
+        "path": "audio/d7c290172f888ddbd4f515fbcb4d3108bcb869b6fdc60bd90ae7d31cc398ae60.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "plays",
+        "phonemes": "pleɪz",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"pleɪz\">plays</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "plays",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/pleɪz/"]
+            }
+        ],
+        "entries": ["en:word:form-english-play-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:play",
+                "setId": "english-play",
+                "path": ["third-person"],
+                "state": "third-person"
+            }
+        ],
+        "sha256": "b5c7843449bfbe7ce992dc6b14dfc854034a2e22da63c728dd73a00c26a610f5",
+        "frames": 14008
+    },
+    {
+        "path": "audio/85273d7f28e9ee00f0207bc24a23687d54240aa19e13e96d932f71fd6ed888e2.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "played",
+        "phonemes": "pleɪd",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"pleɪd\">played</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "played",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/pleɪd/"]
+            }
+        ],
+        "entries": [
+            "en:word:form-english-play-past",
+            "en:word:form-english-play-past-participle"
+        ],
+        "variants": [
+            {
+                "entryId": "en:word:play",
+                "setId": "english-play",
+                "path": ["past"],
+                "state": "past"
+            },
+            {
+                "entryId": "en:word:play",
+                "setId": "english-play",
+                "path": ["past-participle"],
+                "state": "past-participle"
+            }
+        ],
+        "sha256": "b7b004716182d7ba524f1498bd3b55d859e886553f9ee6d6258e0a071266ce69",
+        "frames": 10242
+    },
+    {
+        "path": "audio/df54db4c77a7ac692fd8e366c45ac9de00dbd477bbe85fbe27a224c4ee06f933.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "playing",
+        "phonemes": "ˈpleɪɪŋ",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈpleɪɪŋ\">playing</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "playing",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈpleɪɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-english-play-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:play",
+                "setId": "english-play",
+                "path": ["present-participle"],
+                "state": "present-participle"
+            }
+        ],
+        "sha256": "7764afecbfec8f3edfb92dc35a58192fc3fe953894ab3a884def8735eaf58876",
+        "frames": 11435
+    },
+    {
+        "path": "audio/6d764c60b8c80c6762b9c6246c97b63a6d54649d9ff1c95d588c5dc4130fc7a3.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "learns",
+        "phonemes": "lɜːnz",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"lɜːnz\">learns</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "learns",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/lɜːnz/"]
+            }
+        ],
+        "entries": ["en:word:form-english-learn-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:learn",
+                "setId": "english-learn",
+                "path": ["third-person"],
+                "state": "third-person"
+            }
+        ],
+        "sha256": "77ec00afab05ace09b86bacbbf0a9019218148c0451498249de4c998afd26dd6",
+        "frames": 13502
+    },
+    {
+        "path": "audio/f93020e32c9b6fce52dd4b2443447f722136134d03fc19a674134a77d199cfb5.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "learned",
+        "phonemes": "lɜːnd",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"lɜːnd\">learned</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "learned",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/lɜːnd/"]
+            }
+        ],
+        "entries": [
+            "en:word:form-english-learn-past",
+            "en:word:form-english-learn-past-participle"
+        ],
+        "variants": [
+            {
+                "entryId": "en:word:learn",
+                "setId": "english-learn",
+                "path": ["past"],
+                "state": "past"
+            },
+            {
+                "entryId": "en:word:learn",
+                "setId": "english-learn",
+                "path": ["past-participle"],
+                "state": "past-participle"
+            }
+        ],
+        "sha256": "f909285e17bc66baaf29e9056fb72dd5b1c1618a08e0488e66e6bdef603d9777",
+        "frames": 59335
+    },
+    {
+        "path": "audio/70ed5afcc581c2beaa847f1dadf30aa6f9d64dffc18309d0c9a8d7e4c0d43cc5.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "learning",
+        "phonemes": "ˈlɜːnɪŋ",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈlɜːnɪŋ\">learning</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "learning",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈlɜːnɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-english-learn-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:learn",
+                "setId": "english-learn",
+                "path": ["present-participle"],
+                "state": "present-participle"
+            }
+        ],
+        "sha256": "0ea3580838e5667adf03f5e1c0bdbe00a00b7f3ccadbe09f47e7aaba1e0243ef",
+        "frames": 13446
+    },
+    {
+        "path": "audio/158e30aad0ef1af23edf15bfd5b65a2529b09a5cdc7ed2177586d94b32bd5a25.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "wants",
+        "phonemes": "wɒnts",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɒnts\">wants</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "wants",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɒnts/"]
+            }
+        ],
+        "entries": ["en:word:form-english-want-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:want",
+                "setId": "english-want",
+                "path": ["third-person"],
+                "state": "third-person"
+            }
+        ],
+        "sha256": "e8e694cb9b3857b9be19fad5e3b83dcaf0d9692f1d6d05e95b95bcdeeb9272fc",
+        "frames": 15913
+    },
+    {
+        "path": "audio/286da551f211ce6943ced9a7e6027d093664a1988fab214e46000e583e6e435d.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "wanted",
+        "phonemes": "ˈwɒntɪd",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈwɒntɪd\">wanted</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "wanted",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈwɒntɪd/"]
+            }
+        ],
+        "entries": [
+            "en:word:form-english-want-past",
+            "en:word:form-english-want-past-participle"
+        ],
+        "variants": [
+            {
+                "entryId": "en:word:want",
+                "setId": "english-want",
+                "path": ["past"],
+                "state": "past"
+            },
+            {
+                "entryId": "en:word:want",
+                "setId": "english-want",
+                "path": ["past-participle"],
+                "state": "past-participle"
+            }
+        ],
+        "sha256": "295511753f8d7b1e8020a6cd55c06dcf16f59b2df4f9b3d9676920f6ef5ec36e",
+        "frames": 13650
+    },
+    {
+        "path": "audio/950cb961b9cb1487354dcf6fa90d8d47633dcbd83536f3c3dc1de40def89c946.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "wanting",
+        "phonemes": "ˈwɒntɪŋ",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈwɒntɪŋ\">wanting</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "wanting",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈwɒntɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-english-want-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:want",
+                "setId": "english-want",
+                "path": ["present-participle"],
+                "state": "present-participle"
+            }
+        ],
+        "sha256": "73c32b20152fe19054d805d553d5e0b5a5d14a35856b06cfc89fbaedf9fbd248",
+        "frames": 12272
+    },
+    {
+        "path": "audio/c36a98159cd3599e0e3a4bcf704c2133e3a204f208b02467eaf2d409ad208da6.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "likes",
+        "phonemes": "laɪks",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"laɪks\">likes</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "likes",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/laɪks/"]
+            }
+        ],
+        "entries": ["en:word:form-english-like-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:like",
+                "setId": "english-like",
+                "path": ["third-person"],
+                "state": "third-person"
+            }
+        ],
+        "sha256": "6356ac29c16bc08eeb678a778d662c368daad2c902430ea95402e3d2d7f6e8ab",
+        "frames": 13186
+    },
+    {
+        "path": "audio/1099de1230ca695b713b7d430d99ffcb6ae819fad91b4f8802e3e21e82771d5b.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "liked",
+        "phonemes": "laɪkt",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"laɪkt\">liked</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "liked",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/laɪkt/"]
+            }
+        ],
+        "entries": [
+            "en:word:form-english-like-past",
+            "en:word:form-english-like-past-participle"
+        ],
+        "variants": [
+            {
+                "entryId": "en:word:like",
+                "setId": "english-like",
+                "path": ["past"],
+                "state": "past"
+            },
+            {
+                "entryId": "en:word:like",
+                "setId": "english-like",
+                "path": ["past-participle"],
+                "state": "past-participle"
+            }
+        ],
+        "sha256": "4ac1ebe0c18b680ee9306220992e35502b90ae3b78b4c8211d7b173c53a70bb6",
+        "frames": 11507
+    },
+    {
+        "path": "audio/c444981102fa316238f2c73297b1f30eb224f4a7a29d925ba2061173a54544cb.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "liking",
+        "phonemes": "ˈlaɪkɪŋ",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈlaɪkɪŋ\">liking</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "liking",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈlaɪkɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-english-like-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:like",
+                "setId": "english-like",
+                "path": ["present-participle"],
+                "state": "present-participle"
+            }
+        ],
+        "sha256": "a3f9f014a6ceef00e23a52a496d172641ae109b2b6c182574eafdc1df086700c",
+        "frames": 12278
+    },
+    {
+        "path": "audio/f0481cffb8d824527026fdff7aa234c9d6168eac83dcbaaafe98ff2695159c5f.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "needs",
+        "phonemes": "niːdz",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"niːdz\">needs</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "needs",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/niːdz/"]
+            }
+        ],
+        "entries": ["en:word:form-english-need-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:need",
+                "setId": "english-need",
+                "path": ["third-person"],
+                "state": "third-person"
+            }
+        ],
+        "sha256": "f79427c79151421cb5d9d2b11d2e4c999bd31e073dfa12e0f20f2e9c5bff83a4",
+        "frames": 15655
+    },
+    {
+        "path": "audio/e63ac9db1f6d946508b07c145c75a46bde63b4c99cc9b4911b5b43598466d192.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "needed",
+        "phonemes": "ˈniːdɪd",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈniːdɪd\">needed</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "needed",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈniːdɪd/"]
+            }
+        ],
+        "entries": [
+            "en:word:form-english-need-past",
+            "en:word:form-english-need-past-participle"
+        ],
+        "variants": [
+            {
+                "entryId": "en:word:need",
+                "setId": "english-need",
+                "path": ["past"],
+                "state": "past"
+            },
+            {
+                "entryId": "en:word:need",
+                "setId": "english-need",
+                "path": ["past-participle"],
+                "state": "past-participle"
+            }
+        ],
+        "sha256": "bfb1b5cff4db16cff5de7159cb6915e24f981748ffd305932ae8ac63e2937e95",
+        "frames": 13968
+    }
+]

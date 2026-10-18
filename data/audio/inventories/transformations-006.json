@@ -1,0 +1,695 @@
+[
+    {
+        "path": "audio/946a87fbfc62bce5e7f5fcb28f7f810b543fd75d1bb571479b5bcf97751bdd25.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "helps",
+        "phonemes": "helps",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"helps\">helps</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "helps",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/helps/"]
+            }
+        ],
+        "entries": ["en:word:form-english-help-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:help",
+                "setId": "english-help",
+                "path": ["third-person"],
+                "state": "third-person"
+            }
+        ],
+        "sha256": "5f8600961aaf7be2359e0ed56faf93db6c9e92933dad425e34b3a68dabeb593c",
+        "frames": 13475
+    },
+    {
+        "path": "audio/8d5016f093d78c2292f8cc1c71abc35bb8542d906b2d11b2afd3e777cec88978.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "helped",
+        "phonemes": "helpt",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"helpt\">helped</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "helped",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/helpt/"]
+            }
+        ],
+        "entries": [
+            "en:word:form-english-help-past",
+            "en:word:form-english-help-past-participle"
+        ],
+        "variants": [
+            {
+                "entryId": "en:word:help",
+                "setId": "english-help",
+                "path": ["past"],
+                "state": "past"
+            },
+            {
+                "entryId": "en:word:help",
+                "setId": "english-help",
+                "path": ["past-participle"],
+                "state": "past-participle"
+            }
+        ],
+        "sha256": "3a25f063d004bde4cd254c8fb2e40cfe954e93490efbb4392826db01b0ced9cd",
+        "frames": 12683
+    },
+    {
+        "path": "audio/5698427f2ab3ddee4aa1fa2cd8056e90bcb6852c91894937a4b8e0d8a6cae985.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "helping",
+        "phonemes": "ˈhelpɪŋ",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈhelpɪŋ\">helping</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "helping",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈhelpɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-english-help-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:help",
+                "setId": "english-help",
+                "path": ["present-participle"],
+                "state": "present-participle"
+            }
+        ],
+        "sha256": "c22baeb30095a95e04a3c70124f25808c85d5c2420ef24a4b7d3f53b7871d435",
+        "frames": 12769
+    },
+    {
+        "path": "audio/e7c3c9bfe4d41ed53dbae66afbed94d618eabbb3d7496ec5decc3e16e3bf5589.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "opens",
+        "phonemes": "ˈəʊpənz",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈəʊpənz\">opens</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "opens",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈəʊpənz/"]
+            }
+        ],
+        "entries": ["en:word:form-english-open-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:open",
+                "setId": "english-open",
+                "path": ["third-person"],
+                "state": "third-person"
+            }
+        ],
+        "sha256": "b56ae1edb6b42c1b1e069ab3bf9dfcef4cdc73e25d1a4ea6e01a240ae2ecc783",
+        "frames": 17792
+    },
+    {
+        "path": "audio/f9e6aa1e07f56529f4ecaa449ef71704f5d382ff811ecc29f72c40068d9269d3.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "opened",
+        "phonemes": "ˈəʊpənd",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈəʊpənd\">opened</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "opened",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈəʊpənd/"]
+            }
+        ],
+        "entries": [
+            "en:word:form-english-open-past",
+            "en:word:form-english-open-past-participle"
+        ],
+        "variants": [
+            {
+                "entryId": "en:word:open",
+                "setId": "english-open",
+                "path": ["past"],
+                "state": "past"
+            },
+            {
+                "entryId": "en:word:open",
+                "setId": "english-open",
+                "path": ["past-participle"],
+                "state": "past-participle"
+            }
+        ],
+        "sha256": "5e80a5964b4486d6b4315ed0e28a2239d0816c76e0d1b7d12e9d9057fc34d5e9",
+        "frames": 16609
+    },
+    {
+        "path": "audio/5662862966c417c93d7cbf183623f20e44661a99d2280b37fb4d729383a36462.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "opening",
+        "phonemes": "ˈəʊpənɪŋ",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈəʊpənɪŋ\">opening</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "opening",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈəʊpənɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-english-open-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:open",
+                "setId": "english-open",
+                "path": ["present-participle"],
+                "state": "present-participle"
+            }
+        ],
+        "sha256": "02f3fcc6dfe6412192b7d3e0d30855fcf713de486bde251bc0f6b88d152905e1",
+        "frames": 17489
+    },
+    {
+        "path": "audio/226e07437b84ce4c17378a50fc32ca2a88a8d20a673c315d1b9a0a74e2e24dfc.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "closes",
+        "phonemes": "ˈkləʊzɪz",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈkləʊzɪz\">closes</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "closes",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈkləʊzɪz/"]
+            }
+        ],
+        "entries": ["en:word:form-english-close-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:close",
+                "setId": "english-close",
+                "path": ["third-person"],
+                "state": "third-person"
+            }
+        ],
+        "sha256": "0131cec6fc37bac312b99511c5208cd0c60d7a038300690d7c4974f6d491b018",
+        "frames": 18163
+    },
+    {
+        "path": "audio/361cc7854fc73c57c1c5dcec0d73c38b92874252d4e3a6bc5bcb879125a7ab1a.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "closed",
+        "phonemes": "kləʊzd",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"kləʊzd\">closed</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "closed",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/kləʊzd/"]
+            }
+        ],
+        "entries": [
+            "en:word:form-english-close-past",
+            "en:word:form-english-close-past-participle"
+        ],
+        "variants": [
+            {
+                "entryId": "en:word:close",
+                "setId": "english-close",
+                "path": ["past"],
+                "state": "past"
+            },
+            {
+                "entryId": "en:word:close",
+                "setId": "english-close",
+                "path": ["past-participle"],
+                "state": "past-participle"
+            }
+        ],
+        "sha256": "c3362e68b866540eec8c466e86991e59d3c857729654e37e54c3da5600e70952",
+        "frames": 14107
+    },
+    {
+        "path": "audio/64dbf88113aa29e066437ef9897b741c2e192ff10be386841a5757c40b5f0641.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "closing",
+        "phonemes": "ˈkləʊzɪŋ",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈkləʊzɪŋ\">closing</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "closing",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈkləʊzɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-english-close-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:close",
+                "setId": "english-close",
+                "path": ["present-participle"],
+                "state": "present-participle"
+            }
+        ],
+        "sha256": "9b513840613fea04152f75e49286e5efa571f44ae0ebbb5993314d0119ecdb5e",
+        "frames": 15066
+    },
+    {
+        "path": "audio/755a89a5a281d6964d8ece210f14eefca78746020c7314e81c4455674378e5b0.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "books",
+        "phonemes": "bʊks",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"bʊks\">books</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "books",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/bʊks/"]
+            }
+        ],
+        "entries": ["en:word:books"],
+        "variants": [
+            {
+                "entryId": "en:word:book",
+                "setId": "noun-book",
+                "path": ["plural"],
+                "state": "plural"
+            }
+        ],
+        "sha256": "18577691886202bc2ee5a21ba4761fb145a52d935140907c7c6c279b0aff6e23",
+        "frames": 12457
+    },
+    {
+        "path": "audio/85c06564ca39cf9a7bbc94568291236c0ccd009074759475f93d849f5377073a.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "apples",
+        "phonemes": "ˈæpəlz",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈæpəlz\">apples</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "apples",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈæpəlz/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:apple",
+                "setId": "noun-apple",
+                "path": ["plural"],
+                "state": "plural"
+            }
+        ],
+        "sha256": "00290fac3523932a3e45cf6af0a51935159c2a12bb05a3de1eb42124840826ec",
+        "frames": 16634
+    },
+    {
+        "path": "audio/75f576d489f9711021965344434a547bee658e507b33e30fe83636026b71222c.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "dogs",
+        "phonemes": "dɒɡz",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"dɒɡz\">dogs</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "dogs",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/dɒɡz/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:dog",
+                "setId": "noun-dog",
+                "path": ["plural"],
+                "state": "plural"
+            }
+        ],
+        "sha256": "3a34fafd4fa4216dd73d1e3ff045d76a00aee03d87bf80d5532c29724d04785b",
+        "frames": 15719
+    },
+    {
+        "path": "audio/e8ce23ad84156d6393f87fd5f0cbdfbf07d1dd24fba14ee72118236c0e102916.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "cats",
+        "phonemes": "kæts",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"kæts\">cats</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "cats",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/kæts/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:cat",
+                "setId": "noun-cat",
+                "path": ["plural"],
+                "state": "plural"
+            }
+        ],
+        "sha256": "03d70a9dc49b9ef03832fe0876b11494805eb1d1e2b4d3bec3c59f6b5890de0f",
+        "frames": 14007
+    },
+    {
+        "path": "audio/7247b0505be8b0d5f9120f1bf5c070c51331f06d10dec3beceaf066dc3b33fb9.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "birds",
+        "phonemes": "bɜːdz",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"bɜːdz\">birds</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "birds",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/bɜːdz/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:bird",
+                "setId": "noun-bird",
+                "path": ["plural"],
+                "state": "plural"
+            }
+        ],
+        "sha256": "3ad2b383106cd76040656e4cbd374cce15a365ec6234e89b491b1cea1c95618f",
+        "frames": 12582
+    },
+    {
+        "path": "audio/cd043c095c579751ac1cd66d4a6e8e97ec961518d1491304ae26ca3dd0791abe.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "houses",
+        "phonemes": "haʊzɪz",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"haʊzɪz\">houses</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "houses",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/haʊzɪz/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:house",
+                "setId": "noun-house",
+                "path": ["plural"],
+                "state": "plural"
+            }
+        ],
+        "sha256": "6dd023ecc021bb34abe1291d78d75a118d50fdf1225adab370d6f9d489d56eba",
+        "frames": 15357
+    },
+    {
+        "path": "audio/cec86672600790aae2ec640aa8c0772dc8745dcf81267a5d646a0e8ad2bb62d5.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "homes",
+        "phonemes": "həʊmz",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"həʊmz\">homes</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "homes",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/həʊmz/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:home",
+                "setId": "noun-home",
+                "path": ["plural"],
+                "state": "plural"
+            }
+        ],
+        "sha256": "57b430c9b60004448e21643ae359ab1e4f10fbc187078a7319cc915e64092bfd",
+        "frames": 17732
+    },
+    {
+        "path": "audio/65a0bab4ac0f619266c90c4a9512c51174aef7b5302cc4565f418cee2acb9037.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "rooms",
+        "phonemes": "ɹuːmz",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ɹuːmz\">rooms</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "rooms",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ruːmz/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:room",
+                "setId": "noun-room",
+                "path": ["plural"],
+                "state": "plural"
+            }
+        ],
+        "sha256": "9156758f3caeeb4ef4b43bb1671da8094db3c74945a75c77e251712b3337363c",
+        "frames": 16666
+    },
+    {
+        "path": "audio/f27268dc599e7a0abc429ef773e2590add16bf1d52f5ca2155a0f8a49316b67c.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "doors",
+        "phonemes": "dɔːz",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"dɔːz\">doors</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "doors",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/dɔːz/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:door",
+                "setId": "noun-door",
+                "path": ["plural"],
+                "state": "plural"
+            }
+        ],
+        "sha256": "d0b363eb8206fdc96c0adab7a768e1e79d53d31d7e164f47712d22195f0dd76e",
+        "frames": 11229
+    }
+]

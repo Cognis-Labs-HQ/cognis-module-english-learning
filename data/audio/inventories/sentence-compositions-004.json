@@ -1,0 +1,646 @@
+[
+    {
+        "path": "audio/987e82a8a0c4bd84a7b7975ec1a1bdb32dbf94c538bdb10c392bd1cb8ccb2c16.wav",
+        "entryId": "en:sentence:hello",
+        "label": "Hello, my friend!",
+        "parts": [
+            {
+                "path": "audio/84b0876de630bf70f513e6ccacd62c5a2f5a94b4d981c82103c3f9521b8f9db3.wav",
+                "entryId": "en:word:capital-hello"
+            },
+            {
+                "pauseMs": 200
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my"
+            },
+            {
+                "path": "audio/cd6f1f4eaf8a91a02e40d8200bc074b3105c2af729a3689741b8ef53b827ae19.wav",
+                "entryId": "en:word:friend"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/84b0876de630bf70f513e6ccacd62c5a2f5a94b4d981c82103c3f9521b8f9db3.wav",
+                "entryId": "en:word:capital-hello",
+                "startFrame": 2400,
+                "frameCount": 11781
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my",
+                "startFrame": 21141,
+                "frameCount": 9522
+            },
+            {
+                "path": "audio/cd6f1f4eaf8a91a02e40d8200bc074b3105c2af729a3689741b8ef53b827ae19.wav",
+                "entryId": "en:word:friend",
+                "startFrame": 32823,
+                "frameCount": 12778
+            }
+        ],
+        "sha256": "1515ecee793e4c1486818abbb2af23c1d5b328c29f23c95bf766aede517024f5",
+        "frames": 57601,
+        "input": {
+            "language": "en",
+            "label": "Hello, my friend!",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    },
+    {
+        "path": "audio/9f0bb5ef36446dd8802ec8861e101c803de3b1b006e23376dd88e8eaa7a7dc3d.wav",
+        "entryId": "en:sentence:do-you-like-coffee",
+        "label": "Do you like coffee?",
+        "parts": [
+            {
+                "path": "audio/0315495343266e8d61062f67fdbb6f63635f53beafdc10910f273f0ff2edc439.wav",
+                "entryId": "en:word:capital-do"
+            },
+            {
+                "path": "audio/eb086382ae703d891387e252285d567900018c6683c2e11bf35646a7a6efc228.wav",
+                "entryId": "en:word:you"
+            },
+            {
+                "path": "audio/74e2b131c64da10695ba0b619e9a463dc2035c39a6de44f718afc3a7054689db.wav",
+                "entryId": "en:word:like"
+            },
+            {
+                "path": "audio/506059686dff97e5826d6c7d0342a330e93101bdb4754969be1ba987189e0439.wav",
+                "entryId": "en:word:coffee"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/0315495343266e8d61062f67fdbb6f63635f53beafdc10910f273f0ff2edc439.wav",
+                "entryId": "en:word:capital-do",
+                "startFrame": 2400,
+                "frameCount": 9490
+            },
+            {
+                "path": "audio/eb086382ae703d891387e252285d567900018c6683c2e11bf35646a7a6efc228.wav",
+                "entryId": "en:word:you",
+                "startFrame": 14050,
+                "frameCount": 9630
+            },
+            {
+                "path": "audio/74e2b131c64da10695ba0b619e9a463dc2035c39a6de44f718afc3a7054689db.wav",
+                "entryId": "en:word:like",
+                "startFrame": 25840,
+                "frameCount": 13914
+            },
+            {
+                "path": "audio/506059686dff97e5826d6c7d0342a330e93101bdb4754969be1ba987189e0439.wav",
+                "entryId": "en:word:coffee",
+                "startFrame": 41914,
+                "frameCount": 12206
+            }
+        ],
+        "sha256": "4643dd3440bc1ef3e28db0dea88fd5eb3a5bc4ad819dfe790f43c44b91fd1344",
+        "frames": 66120,
+        "input": {
+            "language": "en",
+            "label": "Do you like coffee?",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    },
+    {
+        "path": "audio/1995e32e10cba445799c73fc0f5241ac62f698760d1d5cabf73c5a2f78fa7a9e.wav",
+        "entryId": "en:sentence:i-do-not-eat-bread",
+        "label": "I do not eat bread.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/e0bc7503d276d11e27d64728c7d20772dd69c97225135d50150631a289fe4c2b.wav",
+                "entryId": "en:word:do"
+            },
+            {
+                "path": "audio/5746febc2bebc87179561f0d84e3a58c9a0bd76038d07fd420df9fdaae335363.wav",
+                "entryId": "en:particle:not"
+            },
+            {
+                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
+                "entryId": "en:word:eat"
+            },
+            {
+                "path": "audio/71b5610f18ae99c4f6ec6bdfe244664b731bff3eb54237936ae395216a0cbf77.wav",
+                "entryId": "en:word:bread"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/e0bc7503d276d11e27d64728c7d20772dd69c97225135d50150631a289fe4c2b.wav",
+                "entryId": "en:word:do",
+                "startFrame": 11067,
+                "frameCount": 9505
+            },
+            {
+                "path": "audio/5746febc2bebc87179561f0d84e3a58c9a0bd76038d07fd420df9fdaae335363.wav",
+                "entryId": "en:particle:not",
+                "startFrame": 22732,
+                "frameCount": 10014
+            },
+            {
+                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
+                "entryId": "en:word:eat",
+                "startFrame": 34906,
+                "frameCount": 10258
+            },
+            {
+                "path": "audio/71b5610f18ae99c4f6ec6bdfe244664b731bff3eb54237936ae395216a0cbf77.wav",
+                "entryId": "en:word:bread",
+                "startFrame": 47324,
+                "frameCount": 8104
+            }
+        ],
+        "sha256": "c014f18df2f082c34c0c6d6c68ea986eb87b0609a2cffe4854098c6ac03dca8c",
+        "frames": 67428,
+        "input": {
+            "language": "en",
+            "label": "I do not eat bread.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    },
+    {
+        "path": "audio/58cf03bc01b4a1c795d6213f27b9e99d3ac0c057e6141cc5338b7b9e51f632b6.wav",
+        "entryId": "en:sentence:i-like-tea-but-not-coffee",
+        "label": "I like tea, but not coffee.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/74e2b131c64da10695ba0b619e9a463dc2035c39a6de44f718afc3a7054689db.wav",
+                "entryId": "en:word:like"
+            },
+            {
+                "path": "audio/53612525976e57e096c89cf49ffcc1be60d2ab04136168922486a85043d6b84b.wav",
+                "entryId": "en:word:tea"
+            },
+            {
+                "pauseMs": 200
+            },
+            {
+                "path": "audio/4e8c2ce7338ce931f912a77e615eb97a668409c8a034fd0bcf47e16bc30805ea.wav",
+                "entryId": "en:particle:but"
+            },
+            {
+                "path": "audio/5746febc2bebc87179561f0d84e3a58c9a0bd76038d07fd420df9fdaae335363.wav",
+                "entryId": "en:particle:not"
+            },
+            {
+                "path": "audio/506059686dff97e5826d6c7d0342a330e93101bdb4754969be1ba987189e0439.wav",
+                "entryId": "en:word:coffee"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/74e2b131c64da10695ba0b619e9a463dc2035c39a6de44f718afc3a7054689db.wav",
+                "entryId": "en:word:like",
+                "startFrame": 11067,
+                "frameCount": 13914
+            },
+            {
+                "path": "audio/53612525976e57e096c89cf49ffcc1be60d2ab04136168922486a85043d6b84b.wav",
+                "entryId": "en:word:tea",
+                "startFrame": 27141,
+                "frameCount": 10235
+            },
+            {
+                "path": "audio/4e8c2ce7338ce931f912a77e615eb97a668409c8a034fd0bcf47e16bc30805ea.wav",
+                "entryId": "en:particle:but",
+                "startFrame": 44336,
+                "frameCount": 6935
+            },
+            {
+                "path": "audio/5746febc2bebc87179561f0d84e3a58c9a0bd76038d07fd420df9fdaae335363.wav",
+                "entryId": "en:particle:not",
+                "startFrame": 53431,
+                "frameCount": 10014
+            },
+            {
+                "path": "audio/506059686dff97e5826d6c7d0342a330e93101bdb4754969be1ba987189e0439.wav",
+                "entryId": "en:word:coffee",
+                "startFrame": 65605,
+                "frameCount": 12206
+            }
+        ],
+        "sha256": "c0c2fad7546d58fce83e5968d9b8145418894e617592caa3a07188be897af13e",
+        "frames": 89811,
+        "input": {
+            "language": "en",
+            "label": "I like tea, but not coffee.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    },
+    {
+        "path": "audio/005659aa7812bdd146e40284ed5d95fec4f080caa3579e01ad25903040c6c21a.wav",
+        "entryId": "en:sentence:she-is-happy-because-she-has-a-friend",
+        "label": "She is happy because she has a friend.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/0303d9692078489409328148f3da7925449ac5b039bd72267e1e9e9ab9e6d997.wav",
+                "entryId": "en:word:happy"
+            },
+            {
+                "path": "audio/1afe42b6db872711936ed51010e447129aca0e9dbbe3a6c970591692ac1da92b.wav",
+                "entryId": "en:particle:because"
+            },
+            {
+                "path": "audio/6cb9d28fca1d53c1c0a009fb6a45c983089694ca86dcc9435ae6165c0fa8e59b.wav",
+                "entryId": "en:word:she"
+            },
+            {
+                "path": "audio/bda924c2c4116df9e3bfe3599856e66a2305d8fd57fc299ded5eec1d595f99c6.wav",
+                "entryId": "en:word:form-english-have-third-person"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/cd6f1f4eaf8a91a02e40d8200bc074b3105c2af729a3689741b8ef53b827ae19.wav",
+                "entryId": "en:word:friend"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 14932,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/0303d9692078489409328148f3da7925449ac5b039bd72267e1e9e9ab9e6d997.wav",
+                "entryId": "en:word:happy",
+                "startFrame": 27479,
+                "frameCount": 12005
+            },
+            {
+                "path": "audio/1afe42b6db872711936ed51010e447129aca0e9dbbe3a6c970591692ac1da92b.wav",
+                "entryId": "en:particle:because",
+                "startFrame": 41644,
+                "frameCount": 16102
+            },
+            {
+                "path": "audio/6cb9d28fca1d53c1c0a009fb6a45c983089694ca86dcc9435ae6165c0fa8e59b.wav",
+                "entryId": "en:word:she",
+                "startFrame": 59906,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/bda924c2c4116df9e3bfe3599856e66a2305d8fd57fc299ded5eec1d595f99c6.wav",
+                "entryId": "en:word:form-english-have-third-person",
+                "startFrame": 72438,
+                "frameCount": 9951
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 84549,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/cd6f1f4eaf8a91a02e40d8200bc074b3105c2af729a3689741b8ef53b827ae19.wav",
+                "entryId": "en:word:friend",
+                "startFrame": 99249,
+                "frameCount": 12778
+            }
+        ],
+        "sha256": "b94a296e3ce024ed4a5f5cf6b13c93d6bbb9a5995c4a2367b4e85225807911e1",
+        "frames": 124027,
+        "input": {
+            "language": "en",
+            "label": "She is happy because she has a friend.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    },
+    {
+        "path": "audio/8a0c07bc90e66a7546dee8cf5649ee84ce230bb910a3c3fe8e697a02ab8c9eeb.wav",
+        "entryId": "en:sentence:i-do-not-run",
+        "label": "I do not run.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/e0bc7503d276d11e27d64728c7d20772dd69c97225135d50150631a289fe4c2b.wav",
+                "entryId": "en:word:do"
+            },
+            {
+                "path": "audio/5746febc2bebc87179561f0d84e3a58c9a0bd76038d07fd420df9fdaae335363.wav",
+                "entryId": "en:particle:not"
+            },
+            {
+                "path": "audio/14d68a09a8297086fa155a85edc4f772381aea10cb553b8a4988f9e9dc7eeaad.wav",
+                "entryId": "en:word:run"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/e0bc7503d276d11e27d64728c7d20772dd69c97225135d50150631a289fe4c2b.wav",
+                "entryId": "en:word:do",
+                "startFrame": 11067,
+                "frameCount": 9505
+            },
+            {
+                "path": "audio/5746febc2bebc87179561f0d84e3a58c9a0bd76038d07fd420df9fdaae335363.wav",
+                "entryId": "en:particle:not",
+                "startFrame": 22732,
+                "frameCount": 10014
+            },
+            {
+                "path": "audio/14d68a09a8297086fa155a85edc4f772381aea10cb553b8a4988f9e9dc7eeaad.wav",
+                "entryId": "en:word:run",
+                "startFrame": 34906,
+                "frameCount": 8081
+            }
+        ],
+        "sha256": "183e8f6c21320941fcb2457b9fb8567cf0a2f015fc995e5c28528b65179cbc3a",
+        "frames": 54987,
+        "input": {
+            "language": "en",
+            "label": "I do not run.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    },
+    {
+        "path": "audio/adb60526900b72d7fdbd1c5aa98b730afc2802f497dff285f907de99055ecd1f.wav",
+        "entryId": "en:sentence:i-eat-a-banana",
+        "label": "I eat a banana.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
+                "entryId": "en:word:eat"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/0d1ad26c416bdf867ef0b29cc1cb86b5c264c6f21d76c46ee8e22f0bce97a5cc.wav",
+                "entryId": "en:word:banana"
+            }
+        ],
+        "gapMs": 45,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
+                "entryId": "en:word:eat",
+                "startFrame": 9987,
+                "frameCount": 10258
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 21325,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/0d1ad26c416bdf867ef0b29cc1cb86b5c264c6f21d76c46ee8e22f0bce97a5cc.wav",
+                "entryId": "en:word:banana",
+                "startFrame": 34945,
+                "frameCount": 23251
+            }
+        ],
+        "sha256": "09324c3524cd3bee92d9ec1e92b4b58ad4e466dca962fededd03b568c45cb33d",
+        "frames": 60596,
+        "input": {
+            "language": "en",
+            "label": "I eat a banana.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    },
+    {
+        "path": "audio/9462f22305aebf4db3cd678b3fa25f7a70cfae85ca8c41608cc174186a5a998f.wav",
+        "entryId": "en:sentence:we-need-soup",
+        "label": "We need soup.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need"
+            },
+            {
+                "path": "audio/005804606b17e2c7f4ead52c8c6161e032830c31bd4f14379f5eac739a5c3ac6.wav",
+                "entryId": "en:word:soup"
+            }
+        ],
+        "gapMs": 45,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need",
+                "startFrame": 21032,
+                "frameCount": 9927
+            },
+            {
+                "path": "audio/005804606b17e2c7f4ead52c8c6161e032830c31bd4f14379f5eac739a5c3ac6.wav",
+                "entryId": "en:word:soup",
+                "startFrame": 32039,
+                "frameCount": 17678
+            }
+        ],
+        "sha256": "9c60f0854104e719f1e959201b16d340150377a2d08c2ff90de7bf5ed9860ea5",
+        "frames": 52117,
+        "input": {
+            "language": "en",
+            "label": "We need soup.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    },
+    {
+        "path": "audio/4bdd43e60e0f6366c0d1a27f8957c956225624301d1f298ad1909678521693c9.wav",
+        "entryId": "en:sentence:they-like-cheese",
+        "label": "They like cheese.",
+        "parts": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they"
+            },
+            {
+                "path": "audio/74e2b131c64da10695ba0b619e9a463dc2035c39a6de44f718afc3a7054689db.wav",
+                "entryId": "en:word:like"
+            },
+            {
+                "path": "audio/a86713471e75629ccacd84683c93c4106d78ea3c07211f09626e81b65b99b3cc.wav",
+                "entryId": "en:word:cheese"
+            }
+        ],
+        "gapMs": 45,
+        "segments": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they",
+                "startFrame": 2400,
+                "frameCount": 9803
+            },
+            {
+                "path": "audio/74e2b131c64da10695ba0b619e9a463dc2035c39a6de44f718afc3a7054689db.wav",
+                "entryId": "en:word:like",
+                "startFrame": 13283,
+                "frameCount": 13914
+            },
+            {
+                "path": "audio/a86713471e75629ccacd84683c93c4106d78ea3c07211f09626e81b65b99b3cc.wav",
+                "entryId": "en:word:cheese",
+                "startFrame": 28277,
+                "frameCount": 37740
+            }
+        ],
+        "sha256": "ac0d4ba0d24c68242ed256e6753e93923fa439674cd1c36314cfcb36d7be9bd1",
+        "frames": 68417,
+        "input": {
+            "language": "en",
+            "label": "They like cheese.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    },
+    {
+        "path": "audio/0cc29fcc079567c580b3d7f13ea760f43dcf5afb73ce238687042b66ef6ce816.wav",
+        "entryId": "en:sentence:you-have-a-mouth",
+        "label": "You have a mouth.",
+        "parts": [
+            {
+                "path": "audio/af8d279b718503c23a1b51f8358d4c84f3a678b5e35a80bc2d40bf468b793ec9.wav",
+                "entryId": "en:word:capital-you"
+            },
+            {
+                "path": "audio/d4255166c4544afe249fa6b9d94b7c269dfe26aca8cd05c12b894525d7eaed7d.wav",
+                "entryId": "en:word:have"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/e0b52258f8032f2598f1a0ce94250e559fcb0c0d2be52a805097ea2ea164f77a.wav",
+                "entryId": "en:word:mouth"
+            }
+        ],
+        "gapMs": 45,
+        "segments": [
+            {
+                "path": "audio/af8d279b718503c23a1b51f8358d4c84f3a678b5e35a80bc2d40bf468b793ec9.wav",
+                "entryId": "en:word:capital-you",
+                "startFrame": 2400,
+                "frameCount": 9630
+            },
+            {
+                "path": "audio/d4255166c4544afe249fa6b9d94b7c269dfe26aca8cd05c12b894525d7eaed7d.wav",
+                "entryId": "en:word:have",
+                "startFrame": 13110,
+                "frameCount": 11117
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 25307,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/e0b52258f8032f2598f1a0ce94250e559fcb0c0d2be52a805097ea2ea164f77a.wav",
+                "entryId": "en:word:mouth",
+                "startFrame": 38927,
+                "frameCount": 23251
+            }
+        ],
+        "sha256": "0568dee60d88ca8009748d13648143b850e12ac6562e76b01889efa14a6771ec",
+        "frames": 64578,
+        "input": {
+            "language": "en",
+            "label": "You have a mouth.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    }
+]

@@ -1,0 +1,324 @@
+[
+    {
+        "id": "en:sentence:the-dog-is-big",
+        "label": "The dog is big.",
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:dog",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:big",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:the-dog-is-big",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite",
+        "fields": {
+            "audio": "audio/a198c20c5cab4c6417ec7eee247527f44b21af95ff2f016a11d64c57840f6759.wav"
+        }
+    },
+    {
+        "id": "en:sentence:i-like-music",
+        "label": "I like music.",
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:like",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:music",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:sentence:i-like-music",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite",
+        "fields": {
+            "audio": "audio/7411bbc4d091d9dc86ea9ab769d0f17eebfca65f1e496301bd7ae457eb42840d.wav"
+        }
+    },
+    {
+        "id": "en:sentence:we-live-in-a-city",
+        "label": "We live in a city.",
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:live",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:city",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:sentence:we-live-in-a-city",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite",
+        "fields": {
+            "audio": "audio/631eeb913cbb660456762ab941b184d0fa296fccc75bf88f75d046a9d19fd53c.wav"
+        }
+    },
+    {
+        "id": "en:sentence:she-reads-a-book",
+        "label": "She reads a book.",
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-read-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:book",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:she-reads-a-book",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite",
+        "fields": {
+            "audio": "audio/4c49cfc114a6f2e1ba7027cf890f0a3e3335ffcd544f67be695f4928200f6b1f.wav"
+        }
+    },
+    {
+        "id": "en:sentence:he-walks-to-school",
+        "label": "He walks to school.",
+        "references": [
+            {
+                "entryId": "en:word:capital-he",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-walk-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:to",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:school",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:he-walks-to-school",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite",
+        "fields": {
+            "audio": "audio/cbeb570d3bec94d60820d3e875a371c1296584ea9d3d223e2466bcc761b976f2.wav"
+        }
+    },
+    {
+        "id": "en:sentence:they-play-in-the-park",
+        "label": "They play in the park.",
+        "references": [
+            {
+                "entryId": "en:word:capital-they",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:play",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:park",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:sentence:they-play-in-the-park",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite",
+        "fields": {
+            "audio": "audio/f767709a8d71c28fff6956f4361973b29cee0d3e757b5f5d581a5638f46cad83.wav"
+        }
+    },
+    {
+        "id": "en:sentence:i-want-to-eat",
+        "label": "I want to eat.",
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:want",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:to",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:eat",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:i-want-to-eat",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite",
+        "fields": {
+            "audio": "audio/eab35042cf32b37ecf26062ed4da9c07976b81e5df839f37b30b508865e23a2b.wav"
+        }
+    },
+    {
+        "id": "en:sentence:we-need-food-and-water",
+        "label": "We need food and water.",
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:need",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:food",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:and",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:water",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:sentence:we-need-food-and-water",
+                "relation": "definitions"
+            }
+        ],
+        "class": "composite",
+        "fields": {
+            "audio": "audio/2c2b2bbf0534e374d18d2ecb2137d8e009e2d33c1ab54a8bff96c80115b5d1cf.wav"
+        }
+    }
+]

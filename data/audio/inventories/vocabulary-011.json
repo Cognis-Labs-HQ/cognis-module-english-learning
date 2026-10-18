@@ -1,0 +1,32 @@
+[
+    {
+        "path": "audio/b8496eb95498845147cc0033109f63e38aa5a1cf26eb7eeb1428f6c863d25d1b.wav",
+        "text": "skin",
+        "inputs": [
+            {
+                "language": "en",
+                "label": "skin",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/skɪn/"]
+            }
+        ],
+        "entries": ["en:word:skin"],
+        "variants": [],
+        "phonemes": "skɪn",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"skɪn\">skin</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "sha256": "9fed3356fee0487af053a00af97784448eebdfb60ee9578fbdf35fedb0342860",
+        "frames": 22137
+    }
+]

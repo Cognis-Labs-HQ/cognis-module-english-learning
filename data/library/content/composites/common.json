@@ -1,0 +1,860 @@
+[
+    {
+        "id": "en:composite:ch",
+        "label": "ch",
+        "fields": {
+            "pronunciation": ["/tʃ/"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.375,
+                                "y": 0.45,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.375,
+                                "y": 0.7,
+                                "time": 280
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.625,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.625,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.625,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.875,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.875,
+                                "y": 0.8,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1, 2],
+                "columns": 2
+            },
+            "audio": "audio/d34cca945ceebe4731a4353b072c430fadbb9aa21ce8a4a47ce3d967a3006282.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:char:c-lowercase",
+                "relation": "composition",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "composition",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:composite:ch",
+                "relation": "definitions"
+            }
+        ],
+        "class": "writing:digraph"
+    },
+    {
+        "id": "en:composite:sh",
+        "label": "sh",
+        "fields": {
+            "pronunciation": ["/ʃ/"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.35,
+                                "y": 0.45,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.45,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.175,
+                                "y": 0.55,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.6,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.375,
+                                "y": 0.7,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.8,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.8,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.7,
+                                "time": 360
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.625,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.625,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.625,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.875,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.875,
+                                "y": 0.8,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1, 2],
+                "columns": 2
+            },
+            "audio": "audio/52af223528f7d437ea0b8000221a0b5c986864fb674d00414facc37328209975.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "composition",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "composition",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:composite:sh",
+                "relation": "definitions"
+            }
+        ],
+        "class": "writing:digraph"
+    },
+    {
+        "id": "en:composite:th",
+        "label": "th",
+        "fields": {
+            "pronunciation": ["/θ/", "/ð/"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.225,
+                                "y": 0.2,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.225,
+                                "y": 0.7,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.275,
+                                "y": 0.8,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.75,
+                                "time": 120
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.125,
+                                "y": 0.4,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.4,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.625,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.625,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.625,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.875,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.875,
+                                "y": 0.8,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2, 2],
+                "columns": 2
+            },
+            "audio": "audio/1c060916b3dc7659e2953d1d5e66469eff15951f7d4b712fc07cc3ce5b564c67.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "composition",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "composition",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:composite:th",
+                "relation": "definitions"
+            }
+        ],
+        "class": "writing:digraph"
+    },
+    {
+        "id": "en:composite:ph",
+        "label": "ph",
+        "fields": {
+            "pronunciation": ["/f/"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.125,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.95,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.125,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.375,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.375,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.65,
+                                "time": 280
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.625,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.625,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.625,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.875,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.875,
+                                "y": 0.8,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2, 2],
+                "columns": 2
+            },
+            "audio": "audio/ae916d214978cd3085913be0a0d1c6b6adbd674c01779bd01a987e877dc08f20.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:char:p-lowercase",
+                "relation": "composition",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "composition",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:composite:ph",
+                "relation": "definitions"
+            }
+        ],
+        "class": "writing:digraph"
+    },
+    {
+        "id": "en:composite:wh",
+        "label": "wh",
+        "fields": {
+            "pronunciation": ["/w/", "/h/"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.075,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.15,
+                                "y": 0.8,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.45,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.8,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.425,
+                                "y": 0.35,
+                                "time": 160
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.625,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.625,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.625,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.875,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.875,
+                                "y": 0.8,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1, 2],
+                "columns": 2
+            },
+            "audio": "audio/cd659702cb928fb24379e527700daba329cb1ed80effaf0e45a8a73979536320.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:char:w-lowercase",
+                "relation": "composition",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "composition",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:composite:wh",
+                "relation": "definitions"
+            }
+        ],
+        "class": "writing:digraph"
+    },
+    {
+        "id": "en:composite:ng",
+        "label": "ng",
+        "fields": {
+            "pronunciation": ["/ŋ/"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.125,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.125,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.375,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.375,
+                                "y": 0.8,
+                                "time": 160
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.85,
+                                "y": 0.45,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.775,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.675,
+                                "y": 0.4,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.625,
+                                "y": 0.55,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.625,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.775,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.85,
+                                "y": 0.65,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.85,
+                                "y": 0.35,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.85,
+                                "y": 0.85,
+                                "time": 360
+                            },
+                            {
+                                "x": 0.775,
+                                "y": 0.95,
+                                "time": 400
+                            },
+                            {
+                                "x": 0.675,
+                                "y": 0.95,
+                                "time": 440
+                            },
+                            {
+                                "x": 0.625,
+                                "y": 0.9,
+                                "time": 480
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2, 1],
+                "columns": 2
+            },
+            "audio": "audio/b9471d00aa402ba1a070fea265c7bb2227b2f6e541c4a0a3c10bcb345575e40b.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "composition",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "composition",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:composite:ng",
+                "relation": "definitions"
+            }
+        ],
+        "class": "writing:digraph"
+    },
+    {
+        "id": "en:composite:ck",
+        "label": "ck",
+        "fields": {
+            "pronunciation": ["/k/"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.375,
+                                "y": 0.45,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.125,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.375,
+                                "y": 0.7,
+                                "time": 280
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.65,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.875,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.6,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.875,
+                                "y": 0.8,
+                                "time": 80
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1, 2],
+                "columns": 2
+            },
+            "audio": "audio/d87fd659c67dcd28b12176dfc62e51a28ebcd26db2bb9dc97fef726c8c554a0b.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:char:c-lowercase",
+                "relation": "composition",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:k-lowercase",
+                "relation": "composition",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:composite:ck",
+                "relation": "definitions"
+            }
+        ],
+        "class": "writing:digraph"
+    }
+]

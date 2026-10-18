@@ -1,0 +1,775 @@
+[
+    {
+        "path": "audio/2ace16ef96f31258b58fb7ed17d25ab128f7ac2c66fae475121e7419311dcdb4.wav",
+        "entryId": "en:sentence:i-am-a-student",
+        "label": "I am a student.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/487088dd8be1b2ac3af870c58e10ddfb75d35e254b1221160654d062f9db7a73.wav",
+                "entryId": "en:word:form-english-be-am"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/78fb66d2d00a4eb48ead7962133c9bf7f8388b29269dc71ed9446c1b98b09189.wav",
+                "entryId": "en:word:student"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/487088dd8be1b2ac3af870c58e10ddfb75d35e254b1221160654d062f9db7a73.wav",
+                "entryId": "en:word:form-english-be-am",
+                "startFrame": 11067,
+                "frameCount": 13320
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 26547,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/78fb66d2d00a4eb48ead7962133c9bf7f8388b29269dc71ed9446c1b98b09189.wav",
+                "entryId": "en:word:student",
+                "startFrame": 41247,
+                "frameCount": 15347
+            }
+        ],
+        "sha256": "18cdfa22e42eb56904226a101d3d54d70a130705bd9ff19f69684b0ef3a2772f",
+        "frames": 68594,
+        "input": {
+            "language": "en",
+            "label": "I am a student.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    },
+    {
+        "path": "audio/4ada13f6c41e314dcb351984954f08b030eb3e1bae0f26c398775ada8aabc814.wav",
+        "entryId": "en:sentence:you-are-my-friend",
+        "label": "You are my friend.",
+        "parts": [
+            {
+                "path": "audio/af8d279b718503c23a1b51f8358d4c84f3a678b5e35a80bc2d40bf468b793ec9.wav",
+                "entryId": "en:word:capital-you"
+            },
+            {
+                "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
+                "entryId": "en:word:form-english-be-are"
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my"
+            },
+            {
+                "path": "audio/cd6f1f4eaf8a91a02e40d8200bc074b3105c2af729a3689741b8ef53b827ae19.wav",
+                "entryId": "en:word:friend"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/af8d279b718503c23a1b51f8358d4c84f3a678b5e35a80bc2d40bf468b793ec9.wav",
+                "entryId": "en:word:capital-you",
+                "startFrame": 2400,
+                "frameCount": 9630
+            },
+            {
+                "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
+                "entryId": "en:word:form-english-be-are",
+                "startFrame": 14190,
+                "frameCount": 5418
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my",
+                "startFrame": 21768,
+                "frameCount": 9522
+            },
+            {
+                "path": "audio/cd6f1f4eaf8a91a02e40d8200bc074b3105c2af729a3689741b8ef53b827ae19.wav",
+                "entryId": "en:word:friend",
+                "startFrame": 33450,
+                "frameCount": 12778
+            }
+        ],
+        "sha256": "cf0d241f9fe6af5aed7ac853a997f4999cb2b2cc5792b4c524cb3d9ad79e1ca8",
+        "frames": 58228,
+        "input": {
+            "language": "en",
+            "label": "You are my friend.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    },
+    {
+        "path": "audio/a5b65a79c6c581676d844d3d7bbd03b32d6add1de00fb5bbee192e7ca387c195.wav",
+        "entryId": "en:sentence:she-is-a-teacher",
+        "label": "She is a teacher.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/c286e951ed70b2957ed3a653bd770640c0a715281f6734cafbb1e58ef6a2c771.wav",
+                "entryId": "en:word:teacher"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 14932,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 27479,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/c286e951ed70b2957ed3a653bd770640c0a715281f6734cafbb1e58ef6a2c771.wav",
+                "entryId": "en:word:teacher",
+                "startFrame": 42179,
+                "frameCount": 12796
+            }
+        ],
+        "sha256": "14278559193fcbde28e5b3e2017ef02df32375e5be743b284bf2e5023dcb7d44",
+        "frames": 66975,
+        "input": {
+            "language": "en",
+            "label": "She is a teacher.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    },
+    {
+        "path": "audio/4d39d1a7d349783f8cc82922daa52153e8618c99613382eaf1fce113404d186f.wav",
+        "entryId": "en:sentence:he-has-a-book",
+        "label": "He has a book.",
+        "parts": [
+            {
+                "path": "audio/6479e690a54602e0b1c5a5bbe4418239c707d393fdde6754b827fac5d2eb56c9.wav",
+                "entryId": "en:word:capital-he"
+            },
+            {
+                "path": "audio/bda924c2c4116df9e3bfe3599856e66a2305d8fd57fc299ded5eec1d595f99c6.wav",
+                "entryId": "en:word:form-english-have-third-person"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/8cc861c3afd001379e8aeaf2dfbca4a8d1a8822e4b0b61d2131e46e39ca9fc72.wav",
+                "entryId": "en:word:book"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/6479e690a54602e0b1c5a5bbe4418239c707d393fdde6754b827fac5d2eb56c9.wav",
+                "entryId": "en:word:capital-he",
+                "startFrame": 2400,
+                "frameCount": 10803
+            },
+            {
+                "path": "audio/bda924c2c4116df9e3bfe3599856e66a2305d8fd57fc299ded5eec1d595f99c6.wav",
+                "entryId": "en:word:form-english-have-third-person",
+                "startFrame": 15363,
+                "frameCount": 9951
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 27474,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/8cc861c3afd001379e8aeaf2dfbca4a8d1a8822e4b0b61d2131e46e39ca9fc72.wav",
+                "entryId": "en:word:book",
+                "startFrame": 42174,
+                "frameCount": 10706
+            }
+        ],
+        "sha256": "3ccdec20c2acb6474ad57f0fec360ea259cc7a3af647c173bd921b99993f43b1",
+        "frames": 64880,
+        "input": {
+            "language": "en",
+            "label": "He has a book.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    },
+    {
+        "path": "audio/f2e1c8bba1abc5b41b1b16ce089d4e93faa7b7e45ff9a642b124589f9aadd469.wav",
+        "entryId": "en:sentence:we-learn-english",
+        "label": "We learn English.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/9f14c553875cf5406701c3c7cdaac72ee9af8067aa30e14df63b64ba995dd7d1.wav",
+                "entryId": "en:word:learn"
+            },
+            {
+                "path": "audio/f0bcb581f921e4885369caaa14ef8b658f494c2df87673ea2b22776fcf933db0.wav",
+                "entryId": "en:word:english"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/9f14c553875cf5406701c3c7cdaac72ee9af8067aa30e14df63b64ba995dd7d1.wav",
+                "entryId": "en:word:learn",
+                "startFrame": 22112,
+                "frameCount": 10298
+            },
+            {
+                "path": "audio/f0bcb581f921e4885369caaa14ef8b658f494c2df87673ea2b22776fcf933db0.wav",
+                "entryId": "en:word:english",
+                "startFrame": 34570,
+                "frameCount": 16343
+            }
+        ],
+        "sha256": "d88bf246e43adee55b4d87cca20662c49aa6204481461014cb8f53bedaf0790f",
+        "frames": 62913,
+        "input": {
+            "language": "en",
+            "label": "We learn English.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    },
+    {
+        "path": "audio/8c99f033e5b0d820d9d37468c6ab2b6a051ca949743be9ced46e1f86760e4c5b.wav",
+        "entryId": "en:sentence:they-go-to-school",
+        "label": "They go to school.",
+        "parts": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they"
+            },
+            {
+                "path": "audio/42b81828f68c66abecf181e027005a9e134f7f4c0618553235928583db3f3fe4.wav",
+                "entryId": "en:word:go"
+            },
+            {
+                "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
+                "entryId": "en:particle:to"
+            },
+            {
+                "path": "audio/51bd627382d00740b5650b5a76f4e181feee90c3f1dbd10156966342c249553a.wav",
+                "entryId": "en:word:school"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they",
+                "startFrame": 2400,
+                "frameCount": 9803
+            },
+            {
+                "path": "audio/42b81828f68c66abecf181e027005a9e134f7f4c0618553235928583db3f3fe4.wav",
+                "entryId": "en:word:go",
+                "startFrame": 14363,
+                "frameCount": 11545
+            },
+            {
+                "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
+                "entryId": "en:particle:to",
+                "startFrame": 28068,
+                "frameCount": 7478
+            },
+            {
+                "path": "audio/51bd627382d00740b5650b5a76f4e181feee90c3f1dbd10156966342c249553a.wav",
+                "entryId": "en:word:school",
+                "startFrame": 37706,
+                "frameCount": 13929
+            }
+        ],
+        "sha256": "45cb42e7a4d6da09aef7a8bb82e5c7199f3a5aea8e005d6e72cb5b370295bf34",
+        "frames": 63635,
+        "input": {
+            "language": "en",
+            "label": "They go to school.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    },
+    {
+        "path": "audio/c17e47516034547638c87f5908f94a4db65a67992b5a583016bc451fa6673dd0.wav",
+        "entryId": "en:sentence:i-drink-water",
+        "label": "I drink water.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/03b62debf6ef4408c4897b5fb6c219dbe2fd2dc3aa3abcaaeac9e60a81ffd688.wav",
+                "entryId": "en:word:drink"
+            },
+            {
+                "path": "audio/de43a97fbedea7909d8f9b9ca31da43c5bd95debf2a1c3f89a02f2f0996bee27.wav",
+                "entryId": "en:word:water"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/03b62debf6ef4408c4897b5fb6c219dbe2fd2dc3aa3abcaaeac9e60a81ffd688.wav",
+                "entryId": "en:word:drink",
+                "startFrame": 11067,
+                "frameCount": 11105
+            },
+            {
+                "path": "audio/de43a97fbedea7909d8f9b9ca31da43c5bd95debf2a1c3f89a02f2f0996bee27.wav",
+                "entryId": "en:word:water",
+                "startFrame": 24332,
+                "frameCount": 13834
+            }
+        ],
+        "sha256": "28ce4f387b6f014db550370be82dd8fd0a9486b7fdecd697be69473d326a7fe1",
+        "frames": 50166,
+        "input": {
+            "language": "en",
+            "label": "I drink water.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    },
+    {
+        "path": "audio/57811804bf3901617bb6e934833def50ba4b20532193243583ac1add0b8818d5.wav",
+        "entryId": "en:sentence:the-cat-is-small",
+        "label": "The cat is small.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/fd2f763e6d4a6feb27060e76d0076f63bec5632488ba09b9bc34dd98798171b0.wav",
+                "entryId": "en:word:cat"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/de7a4bdecea3025be9ba5d3c667402f47cc1b671aca28db38ab59239fb3d54ca.wav",
+                "entryId": "en:word:small"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/fd2f763e6d4a6feb27060e76d0076f63bec5632488ba09b9bc34dd98798171b0.wav",
+                "entryId": "en:word:cat",
+                "startFrame": 12710,
+                "frameCount": 8070
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 22940,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/de7a4bdecea3025be9ba5d3c667402f47cc1b671aca28db38ab59239fb3d54ca.wav",
+                "entryId": "en:word:small",
+                "startFrame": 35487,
+                "frameCount": 14627
+            }
+        ],
+        "sha256": "7a97ef4bf4860e5b2130ca74bb21bead8b135c1f7efbdf92f0762da9f7dd8478",
+        "frames": 62114,
+        "input": {
+            "language": "en",
+            "label": "The cat is small.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    },
+    {
+        "path": "audio/a198c20c5cab4c6417ec7eee247527f44b21af95ff2f016a11d64c57840f6759.wav",
+        "entryId": "en:sentence:the-dog-is-big",
+        "label": "The dog is big.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/9e7cc65cd726ad78e1d226f20294565ff705519dfd9d3a2831bd5fd7e61c6621.wav",
+                "entryId": "en:word:dog"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/2b24cc481581375416e015341c1c564cc12532b6bc70557143f32367c7d60efa.wav",
+                "entryId": "en:word:big"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/9e7cc65cd726ad78e1d226f20294565ff705519dfd9d3a2831bd5fd7e61c6621.wav",
+                "entryId": "en:word:dog",
+                "startFrame": 12710,
+                "frameCount": 13718
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 28588,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/2b24cc481581375416e015341c1c564cc12532b6bc70557143f32367c7d60efa.wav",
+                "entryId": "en:word:big",
+                "startFrame": 41135,
+                "frameCount": 11582
+            }
+        ],
+        "sha256": "ddfe55c3aaf11a7eb1c7ada245a5479285b02916fd6a3612f0468c054fcf1303",
+        "frames": 64717,
+        "input": {
+            "language": "en",
+            "label": "The dog is big.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    },
+    {
+        "path": "audio/7411bbc4d091d9dc86ea9ab769d0f17eebfca65f1e496301bd7ae457eb42840d.wav",
+        "entryId": "en:sentence:i-like-music",
+        "label": "I like music.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/74e2b131c64da10695ba0b619e9a463dc2035c39a6de44f718afc3a7054689db.wav",
+                "entryId": "en:word:like"
+            },
+            {
+                "path": "audio/1c5df56aaa962214ce437878f4a571160a99e087d4656ea65a94ab7b3d3f89cc.wav",
+                "entryId": "en:word:music"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/74e2b131c64da10695ba0b619e9a463dc2035c39a6de44f718afc3a7054689db.wav",
+                "entryId": "en:word:like",
+                "startFrame": 11067,
+                "frameCount": 13914
+            },
+            {
+                "path": "audio/1c5df56aaa962214ce437878f4a571160a99e087d4656ea65a94ab7b3d3f89cc.wav",
+                "entryId": "en:word:music",
+                "startFrame": 27141,
+                "frameCount": 12885
+            }
+        ],
+        "sha256": "4648a5d16443bf005538fc802df7f472b1b847446dff1a1658443dc92f3cfd7f",
+        "frames": 52026,
+        "input": {
+            "language": "en",
+            "label": "I like music.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    },
+    {
+        "path": "audio/631eeb913cbb660456762ab941b184d0fa296fccc75bf88f75d046a9d19fd53c.wav",
+        "entryId": "en:sentence:we-live-in-a-city",
+        "label": "We live in a city.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/e8170072b00fc50dd8d3a04b9bb8fab6af5bc73631a942ae6848737027bf08de.wav",
+                "entryId": "en:word:live"
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/7afbcc23f3580d170fac475af0801dd017ff2f78f81ec0db3e27dd85ea2927ab.wav",
+                "entryId": "en:word:city"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/e8170072b00fc50dd8d3a04b9bb8fab6af5bc73631a942ae6848737027bf08de.wav",
+                "entryId": "en:word:live",
+                "startFrame": 22112,
+                "frameCount": 8799
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in",
+                "startFrame": 33071,
+                "frameCount": 7315
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 42546,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/7afbcc23f3580d170fac475af0801dd017ff2f78f81ec0db3e27dd85ea2927ab.wav",
+                "entryId": "en:word:city",
+                "startFrame": 57246,
+                "frameCount": 14159
+            }
+        ],
+        "sha256": "51272b949e7e041a25c4fbdfad413fb0f1b0eba82b9bdb8c40df8a9909d403b2",
+        "frames": 83405,
+        "input": {
+            "language": "en",
+            "label": "We live in a city.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    },
+    {
+        "path": "audio/4c49cfc114a6f2e1ba7027cf890f0a3e3335ffcd544f67be695f4928200f6b1f.wav",
+        "entryId": "en:sentence:she-reads-a-book",
+        "label": "She reads a book.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/5bc6c73d388441c4b3ccdf9abbea2cb6943c2fcacea43b6ca964ea7a4e8a03cf.wav",
+                "entryId": "en:word:form-english-read-third-person"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/8cc861c3afd001379e8aeaf2dfbca4a8d1a8822e4b0b61d2131e46e39ca9fc72.wav",
+                "entryId": "en:word:book"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/5bc6c73d388441c4b3ccdf9abbea2cb6943c2fcacea43b6ca964ea7a4e8a03cf.wav",
+                "entryId": "en:word:form-english-read-third-person",
+                "startFrame": 14932,
+                "frameCount": 13546
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 30638,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/8cc861c3afd001379e8aeaf2dfbca4a8d1a8822e4b0b61d2131e46e39ca9fc72.wav",
+                "entryId": "en:word:book",
+                "startFrame": 45338,
+                "frameCount": 10706
+            }
+        ],
+        "sha256": "ab18bb4b024a9d2dd66b3959b57f9f5308f9bb1ca89f7eccca5a3fdb394133ec",
+        "frames": 68044,
+        "input": {
+            "language": "en",
+            "label": "She reads a book.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    },
+    {
+        "path": "audio/cbeb570d3bec94d60820d3e875a371c1296584ea9d3d223e2466bcc761b976f2.wav",
+        "entryId": "en:sentence:he-walks-to-school",
+        "label": "He walks to school.",
+        "parts": [
+            {
+                "path": "audio/6479e690a54602e0b1c5a5bbe4418239c707d393fdde6754b827fac5d2eb56c9.wav",
+                "entryId": "en:word:capital-he"
+            },
+            {
+                "path": "audio/6fe4eea49f2031d3b6afeada0a1dedbbe0f562f3a187fbc50fdb32c877c17ef6.wav",
+                "entryId": "en:word:form-english-walk-third-person"
+            },
+            {
+                "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
+                "entryId": "en:particle:to"
+            },
+            {
+                "path": "audio/51bd627382d00740b5650b5a76f4e181feee90c3f1dbd10156966342c249553a.wav",
+                "entryId": "en:word:school"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/6479e690a54602e0b1c5a5bbe4418239c707d393fdde6754b827fac5d2eb56c9.wav",
+                "entryId": "en:word:capital-he",
+                "startFrame": 2400,
+                "frameCount": 10803
+            },
+            {
+                "path": "audio/6fe4eea49f2031d3b6afeada0a1dedbbe0f562f3a187fbc50fdb32c877c17ef6.wav",
+                "entryId": "en:word:form-english-walk-third-person",
+                "startFrame": 15363,
+                "frameCount": 14426
+            },
+            {
+                "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
+                "entryId": "en:particle:to",
+                "startFrame": 31949,
+                "frameCount": 7478
+            },
+            {
+                "path": "audio/51bd627382d00740b5650b5a76f4e181feee90c3f1dbd10156966342c249553a.wav",
+                "entryId": "en:word:school",
+                "startFrame": 41587,
+                "frameCount": 13929
+            }
+        ],
+        "sha256": "b6a593df1f620fac14cec8f9c760756abe62794671f7fdff441a9d3401fd9138",
+        "frames": 67516,
+        "input": {
+            "language": "en",
+            "label": "He walks to school.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    }
+]

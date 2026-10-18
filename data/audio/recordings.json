@@ -1,0 +1,209 @@
+{
+    "language": "en",
+    "voiceId": "gJx1vCzNCD1EQHT212Ls",
+    "modelId": "eleven_turbo_v2",
+    "format": "audio/wav",
+    "sampleRate": 24000,
+    "channels": 1,
+    "sampleWidth": 2,
+    "source": "elevenlabs",
+    "voiceAttribution": "Generated with ElevenLabs; use and distribution are subject to the ElevenLabs account terms.",
+    "processing": {
+        "stability": 0.75,
+        "similarityBoost": 0.85,
+        "style": 0,
+        "speakerBoost": true,
+        "speed": 0.9,
+        "seed": 42,
+        "peakLimit": 0.82,
+        "clipPaddingMs": 20
+    },
+    "inventoryVersion": 1,
+    "counts": {
+        "recordings": 448,
+        "compositions": 49,
+        "sentences": 49
+    },
+    "inventories": [
+        {
+            "path": "inventories/characters-001.json",
+            "kind": "recordings",
+            "count": 18,
+            "sha256": "47bc7b98364849dae7909bd1d55fdd016d329176369f27a4f57f1338188cd073"
+        },
+        {
+            "path": "inventories/characters-002.json",
+            "kind": "recordings",
+            "count": 8,
+            "sha256": "ea252355bb22588bd2473ec88f213c8543fd3de747a12a246e0445d156438329"
+        },
+        {
+            "path": "inventories/vocabulary-001.json",
+            "kind": "recordings",
+            "count": 23,
+            "sha256": "17b4ed66947b72bcd93cfb43429ca0fbe5a2e1fd1db699a94ba83727e9a4ff69"
+        },
+        {
+            "path": "inventories/vocabulary-002.json",
+            "kind": "recordings",
+            "count": 23,
+            "sha256": "d0cd29399a87afbec36d26cf7b3f92e9354ca8756d04961c5c1b58e847fef963"
+        },
+        {
+            "path": "inventories/vocabulary-003.json",
+            "kind": "recordings",
+            "count": 23,
+            "sha256": "9e5ef22ea2f6a8367c1232ad9a2469738eceebdfd026b42a46fee796c938cd27"
+        },
+        {
+            "path": "inventories/vocabulary-004.json",
+            "kind": "recordings",
+            "count": 23,
+            "sha256": "3ed28d2820657e99205fc849d75d2114834c6ff131ed41d45cf5e9d5f40d15c2"
+        },
+        {
+            "path": "inventories/vocabulary-005.json",
+            "kind": "recordings",
+            "count": 23,
+            "sha256": "0c035e47b26b9e94084995da224b94dc5445acf938c64bd60428e0de386d0f70"
+        },
+        {
+            "path": "inventories/vocabulary-006.json",
+            "kind": "recordings",
+            "count": 23,
+            "sha256": "0e111365732c637f878b5a121fa67b2cc5ea2af187160888263c3d18f1f89b10"
+        },
+        {
+            "path": "inventories/vocabulary-007.json",
+            "kind": "recordings",
+            "count": 23,
+            "sha256": "ea956b745f0719d202251cf17b95e077c457d984dbebea39896687a3d0fc440c"
+        },
+        {
+            "path": "inventories/vocabulary-008.json",
+            "kind": "recordings",
+            "count": 24,
+            "sha256": "2053a038ab3dede6790dc459e460d3e98ecbcbabc17c469f9959a8fff2b7edf0"
+        },
+        {
+            "path": "inventories/vocabulary-009.json",
+            "kind": "recordings",
+            "count": 23,
+            "sha256": "fdc382f164b36e69131ff6c7d36191f40fe57f162bbfaeb7c38e07a11fe426de"
+        },
+        {
+            "path": "inventories/vocabulary-010.json",
+            "kind": "recordings",
+            "count": 23,
+            "sha256": "b58476630f35421258035480a341628034e4cc182aa5aa4fb91b9c0ccabe9421"
+        },
+        {
+            "path": "inventories/vocabulary-011.json",
+            "kind": "recordings",
+            "count": 1,
+            "sha256": "9f94c07804c3806417eee059b15b5f1eba0902ceb4bd21b4d07dac99d189f291"
+        },
+        {
+            "path": "inventories/transformations-001.json",
+            "kind": "recordings",
+            "count": 18,
+            "sha256": "d617916d32a2dcc23a675d768743926eb982110c7ce3a9a398f3650171048fb8"
+        },
+        {
+            "path": "inventories/transformations-002.json",
+            "kind": "recordings",
+            "count": 18,
+            "sha256": "fc0c199afcfc3e41516473a118fa8b59cce1d8acc18f4940b518913e4ac73ec9"
+        },
+        {
+            "path": "inventories/transformations-003.json",
+            "kind": "recordings",
+            "count": 17,
+            "sha256": "10d2e067b6202c0dce02c36fc4d72f2a1b21581b8318450ef9ec0737c5b6c1e0"
+        },
+        {
+            "path": "inventories/transformations-004.json",
+            "kind": "recordings",
+            "count": 17,
+            "sha256": "19652e16c956af29942fe28193103f5e93d9f75da0c20fe2274ce5c9a6a55925"
+        },
+        {
+            "path": "inventories/transformations-005.json",
+            "kind": "recordings",
+            "count": 17,
+            "sha256": "ac6c69569b66ab322797ebb644af77428b9e017eb573465731536d160e718af0"
+        },
+        {
+            "path": "inventories/transformations-006.json",
+            "kind": "recordings",
+            "count": 18,
+            "sha256": "c24f79ed47b77877ac80a21a31f3a834fbf2a936d2fa1cc1d5b678f5618d74f5"
+        },
+        {
+            "path": "inventories/transformations-007.json",
+            "kind": "recordings",
+            "count": 19,
+            "sha256": "406152e8ed05fa1401e8d33932b7c28bd988dbd906a8091d316505d8967fe3df"
+        },
+        {
+            "path": "inventories/transformations-008.json",
+            "kind": "recordings",
+            "count": 18,
+            "sha256": "a6e68fe70c2d24355ba5eefaf07aaebd65e4ccb6a566e469075990ac3e789f3b"
+        },
+        {
+            "path": "inventories/transformations-009.json",
+            "kind": "recordings",
+            "count": 19,
+            "sha256": "c59a05ae8c0b85bb658117dae94b27c6344f24258e7c863f64826ab4188c2e0c"
+        },
+        {
+            "path": "inventories/transformations-010.json",
+            "kind": "recordings",
+            "count": 19,
+            "sha256": "17669b493703a925f3d4e4b60eca80aa2c267305a592a06cff00bfe72e43ac36"
+        },
+        {
+            "path": "inventories/transformations-011.json",
+            "kind": "recordings",
+            "count": 10,
+            "sha256": "83f73faa6392f9a7ce7b4d9e4c41d1788f52ad89b607d6e506a6b298a6eec8ee"
+        },
+        {
+            "path": "inventories/sentence-compositions-001.json",
+            "kind": "compositions",
+            "count": 13,
+            "sha256": "d5e2c5961b43edc72ba0ffad74b0eaa9e1726189375bb9b8444ab5124d552663"
+        },
+        {
+            "path": "inventories/sentence-compositions-002.json",
+            "kind": "compositions",
+            "count": 13,
+            "sha256": "ffd92a1ef93a8e743dd35203516baeeb772d92d8d72fac9cf6a847519acddba2"
+        },
+        {
+            "path": "inventories/sentence-compositions-003.json",
+            "kind": "compositions",
+            "count": 13,
+            "sha256": "6a96f85192f3ea836e8fc63b738bb6e69b098c738757c1353ae17e1e50268dbb"
+        },
+        {
+            "path": "inventories/sentence-compositions-004.json",
+            "kind": "compositions",
+            "count": 10,
+            "sha256": "f45ca210347a8c1622ed7bf7ca184a0aebec2b9e910d643366381e00b8dc6a4d"
+        },
+        {
+            "path": "inventories/sentences-001.json",
+            "kind": "sentences",
+            "count": 26,
+            "sha256": "0711c290a3bca86d0650eee27622efbc5970cfd21f267f6a1e30c7eb594c2f71"
+        },
+        {
+            "path": "inventories/sentences-002.json",
+            "kind": "sentences",
+            "count": 23,
+            "sha256": "48c22282ef64063236facf836fdcf1b0992ba7c20c92b7c4f9ef65497fd58cc8"
+        }
+    ]
+}

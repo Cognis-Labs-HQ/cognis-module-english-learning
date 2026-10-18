@@ -1,0 +1,3604 @@
+[
+    {
+        "id": "en:char:a",
+        "label": "A",
+        "fields": {
+            "symbol": "A",
+            "pronunciation": ["ay"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.2,
+                                "y": 0.85,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.85,
+                                "time": 80
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.32,
+                                "y": 0.58,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.68,
+                                "y": 0.58,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/æ/", "/eɪ/", "/ɑː/"],
+            "audio": "audio/76e1ba1851b515aa1b07da1f4a5d423730ea42edcb3ec6dfe06b2aa2665016b5.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:a",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:b",
+        "label": "B",
+        "fields": {
+            "symbol": "B",
+            "pronunciation": ["bee"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.15,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.72,
+                                "y": 0.25,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.72,
+                                "y": 0.4,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.5,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 240
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.55,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.77,
+                                "y": 0.6,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.77,
+                                "y": 0.75,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.85,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/b/"],
+            "audio": "audio/d4e51c6b9e9fca3a4c008443e2226a4f3623d859cb421e043bea795dca615855.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:b",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:b-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:c",
+        "label": "C",
+        "fields": {
+            "symbol": "C",
+            "pronunciation": ["cee"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.8,
+                                "y": 0.25,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.15,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.35,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.85,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.85,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.75,
+                                "time": 280
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/k/", "/s/"],
+            "audio": "audio/14b2a0286a8546ed89c861436299801cd99f900a5d74ff9debdaf02e1d209492.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:c",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:c-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:d",
+        "label": "D",
+        "fields": {
+            "symbol": "D",
+            "pronunciation": ["dee"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.15,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.3,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.5,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.7,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.85,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 280
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/d/"],
+            "audio": "audio/6229414acd3e128af927a772ba8f56d5dbcb9ade52f02f76df21afa38527a7c4.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:d",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:e",
+        "label": "E",
+        "fields": {
+            "symbol": "E",
+            "pronunciation": ["ee"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.85,
+                                "time": 120
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.5,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/ɛ/", "/iː/"],
+            "audio": "audio/c5a32b24e7be18237d3a512a46b43532527ec7f111e9a1f17df2f53c68d46cae.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:e",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:f",
+        "label": "F",
+        "fields": {
+            "symbol": "F",
+            "pronunciation": ["ef"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.15,
+                                "time": 80
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.5,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/f/"],
+            "audio": "audio/e299c9d900df1a46a98c55999651c9ac9c0dfdf91a9ac9dda3714ea312bceb04.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:f",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:f-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:g",
+        "label": "G",
+        "fields": {
+            "symbol": "G",
+            "pronunciation": ["gee"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.8,
+                                "y": 0.25,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.15,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.35,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.85,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.85,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.7,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.5,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.5,
+                                "time": 360
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/ɡ/", "/dʒ/"],
+            "audio": "audio/804d997d3c82f3d44a079bffda5a1082577081f4d7752ce1826203ae2078bada.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:g",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:h",
+        "label": "H",
+        "fields": {
+            "symbol": "H",
+            "pronunciation": ["aitch"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.85,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.5,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [3],
+                "columns": 1
+            },
+            "letter_sounds": ["/h/"],
+            "audio": "audio/3f485ef1558aac2bc509afa342a6eb67b733b247eebbc996b1413f1537d1e8bf.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:h",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:i",
+        "label": "I",
+        "fields": {
+            "symbol": "I",
+            "pronunciation": ["eye"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.3,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.15,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.5,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.85,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.3,
+                                "y": 0.85,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.85,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [3],
+                "columns": 1
+            },
+            "letter_sounds": ["/ɪ/", "/aɪ/"],
+            "audio": "audio/5ca79de149b74dce179f5a667227c1864bec8eb814741d9ee601b75dd9a22ccc.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:i",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:j",
+        "label": "J",
+        "fields": {
+            "symbol": "J",
+            "pronunciation": ["jay"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.3,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.15,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.65,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.7,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.85,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.85,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.7,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/dʒ/"],
+            "audio": "audio/3d7f8bceff428451fa026953a00fdd519034095078a22242adeadab43f272ab6.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:j",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:j-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:k",
+        "label": "K",
+        "fields": {
+            "symbol": "K",
+            "pronunciation": ["kay"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.55,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.85,
+                                "time": 80
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/k/"],
+            "audio": "audio/53ebfb6e046c14e164d8cc3c73524ddae927226bbbfa66a73553b3eed5a2b527.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:k",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:k-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:l",
+        "label": "L",
+        "fields": {
+            "symbol": "L",
+            "pronunciation": ["el"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.85,
+                                "time": 80
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/l/"],
+            "audio": "audio/e0e50d8edc8565d4e021e9193c38c23948f868b99c0af4a1527cff10f5dcc7f8.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:l",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:m",
+        "label": "M",
+        "fields": {
+            "symbol": "M",
+            "pronunciation": ["em"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.2,
+                                "y": 0.85,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.55,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.15,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.85,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/m/"],
+            "audio": "audio/e34d54b16f508e36b5e411fad40de573b936c20a9ee98f3a9b51bc413af8bf2c.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:m",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:m-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:n",
+        "label": "N",
+        "fields": {
+            "symbol": "N",
+            "pronunciation": ["en"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.85,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.15,
+                                "time": 120
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/n/"],
+            "audio": "audio/c0d9d8e6416b7d717d0aee5babe9fcc3bd92cc8fbe2954a7c9105975a49d2b15.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:n",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:o",
+        "label": "O",
+        "fields": {
+            "symbol": "O",
+            "pronunciation": ["oh"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.5,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.2,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.4,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.6,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.8,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.85,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.6,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.4,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.2,
+                                "time": 360
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.15,
+                                "time": 400
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/ɒ/", "/oʊ/"],
+            "audio": "audio/ac77fb0ef6896d39c6c3d0b562f137dea643e6b7a42cd4d97a8c944ca64b97a3.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:o",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:p",
+        "label": "P",
+        "fields": {
+            "symbol": "P",
+            "pronunciation": ["pee"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.15,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.25,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.4,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.5,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 240
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/p/"],
+            "audio": "audio/7bbebfd9a41b266c632e066528afbec6b82b1c136844f33727064b18fb1c357b.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:p",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:p-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:q",
+        "label": "Q",
+        "fields": {
+            "symbol": "Q",
+            "pronunciation": ["cue"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.5,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.2,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.4,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.2,
+                                "y": 0.6,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.8,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.85,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.6,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.4,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.2,
+                                "time": 360
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.15,
+                                "time": 400
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.55,
+                                "y": 0.65,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.85,
+                                "y": 0.9,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/k/"],
+            "audio": "audio/8a2bfecd15475e0e6be792c2cf40e903a51cd906904e7b1b6d72cb64d6d4aa01.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:q",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:q-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:r",
+        "label": "R",
+        "fields": {
+            "symbol": "R",
+            "pronunciation": ["ar"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.15,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.25,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.4,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.5,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 240
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.85,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/ɹ/"],
+            "audio": "audio/fc50d0c4f838cc90b371ec636781ee425d5a07fcbe2cc0e83b30de83fdf4b060.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:r",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:s",
+        "label": "S",
+        "fields": {
+            "symbol": "S",
+            "pronunciation": ["ess"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.25,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.15,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.25,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.4,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.5,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.5,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.6,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.75,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.85,
+                                "time": 360
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.85,
+                                "time": 400
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.75,
+                                "time": 440
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/s/", "/z/"],
+            "audio": "audio/3821f322d8200319202a5ae2041f6d9c20a64bd5c77ccc47d149edf6e7e4248a.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:s",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:t",
+        "label": "T",
+        "fields": {
+            "symbol": "T",
+            "pronunciation": ["tee"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.2,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.15,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.5,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.85,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/t/"],
+            "audio": "audio/5e098b4c4ec5e4150bd16e4e05e292ab14f5fd10f3be8e87007c857e4b1b17e8.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:t",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:u",
+        "label": "U",
+        "fields": {
+            "symbol": "U",
+            "pronunciation": ["you"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.65,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.8,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.85,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.8,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.65,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.15,
+                                "time": 240
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/ʌ/", "/juː/"],
+            "audio": "audio/a2d3003588169fedbfe63cfd6d02b97d8ccef882bbb68d4ed84c9b536b4e7c91.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:u",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:v",
+        "label": "V",
+        "fields": {
+            "symbol": "V",
+            "pronunciation": ["vee"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.2,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.85,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.15,
+                                "time": 80
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/v/"],
+            "audio": "audio/ecb3e6b49fe13517669760d72bf925812983f7ba6878057e3a2414969da35be5.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:v",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:v-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:w",
+        "label": "W",
+        "fields": {
+            "symbol": "W",
+            "pronunciation": ["double-u"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.15,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.85,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.4,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.85,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.85,
+                                "y": 0.15,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/w/"],
+            "audio": "audio/fda3f7dacb8c5669788a81c8f759d6848164f0b64f2c2169b3cd6d1e9aab7b1b.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:w",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:w-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:x",
+        "label": "X",
+        "fields": {
+            "symbol": "X",
+            "pronunciation": ["ex"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.85,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/ks/", "/ɡz/"],
+            "audio": "audio/9db75568174c69bfcd5af9be164b5299569a05111e7cd97269f7bb13354d543d.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:x",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:x-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:y",
+        "label": "Y",
+        "fields": {
+            "symbol": "Y",
+            "pronunciation": ["why"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.2,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.15,
+                                "time": 80
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.5,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.85,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/j/", "/ɪ/", "/aɪ/"],
+            "audio": "audio/3e659d3e92eb8f75715110ecd1de9d4705b64b008f58279187e9b62d089fbb06.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:y",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:y-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:z",
+        "label": "Z",
+        "fields": {
+            "symbol": "Z",
+            "pronunciation": ["zed", "zee"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.85,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.85,
+                                "time": 120
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/z/"],
+            "audio": "audio/a82f05d2576846a5fa4c0e946c34ec7cd014463b34d654be87e3a69da1f909fe.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:z",
+                "relation": "definition"
+            },
+            {
+                "entryId": "en:char:z-lowercase",
+                "relation": "variant-of"
+            }
+        ],
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:a-lowercase",
+        "label": "a",
+        "fields": {
+            "symbol": "a",
+            "pronunciation": ["ay"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.7,
+                                "y": 0.45,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.4,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.55,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.7,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.65,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.35,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.8,
+                                "time": 360
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/æ/", "/eɪ/", "/ɑː/"],
+            "audio": "audio/76e1ba1851b515aa1b07da1f4a5d423730ea42edcb3ec6dfe06b2aa2665016b5.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:a",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 1,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:b-lowercase",
+        "label": "b",
+        "fields": {
+            "symbol": "b",
+            "pronunciation": ["bee"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.65,
+                                "time": 280
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/b/"],
+            "audio": "audio/d4e51c6b9e9fca3a4c008443e2226a4f3623d859cb421e043bea795dca615855.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:b",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 2,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:c-lowercase",
+        "label": "c",
+        "fields": {
+            "symbol": "c",
+            "pronunciation": ["cee"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.45,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.7,
+                                "time": 280
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/k/", "/s/"],
+            "audio": "audio/14b2a0286a8546ed89c861436299801cd99f900a5d74ff9debdaf02e1d209492.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:c",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 3,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:d-lowercase",
+        "label": "d",
+        "fields": {
+            "symbol": "d",
+            "pronunciation": ["dee"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.65,
+                                "time": 280
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/d/"],
+            "audio": "audio/6229414acd3e128af927a772ba8f56d5dbcb9ade52f02f76df21afa38527a7c4.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:d",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 4,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:e-lowercase",
+        "label": "e",
+        "fields": {
+            "symbol": "e",
+            "pronunciation": ["ee"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.55,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.55,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.4,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.35,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.35,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.65,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.8,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.7,
+                                "time": 360
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/ɛ/", "/iː/"],
+            "audio": "audio/c5a32b24e7be18237d3a512a46b43532527ec7f111e9a1f17df2f53c68d46cae.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:e",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 5,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:f-lowercase",
+        "label": "f",
+        "fields": {
+            "symbol": "f",
+            "pronunciation": ["ef"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.7,
+                                "y": 0.2,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.15,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.25,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 120
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.4,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.4,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/f/"],
+            "audio": "audio/e299c9d900df1a46a98c55999651c9ac9c0dfdf91a9ac9dda3714ea312bceb04.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:f",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 6,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:g-lowercase",
+        "label": "g",
+        "fields": {
+            "symbol": "g",
+            "pronunciation": ["gee"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.7,
+                                "y": 0.45,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.4,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.55,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.65,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.35,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.85,
+                                "time": 360
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.95,
+                                "time": 400
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.95,
+                                "time": 440
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.9,
+                                "time": 480
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/ɡ/", "/dʒ/"],
+            "audio": "audio/804d997d3c82f3d44a079bffda5a1082577081f4d7752ce1826203ae2078bada.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:g",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 7,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:h-lowercase",
+        "label": "h",
+        "fields": {
+            "symbol": "h",
+            "pronunciation": ["aitch"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.8,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/h/"],
+            "audio": "audio/3f485ef1558aac2bc509afa342a6eb67b733b247eebbc996b1413f1537d1e8bf.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:h",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 8,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:i-lowercase",
+        "label": "i",
+        "fields": {
+            "symbol": "i",
+            "pronunciation": ["eye"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.5,
+                                "y": 0.4,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.5,
+                                "y": 0.2,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.22,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/ɪ/", "/aɪ/"],
+            "audio": "audio/5ca79de149b74dce179f5a667227c1864bec8eb814741d9ee601b75dd9a22ccc.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:i",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 9,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:j-lowercase",
+        "label": "j",
+        "fields": {
+            "symbol": "j",
+            "pronunciation": ["jay"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.6,
+                                "y": 0.4,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.85,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.95,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.95,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.9,
+                                "time": 160
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.6,
+                                "y": 0.2,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.22,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/dʒ/"],
+            "audio": "audio/3d7f8bceff428451fa026953a00fdd519034095078a22242adeadab43f272ab6.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:j",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 10,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:k-lowercase",
+        "label": "k",
+        "fields": {
+            "symbol": "k",
+            "pronunciation": ["kay"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.3,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.6,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.8,
+                                "time": 80
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/k/"],
+            "audio": "audio/53ebfb6e046c14e164d8cc3c73524ddae927226bbbfa66a73553b3eed5a2b527.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:k",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 11,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:l-lowercase",
+        "label": "l",
+        "fields": {
+            "symbol": "l",
+            "pronunciation": ["el"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.45,
+                                "y": 0.15,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.45,
+                                "y": 0.7,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.8,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.8,
+                                "time": 120
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/l/"],
+            "audio": "audio/e0e50d8edc8565d4e021e9193c38c23948f868b99c0af4a1527cff10f5dcc7f8.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:l",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 12,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:m-lowercase",
+        "label": "m",
+        "fields": {
+            "symbol": "m",
+            "pronunciation": ["em"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.15,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.15,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.15,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.45,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.45,
+                                "y": 0.8,
+                                "time": 160
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.45,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.8,
+                                "y": 0.8,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [3],
+                "columns": 1
+            },
+            "letter_sounds": ["/m/"],
+            "audio": "audio/e34d54b16f508e36b5e411fad40de573b936c20a9ee98f3a9b51bc413af8bf2c.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:m",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 13,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:n-lowercase",
+        "label": "n",
+        "fields": {
+            "symbol": "n",
+            "pronunciation": ["en"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.8,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/n/"],
+            "audio": "audio/c0d9d8e6416b7d717d0aee5babe9fcc3bd92cc8fbe2954a7c9105975a49d2b15.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:n",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 14,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:o-lowercase",
+        "label": "o",
+        "fields": {
+            "symbol": "o",
+            "pronunciation": ["oh"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.5,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.4,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.55,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.65,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.8,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.85,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.65,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.55,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.65,
+                                "y": 0.4,
+                                "time": 360
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.35,
+                                "time": 400
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/ɒ/", "/oʊ/"],
+            "audio": "audio/ac77fb0ef6896d39c6c3d0b562f137dea643e6b7a42cd4d97a8c944ca64b97a3.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:o",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 15,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:p-lowercase",
+        "label": "p",
+        "fields": {
+            "symbol": "p",
+            "pronunciation": ["pee"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.95,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.65,
+                                "time": 280
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/p/"],
+            "audio": "audio/7bbebfd9a41b266c632e066528afbec6b82b1c136844f33727064b18fb1c357b.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:p",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 16,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:q-lowercase",
+        "label": "q",
+        "fields": {
+            "symbol": "q",
+            "pronunciation": ["cue"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.95,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.5,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.8,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.65,
+                                "time": 280
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/k/"],
+            "audio": "audio/8a2bfecd15475e0e6be792c2cf40e903a51cd906904e7b1b6d72cb64d6d4aa01.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:q",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 17,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:r-lowercase",
+        "label": "r",
+        "fields": {
+            "symbol": "r",
+            "pronunciation": ["ar"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.3,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.3,
+                                "y": 0.5,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.45,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.4,
+                                "time": 120
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/ɹ/"],
+            "audio": "audio/fc50d0c4f838cc90b371ec636781ee425d5a07fcbe2cc0e83b30de83fdf4b060.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:r",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 18,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:s-lowercase",
+        "label": "s",
+        "fields": {
+            "symbol": "s",
+            "pronunciation": ["ess"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.7,
+                                "y": 0.45,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.35,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.45,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.35,
+                                "y": 0.55,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.6,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.7,
+                                "time": 240
+                            },
+                            {
+                                "x": 0.6,
+                                "y": 0.8,
+                                "time": 280
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 320
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.7,
+                                "time": 360
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/s/", "/z/"],
+            "audio": "audio/3821f322d8200319202a5ae2041f6d9c20a64bd5c77ccc47d149edf6e7e4248a.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:s",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 19,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:t-lowercase",
+        "label": "t",
+        "fields": {
+            "symbol": "t",
+            "pronunciation": ["tee"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.45,
+                                "y": 0.2,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.45,
+                                "y": 0.7,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.8,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.75,
+                                "time": 120
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.4,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.4,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/t/"],
+            "audio": "audio/5e098b4c4ec5e4150bd16e4e05e292ab14f5fd10f3be8e87007c857e4b1b17e8.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:t",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 20,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:u-lowercase",
+        "label": "u",
+        "fields": {
+            "symbol": "u",
+            "pronunciation": ["you"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.65,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.4,
+                                "y": 0.8,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.55,
+                                "y": 0.8,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.65,
+                                "time": 160
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.35,
+                                "time": 200
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.8,
+                                "time": 240
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/ʌ/", "/juː/"],
+            "audio": "audio/a2d3003588169fedbfe63cfd6d02b97d8ccef882bbb68d4ed84c9b536b4e7c91.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:u",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 21,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:v-lowercase",
+        "label": "v",
+        "fields": {
+            "symbol": "v",
+            "pronunciation": ["vee"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.8,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.35,
+                                "time": 80
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/v/"],
+            "audio": "audio/ecb3e6b49fe13517669760d72bf925812983f7ba6878057e3a2414969da35be5.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:v",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 22,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:w-lowercase",
+        "label": "w",
+        "fields": {
+            "symbol": "w",
+            "pronunciation": ["double-u"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.15,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.8,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.45,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.7,
+                                "y": 0.8,
+                                "time": 120
+                            },
+                            {
+                                "x": 0.85,
+                                "y": 0.35,
+                                "time": 160
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/w/"],
+            "audio": "audio/fda3f7dacb8c5669788a81c8f759d6848164f0b64f2c2169b3cd6d1e9aab7b1b.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:w",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 23,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:x-lowercase",
+        "label": "x",
+        "fields": {
+            "symbol": "x",
+            "pronunciation": ["ex"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/ks/", "/ɡz/"],
+            "audio": "audio/9db75568174c69bfcd5af9be164b5299569a05111e7cd97269f7bb13354d543d.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:x",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 24,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:y-lowercase",
+        "label": "y",
+        "fields": {
+            "symbol": "y",
+            "pronunciation": ["why"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.5,
+                                "y": 0.8,
+                                "time": 40
+                            }
+                        ]
+                    },
+                    {
+                        "points": [
+                            {
+                                "x": 0.75,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.45,
+                                "y": 0.95,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.3,
+                                "y": 0.95,
+                                "time": 80
+                            }
+                        ]
+                    }
+                ],
+                "groups": [2],
+                "columns": 1
+            },
+            "letter_sounds": ["/j/", "/ɪ/", "/aɪ/"],
+            "audio": "audio/3e659d3e92eb8f75715110ecd1de9d4705b64b008f58279187e9b62d089fbb06.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:y",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 25,
+        "class": "writing:letter"
+    },
+    {
+        "id": "en:char:z-lowercase",
+        "label": "z",
+        "fields": {
+            "symbol": "z",
+            "pronunciation": ["zed", "zee"],
+            "stroke_pattern": {
+                "coordinateSystem": "normalized",
+                "tolerance": 60,
+                "strokes": [
+                    {
+                        "points": [
+                            {
+                                "x": 0.25,
+                                "y": 0.35,
+                                "time": 0
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.35,
+                                "time": 40
+                            },
+                            {
+                                "x": 0.25,
+                                "y": 0.8,
+                                "time": 80
+                            },
+                            {
+                                "x": 0.75,
+                                "y": 0.8,
+                                "time": 120
+                            }
+                        ]
+                    }
+                ],
+                "groups": [1],
+                "columns": 1
+            },
+            "letter_sounds": ["/z/"],
+            "audio": "audio/a82f05d2576846a5fa4c0e946c34ec7cd014463b34d654be87e3a69da1f909fe.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:definition:letter:z",
+                "relation": "definition"
+            }
+        ],
+        "displayId": 26,
+        "class": "writing:letter"
+    }
+]
