@@ -1,0 +1,262 @@
+[
+    {
+        "path": "audio/d85cca3c5ddfd58b34fcc8e4e82fff806e9a0b1547d835481af37cbd8ff91fb0.wav",
+        "entryId": "en:sentence:vegetables-example-cabbage",
+        "label": "We buy a cabbage.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+                "entryId": "en:word:travel-buy"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/eed9eca676bb3188728781713d6b7c9654a2bf304a15640111bb1b6f9d408cde.wav",
+                "entryId": "en:word:vegetables-cabbage"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+                "entryId": "en:word:travel-buy",
+                "startFrame": 22112,
+                "frameCount": 19907
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 44179,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/eed9eca676bb3188728781713d6b7c9654a2bf304a15640111bb1b6f9d408cde.wav",
+                "entryId": "en:word:vegetables-cabbage",
+                "startFrame": 58879,
+                "frameCount": 25480
+            }
+        ],
+        "sha256": "d85cca3c5ddfd58b34fcc8e4e82fff806e9a0b1547d835481af37cbd8ff91fb0",
+        "frames": 96119,
+        "input": {
+            "language": "en",
+            "label": "We buy a cabbage.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, including each selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/0c4e65efc909989d26bab9a6b3c76139bbc7de0a898692ac812171760891223b.wav",
+        "entryId": "en:sentence:vegetables-example-mushroom",
+        "label": "I cook mushrooms with rice.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/873d3ddc7f14042c8425ac23c85457ea9c6ec3a2061cdb616fc7dd81d01c32f3.wav",
+                "entryId": "en:word:household-cook"
+            },
+            {
+                "path": "audio/e11a797571a3a0f5d2caf192770d70fe960450a2c2457f7ac0d46985a02d0bd2.wav",
+                "entryId": "en:word:form-vegetables-mushrooms"
+            },
+            {
+                "path": "audio/6d2d3881b88f3c382ad83e70da941112308ecd8ffb35358a71c8c38c099170d6.wav",
+                "entryId": "en:particle:with"
+            },
+            {
+                "path": "audio/2f1aff6b9fc48808c7ea17e0f18661f9f72669d3cbe8ece8f3a1bafd65482800.wav",
+                "entryId": "en:word:rice"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/873d3ddc7f14042c8425ac23c85457ea9c6ec3a2061cdb616fc7dd81d01c32f3.wav",
+                "entryId": "en:word:household-cook",
+                "startFrame": 11067,
+                "frameCount": 19907
+            },
+            {
+                "path": "audio/e11a797571a3a0f5d2caf192770d70fe960450a2c2457f7ac0d46985a02d0bd2.wav",
+                "entryId": "en:word:form-vegetables-mushrooms",
+                "startFrame": 33134,
+                "frameCount": 25480
+            },
+            {
+                "path": "audio/6d2d3881b88f3c382ad83e70da941112308ecd8ffb35358a71c8c38c099170d6.wav",
+                "entryId": "en:particle:with",
+                "startFrame": 60774,
+                "frameCount": 12362
+            },
+            {
+                "path": "audio/2f1aff6b9fc48808c7ea17e0f18661f9f72669d3cbe8ece8f3a1bafd65482800.wav",
+                "entryId": "en:word:rice",
+                "startFrame": 75296,
+                "frameCount": 23251
+            }
+        ],
+        "sha256": "0c4e65efc909989d26bab9a6b3c76139bbc7de0a898692ac812171760891223b",
+        "frames": 110307,
+        "input": {
+            "language": "en",
+            "label": "I cook mushrooms with rice.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, including each selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/62e6e1a3e8ccc64598cb78fa4efee18c8ae9821eaec9bcb0d862a35de718631f.wav",
+        "entryId": "en:sentence:vegetables-example-spinach",
+        "label": "She likes spinach.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/c36a98159cd3599e0e3a4bcf704c2133e3a204f208b02467eaf2d409ad208da6.wav",
+                "entryId": "en:word:form-english-like-third-person"
+            },
+            {
+                "path": "audio/1895d0d4843393c91b47fd36d3032d08ced438258b23060a471566d6f64fb04f.wav",
+                "entryId": "en:word:vegetables-spinach"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/c36a98159cd3599e0e3a4bcf704c2133e3a204f208b02467eaf2d409ad208da6.wav",
+                "entryId": "en:word:form-english-like-third-person",
+                "startFrame": 14932,
+                "frameCount": 13186
+            },
+            {
+                "path": "audio/1895d0d4843393c91b47fd36d3032d08ced438258b23060a471566d6f64fb04f.wav",
+                "entryId": "en:word:vegetables-spinach",
+                "startFrame": 30278,
+                "frameCount": 24366
+            }
+        ],
+        "sha256": "62e6e1a3e8ccc64598cb78fa4efee18c8ae9821eaec9bcb0d862a35de718631f",
+        "frames": 66404,
+        "input": {
+            "language": "en",
+            "label": "She likes spinach.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, including each selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/38d089ea8e5ec19be38c055926b307598e1247dabe5805c1c5e467d3d215c511.wav",
+        "entryId": "en:sentence:vegetables-example-lettuce",
+        "label": "The lettuce is green.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/b3266c32e890be871bbdf13e1c9e7e7f8ac23838ea9d653a08703c8c19a34718.wav",
+                "entryId": "en:word:vegetables-lettuce"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/db96542c1374b239273b03531b9960ca6d5d7eaf0fac9bbb879a2f0f4f55a4f5.wav",
+                "entryId": "en:word:colors-green"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/b3266c32e890be871bbdf13e1c9e7e7f8ac23838ea9d653a08703c8c19a34718.wav",
+                "entryId": "en:word:vegetables-lettuce",
+                "startFrame": 12710,
+                "frameCount": 23251
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 38121,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/db96542c1374b239273b03531b9960ca6d5d7eaf0fac9bbb879a2f0f4f55a4f5.wav",
+                "entryId": "en:word:colors-green",
+                "startFrame": 50668,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "38d089ea8e5ec19be38c055926b307598e1247dabe5805c1c5e467d3d215c511",
+        "frames": 82335,
+        "input": {
+            "language": "en",
+            "label": "The lettuce is green.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, including each selected grammatical form."
+        }
+    }
+]

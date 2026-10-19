@@ -1,0 +1,168 @@
+[
+    {
+        "id": "en:sentence:kitchen-example-bowl",
+        "label": "I wash the bowl.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/bcf4a01cce7131183683d85cc2ff01ff04202752c12320bf78ce8ccf8d0d3eb3.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:household-wash",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:kitchen-bowl",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:kitchen-example-bowl",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:kitchen-example-knife",
+        "label": "We need two knives.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/ed4e44fb50e1a363a6e15f881f1c8a1a5c83b5c1ece05b5e1cf355b25818e8ee.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:need",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:two",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:form-kitchen-knives",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:kitchen-example-knife",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:kitchen-example-pot",
+        "label": "The pot is hot.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/a4b2f6094672066e038450f528e50d4a6dba7ada9dd7127aa1d2beddadb6c19a.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:kitchen-pot",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:hot",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:kitchen-example-pot",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:kitchen-example-pan",
+        "label": "She cooks fish in a pan.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/18caf77f72dd4c26b5438af2d04eed69615710f3b57bbf74c0facc22a9ee11e2.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-household-cook-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:fish",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:kitchen-pan",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:kitchen-example-pan",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

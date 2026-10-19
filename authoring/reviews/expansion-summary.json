@@ -9,9 +9,9 @@
         "libraryRecords": "Current total seed content records of all classes, shown only as a separate inventory measure."
     },
     "totals": {
-        "newDistinctVocabulary": 72,
-        "newExamples": 100,
-        "recordedGrammaticalForms": 75
+        "newDistinctVocabulary": 80,
+        "newExamples": 108,
+        "recordedGrammaticalForms": 82
     },
     "themes": [
         {
@@ -330,6 +330,37 @@
             "vocabularyAudit": "authoring/reviews/household-vocabulary.json"
         },
         {
+            "theme": "kitchen",
+            "newDistinctVocabularyCount": 4,
+            "vocabulary": [
+                {
+                    "entryId": "en:word:kitchen-bowl",
+                    "label": "bowl"
+                },
+                {
+                    "entryId": "en:word:kitchen-knife",
+                    "label": "knife"
+                },
+                {
+                    "entryId": "en:word:kitchen-pot",
+                    "label": "pot"
+                },
+                {
+                    "entryId": "en:word:kitchen-pan",
+                    "label": "pan"
+                }
+            ],
+            "newExampleCount": 4,
+            "exampleIds": [
+                "en:sentence:kitchen-example-bowl",
+                "en:sentence:kitchen-example-knife",
+                "en:sentence:kitchen-example-pot",
+                "en:sentence:kitchen-example-pan"
+            ],
+            "recordedGrammaticalFormCount": 4,
+            "vocabularyAudit": "authoring/reviews/kitchen-vocabulary.json"
+        },
+        {
             "theme": "places",
             "newDistinctVocabularyCount": 4,
             "vocabulary": [
@@ -511,6 +542,37 @@
             "vocabularyAudit": "authoring/reviews/transport-vocabulary.json"
         },
         {
+            "theme": "vegetables",
+            "newDistinctVocabularyCount": 4,
+            "vocabulary": [
+                {
+                    "entryId": "en:word:vegetables-cabbage",
+                    "label": "cabbage"
+                },
+                {
+                    "entryId": "en:word:vegetables-mushroom",
+                    "label": "mushroom"
+                },
+                {
+                    "entryId": "en:word:vegetables-spinach",
+                    "label": "spinach"
+                },
+                {
+                    "entryId": "en:word:vegetables-lettuce",
+                    "label": "lettuce"
+                }
+            ],
+            "newExampleCount": 4,
+            "exampleIds": [
+                "en:sentence:vegetables-example-cabbage",
+                "en:sentence:vegetables-example-mushroom",
+                "en:sentence:vegetables-example-spinach",
+                "en:sentence:vegetables-example-lettuce"
+            ],
+            "recordedGrammaticalFormCount": 3,
+            "vocabularyAudit": "authoring/reviews/vegetables-vocabulary.json"
+        },
+        {
             "theme": "weather",
             "newDistinctVocabularyCount": 4,
             "vocabulary": [
@@ -639,9 +701,9 @@
         }
     ],
     "currentLibrary": {
-        "totalRecords": 1174,
-        "illustrations": 264,
-        "starterDecks": 37
+        "totalRecords": 1213,
+        "illustrations": 272,
+        "starterDecks": 39
     },
     "audioListening": "unverified-not-performed-publication-authorized"
 }

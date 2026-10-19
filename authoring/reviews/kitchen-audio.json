@@ -1,0 +1,130 @@
+[
+    {
+        "entryId": "en:word:kitchen-bowl",
+        "path": "audio/602a5b18f35940ca7a99e287c3ccf5f588e16d278143c5e873d911838d9cc187.wav",
+        "sha256": "602a5b18f35940ca7a99e287c3ccf5f588e16d278143c5e873d911838d9cc187",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"bəʊl\">bowl</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "PIZ4aeJols6Onb76c5an",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/kitchen/kitchen-bowl.pcm",
+        "sourceSha256": "e4dfa2c847f1e6cd7a5721a46c28123db4b85ed4abb49a2328e41dc113e9f0a2",
+        "sourcePeak": 28997,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.92661309790668,
+        "paddingFramesEachSide": 480,
+        "frames": 27709,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:kitchen-knife",
+        "path": "audio/2d449ca80614e881c90713d92800b4a5f98a25832815f02d384b58b1f105b1ad.wav",
+        "sha256": "2d449ca80614e881c90713d92800b4a5f98a25832815f02d384b58b1f105b1ad",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"naɪf\">knife</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "krGfm4GIGFaAALmvblr5",
+            "character-cost": "2",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/kitchen/kitchen-knife.pcm",
+        "sourceSha256": "1632310509ce2389bfe14151b7bfe7e4002dbb3f81271e2af083589631f9d8ec",
+        "sourcePeak": 19981,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 19907,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:kitchen-pot",
+        "path": "audio/fa34aa05e09717286a6e51c1dc12fd5666e942cb18ef93160cc8025bfe11671f.wav",
+        "sha256": "fa34aa05e09717286a6e51c1dc12fd5666e942cb18ef93160cc8025bfe11671f",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"pɒt\">pot</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "NyIqePbhG8T0d8fkVQ5p",
+            "character-cost": "2",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/kitchen/kitchen-pot.pcm",
+        "sourceSha256": "c73fcbc9a7a26f184e9ac6872c4cd20cd7df781c2c7cbc05f4d55ef522749945",
+        "sourcePeak": 21540,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 19907,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:kitchen-pan",
+        "path": "audio/6cda0d008b83d3b3fa4def812c16623aa22b6fbf6fb422b942c9136da8249fd6.wav",
+        "sha256": "6cda0d008b83d3b3fa4def812c16623aa22b6fbf6fb422b942c9136da8249fd6",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"pæn\">pan</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "GxzcQuvcZ0cAmPaW6juG",
+            "character-cost": "2",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/kitchen/kitchen-pan.pcm",
+        "sourceSha256": "c18ae92c782abe9d210be90a6d25b6c19e7918365ce4bab154de75528a2bd565",
+        "sourcePeak": 27764,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9677640109494309,
+        "paddingFramesEachSide": 480,
+        "frames": 19907,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]

@@ -1,5 +1,161 @@
 [
     {
+        "path": "audio/c28dcbe9c035bd8c0b68b5989756769a423d85f3d2058d84ed086a20c53f93df.wav",
+        "text": "bowls",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"bəʊlz\">bowls</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "bowls",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/bəʊlz/"]
+            }
+        ],
+        "entries": ["en:word:form-kitchen-bowls"],
+        "variants": [
+            {
+                "entryId": "en:word:kitchen-bowl",
+                "setId": "noun-bowl",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "c28dcbe9c035bd8c0b68b5989756769a423d85f3d2058d84ed086a20c53f93df",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "9f45626d9a1ddeffe8c04e4719564b2156d784875d5144f07d694de4ce97680a"
+        }
+    },
+    {
+        "path": "audio/944156d896da93e5e83b504ac2584c47b02870ef252c1fe9470bc2253fd668a6.wav",
+        "text": "knives",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"naɪvz\">knives</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "knives",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/naɪvz/"]
+            }
+        ],
+        "entries": ["en:word:form-kitchen-knives"],
+        "variants": [
+            {
+                "entryId": "en:word:kitchen-knife",
+                "setId": "noun-knife",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "944156d896da93e5e83b504ac2584c47b02870ef252c1fe9470bc2253fd668a6",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "b6ca0c10fb5cf892fdcb2fb4f02293bd18810be283b59bfd24a8e6653a1e187d"
+        }
+    },
+    {
+        "path": "audio/a15557514e0616c127d98e13d68532c9275ea44b2835fb1c20f9b42608b4c3cb.wav",
+        "text": "pots",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"pɒts\">pots</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "pots",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/pɒts/"]
+            }
+        ],
+        "entries": ["en:word:form-kitchen-pots"],
+        "variants": [
+            {
+                "entryId": "en:word:kitchen-pot",
+                "setId": "noun-pot",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "a15557514e0616c127d98e13d68532c9275ea44b2835fb1c20f9b42608b4c3cb",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "77c02a9ee2e19d81bb4e6c4213968f161147c36efbfe6ac1c5860a92d3545a89"
+        }
+    },
+    {
+        "path": "audio/ea047841c80221f6fc785184715d6c500c516c9fbf5135cd2c662c2edb9b94fe.wav",
+        "text": "pans",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"pænz\">pans</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "pans",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/pænz/"]
+            }
+        ],
+        "entries": ["en:word:form-kitchen-pans"],
+        "variants": [
+            {
+                "entryId": "en:word:kitchen-pan",
+                "setId": "noun-pan",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "ea047841c80221f6fc785184715d6c500c516c9fbf5135cd2c662c2edb9b94fe",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "9b8a95756a97e38cec8df7350125c8285fb2dc5e93c98bdf10a82758664a84bc"
+        }
+    },
+    {
         "path": "audio/f6ecb2fa5d3dbd561a272879576a9e9d2f2ccd721b4459532b52e34741dbec34.wav",
         "text": "clouds",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",

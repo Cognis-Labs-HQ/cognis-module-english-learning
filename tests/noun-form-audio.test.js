@@ -43,6 +43,13 @@ for (const [theme, base, plural, reading] of [
     ["fruit", "pear", "pears", "/peəz/"],
     ["fruit", "watermelon", "watermelons", "/ˈwɔːtəmelənz/"],
     ["fruit", "pineapple", "pineapples", "/ˈpaɪnæplz/"],
+    ["kitchen", "bowl", "bowls", "/bəʊlz/"],
+    ["kitchen", "knife", "knives", "/naɪvz/"],
+    ["kitchen", "pot", "pots", "/pɒts/"],
+    ["kitchen", "pan", "pans", "/pænz/"],
+    ["vegetables", "cabbage", "cabbages", "/ˈkæbɪdʒɪz/"],
+    ["vegetables", "mushroom", "mushrooms", "/ˈmʌʃrʊmz/"],
+    ["vegetables", "lettuce", "lettuces", "/ˈletɪsɪz/"],
 ]) {
     test(`${base} plural spelling, IPA and recorded request agree`, async () => {
         const words = await load(

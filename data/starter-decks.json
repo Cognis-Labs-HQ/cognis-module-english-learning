@@ -801,5 +801,45 @@
             "en:sentence:fruit-example-watermelon",
             "en:sentence:fruit-example-pineapple"
         ]
+    },
+    {
+        "key": "kitchen-practice",
+        "name": {
+            "en": "Kitchen Equipment",
+            "de": "Küchengeräte",
+            "id": "Peralatan Dapur",
+            "ja": "台所の道具"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:word:kitchen-bowl",
+            "en:word:kitchen-knife",
+            "en:word:kitchen-pot",
+            "en:word:kitchen-pan",
+            "en:sentence:kitchen-example-bowl",
+            "en:sentence:kitchen-example-knife",
+            "en:sentence:kitchen-example-pot",
+            "en:sentence:kitchen-example-pan"
+        ]
+    },
+    {
+        "key": "vegetables-practice",
+        "name": {
+            "en": "More Vegetables",
+            "de": "Weiteres Gemüse",
+            "id": "Sayuran Lain",
+            "ja": "いろいろな野菜"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:word:vegetables-cabbage",
+            "en:word:vegetables-mushroom",
+            "en:word:vegetables-spinach",
+            "en:word:vegetables-lettuce",
+            "en:sentence:vegetables-example-cabbage",
+            "en:sentence:vegetables-example-mushroom",
+            "en:sentence:vegetables-example-spinach",
+            "en:sentence:vegetables-example-lettuce"
+        ]
     }
 ]

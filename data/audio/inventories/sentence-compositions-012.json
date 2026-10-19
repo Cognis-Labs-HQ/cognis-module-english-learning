@@ -238,5 +238,255 @@
             "listening": "unverified-not-performed",
             "construction": "Exact weather vocabulary and existing constituent PCM; English clouds uses the explicitly recorded plural /klaʊdz/."
         }
+    },
+    {
+        "path": "audio/a0b2f420b442b64a8cb16a171bfac918fb4cba25b405c3087ffd860d4bf5a581.wav",
+        "entryId": "en:sentence:clothing-example-shirt",
+        "label": "I buy a shirt.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+                "entryId": "en:word:travel-buy"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/1dcc58ee3a2dce873b01b597e4820c285eba988cdc8570159cf30389a4e6f065.wav",
+                "entryId": "en:word:clothing-shirt"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+                "entryId": "en:word:travel-buy",
+                "startFrame": 11067,
+                "frameCount": 19907
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 33134,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/1dcc58ee3a2dce873b01b597e4820c285eba988cdc8570159cf30389a4e6f065.wav",
+                "entryId": "en:word:clothing-shirt",
+                "startFrame": 47834,
+                "frameCount": 18793
+            }
+        ],
+        "sha256": "a0b2f420b442b64a8cb16a171bfac918fb4cba25b405c3087ffd860d4bf5a581",
+        "frames": 78387,
+        "input": {
+            "language": "en",
+            "label": "I buy a shirt.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact clothing and existing constituent PCM, including selected English likes and plural socks."
+        }
+    },
+    {
+        "path": "audio/5c4ceee81bf78a66b8f933e959130550ef6e18db84afb5538499ad290c8d59e0.wav",
+        "entryId": "en:sentence:clothing-example-dress",
+        "label": "She likes the dress.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/c36a98159cd3599e0e3a4bcf704c2133e3a204f208b02467eaf2d409ad208da6.wav",
+                "entryId": "en:word:form-english-like-third-person"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/fbc5452b8350acb7b99d28bcd1d2d468addb024891ef8ae82f9072ca09d4b42b.wav",
+                "entryId": "en:word:clothing-dress"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/c36a98159cd3599e0e3a4bcf704c2133e3a204f208b02467eaf2d409ad208da6.wav",
+                "entryId": "en:word:form-english-like-third-person",
+                "startFrame": 14932,
+                "frameCount": 13186
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 30278,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/fbc5452b8350acb7b99d28bcd1d2d468addb024891ef8ae82f9072ca09d4b42b.wav",
+                "entryId": "en:word:clothing-dress",
+                "startFrame": 40588,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "5c4ceee81bf78a66b8f933e959130550ef6e18db84afb5538499ad290c8d59e0",
+        "frames": 72255,
+        "input": {
+            "language": "en",
+            "label": "She likes the dress.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact clothing and existing constituent PCM, including selected English likes and plural socks."
+        }
+    },
+    {
+        "path": "audio/a12c964bcaa94248fc4fcc00c36e177360f8a85f6ee047c4754b340b6bf7f827.wav",
+        "entryId": "en:sentence:clothing-example-sock",
+        "label": "We need socks.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need"
+            },
+            {
+                "path": "audio/aba9e1351f05adb48d1d2c909c1787f1293ee5dadcd04219843bb8914fdb75aa.wav",
+                "entryId": "en:word:form-clothing-socks"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need",
+                "startFrame": 22112,
+                "frameCount": 9927
+            },
+            {
+                "path": "audio/aba9e1351f05adb48d1d2c909c1787f1293ee5dadcd04219843bb8914fdb75aa.wav",
+                "entryId": "en:word:form-clothing-socks",
+                "startFrame": 34199,
+                "frameCount": 24366
+            }
+        ],
+        "sha256": "a12c964bcaa94248fc4fcc00c36e177360f8a85f6ee047c4754b340b6bf7f827",
+        "frames": 70325,
+        "input": {
+            "language": "en",
+            "label": "We need socks.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact clothing and existing constituent PCM, including selected English likes and plural socks."
+        }
+    },
+    {
+        "path": "audio/b26080bf7f8302fbed377f41950e064c9ac37641acd74695fcd0d363dc181a2b.wav",
+        "entryId": "en:sentence:clothing-example-skirt",
+        "label": "They buy a skirt.",
+        "parts": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they"
+            },
+            {
+                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+                "entryId": "en:word:travel-buy"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/8b1d66eb13eb98a2ae5ed643e2b85c3a76c85359c9f7d42d06bfb43399da9191.wav",
+                "entryId": "en:word:clothing-skirt"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they",
+                "startFrame": 2400,
+                "frameCount": 9803
+            },
+            {
+                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+                "entryId": "en:word:travel-buy",
+                "startFrame": 14363,
+                "frameCount": 19907
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 36430,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/8b1d66eb13eb98a2ae5ed643e2b85c3a76c85359c9f7d42d06bfb43399da9191.wav",
+                "entryId": "en:word:clothing-skirt",
+                "startFrame": 51130,
+                "frameCount": 22137
+            }
+        ],
+        "sha256": "b26080bf7f8302fbed377f41950e064c9ac37641acd74695fcd0d363dc181a2b",
+        "frames": 85027,
+        "input": {
+            "language": "en",
+            "label": "They buy a skirt.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact clothing and existing constituent PCM, including selected English likes and plural socks."
+        }
     }
 ]

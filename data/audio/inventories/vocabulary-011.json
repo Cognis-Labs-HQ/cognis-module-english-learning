@@ -28,5 +28,433 @@
         },
         "sha256": "9fed3356fee0487af053a00af97784448eebdfb60ee9578fbdf35fedb0342860",
         "frames": 22137
+    },
+    {
+        "path": "audio/602a5b18f35940ca7a99e287c3ccf5f588e16d278143c5e873d911838d9cc187.wav",
+        "text": "bowl",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"bəʊl\">bowl</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "bowl",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/bəʊl/"]
+            }
+        ],
+        "entries": ["en:word:kitchen-bowl"],
+        "variants": [],
+        "sha256": "602a5b18f35940ca7a99e287c3ccf5f588e16d278143c5e873d911838d9cc187",
+        "frames": 27709,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "e4dfa2c847f1e6cd7a5721a46c28123db4b85ed4abb49a2328e41dc113e9f0a2"
+        }
+    },
+    {
+        "path": "audio/2d449ca80614e881c90713d92800b4a5f98a25832815f02d384b58b1f105b1ad.wav",
+        "text": "knife",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"naɪf\">knife</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "knife",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/naɪf/"]
+            }
+        ],
+        "entries": ["en:word:kitchen-knife"],
+        "variants": [],
+        "sha256": "2d449ca80614e881c90713d92800b4a5f98a25832815f02d384b58b1f105b1ad",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "1632310509ce2389bfe14151b7bfe7e4002dbb3f81271e2af083589631f9d8ec"
+        }
+    },
+    {
+        "path": "audio/fa34aa05e09717286a6e51c1dc12fd5666e942cb18ef93160cc8025bfe11671f.wav",
+        "text": "pot",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"pɒt\">pot</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "pot",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/pɒt/"]
+            }
+        ],
+        "entries": ["en:word:kitchen-pot"],
+        "variants": [],
+        "sha256": "fa34aa05e09717286a6e51c1dc12fd5666e942cb18ef93160cc8025bfe11671f",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "c73fcbc9a7a26f184e9ac6872c4cd20cd7df781c2c7cbc05f4d55ef522749945"
+        }
+    },
+    {
+        "path": "audio/6cda0d008b83d3b3fa4def812c16623aa22b6fbf6fb422b942c9136da8249fd6.wav",
+        "text": "pan",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"pæn\">pan</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "pan",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/pæn/"]
+            }
+        ],
+        "entries": ["en:word:kitchen-pan"],
+        "variants": [],
+        "sha256": "6cda0d008b83d3b3fa4def812c16623aa22b6fbf6fb422b942c9136da8249fd6",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "c18ae92c782abe9d210be90a6d25b6c19e7918365ce4bab154de75528a2bd565"
+        }
+    },
+    {
+        "path": "audio/5892016b0b6e69a27533346650d767f5a09322f5c9e7baa52c7eb37ce2c09ed4.wav",
+        "text": "map",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "map",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "map",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/mæp/"]
+            }
+        ],
+        "entries": ["en:word:travel-map"],
+        "variants": [],
+        "sha256": "5892016b0b6e69a27533346650d767f5a09322f5c9e7baa52c7eb37ce2c09ed4",
+        "frames": 16564,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "7b7ea9614680917e6ac38329cb5571197d9d6cff96b7b13c88d7bb319b4a22b1"
+        }
+    },
+    {
+        "path": "audio/b8cf373244b6f2e87955521adb94e99d7c3307838f188b8829beb2f4775350ff.wav",
+        "text": "maps",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "maps",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "maps",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/mæps/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:travel-map",
+                "setId": "travel-map-forms",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "b8cf373244b6f2e87955521adb94e99d7c3307838f188b8829beb2f4775350ff",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "93d23de804ec934a74c17e2da9d0d3e7fecb3d0f3c83448c9ca119214145297b"
+        }
+    },
+    {
+        "path": "audio/530487fb841e627bf2e86cc561211a7383cd70e9a13325bee68e5a4d61c88c51.wav",
+        "text": "passport",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "passport",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "passport",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈpɑːspɔːt/"]
+            }
+        ],
+        "entries": ["en:word:travel-passport"],
+        "variants": [],
+        "sha256": "530487fb841e627bf2e86cc561211a7383cd70e9a13325bee68e5a4d61c88c51",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "16210ba3d8390c5e805eacaafddb139bfce14565243c09b4d33b6d50bee4cde1"
+        }
+    },
+    {
+        "path": "audio/add8beb7b759d09c894561548913d7ab2febcc2091ea7f72e856432d2cf045c8.wav",
+        "text": "passports",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "passports",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "passports",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈpɑːspɔːts/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:travel-passport",
+                "setId": "travel-passport-forms",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "add8beb7b759d09c894561548913d7ab2febcc2091ea7f72e856432d2cf045c8",
+        "frames": 26595,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "eb2257bd11f13898a9308d21301bdb43b5b8c31f60b5d6b8e52d11ca6b305708"
+        }
+    },
+    {
+        "path": "audio/bccb328c3da88bb98b9b36eb46bc6e25246f3f2831e4c2d82ab2d0f434179c06.wav",
+        "text": "platform",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "platform",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "platform",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈplætfɔːm/"]
+            }
+        ],
+        "entries": ["en:word:travel-platform"],
+        "variants": [],
+        "sha256": "bccb328c3da88bb98b9b36eb46bc6e25246f3f2831e4c2d82ab2d0f434179c06",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "552c9610820352f35f68b4ff4549affd970ab6c60b0a230fb227b364d39c3fec"
+        }
+    },
+    {
+        "path": "audio/d60d0f9a6644f9e51c5b66f00c57d0befc19a76dd24b79335ddafd750836cc06.wav",
+        "text": "platforms",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "platforms",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "platforms",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈplætfɔːmz/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:travel-platform",
+                "setId": "travel-platform-forms",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "d60d0f9a6644f9e51c5b66f00c57d0befc19a76dd24b79335ddafd750836cc06",
+        "frames": 26595,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "29bd097b80bdf6dd08e7a1ac4190a5db882f4cff12931982dddadea85695ddeb"
+        }
+    },
+    {
+        "path": "audio/3fb2aebfb3234140e80aad57cdfff1963c62d329f2109f447636dafb983bd4ac.wav",
+        "text": "station",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "station",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "station",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈsteɪʃən/"]
+            }
+        ],
+        "entries": ["en:word:travel-station"],
+        "variants": [],
+        "sha256": "3fb2aebfb3234140e80aad57cdfff1963c62d329f2109f447636dafb983bd4ac",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "4fe4e4f54615dfea1e145596ab9df9a508669462bbf4322da85e88f030e3e022"
+        }
+    },
+    {
+        "path": "audio/06a4c360a9ad66e2540d182da1e4e0f05de76c6d97ff5058701c6d7bdb8d532b.wav",
+        "text": "stations",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "stations",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "stations",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈsteɪʃənz/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:travel-station",
+                "setId": "travel-station-forms",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "06a4c360a9ad66e2540d182da1e4e0f05de76c6d97ff5058701c6d7bdb8d532b",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "fb21f2bdcc1b80cf906ff183748d1e04df8214c62eb3a564784f6ddf6664f45b"
+        }
     }
 ]
