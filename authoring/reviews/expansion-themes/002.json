@@ -1,5 +1,36 @@
 [
     {
+        "theme": "household",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:household-wash",
+                "label": "wash"
+            },
+            {
+                "entryId": "en:word:household-cook",
+                "label": "cook"
+            },
+            {
+                "entryId": "en:word:household-clean",
+                "label": "clean"
+            },
+            {
+                "entryId": "en:word:household-dry",
+                "label": "dry"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:household-example-wash",
+            "en:sentence:household-example-cook",
+            "en:sentence:household-example-clean",
+            "en:sentence:household-example-dry"
+        ],
+        "recordedGrammaticalFormCount": 16,
+        "vocabularyAudit": "authoring/reviews/household-vocabulary.json"
+    },
+    {
         "theme": "kitchen",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -91,6 +122,37 @@
         ],
         "recordedGrammaticalFormCount": 4,
         "vocabularyAudit": "authoring/reviews/places-vocabulary.json"
+    },
+    {
+        "theme": "qualities",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:qualities-heavy",
+                "label": "heavy"
+            },
+            {
+                "entryId": "en:word:qualities-light",
+                "label": "light"
+            },
+            {
+                "entryId": "en:word:qualities-easy",
+                "label": "easy"
+            },
+            {
+                "entryId": "en:word:qualities-difficult",
+                "label": "difficult"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:qualities-example-heavy",
+            "en:sentence:qualities-example-light",
+            "en:sentence:qualities-example-easy",
+            "en:sentence:qualities-example-difficult"
+        ],
+        "recordedGrammaticalFormCount": 8,
+        "vocabularyAudit": "authoring/reviews/qualities-vocabulary.json"
     },
     {
         "theme": "rooms",
@@ -241,67 +303,5 @@
         "exampleIds": [],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/time-vocabulary.json"
-    },
-    {
-        "theme": "transport",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:transport-airplane",
-                "label": "airplane"
-            },
-            {
-                "entryId": "en:word:transport-boat",
-                "label": "boat"
-            },
-            {
-                "entryId": "en:word:transport-taxi",
-                "label": "taxi"
-            },
-            {
-                "entryId": "en:word:transport-motorcycle",
-                "label": "motorcycle"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:transport-example-airplane",
-            "en:sentence:transport-example-boat",
-            "en:sentence:transport-example-taxi",
-            "en:sentence:transport-example-motorcycle"
-        ],
-        "recordedGrammaticalFormCount": 4,
-        "vocabularyAudit": "authoring/reviews/transport-vocabulary.json"
-    },
-    {
-        "theme": "vegetables",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:vegetables-cabbage",
-                "label": "cabbage"
-            },
-            {
-                "entryId": "en:word:vegetables-mushroom",
-                "label": "mushroom"
-            },
-            {
-                "entryId": "en:word:vegetables-spinach",
-                "label": "spinach"
-            },
-            {
-                "entryId": "en:word:vegetables-lettuce",
-                "label": "lettuce"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:vegetables-example-cabbage",
-            "en:sentence:vegetables-example-mushroom",
-            "en:sentence:vegetables-example-spinach",
-            "en:sentence:vegetables-example-lettuce"
-        ],
-        "recordedGrammaticalFormCount": 3,
-        "vocabularyAudit": "authoring/reviews/vegetables-vocabulary.json"
     }
 ]

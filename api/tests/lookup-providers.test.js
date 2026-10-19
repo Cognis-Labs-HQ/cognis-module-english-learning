@@ -84,9 +84,9 @@ test("remote lookup keeps curated irregular paradigms and primary IPA, and bound
 
 test("new vocabulary resolves existing alphabet links without inventing irregular inflections", async () => {
     const provider = dictionary(
-        async () => new Response(JSON.stringify([dictionaryRecord("swim")])),
+        async () => new Response(JSON.stringify([dictionaryRecord("sing")])),
     );
-    const [result] = await provider.lookup({ schema, layer, label: "swim" });
+    const [result] = await provider.lookup({ schema, layer, label: "sing" });
     assert.equal(result.class, "lexical:verb");
     assert.deepEqual(result.tags, ["verb"]);
     assert.equal(result.references.length, 4);

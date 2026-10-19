@@ -1,5 +1,67 @@
 [
     {
+        "theme": "transport",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:transport-airplane",
+                "label": "airplane"
+            },
+            {
+                "entryId": "en:word:transport-boat",
+                "label": "boat"
+            },
+            {
+                "entryId": "en:word:transport-taxi",
+                "label": "taxi"
+            },
+            {
+                "entryId": "en:word:transport-motorcycle",
+                "label": "motorcycle"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:transport-example-airplane",
+            "en:sentence:transport-example-boat",
+            "en:sentence:transport-example-taxi",
+            "en:sentence:transport-example-motorcycle"
+        ],
+        "recordedGrammaticalFormCount": 4,
+        "vocabularyAudit": "authoring/reviews/transport-vocabulary.json"
+    },
+    {
+        "theme": "vegetables",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:vegetables-cabbage",
+                "label": "cabbage"
+            },
+            {
+                "entryId": "en:word:vegetables-mushroom",
+                "label": "mushroom"
+            },
+            {
+                "entryId": "en:word:vegetables-spinach",
+                "label": "spinach"
+            },
+            {
+                "entryId": "en:word:vegetables-lettuce",
+                "label": "lettuce"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:vegetables-example-cabbage",
+            "en:sentence:vegetables-example-mushroom",
+            "en:sentence:vegetables-example-spinach",
+            "en:sentence:vegetables-example-lettuce"
+        ],
+        "recordedGrammaticalFormCount": 3,
+        "vocabularyAudit": "authoring/reviews/vegetables-vocabulary.json"
+    },
+    {
         "theme": "weather",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [

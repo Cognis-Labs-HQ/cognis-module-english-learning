@@ -901,5 +901,45 @@
             "en:sentence:fixtures-example-sink",
             "en:sentence:fixtures-example-shower"
         ]
+    },
+    {
+        "key": "actions-practice",
+        "name": {
+            "en": "Everyday Actions",
+            "de": "Alltägliche Tätigkeiten",
+            "id": "Tindakan Sehari-hari",
+            "ja": "日常の動作"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:word:actions-jump",
+            "en:word:actions-swim",
+            "en:word:actions-laugh",
+            "en:word:actions-cry",
+            "en:sentence:actions-example-jump",
+            "en:sentence:actions-example-swim",
+            "en:sentence:actions-example-laugh",
+            "en:sentence:actions-example-cry"
+        ]
+    },
+    {
+        "key": "qualities-practice",
+        "name": {
+            "en": "Weight and Difficulty",
+            "de": "Gewicht und Schwierigkeit",
+            "id": "Berat dan Kesulitan",
+            "ja": "重さと難しさ"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:word:qualities-heavy",
+            "en:word:qualities-light",
+            "en:word:qualities-easy",
+            "en:word:qualities-difficult",
+            "en:sentence:qualities-example-heavy",
+            "en:sentence:qualities-example-light",
+            "en:sentence:qualities-example-easy",
+            "en:sentence:qualities-example-difficult"
+        ]
     }
 ]

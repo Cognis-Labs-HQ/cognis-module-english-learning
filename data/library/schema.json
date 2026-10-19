@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 42,
+    "version": 44,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -12797,6 +12797,822 @@
                 }
             ],
             "optInTag": "plural"
+        },
+        {
+            "id": "actions-jump-forms",
+            "metadata": {
+                "labels": {
+                    "en": "jump Forms",
+                    "de": "jump-Formen",
+                    "id": "Bentuk jump",
+                    "ja": "jumpの活用"
+                }
+            },
+            "matchTags": ["verb", "actions-form-jump"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "third-person",
+                    "metadata": {
+                        "labels": {
+                            "en": "Third-Person Singular",
+                            "de": "Dritte Person Singular",
+                            "id": "Orang Ketiga Tunggal",
+                            "ja": "三人称単数"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "third-person",
+                    "removeSuffix": "jump",
+                    "append": "jumps",
+                    "pronunciation": {
+                        "removeSuffix": "/dʒʌmp/",
+                        "append": "/dʒʌmps/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Third-Person Singular)",
+                                "de": "{{ definition }} (Dritte Person Singular)",
+                                "id": "{{ definition }} (Orang Ketiga Tunggal)",
+                                "ja": "{{ definition }} (三人称単数)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past",
+                            "de": "Vergangenheit",
+                            "id": "Lampau",
+                            "ja": "過去形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past",
+                    "removeSuffix": "jump",
+                    "append": "jumped",
+                    "pronunciation": {
+                        "removeSuffix": "/dʒʌmp/",
+                        "append": "/dʒʌmpt/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past)",
+                                "de": "{{ definition }} (Vergangenheit)",
+                                "id": "{{ definition }} (Lampau)",
+                                "ja": "{{ definition }} (過去形)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "present-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Present Participle",
+                            "de": "Präsenspartizip",
+                            "id": "Partisip Kini",
+                            "ja": "現在分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "present-participle",
+                    "removeSuffix": "jump",
+                    "append": "jumping",
+                    "pronunciation": {
+                        "removeSuffix": "/dʒʌmp/",
+                        "append": "/ˈdʒʌmpɪŋ/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Present Participle)",
+                                "de": "{{ definition }} (Präsenspartizip)",
+                                "id": "{{ definition }} (Partisip Kini)",
+                                "ja": "{{ definition }} (現在分詞)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past Participle",
+                            "de": "Partizip Perfekt",
+                            "id": "Partisip Lampau",
+                            "ja": "過去分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past-participle",
+                    "removeSuffix": "jump",
+                    "append": "jumped",
+                    "pronunciation": {
+                        "removeSuffix": "/dʒʌmp/",
+                        "append": "/dʒʌmpt/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past Participle)",
+                                "de": "{{ definition }} (Partizip Perfekt)",
+                                "id": "{{ definition }} (Partisip Lampau)",
+                                "ja": "{{ definition }} (過去分詞)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "actions-swim-forms",
+            "metadata": {
+                "labels": {
+                    "en": "swim Forms",
+                    "de": "swim-Formen",
+                    "id": "Bentuk swim",
+                    "ja": "swimの活用"
+                }
+            },
+            "matchTags": ["verb", "actions-form-swim"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "third-person",
+                    "metadata": {
+                        "labels": {
+                            "en": "Third-Person Singular",
+                            "de": "Dritte Person Singular",
+                            "id": "Orang Ketiga Tunggal",
+                            "ja": "三人称単数"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "third-person",
+                    "removeSuffix": "swim",
+                    "append": "swims",
+                    "pronunciation": {
+                        "removeSuffix": "/swɪm/",
+                        "append": "/swɪmz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Third-Person Singular)",
+                                "de": "{{ definition }} (Dritte Person Singular)",
+                                "id": "{{ definition }} (Orang Ketiga Tunggal)",
+                                "ja": "{{ definition }} (三人称単数)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past",
+                            "de": "Vergangenheit",
+                            "id": "Lampau",
+                            "ja": "過去形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past",
+                    "removeSuffix": "swim",
+                    "append": "swam",
+                    "pronunciation": {
+                        "removeSuffix": "/swɪm/",
+                        "append": "/swæm/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past)",
+                                "de": "{{ definition }} (Vergangenheit)",
+                                "id": "{{ definition }} (Lampau)",
+                                "ja": "{{ definition }} (過去形)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "present-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Present Participle",
+                            "de": "Präsenspartizip",
+                            "id": "Partisip Kini",
+                            "ja": "現在分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "present-participle",
+                    "removeSuffix": "swim",
+                    "append": "swimming",
+                    "pronunciation": {
+                        "removeSuffix": "/swɪm/",
+                        "append": "/ˈswɪmɪŋ/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Present Participle)",
+                                "de": "{{ definition }} (Präsenspartizip)",
+                                "id": "{{ definition }} (Partisip Kini)",
+                                "ja": "{{ definition }} (現在分詞)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past Participle",
+                            "de": "Partizip Perfekt",
+                            "id": "Partisip Lampau",
+                            "ja": "過去分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past-participle",
+                    "removeSuffix": "swim",
+                    "append": "swum",
+                    "pronunciation": {
+                        "removeSuffix": "/swɪm/",
+                        "append": "/swʌm/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past Participle)",
+                                "de": "{{ definition }} (Partizip Perfekt)",
+                                "id": "{{ definition }} (Partisip Lampau)",
+                                "ja": "{{ definition }} (過去分詞)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "actions-laugh-forms",
+            "metadata": {
+                "labels": {
+                    "en": "laugh Forms",
+                    "de": "laugh-Formen",
+                    "id": "Bentuk laugh",
+                    "ja": "laughの活用"
+                }
+            },
+            "matchTags": ["verb", "actions-form-laugh"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "third-person",
+                    "metadata": {
+                        "labels": {
+                            "en": "Third-Person Singular",
+                            "de": "Dritte Person Singular",
+                            "id": "Orang Ketiga Tunggal",
+                            "ja": "三人称単数"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "third-person",
+                    "removeSuffix": "laugh",
+                    "append": "laughs",
+                    "pronunciation": {
+                        "removeSuffix": "/lɑːf/",
+                        "append": "/lɑːfs/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Third-Person Singular)",
+                                "de": "{{ definition }} (Dritte Person Singular)",
+                                "id": "{{ definition }} (Orang Ketiga Tunggal)",
+                                "ja": "{{ definition }} (三人称単数)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past",
+                            "de": "Vergangenheit",
+                            "id": "Lampau",
+                            "ja": "過去形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past",
+                    "removeSuffix": "laugh",
+                    "append": "laughed",
+                    "pronunciation": {
+                        "removeSuffix": "/lɑːf/",
+                        "append": "/lɑːft/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past)",
+                                "de": "{{ definition }} (Vergangenheit)",
+                                "id": "{{ definition }} (Lampau)",
+                                "ja": "{{ definition }} (過去形)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "present-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Present Participle",
+                            "de": "Präsenspartizip",
+                            "id": "Partisip Kini",
+                            "ja": "現在分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "present-participle",
+                    "removeSuffix": "laugh",
+                    "append": "laughing",
+                    "pronunciation": {
+                        "removeSuffix": "/lɑːf/",
+                        "append": "/ˈlɑːfɪŋ/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Present Participle)",
+                                "de": "{{ definition }} (Präsenspartizip)",
+                                "id": "{{ definition }} (Partisip Kini)",
+                                "ja": "{{ definition }} (現在分詞)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past Participle",
+                            "de": "Partizip Perfekt",
+                            "id": "Partisip Lampau",
+                            "ja": "過去分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past-participle",
+                    "removeSuffix": "laugh",
+                    "append": "laughed",
+                    "pronunciation": {
+                        "removeSuffix": "/lɑːf/",
+                        "append": "/lɑːft/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past Participle)",
+                                "de": "{{ definition }} (Partizip Perfekt)",
+                                "id": "{{ definition }} (Partisip Lampau)",
+                                "ja": "{{ definition }} (過去分詞)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "actions-cry-forms",
+            "metadata": {
+                "labels": {
+                    "en": "cry Forms",
+                    "de": "cry-Formen",
+                    "id": "Bentuk cry",
+                    "ja": "cryの活用"
+                }
+            },
+            "matchTags": ["verb", "actions-form-cry"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "third-person",
+                    "metadata": {
+                        "labels": {
+                            "en": "Third-Person Singular",
+                            "de": "Dritte Person Singular",
+                            "id": "Orang Ketiga Tunggal",
+                            "ja": "三人称単数"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "third-person",
+                    "removeSuffix": "cry",
+                    "append": "cries",
+                    "pronunciation": {
+                        "removeSuffix": "/kraɪ/",
+                        "append": "/kraɪz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Third-Person Singular)",
+                                "de": "{{ definition }} (Dritte Person Singular)",
+                                "id": "{{ definition }} (Orang Ketiga Tunggal)",
+                                "ja": "{{ definition }} (三人称単数)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past",
+                            "de": "Vergangenheit",
+                            "id": "Lampau",
+                            "ja": "過去形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past",
+                    "removeSuffix": "cry",
+                    "append": "cried",
+                    "pronunciation": {
+                        "removeSuffix": "/kraɪ/",
+                        "append": "/kraɪd/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past)",
+                                "de": "{{ definition }} (Vergangenheit)",
+                                "id": "{{ definition }} (Lampau)",
+                                "ja": "{{ definition }} (過去形)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "present-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Present Participle",
+                            "de": "Präsenspartizip",
+                            "id": "Partisip Kini",
+                            "ja": "現在分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "present-participle",
+                    "removeSuffix": "cry",
+                    "append": "crying",
+                    "pronunciation": {
+                        "removeSuffix": "/kraɪ/",
+                        "append": "/ˈkraɪɪŋ/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Present Participle)",
+                                "de": "{{ definition }} (Präsenspartizip)",
+                                "id": "{{ definition }} (Partisip Kini)",
+                                "ja": "{{ definition }} (現在分詞)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past Participle",
+                            "de": "Partizip Perfekt",
+                            "id": "Partisip Lampau",
+                            "ja": "過去分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past-participle",
+                    "removeSuffix": "cry",
+                    "append": "cried",
+                    "pronunciation": {
+                        "removeSuffix": "/kraɪ/",
+                        "append": "/kraɪd/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past Participle)",
+                                "de": "{{ definition }} (Partizip Perfekt)",
+                                "id": "{{ definition }} (Partisip Lampau)",
+                                "ja": "{{ definition }} (過去分詞)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "qualities-heavy-forms",
+            "metadata": {
+                "labels": {
+                    "en": "heavy Forms",
+                    "de": "heavy-Formen",
+                    "id": "Bentuk heavy",
+                    "ja": "heavyの活用"
+                }
+            },
+            "matchTags": ["adjective", "qualities-form-heavy"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "comparative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Comparative",
+                            "de": "Komparativ",
+                            "id": "Komparatif",
+                            "ja": "比較級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "comparative",
+                    "removeSuffix": "heavy",
+                    "append": "heavier",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈhevi/",
+                        "append": "/ˈheviə/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Comparative)",
+                                "de": "{{ definition }} (Komparativ)",
+                                "id": "{{ definition }} (Komparatif)",
+                                "ja": "{{ definition }} (比較級)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "superlative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Superlative",
+                            "de": "Superlativ",
+                            "id": "Superlatif",
+                            "ja": "最上級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "superlative",
+                    "removeSuffix": "heavy",
+                    "append": "heaviest",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈhevi/",
+                        "append": "/ˈheviɪst/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Superlative)",
+                                "de": "{{ definition }} (Superlativ)",
+                                "id": "{{ definition }} (Superlatif)",
+                                "ja": "{{ definition }} (最上級)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "qualities-light-forms",
+            "metadata": {
+                "labels": {
+                    "en": "light Forms",
+                    "de": "light-Formen",
+                    "id": "Bentuk light",
+                    "ja": "lightの活用"
+                }
+            },
+            "matchTags": ["adjective", "qualities-form-light"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "comparative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Comparative",
+                            "de": "Komparativ",
+                            "id": "Komparatif",
+                            "ja": "比較級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "comparative",
+                    "removeSuffix": "light",
+                    "append": "lighter",
+                    "pronunciation": {
+                        "removeSuffix": "/laɪt/",
+                        "append": "/ˈlaɪtə/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Comparative)",
+                                "de": "{{ definition }} (Komparativ)",
+                                "id": "{{ definition }} (Komparatif)",
+                                "ja": "{{ definition }} (比較級)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "superlative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Superlative",
+                            "de": "Superlativ",
+                            "id": "Superlatif",
+                            "ja": "最上級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "superlative",
+                    "removeSuffix": "light",
+                    "append": "lightest",
+                    "pronunciation": {
+                        "removeSuffix": "/laɪt/",
+                        "append": "/ˈlaɪtɪst/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Superlative)",
+                                "de": "{{ definition }} (Superlativ)",
+                                "id": "{{ definition }} (Superlatif)",
+                                "ja": "{{ definition }} (最上級)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "qualities-easy-forms",
+            "metadata": {
+                "labels": {
+                    "en": "easy Forms",
+                    "de": "easy-Formen",
+                    "id": "Bentuk easy",
+                    "ja": "easyの活用"
+                }
+            },
+            "matchTags": ["adjective", "qualities-form-easy"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "comparative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Comparative",
+                            "de": "Komparativ",
+                            "id": "Komparatif",
+                            "ja": "比較級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "comparative",
+                    "removeSuffix": "easy",
+                    "append": "easier",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈiːzi/",
+                        "append": "/ˈiːziə/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Comparative)",
+                                "de": "{{ definition }} (Komparativ)",
+                                "id": "{{ definition }} (Komparatif)",
+                                "ja": "{{ definition }} (比較級)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "superlative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Superlative",
+                            "de": "Superlativ",
+                            "id": "Superlatif",
+                            "ja": "最上級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "superlative",
+                    "removeSuffix": "easy",
+                    "append": "easiest",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈiːzi/",
+                        "append": "/ˈiːziɪst/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Superlative)",
+                                "de": "{{ definition }} (Superlativ)",
+                                "id": "{{ definition }} (Superlatif)",
+                                "ja": "{{ definition }} (最上級)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "qualities-difficult-forms",
+            "metadata": {
+                "labels": {
+                    "en": "difficult Forms",
+                    "de": "difficult-Formen",
+                    "id": "Bentuk difficult",
+                    "ja": "difficultの活用"
+                }
+            },
+            "matchTags": ["adjective", "qualities-form-difficult"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "comparative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Comparative",
+                            "de": "Komparativ",
+                            "id": "Komparatif",
+                            "ja": "比較級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "comparative",
+                    "removeSuffix": "difficult",
+                    "append": "more difficult",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈdɪfɪkəlt/",
+                        "append": "/mɔː ˈdɪfɪkəlt/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Comparative)",
+                                "de": "{{ definition }} (Komparativ)",
+                                "id": "{{ definition }} (Komparatif)",
+                                "ja": "{{ definition }} (比較級)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "superlative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Superlative",
+                            "de": "Superlativ",
+                            "id": "Superlatif",
+                            "ja": "最上級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "superlative",
+                    "removeSuffix": "difficult",
+                    "append": "most difficult",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈdɪfɪkəlt/",
+                        "append": "/məʊst ˈdɪfɪkəlt/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Superlative)",
+                                "de": "{{ definition }} (Superlativ)",
+                                "id": "{{ definition }} (Superlatif)",
+                                "ja": "{{ definition }} (最上級)"
+                            }
+                        }
+                    }
+                }
+            ]
         }
     ]
 }

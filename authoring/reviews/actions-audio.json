@@ -1,0 +1,130 @@
+[
+    {
+        "entryId": "en:word:actions-jump",
+        "path": "audio/c6a4f02a5881f353901552b9c4d20ffefae79fe7641b9605885d6e972276e481.wav",
+        "sha256": "c6a4f02a5881f353901552b9c4d20ffefae79fe7641b9605885d6e972276e481",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"dʒʌmp\">jump</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "xBhQOvg1M6b6yVcchaCX",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/actions/actions-jump.pcm",
+        "sourceSha256": "01eb695587295462cef4c7a7d9d71ed1eb82aab390bc18a33499239c12730ab0",
+        "sourcePeak": 29514,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9103815138578302,
+        "paddingFramesEachSide": 480,
+        "frames": 39970,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:actions-swim",
+        "path": "audio/84088360bfd4be82b2f925caa2d7b6044b8384c0f1855795f514b2b7004c5316.wav",
+        "sha256": "84088360bfd4be82b2f925caa2d7b6044b8384c0f1855795f514b2b7004c5316",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"swɪm\">swim</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "vHxcJ8gPBAqathF1LVwz",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/actions/actions-swim.pcm",
+        "sourceSha256": "d4b0bed239db3d14cad2f4631ce476a9ab706c4ab35c66db06431ec9f38fc6d2",
+        "sourcePeak": 27335,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9829522590085971,
+        "paddingFramesEachSide": 480,
+        "frames": 21022,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:actions-laugh",
+        "path": "audio/610c6c1978441330a1b636f72a2ddf887ee7f2cf5dc6ac3793da0c00d4989804.wav",
+        "sha256": "610c6c1978441330a1b636f72a2ddf887ee7f2cf5dc6ac3793da0c00d4989804",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"lɑːf\">laugh</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "A8K66myTgWrMOh1Y0qJS",
+            "character-cost": "2",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/actions/actions-laugh.pcm",
+        "sourceSha256": "a6678012c4bebfe6378eb1d5a5028d1dbe35724d491a4bbd0c290eaaffb57507",
+        "sourcePeak": 14914,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 21022,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:actions-cry",
+        "path": "audio/e02b80ab50222cd8b98159f0cd533e048bf977803a123ad32326ecacc852953c.wav",
+        "sha256": "e02b80ab50222cd8b98159f0cd533e048bf977803a123ad32326ecacc852953c",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"kraɪ\">cry</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "C0jeQfVLilrU8HTKwj8D",
+            "character-cost": "2",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/actions/actions-cry.pcm",
+        "sourceSha256": "499069ebdf1061b3a1b1912c25d3204fbbc468b54c2f1a36789040d78b289944",
+        "sourcePeak": 28200,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9528014184397163,
+        "paddingFramesEachSide": 480,
+        "frames": 19907,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]

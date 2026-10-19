@@ -134,6 +134,14 @@ Baum, Wald, Blatt, Stein mit vier geprüften Bildern je Modul, vier englischen P
 
 Kühlschrank, Backofen, Spülbecken, Dusche mit vier geprüften Bildern je Modul, vier englischen Pluralformen, acht eigenständig verfassten Beispielen und zwei Stapeln ergänzen. Lesungen und lokalisierte Bedeutungsunterschiede prüfen, exakte PCM-Bausteine und alle bisherigen Beispiele bewahren und die kumulative Wortzählung aktualisieren. Die Hörprüfung steht aus.
 
+## Alltägliche Tätigkeiten
+
+Springen, Schwimmen, Lachen und Weinen mit geprüften Bildern und natürlichen Beispielen ergänzen. Sechzehn englische Formbindungen und zweiunddreißig japanische Formen einschließlich unregelmäßigem swim und japanischen Konsonantenwechseln abdecken. Exakte Audiosegmente, Quellenbelege und bisherige Inhalte bewahren. Die Hörprüfung steht aus.
+
+## Gewicht und Schwierigkeit
+
+Schwer, leicht, einfach und schwierig mit Kontextbildern und Bedeutungshinweisen ergänzen. Acht englische Steigerungsformen und zwölf japanische I-Adjektivformen abdecken. Beispiele nutzen Adjektivprädikate und nominalisierte Tätigkeiten. Lehrplanabdeckung und kumulative Zählung aktualisieren. Die Hörprüfung steht aus.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

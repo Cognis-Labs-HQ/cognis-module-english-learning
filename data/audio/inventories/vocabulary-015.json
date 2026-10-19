@@ -1,10 +1,10 @@
 [
     {
-        "path": "audio/a5236ba77e97840a3565edddf6a0315411280f04a0de915c5932c6b9e73bd72f.wav",
-        "text": "suitcase",
+        "path": "audio/d7d1af6a999e0bb1545c909e968048d4ebc11ec8457aee64136d989f68496410.wav",
+        "text": "motorcycles",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "suitcase",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈməʊtəsaɪklz\">motorcycles</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -18,67 +18,32 @@
         "inputs": [
             {
                 "language": "en",
-                "label": "suitcase",
+                "label": "motorcycles",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/ˈsuːtkeɪs/"]
+                "readings": ["/ˈməʊtəsaɪklz/"]
             }
         ],
-        "entries": ["en:word:travel-suitcase"],
-        "variants": [],
-        "sha256": "a5236ba77e97840a3565edddf6a0315411280f04a0de915c5932c6b9e73bd72f",
-        "frames": 24366,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "languageSelection": "native-input-autodetection",
-            "sourcePcmSha256": "3e14d993e11aa1a8d3f15ebd8ce7b0159198eb87dd2bafd6e213958a800b8c00"
-        }
-    },
-    {
-        "path": "audio/24d397f0a3fac11132e42b0b9dc24d9be66eba14ac2033d28f1be7a1bacaf289.wav",
-        "text": "suitcases",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "suitcases",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "suitcases",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ˈsuːtkeɪsɪz/"]
-            }
-        ],
-        "entries": [],
+        "entries": ["en:word:form-transport-motorcycles"],
         "variants": [
             {
-                "entryId": "en:word:travel-suitcase",
-                "setId": "travel-suitcase-forms",
+                "entryId": "en:word:transport-motorcycle",
+                "setId": "noun-motorcycle",
                 "path": ["plural"]
             }
         ],
-        "sha256": "24d397f0a3fac11132e42b0b9dc24d9be66eba14ac2033d28f1be7a1bacaf289",
-        "frames": 28824,
+        "sha256": "d7d1af6a999e0bb1545c909e968048d4ebc11ec8457aee64136d989f68496410",
+        "frames": 31053,
         "metadata": {
             "listening": "unverified-not-performed",
-            "languageSelection": "native-input-autodetection",
-            "sourcePcmSha256": "227ef9ab9013d45ecd47dec055d233834d5a58f2ccd5d203f44c06468b4cef91"
+            "sourcePcmSha256": "17935e7e4f99812b237e3c9daa29b7ef70fa6cea2cf911f3f84ad2c391e5a9da"
         }
     },
     {
-        "path": "audio/13addf06063eb86d2ee6b006d3f40adb45533e296ac2df787f4b7504d72dc4b5.wav",
-        "text": "ticket",
+        "path": "audio/923a4d859a8d86b5a088328f9b634e5f7f6073802146cca458afd5f2e5f4f9dc.wav",
+        "text": "pencil",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "ticket",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈpensl\">pencil</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -92,27 +57,59 @@
         "inputs": [
             {
                 "language": "en",
-                "label": "ticket",
+                "label": "pencil",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/ˈtɪkɪt/"]
+                "readings": ["/ˈpensl/"]
             }
         ],
-        "entries": ["en:word:travel-ticket"],
+        "entries": ["en:word:school-pencil"],
         "variants": [],
-        "sha256": "13addf06063eb86d2ee6b006d3f40adb45533e296ac2df787f4b7504d72dc4b5",
+        "sha256": "923a4d859a8d86b5a088328f9b634e5f7f6073802146cca458afd5f2e5f4f9dc",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "d5d7e45829ebe911df3db43682ad3a3c711e2c989b76e642963ea19b362c3883"
+        }
+    },
+    {
+        "path": "audio/4aea6ff75bd574d18c082382beed1704fb552f0e633a8e749b083cc1a66e0b60.wav",
+        "text": "pen",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"pen\">pen</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "pen",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/pen/"]
+            }
+        ],
+        "entries": ["en:word:school-pen"],
+        "variants": [],
+        "sha256": "4aea6ff75bd574d18c082382beed1704fb552f0e633a8e749b083cc1a66e0b60",
         "frames": 19907,
         "metadata": {
             "listening": "unverified-not-performed",
-            "languageSelection": "native-input-autodetection",
-            "sourcePcmSha256": "6056396ab88930078ddc25991d4ab942a47a5d1b52334d088f4c342728f99de3"
+            "sourcePcmSha256": "f308141cd91a6cd9f98386f4e12ae1afa863f88187e97a524a21b9021c758ad9"
         }
     },
     {
-        "path": "audio/523659aaaa20c22b467768c3fa466372b56e4b9080201ee459297746e3439b5f.wav",
-        "text": "tickets",
+        "path": "audio/8b649cd68a079a305723da3969afb56419915cda9327fa283d2d7678672b0329.wav",
+        "text": "notebook",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "tickets",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈnəʊtbʊk\">notebook</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -126,33 +123,59 @@
         "inputs": [
             {
                 "language": "en",
-                "label": "tickets",
+                "label": "notebook",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/ˈtɪkɪts/"]
+                "readings": ["/ˈnəʊtbʊk/"]
             }
         ],
-        "entries": [],
-        "variants": [
+        "entries": ["en:word:school-notebook"],
+        "variants": [],
+        "sha256": "8b649cd68a079a305723da3969afb56419915cda9327fa283d2d7678672b0329",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "8f321ebbc801fb40823b59ee6f2ca6cbada3f1e458ead6db4694cfd3da9b1e32"
+        }
+    },
+    {
+        "path": "audio/99ecadfb9b0623b7c3fe91557040dfe1a4c87bcdf10fd7d7f25549dde56a29ac.wav",
+        "text": "ruler",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈruːlə\">ruler</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
             {
-                "entryId": "en:word:travel-ticket",
-                "setId": "travel-ticket-forms",
-                "path": ["plural"]
+                "language": "en",
+                "label": "ruler",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈruːlə/"]
             }
         ],
-        "sha256": "523659aaaa20c22b467768c3fa466372b56e4b9080201ee459297746e3439b5f",
+        "entries": ["en:word:school-ruler"],
+        "variants": [],
+        "sha256": "99ecadfb9b0623b7c3fe91557040dfe1a4c87bcdf10fd7d7f25549dde56a29ac",
         "frames": 22137,
         "metadata": {
             "listening": "unverified-not-performed",
-            "languageSelection": "native-input-autodetection",
-            "sourcePcmSha256": "714ce7921545ce30c39cfd5f4be9619b636ab3194b4bcf3bfbfa0f937b9e4d71"
+            "sourcePcmSha256": "521a41106bb06382c4424b80dda6b23da3767323de37e585c9e9b27ab3d0fe1e"
         }
     },
     {
-        "path": "audio/00b6b734746af19c08db250cf03bad7a8abad330b41f88cc31ae819ceeab0b0b.wav",
-        "text": "wait",
+        "path": "audio/b0ef4e3d2d48822ea1ec35704b9ce62bbb22c914158e97f980bce43ca98e435c.wav",
+        "text": "pencils",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "wait",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈpenslz\">pencils</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -166,67 +189,182 @@
         "inputs": [
             {
                 "language": "en",
-                "label": "wait",
+                "label": "pencils",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/weɪt/"]
+                "readings": ["/ˈpenslz/"]
             }
         ],
-        "entries": ["en:word:travel-wait"],
+        "entries": ["en:word:form-school-pencils"],
+        "variants": [
+            {
+                "entryId": "en:word:school-pencil",
+                "setId": "noun-pencil",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "b0ef4e3d2d48822ea1ec35704b9ce62bbb22c914158e97f980bce43ca98e435c",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "3a7f49fb21dc747e3c7a7243eee8bb196e43b8e1fc975a5698bdee4eba30e406"
+        }
+    },
+    {
+        "path": "audio/ef891f7c07a79c9a34a30cc01c95b2fa0e3c08b56956937d877aaac84e4d6266.wav",
+        "text": "pens",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"penz\">pens</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "pens",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/penz/"]
+            }
+        ],
+        "entries": ["en:word:form-school-pens"],
+        "variants": [
+            {
+                "entryId": "en:word:school-pen",
+                "setId": "noun-pen",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "ef891f7c07a79c9a34a30cc01c95b2fa0e3c08b56956937d877aaac84e4d6266",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "4746d69ba587970e03023aff5ad718266806d6d1797db5dd953d4b0fe357aad7"
+        }
+    },
+    {
+        "path": "audio/9b4ba1ff2bae6b8119005921b142601dbf86bde85c855f03811314f872aa77c2.wav",
+        "text": "notebooks",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈnəʊtbʊks\">notebooks</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "notebooks",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈnəʊtbʊks/"]
+            }
+        ],
+        "entries": ["en:word:form-school-notebooks"],
+        "variants": [
+            {
+                "entryId": "en:word:school-notebook",
+                "setId": "noun-notebook",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "9b4ba1ff2bae6b8119005921b142601dbf86bde85c855f03811314f872aa77c2",
+        "frames": 26595,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "dd70d9072171ad9f1789f428f19d86a3b4856b7eaac574dec88ebcfd6ffe6728"
+        }
+    },
+    {
+        "path": "audio/ccff70ddbc5b106263d228cfb52cc95d2197da0ef14a198cbe06836df881761e.wav",
+        "text": "rulers",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈruːləz\">rulers</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "rulers",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈruːləz/"]
+            }
+        ],
+        "entries": ["en:word:form-school-rulers"],
+        "variants": [
+            {
+                "entryId": "en:word:school-ruler",
+                "setId": "noun-ruler",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "ccff70ddbc5b106263d228cfb52cc95d2197da0ef14a198cbe06836df881761e",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "c260f23a5a87cb06445e81529a82019be1950195861dda548deb37c370454650"
+        }
+    },
+    {
+        "path": "audio/331df3e2921645a7ddec192dd6e9220b96211ee941c19bb334a367779d2b94e7.wav",
+        "text": "rabbit",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈræbɪt\">rabbit</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "rabbit",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈræbɪt/"]
+            }
+        ],
+        "entries": ["en:word:animals-rabbit"],
         "variants": [],
-        "sha256": "00b6b734746af19c08db250cf03bad7a8abad330b41f88cc31ae819ceeab0b0b",
-        "frames": 18793,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "languageSelection": "native-input-autodetection",
-            "sourcePcmSha256": "1a42cc19e152ee116f3c06443386dee816c1639145646f73d67cddd39cc65150"
-        }
-    },
-    {
-        "path": "audio/761a2639d1aebc3187678326386237b9ec6941c67ca05545396fa45964b9c8cb.wav",
-        "text": "waits",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "waits",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "waits",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/weɪts/"]
-            }
-        ],
-        "entries": [],
-        "variants": [
-            {
-                "entryId": "en:word:travel-wait",
-                "setId": "travel-wait-forms",
-                "path": ["third-person"]
-            }
-        ],
-        "sha256": "761a2639d1aebc3187678326386237b9ec6941c67ca05545396fa45964b9c8cb",
+        "sha256": "331df3e2921645a7ddec192dd6e9220b96211ee941c19bb334a367779d2b94e7",
         "frames": 21022,
         "metadata": {
             "listening": "unverified-not-performed",
-            "languageSelection": "native-input-autodetection",
-            "sourcePcmSha256": "d4aaad67c100885c7be2cf690295fd9c8171260f989e7532fe1e6e4bfe199ed2"
+            "sourcePcmSha256": "df7f7695a429ada2be6d4d3f29a1f5787dcf1bb1f9d3750f200f66438dd7b312"
         }
     },
     {
-        "path": "audio/4425962f369efd3a8f42b52a665d8985b51a93f95479a6cce3d38b748b9657dc.wav",
-        "text": "waited",
+        "path": "audio/4b80599f7cc07f893e21a1af5931fa0cc38bd30c7886ad94f0735831ea3f41cf.wav",
+        "text": "horse",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "waited",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"hɔːs\">horse</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -240,38 +378,26 @@
         "inputs": [
             {
                 "language": "en",
-                "label": "waited",
+                "label": "horse",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/ˈweɪtɪd/"]
+                "readings": ["/hɔːs/"]
             }
         ],
-        "entries": [],
-        "variants": [
-            {
-                "entryId": "en:word:travel-wait",
-                "setId": "travel-wait-forms",
-                "path": ["past"]
-            },
-            {
-                "entryId": "en:word:travel-wait",
-                "setId": "travel-wait-forms",
-                "path": ["past-participle"]
-            }
-        ],
-        "sha256": "4425962f369efd3a8f42b52a665d8985b51a93f95479a6cce3d38b748b9657dc",
-        "frames": 18793,
+        "entries": ["en:word:animals-horse"],
+        "variants": [],
+        "sha256": "4b80599f7cc07f893e21a1af5931fa0cc38bd30c7886ad94f0735831ea3f41cf",
+        "frames": 19907,
         "metadata": {
             "listening": "unverified-not-performed",
-            "languageSelection": "native-input-autodetection",
-            "sourcePcmSha256": "91b64faf028b05b4735abb4f643fd041ae94c0d961183f6460e339eb37015b0c"
+            "sourcePcmSha256": "e52f700ac4d363de654be59a8f2663d9c18eeffc2cb86605ff4f333182b780d8"
         }
     },
     {
-        "path": "audio/d3fc403bcea5fc5ebab8358f71f015a38334d0ddcc9a25a393d34072b7d9c72d.wav",
-        "text": "waiting",
+        "path": "audio/b69d412d0b6ddfb9c17ac2f90ea1b1953d2e653084a74efabb1483de7ece45fe.wav",
+        "text": "cow",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "waiting",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"kaʊ\">cow</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -285,25 +411,339 @@
         "inputs": [
             {
                 "language": "en",
-                "label": "waiting",
+                "label": "cow",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/ˈweɪtɪŋ/"]
+                "readings": ["/kaʊ/"]
             }
         ],
-        "entries": [],
+        "entries": ["en:word:animals-cow"],
+        "variants": [],
+        "sha256": "b69d412d0b6ddfb9c17ac2f90ea1b1953d2e653084a74efabb1483de7ece45fe",
+        "frames": 28824,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "fdbf0eb2e025a46d2d54ebae773088304ee851b3bce4cdce5d687e38bb2b038f"
+        }
+    },
+    {
+        "path": "audio/6d576ed90ca9c022431d70c26d5c71e60eaa4171b24ceb2b9312c9fc6d90865c.wav",
+        "text": "pig",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"pɪɡ\">pig</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "pig",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/pɪɡ/"]
+            }
+        ],
+        "entries": ["en:word:animals-pig"],
+        "variants": [],
+        "sha256": "6d576ed90ca9c022431d70c26d5c71e60eaa4171b24ceb2b9312c9fc6d90865c",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "42405ec9a8a62f812f72635d5c368148b2b06ce83969f027631be8bb0c3d055c"
+        }
+    },
+    {
+        "path": "audio/1fab45f6687314ac0fa65d78c224138449d8d2c973d5e29c3c221a4825724342.wav",
+        "text": "rabbits",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈræbɪts\">rabbits</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "rabbits",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈræbɪts/"]
+            }
+        ],
+        "entries": ["en:word:form-animals-rabbits"],
         "variants": [
             {
-                "entryId": "en:word:travel-wait",
-                "setId": "travel-wait-forms",
-                "path": ["present-participle"]
+                "entryId": "en:word:animals-rabbit",
+                "setId": "noun-rabbit",
+                "path": ["plural"]
             }
         ],
-        "sha256": "d3fc403bcea5fc5ebab8358f71f015a38334d0ddcc9a25a393d34072b7d9c72d",
+        "sha256": "1fab45f6687314ac0fa65d78c224138449d8d2c973d5e29c3c221a4825724342",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "3a3a598574de868f503c3b78339eb0edc6e459b089676b9d6681bdc190302327"
+        }
+    },
+    {
+        "path": "audio/8c6daf825cbb034b8adf7735cecf0af417126022423dbbb069f60de8c0bcde39.wav",
+        "text": "horses",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈhɔːsɪz\">horses</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "horses",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈhɔːsɪz/"]
+            }
+        ],
+        "entries": ["en:word:form-animals-horses"],
+        "variants": [
+            {
+                "entryId": "en:word:animals-horse",
+                "setId": "noun-horse",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "8c6daf825cbb034b8adf7735cecf0af417126022423dbbb069f60de8c0bcde39",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "7e13f488cdb2a91b250e47ed839c9a7ae5be2a98d647063cbe0d4d72a5e516bd"
+        }
+    },
+    {
+        "path": "audio/2e18b1dffd374a06941cb4b28a72dd72cfb9b74de2744c430bd8e38f00f7c0b9.wav",
+        "text": "cows",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"kaʊz\">cows</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "cows",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/kaʊz/"]
+            }
+        ],
+        "entries": ["en:word:form-animals-cows"],
+        "variants": [
+            {
+                "entryId": "en:word:animals-cow",
+                "setId": "noun-cow",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "2e18b1dffd374a06941cb4b28a72dd72cfb9b74de2744c430bd8e38f00f7c0b9",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "03d91009e010419c87cd539adc4662d888673ef97f525f9c0595c9932f40ae1b"
+        }
+    },
+    {
+        "path": "audio/523ebefc569ba01423e4c178a5df2e50a8b219de9d06e51473c1c520846ea5d5.wav",
+        "text": "pigs",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"pɪɡz\">pigs</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "pigs",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/pɪɡz/"]
+            }
+        ],
+        "entries": ["en:word:form-animals-pigs"],
+        "variants": [
+            {
+                "entryId": "en:word:animals-pig",
+                "setId": "noun-pig",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "523ebefc569ba01423e4c178a5df2e50a8b219de9d06e51473c1c520846ea5d5",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "05fa2999168c3786ab5424f597f22023a0135def1c64c7d4e343e481885c38a4"
+        }
+    },
+    {
+        "path": "audio/fd13f18c9ce22b20c0567faffdac80008dd399675b1b6eef0d258c1c4712f173.wav",
+        "text": "sofa",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈsəʊfə\">sofa</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "sofa",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈsəʊfə/"]
+            }
+        ],
+        "entries": ["en:word:furnishings-sofa"],
+        "variants": [],
+        "sha256": "fd13f18c9ce22b20c0567faffdac80008dd399675b1b6eef0d258c1c4712f173",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "7ec54aace3ab3edc340b51d605ff2bdff6afb10f7c16882630b2c7eab9476f70"
+        }
+    },
+    {
+        "path": "audio/541169ca08dca8ccbf90c6ca1ed3f072188b4782590e89ccdc86c0eb2d02fd9b.wav",
+        "text": "lamp",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"læmp\">lamp</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "lamp",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/læmp/"]
+            }
+        ],
+        "entries": ["en:word:furnishings-lamp"],
+        "variants": [],
+        "sha256": "541169ca08dca8ccbf90c6ca1ed3f072188b4782590e89ccdc86c0eb2d02fd9b",
+        "frames": 73406,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "c7fff691245245095b465312a8ab882b1d83e9b5945967b427b6a8ef1c5f4e52"
+        }
+    },
+    {
+        "path": "audio/f00773b391d6a256a32a7410b90d96cbc9d3cf0f45353b83c653055d94b5fc4c.wav",
+        "text": "mirror",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈmɪrə\">mirror</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "mirror",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈmɪrə/"]
+            }
+        ],
+        "entries": ["en:word:furnishings-mirror"],
+        "variants": [],
+        "sha256": "f00773b391d6a256a32a7410b90d96cbc9d3cf0f45353b83c653055d94b5fc4c",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "3c4e858ed6b6bd8feecbdbc44bb7282fb02f79c3200451f6ac0ff9d08b2dcfbc"
+        }
+    },
+    {
+        "path": "audio/573119eeb3bde5d7225b1aebd7362f910c51cd66901bfe4b576671a7877231e5.wav",
+        "text": "pillow",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈpɪləʊ\">pillow</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "pillow",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈpɪləʊ/"]
+            }
+        ],
+        "entries": ["en:word:furnishings-pillow"],
+        "variants": [],
+        "sha256": "573119eeb3bde5d7225b1aebd7362f910c51cd66901bfe4b576671a7877231e5",
         "frames": 21022,
         "metadata": {
             "listening": "unverified-not-performed",
-            "languageSelection": "native-input-autodetection",
-            "sourcePcmSha256": "19a082c3177ab8784107b3ae5b7af05b2642aa0534773a150ceb099603106546"
+            "sourcePcmSha256": "68e67fc84b74844705d3ef194a80f4c7e9fd35b28ad05938a564ee68644c9c05"
         }
     }
 ]

@@ -134,6 +134,14 @@ Tambahkan pohon, hutan, daun, batu dengan empat gambar yang diperiksa per modul,
 
 Tambahkan kulkas, oven, bak cuci, pancuran mandi dengan empat gambar yang diperiksa per modul, empat bentuk jamak Inggris, delapan contoh yang ditulis tersendiri, dan dua dek. Periksa bacaan serta perbedaan makna, pertahankan PCM unsur yang tepat dan semua contoh lama, lalu perbarui hitungan kosakata kumulatif. Pemeriksaan pendengaran belum dilakukan.
 
+## Tindakan Sehari-hari
+
+Tambahkan melompat, berenang, tertawa, dan menangis dengan gambar yang diperiksa serta contoh alami. Cakup enam belas ikatan bentuk Inggris dan tiga puluh dua bentuk Jepang, termasuk swim tidak beraturan dan perubahan konsonan Jepang. Pertahankan audio unsur persis, bukti sumber, dan konten lama. Pemeriksaan pendengaran belum dilakukan.
+
+## Berat dan Kesulitan
+
+Tambahkan berat, ringan, mudah, dan sulit dengan ilustrasi kontekstual serta catatan makna. Cakup delapan bentuk perbandingan Inggris dan dua belas bentuk adjektiva i Jepang. Contoh memakai predikat adjektiva dan kegiatan yang dinominalkan. Perbarui audit cakupan kurikulum dan jumlah kumulatif. Pemeriksaan pendengaran belum dilakukan.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

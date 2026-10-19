@@ -67,6 +67,37 @@
         "vocabularyAudit": "authoring/reviews/travel/index.json"
     },
     {
+        "theme": "actions",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:actions-jump",
+                "label": "jump"
+            },
+            {
+                "entryId": "en:word:actions-swim",
+                "label": "swim"
+            },
+            {
+                "entryId": "en:word:actions-laugh",
+                "label": "laugh"
+            },
+            {
+                "entryId": "en:word:actions-cry",
+                "label": "cry"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:actions-example-jump",
+            "en:sentence:actions-example-swim",
+            "en:sentence:actions-example-laugh",
+            "en:sentence:actions-example-cry"
+        ],
+        "recordedGrammaticalFormCount": 16,
+        "vocabularyAudit": "authoring/reviews/actions-vocabulary.json"
+    },
+    {
         "theme": "animals",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -313,36 +344,5 @@
         ],
         "recordedGrammaticalFormCount": 4,
         "vocabularyAudit": "authoring/reviews/furnishings-vocabulary.json"
-    },
-    {
-        "theme": "household",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:household-wash",
-                "label": "wash"
-            },
-            {
-                "entryId": "en:word:household-cook",
-                "label": "cook"
-            },
-            {
-                "entryId": "en:word:household-clean",
-                "label": "clean"
-            },
-            {
-                "entryId": "en:word:household-dry",
-                "label": "dry"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:household-example-wash",
-            "en:sentence:household-example-cook",
-            "en:sentence:household-example-clean",
-            "en:sentence:household-example-dry"
-        ],
-        "recordedGrammaticalFormCount": 16,
-        "vocabularyAudit": "authoring/reviews/household-vocabulary.json"
     }
 ]

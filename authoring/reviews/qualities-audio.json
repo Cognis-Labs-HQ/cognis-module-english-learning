@@ -1,0 +1,130 @@
+[
+    {
+        "entryId": "en:word:qualities-heavy",
+        "path": "audio/42dd8448d89fc16e29189895eb4d77f7f4ecc84a4f8eb2d892eb436d20c01460.wav",
+        "sha256": "42dd8448d89fc16e29189895eb4d77f7f4ecc84a4f8eb2d892eb436d20c01460",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈhevi\">heavy</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "N2PoqJuoNQgeVfvSD77W",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/qualities/qualities-heavy.pcm",
+        "sourceSha256": "7d81fcbf82855f3a7bb1a206b12ca8a770861139b1c29ab66e66e29af7586806",
+        "sourcePeak": 22463,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 18793,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:qualities-light",
+        "path": "audio/3ce98bbc885831bca22c494c5d950ed929454301081fae8c3a72e7be55609660.wav",
+        "sha256": "3ce98bbc885831bca22c494c5d950ed929454301081fae8c3a72e7be55609660",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"laɪt\">light</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "TM8fu1OkBU7WXXRmA8gF",
+            "character-cost": "2",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/qualities/qualities-light.pcm",
+        "sourceSha256": "38760ca11f0e2e0afb95eb9451f5ede27be1c1771f6ae2ff027a199bf9b7ba61",
+        "sourcePeak": 19565,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 72292,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:qualities-easy",
+        "path": "audio/6a1a92047207014007f61432749d32dab7399076af957b76791a825417cf794f.wav",
+        "sha256": "6a1a92047207014007f61432749d32dab7399076af957b76791a825417cf794f",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈiːzi\">easy</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "HEs9drzEc6VUBVZ7eoxl",
+            "character-cost": "2",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/qualities/qualities-easy.pcm",
+        "sourceSha256": "546826c48ffac5641255820baa64dadb279bb080b7986f853940cc8e53d0f722",
+        "sourcePeak": 16422,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 18793,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:qualities-difficult",
+        "path": "audio/1f0e9e75cec1b9ebf8e9982bfc802b2039c4be24125e30956f407c7f9a47b756.wav",
+        "sha256": "1f0e9e75cec1b9ebf8e9982bfc802b2039c4be24125e30956f407c7f9a47b756",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈdɪfɪkəlt\">difficult</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "9VCJOfZQBQOpXkPtSazj",
+            "character-cost": "5",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/qualities/qualities-difficult.pcm",
+        "sourceSha256": "a828bb30212f5b863f0329f41adf1fb77e9f0c553c79b43fcc1f07364a87ce33",
+        "sourcePeak": 30061,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.893815907654436,
+        "paddingFramesEachSide": 480,
+        "frames": 27709,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]
