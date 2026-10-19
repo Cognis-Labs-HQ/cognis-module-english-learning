@@ -1,5 +1,36 @@
 [
     {
+        "theme": "furnishings",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:furnishings-sofa",
+                "label": "sofa"
+            },
+            {
+                "entryId": "en:word:furnishings-lamp",
+                "label": "lamp"
+            },
+            {
+                "entryId": "en:word:furnishings-mirror",
+                "label": "mirror"
+            },
+            {
+                "entryId": "en:word:furnishings-pillow",
+                "label": "pillow"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:furnishings-example-sofa",
+            "en:sentence:furnishings-example-lamp",
+            "en:sentence:furnishings-example-mirror",
+            "en:sentence:furnishings-example-pillow"
+        ],
+        "recordedGrammaticalFormCount": 4,
+        "vocabularyAudit": "authoring/reviews/furnishings-vocabulary.json"
+    },
+    {
         "theme": "greetings",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -232,36 +263,5 @@
         ],
         "recordedGrammaticalFormCount": 2,
         "vocabularyAudit": "authoring/reviews/outings-vocabulary.json"
-    },
-    {
-        "theme": "places",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:places-library",
-                "label": "library"
-            },
-            {
-                "entryId": "en:word:places-hospital",
-                "label": "hospital"
-            },
-            {
-                "entryId": "en:word:places-supermarket",
-                "label": "supermarket"
-            },
-            {
-                "entryId": "en:word:places-restaurant",
-                "label": "restaurant"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:places-example-library",
-            "en:sentence:places-example-hospital",
-            "en:sentence:places-example-supermarket",
-            "en:sentence:places-example-restaurant"
-        ],
-        "recordedGrammaticalFormCount": 4,
-        "vocabularyAudit": "authoring/reviews/places-vocabulary.json"
     }
 ]

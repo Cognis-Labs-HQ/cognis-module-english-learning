@@ -266,6 +266,10 @@ Menambahkan museum/zoo dan はくぶつかん/どうぶつえん dengan empat ga
 
 Menambahkan letter/postcard dan てがみ/はがき dengan empat gambar yang diperiksa, delapan contoh dan dua bentuk jamak Inggris yang tepat. Catatan membedakan surat dari huruf alfabet dan mempertahankan が bersuara. Sumber, gambar asli dan PCM unsur yang tepat disimpan. Pendengaran belum diperiksa.
 
+## Mengirim dan membawa
+
+Menambahkan send/carry dan おくる/はこぶ dengan empat gambar yang diperiksa, delapan contoh dan 24 ikatan bentuk gramatikal tepat. Sent dan carried berbagi rekaman lampau dan past participle; bentuk Jepang mempertahankan っ kecil versus んだ/んで. Dua gambar amplop yang salah ditolak dan diperbaiki, dengan bukti disimpan. PCM kalimat cocok persis dengan unsurnya. Pendengaran belum diperiksa.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

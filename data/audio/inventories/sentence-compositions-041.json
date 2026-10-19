@@ -1,0 +1,262 @@
+[
+    {
+        "path": "audio/ea8bc116ddcc23e4a6920058e03bbc1f09e147612e0006fb88761df707088e25.wav",
+        "entryId": "en:sentence:delivery-example-send-letter",
+        "label": "I send a letter.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/3b223b5940da9152188ec7e9798bf11d20fd7f89657d32eb9a7a4a4da36eff7e.wav",
+                "entryId": "en:word:delivery-send"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/318cdcbcbd4c4b122acdb41704812e66960383c8e0a56489fd9dc11efd04d9fe.wav",
+                "entryId": "en:word:correspondence-letter"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/3b223b5940da9152188ec7e9798bf11d20fd7f89657d32eb9a7a4a4da36eff7e.wav",
+                "entryId": "en:word:delivery-send",
+                "startFrame": 11067,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 34249,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/318cdcbcbd4c4b122acdb41704812e66960383c8e0a56489fd9dc11efd04d9fe.wav",
+                "entryId": "en:word:correspondence-letter",
+                "startFrame": 48949,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "ea8bc116ddcc23e4a6920058e03bbc1f09e147612e0006fb88761df707088e25",
+        "frames": 80616,
+        "input": {
+            "language": "en",
+            "label": "I send a letter.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/3b47dbbdc53868ca046b8ebc1d1deed98dc8c3a534e79e4337d88f04eb382c8b.wav",
+        "entryId": "en:sentence:delivery-example-sends-postcards",
+        "label": "She sends postcards.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/3e0b78f819ac77f550b5596926fe7419f932522336dc9bca846774d764dd1d17.wav",
+                "entryId": "en:word:form-delivery-send-third-person"
+            },
+            {
+                "path": "audio/c3c142a0bee507a7114aa63f13185f445b878a26a1dacf9b52e5102f1f7cb6f5.wav",
+                "entryId": "en:word:form-correspondence-postcards"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/3e0b78f819ac77f550b5596926fe7419f932522336dc9bca846774d764dd1d17.wav",
+                "entryId": "en:word:form-delivery-send-third-person",
+                "startFrame": 14932,
+                "frameCount": 23251
+            },
+            {
+                "path": "audio/c3c142a0bee507a7114aa63f13185f445b878a26a1dacf9b52e5102f1f7cb6f5.wav",
+                "entryId": "en:word:form-correspondence-postcards",
+                "startFrame": 40343,
+                "frameCount": 29939
+            }
+        ],
+        "sha256": "3b47dbbdc53868ca046b8ebc1d1deed98dc8c3a534e79e4337d88f04eb382c8b",
+        "frames": 82042,
+        "input": {
+            "language": "en",
+            "label": "She sends postcards.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/141546163db02d922ee11fa9c544de7a51fcf644abc8df0da0103632d55bd84b.wav",
+        "entryId": "en:sentence:delivery-example-carried-box",
+        "label": "He carried the box.",
+        "parts": [
+            {
+                "path": "audio/6479e690a54602e0b1c5a5bbe4418239c707d393fdde6754b827fac5d2eb56c9.wav",
+                "entryId": "en:word:capital-he"
+            },
+            {
+                "path": "audio/e04d6f706b4ab2346c5221173858ed4a46b02ccc8c456e3c736c6773026914e4.wav",
+                "entryId": "en:word:form-delivery-carry-past"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/10703bad0a3eae4370c7e8255c0e077054f9470eff2d7a85ae2ee8935031865c.wav",
+                "entryId": "en:word:containers-box"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/6479e690a54602e0b1c5a5bbe4418239c707d393fdde6754b827fac5d2eb56c9.wav",
+                "entryId": "en:word:capital-he",
+                "startFrame": 2400,
+                "frameCount": 10803
+            },
+            {
+                "path": "audio/e04d6f706b4ab2346c5221173858ed4a46b02ccc8c456e3c736c6773026914e4.wav",
+                "entryId": "en:word:form-delivery-carry-past",
+                "startFrame": 15363,
+                "frameCount": 22137
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 39660,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/10703bad0a3eae4370c7e8255c0e077054f9470eff2d7a85ae2ee8935031865c.wav",
+                "entryId": "en:word:containers-box",
+                "startFrame": 49970,
+                "frameCount": 23251
+            }
+        ],
+        "sha256": "141546163db02d922ee11fa9c544de7a51fcf644abc8df0da0103632d55bd84b",
+        "frames": 84981,
+        "input": {
+            "language": "en",
+            "label": "He carried the box.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/718c91a53cd49f71673882fda68d5fb6bf9f2ac62f25c569baaf5ecb890100c5.wav",
+        "entryId": "en:sentence:delivery-example-carrying-bag",
+        "label": "I am carrying the bag.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/487088dd8be1b2ac3af870c58e10ddfb75d35e254b1221160654d062f9db7a73.wav",
+                "entryId": "en:word:form-english-be-am"
+            },
+            {
+                "path": "audio/d89adcba2abd712672a23b1b19024ccd9fdd7aaac0a2e058b24d9144d3001aa8.wav",
+                "entryId": "en:word:form-delivery-carry-present-participle"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/73013127fed0ea0a484238e0a4ba76df65fdb9996877d6dd180f519f856585fe.wav",
+                "entryId": "en:word:bag"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/487088dd8be1b2ac3af870c58e10ddfb75d35e254b1221160654d062f9db7a73.wav",
+                "entryId": "en:word:form-english-be-am",
+                "startFrame": 11067,
+                "frameCount": 13320
+            },
+            {
+                "path": "audio/d89adcba2abd712672a23b1b19024ccd9fdd7aaac0a2e058b24d9144d3001aa8.wav",
+                "entryId": "en:word:form-delivery-carry-present-participle",
+                "startFrame": 26547,
+                "frameCount": 24366
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 53073,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/73013127fed0ea0a484238e0a4ba76df65fdb9996877d6dd180f519f856585fe.wav",
+                "entryId": "en:word:bag",
+                "startFrame": 63383,
+                "frameCount": 21022
+            }
+        ],
+        "sha256": "718c91a53cd49f71673882fda68d5fb6bf9f2ac62f25c569baaf5ecb890100c5",
+        "frames": 96165,
+        "input": {
+            "language": "en",
+            "label": "I am carrying the bag.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    }
+]

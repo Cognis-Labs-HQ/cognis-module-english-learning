@@ -48,6 +48,29 @@
         "vocabularyAudit": "authoring/reviews/craft-vocabulary.json"
     },
     {
+        "theme": "delivery",
+        "newDistinctVocabularyCount": 2,
+        "vocabulary": [
+            {
+                "entryId": "en:word:delivery-send",
+                "label": "send"
+            },
+            {
+                "entryId": "en:word:delivery-carry",
+                "label": "carry"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:delivery-example-send-letter",
+            "en:sentence:delivery-example-sends-postcards",
+            "en:sentence:delivery-example-carried-box",
+            "en:sentence:delivery-example-carrying-bag"
+        ],
+        "recordedGrammaticalFormCount": 8,
+        "vocabularyAudit": "authoring/reviews/delivery-vocabulary.json"
+    },
+    {
         "theme": "depth",
         "newDistinctVocabularyCount": 2,
         "vocabulary": [
@@ -239,36 +262,5 @@
         ],
         "recordedGrammaticalFormCount": 4,
         "vocabularyAudit": "authoring/reviews/fruit-vocabulary.json"
-    },
-    {
-        "theme": "furnishings",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:furnishings-sofa",
-                "label": "sofa"
-            },
-            {
-                "entryId": "en:word:furnishings-lamp",
-                "label": "lamp"
-            },
-            {
-                "entryId": "en:word:furnishings-mirror",
-                "label": "mirror"
-            },
-            {
-                "entryId": "en:word:furnishings-pillow",
-                "label": "pillow"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:furnishings-example-sofa",
-            "en:sentence:furnishings-example-lamp",
-            "en:sentence:furnishings-example-mirror",
-            "en:sentence:furnishings-example-pillow"
-        ],
-        "recordedGrammaticalFormCount": 4,
-        "vocabularyAudit": "authoring/reviews/furnishings-vocabulary.json"
     }
 ]

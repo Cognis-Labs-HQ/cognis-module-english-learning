@@ -1,5 +1,36 @@
 [
     {
+        "theme": "places",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:places-library",
+                "label": "library"
+            },
+            {
+                "entryId": "en:word:places-hospital",
+                "label": "hospital"
+            },
+            {
+                "entryId": "en:word:places-supermarket",
+                "label": "supermarket"
+            },
+            {
+                "entryId": "en:word:places-restaurant",
+                "label": "restaurant"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:places-example-library",
+            "en:sentence:places-example-hospital",
+            "en:sentence:places-example-supermarket",
+            "en:sentence:places-example-restaurant"
+        ],
+        "recordedGrammaticalFormCount": 4,
+        "vocabularyAudit": "authoring/reviews/places-vocabulary.json"
+    },
+    {
         "theme": "posture",
         "newDistinctVocabularyCount": 2,
         "vocabulary": [
@@ -249,36 +280,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/stationery-vocabulary.json"
-    },
-    {
-        "theme": "tableware",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:tableware-cup",
-                "label": "cup"
-            },
-            {
-                "entryId": "en:word:tableware-plate",
-                "label": "plate"
-            },
-            {
-                "entryId": "en:word:tableware-spoon",
-                "label": "spoon"
-            },
-            {
-                "entryId": "en:word:tableware-fork",
-                "label": "fork"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:tableware-example-cup",
-            "en:sentence:tableware-example-plate",
-            "en:sentence:tableware-example-spoon",
-            "en:sentence:tableware-example-fork"
-        ],
-        "recordedGrammaticalFormCount": 4,
-        "vocabularyAudit": "authoring/reviews/tableware-vocabulary.json"
     }
 ]

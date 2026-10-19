@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 58,
+    "version": 59,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -15882,6 +15882,268 @@
                 }
             ],
             "optInTag": "plural"
+        },
+        {
+            "id": "delivery-send-forms",
+            "metadata": {
+                "labels": {
+                    "en": "send Forms",
+                    "de": "send-Formen",
+                    "id": "Bentuk send",
+                    "ja": "sendの活用"
+                }
+            },
+            "matchTags": ["verb", "delivery-form-send"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "third-person",
+                    "metadata": {
+                        "labels": {
+                            "en": "Third-Person Singular",
+                            "de": "Dritte Person Singular",
+                            "id": "Orang Ketiga Tunggal",
+                            "ja": "三人称単数"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "third-person",
+                    "removeSuffix": "send",
+                    "append": "sends",
+                    "pronunciation": {
+                        "removeSuffix": "/send/",
+                        "append": "/sendz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Third-Person Singular)",
+                                "de": "{{ definition }} (Dritte Person Singular)",
+                                "id": "{{ definition }} (Orang Ketiga Tunggal)",
+                                "ja": "{{ definition }} (三人称単数)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past",
+                            "de": "Vergangenheit",
+                            "id": "Lampau",
+                            "ja": "過去形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past",
+                    "removeSuffix": "send",
+                    "append": "sent",
+                    "pronunciation": {
+                        "removeSuffix": "/send/",
+                        "append": "/sent/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past)",
+                                "de": "{{ definition }} (Vergangenheit)",
+                                "id": "{{ definition }} (Lampau)",
+                                "ja": "{{ definition }} (過去形)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "present-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Present Participle",
+                            "de": "Präsenspartizip",
+                            "id": "Partisip Kini",
+                            "ja": "現在分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "present-participle",
+                    "removeSuffix": "send",
+                    "append": "sending",
+                    "pronunciation": {
+                        "removeSuffix": "/send/",
+                        "append": "/ˈsendɪŋ/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Present Participle)",
+                                "de": "{{ definition }} (Präsenspartizip)",
+                                "id": "{{ definition }} (Partisip Kini)",
+                                "ja": "{{ definition }} (現在分詞)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past Participle",
+                            "de": "Partizip Perfekt",
+                            "id": "Partisip Lampau",
+                            "ja": "過去分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past-participle",
+                    "removeSuffix": "send",
+                    "append": "sent",
+                    "pronunciation": {
+                        "removeSuffix": "/send/",
+                        "append": "/sent/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past Participle)",
+                                "de": "{{ definition }} (Partizip Perfekt)",
+                                "id": "{{ definition }} (Partisip Lampau)",
+                                "ja": "{{ definition }} (過去分詞)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "delivery-carry-forms",
+            "metadata": {
+                "labels": {
+                    "en": "carry Forms",
+                    "de": "carry-Formen",
+                    "id": "Bentuk carry",
+                    "ja": "carryの活用"
+                }
+            },
+            "matchTags": ["verb", "delivery-form-carry"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "third-person",
+                    "metadata": {
+                        "labels": {
+                            "en": "Third-Person Singular",
+                            "de": "Dritte Person Singular",
+                            "id": "Orang Ketiga Tunggal",
+                            "ja": "三人称単数"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "third-person",
+                    "removeSuffix": "carry",
+                    "append": "carries",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈkæri/",
+                        "append": "/ˈkæriz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Third-Person Singular)",
+                                "de": "{{ definition }} (Dritte Person Singular)",
+                                "id": "{{ definition }} (Orang Ketiga Tunggal)",
+                                "ja": "{{ definition }} (三人称単数)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past",
+                            "de": "Vergangenheit",
+                            "id": "Lampau",
+                            "ja": "過去形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past",
+                    "removeSuffix": "carry",
+                    "append": "carried",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈkæri/",
+                        "append": "/ˈkærid/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past)",
+                                "de": "{{ definition }} (Vergangenheit)",
+                                "id": "{{ definition }} (Lampau)",
+                                "ja": "{{ definition }} (過去形)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "present-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Present Participle",
+                            "de": "Präsenspartizip",
+                            "id": "Partisip Kini",
+                            "ja": "現在分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "present-participle",
+                    "removeSuffix": "carry",
+                    "append": "carrying",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈkæri/",
+                        "append": "/ˈkæriɪŋ/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Present Participle)",
+                                "de": "{{ definition }} (Präsenspartizip)",
+                                "id": "{{ definition }} (Partisip Kini)",
+                                "ja": "{{ definition }} (現在分詞)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past Participle",
+                            "de": "Partizip Perfekt",
+                            "id": "Partisip Lampau",
+                            "ja": "過去分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past-participle",
+                    "removeSuffix": "carry",
+                    "append": "carried",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈkæri/",
+                        "append": "/ˈkærid/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past Participle)",
+                                "de": "{{ definition }} (Partizip Perfekt)",
+                                "id": "{{ definition }} (Partisip Lampau)",
+                                "ja": "{{ definition }} (過去分詞)"
+                            }
+                        }
+                    }
+                }
+            ]
         }
     ]
 }

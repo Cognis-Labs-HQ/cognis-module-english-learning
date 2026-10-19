@@ -1,0 +1,234 @@
+[
+    {
+        "entryId": "en:sentence:delivery-example-send-letter",
+        "label": "I send a letter.",
+        "reading": null,
+        "meanings": {
+            "en": "I send a letter.",
+            "de": "Ich schicke einen Brief.",
+            "id": "Saya mengirim surat.",
+            "ja": "手紙を送ります。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:delivery-send",
+            "en:word:a",
+            "en:word:correspondence-letter",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/ea8bc116ddcc23e4a6920058e03bbc1f09e147612e0006fb88761df707088e25.wav",
+        "sha256": "ea8bc116ddcc23e4a6920058e03bbc1f09e147612e0006fb88761df707088e25",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Send takes the written message as direct object. This selects transmission of an item, not sending a person somewhere.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:delivery-send",
+                "path": "audio/3b223b5940da9152188ec7e9798bf11d20fd7f89657d32eb9a7a4a4da36eff7e.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"send\">send</phoneme>.",
+                "sha256": "da463b1a0eabb662acf1fb5e4d4eca4952296f5ddb69e0618eebb29100e4a0ea"
+            },
+            {
+                "entryId": "en:word:a",
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ə\">a</phoneme>.",
+                "sha256": "7d5073e6c6c8c87efc2dd90a7e4f16a47f23ab71a57c34ced6daf13082d53f07"
+            },
+            {
+                "entryId": "en:word:correspondence-letter",
+                "path": "audio/318cdcbcbd4c4b122acdb41704812e66960383c8e0a56489fd9dc11efd04d9fe.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈletə\">letter</phoneme>.",
+                "sha256": "7441e4c775bae3782de1a0f4d3ae1cea1f8458e2fc32f8c8c727a5471f681381"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/delivery-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    },
+    {
+        "entryId": "en:sentence:delivery-example-sends-postcards",
+        "label": "She sends postcards.",
+        "reading": null,
+        "meanings": {
+            "en": "She sends postcards.",
+            "de": "Sie schickt Postkarten.",
+            "id": "Dia mengirim kartu-kartu pos.",
+            "ja": "彼女は葉書を送ります。"
+        },
+        "constituentIds": [
+            "en:word:capital-she",
+            "en:word:form-delivery-send-third-person",
+            "en:word:form-correspondence-postcards",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/3b47dbbdc53868ca046b8ebc1d1deed98dc8c3a534e79e4337d88f04eb382c8b.wav",
+        "sha256": "3b47dbbdc53868ca046b8ebc1d1deed98dc8c3a534e79e4337d88f04eb382c8b",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Third-person singular she takes sends; bare plural postcards denotes multiple cards. Both selected inflections use exact PCM.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-she",
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ʃiː\">She</phoneme>.",
+                "sha256": "a22a256231312a962631113989bb0015c4cfdd4dda006e769918698d284e33d6"
+            },
+            {
+                "entryId": "en:word:form-delivery-send-third-person",
+                "path": "audio/3e0b78f819ac77f550b5596926fe7419f932522336dc9bca846774d764dd1d17.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"sendz\">sends</phoneme>.",
+                "sha256": "b45fc0631a37db909190d63c07691450accc5ddecf0901288c825c0e1052112a"
+            },
+            {
+                "entryId": "en:word:form-correspondence-postcards",
+                "path": "audio/c3c142a0bee507a7114aa63f13185f445b878a26a1dacf9b52e5102f1f7cb6f5.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈpəʊstkɑːdz\">postcards</phoneme>.",
+                "sha256": "145362405f99da60204abef9dd960011b193017e72ea7b09a6be42f5d31feeb4"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/delivery-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    },
+    {
+        "entryId": "en:sentence:delivery-example-carried-box",
+        "label": "He carried the box.",
+        "reading": null,
+        "meanings": {
+            "en": "He carried the box.",
+            "de": "Er trug die Schachtel.",
+            "id": "Dia membawa kotak itu tadi.",
+            "ja": "彼は箱を運びました。"
+        },
+        "constituentIds": [
+            "en:word:capital-he",
+            "en:word:form-delivery-carry-past",
+            "en:word:the",
+            "en:word:containers-box",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/141546163db02d922ee11fa9c544de7a51fcf644abc8df0da0103632d55bd84b.wav",
+        "sha256": "141546163db02d922ee11fa9c544de7a51fcf644abc8df0da0103632d55bd84b",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Carried is the simple past, preserving /id/ without adding another syllable after /d/. Indonesian tadi and Japanese past preserve past time.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-he",
+                "path": "audio/6479e690a54602e0b1c5a5bbe4418239c707d393fdde6754b827fac5d2eb56c9.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"hiː\">He</phoneme>.",
+                "sha256": "eea16fc04334e39455a68d468c9fd226057684342b9ae1b215476223a9c257c7"
+            },
+            {
+                "entryId": "en:word:form-delivery-carry-past",
+                "path": "audio/e04d6f706b4ab2346c5221173858ed4a46b02ccc8c456e3c736c6773026914e4.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈkærid\">carried</phoneme>.",
+                "sha256": "fe568303a1a6cda2d2ca13eb4c0fc7334e9cdf55b84268e3aa99af07eb781cf1"
+            },
+            {
+                "entryId": "en:word:the",
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">the</phoneme>.",
+                "sha256": "b2de03d0a472a2c128fb577f21214734327c9ea284305cddf02da7e534c37d9c"
+            },
+            {
+                "entryId": "en:word:containers-box",
+                "path": "audio/10703bad0a3eae4370c7e8255c0e077054f9470eff2d7a85ae2ee8935031865c.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"bɒks\">box</phoneme>.",
+                "sha256": "76fa7e91ac04634aeb5f0e87a100e9f93857c1a62f0ad40dc80453dfdfe68be9"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/delivery-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    },
+    {
+        "entryId": "en:sentence:delivery-example-carrying-bag",
+        "label": "I am carrying the bag.",
+        "reading": null,
+        "meanings": {
+            "en": "I am carrying the bag.",
+            "de": "Ich trage gerade die Tasche.",
+            "id": "Saya sedang membawa tas itu.",
+            "ja": "今かばんを運んでいます。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:form-english-be-am",
+            "en:word:form-delivery-carry-present-participle",
+            "en:word:the",
+            "en:word:bag",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/718c91a53cd49f71673882fda68d5fb6bf9f2ac62f25c569baaf5ecb890100c5.wav",
+        "sha256": "718c91a53cd49f71673882fda68d5fb6bf9f2ac62f25c569baaf5ecb890100c5",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Am plus carrying is present progressive. Carrying retains y and the complete /iɪŋ/ ending; translations explicitly preserve ongoing action.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:form-english-be-am",
+                "path": "audio/487088dd8be1b2ac3af870c58e10ddfb75d35e254b1221160654d062f9db7a73.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"æm\">am</phoneme>.",
+                "sha256": "588942b17002c1c3fefaa75cccc16e80b8a0489dd5d989375c49ceb7224c1392"
+            },
+            {
+                "entryId": "en:word:form-delivery-carry-present-participle",
+                "path": "audio/d89adcba2abd712672a23b1b19024ccd9fdd7aaac0a2e058b24d9144d3001aa8.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈkæriɪŋ\">carrying</phoneme>.",
+                "sha256": "a5b94d8a2473531904497420f45d0ec10b35000b963f488b60487886bcfd2372"
+            },
+            {
+                "entryId": "en:word:the",
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">the</phoneme>.",
+                "sha256": "b2de03d0a472a2c128fb577f21214734327c9ea284305cddf02da7e534c37d9c"
+            },
+            {
+                "entryId": "en:word:bag",
+                "path": "audio/73013127fed0ea0a484238e0a4ba76df65fdb9996877d6dd180f519f856585fe.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"bæɡ\">bag</phoneme>.",
+                "sha256": "f0417c4ed9de4a7cae80037c54c39444e638cf92d8d479b05e5a2127da0425b7"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/delivery-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    }
+]
