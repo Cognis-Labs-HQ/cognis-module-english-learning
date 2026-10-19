@@ -1,0 +1,173 @@
+[
+    {
+        "id": "en:sentence:posture-example-sit-chair",
+        "label": "I sit on the chair.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/77c9f6cc0f148d6f2e804485c22f94453e2d2810cd138e6982a504c746c82f9e.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:posture-sit",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:on",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:chair",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:posture-example-sit-chair",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:posture-example-sat-yesterday",
+        "label": "She sat here yesterday.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/484cd916fcf1d2f1fd06f388dda093b94ac65de4e97539743f51b88bac9f2d3f.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-posture-sit-past",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:here",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:time-yesterday",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:posture-example-sat-yesterday",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:posture-example-stand-station",
+        "label": "They stand at the station.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/47e7328ac602284a4dcf0bb1239d96396e0d645cfbb29ac5c9cadba93fe785a9.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-they",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:posture-stand",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:at",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:travel-station",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:posture-example-stand-station",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:posture-example-stood-door",
+        "label": "He stood by the door.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/7088f868cb388ee65e61ec871d27608e71c54831650e176d8e1e2559bbe29019.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-he",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-posture-stand-past",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:by",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:door",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:posture-example-stood-door",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

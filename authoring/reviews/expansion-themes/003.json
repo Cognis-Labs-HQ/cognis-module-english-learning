@@ -1,5 +1,28 @@
 [
     {
+        "theme": "posture",
+        "newDistinctVocabularyCount": 2,
+        "vocabulary": [
+            {
+                "entryId": "en:word:posture-sit",
+                "label": "sit"
+            },
+            {
+                "entryId": "en:word:posture-stand",
+                "label": "stand"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:posture-example-sit-chair",
+            "en:sentence:posture-example-sat-yesterday",
+            "en:sentence:posture-example-stand-station",
+            "en:sentence:posture-example-stood-door"
+        ],
+        "recordedGrammaticalFormCount": 8,
+        "vocabularyAudit": "authoring/reviews/posture-vocabulary.json"
+    },
+    {
         "theme": "qualities",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -260,36 +283,5 @@
         "exampleIds": [],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/time-vocabulary.json"
-    },
-    {
-        "theme": "transport",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:transport-airplane",
-                "label": "airplane"
-            },
-            {
-                "entryId": "en:word:transport-boat",
-                "label": "boat"
-            },
-            {
-                "entryId": "en:word:transport-taxi",
-                "label": "taxi"
-            },
-            {
-                "entryId": "en:word:transport-motorcycle",
-                "label": "motorcycle"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:transport-example-airplane",
-            "en:sentence:transport-example-boat",
-            "en:sentence:transport-example-taxi",
-            "en:sentence:transport-example-motorcycle"
-        ],
-        "recordedGrammaticalFormCount": 4,
-        "vocabularyAudit": "authoring/reviews/transport-vocabulary.json"
     }
 ]

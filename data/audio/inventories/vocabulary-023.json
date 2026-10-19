@@ -1,0 +1,68 @@
+[
+    {
+        "path": "audio/2c05936cf28dfa0f988e05c2a5f0eb3b13b400670b121e8b51b7187bd1fd2159.wav",
+        "text": "sit",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"sɪt\">sit</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "sit",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/sɪt/"]
+            }
+        ],
+        "entries": ["en:word:posture-sit"],
+        "variants": [],
+        "sha256": "2c05936cf28dfa0f988e05c2a5f0eb3b13b400670b121e8b51b7187bd1fd2159",
+        "frames": 18793,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "c080022a8054e90ec9c4ba708924dd82bfd4ff07e4cf7f1a592baac73f2a0032"
+        }
+    },
+    {
+        "path": "audio/62d948e6ef980c99c37ef2473a5f4d80d4086f1acd7aa1667e97c1781e1ba016.wav",
+        "text": "stand",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"stænd\">stand</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "stand",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/stænd/"]
+            }
+        ],
+        "entries": ["en:word:posture-stand"],
+        "variants": [],
+        "sha256": "62d948e6ef980c99c37ef2473a5f4d80d4086f1acd7aa1667e97c1781e1ba016",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "9c3473cfbba98f4fd72595b5a5c3efc218af5fa351ed2f9fa5a150d0ba436645"
+        }
+    }
+]

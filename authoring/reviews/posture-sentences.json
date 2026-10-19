@@ -1,0 +1,250 @@
+[
+    {
+        "entryId": "en:sentence:posture-example-sit-chair",
+        "label": "I sit on the chair.",
+        "reading": null,
+        "meanings": {
+            "en": "I sit on the chair.",
+            "de": "Ich sitze auf dem Stuhl.",
+            "id": "Saya duduk di kursi itu.",
+            "ja": "椅子に座ります。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:posture-sit",
+            "en:particle:on",
+            "en:word:the",
+            "en:word:chair",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/77c9f6cc0f148d6f2e804485c22f94453e2d2810cd138e6982a504c746c82f9e.wav",
+        "sha256": "77c9f6cc0f148d6f2e804485c22f94453e2d2810cd138e6982a504c746c82f9e",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Individually authored and reviewed. Japanese plain posture predicates describe taking a position or nonpast action rather than an asserted ongoing te-iru state; ni marks the seat or position. With-friend to is comitative. English sat and stood use their own exact past recordings. Home examples preserve transitive objects, location prepositions, plural glasses and ageru recipient ni. Subjects omitted in Japanese are contextual.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:posture-sit",
+                "path": "audio/2c05936cf28dfa0f988e05c2a5f0eb3b13b400670b121e8b51b7187bd1fd2159.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"sɪt\">sit</phoneme>.",
+                "sha256": "15ca653be5e6700b00850ad9b8c103c7d6f02b26ab27e759e485de79dc1a4cbf"
+            },
+            {
+                "entryId": "en:particle:on",
+                "path": "audio/b16819d83e2bb0a994694ccb6feeb9a4e38f2a5662dc139ecd88628a19d9dca4.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "on.",
+                "sha256": "2a2c6001dc66a4bb620250f0ea9c4665eb4dab5d070c3d9b40e089bf1d312e02"
+            },
+            {
+                "entryId": "en:word:the",
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">the</phoneme>.",
+                "sha256": "b2de03d0a472a2c128fb577f21214734327c9ea284305cddf02da7e534c37d9c"
+            },
+            {
+                "entryId": "en:word:chair",
+                "path": "audio/82aa54979a99171da309b32e9e169c762861233b3c19f5cd53781a43a9f546cf.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"tʃeə\">chair</phoneme>.",
+                "sha256": "3bc95108fff1005f56a7e93fd0de33048924cdbeb891f7f3ffbc600a52a0ae6e"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    },
+    {
+        "entryId": "en:sentence:posture-example-sat-yesterday",
+        "label": "She sat here yesterday.",
+        "reading": null,
+        "meanings": {
+            "en": "She sat here yesterday.",
+            "de": "Sie saß gestern hier.",
+            "id": "Dia duduk di sini kemarin.",
+            "ja": "彼女は昨日ここに座りました。"
+        },
+        "constituentIds": [
+            "en:word:capital-she",
+            "en:word:form-posture-sit-past",
+            "en:word:here",
+            "en:word:time-yesterday",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/484cd916fcf1d2f1fd06f388dda093b94ac65de4e97539743f51b88bac9f2d3f.wav",
+        "sha256": "484cd916fcf1d2f1fd06f388dda093b94ac65de4e97539743f51b88bac9f2d3f",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Individually authored and reviewed. Japanese plain posture predicates describe taking a position or nonpast action rather than an asserted ongoing te-iru state; ni marks the seat or position. With-friend to is comitative. English sat and stood use their own exact past recordings. Home examples preserve transitive objects, location prepositions, plural glasses and ageru recipient ni. Subjects omitted in Japanese are contextual.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-she",
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ʃiː\">She</phoneme>.",
+                "sha256": "a22a256231312a962631113989bb0015c4cfdd4dda006e769918698d284e33d6"
+            },
+            {
+                "entryId": "en:word:form-posture-sit-past",
+                "path": "audio/ecf4351511d34148f55f440a3d1e9c80135e6d68a76a54ab21fb3e1f6280ab25.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"sæt\">sat</phoneme>.",
+                "sha256": "29289b1cb83dedac3a1b725615162f874bbe1a735931782fcaaccc9c10033f4f"
+            },
+            {
+                "entryId": "en:word:here",
+                "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"hɪə\">here</phoneme>.",
+                "sha256": "d590de784d7936c8f163945b87304834afd1fe229f4d5a365b836e3d233bd7a8"
+            },
+            {
+                "entryId": "en:word:time-yesterday",
+                "path": "audio/a7f5ee6d4e49bcb471661ca5714f13c543a543da7ee4602f2d51fb065b761b9c.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "yesterday",
+                "sha256": "4221d5fe4da40c2e8e488b8fa40324ee3bee145b7075e0e32375687f26991bf2"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    },
+    {
+        "entryId": "en:sentence:posture-example-stand-station",
+        "label": "They stand at the station.",
+        "reading": null,
+        "meanings": {
+            "en": "They stand at the station.",
+            "de": "Sie stehen am Bahnhof.",
+            "id": "Mereka berdiri di stasiun.",
+            "ja": "彼らは駅で立っています。"
+        },
+        "constituentIds": [
+            "en:word:capital-they",
+            "en:word:posture-stand",
+            "en:particle:at",
+            "en:word:the",
+            "en:word:travel-station",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/47e7328ac602284a4dcf0bb1239d96396e0d645cfbb29ac5c9cadba93fe785a9.wav",
+        "sha256": "47e7328ac602284a4dcf0bb1239d96396e0d645cfbb29ac5c9cadba93fe785a9",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Individually authored and reviewed. Japanese plain posture predicates describe taking a position or nonpast action rather than an asserted ongoing te-iru state; ni marks the seat or position. With-friend to is comitative. English sat and stood use their own exact past recordings. Home examples preserve transitive objects, location prepositions, plural glasses and ageru recipient ni. Subjects omitted in Japanese are contextual.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-they",
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðeɪ\">They</phoneme>.",
+                "sha256": "5fd91ec0cbb3a37d4ea324f75bcdc9de2159c371a3e67d58c6910499e109f212"
+            },
+            {
+                "entryId": "en:word:posture-stand",
+                "path": "audio/62d948e6ef980c99c37ef2473a5f4d80d4086f1acd7aa1667e97c1781e1ba016.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"stænd\">stand</phoneme>.",
+                "sha256": "30daee3ca7c62d3a231c69c85957c9b69246d8152f07c96a4e52acfecaa2f5d6"
+            },
+            {
+                "entryId": "en:particle:at",
+                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "at.",
+                "sha256": "6139c53b8055c73df9478162f62b2615ff9183aaf073ade04a6e883611ebebf7"
+            },
+            {
+                "entryId": "en:word:the",
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">the</phoneme>.",
+                "sha256": "b2de03d0a472a2c128fb577f21214734327c9ea284305cddf02da7e534c37d9c"
+            },
+            {
+                "entryId": "en:word:travel-station",
+                "path": "audio/3fb2aebfb3234140e80aad57cdfff1963c62d329f2109f447636dafb983bd4ac.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "station",
+                "sha256": "102ad5b4aeb782cc23046ba8324e2434c6b28f641d6bd6c5817d326ed6e15f47"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    },
+    {
+        "entryId": "en:sentence:posture-example-stood-door",
+        "label": "He stood by the door.",
+        "reading": null,
+        "meanings": {
+            "en": "He stood by the door.",
+            "de": "Er stand neben der Tür.",
+            "id": "Dia berdiri di dekat pintu.",
+            "ja": "彼はドアのそばに立っていました。"
+        },
+        "constituentIds": [
+            "en:word:capital-he",
+            "en:word:form-posture-stand-past",
+            "en:particle:by",
+            "en:word:the",
+            "en:word:door",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/7088f868cb388ee65e61ec871d27608e71c54831650e176d8e1e2559bbe29019.wav",
+        "sha256": "7088f868cb388ee65e61ec871d27608e71c54831650e176d8e1e2559bbe29019",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Individually authored and reviewed. Japanese plain posture predicates describe taking a position or nonpast action rather than an asserted ongoing te-iru state; ni marks the seat or position. With-friend to is comitative. English sat and stood use their own exact past recordings. Home examples preserve transitive objects, location prepositions, plural glasses and ageru recipient ni. Subjects omitted in Japanese are contextual.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-he",
+                "path": "audio/6479e690a54602e0b1c5a5bbe4418239c707d393fdde6754b827fac5d2eb56c9.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"hiː\">He</phoneme>.",
+                "sha256": "eea16fc04334e39455a68d468c9fd226057684342b9ae1b215476223a9c257c7"
+            },
+            {
+                "entryId": "en:word:form-posture-stand-past",
+                "path": "audio/8a9124a1401d2e8e81b08baa01b3d8ff800e8e26dd734720dc419d1f0d98a65e.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"stʊd\">stood</phoneme>.",
+                "sha256": "e35f056ec580f4ff320f1ac50748943f1dfb67acc896ddce001f4705c6630940"
+            },
+            {
+                "entryId": "en:particle:by",
+                "path": "audio/bd04024b02ccfb1acb267613f4cb81cac9a887a044d4b7ab4f3da08e75c2a97c.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "by.",
+                "sha256": "1828c61219e56463d8e135d3c3d8a87b239086f0ebafc71fbac8a8e1d2bd4ee8"
+            },
+            {
+                "entryId": "en:word:the",
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">the</phoneme>.",
+                "sha256": "b2de03d0a472a2c128fb577f21214734327c9ea284305cddf02da7e534c37d9c"
+            },
+            {
+                "entryId": "en:word:door",
+                "path": "audio/6670fd21613e90e70f6c6deff51d944e17cd41e6ae5ccae2f938fe420a950e2e.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"dɔː\">door</phoneme>.",
+                "sha256": "66f8d95a2ecb67729c96b74819693a8f2f0e97aaeba1a5f0c20e653815463a3e"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    }
+]

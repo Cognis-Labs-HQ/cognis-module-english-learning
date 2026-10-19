@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 46,
+    "version": 47,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -13993,6 +13993,268 @@
                     "pronunciation": {
                         "removeSuffix": "/rɪˈsiːv/",
                         "append": "/rɪˈsiːvd/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past Participle)",
+                                "de": "{{ definition }} (Partizip Perfekt)",
+                                "id": "{{ definition }} (Partisip Lampau)",
+                                "ja": "{{ definition }} (過去分詞)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "posture-sit-forms",
+            "metadata": {
+                "labels": {
+                    "en": "sit Forms",
+                    "de": "sit-Formen",
+                    "id": "Bentuk sit",
+                    "ja": "sitの活用"
+                }
+            },
+            "matchTags": ["verb", "posture-form-sit"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "third-person",
+                    "metadata": {
+                        "labels": {
+                            "en": "Third-Person Singular",
+                            "de": "Dritte Person Singular",
+                            "id": "Orang Ketiga Tunggal",
+                            "ja": "三人称単数"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "third-person",
+                    "removeSuffix": "sit",
+                    "append": "sits",
+                    "pronunciation": {
+                        "removeSuffix": "/sɪt/",
+                        "append": "/sɪts/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Third-Person Singular)",
+                                "de": "{{ definition }} (Dritte Person Singular)",
+                                "id": "{{ definition }} (Orang Ketiga Tunggal)",
+                                "ja": "{{ definition }} (三人称単数)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past",
+                            "de": "Vergangenheit",
+                            "id": "Lampau",
+                            "ja": "過去形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past",
+                    "removeSuffix": "sit",
+                    "append": "sat",
+                    "pronunciation": {
+                        "removeSuffix": "/sɪt/",
+                        "append": "/sæt/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past)",
+                                "de": "{{ definition }} (Vergangenheit)",
+                                "id": "{{ definition }} (Lampau)",
+                                "ja": "{{ definition }} (過去形)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "present-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Present Participle",
+                            "de": "Präsenspartizip",
+                            "id": "Partisip Kini",
+                            "ja": "現在分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "present-participle",
+                    "removeSuffix": "sit",
+                    "append": "sitting",
+                    "pronunciation": {
+                        "removeSuffix": "/sɪt/",
+                        "append": "/ˈsɪtɪŋ/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Present Participle)",
+                                "de": "{{ definition }} (Präsenspartizip)",
+                                "id": "{{ definition }} (Partisip Kini)",
+                                "ja": "{{ definition }} (現在分詞)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past Participle",
+                            "de": "Partizip Perfekt",
+                            "id": "Partisip Lampau",
+                            "ja": "過去分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past-participle",
+                    "removeSuffix": "sit",
+                    "append": "sat",
+                    "pronunciation": {
+                        "removeSuffix": "/sɪt/",
+                        "append": "/sæt/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past Participle)",
+                                "de": "{{ definition }} (Partizip Perfekt)",
+                                "id": "{{ definition }} (Partisip Lampau)",
+                                "ja": "{{ definition }} (過去分詞)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "posture-stand-forms",
+            "metadata": {
+                "labels": {
+                    "en": "stand Forms",
+                    "de": "stand-Formen",
+                    "id": "Bentuk stand",
+                    "ja": "standの活用"
+                }
+            },
+            "matchTags": ["verb", "posture-form-stand"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "third-person",
+                    "metadata": {
+                        "labels": {
+                            "en": "Third-Person Singular",
+                            "de": "Dritte Person Singular",
+                            "id": "Orang Ketiga Tunggal",
+                            "ja": "三人称単数"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "third-person",
+                    "removeSuffix": "stand",
+                    "append": "stands",
+                    "pronunciation": {
+                        "removeSuffix": "/stænd/",
+                        "append": "/stændz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Third-Person Singular)",
+                                "de": "{{ definition }} (Dritte Person Singular)",
+                                "id": "{{ definition }} (Orang Ketiga Tunggal)",
+                                "ja": "{{ definition }} (三人称単数)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past",
+                            "de": "Vergangenheit",
+                            "id": "Lampau",
+                            "ja": "過去形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past",
+                    "removeSuffix": "stand",
+                    "append": "stood",
+                    "pronunciation": {
+                        "removeSuffix": "/stænd/",
+                        "append": "/stʊd/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past)",
+                                "de": "{{ definition }} (Vergangenheit)",
+                                "id": "{{ definition }} (Lampau)",
+                                "ja": "{{ definition }} (過去形)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "present-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Present Participle",
+                            "de": "Präsenspartizip",
+                            "id": "Partisip Kini",
+                            "ja": "現在分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "present-participle",
+                    "removeSuffix": "stand",
+                    "append": "standing",
+                    "pronunciation": {
+                        "removeSuffix": "/stænd/",
+                        "append": "/ˈstændɪŋ/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Present Participle)",
+                                "de": "{{ definition }} (Präsenspartizip)",
+                                "id": "{{ definition }} (Partisip Kini)",
+                                "ja": "{{ definition }} (現在分詞)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past Participle",
+                            "de": "Partizip Perfekt",
+                            "id": "Partisip Lampau",
+                            "ja": "過去分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past-participle",
+                    "removeSuffix": "stand",
+                    "append": "stood",
+                    "pronunciation": {
+                        "removeSuffix": "/stænd/",
+                        "append": "/stʊd/"
                     },
                     "definitionTransform": {
                         "template": {

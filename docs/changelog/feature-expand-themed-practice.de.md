@@ -198,6 +198,10 @@ Flasche, Schachtel, Korb und Briefumschlag mit lokalisierten Bedeutungen, Gebrau
 
 Radiergummi, Schere, Klebeband und Heftgerät mit geprüften Bildern und vier Beispielen ergänzt. Gebrauchshinweise und Satzverknüpfungen erhalten den englischen Plural scissors, das nicht zählbare tape, den Langvokal in テープ und die Schreibweise ホチキス. Beim japanischen Empfangsbeispiel bleibt die Lehrkraft die Quelle. Die exakten Audiobausteine sind technisch geprüft; die Hörprüfung bleibt gemäß der dokumentierten Ausnahme ausstehend.
 
+## Haltungsverben und geprüfte Audioindizes
+
+Sit und stand samt unregelmäßigen englischen und japanischen Godan-Formen, geprüften Bildern und vier Beispielen ergänzt. Gebrauchshinweise unterscheiden das Einnehmen einer Haltung vom andauernden japanischen Zustand. Zweckindizes mit Prüfsummen ermöglichen weiteres Wachstum innerhalb der bestehenden Dateigrenzen. Die Hörprüfung bleibt gemäß der dokumentierten Ausnahme ausstehend.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)
