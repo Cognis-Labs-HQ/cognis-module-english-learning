@@ -1,0 +1,282 @@
+[
+    {
+        "path": "audio/0f97141472b0c94df6fb1e1358575e224bf1e17b2bd7773e3c8c44cd0563e785.wav",
+        "entryId": "en:sentence:depth-example-deep-bowl",
+        "label": "The bowl is deep.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/602a5b18f35940ca7a99e287c3ccf5f588e16d278143c5e873d911838d9cc187.wav",
+                "entryId": "en:word:kitchen-bowl"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/1b5b434064304665dd98d03a48ae5901f49456f7c66be13493c67dd22be62088.wav",
+                "entryId": "en:word:depth-deep"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/602a5b18f35940ca7a99e287c3ccf5f588e16d278143c5e873d911838d9cc187.wav",
+                "entryId": "en:word:kitchen-bowl",
+                "startFrame": 12710,
+                "frameCount": 27709
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 42579,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/1b5b434064304665dd98d03a48ae5901f49456f7c66be13493c67dd22be62088.wav",
+                "entryId": "en:word:depth-deep",
+                "startFrame": 55126,
+                "frameCount": 18793
+            }
+        ],
+        "sha256": "0f97141472b0c94df6fb1e1358575e224bf1e17b2bd7773e3c8c44cd0563e785",
+        "frames": 85679,
+        "input": {
+            "language": "en",
+            "label": "The bowl is deep.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/9e61920a2bdb80c10e60d87740ec7bd275ddbb5978b7bf223c1decd55b685e71.wav",
+        "entryId": "en:sentence:depth-example-shallower-pan",
+        "label": "I need a shallower pan.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/e0a43cc3dae8d1c85bafe4044b7cec4cdf3c33c09edb15d1283887b2bdd03f99.wav",
+                "entryId": "en:word:form-depth-shallow-comparative"
+            },
+            {
+                "path": "audio/6cda0d008b83d3b3fa4def812c16623aa22b6fbf6fb422b942c9136da8249fd6.wav",
+                "entryId": "en:word:kitchen-pan"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need",
+                "startFrame": 11067,
+                "frameCount": 9927
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 23154,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/e0a43cc3dae8d1c85bafe4044b7cec4cdf3c33c09edb15d1283887b2bdd03f99.wav",
+                "entryId": "en:word:form-depth-shallow-comparative",
+                "startFrame": 37854,
+                "frameCount": 23251
+            },
+            {
+                "path": "audio/6cda0d008b83d3b3fa4def812c16623aa22b6fbf6fb422b942c9136da8249fd6.wav",
+                "entryId": "en:word:kitchen-pan",
+                "startFrame": 63265,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "9e61920a2bdb80c10e60d87740ec7bd275ddbb5978b7bf223c1decd55b685e71",
+        "frames": 94932,
+        "input": {
+            "language": "en",
+            "label": "I need a shallower pan.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/5ab98bf4ae9042f2682bce2aa261c13508a13f3322113a44802493d5eb7e27d5.wav",
+        "entryId": "en:sentence:depth-example-deepest-pot",
+        "label": "The deepest pot is here.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/cb4d3a94c08002ec97e55a899d463986741dfe2fe2e66e30a11083e66e3885f0.wav",
+                "entryId": "en:word:form-depth-deep-superlative"
+            },
+            {
+                "path": "audio/fa34aa05e09717286a6e51c1dc12fd5666e942cb18ef93160cc8025bfe11671f.wav",
+                "entryId": "en:word:kitchen-pot"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
+                "entryId": "en:word:here"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/cb4d3a94c08002ec97e55a899d463986741dfe2fe2e66e30a11083e66e3885f0.wav",
+                "entryId": "en:word:form-depth-deep-superlative",
+                "startFrame": 12710,
+                "frameCount": 25480
+            },
+            {
+                "path": "audio/fa34aa05e09717286a6e51c1dc12fd5666e942cb18ef93160cc8025bfe11671f.wav",
+                "entryId": "en:word:kitchen-pot",
+                "startFrame": 40350,
+                "frameCount": 19907
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 62417,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
+                "entryId": "en:word:here",
+                "startFrame": 74964,
+                "frameCount": 11241
+            }
+        ],
+        "sha256": "5ab98bf4ae9042f2682bce2aa261c13508a13f3322113a44802493d5eb7e27d5",
+        "frames": 97965,
+        "input": {
+            "language": "en",
+            "label": "The deepest pot is here.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/8da32e91c3709fb0bfdd84740dca4c63158f5104794112c6a9bca9ab332f4942.wav",
+        "entryId": "en:sentence:depth-example-shallow-water",
+        "label": "The water is shallow.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/de43a97fbedea7909d8f9b9ca31da43c5bd95debf2a1c3f89a02f2f0996bee27.wav",
+                "entryId": "en:word:water"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/ae02f7fdddd6eb235c01e5debe74adc2cc1345bcf04b93b24e216053f96c64f1.wav",
+                "entryId": "en:word:depth-shallow"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/de43a97fbedea7909d8f9b9ca31da43c5bd95debf2a1c3f89a02f2f0996bee27.wav",
+                "entryId": "en:word:water",
+                "startFrame": 12710,
+                "frameCount": 13834
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 28704,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/ae02f7fdddd6eb235c01e5debe74adc2cc1345bcf04b93b24e216053f96c64f1.wav",
+                "entryId": "en:word:depth-shallow",
+                "startFrame": 41251,
+                "frameCount": 22137
+            }
+        ],
+        "sha256": "8da32e91c3709fb0bfdd84740dca4c63158f5104794112c6a9bca9ab332f4942",
+        "frames": 75148,
+        "input": {
+            "language": "en",
+            "label": "The water is shallow.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    }
+]

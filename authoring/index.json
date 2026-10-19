@@ -7,7 +7,7 @@
     "rejectedHistory": "authoring/reviews/rejected-history.json",
     "listeningCapabilities": "authoring/reviews/capabilities.json",
     "stagedTravel": "authoring/staged/travel/index.json",
-    "currentCatalogCount": 339,
+    "currentCatalogCount": 341,
     "replacementCount": 9,
     "remainingInitialRejections": 0,
     "audioListening": "unverified-not-performed-publication-authorized",
@@ -262,7 +262,7 @@
     "forceSentences": "authoring/reviews/force-sentences.json",
     "forcePreservation": "authoring/reviews/force-preservation.json",
     "forceSelection": "authoring/reviews/force-selection.json",
-    "currentAudioSelectionAudit": "authoring/reviews/location-selection.json",
+    "currentAudioSelectionAudit": "authoring/reviews/depth-selection.json",
     "forceValidation": "authoring/reviews/force-validation.json",
     "lengthImages": "authoring/reviews/length-images.json",
     "lengthAudio": "authoring/reviews/length-audio.json",
@@ -312,5 +312,14 @@
     "locationSentences": "authoring/reviews/location-sentences.json",
     "locationPreservation": "authoring/reviews/location-preservation.json",
     "locationSelection": "authoring/reviews/location-selection.json",
-    "locationValidation": "authoring/reviews/location-validation.json"
+    "locationValidation": "authoring/reviews/location-validation.json",
+    "depthImages": "authoring/reviews/depth-images.json",
+    "depthAudio": "authoring/reviews/depth-audio.json",
+    "depthVocabulary": "authoring/reviews/depth-vocabulary.json",
+    "depthForms": "authoring/reviews/depth-forms-vocabulary.json",
+    "depthFormAudio": "authoring/reviews/depth-forms-audio.json",
+    "depthSentences": "authoring/reviews/depth-sentences.json",
+    "depthPreservation": "authoring/reviews/depth-preservation.json",
+    "depthSelection": "authoring/reviews/depth-selection.json",
+    "depthValidation": "authoring/reviews/depth-validation.json"
 }

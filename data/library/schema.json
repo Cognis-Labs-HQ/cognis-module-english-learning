@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 51,
+    "version": 52,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -15071,6 +15071,152 @@
                     "pronunciation": {
                         "removeSuffix": "/ˈnærəʊ/",
                         "append": "/ˈnærəʊɪst/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Superlative)",
+                                "de": "{{ definition }} (Superlativ)",
+                                "id": "{{ definition }} (Superlatif)",
+                                "ja": "{{ definition }} (最上級)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "depth-deep-forms",
+            "metadata": {
+                "labels": {
+                    "en": "deep Forms",
+                    "de": "deep-Formen",
+                    "id": "Bentuk deep",
+                    "ja": "deepの活用"
+                }
+            },
+            "matchTags": ["adjective", "depth-form-deep"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "comparative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Comparative",
+                            "de": "Komparativ",
+                            "id": "Komparatif",
+                            "ja": "比較級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "comparative",
+                    "removeSuffix": "deep",
+                    "append": "deeper",
+                    "pronunciation": {
+                        "removeSuffix": "/diːp/",
+                        "append": "/ˈdiːpə/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Comparative)",
+                                "de": "{{ definition }} (Komparativ)",
+                                "id": "{{ definition }} (Komparatif)",
+                                "ja": "{{ definition }} (比較級)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "superlative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Superlative",
+                            "de": "Superlativ",
+                            "id": "Superlatif",
+                            "ja": "最上級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "superlative",
+                    "removeSuffix": "deep",
+                    "append": "deepest",
+                    "pronunciation": {
+                        "removeSuffix": "/diːp/",
+                        "append": "/ˈdiːpɪst/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Superlative)",
+                                "de": "{{ definition }} (Superlativ)",
+                                "id": "{{ definition }} (Superlatif)",
+                                "ja": "{{ definition }} (最上級)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "depth-shallow-forms",
+            "metadata": {
+                "labels": {
+                    "en": "shallow Forms",
+                    "de": "shallow-Formen",
+                    "id": "Bentuk shallow",
+                    "ja": "shallowの活用"
+                }
+            },
+            "matchTags": ["adjective", "depth-form-shallow"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "comparative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Comparative",
+                            "de": "Komparativ",
+                            "id": "Komparatif",
+                            "ja": "比較級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "comparative",
+                    "removeSuffix": "shallow",
+                    "append": "shallower",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈʃæləʊ/",
+                        "append": "/ˈʃæləʊə/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Comparative)",
+                                "de": "{{ definition }} (Komparativ)",
+                                "id": "{{ definition }} (Komparatif)",
+                                "ja": "{{ definition }} (比較級)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "superlative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Superlative",
+                            "de": "Superlativ",
+                            "id": "Superlatif",
+                            "ja": "最上級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "superlative",
+                    "removeSuffix": "shallow",
+                    "append": "shallowest",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈʃæləʊ/",
+                        "append": "/ˈʃæləʊɪst/"
                     },
                     "definitionTransform": {
                         "template": {

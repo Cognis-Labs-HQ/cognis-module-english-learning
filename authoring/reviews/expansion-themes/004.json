@@ -1,5 +1,36 @@
 [
     {
+        "theme": "rooms",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:rooms-bedroom",
+                "label": "bedroom"
+            },
+            {
+                "entryId": "en:word:rooms-bathroom",
+                "label": "bathroom"
+            },
+            {
+                "entryId": "en:word:rooms-kitchen",
+                "label": "kitchen"
+            },
+            {
+                "entryId": "en:word:rooms-garden",
+                "label": "garden"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:rooms-example-bedroom",
+            "en:sentence:rooms-example-bathroom",
+            "en:sentence:rooms-example-kitchen",
+            "en:sentence:rooms-example-garden"
+        ],
+        "recordedGrammaticalFormCount": 4,
+        "vocabularyAudit": "authoring/reviews/rooms-vocabulary.json"
+    },
+    {
         "theme": "school",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -264,36 +295,5 @@
         ],
         "recordedGrammaticalFormCount": 4,
         "vocabularyAudit": "authoring/reviews/width-vocabulary.json"
-    },
-    {
-        "theme": "wildlife",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:wildlife-fox",
-                "label": "fox"
-            },
-            {
-                "entryId": "en:word:wildlife-bear",
-                "label": "bear"
-            },
-            {
-                "entryId": "en:word:wildlife-monkey",
-                "label": "monkey"
-            },
-            {
-                "entryId": "en:word:wildlife-elephant",
-                "label": "elephant"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:wildlife-example-fox-movement",
-            "en:sentence:wildlife-example-bear-habitat",
-            "en:sentence:wildlife-example-monkey-observation",
-            "en:sentence:wildlife-example-elephant-size"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/wildlife-vocabulary.json"
     }
 ]

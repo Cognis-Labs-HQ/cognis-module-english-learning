@@ -27,6 +27,29 @@
         "vocabularyAudit": "authoring/reviews/craft-vocabulary.json"
     },
     {
+        "theme": "depth",
+        "newDistinctVocabularyCount": 2,
+        "vocabulary": [
+            {
+                "entryId": "en:word:depth-deep",
+                "label": "deep"
+            },
+            {
+                "entryId": "en:word:depth-shallow",
+                "label": "shallow"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:depth-example-deep-bowl",
+            "en:sentence:depth-example-shallower-pan",
+            "en:sentence:depth-example-deepest-pot",
+            "en:sentence:depth-example-shallow-water"
+        ],
+        "recordedGrammaticalFormCount": 4,
+        "vocabularyAudit": "authoring/reviews/depth-vocabulary.json"
+    },
+    {
         "theme": "directions",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -252,36 +275,5 @@
         "exampleIds": [],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/greetings-vocabulary.json"
-    },
-    {
-        "theme": "household",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:household-wash",
-                "label": "wash"
-            },
-            {
-                "entryId": "en:word:household-cook",
-                "label": "cook"
-            },
-            {
-                "entryId": "en:word:household-clean",
-                "label": "clean"
-            },
-            {
-                "entryId": "en:word:household-dry",
-                "label": "dry"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:household-example-wash",
-            "en:sentence:household-example-cook",
-            "en:sentence:household-example-clean",
-            "en:sentence:household-example-dry"
-        ],
-        "recordedGrammaticalFormCount": 16,
-        "vocabularyAudit": "authoring/reviews/household-vocabulary.json"
     }
 ]

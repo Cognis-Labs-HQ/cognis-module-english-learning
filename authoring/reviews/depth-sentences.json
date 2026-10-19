@@ -1,0 +1,250 @@
+[
+    {
+        "entryId": "en:sentence:depth-example-deep-bowl",
+        "label": "The bowl is deep.",
+        "reading": null,
+        "meanings": {
+            "en": "The bowl is deep.",
+            "de": "Die Schüssel ist tief.",
+            "id": "Mangkuk itu dalam.",
+            "ja": "そのボウルは深いです。"
+        },
+        "constituentIds": [
+            "en:word:capital-the",
+            "en:word:kitchen-bowl",
+            "en:word:form-english-be-is",
+            "en:word:depth-deep",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/0f97141472b0c94df6fb1e1358575e224bf1e17b2bd7773e3c8c44cd0563e785.wav",
+        "sha256": "0f97141472b0c94df6fb1e1358575e224bf1e17b2bd7773e3c8c44cd0563e785",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Deep selects the physical rim-to-bottom dimension of a bowl; singular bowl takes is.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-the",
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">The</phoneme>.",
+                "sha256": "8afecb26db8f5442c31c18cc1a16c18c0649b2dd6694ed6071ffa43d5db5f99a"
+            },
+            {
+                "entryId": "en:word:kitchen-bowl",
+                "path": "audio/602a5b18f35940ca7a99e287c3ccf5f588e16d278143c5e873d911838d9cc187.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"bəʊl\">bowl</phoneme>.",
+                "sha256": "fd427f1ecbb641aaccb2e1caea70917960e13ca2c5edca6b9dc51259ef0fae75"
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɪz\">is</phoneme>.",
+                "sha256": "8ddf540a1b70b081638155835213ea9562b8fd89bc891d336f9c33607bfb023f"
+            },
+            {
+                "entryId": "en:word:depth-deep",
+                "path": "audio/1b5b434064304665dd98d03a48ae5901f49456f7c66be13493c67dd22be62088.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"diːp\">deep</phoneme>.",
+                "sha256": "28c9974562494f32a43f1ea825eb58e54f234c6a01eb02861c104340b8a1fa9f"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/depth-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    },
+    {
+        "entryId": "en:sentence:depth-example-shallower-pan",
+        "label": "I need a shallower pan.",
+        "reading": null,
+        "meanings": {
+            "en": "I need a shallower pan.",
+            "de": "Ich brauche eine flachere Pfanne.",
+            "id": "Saya membutuhkan wajan yang lebih dangkal.",
+            "ja": "もっと浅いフライパンが必要です。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:need",
+            "en:word:a",
+            "en:word:form-depth-shallow-comparative",
+            "en:word:kitchen-pan",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/9e61920a2bdb80c10e60d87740ec7bd275ddbb5978b7bf223c1decd55b685e71.wav",
+        "sha256": "9e61920a2bdb80c10e60d87740ec7bd275ddbb5978b7bf223c1decd55b685e71",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Comparative shallower modifies pan after a; the exact shallower clip is used. No material or width comparison is implied.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:need",
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"niːd\">need</phoneme>.",
+                "sha256": "6080e14b7e4dca1867a955d4e5a2120225e3c5445e66756da8c70acb55add49b"
+            },
+            {
+                "entryId": "en:word:a",
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ə\">a</phoneme>.",
+                "sha256": "7d5073e6c6c8c87efc2dd90a7e4f16a47f23ab71a57c34ced6daf13082d53f07"
+            },
+            {
+                "entryId": "en:word:form-depth-shallow-comparative",
+                "path": "audio/e0a43cc3dae8d1c85bafe4044b7cec4cdf3c33c09edb15d1283887b2bdd03f99.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈʃæləʊə\">shallower</phoneme>.",
+                "sha256": "f408a5c728034bf882bee2b8c488f037c4131d94ec626acea055d291ab48c2d7"
+            },
+            {
+                "entryId": "en:word:kitchen-pan",
+                "path": "audio/6cda0d008b83d3b3fa4def812c16623aa22b6fbf6fb422b942c9136da8249fd6.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"pæn\">pan</phoneme>.",
+                "sha256": "b0bcf8fd485f2cdbbdd6b3235f8343b959d7341fd5d14f88d6fd05557aefe1d2"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/depth-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    },
+    {
+        "entryId": "en:sentence:depth-example-deepest-pot",
+        "label": "The deepest pot is here.",
+        "reading": null,
+        "meanings": {
+            "en": "The deepest pot is here.",
+            "de": "Der tiefste Topf ist hier.",
+            "id": "Panci yang paling dalam ada di sini.",
+            "ja": "いちばん深い鍋はここにあります。"
+        },
+        "constituentIds": [
+            "en:word:capital-the",
+            "en:word:form-depth-deep-superlative",
+            "en:word:kitchen-pot",
+            "en:word:form-english-be-is",
+            "en:word:here",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/5ab98bf4ae9042f2682bce2aa261c13508a13f3322113a44802493d5eb7e27d5.wav",
+        "sha256": "5ab98bf4ae9042f2682bce2aa261c13508a13f3322113a44802493d5eb7e27d5",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "The superlative deepest selects the greatest depth within an implied set of pots; here supplies location. Exact deepest recording is used.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-the",
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">The</phoneme>.",
+                "sha256": "8afecb26db8f5442c31c18cc1a16c18c0649b2dd6694ed6071ffa43d5db5f99a"
+            },
+            {
+                "entryId": "en:word:form-depth-deep-superlative",
+                "path": "audio/cb4d3a94c08002ec97e55a899d463986741dfe2fe2e66e30a11083e66e3885f0.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈdiːpɪst\">deepest</phoneme>.",
+                "sha256": "ec31a9c718bb1335bc469f5fe586c7a59c52ea9baa9f18d530a865bfb519f951"
+            },
+            {
+                "entryId": "en:word:kitchen-pot",
+                "path": "audio/fa34aa05e09717286a6e51c1dc12fd5666e942cb18ef93160cc8025bfe11671f.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"pɒt\">pot</phoneme>.",
+                "sha256": "b229f8cf7c80c0185f3104e05a834a3a5d3e9fb06dd603d8a54931f84c3985ce"
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɪz\">is</phoneme>.",
+                "sha256": "8ddf540a1b70b081638155835213ea9562b8fd89bc891d336f9c33607bfb023f"
+            },
+            {
+                "entryId": "en:word:here",
+                "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"hɪə\">here</phoneme>.",
+                "sha256": "d590de784d7936c8f163945b87304834afd1fe229f4d5a365b836e3d233bd7a8"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/depth-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    },
+    {
+        "entryId": "en:sentence:depth-example-shallow-water",
+        "label": "The water is shallow.",
+        "reading": null,
+        "meanings": {
+            "en": "The water is shallow.",
+            "de": "Das Wasser ist flach.",
+            "id": "Airnya dangkal.",
+            "ja": "水深が浅いです。"
+        },
+        "constituentIds": [
+            "en:word:capital-the",
+            "en:word:water",
+            "en:word:form-english-be-is",
+            "en:word:depth-shallow",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/8da32e91c3709fb0bfdd84740dca4c63158f5104794112c6a9bca9ab332f4942.wav",
+        "sha256": "8da32e91c3709fb0bfdd84740dca4c63158f5104794112c6a9bca9ab332f4942",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Shallow describes water depth, not quantity in general. Japanese localization uses 水深 to preserve the intended depth meaning.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-the",
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">The</phoneme>.",
+                "sha256": "8afecb26db8f5442c31c18cc1a16c18c0649b2dd6694ed6071ffa43d5db5f99a"
+            },
+            {
+                "entryId": "en:word:water",
+                "path": "audio/de43a97fbedea7909d8f9b9ca31da43c5bd95debf2a1c3f89a02f2f0996bee27.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈwɔːtə\">water</phoneme>.",
+                "sha256": "5201c74d6db6fc72d71ee54576b09bb6e919583ec891a597dae6807f75b1acd9"
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɪz\">is</phoneme>.",
+                "sha256": "8ddf540a1b70b081638155835213ea9562b8fd89bc891d336f9c33607bfb023f"
+            },
+            {
+                "entryId": "en:word:depth-shallow",
+                "path": "audio/ae02f7fdddd6eb235c01e5debe74adc2cc1345bcf04b93b24e216053f96c64f1.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈʃæləʊ\">shallow</phoneme>.",
+                "sha256": "37f2e170a6130c47dd3ca1a5472774bb361cfe7040db962db4a930ab128c6b10"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/depth-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    }
+]
