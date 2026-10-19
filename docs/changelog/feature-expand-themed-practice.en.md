@@ -202,6 +202,10 @@ Added eraser, scissors, adhesive tape and stapler with inspected illustrations a
 
 Added sit and stand, their irregular English and godan Japanese forms, inspected illustrations and four contextual examples. Usage notes distinguish taking a position from a continuing Japanese state. Hashed purpose indexes allow continued content growth within existing file-size guards. Audio listening remains unverified under the recorded waiver.
 
+## Everyday tasks at home
+
+Added four individually authored examples covering dishwashing, reading, sitting at a table and belongings. Japanese examples also reinforce giving soup to a friend and locating a key in a box. Existing vocabulary and exact recorded constituents are reused; no new pictures or provider requests are needed.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

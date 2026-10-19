@@ -202,6 +202,10 @@ Radiergummi, Schere, Klebeband und Heftgerät mit geprüften Bildern und vier Be
 
 Sit und stand samt unregelmäßigen englischen und japanischen Godan-Formen, geprüften Bildern und vier Beispielen ergänzt. Gebrauchshinweise unterscheiden das Einnehmen einer Haltung vom andauernden japanischen Zustand. Zweckindizes mit Prüfsummen ermöglichen weiteres Wachstum innerhalb der bestehenden Dateigrenzen. Die Hörprüfung bleibt gemäß der dokumentierten Ausnahme ausstehend.
 
+## Alltag zu Hause
+
+Vier einzeln verfasste Beispiele zum Abwaschen, Lesen, Sitzen am Tisch und zu persönlichen Gegenständen ergänzt. Japanische Beispiele üben außerdem, einem Freund Suppe zu geben und einen Schlüssel in einer Schachtel zu finden. Vorhandene Vokabeln und exakte Audiobausteine werden wiederverwendet; neue Bilder oder Anbieteranfragen sind nicht erforderlich.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)
