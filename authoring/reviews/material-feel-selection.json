@@ -1,0 +1,12 @@
+{
+    "existingDistinctInputsChecked": 1064,
+    "allSelectedAudioBytesPreserved": true,
+    "method": "Fetched every prior distinct language/label/role/reading input through createAudioProvider before and after expansion, comparing SHA-256 of returned WAV bytes. Optional synthesis disabled.",
+    "inventoryVersion": 2,
+    "rootIndexLines": 54,
+    "baselineFixture": {
+        "path": "authoring/reviews/audio-selection/material-feel-baseline.json.gz",
+        "sha256": "b4428635c6fd009d9a24640db8447194f07ce0ec4a09bcc0300776398b20d2bb",
+        "inputCount": 1064
+    }
+}

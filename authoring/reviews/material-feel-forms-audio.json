@@ -1,0 +1,130 @@
+[
+    {
+        "entryId": "en:word:form-material-feel-hard-comparative",
+        "path": "audio/9d68a5cc858545217b85b02137c00f3476625c715d51f458ee1d86adf04b40a2.wav",
+        "sha256": "9d68a5cc858545217b85b02137c00f3476625c715d51f458ee1d86adf04b40a2",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈhɑːdə\">harder</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "BsjldELyScIPSAz0AH7p",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/material-feel-forms/form-material-feel-hard-comparative.pcm",
+        "sourceSha256": "313fb6837db323b6e274e6b153e48c3e9a74dcd22f867dc70992e94242a581df",
+        "sourcePeak": 30278,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.8874100006605457,
+        "paddingFramesEachSide": 480,
+        "frames": 21022,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-material-feel-hard-superlative",
+        "path": "audio/8d0bb8987a670578005bff15d21e1d2572e4597086122e36bcfa9dc88f407a2e.wav",
+        "sha256": "8d0bb8987a670578005bff15d21e1d2572e4597086122e36bcfa9dc88f407a2e",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈhɑːdɪst\">hardest</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "DKtlXQLA0vn9w8c9PsST",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/material-feel-forms/form-material-feel-hard-superlative.pcm",
+        "sourceSha256": "0a81d6348e9386f4c1158dc93063af8c1662cc2f813eb7b4f9a30ecf97b837dd",
+        "sourcePeak": 30703,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.8751262091652282,
+        "paddingFramesEachSide": 480,
+        "frames": 25480,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-material-feel-soft-comparative",
+        "path": "audio/4437d58d58155666194740e38c6c59b440cba3434ba099aa651f490c5d08f646.wav",
+        "sha256": "4437d58d58155666194740e38c6c59b440cba3434ba099aa651f490c5d08f646",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈsɒftə\">softer</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "mG7WsK645SN0U3GM20B4",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/material-feel-forms/form-material-feel-soft-comparative.pcm",
+        "sourceSha256": "b950ea7bcb672bad100eccfebb39e3b31d89030324f4acfdba5c7a817c058050",
+        "sourcePeak": 28724,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9354198579585016,
+        "paddingFramesEachSide": 480,
+        "frames": 22137,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-material-feel-soft-superlative",
+        "path": "audio/54f44ab948b604a064c0dfc0207fd106d6716fdf7aebdd0cfb7411c2a4bd174d.wav",
+        "sha256": "54f44ab948b604a064c0dfc0207fd106d6716fdf7aebdd0cfb7411c2a4bd174d",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈsɒftɪst\">softest</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "nAjpPIHD2kiEesdGjPrO",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/material-feel-forms/form-material-feel-soft-superlative.pcm",
+        "sourceSha256": "f0bb1142868c837cb0b7fc46c06601a0ca3eda66abbff07233da4cc2b301e9d7",
+        "sourcePeak": 29306,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9168429673104483,
+        "paddingFramesEachSide": 480,
+        "frames": 26595,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]

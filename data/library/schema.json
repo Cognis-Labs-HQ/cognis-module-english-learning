@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 54,
+    "version": 55,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -15466,6 +15466,152 @@
                 }
             ],
             "optInTag": "plural"
+        },
+        {
+            "id": "material-feel-hard-forms",
+            "metadata": {
+                "labels": {
+                    "en": "hard Forms",
+                    "de": "hard-Formen",
+                    "id": "Bentuk hard",
+                    "ja": "hardの活用"
+                }
+            },
+            "matchTags": ["adjective", "material-feel-form-hard"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "comparative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Comparative",
+                            "de": "Komparativ",
+                            "id": "Komparatif",
+                            "ja": "比較級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "comparative",
+                    "removeSuffix": "hard",
+                    "append": "harder",
+                    "pronunciation": {
+                        "removeSuffix": "/hɑːd/",
+                        "append": "/ˈhɑːdə/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Comparative)",
+                                "de": "{{ definition }} (Komparativ)",
+                                "id": "{{ definition }} (Komparatif)",
+                                "ja": "{{ definition }} (比較級)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "superlative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Superlative",
+                            "de": "Superlativ",
+                            "id": "Superlatif",
+                            "ja": "最上級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "superlative",
+                    "removeSuffix": "hard",
+                    "append": "hardest",
+                    "pronunciation": {
+                        "removeSuffix": "/hɑːd/",
+                        "append": "/ˈhɑːdɪst/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Superlative)",
+                                "de": "{{ definition }} (Superlativ)",
+                                "id": "{{ definition }} (Superlatif)",
+                                "ja": "{{ definition }} (最上級)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "material-feel-soft-forms",
+            "metadata": {
+                "labels": {
+                    "en": "soft Forms",
+                    "de": "soft-Formen",
+                    "id": "Bentuk soft",
+                    "ja": "softの活用"
+                }
+            },
+            "matchTags": ["adjective", "material-feel-form-soft"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "comparative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Comparative",
+                            "de": "Komparativ",
+                            "id": "Komparatif",
+                            "ja": "比較級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "comparative",
+                    "removeSuffix": "soft",
+                    "append": "softer",
+                    "pronunciation": {
+                        "removeSuffix": "/sɒft/",
+                        "append": "/ˈsɒftə/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Comparative)",
+                                "de": "{{ definition }} (Komparativ)",
+                                "id": "{{ definition }} (Komparatif)",
+                                "ja": "{{ definition }} (比較級)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "superlative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Superlative",
+                            "de": "Superlativ",
+                            "id": "Superlatif",
+                            "ja": "最上級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "superlative",
+                    "removeSuffix": "soft",
+                    "append": "softest",
+                    "pronunciation": {
+                        "removeSuffix": "/sɒft/",
+                        "append": "/ˈsɒftɪst/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Superlative)",
+                                "de": "{{ definition }} (Superlativ)",
+                                "id": "{{ definition }} (Superlatif)",
+                                "ja": "{{ definition }} (最上級)"
+                            }
+                        }
+                    }
+                }
+            ]
         }
     ]
 }

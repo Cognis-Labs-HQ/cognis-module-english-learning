@@ -1,5 +1,24 @@
 [
     {
+        "theme": "reading-time",
+        "newDistinctVocabularyCount": 1,
+        "vocabulary": [
+            {
+                "entryId": "en:word:reading-time-newspaper",
+                "label": "newspaper"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:reading-time-example-morning-news",
+            "en:sentence:reading-time-example-night-book",
+            "en:sentence:reading-time-example-news-table",
+            "en:sentence:reading-time-example-buy-news"
+        ],
+        "recordedGrammaticalFormCount": 0,
+        "vocabularyAudit": "authoring/reviews/reading-time-vocabulary.json"
+    },
+    {
         "theme": "requests",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -272,28 +291,5 @@
         ],
         "recordedGrammaticalFormCount": 3,
         "vocabularyAudit": "authoring/reviews/vegetables-vocabulary.json"
-    },
-    {
-        "theme": "warm-accessories",
-        "newDistinctVocabularyCount": 2,
-        "vocabulary": [
-            {
-                "entryId": "en:word:warm-accessories-scarf",
-                "label": "scarf"
-            },
-            {
-                "entryId": "en:word:warm-accessories-glove",
-                "label": "glove"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:warm-accessories-example-need-scarf",
-            "en:sentence:warm-accessories-example-gloves-bag",
-            "en:sentence:warm-accessories-example-wash-scarves",
-            "en:sentence:warm-accessories-example-small-glove"
-        ],
-        "recordedGrammaticalFormCount": 2,
-        "vocabularyAudit": "authoring/reviews/warm-accessories-vocabulary.json"
     }
 ]

@@ -1,0 +1,250 @@
+[
+    {
+        "entryId": "en:sentence:material-feel-example-hard-stone",
+        "label": "The stone is hard.",
+        "reading": null,
+        "meanings": {
+            "en": "The stone is hard.",
+            "de": "Der Stein ist hart.",
+            "id": "Batu itu keras.",
+            "ja": "その石は硬いです。"
+        },
+        "constituentIds": [
+            "en:word:capital-the",
+            "en:word:nature-stone",
+            "en:word:form-english-be-is",
+            "en:word:material-feel-hard",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/9af44e3f080c04e21e61ae913e9f013603955e163429aa09f9a332f756f38059.wav",
+        "sha256": "9af44e3f080c04e21e61ae913e9f013603955e163429aa09f9a332f756f38059",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Hard/かたい selects resistance to deformation, not difficulty. English singular stone takes is; Japanese i-adjective is followed directly by です without な or だ.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-the",
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">The</phoneme>.",
+                "sha256": "8afecb26db8f5442c31c18cc1a16c18c0649b2dd6694ed6071ffa43d5db5f99a"
+            },
+            {
+                "entryId": "en:word:nature-stone",
+                "path": "audio/6eaac52196ea282234b285821593f4b12bd6225b26f5cac14686bba6826d1dce.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"stəʊn\">stone</phoneme>.",
+                "sha256": "67477b3a1ffd08a206bbcabae7ba25df6e32260b68cff2c8ae232947973b8961"
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɪz\">is</phoneme>.",
+                "sha256": "8ddf540a1b70b081638155835213ea9562b8fd89bc891d336f9c33607bfb023f"
+            },
+            {
+                "entryId": "en:word:material-feel-hard",
+                "path": "audio/374ac7761def3d3f62fcf80b95f0c8954870096455ecdba6bf44791b5f5cbf89.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"hɑːd\">hard</phoneme>.",
+                "sha256": "e0b752bcce904c1630bfb77c5f20511e3c23deb7456eb5e053908efc5eebacc2"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/material-feel-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    },
+    {
+        "entryId": "en:sentence:material-feel-example-softer-pillow",
+        "label": "I need a softer pillow.",
+        "reading": null,
+        "meanings": {
+            "en": "I need a softer pillow.",
+            "de": "Ich brauche ein weicheres Kissen.",
+            "id": "Saya membutuhkan bantal yang lebih lunak.",
+            "ja": "もっと柔らかいまくらが必要です。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:need",
+            "en:word:a",
+            "en:word:form-material-feel-soft-comparative",
+            "en:word:furnishings-pillow",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/3528d1b16efe7ca2a34fab95c60e3c15a47852b916d0bfd57150c671d120dcfc.wav",
+        "sha256": "3528d1b16efe7ca2a34fab95c60e3c15a47852b916d0bfd57150c671d120dcfc",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Comparative softer modifies pillow after a. The requested difference is physical compressibility. Exact softer PCM is used.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:need",
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"niːd\">need</phoneme>.",
+                "sha256": "6080e14b7e4dca1867a955d4e5a2120225e3c5445e66756da8c70acb55add49b"
+            },
+            {
+                "entryId": "en:word:a",
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ə\">a</phoneme>.",
+                "sha256": "7d5073e6c6c8c87efc2dd90a7e4f16a47f23ab71a57c34ced6daf13082d53f07"
+            },
+            {
+                "entryId": "en:word:form-material-feel-soft-comparative",
+                "path": "audio/4437d58d58155666194740e38c6c59b440cba3434ba099aa651f490c5d08f646.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈsɒftə\">softer</phoneme>.",
+                "sha256": "c09a9e5eb42f418422fa1765fb937b8256189c635bfb6d4808af291dff1a8801"
+            },
+            {
+                "entryId": "en:word:furnishings-pillow",
+                "path": "audio/573119eeb3bde5d7225b1aebd7362f910c51cd66901bfe4b576671a7877231e5.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈpɪləʊ\">pillow</phoneme>.",
+                "sha256": "a7e8433f58ca6ba2b5352f45d0a1a06f103159d02c0f34297b73541e30aa5ae5"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/material-feel-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    },
+    {
+        "entryId": "en:sentence:material-feel-example-softest-towel",
+        "label": "The softest towel is here.",
+        "reading": null,
+        "meanings": {
+            "en": "The softest towel is here.",
+            "de": "Das weichste Handtuch ist hier.",
+            "id": "Handuk yang paling lembut ada di sini.",
+            "ja": "いちばん柔らかいタオルはここにあります。"
+        },
+        "constituentIds": [
+            "en:word:capital-the",
+            "en:word:form-material-feel-soft-superlative",
+            "en:word:care-towel",
+            "en:word:form-english-be-is",
+            "en:word:here",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/660a68152d1d7e18561aedfaae11bf8c9cb72106b8c03dbce210c767e2732d38.wav",
+        "sha256": "660a68152d1d7e18561aedfaae11bf8c9cb72106b8c03dbce210c767e2732d38",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Superlative softest appears with the and an implied comparison set; here locates the towel. Exact superlative recording is used.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-the",
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">The</phoneme>.",
+                "sha256": "8afecb26db8f5442c31c18cc1a16c18c0649b2dd6694ed6071ffa43d5db5f99a"
+            },
+            {
+                "entryId": "en:word:form-material-feel-soft-superlative",
+                "path": "audio/54f44ab948b604a064c0dfc0207fd106d6716fdf7aebdd0cfb7411c2a4bd174d.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈsɒftɪst\">softest</phoneme>.",
+                "sha256": "277488ee15980ede80276ef5f6feb5b37bc93d583507d6ef4d857e5b57ace71b"
+            },
+            {
+                "entryId": "en:word:care-towel",
+                "path": "audio/4bb572b42a656ce0c965de7d8cf8b7d38a4e1b3d3381e3d4504b9b8d831e8b69.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈtaʊəl\">towel</phoneme>.",
+                "sha256": "7360d21da0c6371f0ac63e0490ff83960df6d5eef927f28797ff6b9be073eb41"
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɪz\">is</phoneme>.",
+                "sha256": "8ddf540a1b70b081638155835213ea9562b8fd89bc891d336f9c33607bfb023f"
+            },
+            {
+                "entryId": "en:word:here",
+                "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"hɪə\">here</phoneme>.",
+                "sha256": "d590de784d7936c8f163945b87304834afd1fe229f4d5a365b836e3d233bd7a8"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/material-feel-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    },
+    {
+        "entryId": "en:sentence:material-feel-example-hard-bread",
+        "label": "The bread is hard.",
+        "reading": null,
+        "meanings": {
+            "en": "The bread is hard.",
+            "de": "Das Brot ist hart.",
+            "id": "Roti itu keras.",
+            "ja": "そのパンは硬いです。"
+        },
+        "constituentIds": [
+            "en:word:capital-the",
+            "en:word:bread",
+            "en:word:form-english-be-is",
+            "en:word:material-feel-hard",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/7417d8f0bec35eb93105b7e5dcc9c72d9ba972d6d7758b9b0c9436aa0e304b13.wav",
+        "sha256": "7417d8f0bec35eb93105b7e5dcc9c72d9ba972d6d7758b9b0c9436aa0e304b13",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Hard describes the physical texture of bread, not the difficulty of a task. Bread is a mass noun in this example.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-the",
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">The</phoneme>.",
+                "sha256": "8afecb26db8f5442c31c18cc1a16c18c0649b2dd6694ed6071ffa43d5db5f99a"
+            },
+            {
+                "entryId": "en:word:bread",
+                "path": "audio/71b5610f18ae99c4f6ec6bdfe244664b731bff3eb54237936ae395216a0cbf77.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"bɹed\">bread</phoneme>.",
+                "sha256": "a00a4eae926c6dc0ba56cd4d8cde6ed874ee1bf22ecfd29e5f7b4ff2a55bff87"
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɪz\">is</phoneme>.",
+                "sha256": "8ddf540a1b70b081638155835213ea9562b8fd89bc891d336f9c33607bfb023f"
+            },
+            {
+                "entryId": "en:word:material-feel-hard",
+                "path": "audio/374ac7761def3d3f62fcf80b95f0c8954870096455ecdba6bf44791b5f5cbf89.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"hɑːd\">hard</phoneme>.",
+                "sha256": "e0b752bcce904c1630bfb77c5f20511e3c23deb7456eb5e053908efc5eebacc2"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/material-feel-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    }
+]

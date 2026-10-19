@@ -1,5 +1,28 @@
 [
     {
+        "theme": "warm-accessories",
+        "newDistinctVocabularyCount": 2,
+        "vocabulary": [
+            {
+                "entryId": "en:word:warm-accessories-scarf",
+                "label": "scarf"
+            },
+            {
+                "entryId": "en:word:warm-accessories-glove",
+                "label": "glove"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:warm-accessories-example-need-scarf",
+            "en:sentence:warm-accessories-example-gloves-bag",
+            "en:sentence:warm-accessories-example-wash-scarves",
+            "en:sentence:warm-accessories-example-small-glove"
+        ],
+        "recordedGrammaticalFormCount": 2,
+        "vocabularyAudit": "authoring/reviews/warm-accessories-vocabulary.json"
+    },
+    {
         "theme": "weather",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -175,21 +198,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/daily-needs-sentences.json"
-    },
-    {
-        "theme": "classroom",
-        "newDistinctVocabularyCount": 0,
-        "vocabulary": [],
-        "newExampleCount": 6,
-        "exampleIds": [
-            "en:sentence:classroom-1",
-            "en:sentence:classroom-2",
-            "en:sentence:classroom-3",
-            "en:sentence:classroom-4",
-            "en:sentence:classroom-5",
-            "en:sentence:classroom-6"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/classroom-sentences.json"
     }
 ]
