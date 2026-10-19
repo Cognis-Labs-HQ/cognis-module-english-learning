@@ -1,0 +1,68 @@
+[
+    {
+        "path": "audio/fd26af19e1fa53447a4637871b6c4648536e8654f35a9c03931238566b7007ab.wav",
+        "text": "ball",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"bɔːl\">ball</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "ball",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/bɔːl/"]
+            }
+        ],
+        "entries": ["en:word:recreation-ball"],
+        "variants": [],
+        "sha256": "fd26af19e1fa53447a4637871b6c4648536e8654f35a9c03931238566b7007ab",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "2845463dd9a026098c95d84c6b742dea78a08151f8e3a902365b070961899cf2"
+        }
+    },
+    {
+        "path": "audio/9595df06dba751d55efa6478bb1eace7492ea13ac367402ee54f35b0c24d23c4.wav",
+        "text": "racket",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈrækɪt\">racket</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "racket",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈrækɪt/"]
+            }
+        ],
+        "entries": ["en:word:recreation-racket"],
+        "variants": [],
+        "sha256": "9595df06dba751d55efa6478bb1eace7492ea13ac367402ee54f35b0c24d23c4",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "b709fd822f491846651047c8064901fb997447da335d21489964cbbc83d9c784"
+        }
+    }
+]

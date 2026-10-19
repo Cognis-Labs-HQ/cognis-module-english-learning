@@ -254,6 +254,10 @@ Add scarf/glove and マフラー/てぶくろ with four inspected illustrations 
 
 Add hard/soft and かたい/やわらかい with four inspected pressure demonstrations and four contextual examples per language. Precise sense labels distinguish physical hardness and softness from difficulty, volume and personality. Comparison and i-adjective forms retain exact recordings and complete stems. Sources, originals and PCM remain; listening is unverified.
 
+## Balls and rackets
+
+Add ball/racket and ボール/ラケット with four inspected equipment illustrations and four examples per language. Notes select the sporting senses, distinguish ボール from ボウル, and retain the long vowel and small っ. Exact plural recordings support English examples; Japanese examples practise giving and receiving. Sources, originals and PCM remain; listening is unverified.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

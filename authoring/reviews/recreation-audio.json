@@ -1,0 +1,66 @@
+[
+    {
+        "entryId": "en:word:recreation-ball",
+        "path": "audio/fd26af19e1fa53447a4637871b6c4648536e8654f35a9c03931238566b7007ab.wav",
+        "sha256": "fd26af19e1fa53447a4637871b6c4648536e8654f35a9c03931238566b7007ab",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"bɔːl\">ball</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "TmqKD4mti6uoKAZAVNwH",
+            "character-cost": "2",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/recreation/recreation-ball.pcm",
+        "sourceSha256": "2845463dd9a026098c95d84c6b742dea78a08151f8e3a902365b070961899cf2",
+        "sourcePeak": 29736,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9035848802797956,
+        "paddingFramesEachSide": 480,
+        "frames": 19907,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:recreation-racket",
+        "path": "audio/9595df06dba751d55efa6478bb1eace7492ea13ac367402ee54f35b0c24d23c4.wav",
+        "sha256": "9595df06dba751d55efa6478bb1eace7492ea13ac367402ee54f35b0c24d23c4",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈrækɪt\">racket</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "SLR3D6iwhPHqmQxaTcF3",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/recreation/recreation-racket.pcm",
+        "sourceSha256": "b709fd822f491846651047c8064901fb997447da335d21489964cbbc83d9c784",
+        "sourcePeak": 30194,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.8898787838643439,
+        "paddingFramesEachSide": 480,
+        "frames": 21022,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]

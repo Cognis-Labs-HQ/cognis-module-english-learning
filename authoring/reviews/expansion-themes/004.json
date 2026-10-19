@@ -19,6 +19,29 @@
         "vocabularyAudit": "authoring/reviews/reading-time-vocabulary.json"
     },
     {
+        "theme": "recreation",
+        "newDistinctVocabularyCount": 2,
+        "vocabulary": [
+            {
+                "entryId": "en:word:recreation-ball",
+                "label": "ball"
+            },
+            {
+                "entryId": "en:word:recreation-racket",
+                "label": "racket"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:recreation-example-give-ball",
+            "en:sentence:recreation-example-rackets-box",
+            "en:sentence:recreation-example-new-racket",
+            "en:sentence:recreation-example-small-balls"
+        ],
+        "recordedGrammaticalFormCount": 2,
+        "vocabularyAudit": "authoring/reviews/recreation-vocabulary.json"
+    },
+    {
         "theme": "requests",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -260,36 +283,5 @@
         ],
         "recordedGrammaticalFormCount": 4,
         "vocabularyAudit": "authoring/reviews/transport-vocabulary.json"
-    },
-    {
-        "theme": "vegetables",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:vegetables-cabbage",
-                "label": "cabbage"
-            },
-            {
-                "entryId": "en:word:vegetables-mushroom",
-                "label": "mushroom"
-            },
-            {
-                "entryId": "en:word:vegetables-spinach",
-                "label": "spinach"
-            },
-            {
-                "entryId": "en:word:vegetables-lettuce",
-                "label": "lettuce"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:vegetables-example-cabbage",
-            "en:sentence:vegetables-example-mushroom",
-            "en:sentence:vegetables-example-spinach",
-            "en:sentence:vegetables-example-lettuce"
-        ],
-        "recordedGrammaticalFormCount": 3,
-        "vocabularyAudit": "authoring/reviews/vegetables-vocabulary.json"
     }
 ]
