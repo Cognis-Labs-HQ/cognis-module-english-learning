@@ -1,0 +1,68 @@
+[
+    {
+        "path": "audio/fff9987c5755510025201a7749fd451b6a394552a84852db98abd98afddfae38.wav",
+        "text": "wide",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"waɪd\">wide</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "wide",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/waɪd/"]
+            }
+        ],
+        "entries": ["en:word:width-wide"],
+        "variants": [],
+        "sha256": "fff9987c5755510025201a7749fd451b6a394552a84852db98abd98afddfae38",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "8b88b607f6e2e8a42c8ca408ac30eccac942980c9a3c7418f91e6c7098a4de68"
+        }
+    },
+    {
+        "path": "audio/58436497437530217f8784ef41057469323e7ec0e40216402a9927a822dece6c.wav",
+        "text": "narrow",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈnærəʊ\">narrow</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "narrow",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈnærəʊ/"]
+            }
+        ],
+        "entries": ["en:word:width-narrow"],
+        "variants": [],
+        "sha256": "58436497437530217f8784ef41057469323e7ec0e40216402a9927a822dece6c",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "413906bee0bc02d9327fabeee8e4aa4ddf415e20ef06c3b70ec2180c34549576"
+        }
+    }
+]

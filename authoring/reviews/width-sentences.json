@@ -1,0 +1,250 @@
+[
+    {
+        "entryId": "en:sentence:width-example-narrow-door",
+        "label": "The door is narrow.",
+        "reading": null,
+        "meanings": {
+            "en": "The door is narrow.",
+            "de": "Die Tür ist schmal.",
+            "id": "Pintunya sempit.",
+            "ja": "そのドアは幅が狭いです。"
+        },
+        "constituentIds": [
+            "en:word:capital-the",
+            "en:word:door",
+            "en:word:form-english-be-is",
+            "en:word:width-narrow",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/e7393559404378c3ce541a6fbed8104616c55f5c7d3041b1e0c47ec80d6ca768.wav",
+        "sha256": "e7393559404378c3ce541a6fbed8104616c55f5c7d3041b1e0c47ec80d6ca768",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Narrow describes the side-to-side width of the doorway. Singular door takes is; this is not a statement about its height.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-the",
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">The</phoneme>.",
+                "sha256": "8afecb26db8f5442c31c18cc1a16c18c0649b2dd6694ed6071ffa43d5db5f99a"
+            },
+            {
+                "entryId": "en:word:door",
+                "path": "audio/6670fd21613e90e70f6c6deff51d944e17cd41e6ae5ccae2f938fe420a950e2e.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"dɔː\">door</phoneme>.",
+                "sha256": "66f8d95a2ecb67729c96b74819693a8f2f0e97aaeba1a5f0c20e653815463a3e"
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɪz\">is</phoneme>.",
+                "sha256": "8ddf540a1b70b081638155835213ea9562b8fd89bc891d336f9c33607bfb023f"
+            },
+            {
+                "entryId": "en:word:width-narrow",
+                "path": "audio/58436497437530217f8784ef41057469323e7ec0e40216402a9927a822dece6c.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈnærəʊ\">narrow</phoneme>.",
+                "sha256": "ccd3b5783828df13c61519faa1ad9707d872f704ef224cb8cb9a932b51144190"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "reviewedDate": "2026-10-19",
+        "sourceAudit": "authoring/reviews/width-vocabulary.json"
+    },
+    {
+        "entryId": "en:sentence:width-example-wider-table",
+        "label": "I need a wider table.",
+        "reading": null,
+        "meanings": {
+            "en": "I need a wider table.",
+            "de": "Ich brauche einen breiteren Tisch.",
+            "id": "Saya membutuhkan meja yang lebih lebar.",
+            "ja": "もっと幅の広いテーブルが必要です。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:need",
+            "en:word:a",
+            "en:word:form-width-wide-comparative",
+            "en:word:table",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/3e0b0b889bf7d8ad08a053a04640de1be8dc5ae8384e29450860617f77159572.wav",
+        "sha256": "3e0b0b889bf7d8ad08a053a04640de1be8dc5ae8384e29450860617f77159572",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Comparative wider modifies table after a. The exact existing selected form clip is used, not base wide. Wider here requests more side-to-side surface area.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:need",
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"niːd\">need</phoneme>.",
+                "sha256": "6080e14b7e4dca1867a955d4e5a2120225e3c5445e66756da8c70acb55add49b"
+            },
+            {
+                "entryId": "en:word:a",
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ə\">a</phoneme>.",
+                "sha256": "7d5073e6c6c8c87efc2dd90a7e4f16a47f23ab71a57c34ced6daf13082d53f07"
+            },
+            {
+                "entryId": "en:word:form-width-wide-comparative",
+                "path": "audio/3dab65cdb5b05d2fee27e52e873edc0508ecbc475fd82ba958c8caedb279dc72.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈwaɪdə\">wider</phoneme>.",
+                "sha256": "3654abe6c7973c893de79cc04c4e419bd4bf28c357b0f04020ee4f7d226081c7"
+            },
+            {
+                "entryId": "en:word:table",
+                "path": "audio/66fd65aedde46bfd761073cd0450d585bb6476048fa04edb6f8791a99ce426c4.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈteɪbəl\">table</phoneme>.",
+                "sha256": "d2e4c6dce76e0fa7f8ec98abadaf86ca8edda8dca3436ee3bfc037895450aba9"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "reviewedDate": "2026-10-19",
+        "sourceAudit": "authoring/reviews/width-vocabulary.json"
+    },
+    {
+        "entryId": "en:sentence:width-example-wide-room",
+        "label": "The room is wide.",
+        "reading": null,
+        "meanings": {
+            "en": "The room is wide.",
+            "de": "Das Zimmer ist breit.",
+            "id": "Ruangan itu lebar.",
+            "ja": "その部屋は幅が広いです。"
+        },
+        "constituentIds": [
+            "en:word:capital-the",
+            "en:word:room",
+            "en:word:form-english-be-is",
+            "en:word:width-wide",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/54facf2002b3b10d399c94062fbf8e0fc11774320343ea60ddeabe31b40cce40.wav",
+        "sha256": "54facf2002b3b10d399c94062fbf8e0fc11774320343ea60ddeabe31b40cce40",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Wide describes a room dimension. Japanese localization explicitly uses 幅が広い rather than silently changing the selected English meaning to general spaciousness.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-the",
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">The</phoneme>.",
+                "sha256": "8afecb26db8f5442c31c18cc1a16c18c0649b2dd6694ed6071ffa43d5db5f99a"
+            },
+            {
+                "entryId": "en:word:room",
+                "path": "audio/99dfb2260e1504e5c3b5ac99b58686489b21c659aa542edb52fb67b86c0f534d.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɹuːm\">room</phoneme>.",
+                "sha256": "d154254d808c1c3007d3a0f4b3dd0eef975bfac91fcd9fc57df1673e4f68c22b"
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɪz\">is</phoneme>.",
+                "sha256": "8ddf540a1b70b081638155835213ea9562b8fd89bc891d336f9c33607bfb023f"
+            },
+            {
+                "entryId": "en:word:width-wide",
+                "path": "audio/fff9987c5755510025201a7749fd451b6a394552a84852db98abd98afddfae38.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"waɪd\">wide</phoneme>.",
+                "sha256": "9cd435a5db593d7f9cc19744dbab8aca3ee23b337e8768c1f3cbe4844803ed54"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "reviewedDate": "2026-10-19",
+        "sourceAudit": "authoring/reviews/width-vocabulary.json"
+    },
+    {
+        "entryId": "en:sentence:width-example-widest-table",
+        "label": "The widest table is here.",
+        "reading": null,
+        "meanings": {
+            "en": "The widest table is here.",
+            "de": "Der breiteste Tisch ist hier.",
+            "id": "Meja yang paling lebar ada di sini.",
+            "ja": "いちばん幅の広いテーブルはここにあります。"
+        },
+        "constituentIds": [
+            "en:word:capital-the",
+            "en:word:form-width-wide-superlative",
+            "en:word:table",
+            "en:word:form-english-be-is",
+            "en:word:here",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/2dee75fb0b896bd6a09a70d9829755277b0df960ef7115b8d9d7a8b5945df682.wav",
+        "sha256": "2dee75fb0b896bd6a09a70d9829755277b0df960ef7115b8d9d7a8b5945df682",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Superlative widest appears with the and selects a table within an implied comparison set. Here locates it. The exact widest clip retains d and ist.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-the",
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">The</phoneme>.",
+                "sha256": "8afecb26db8f5442c31c18cc1a16c18c0649b2dd6694ed6071ffa43d5db5f99a"
+            },
+            {
+                "entryId": "en:word:form-width-wide-superlative",
+                "path": "audio/d26c93d419a88e278c8ae07e89b5818c59a155b1e53d23c86b537ce7c986f5c3.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈwaɪdɪst\">widest</phoneme>.",
+                "sha256": "f0d50d433e7c5b9bae4870670d8f45cf842e8a217b6b24b8126793e70f6e3094"
+            },
+            {
+                "entryId": "en:word:table",
+                "path": "audio/66fd65aedde46bfd761073cd0450d585bb6476048fa04edb6f8791a99ce426c4.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈteɪbəl\">table</phoneme>.",
+                "sha256": "d2e4c6dce76e0fa7f8ec98abadaf86ca8edda8dca3436ee3bfc037895450aba9"
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɪz\">is</phoneme>.",
+                "sha256": "8ddf540a1b70b081638155835213ea9562b8fd89bc891d336f9c33607bfb023f"
+            },
+            {
+                "entryId": "en:word:here",
+                "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"hɪə\">here</phoneme>.",
+                "sha256": "d590de784d7936c8f163945b87304834afd1fe229f4d5a365b836e3d233bd7a8"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "reviewedDate": "2026-10-19",
+        "sourceAudit": "authoring/reviews/width-vocabulary.json"
+    }
+]

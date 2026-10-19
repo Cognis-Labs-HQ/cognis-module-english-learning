@@ -212,6 +212,29 @@
         "vocabularyAudit": "authoring/reviews/weather-vocabulary.json"
     },
     {
+        "theme": "width",
+        "newDistinctVocabularyCount": 2,
+        "vocabulary": [
+            {
+                "entryId": "en:word:width-wide",
+                "label": "wide"
+            },
+            {
+                "entryId": "en:word:width-narrow",
+                "label": "narrow"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:width-example-narrow-door",
+            "en:sentence:width-example-wider-table",
+            "en:sentence:width-example-wide-room",
+            "en:sentence:width-example-widest-table"
+        ],
+        "recordedGrammaticalFormCount": 4,
+        "vocabularyAudit": "authoring/reviews/width-vocabulary.json"
+    },
+    {
         "theme": "wildlife",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -255,19 +278,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/core-sentences.json"
-    },
-    {
-        "theme": "social",
-        "newDistinctVocabularyCount": 0,
-        "vocabulary": [],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:social-example-greeting",
-            "en:sentence:social-example-gratitude",
-            "en:sentence:social-example-attention",
-            "en:sentence:social-example-farewell"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/social-sentences.json"
     }
 ]

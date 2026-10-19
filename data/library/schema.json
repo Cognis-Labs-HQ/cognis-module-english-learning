@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 50,
+    "version": 51,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -14933,6 +14933,152 @@
                                 "de": "{{ definition }} (Partizip Perfekt)",
                                 "id": "{{ definition }} (Partisip Lampau)",
                                 "ja": "{{ definition }} (過去分詞)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "width-wide-forms",
+            "metadata": {
+                "labels": {
+                    "en": "wide Forms",
+                    "de": "wide-Formen",
+                    "id": "Bentuk wide",
+                    "ja": "wideの活用"
+                }
+            },
+            "matchTags": ["adjective", "width-form-wide"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "comparative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Comparative",
+                            "de": "Komparativ",
+                            "id": "Komparatif",
+                            "ja": "比較級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "comparative",
+                    "removeSuffix": "wide",
+                    "append": "wider",
+                    "pronunciation": {
+                        "removeSuffix": "/waɪd/",
+                        "append": "/ˈwaɪdə/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Comparative)",
+                                "de": "{{ definition }} (Komparativ)",
+                                "id": "{{ definition }} (Komparatif)",
+                                "ja": "{{ definition }} (比較級)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "superlative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Superlative",
+                            "de": "Superlativ",
+                            "id": "Superlatif",
+                            "ja": "最上級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "superlative",
+                    "removeSuffix": "wide",
+                    "append": "widest",
+                    "pronunciation": {
+                        "removeSuffix": "/waɪd/",
+                        "append": "/ˈwaɪdɪst/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Superlative)",
+                                "de": "{{ definition }} (Superlativ)",
+                                "id": "{{ definition }} (Superlatif)",
+                                "ja": "{{ definition }} (最上級)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "width-narrow-forms",
+            "metadata": {
+                "labels": {
+                    "en": "narrow Forms",
+                    "de": "narrow-Formen",
+                    "id": "Bentuk narrow",
+                    "ja": "narrowの活用"
+                }
+            },
+            "matchTags": ["adjective", "width-form-narrow"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "comparative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Comparative",
+                            "de": "Komparativ",
+                            "id": "Komparatif",
+                            "ja": "比較級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "comparative",
+                    "removeSuffix": "narrow",
+                    "append": "narrower",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈnærəʊ/",
+                        "append": "/ˈnærəʊə/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Comparative)",
+                                "de": "{{ definition }} (Komparativ)",
+                                "id": "{{ definition }} (Komparatif)",
+                                "ja": "{{ definition }} (比較級)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "superlative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Superlative",
+                            "de": "Superlativ",
+                            "id": "Superlatif",
+                            "ja": "最上級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "superlative",
+                    "removeSuffix": "narrow",
+                    "append": "narrowest",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈnærəʊ/",
+                        "append": "/ˈnærəʊɪst/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Superlative)",
+                                "de": "{{ definition }} (Superlativ)",
+                                "id": "{{ definition }} (Superlatif)",
+                                "ja": "{{ definition }} (最上級)"
                             }
                         }
                     }

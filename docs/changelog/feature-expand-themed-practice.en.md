@@ -230,6 +230,10 @@ Add cut and fold with exact English and Japanese form recordings, corrected and 
 
 Add eight individually reviewed examples and two practice decks using existing vocabulary and exact cached constituent recordings. Food preparation covers washing, cutting, coordinated ingredients and locating potatoes; weather practice covers rain, umbrellas, description and seasonal preference. English reuses the exact cuts form, while Japanese preserves complete readings and particle pronunciation. No new vocabulary, illustrations or provider requests are counted. Source and per-composition evidence are retained; listening remains unverified.
 
+## Width and available space
+
+Add wide and narrow with ひろい and せまい, four inspected bridge illustrations and four contextual examples per language. English includes wider/widest and narrower/narrowest; Japanese includes adverbial, negative and past forms with complete kana and small っ. Notes distinguish width and available space from length. Exact constituent audio, original images, PCM and source evidence are retained; listening remains unverified.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)
