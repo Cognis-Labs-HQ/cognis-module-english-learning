@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 52,
+    "version": 53,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -15217,6 +15217,152 @@
                     "pronunciation": {
                         "removeSuffix": "/ˈʃæləʊ/",
                         "append": "/ˈʃæləʊɪst/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Superlative)",
+                                "de": "{{ definition }} (Superlativ)",
+                                "id": "{{ definition }} (Superlatif)",
+                                "ja": "{{ definition }} (最上級)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "light-level-bright-forms",
+            "metadata": {
+                "labels": {
+                    "en": "bright Forms",
+                    "de": "bright-Formen",
+                    "id": "Bentuk bright",
+                    "ja": "brightの活用"
+                }
+            },
+            "matchTags": ["adjective", "light-level-form-bright"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "comparative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Comparative",
+                            "de": "Komparativ",
+                            "id": "Komparatif",
+                            "ja": "比較級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "comparative",
+                    "removeSuffix": "bright",
+                    "append": "brighter",
+                    "pronunciation": {
+                        "removeSuffix": "/braɪt/",
+                        "append": "/ˈbraɪtə/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Comparative)",
+                                "de": "{{ definition }} (Komparativ)",
+                                "id": "{{ definition }} (Komparatif)",
+                                "ja": "{{ definition }} (比較級)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "superlative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Superlative",
+                            "de": "Superlativ",
+                            "id": "Superlatif",
+                            "ja": "最上級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "superlative",
+                    "removeSuffix": "bright",
+                    "append": "brightest",
+                    "pronunciation": {
+                        "removeSuffix": "/braɪt/",
+                        "append": "/ˈbraɪtɪst/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Superlative)",
+                                "de": "{{ definition }} (Superlativ)",
+                                "id": "{{ definition }} (Superlatif)",
+                                "ja": "{{ definition }} (最上級)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "light-level-dark-forms",
+            "metadata": {
+                "labels": {
+                    "en": "dark Forms",
+                    "de": "dark-Formen",
+                    "id": "Bentuk dark",
+                    "ja": "darkの活用"
+                }
+            },
+            "matchTags": ["adjective", "light-level-form-dark"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "comparative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Comparative",
+                            "de": "Komparativ",
+                            "id": "Komparatif",
+                            "ja": "比較級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "comparative",
+                    "removeSuffix": "dark",
+                    "append": "darker",
+                    "pronunciation": {
+                        "removeSuffix": "/dɑːk/",
+                        "append": "/ˈdɑːkə/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Comparative)",
+                                "de": "{{ definition }} (Komparativ)",
+                                "id": "{{ definition }} (Komparatif)",
+                                "ja": "{{ definition }} (比較級)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "superlative",
+                    "metadata": {
+                        "labels": {
+                            "en": "Superlative",
+                            "de": "Superlativ",
+                            "id": "Superlatif",
+                            "ja": "最上級"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "superlative",
+                    "removeSuffix": "dark",
+                    "append": "darkest",
+                    "pronunciation": {
+                        "removeSuffix": "/dɑːk/",
+                        "append": "/ˈdɑːkɪst/"
                     },
                     "definitionTransform": {
                         "template": {

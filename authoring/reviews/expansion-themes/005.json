@@ -1,5 +1,28 @@
 [
     {
+        "theme": "width",
+        "newDistinctVocabularyCount": 2,
+        "vocabulary": [
+            {
+                "entryId": "en:word:width-wide",
+                "label": "wide"
+            },
+            {
+                "entryId": "en:word:width-narrow",
+                "label": "narrow"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:width-example-narrow-door",
+            "en:sentence:width-example-wider-table",
+            "en:sentence:width-example-wide-room",
+            "en:sentence:width-example-widest-table"
+        ],
+        "recordedGrammaticalFormCount": 4,
+        "vocabularyAudit": "authoring/reviews/width-vocabulary.json"
+    },
+    {
         "theme": "wildlife",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -153,21 +176,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/restaurant-sentences.json"
-    },
-    {
-        "theme": "study-habits",
-        "newDistinctVocabularyCount": 0,
-        "vocabulary": [],
-        "newExampleCount": 6,
-        "exampleIds": [
-            "en:sentence:study-habits-write-notebook",
-            "en:sentence:study-habits-read-slowly",
-            "en:sentence:study-habits-learn-language",
-            "en:sentence:study-habits-difficult-question",
-            "en:sentence:study-habits-listen-teacher",
-            "en:sentence:study-habits-need-pencil"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/study-habits-sentences.json"
     }
 ]

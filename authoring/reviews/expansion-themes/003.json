@@ -85,6 +85,29 @@
         "vocabularyAudit": "authoring/reviews/length-vocabulary.json"
     },
     {
+        "theme": "light-level",
+        "newDistinctVocabularyCount": 2,
+        "vocabulary": [
+            {
+                "entryId": "en:word:light-level-bright",
+                "label": "bright"
+            },
+            {
+                "entryId": "en:word:light-level-dark",
+                "label": "dark"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:light-level-example-bright-room",
+            "en:sentence:light-level-example-brighter-lamp",
+            "en:sentence:light-level-example-dark-kitchen",
+            "en:sentence:light-level-example-brightest-reading"
+        ],
+        "recordedGrammaticalFormCount": 4,
+        "vocabularyAudit": "authoring/reviews/light-level-vocabulary.json"
+    },
+    {
         "theme": "location",
         "newDistinctVocabularyCount": 2,
         "vocabulary": [
@@ -241,36 +264,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/reading-time-vocabulary.json"
-    },
-    {
-        "theme": "requests",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:requests-yes",
-                "label": "Yes"
-            },
-            {
-                "entryId": "en:word:requests-no",
-                "label": "No"
-            },
-            {
-                "entryId": "en:word:requests-please",
-                "label": "Please"
-            },
-            {
-                "entryId": "en:word:requests-repeat",
-                "label": "Pardon"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:requests-example-yes",
-            "en:sentence:requests-example-no",
-            "en:sentence:requests-example-please",
-            "en:sentence:requests-example-repeat"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/requests-vocabulary.json"
     }
 ]

@@ -1,0 +1,258 @@
+[
+    {
+        "entryId": "en:sentence:light-level-example-bright-room",
+        "label": "The room is bright.",
+        "reading": null,
+        "meanings": {
+            "en": "The room is bright.",
+            "de": "Das Zimmer ist hell.",
+            "id": "Ruangan itu terang.",
+            "ja": "その部屋は明るいです。"
+        },
+        "constituentIds": [
+            "en:word:capital-the",
+            "en:word:room",
+            "en:word:form-english-be-is",
+            "en:word:light-level-bright",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/af4046af7627d5b1cb436f8d3f430e569e1f3c73ad2a210ed1da3f7f1b5bc71a.wav",
+        "sha256": "af4046af7627d5b1cb436f8d3f430e569e1f3c73ad2a210ed1da3f7f1b5bc71a",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Bright selects illumination, not intelligence or personality; singular room takes is.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-the",
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">The</phoneme>.",
+                "sha256": "8afecb26db8f5442c31c18cc1a16c18c0649b2dd6694ed6071ffa43d5db5f99a"
+            },
+            {
+                "entryId": "en:word:room",
+                "path": "audio/99dfb2260e1504e5c3b5ac99b58686489b21c659aa542edb52fb67b86c0f534d.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɹuːm\">room</phoneme>.",
+                "sha256": "d154254d808c1c3007d3a0f4b3dd0eef975bfac91fcd9fc57df1673e4f68c22b"
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɪz\">is</phoneme>.",
+                "sha256": "8ddf540a1b70b081638155835213ea9562b8fd89bc891d336f9c33607bfb023f"
+            },
+            {
+                "entryId": "en:word:light-level-bright",
+                "path": "audio/63db6fffe3e9516895b27b1f24795b100c4582f569c8be4c0de6190e53159f97.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"braɪt\">bright</phoneme>.",
+                "sha256": "43e79b7205213b99c24eb5f09c783a199f9df680c71845c7f3a23c270e0f86b4"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/light-level-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    },
+    {
+        "entryId": "en:sentence:light-level-example-brighter-lamp",
+        "label": "I need a brighter lamp.",
+        "reading": null,
+        "meanings": {
+            "en": "I need a brighter lamp.",
+            "de": "Ich brauche eine hellere Lampe.",
+            "id": "Saya membutuhkan lampu yang lebih terang.",
+            "ja": "もっと明るいランプが必要です。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:need",
+            "en:word:a",
+            "en:word:form-light-level-bright-comparative",
+            "en:word:furnishings-lamp",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/650eaad2b9d68f538289e4a0e1d2c2210aaed6433e2cc2dcdacfff9fa770118e.wav",
+        "sha256": "650eaad2b9d68f538289e4a0e1d2c2210aaed6433e2cc2dcdacfff9fa770118e",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Comparative brighter modifies lamp; the intended comparison is light output. Exact brighter PCM is used.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:need",
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"niːd\">need</phoneme>.",
+                "sha256": "6080e14b7e4dca1867a955d4e5a2120225e3c5445e66756da8c70acb55add49b"
+            },
+            {
+                "entryId": "en:word:a",
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ə\">a</phoneme>.",
+                "sha256": "7d5073e6c6c8c87efc2dd90a7e4f16a47f23ab71a57c34ced6daf13082d53f07"
+            },
+            {
+                "entryId": "en:word:form-light-level-bright-comparative",
+                "path": "audio/319c6433272a1d147af6efed9738203939bc313b403728ba1a33046c8718852a.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈbraɪtə\">brighter</phoneme>.",
+                "sha256": "9da82a57933ab61ebf6e69f8a751d4605e1406b844354b76f49ee0b791ea2656"
+            },
+            {
+                "entryId": "en:word:furnishings-lamp",
+                "path": "audio/541169ca08dca8ccbf90c6ca1ed3f072188b4782590e89ccdc86c0eb2d02fd9b.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"læmp\">lamp</phoneme>.",
+                "sha256": "66a00a19227c2cda86028ebe9e6fb3cf6b754fa11581bee4ca0c0e502b175d2d"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/light-level-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    },
+    {
+        "entryId": "en:sentence:light-level-example-dark-kitchen",
+        "label": "The kitchen is dark.",
+        "reading": null,
+        "meanings": {
+            "en": "The kitchen is dark.",
+            "de": "Die Küche ist dunkel.",
+            "id": "Dapurnya gelap.",
+            "ja": "台所は暗いです。"
+        },
+        "constituentIds": [
+            "en:word:capital-the",
+            "en:word:rooms-kitchen",
+            "en:word:form-english-be-is",
+            "en:word:light-level-dark",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/70d740950447d7da220fe514f5a0580aaff5bfe34822267c760914d7558fabd2.wav",
+        "sha256": "70d740950447d7da220fe514f5a0580aaff5bfe34822267c760914d7558fabd2",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Dark describes low illumination in the kitchen, not its paint color.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-the",
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">The</phoneme>.",
+                "sha256": "8afecb26db8f5442c31c18cc1a16c18c0649b2dd6694ed6071ffa43d5db5f99a"
+            },
+            {
+                "entryId": "en:word:rooms-kitchen",
+                "path": "audio/95ac49fdba60834da3b233b25d732e45079690bbd8bf24b8f5cbccbabf5dc64a.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈkɪtʃɪn\">kitchen</phoneme>.",
+                "sha256": "303502ee75f62da01e27edfd9d944a600efd512975290d1544bee0ecd6675eec"
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɪz\">is</phoneme>.",
+                "sha256": "8ddf540a1b70b081638155835213ea9562b8fd89bc891d336f9c33607bfb023f"
+            },
+            {
+                "entryId": "en:word:light-level-dark",
+                "path": "audio/f0b687d6269bfd6c57f9f14750b235156345fec2c94f8bf9eab847f24a013a8e.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"dɑːk\">dark</phoneme>.",
+                "sha256": "1eb7953dadde1606596b67814b5d4a66bffbe38e7ac77a3e6d041e130c89b232"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/light-level-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    },
+    {
+        "entryId": "en:sentence:light-level-example-brightest-reading",
+        "label": "I read in the brightest room.",
+        "reading": null,
+        "meanings": {
+            "en": "I read in the brightest room.",
+            "de": "Ich lese im hellsten Zimmer.",
+            "id": "Saya membaca di ruangan yang paling terang.",
+            "ja": "いちばん明るい部屋で読みます。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:read",
+            "en:particle:in",
+            "en:word:the",
+            "en:word:form-light-level-bright-superlative",
+            "en:word:room",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/0bab9794443f0ddb913c31aedb47720e4ec561678731d7bd6d91d38615544823.wav",
+        "sha256": "0bab9794443f0ddb913c31aedb47720e4ec561678731d7bd6d91d38615544823",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Superlative brightest selects the best-lit room from an implied set; in marks the reading location. Present read uses /riːd/, not past /red/.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:read",
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɹiːd\">read</phoneme>.",
+                "sha256": "51d6eb41f30a3204b55615a2263ed35f4534791a434472b0bbc501cbf97cd8d5"
+            },
+            {
+                "entryId": "en:particle:in",
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "in.",
+                "sha256": "807a72639918b348ca21ef14c205120a00e9e821a711fad6bbe065c5c53d756b"
+            },
+            {
+                "entryId": "en:word:the",
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">the</phoneme>.",
+                "sha256": "b2de03d0a472a2c128fb577f21214734327c9ea284305cddf02da7e534c37d9c"
+            },
+            {
+                "entryId": "en:word:form-light-level-bright-superlative",
+                "path": "audio/95d2b5c1df8b4568e2fb6fef905de578730eb91e39bddda4e8999472855fbc96.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈbraɪtɪst\">brightest</phoneme>.",
+                "sha256": "a9156b2293b75d6194afbadda64e9dee6eca952e94bd7cef8f4747d0de70b9e3"
+            },
+            {
+                "entryId": "en:word:room",
+                "path": "audio/99dfb2260e1504e5c3b5ac99b58686489b21c659aa542edb52fb67b86c0f534d.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɹuːm\">room</phoneme>.",
+                "sha256": "d154254d808c1c3007d3a0f4b3dd0eef975bfac91fcd9fc57df1673e4f68c22b"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/light-level-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    }
+]

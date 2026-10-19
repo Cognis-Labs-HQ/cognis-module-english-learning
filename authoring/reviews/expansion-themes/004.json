@@ -1,5 +1,36 @@
 [
     {
+        "theme": "requests",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:requests-yes",
+                "label": "Yes"
+            },
+            {
+                "entryId": "en:word:requests-no",
+                "label": "No"
+            },
+            {
+                "entryId": "en:word:requests-please",
+                "label": "Please"
+            },
+            {
+                "entryId": "en:word:requests-repeat",
+                "label": "Pardon"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:requests-example-yes",
+            "en:sentence:requests-example-no",
+            "en:sentence:requests-example-please",
+            "en:sentence:requests-example-repeat"
+        ],
+        "recordedGrammaticalFormCount": 0,
+        "vocabularyAudit": "authoring/reviews/requests-vocabulary.json"
+    },
+    {
         "theme": "rooms",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -272,28 +303,5 @@
         ],
         "recordedGrammaticalFormCount": 1,
         "vocabularyAudit": "authoring/reviews/weather-vocabulary.json"
-    },
-    {
-        "theme": "width",
-        "newDistinctVocabularyCount": 2,
-        "vocabulary": [
-            {
-                "entryId": "en:word:width-wide",
-                "label": "wide"
-            },
-            {
-                "entryId": "en:word:width-narrow",
-                "label": "narrow"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:width-example-narrow-door",
-            "en:sentence:width-example-wider-table",
-            "en:sentence:width-example-wide-room",
-            "en:sentence:width-example-widest-table"
-        ],
-        "recordedGrammaticalFormCount": 4,
-        "vocabularyAudit": "authoring/reviews/width-vocabulary.json"
     }
 ]

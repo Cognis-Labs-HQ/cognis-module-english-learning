@@ -242,6 +242,10 @@ Inside/outside als englische Adverbien und なか/そと als japanische Ortsnome
 
 Deep und shallow sowie ふかい und あさい mit vier geprüften Schüsselbildern und vier Kontextbeispielen je Sprache ergänzt. Englische Steigerungsformen und japanische adverbiale, verneinte und vergangene Formen verwenden exakte PCM-Bestandteile. Wörterbuchbelege, Originalbilder und technische Audioprüfungen bleiben erhalten; die Hörprüfung steht aus.
 
+## Helligkeit
+
+Bright und dark sowie あかるい und くらい mit vier geprüften Zimmerbildern und vier Kontextbeispielen je Sprache ergänzt. Hinweise unterscheiden Beleuchtung von Farbe, Intelligenz und Persönlichkeit. Englische Steigerungsformen und japanische adverbiale, verneinte und vergangene Formen behalten die exakten gewählten Aufnahmen. Quellen, Originalbilder und PCM bleiben erhalten; die Hörprüfung steht aus.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

@@ -242,6 +242,10 @@ Menambahkan inside/outside sebagai adverbia Inggris dan なか/そと sebagai no
 
 Menambahkan deep dan shallow serta ふかい dan あさい dengan empat ilustrasi wadah yang diperiksa dan empat contoh per bahasa. Bentuk perbandingan Inggris serta bentuk adverbial, negatif dan lampau Jepang memakai unsur PCM yang tepat. Sumber kamus, gambar asli dan bukti pemeriksaan teknis audio disimpan; pendengaran belum diperiksa.
 
+## Tingkat cahaya
+
+Menambahkan bright dan dark serta あかるい dan くらい dengan empat ilustrasi ruangan yang diperiksa dan empat contoh per bahasa. Catatan membedakan pencahayaan dari warna, kecerdasan dan kepribadian. Bentuk perbandingan Inggris serta bentuk adverbial, negatif dan lampau Jepang mempertahankan rekaman yang tepat. Sumber, gambar asli dan PCM disimpan; pendengaran belum diperiksa.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)
