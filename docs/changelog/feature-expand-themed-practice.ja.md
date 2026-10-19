@@ -249,3 +249,4 @@ sit・standと英語の不規則活用、日本語の五段活用、目視確認
 - [be07f8c](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/be07f8c4da311370b107b9a2b4ae8df59fe0035e)
 - [153095b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/153095b5e89cd6433ab2f9090af47a8e3bdba9bb)
 - [c2d529a](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c2d529acc46d5597f878683739cf9a9aaad92bae)
+- [c77a174](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c77a174a29d77c3fb6e0305df449b5e2a56ceae9)
