@@ -42,6 +42,10 @@ Vier neue Zeitangaben für Anfänger sind mit Lesungen, übersetzten Bedeutungen
 
 Morgen, gestern, bald und später erscheinen mit vier visuell geprüften Illustrationen, Aufnahmen der festgelegten Stimme, vollständigen Lesungen, Kontextbeispielen und einem Vokabeldeck. Kalenderdaten, Ein-Minuten-Anzeigen und geordnete Handlungsszenen verdeutlichen die Zeitbezüge. Die Hörprüfung bleibt ausstehend.
 
+## Grundfarben und Vorlieben
+
+Rot, Blau, Grün und Gelb werden als Farbnomen ergänzt, jeweils mit visuell geprüfter Illustration, Aufnahme der festgelegten Stimme, vollständiger Lesung und übersetzten Anwendungsbeispielen. Vier Vorliebensätze pro Sprache verwenden unveränderte Wortaufnahmen, einschließlich der englischen Form likes. Ein gemeinsames Vokabel- und Satzdeck ermöglicht direktes Üben. Japanische Hinweise unterscheiden Farbnomen von Adjektivformen.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

@@ -1,0 +1,138 @@
+[
+    {
+        "id": "en:sentence:colors-like-red",
+        "label": "I like red.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/5521e95c352a19ff88e0e1971558a8d9cd1a975bb8282a5107ed001dccbcd8a5.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:like",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:colors-red",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:colors-like-red",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:colors-like-blue",
+        "label": "We like blue.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/e1885316ec1c295aeac80b2a6f7b36bb1e084c6b3aa6abdcaa14da99b92e90f2.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:like",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:colors-blue",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:colors-like-blue",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:colors-like-green",
+        "label": "She likes green.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/a85f321fa3566334518693b91251c2a90fcdca83eac7762aa5e0a09316865a9f.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-like-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:colors-green",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:colors-like-green",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:colors-like-yellow",
+        "label": "They like yellow.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/e588337539aff31c22ebf709af2a77655e087d3acb684fe097bede659904c7e2.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-they",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:like",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:colors-yellow",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:colors-like-yellow",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

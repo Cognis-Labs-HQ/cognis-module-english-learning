@@ -42,6 +42,10 @@ Prepare four new beginner time expressions with readings, localized meanings, co
 
 Publish tomorrow, yesterday, soon and later with four inspected illustrations, designated-voice recordings, complete readings, contextual examples and a vocabulary deck. Calendar dates, one-minute arrival signs and ordered activity panels clarify the temporal meanings. Listening remains unverified.
 
+## Basic colors and preferences
+
+Add red, blue, green and yellow as color nouns, each with a visually inspected illustration, selected-voice recording, complete reading and localized usage examples. Four preference sentences per language reuse exact constituent PCM, including English third-person likes. A combined vocabulary and sentence deck supports immediate practice. Japanese notes distinguish color nouns from adjective forms.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)
