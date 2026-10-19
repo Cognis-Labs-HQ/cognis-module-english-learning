@@ -48,3 +48,5 @@ Siapkan empat ungkapan waktu baru untuk pemula beserta bacaan, makna terjemahan,
 - [914c4c7](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/914c4c7299f9b93800af2a2dfc5ec92c91ec31e0)
 - [580a2c1](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/580a2c103e95c9acda0234292232488c26f9f43f)
 - [e9994bc](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e9994bcd8aa12658e3128e051e0d06964b8c7263)
+- [4421e1f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4421e1f9701de6067aa2877b0481587f3e9a0c49)
+- [46bce52](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/46bce529a032af6f69ac36abed44cd1df125bbd0)
