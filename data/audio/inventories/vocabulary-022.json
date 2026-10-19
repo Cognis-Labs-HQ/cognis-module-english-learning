@@ -1,0 +1,134 @@
+[
+    {
+        "path": "audio/1dcc58ee3a2dce873b01b597e4820c285eba988cdc8570159cf30389a4e6f065.wav",
+        "text": "shirt",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "shirt",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "shirt",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ʃɜːt/"]
+            }
+        ],
+        "entries": ["en:word:clothing-shirt"],
+        "variants": [],
+        "sha256": "1dcc58ee3a2dce873b01b597e4820c285eba988cdc8570159cf30389a4e6f065",
+        "frames": 18793,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "218b42917772639956051b8b150a89031a48a97b5ad4713c3962ab02f751118d"
+        }
+    },
+    {
+        "path": "audio/fbc5452b8350acb7b99d28bcd1d2d468addb024891ef8ae82f9072ca09d4b42b.wav",
+        "text": "dress",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "dress",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "dress",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/dres/"]
+            }
+        ],
+        "entries": ["en:word:clothing-dress"],
+        "variants": [],
+        "sha256": "fbc5452b8350acb7b99d28bcd1d2d468addb024891ef8ae82f9072ca09d4b42b",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "d95d31b59805d447dffc0286d6ddd20c3b19b0610b372772b3da2a7ee5d9ef9b"
+        }
+    },
+    {
+        "path": "audio/30cc16b5b3c49487e473ecd1876ff775abc753d6706c102baed5f80e1b6aa18f.wav",
+        "text": "sock",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "sock",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "sock",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/sɒk/"]
+            }
+        ],
+        "entries": ["en:word:clothing-sock"],
+        "variants": [],
+        "sha256": "30cc16b5b3c49487e473ecd1876ff775abc753d6706c102baed5f80e1b6aa18f",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "23f600274b46164dc32db9be02470a282453f07ed0008c2541a5ed20ad226dc0"
+        }
+    },
+    {
+        "path": "audio/8b1d66eb13eb98a2ae5ed643e2b85c3a76c85359c9f7d42d06bfb43399da9191.wav",
+        "text": "skirt",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "skirt",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "skirt",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/skɜːt/"]
+            }
+        ],
+        "entries": ["en:word:clothing-skirt"],
+        "variants": [],
+        "sha256": "8b1d66eb13eb98a2ae5ed643e2b85c3a76c85359c9f7d42d06bfb43399da9191",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "e0a4e9d02c1e7cc6ce7aea187bfccc144b6b0b5828a79c734f673646be671259"
+        }
+    }
+]

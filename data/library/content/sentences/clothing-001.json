@@ -1,0 +1,153 @@
+[
+    {
+        "id": "en:sentence:clothing-example-shirt",
+        "label": "I buy a shirt.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/a0b2f420b442b64a8cb16a171bfac918fb4cba25b405c3087ffd860d4bf5a581.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:travel-buy",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:clothing-shirt",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:clothing-example-shirt",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:clothing-example-dress",
+        "label": "She likes the dress.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/5c4ceee81bf78a66b8f933e959130550ef6e18db84afb5538499ad290c8d59e0.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-like-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:clothing-dress",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:clothing-example-dress",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:clothing-example-sock",
+        "label": "We need socks.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/a12c964bcaa94248fc4fcc00c36e177360f8a85f6ee047c4754b340b6bf7f827.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:need",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-clothing-socks",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:clothing-example-sock",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:clothing-example-skirt",
+        "label": "They buy a skirt.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/b26080bf7f8302fbed377f41950e064c9ac37641acd74695fcd0d363dc181a2b.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-they",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:travel-buy",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:clothing-skirt",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:clothing-example-skirt",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

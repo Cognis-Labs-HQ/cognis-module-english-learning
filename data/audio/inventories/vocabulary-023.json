@@ -1,0 +1,158 @@
+[
+    {
+        "path": "audio/d08a786a90f2d48d33d3a38b1e420a8b1eb48f327803464685f0b17b9576824d.wav",
+        "text": "shirts",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ʃɜːts\">shirts</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "shirts",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ʃɜːts/"]
+            }
+        ],
+        "entries": ["en:word:form-clothing-shirts"],
+        "variants": [
+            {
+                "entryId": "en:word:clothing-shirt",
+                "setId": "noun-shirt",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "d08a786a90f2d48d33d3a38b1e420a8b1eb48f327803464685f0b17b9576824d",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "a958584352c6bd05a2b192cdc3b25bb7f8e879012b14b449c2ff672a01ce0631"
+        }
+    },
+    {
+        "path": "audio/f3dc31c95afbbe212206398c7705ed39f9c6d2b870700417b87de967ab0818cf.wav",
+        "text": "dresses",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈdresɪz\">dresses</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "dresses",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈdresɪz/"]
+            }
+        ],
+        "entries": ["en:word:form-clothing-dresses"],
+        "variants": [
+            {
+                "entryId": "en:word:clothing-dress",
+                "setId": "noun-dress",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "f3dc31c95afbbe212206398c7705ed39f9c6d2b870700417b87de967ab0818cf",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "15268ec903202581c5b2943e56a4afa86505a29902f877e5c9754eb16a8a84e8"
+        }
+    },
+    {
+        "path": "audio/aba9e1351f05adb48d1d2c909c1787f1293ee5dadcd04219843bb8914fdb75aa.wav",
+        "text": "socks",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"sɒks\">socks</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "socks",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/sɒks/"]
+            }
+        ],
+        "entries": ["en:word:form-clothing-socks"],
+        "variants": [
+            {
+                "entryId": "en:word:clothing-sock",
+                "setId": "noun-sock",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "aba9e1351f05adb48d1d2c909c1787f1293ee5dadcd04219843bb8914fdb75aa",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "87505492361eea31cb73f8be0131f2b906e3f15bc4be4f7159c84323634bc533"
+        }
+    },
+    {
+        "path": "audio/d424e787dafa88b963fe33eaf446e66c9068ffa451db6f8224ca39bb8e1ae0d2.wav",
+        "text": "skirts",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"skɜːts\">skirts</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "skirts",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/skɜːts/"]
+            }
+        ],
+        "entries": ["en:word:form-clothing-skirts"],
+        "variants": [
+            {
+                "entryId": "en:word:clothing-skirt",
+                "setId": "noun-skirt",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "d424e787dafa88b963fe33eaf446e66c9068ffa451db6f8224ca39bb8e1ae0d2",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "319ff9bb26ca5a7a472a1bca08cec07b41866e695215a51db40df21e7a22d6d0"
+        }
+    }
+]

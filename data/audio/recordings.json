@@ -20,8 +20,8 @@
     },
     "inventoryVersion": 1,
     "counts": {
-        "recordings": 501,
-        "compositions": 91,
+        "recordings": 509,
+        "compositions": 95,
         "sentences": 49
     },
     "inventories": [
@@ -318,6 +318,24 @@
             "kind": "compositions",
             "count": 4,
             "sha256": "f064bd3f0a5900983b6341ef31b28ba7d847b52fa9d2294212abf7ffb36ead08"
+        },
+        {
+            "path": "inventories/vocabulary-022.json",
+            "kind": "recordings",
+            "count": 4,
+            "sha256": "ec0a4799e60a4653cc24b3d45859905bf3ae2ecaf82d7c64b0b9bfe1e8b0ef61"
+        },
+        {
+            "path": "inventories/vocabulary-023.json",
+            "kind": "recordings",
+            "count": 4,
+            "sha256": "df69febd19d5a3757a144de8f52b7dc0671f51f004b6e0b3274fbbac313112c6"
+        },
+        {
+            "path": "inventories/sentence-compositions-014.json",
+            "kind": "compositions",
+            "count": 4,
+            "sha256": "e3ac5d2ba01f73cd4df21f44f5762e7d3b1756da550117c3aabff72c81366a3d"
         }
     ]
 }
