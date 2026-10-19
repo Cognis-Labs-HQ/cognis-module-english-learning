@@ -324,3 +324,4 @@ Add letter/postcard and てがみ/はがき with four inspected illustrations, e
 - [aab0ac0](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/aab0ac0409e5ea9aeb7a02ebe6633659763fef6e)
 - [4a70526](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4a70526826fef05b753e6ed32a9ee7140a2dc1af)
 - [7a7e580](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/7a7e58098c44678d3997ef21c9c2d13fcf444ba4)
+- [922a1b1](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/922a1b1741516ff7b49fde682e1d59d97021ef16)
