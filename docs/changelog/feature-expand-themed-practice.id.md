@@ -99,3 +99,4 @@ Tambahkan mencuci, memasak, membersihkan, dan mengeringkan dengan empat ilustras
 - [70ed0cf](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/70ed0cff589ecec7ed8cab7156b2d2f6725b2bdf)
 - [edb1cc4](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/edb1cc4f0891bc118d5738cba5d49ba874fa22f3)
 - [99be008](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/99be008c6b43bfa65d786c56e7dd2ab89254f99f)
+- [2a51fed](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/2a51fed76c7635d9a2d7f4307de3a663654a7886)
