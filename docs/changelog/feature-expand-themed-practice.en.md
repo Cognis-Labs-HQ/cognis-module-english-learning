@@ -30,6 +30,10 @@ Add six daily-routine examples and a practice deck, covering time, place, compan
 
 Add six shopping examples and a practice deck for choices, needs, descriptions and purchases. Compose audio only where every exact constituent is available; explicitly identify missing recordings.
 
+## Travel audio coverage
+
+Generate the authorized travel words and forms with the specified voices, retain source PCM and request provenance, and compose travel and remaining shopping sentences from exact constituents. Subscription lookup lacks user_read permission; TTS succeeds. Listening remains explicitly unverified.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

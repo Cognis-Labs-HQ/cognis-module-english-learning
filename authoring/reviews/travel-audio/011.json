@@ -1,0 +1,37 @@
+{
+    "path": "audio/ac0a84211cbb621a8d212ea618beda506557b635563c3bc2757aef6a50c038c6.wav",
+    "text": "buying",
+    "targets": [
+        {
+            "entryId": "en:word:travel-buy",
+            "form": "present-participle"
+        }
+    ],
+    "voiceId": "gJx1vCzNCD1EQHT212Ls",
+    "request": {
+        "text": "buying",
+        "model_id": "eleven_turbo_v2",
+        "seed": 42,
+        "voice_settings": {
+            "stability": 0.75,
+            "similarity_boost": 0.85,
+            "style": 0,
+            "use_speaker_boost": true,
+            "speed": 0.9
+        }
+    },
+    "response": {
+        "request-id": "HzTQG8Vhk0P8shBM981q",
+        "character-cost": "3",
+        "content-type": "audio/pcm"
+    },
+    "sourcePath": "authoring/audio/travel/en-011.pcm",
+    "sourceSha256": "a64a4ab3b82d615414c4e957b57c0a167a986958531d06b38815fde9e83f68ce",
+    "sha256": "ac0a84211cbb621a8d212ea618beda506557b635563c3bc2757aef6a50c038c6",
+    "rawPeak": 30011,
+    "gain": 0.8953050548132352,
+    "paddingFramesEachSide": 480,
+    "frames": 22137,
+    "listening": "unverified-not-performed",
+    "technicalReview": "Valid non-silent mono PCM16 at 24000 Hz; preserved all source frames, bounded peak without trimming, padded endpoints. Text and target forms checked against source specification; not listening evidence."
+}

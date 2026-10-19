@@ -1,0 +1,320 @@
+[
+    {
+        "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+        "text": "buy",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "buy",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "buy",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/baɪ/"]
+            }
+        ],
+        "entries": ["en:word:travel-buy"],
+        "variants": [],
+        "sha256": "dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "a76983213acae4e2417c0e5923d866576477b6b720d47cf868de2fd9a320015b"
+        }
+    },
+    {
+        "path": "audio/e7497ddf844d024ec2178b7d27f5fede4aa2f7da412af576c9f6c1f0388f2539.wav",
+        "text": "buys",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "buys",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "buys",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/baɪz/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:travel-buy",
+                "setId": "travel-buy-forms",
+                "path": ["third-person"]
+            }
+        ],
+        "sha256": "e7497ddf844d024ec2178b7d27f5fede4aa2f7da412af576c9f6c1f0388f2539",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "0c6cf69638c7ccf6dd01bd119d22e69ca675b1bfdefa04612b6dd7e87af2ee04"
+        }
+    },
+    {
+        "path": "audio/053666a90a57631a71a99a6f4e0b05f3cddd33d891447a1828f89e507f017172.wav",
+        "text": "bought",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "bought",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "bought",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/bɔːt/"]
+            }
+        ],
+        "entries": ["en:word:travel-buy-past", "en:word:travel-buy-past"],
+        "variants": [
+            {
+                "entryId": "en:word:travel-buy",
+                "setId": "travel-buy-forms",
+                "path": ["past"]
+            },
+            {
+                "entryId": "en:word:travel-buy",
+                "setId": "travel-buy-forms",
+                "path": ["past-participle"]
+            }
+        ],
+        "sha256": "053666a90a57631a71a99a6f4e0b05f3cddd33d891447a1828f89e507f017172",
+        "frames": 18793,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "3ea637c1829b76fd0ad2d3a96556af8497aaf0a6d64152cc2199e4bdb587952d"
+        }
+    },
+    {
+        "path": "audio/ac0a84211cbb621a8d212ea618beda506557b635563c3bc2757aef6a50c038c6.wav",
+        "text": "buying",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "buying",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "buying",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈbaɪɪŋ/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:travel-buy",
+                "setId": "travel-buy-forms",
+                "path": ["present-participle"]
+            }
+        ],
+        "sha256": "ac0a84211cbb621a8d212ea618beda506557b635563c3bc2757aef6a50c038c6",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "a64a4ab3b82d615414c4e957b57c0a167a986958531d06b38815fde9e83f68ce"
+        }
+    },
+    {
+        "path": "audio/f34e0c27c866a310883661b9e64717752127c2259a8469790f19eb1b21782a93.wav",
+        "text": "depart",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "depart",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "depart",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/dɪˈpɑːt/"]
+            }
+        ],
+        "entries": ["en:word:travel-depart"],
+        "variants": [],
+        "sha256": "f34e0c27c866a310883661b9e64717752127c2259a8469790f19eb1b21782a93",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "b220ae8970a937e57a536fd8b0159bddae848acbe8d387e02aa869a67fbd1319"
+        }
+    },
+    {
+        "path": "audio/4d7b088f996bb31cc40cb33fe16964ac4ca05c62e236a6607dc17d8142d941df.wav",
+        "text": "departs",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "departs",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "departs",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/dɪˈpɑːts/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:travel-depart",
+                "setId": "travel-depart-forms",
+                "path": ["third-person"]
+            }
+        ],
+        "sha256": "4d7b088f996bb31cc40cb33fe16964ac4ca05c62e236a6607dc17d8142d941df",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "299889a063cb9446953b5f5b2e89faa1dfd2486d1a675b445f17fb97c49bbe7b"
+        }
+    },
+    {
+        "path": "audio/f1354781f53e1d305970947787645ec1ee17529ccde8019c237e9e4bad9ffb15.wav",
+        "text": "departed",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "departed",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "departed",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/dɪˈpɑːtɪd/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:travel-depart",
+                "setId": "travel-depart-forms",
+                "path": ["past"]
+            },
+            {
+                "entryId": "en:word:travel-depart",
+                "setId": "travel-depart-forms",
+                "path": ["past-participle"]
+            }
+        ],
+        "sha256": "f1354781f53e1d305970947787645ec1ee17529ccde8019c237e9e4bad9ffb15",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "420110610755475c8717f2240478042d19671a863bea57e6c60f7611158ca605"
+        }
+    },
+    {
+        "path": "audio/b2db6dc99442160a1aaecee35482fa58857551ac726ed40e309c9e7e7d903894.wav",
+        "text": "departing",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "departing",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "departing",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/dɪˈpɑːtɪŋ/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:travel-depart",
+                "setId": "travel-depart-forms",
+                "path": ["present-participle"]
+            }
+        ],
+        "sha256": "b2db6dc99442160a1aaecee35482fa58857551ac726ed40e309c9e7e7d903894",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "5e04b48c1e15e92683759db2eb1ca4aef8022d2132d6a8b13edc25ec248e9a89"
+        }
+    }
+]

@@ -44,7 +44,7 @@ test("pack declares a stable English namespace and usable provider schema", () =
     assert.equal(schema.id, "english");
     assert.equal(schema.language, "en");
     assert.equal(schema.version, 26);
-    assert.equal(manifest.version, "24.0.8");
+    assert.equal(manifest.version, "24.0.9");
     assert.equal(schema.metadata.provider.moduleId, "study-language-en");
     assert.equal(entries.size, [...layers.values()].flat().length);
     for (const layer of schema.layers) {

@@ -30,6 +30,10 @@ Enam contoh rutinitas harian dan satu dek latihan membahas waktu, tempat, teman 
 
 Enam contoh belanja dan satu dek latihan membahas pilihan, kebutuhan, deskripsi, dan pembelian. Audio digabungkan hanya jika semua rekaman unsur yang tepat tersedia; rekaman yang belum ada dicatat secara jelas.
 
+## Audio materi perjalanan
+
+Buat rekaman kata dan bentuk perjalanan yang diizinkan dengan suara yang ditetapkan, simpan PCM sumber serta asal permintaan, lalu gabungkan kalimat perjalanan dan belanja yang tersisa dari unsur yang tepat. Pemeriksaan langganan tidak memiliki izin user_read; sintesis berhasil. Pemeriksaan melalui pendengaran tetap belum dilakukan.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

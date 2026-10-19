@@ -30,6 +30,10 @@ Sechs Alltagsbeispiele und ein Übungsdeck behandeln Zeit, Ort, Begleitung und R
 
 Sechs Einkaufsbeispiele und ein Übungsdeck behandeln Auswahl, Bedarf, Beschreibungen und Käufe. Audio wird nur aus vollständig vorhandenen passenden Wortaufnahmen zusammengesetzt; fehlende Aufnahmen sind ausdrücklich aufgeführt.
 
+## Audio für Reiseinhalte
+
+Die freigegebenen Reisewörter und Formen werden mit den festgelegten Stimmen erzeugt. Quell-PCM und Anfragedaten bleiben erhalten; Reise- und noch offene Einkaufssätze werden aus den genauen Bestandteilen zusammengesetzt. Für die Abonnementabfrage fehlt user_read, die Sprachsynthese funktioniert. Die Hörprüfung bleibt ausdrücklich ausstehend.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

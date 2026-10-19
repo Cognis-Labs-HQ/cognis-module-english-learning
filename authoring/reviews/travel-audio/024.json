@@ -1,0 +1,37 @@
+{
+    "path": "audio/a5236ba77e97840a3565edddf6a0315411280f04a0de915c5932c6b9e73bd72f.wav",
+    "text": "suitcase",
+    "targets": [
+        {
+            "entryId": "en:word:travel-suitcase",
+            "form": "base"
+        }
+    ],
+    "voiceId": "gJx1vCzNCD1EQHT212Ls",
+    "request": {
+        "text": "suitcase",
+        "model_id": "eleven_turbo_v2",
+        "seed": 42,
+        "voice_settings": {
+            "stability": 0.75,
+            "similarity_boost": 0.85,
+            "style": 0,
+            "use_speaker_boost": true,
+            "speed": 0.9
+        }
+    },
+    "response": {
+        "request-id": "3e7zneZlmRXZxoLzPHHz",
+        "character-cost": "4",
+        "content-type": "audio/pcm"
+    },
+    "sourcePath": "authoring/audio/travel/en-024.pcm",
+    "sourceSha256": "3e14d993e11aa1a8d3f15ebd8ce7b0159198eb87dd2bafd6e213958a800b8c00",
+    "sha256": "a5236ba77e97840a3565edddf6a0315411280f04a0de915c5932c6b9e73bd72f",
+    "rawPeak": 23277,
+    "gain": 1,
+    "paddingFramesEachSide": 480,
+    "frames": 24366,
+    "listening": "unverified-not-performed",
+    "technicalReview": "Valid non-silent mono PCM16 at 24000 Hz; preserved all source frames, bounded peak without trimming, padded endpoints. Text and target forms checked against source specification; not listening evidence."
+}

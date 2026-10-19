@@ -1,0 +1,37 @@
+{
+    "path": "audio/13addf06063eb86d2ee6b006d3f40adb45533e296ac2df787f4b7504d72dc4b5.wav",
+    "text": "ticket",
+    "targets": [
+        {
+            "entryId": "en:word:travel-ticket",
+            "form": "base"
+        }
+    ],
+    "voiceId": "gJx1vCzNCD1EQHT212Ls",
+    "request": {
+        "text": "ticket",
+        "model_id": "eleven_turbo_v2",
+        "seed": 42,
+        "voice_settings": {
+            "stability": 0.75,
+            "similarity_boost": 0.85,
+            "style": 0,
+            "use_speaker_boost": true,
+            "speed": 0.9
+        }
+    },
+    "response": {
+        "request-id": "HqxW5sYo2GdV6J4CzIWp",
+        "character-cost": "3",
+        "content-type": "audio/pcm"
+    },
+    "sourcePath": "authoring/audio/travel/en-026.pcm",
+    "sourceSha256": "6056396ab88930078ddc25991d4ab942a47a5d1b52334d088f4c342728f99de3",
+    "sha256": "13addf06063eb86d2ee6b006d3f40adb45533e296ac2df787f4b7504d72dc4b5",
+    "rawPeak": 27841,
+    "gain": 0.9650874609389031,
+    "paddingFramesEachSide": 480,
+    "frames": 19907,
+    "listening": "unverified-not-performed",
+    "technicalReview": "Valid non-silent mono PCM16 at 24000 Hz; preserved all source frames, bounded peak without trimming, padded endpoints. Text and target forms checked against source specification; not listening evidence."
+}

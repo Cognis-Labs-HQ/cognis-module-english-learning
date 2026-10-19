@@ -138,7 +138,11 @@ test("every packaged clip has the designated language voice, stable settings, no
         });
         assert.equal(
             clip.request.language_code,
-            inventory.language === "ja" ? "ja" : undefined,
+            inventory.language === "ja" &&
+                clip.metadata?.languageSelection !==
+                    "native-input-autodetection"
+                ? "ja"
+                : undefined,
         );
         assert.ok(Number.isInteger(clip.request.seed));
     }

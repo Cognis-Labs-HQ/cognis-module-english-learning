@@ -1,0 +1,309 @@
+[
+    {
+        "path": "audio/18259f109cece97ae9b0362e1cb218133c94d27e120584863ae830f05e75beae.wav",
+        "text": "airport",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "airport",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "airport",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈeəpɔːt/"]
+            }
+        ],
+        "entries": ["en:word:travel-airport"],
+        "variants": [],
+        "sha256": "18259f109cece97ae9b0362e1cb218133c94d27e120584863ae830f05e75beae",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "7572056606078c9e5105f423e9a362a07549498544a43556bc36e3d344568fd7"
+        }
+    },
+    {
+        "path": "audio/e15667184030107caa87c780b5d53f8f3ca8c82b3a015193bd1ba07b6ba96d7a.wav",
+        "text": "airports",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "airports",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "airports",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈeəpɔːts/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:travel-airport",
+                "setId": "travel-airport-forms",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "e15667184030107caa87c780b5d53f8f3ca8c82b3a015193bd1ba07b6ba96d7a",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "95dc831c0596c0c034154db61fa843b757e0f897f16fed46d7b80b393c09a6af"
+        }
+    },
+    {
+        "path": "audio/ffe1889995368b442ef4cddfa005eee34ad47a5a2fa784da0052087f82af9d70.wav",
+        "text": "arrive",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "arrive",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "arrive",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/əˈraɪv/"]
+            }
+        ],
+        "entries": ["en:word:travel-arrive"],
+        "variants": [],
+        "sha256": "ffe1889995368b442ef4cddfa005eee34ad47a5a2fa784da0052087f82af9d70",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "679e46aa417b3950cdb50941fef0e9b7dcc99ce4e6e63c24abb8158f4432f223"
+        }
+    },
+    {
+        "path": "audio/5cee6fc3d930068b619c0cb074ad63e8702935165cc4764ec9607b3b93a3aa3d.wav",
+        "text": "arrives",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "arrives",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "arrives",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/əˈraɪvz/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:travel-arrive",
+                "setId": "travel-arrive-forms",
+                "path": ["third-person"]
+            }
+        ],
+        "sha256": "5cee6fc3d930068b619c0cb074ad63e8702935165cc4764ec9607b3b93a3aa3d",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "c4b2bd04ef2b3af0b9e869f167f25c153a888c87a329a2be3f114fc505e84b44"
+        }
+    },
+    {
+        "path": "audio/b32e6ec0c93a4f7edce364ece2f625d8a835fa19be1dac115f909bf9b3af6451.wav",
+        "text": "arrived",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "arrived",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "arrived",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/əˈraɪvd/"]
+            }
+        ],
+        "entries": ["en:word:travel-arrive-past", "en:word:travel-arrive-past"],
+        "variants": [
+            {
+                "entryId": "en:word:travel-arrive",
+                "setId": "travel-arrive-forms",
+                "path": ["past"]
+            },
+            {
+                "entryId": "en:word:travel-arrive",
+                "setId": "travel-arrive-forms",
+                "path": ["past-participle"]
+            }
+        ],
+        "sha256": "b32e6ec0c93a4f7edce364ece2f625d8a835fa19be1dac115f909bf9b3af6451",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "9433b12f9d2741d549b7f8cd58a1f6713856b731d97fd1a8a1ff8ffeb70f8cc7"
+        }
+    },
+    {
+        "path": "audio/36437efd4b901d75a2e0adfbd2938acb2c6c545d987eafa2d02adfcd787f2dc9.wav",
+        "text": "arriving",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "arriving",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "arriving",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/əˈraɪvɪŋ/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:travel-arrive",
+                "setId": "travel-arrive-forms",
+                "path": ["present-participle"]
+            }
+        ],
+        "sha256": "36437efd4b901d75a2e0adfbd2938acb2c6c545d987eafa2d02adfcd787f2dc9",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "da3f61549e169120cf290c9c56d974fd97ba6adaa459d5a0858f513b36a506dd"
+        }
+    },
+    {
+        "path": "audio/1043874a2dd104ce1c3fa9ab4f8b19c80613457e0c7b47631e01bf8f96c712c9.wav",
+        "text": "bicycle",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "bicycle",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "bicycle",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈbaɪsɪkəl/"]
+            }
+        ],
+        "entries": ["en:word:travel-bicycle"],
+        "variants": [],
+        "sha256": "1043874a2dd104ce1c3fa9ab4f8b19c80613457e0c7b47631e01bf8f96c712c9",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "497da9126fefdd76733e518ad5b6b4ec4ac555fee8df44e4b861ae36de7b9ec3"
+        }
+    },
+    {
+        "path": "audio/2e323870147020ce253e1413fe4535015922d0428efc219f5f3f724363b48026.wav",
+        "text": "bicycles",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "bicycles",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "bicycles",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈbaɪsɪkəlz/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:travel-bicycle",
+                "setId": "travel-bicycle-forms",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "2e323870147020ce253e1413fe4535015922d0428efc219f5f3f724363b48026",
+        "frames": 26595,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "7fc71bcc997b5afb1f1811efb52a1301ec67d9b6b4b2b71adf3899ec374bcbd6"
+        }
+    }
+]

@@ -1,0 +1,37 @@
+{
+    "path": "audio/5cee6fc3d930068b619c0cb074ad63e8702935165cc4764ec9607b3b93a3aa3d.wav",
+    "text": "arrives",
+    "targets": [
+        {
+            "entryId": "en:word:travel-arrive",
+            "form": "third-person"
+        }
+    ],
+    "voiceId": "gJx1vCzNCD1EQHT212Ls",
+    "request": {
+        "text": "arrives",
+        "model_id": "eleven_turbo_v2",
+        "seed": 42,
+        "voice_settings": {
+            "stability": 0.75,
+            "similarity_boost": 0.85,
+            "style": 0,
+            "use_speaker_boost": true,
+            "speed": 0.9
+        }
+    },
+    "response": {
+        "request-id": "m0QApyfiS9sKVeIhX3js",
+        "character-cost": "4",
+        "content-type": "audio/pcm"
+    },
+    "sourcePath": "authoring/audio/travel/en-003.pcm",
+    "sourceSha256": "c4b2bd04ef2b3af0b9e869f167f25c153a888c87a329a2be3f114fc505e84b44",
+    "sha256": "5cee6fc3d930068b619c0cb074ad63e8702935165cc4764ec9607b3b93a3aa3d",
+    "rawPeak": 27180,
+    "gain": 0.9885577630610743,
+    "paddingFramesEachSide": 480,
+    "frames": 25480,
+    "listening": "unverified-not-performed",
+    "technicalReview": "Valid non-silent mono PCM16 at 24000 Hz; preserved all source frames, bounded peak without trimming, padded endpoints. Text and target forms checked against source specification; not listening evidence."
+}

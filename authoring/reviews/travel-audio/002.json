@@ -1,0 +1,37 @@
+{
+    "path": "audio/ffe1889995368b442ef4cddfa005eee34ad47a5a2fa784da0052087f82af9d70.wav",
+    "text": "arrive",
+    "targets": [
+        {
+            "entryId": "en:word:travel-arrive",
+            "form": "base"
+        }
+    ],
+    "voiceId": "gJx1vCzNCD1EQHT212Ls",
+    "request": {
+        "text": "arrive",
+        "model_id": "eleven_turbo_v2",
+        "seed": 42,
+        "voice_settings": {
+            "stability": 0.75,
+            "similarity_boost": 0.85,
+            "style": 0,
+            "use_speaker_boost": true,
+            "speed": 0.9
+        }
+    },
+    "response": {
+        "request-id": "l0oJjN7mrBxvcMWDhGgH",
+        "character-cost": "3",
+        "content-type": "audio/pcm"
+    },
+    "sourcePath": "authoring/audio/travel/en-002.pcm",
+    "sourceSha256": "679e46aa417b3950cdb50941fef0e9b7dcc99ce4e6e63c24abb8158f4432f223",
+    "sha256": "ffe1889995368b442ef4cddfa005eee34ad47a5a2fa784da0052087f82af9d70",
+    "rawPeak": 22689,
+    "gain": 1,
+    "paddingFramesEachSide": 480,
+    "frames": 24366,
+    "listening": "unverified-not-performed",
+    "technicalReview": "Valid non-silent mono PCM16 at 24000 Hz; preserved all source frames, bounded peak without trimming, padded endpoints. Text and target forms checked against source specification; not listening evidence."
+}

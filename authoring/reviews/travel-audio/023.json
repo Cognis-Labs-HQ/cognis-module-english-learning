@@ -1,0 +1,37 @@
+{
+    "path": "audio/06a4c360a9ad66e2540d182da1e4e0f05de76c6d97ff5058701c6d7bdb8d532b.wav",
+    "text": "stations",
+    "targets": [
+        {
+            "entryId": "en:word:travel-station",
+            "form": "plural"
+        }
+    ],
+    "voiceId": "gJx1vCzNCD1EQHT212Ls",
+    "request": {
+        "text": "stations",
+        "model_id": "eleven_turbo_v2",
+        "seed": 42,
+        "voice_settings": {
+            "stability": 0.75,
+            "similarity_boost": 0.85,
+            "style": 0,
+            "use_speaker_boost": true,
+            "speed": 0.9
+        }
+    },
+    "response": {
+        "request-id": "nd1UL6yYGB37OEJ5Ch08",
+        "character-cost": "4",
+        "content-type": "audio/pcm"
+    },
+    "sourcePath": "authoring/audio/travel/en-023.pcm",
+    "sourceSha256": "fb21f2bdcc1b80cf906ff183748d1e04df8214c62eb3a564784f6ddf6664f45b",
+    "sha256": "06a4c360a9ad66e2540d182da1e4e0f05de76c6d97ff5058701c6d7bdb8d532b",
+    "rawPeak": 29641,
+    "gain": 0.9064808879592456,
+    "paddingFramesEachSide": 480,
+    "frames": 25480,
+    "listening": "unverified-not-performed",
+    "technicalReview": "Valid non-silent mono PCM16 at 24000 Hz; preserved all source frames, bounded peak without trimming, padded endpoints. Text and target forms checked against source specification; not listening evidence."
+}

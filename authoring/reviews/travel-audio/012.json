@@ -1,0 +1,37 @@
+{
+    "path": "audio/f34e0c27c866a310883661b9e64717752127c2259a8469790f19eb1b21782a93.wav",
+    "text": "depart",
+    "targets": [
+        {
+            "entryId": "en:word:travel-depart",
+            "form": "base"
+        }
+    ],
+    "voiceId": "gJx1vCzNCD1EQHT212Ls",
+    "request": {
+        "text": "depart",
+        "model_id": "eleven_turbo_v2",
+        "seed": 42,
+        "voice_settings": {
+            "stability": 0.75,
+            "similarity_boost": 0.85,
+            "style": 0,
+            "use_speaker_boost": true,
+            "speed": 0.9
+        }
+    },
+    "response": {
+        "request-id": "1QdaYjDHxI5OHlV9dswh",
+        "character-cost": "3",
+        "content-type": "audio/pcm"
+    },
+    "sourcePath": "authoring/audio/travel/en-012.pcm",
+    "sourceSha256": "b220ae8970a937e57a536fd8b0159bddae848acbe8d387e02aa869a67fbd1319",
+    "sha256": "f34e0c27c866a310883661b9e64717752127c2259a8469790f19eb1b21782a93",
+    "rawPeak": 30213,
+    "gain": 0.8893191672458876,
+    "paddingFramesEachSide": 480,
+    "frames": 22137,
+    "listening": "unverified-not-performed",
+    "technicalReview": "Valid non-silent mono PCM16 at 24000 Hz; preserved all source frames, bounded peak without trimming, padded endpoints. Text and target forms checked against source specification; not listening evidence."
+}
