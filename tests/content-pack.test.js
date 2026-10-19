@@ -44,7 +44,7 @@ test("pack declares a stable English namespace and usable provider schema", () =
     assert.equal(schema.id, "english");
     assert.equal(schema.language, "en");
     assert.equal(schema.version, 59);
-    assert.equal(manifest.version, "24.0.61");
+    assert.equal(manifest.version, "24.0.62");
     assert.equal(schema.metadata.provider.moduleId, "study-language-en");
     assert.equal(entries.size, [...layers.values()].flat().length);
     for (const layer of schema.layers) {
@@ -172,7 +172,7 @@ test("beginner vocabulary and grammar resolve genuine localized meanings and spe
 });
 
 test("all published sentences preserve every ordered word, inflection, and punctuation", () => {
-    assert.equal(layers.get("sentences").length, 305);
+    assert.equal(layers.get("sentences").length, 309);
     for (const sentence of layers.get("sentences")) {
         const constituents = sentence.references
             .filter(({ relation }) => relation !== "definitions")
