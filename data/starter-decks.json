@@ -941,5 +941,64 @@
             "en:sentence:qualities-example-easy",
             "en:sentence:qualities-example-difficult"
         ]
+    },
+    {
+        "key": "frequency-practice",
+        "name": {
+            "en": "Frequency and Repetition",
+            "de": "Häufigkeit und Wiederholung",
+            "id": "Frekuensi dan Pengulangan",
+            "ja": "頻度と反復"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:word:frequency-often",
+            "en:word:frequency-sometimes",
+            "en:word:frequency-usually",
+            "en:word:frequency-again",
+            "en:sentence:frequency-example-often",
+            "en:sentence:frequency-example-sometimes",
+            "en:sentence:frequency-example-usually",
+            "en:sentence:frequency-example-again"
+        ]
+    },
+    {
+        "key": "core-practice",
+        "name": {
+            "en": "Reading, Writing and Rest",
+            "de": "Lesen, Schreiben und Ruhe",
+            "id": "Membaca, Menulis, dan Istirahat",
+            "ja": "読み書きと休息"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:word:read",
+            "en:word:write",
+            "en:word:speak",
+            "en:word:sleep",
+            "en:sentence:core-example-read",
+            "en:sentence:core-example-write",
+            "en:sentence:core-example-speak",
+            "en:sentence:core-example-sleep"
+        ]
+    },
+    {
+        "key": "social-practice",
+        "name": {
+            "en": "Everyday Exchanges",
+            "de": "Alltägliche Gespräche",
+            "id": "Percakapan Sehari-hari",
+            "ja": "日常のやり取り"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:word:hello",
+            "en:word:thanks",
+            "en:sentence:social-example-greeting",
+            "en:sentence:social-example-gratitude",
+            "en:sentence:social-example-attention",
+            "en:sentence:social-example-farewell",
+            "en:word:say"
+        ]
     }
 ]

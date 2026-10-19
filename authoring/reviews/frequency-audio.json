@@ -1,0 +1,130 @@
+[
+    {
+        "entryId": "en:word:frequency-often",
+        "path": "audio/9a05b479bd06312a9e9dc72b6d3154b589a7096efb1414391e23470e96551bef.wav",
+        "sha256": "9a05b479bd06312a9e9dc72b6d3154b589a7096efb1414391e23470e96551bef",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈɒfn\">often</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "w3Nl4BE9VhPaFFwykzmr",
+            "character-cost": "2",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/frequency/frequency-often.pcm",
+        "sourceSha256": "589d63573db2dfb15cf1194f496a3684c3ce66081b2f55b4743ef6896a16f572",
+        "sourcePeak": 29815,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9011906758343116,
+        "paddingFramesEachSide": 480,
+        "frames": 19907,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:frequency-sometimes",
+        "path": "audio/d9ddff4f3957714dd7844669cbc48bb018a1fc24b6923c5c956ddcf339bd08eb.wav",
+        "sha256": "d9ddff4f3957714dd7844669cbc48bb018a1fc24b6923c5c956ddcf339bd08eb",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈsʌmtaɪmz\">sometimes</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "TrSALJaHDWQDFkZaQ4N9",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/frequency/frequency-sometimes.pcm",
+        "sourceSha256": "9cc7c2cb168c93f46128a3f1e72934af7f360726d3d96bf4ef0ab677cc3ba3cf",
+        "sourcePeak": 30585,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.8785025339218571,
+        "paddingFramesEachSide": 480,
+        "frames": 27709,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:frequency-usually",
+        "path": "audio/fe7abe7add7e5f7cbd58983ad0b62a5bb6e3e3f21202d3cc64c32d2ca1e9ea7a.wav",
+        "sha256": "fe7abe7add7e5f7cbd58983ad0b62a5bb6e3e3f21202d3cc64c32d2ca1e9ea7a",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈjuːʒuəli\">usually</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "ascGPPIFVLqi1E6EkVUm",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/frequency/frequency-usually.pcm",
+        "sourceSha256": "59e304121925ceeb1b6852f63dae1dceb340be933fd84f8a01fdafceeaf1aeb2",
+        "sourcePeak": 16998,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 24366,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:frequency-again",
+        "path": "audio/024b55e2d0ec5a9bc349fb971943726460526ecde794d2b5bc02e61bd4ce65d4.wav",
+        "sha256": "024b55e2d0ec5a9bc349fb971943726460526ecde794d2b5bc02e61bd4ce65d4",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"əˈɡen\">again</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "55Lu9ofbUNYO26xms8up",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/frequency/frequency-again.pcm",
+        "sourceSha256": "79913208fe557a8b714b9e5dfac57fd136a5c6ca92067b465da31df7d8641ee5",
+        "sourcePeak": 30498,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.8810085907272608,
+        "paddingFramesEachSide": 480,
+        "frames": 21022,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]

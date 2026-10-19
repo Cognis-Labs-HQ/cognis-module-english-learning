@@ -20,8 +20,8 @@
     },
     "inventoryVersion": 1,
     "counts": {
-        "recordings": 655,
-        "compositions": 177,
+        "recordings": 659,
+        "compositions": 189,
         "sentences": 49
     },
     "inventories": [
@@ -254,6 +254,18 @@
             "sha256": "55cf401da104fcd6c745e37661797824d191940afa79b49f308bd062428c30f0"
         },
         {
+            "path": "inventories/sentence-compositions-032.json",
+            "kind": "compositions",
+            "count": 4,
+            "sha256": "50e67dabefc5f31b934cafc2e938cdcf3685c0f836cec584db1579813deab57a"
+        },
+        {
+            "path": "inventories/sentence-compositions-033.json",
+            "kind": "compositions",
+            "count": 4,
+            "sha256": "3ae5c29ed581ea7e23f7bef2424d5d799afc70f0641e4bc3dedcb1b4456734ae"
+        },
+        {
             "path": "inventories/vocabulary-001.json",
             "kind": "recordings",
             "count": 25,
@@ -370,8 +382,14 @@
         {
             "path": "inventories/vocabulary-020.json",
             "kind": "recordings",
-            "count": 8,
-            "sha256": "303828849c8f18bf12b73d7e8a9386bfc731bc533b15a7640a2da71cd83648a0"
+            "count": 12,
+            "sha256": "f24dcb7c4b7a7565e7fdd2e9c38d324955688fc9951e23498a1ae2b7d6479770"
+        },
+        {
+            "path": "inventories/sentence-compositions-034.json",
+            "kind": "compositions",
+            "count": 4,
+            "sha256": "32c5288c7c05d0c4aba25847a2df989d4d9d33dd9b47e10ccb975f992dfdd332"
         }
     ]
 }

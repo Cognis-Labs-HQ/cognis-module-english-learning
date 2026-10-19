@@ -1,0 +1,173 @@
+[
+    {
+        "id": "en:sentence:social-example-greeting",
+        "label": "I say hello to my friend.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/87e963d02f3925cbc6d5ed715c6f123b0b8ff8cf698e9a85ab45c1f885055777.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:say",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:hello",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:to",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:my",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:friend",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:social-example-greeting",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:social-example-gratitude",
+        "label": "I say thanks to my friend.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/928d2e1a9ca474ae9917c2ff79c30f935e3b0afb87db59d2d5a196174324775b.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:say",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:thanks",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:to",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:my",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:friend",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:social-example-gratitude",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:social-example-attention",
+        "label": "I need a teacher.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/abe517bbfc88064b46a51401fb55db5b710f5d9207121a9222ec487c43860bd8.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:need",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:teacher",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:social-example-attention",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:social-example-farewell",
+        "label": "We speak slowly.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/f535e21a5b4667555b8f03c92e7be7f6f571157746b37d80f7b449d13115088f.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:speak",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:slowly",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:social-example-farewell",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

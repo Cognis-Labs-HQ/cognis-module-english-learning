@@ -284,6 +284,37 @@
         "vocabularyAudit": "authoring/reviews/fixtures-vocabulary.json"
     },
     {
+        "theme": "frequency",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:frequency-often",
+                "label": "often"
+            },
+            {
+                "entryId": "en:word:frequency-sometimes",
+                "label": "sometimes"
+            },
+            {
+                "entryId": "en:word:frequency-usually",
+                "label": "usually"
+            },
+            {
+                "entryId": "en:word:frequency-again",
+                "label": "again"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:frequency-example-often",
+            "en:sentence:frequency-example-sometimes",
+            "en:sentence:frequency-example-usually",
+            "en:sentence:frequency-example-again"
+        ],
+        "recordedGrammaticalFormCount": 0,
+        "vocabularyAudit": "authoring/reviews/frequency-vocabulary.json"
+    },
+    {
         "theme": "fruit",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -313,36 +344,5 @@
         ],
         "recordedGrammaticalFormCount": 4,
         "vocabularyAudit": "authoring/reviews/fruit-vocabulary.json"
-    },
-    {
-        "theme": "furnishings",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:furnishings-sofa",
-                "label": "sofa"
-            },
-            {
-                "entryId": "en:word:furnishings-lamp",
-                "label": "lamp"
-            },
-            {
-                "entryId": "en:word:furnishings-mirror",
-                "label": "mirror"
-            },
-            {
-                "entryId": "en:word:furnishings-pillow",
-                "label": "pillow"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:furnishings-example-sofa",
-            "en:sentence:furnishings-example-lamp",
-            "en:sentence:furnishings-example-mirror",
-            "en:sentence:furnishings-example-pillow"
-        ],
-        "recordedGrammaticalFormCount": 4,
-        "vocabularyAudit": "authoring/reviews/furnishings-vocabulary.json"
     }
 ]

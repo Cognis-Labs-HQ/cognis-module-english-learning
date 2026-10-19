@@ -21,6 +21,7 @@ for (const theme of [
     "animals",
     "furnishings",
     "fruit",
+    "frequency",
     "qualities",
     "actions",
     "fixtures",

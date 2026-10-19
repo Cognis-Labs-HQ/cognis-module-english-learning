@@ -1,5 +1,36 @@
 [
     {
+        "theme": "furnishings",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:furnishings-sofa",
+                "label": "sofa"
+            },
+            {
+                "entryId": "en:word:furnishings-lamp",
+                "label": "lamp"
+            },
+            {
+                "entryId": "en:word:furnishings-mirror",
+                "label": "mirror"
+            },
+            {
+                "entryId": "en:word:furnishings-pillow",
+                "label": "pillow"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:furnishings-example-sofa",
+            "en:sentence:furnishings-example-lamp",
+            "en:sentence:furnishings-example-mirror",
+            "en:sentence:furnishings-example-pillow"
+        ],
+        "recordedGrammaticalFormCount": 4,
+        "vocabularyAudit": "authoring/reviews/furnishings-vocabulary.json"
+    },
+    {
         "theme": "household",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -277,31 +308,5 @@
         ],
         "recordedGrammaticalFormCount": 4,
         "vocabularyAudit": "authoring/reviews/tableware-vocabulary.json"
-    },
-    {
-        "theme": "time",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:time-tomorrow",
-                "label": "tomorrow"
-            },
-            {
-                "entryId": "en:word:time-yesterday",
-                "label": "yesterday"
-            },
-            {
-                "entryId": "en:word:time-soon",
-                "label": "soon"
-            },
-            {
-                "entryId": "en:word:time-later",
-                "label": "later"
-            }
-        ],
-        "newExampleCount": 0,
-        "exampleIds": [],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/time-vocabulary.json"
     }
 ]

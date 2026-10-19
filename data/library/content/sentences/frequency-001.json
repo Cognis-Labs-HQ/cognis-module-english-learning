@@ -1,0 +1,153 @@
+[
+    {
+        "id": "en:sentence:frequency-example-often",
+        "label": "I often read.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/0c2bbd9df33e5242e1d7047b19db3c24358bb25890624f7aeec62838a868d2e4.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:frequency-often",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:read",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:frequency-example-often",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:frequency-example-sometimes",
+        "label": "We sometimes swim.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/87991db62bf47123bf9e8e92c4b12c5c98e9fec2531bf4a6b07ced5e16e8e33e.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:frequency-sometimes",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:actions-swim",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:frequency-example-sometimes",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:frequency-example-usually",
+        "label": "I usually drink tea.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/9500915212cb92dfa02ca2c97a900ff2d23ae18e28e9dc0b79068768e1653c92.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:frequency-usually",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:drink",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:tea",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:frequency-example-usually",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:frequency-example-again",
+        "label": "We read the question again.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/39dfa3cd8c2e46a54c9addcab44b7e6f83a1c18d09ca6ab38fe92a3682337fa6.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:read",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:question",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:frequency-again",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:frequency-example-again",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

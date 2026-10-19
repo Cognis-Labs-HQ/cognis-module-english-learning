@@ -1,0 +1,214 @@
+[
+    {
+        "entryId": "en:sentence:frequency-example-often",
+        "label": "I often read.",
+        "reading": null,
+        "meanings": {
+            "en": "I often read.",
+            "de": "Ich lese oft.",
+            "id": "Saya sering membaca.",
+            "ja": "私はよく読みます。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:frequency-often",
+            "en:word:read",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/0c2bbd9df33e5242e1d7047b19db3c24358bb25890624f7aeec62838a868d2e4.wav",
+        "sha256": "0c2bbd9df33e5242e1d7047b19db3c24358bb25890624f7aeec62838a868d2e4",
+        "listening": "unverified-not-performed",
+        "textReview": "Frequency before the English lexical verb and clause-final again are natural. Japanese examples select frequency よく, occasional ときどき, habitual たいてい, and repeated future また. They are not fixed numerical probabilities; omitted Japanese subjects have illustrative translations.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:frequency-often",
+                "path": "audio/9a05b479bd06312a9e9dc72b6d3154b589a7096efb1414391e23470e96551bef.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈɒfn\">often</phoneme>.",
+                "sha256": "2d8f93dc3dd4b7869b4588890f56c92213539d22d8437f248021c38dc863f75e"
+            },
+            {
+                "entryId": "en:word:read",
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɹiːd\">read</phoneme>.",
+                "sha256": "51d6eb41f30a3204b55615a2263ed35f4534791a434472b0bbc501cbf97cd8d5"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    },
+    {
+        "entryId": "en:sentence:frequency-example-sometimes",
+        "label": "We sometimes swim.",
+        "reading": null,
+        "meanings": {
+            "en": "We sometimes swim.",
+            "de": "Wir schwimmen manchmal.",
+            "id": "Kami kadang-kadang berenang.",
+            "ja": "私たちはときどき泳ぎます。"
+        },
+        "constituentIds": [
+            "en:word:capital-we",
+            "en:word:frequency-sometimes",
+            "en:word:actions-swim",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/87991db62bf47123bf9e8e92c4b12c5c98e9fec2531bf4a6b07ced5e16e8e33e.wav",
+        "sha256": "87991db62bf47123bf9e8e92c4b12c5c98e9fec2531bf4a6b07ced5e16e8e33e",
+        "listening": "unverified-not-performed",
+        "textReview": "Frequency before the English lexical verb and clause-final again are natural. Japanese examples select frequency よく, occasional ときどき, habitual たいてい, and repeated future また. They are not fixed numerical probabilities; omitted Japanese subjects have illustrative translations.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-we",
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"wiː\">We</phoneme>.",
+                "sha256": "657d1b8e51821f12c5dbfedc21e6610e1d189acc1e5a38f2f3a7ad169c3a099f"
+            },
+            {
+                "entryId": "en:word:frequency-sometimes",
+                "path": "audio/d9ddff4f3957714dd7844669cbc48bb018a1fc24b6923c5c956ddcf339bd08eb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈsʌmtaɪmz\">sometimes</phoneme>.",
+                "sha256": "185352a19047cad16d307f4d7d3330e5f9800d723fba0dd9aa439cd19f08a1d9"
+            },
+            {
+                "entryId": "en:word:actions-swim",
+                "path": "audio/84088360bfd4be82b2f925caa2d7b6044b8384c0f1855795f514b2b7004c5316.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"swɪm\">swim</phoneme>.",
+                "sha256": "7c622a7815a1ae29ba9397a60ee750bbcacd9bd37c87617273a858c4827f757d"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    },
+    {
+        "entryId": "en:sentence:frequency-example-usually",
+        "label": "I usually drink tea.",
+        "reading": null,
+        "meanings": {
+            "en": "I usually drink tea.",
+            "de": "Ich trinke gewöhnlich Tee.",
+            "id": "Saya biasanya minum teh.",
+            "ja": "私はたいていお茶を飲みます。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:frequency-usually",
+            "en:word:drink",
+            "en:word:tea",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/9500915212cb92dfa02ca2c97a900ff2d23ae18e28e9dc0b79068768e1653c92.wav",
+        "sha256": "9500915212cb92dfa02ca2c97a900ff2d23ae18e28e9dc0b79068768e1653c92",
+        "listening": "unverified-not-performed",
+        "textReview": "Frequency before the English lexical verb and clause-final again are natural. Japanese examples select frequency よく, occasional ときどき, habitual たいてい, and repeated future また. They are not fixed numerical probabilities; omitted Japanese subjects have illustrative translations.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:frequency-usually",
+                "path": "audio/fe7abe7add7e5f7cbd58983ad0b62a5bb6e3e3f21202d3cc64c32d2ca1e9ea7a.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈjuːʒuəli\">usually</phoneme>.",
+                "sha256": "9dfc7c38c511fa2f1a3914d63be70bfec3154580e13ffce36ae48741fb4274c3"
+            },
+            {
+                "entryId": "en:word:drink",
+                "path": "audio/03b62debf6ef4408c4897b5fb6c219dbe2fd2dc3aa3abcaaeac9e60a81ffd688.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"dɹɪŋk\">drink</phoneme>.",
+                "sha256": "8177ce54747034e96618aff21e69f35422f5e147b096f58f9e0c25f6dcc28e50"
+            },
+            {
+                "entryId": "en:word:tea",
+                "path": "audio/53612525976e57e096c89cf49ffcc1be60d2ab04136168922486a85043d6b84b.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"tiː\">tea</phoneme>.",
+                "sha256": "46f6f1ccdad190b2ad45cd0adc1c75d66bc5b91d74d57d3646d01bd30a319a7f"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    },
+    {
+        "entryId": "en:sentence:frequency-example-again",
+        "label": "We read the question again.",
+        "reading": null,
+        "meanings": {
+            "en": "We read the question again.",
+            "de": "Wir lesen die Frage noch einmal.",
+            "id": "Kami membaca pertanyaan itu lagi.",
+            "ja": "私たちはその質問をもう一度読みます。"
+        },
+        "constituentIds": [
+            "en:word:capital-we",
+            "en:word:read",
+            "en:word:the",
+            "en:word:question",
+            "en:word:frequency-again",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/39dfa3cd8c2e46a54c9addcab44b7e6f83a1c18d09ca6ab38fe92a3682337fa6.wav",
+        "sha256": "39dfa3cd8c2e46a54c9addcab44b7e6f83a1c18d09ca6ab38fe92a3682337fa6",
+        "listening": "unverified-not-performed",
+        "textReview": "Frequency before the English lexical verb and clause-final again are natural. Japanese examples select frequency よく, occasional ときどき, habitual たいてい, and repeated future また. They are not fixed numerical probabilities; omitted Japanese subjects have illustrative translations.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-we",
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"wiː\">We</phoneme>.",
+                "sha256": "657d1b8e51821f12c5dbfedc21e6610e1d189acc1e5a38f2f3a7ad169c3a099f"
+            },
+            {
+                "entryId": "en:word:read",
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɹiːd\">read</phoneme>.",
+                "sha256": "51d6eb41f30a3204b55615a2263ed35f4534791a434472b0bbc501cbf97cd8d5"
+            },
+            {
+                "entryId": "en:word:the",
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">the</phoneme>.",
+                "sha256": "b2de03d0a472a2c128fb577f21214734327c9ea284305cddf02da7e534c37d9c"
+            },
+            {
+                "entryId": "en:word:question",
+                "path": "audio/35fad243608fc2d83692114a144def5d5db9497e3e2aa8c70cf9718d64777a85.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈkwestʃən\">question</phoneme>.",
+                "sha256": "a8b5df7b7a5a822a49eb431f4f177ba2119a66a5b6e8c355a9d47da7fddd7bf5"
+            },
+            {
+                "entryId": "en:word:frequency-again",
+                "path": "audio/024b55e2d0ec5a9bc349fb971943726460526ecde794d2b5bc02e61bd4ce65d4.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"əˈɡen\">again</phoneme>.",
+                "sha256": "9b7d2bf2362c37fabe458ef55a420f4a56ff15de48b10c22c238055549474900"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    }
+]

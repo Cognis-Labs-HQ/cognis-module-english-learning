@@ -1,5 +1,31 @@
 [
     {
+        "theme": "time",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:time-tomorrow",
+                "label": "tomorrow"
+            },
+            {
+                "entryId": "en:word:time-yesterday",
+                "label": "yesterday"
+            },
+            {
+                "entryId": "en:word:time-soon",
+                "label": "soon"
+            },
+            {
+                "entryId": "en:word:time-later",
+                "label": "later"
+            }
+        ],
+        "newExampleCount": 0,
+        "exampleIds": [],
+        "recordedGrammaticalFormCount": 0,
+        "vocabularyAudit": "authoring/reviews/time-vocabulary.json"
+    },
+    {
         "theme": "transport",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -93,6 +119,34 @@
         "vocabularyAudit": "authoring/reviews/weather-vocabulary.json"
     },
     {
+        "theme": "core",
+        "newDistinctVocabularyCount": 0,
+        "vocabulary": [],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:core-example-read",
+            "en:sentence:core-example-write",
+            "en:sentence:core-example-speak",
+            "en:sentence:core-example-sleep"
+        ],
+        "recordedGrammaticalFormCount": 0,
+        "vocabularyAudit": "authoring/reviews/core-sentences.json"
+    },
+    {
+        "theme": "social",
+        "newDistinctVocabularyCount": 0,
+        "vocabulary": [],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:social-example-greeting",
+            "en:sentence:social-example-gratitude",
+            "en:sentence:social-example-attention",
+            "en:sentence:social-example-farewell"
+        ],
+        "recordedGrammaticalFormCount": 0,
+        "vocabularyAudit": "authoring/reviews/social-sentences.json"
+    },
+    {
         "theme": "mealtime",
         "newDistinctVocabularyCount": 0,
         "vocabulary": [],
@@ -155,37 +209,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/daily-needs-sentences.json"
-    },
-    {
-        "theme": "classroom",
-        "newDistinctVocabularyCount": 0,
-        "vocabulary": [],
-        "newExampleCount": 6,
-        "exampleIds": [
-            "en:sentence:classroom-1",
-            "en:sentence:classroom-2",
-            "en:sentence:classroom-3",
-            "en:sentence:classroom-4",
-            "en:sentence:classroom-5",
-            "en:sentence:classroom-6"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/classroom-sentences.json"
-    },
-    {
-        "theme": "restaurant",
-        "newDistinctVocabularyCount": 0,
-        "vocabulary": [],
-        "newExampleCount": 6,
-        "exampleIds": [
-            "en:sentence:restaurant-1",
-            "en:sentence:restaurant-2",
-            "en:sentence:restaurant-3",
-            "en:sentence:restaurant-4",
-            "en:sentence:restaurant-5",
-            "en:sentence:restaurant-6"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/restaurant-sentences.json"
     }
 ]

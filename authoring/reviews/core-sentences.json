@@ -1,0 +1,222 @@
+[
+    {
+        "entryId": "en:sentence:core-example-read",
+        "label": "I read in the library.",
+        "reading": null,
+        "meanings": {
+            "en": "I read in the library.",
+            "de": "Ich lese in der Bibliothek.",
+            "id": "Saya membaca di perpustakaan.",
+            "ja": "私は図書館で読みます。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:read",
+            "en:particle:in",
+            "en:word:the",
+            "en:word:places-library",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/46cd37bd5f9c338f1138189b668680ff1ebe6aaa1ef74c0333a2ba773c45ee19.wav",
+        "sha256": "46cd37bd5f9c338f1138189b668680ff1ebe6aaa1ef74c0333a2ba773c45ee19",
+        "listening": "unverified-not-performed",
+        "textReview": "English uses existing canonical predicates, including exact third-person sleeps audio. Japanese を marks reading material, に marks the writing surface, と marks a conversation partner, and あとで寝る selects going to bed later. Subjects omitted in Japanese are illustrative in translation.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:read",
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɹiːd\">read</phoneme>.",
+                "sha256": "51d6eb41f30a3204b55615a2263ed35f4534791a434472b0bbc501cbf97cd8d5"
+            },
+            {
+                "entryId": "en:particle:in",
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "in.",
+                "sha256": "807a72639918b348ca21ef14c205120a00e9e821a711fad6bbe065c5c53d756b"
+            },
+            {
+                "entryId": "en:word:the",
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">the</phoneme>.",
+                "sha256": "b2de03d0a472a2c128fb577f21214734327c9ea284305cddf02da7e534c37d9c"
+            },
+            {
+                "entryId": "en:word:places-library",
+                "path": "audio/9572e372989b5c731c9f77f0370494110dfb2b2df0dbcd1043df6e56f81fe2ad.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "library",
+                "sha256": "8b7778eb0c1629f2d42e1ec7c811184cb25523b699a90403c37179d3595febfd"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    },
+    {
+        "entryId": "en:sentence:core-example-write",
+        "label": "I write with a pen.",
+        "reading": null,
+        "meanings": {
+            "en": "I write with a pen.",
+            "de": "Ich schreibe mit einem Stift.",
+            "id": "Saya menulis dengan pena.",
+            "ja": "私はペンで書きます。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:write",
+            "en:particle:with",
+            "en:word:a",
+            "en:word:school-pen",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/a5586d46a9e011a433d32247ff3b0118c2eb51ea4975e2f5402d1ea05b37b1ec.wav",
+        "sha256": "a5586d46a9e011a433d32247ff3b0118c2eb51ea4975e2f5402d1ea05b37b1ec",
+        "listening": "unverified-not-performed",
+        "textReview": "English uses existing canonical predicates, including exact third-person sleeps audio. Japanese を marks reading material, に marks the writing surface, と marks a conversation partner, and あとで寝る selects going to bed later. Subjects omitted in Japanese are illustrative in translation.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:write",
+                "path": "audio/16a2d1eaaa889296b2f83e59f3b322f25fe44467632933ef9771f2c00ea68bbb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɹaɪt\">write</phoneme>.",
+                "sha256": "0a21d772641abc985c3ada683f7f92682fc3607576ea7bfbc4c2070bb0ac7f3f"
+            },
+            {
+                "entryId": "en:particle:with",
+                "path": "audio/6d2d3881b88f3c382ad83e70da941112308ecd8ffb35358a71c8c38c099170d6.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "with.",
+                "sha256": "2636824c852c264b49ea09b05516fa29019720e061452378ca96602a3604f381"
+            },
+            {
+                "entryId": "en:word:a",
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ə\">a</phoneme>.",
+                "sha256": "7d5073e6c6c8c87efc2dd90a7e4f16a47f23ab71a57c34ced6daf13082d53f07"
+            },
+            {
+                "entryId": "en:word:school-pen",
+                "path": "audio/4aea6ff75bd574d18c082382beed1704fb552f0e633a8e749b083cc1a66e0b60.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"pen\">pen</phoneme>.",
+                "sha256": "63808c695112aace69c09506d89e12fefa06b133fd9163aa38777d09114c792f"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    },
+    {
+        "entryId": "en:sentence:core-example-speak",
+        "label": "They speak English.",
+        "reading": null,
+        "meanings": {
+            "en": "They speak English.",
+            "de": "Sie sprechen Englisch.",
+            "id": "Mereka berbicara bahasa Inggris.",
+            "ja": "彼らは英語を話します。"
+        },
+        "constituentIds": [
+            "en:word:capital-they",
+            "en:word:speak",
+            "en:word:english",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/2306b5698db25977cfc3284bf1c70a0eca0c1db276ce3790e60ac2a92fa99ac4.wav",
+        "sha256": "2306b5698db25977cfc3284bf1c70a0eca0c1db276ce3790e60ac2a92fa99ac4",
+        "listening": "unverified-not-performed",
+        "textReview": "English uses existing canonical predicates, including exact third-person sleeps audio. Japanese を marks reading material, に marks the writing surface, と marks a conversation partner, and あとで寝る selects going to bed later. Subjects omitted in Japanese are illustrative in translation.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-they",
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðeɪ\">They</phoneme>.",
+                "sha256": "5fd91ec0cbb3a37d4ea324f75bcdc9de2159c371a3e67d58c6910499e109f212"
+            },
+            {
+                "entryId": "en:word:speak",
+                "path": "audio/a39b067c873d54f1cc32e7db3083ede911328e7819731066390622ea0c5b975c.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"spiːk\">speak</phoneme>.",
+                "sha256": "59f0e75e4e1ab3cc38ddf895cfecac0a4559860f40f2f0ab6a45127e45703366"
+            },
+            {
+                "entryId": "en:word:english",
+                "path": "audio/f0bcb581f921e4885369caaa14ef8b658f494c2df87673ea2b22776fcf933db0.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈɪŋɡlɪʃ\">English</phoneme>.",
+                "sha256": "33f680970307bd0bc43df5d66c6e714f19f06db703299eb5bab5e38c47ad5dcb"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    },
+    {
+        "entryId": "en:sentence:core-example-sleep",
+        "label": "The child sleeps.",
+        "reading": null,
+        "meanings": {
+            "en": "The child sleeps.",
+            "de": "Das Kind schläft.",
+            "id": "Anak itu tidur.",
+            "ja": "その子は寝ています。"
+        },
+        "constituentIds": [
+            "en:word:capital-the",
+            "en:word:child",
+            "en:word:form-english-sleep-third-person",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/7a737114f4058649c2553360427b4db5a19c3186d64fe53c2ec35988d0c916d6.wav",
+        "sha256": "7a737114f4058649c2553360427b4db5a19c3186d64fe53c2ec35988d0c916d6",
+        "listening": "unverified-not-performed",
+        "textReview": "English uses existing canonical predicates, including exact third-person sleeps audio. Japanese を marks reading material, に marks the writing surface, と marks a conversation partner, and あとで寝る selects going to bed later. Subjects omitted in Japanese are illustrative in translation.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-the",
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">The</phoneme>.",
+                "sha256": "8afecb26db8f5442c31c18cc1a16c18c0649b2dd6694ed6071ffa43d5db5f99a"
+            },
+            {
+                "entryId": "en:word:child",
+                "path": "audio/99384efe80537043c09c51b03eeca279200eefb8662283ed8116fc613de82adb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"tʃaɪld\">child</phoneme>.",
+                "sha256": "5888a6893c86eec3987e16bfbe50c60426fe6b295873c213a51a65ebf02c4bea"
+            },
+            {
+                "entryId": "en:word:form-english-sleep-third-person",
+                "path": "audio/a1767128764871415c3a84c5effedf7cb871591df1295ee1d57e3379b42b127b.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"sliːps\">sleeps</phoneme>.",
+                "sha256": "e7ea45b052dba42fc99717b5d6cefba15d936d30c2e45aa1c8c3a738bfd06ef7"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    }
+]
