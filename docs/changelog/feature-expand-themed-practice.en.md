@@ -58,6 +58,10 @@ Add left, right, north and south with four location examples and a practice deck
 
 Add four weather examples using exact constituent PCM. English cloud now exposes clouds with reviewed /klaʊdz/ pronunciation and an independently recorded plural clip. Japanese examples preserve natural particle use and context-dependent noun number. Listening remains unverified.
 
+## Seasons and Activities
+
+Add four illustrated season nouns, four activity examples and a mixed practice deck. Explain spring as a season and autumn/fall usage, and distinguish temperate seasonal illustrations from worldwide climate rules. Preserve reviewed kana readings and exact constituent audio; listening remains unverified.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)
