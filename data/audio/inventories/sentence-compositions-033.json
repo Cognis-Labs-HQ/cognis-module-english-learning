@@ -1,0 +1,232 @@
+[
+    {
+        "path": "audio/28f6e13303e36adda2123e18dba1b4637723bc6b32cb84554a57935ba224b292.wav",
+        "entryId": "en:sentence:location-example-cat-inside",
+        "label": "The cat is inside.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/fd2f763e6d4a6feb27060e76d0076f63bec5632488ba09b9bc34dd98798171b0.wav",
+                "entryId": "en:word:cat"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/98782f42d170453fb36b9f099aa18d8b008b7cf767815da60012a078c453f916.wav",
+                "entryId": "en:word:location-inside"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/fd2f763e6d4a6feb27060e76d0076f63bec5632488ba09b9bc34dd98798171b0.wav",
+                "entryId": "en:word:cat",
+                "startFrame": 12710,
+                "frameCount": 8070
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 22940,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/98782f42d170453fb36b9f099aa18d8b008b7cf767815da60012a078c453f916.wav",
+                "entryId": "en:word:location-inside",
+                "startFrame": 35487,
+                "frameCount": 22137
+            }
+        ],
+        "sha256": "28f6e13303e36adda2123e18dba1b4637723bc6b32cb84554a57935ba224b292",
+        "frames": 69384,
+        "input": {
+            "language": "en",
+            "label": "The cat is inside.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/8dfb5903b9f514aa1221d62eff9f0ef7a8f571317d6ef87d4b459ce933f3d36e.wav",
+        "entryId": "en:sentence:location-example-wait-outside",
+        "label": "Please wait outside.",
+        "parts": [
+            {
+                "path": "audio/cbcd3d1340fc2e98981d35563f6bd5d6434375f40d4858088fd6413622975cea.wav",
+                "entryId": "en:word:requests-please"
+            },
+            {
+                "path": "audio/00b6b734746af19c08db250cf03bad7a8abad330b41f88cc31ae819ceeab0b0b.wav",
+                "entryId": "en:word:travel-wait"
+            },
+            {
+                "path": "audio/9918753f234d27ca21beedfc5d18c482a99354379a64960f1c8c212c9ca1ed62.wav",
+                "entryId": "en:word:location-outside"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/cbcd3d1340fc2e98981d35563f6bd5d6434375f40d4858088fd6413622975cea.wav",
+                "entryId": "en:word:requests-please",
+                "startFrame": 2400,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/00b6b734746af19c08db250cf03bad7a8abad330b41f88cc31ae819ceeab0b0b.wav",
+                "entryId": "en:word:travel-wait",
+                "startFrame": 25582,
+                "frameCount": 18793
+            },
+            {
+                "path": "audio/9918753f234d27ca21beedfc5d18c482a99354379a64960f1c8c212c9ca1ed62.wav",
+                "entryId": "en:word:location-outside",
+                "startFrame": 46535,
+                "frameCount": 23251
+            }
+        ],
+        "sha256": "8dfb5903b9f514aa1221d62eff9f0ef7a8f571317d6ef87d4b459ce933f3d36e",
+        "frames": 81546,
+        "input": {
+            "language": "en",
+            "label": "Please wait outside.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/a1b8868e70f59e7765eb83ceadb3ac52b64ee1c3c89dfaff82511ba4ae91b48b.wav",
+        "entryId": "en:sentence:location-example-eat-outside",
+        "label": "We eat outside.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
+                "entryId": "en:word:eat"
+            },
+            {
+                "path": "audio/9918753f234d27ca21beedfc5d18c482a99354379a64960f1c8c212c9ca1ed62.wav",
+                "entryId": "en:word:location-outside"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
+                "entryId": "en:word:eat",
+                "startFrame": 22112,
+                "frameCount": 10258
+            },
+            {
+                "path": "audio/9918753f234d27ca21beedfc5d18c482a99354379a64960f1c8c212c9ca1ed62.wav",
+                "entryId": "en:word:location-outside",
+                "startFrame": 34530,
+                "frameCount": 23251
+            }
+        ],
+        "sha256": "a1b8868e70f59e7765eb83ceadb3ac52b64ee1c3c89dfaff82511ba4ae91b48b",
+        "frames": 69541,
+        "input": {
+            "language": "en",
+            "label": "We eat outside.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/01a8df2ad61d9a1a0699be4b1b00efd6392e05b20b4b9a4b5563048e41eb73d2.wav",
+        "entryId": "en:sentence:location-example-read-inside",
+        "label": "I read inside.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "entryId": "en:word:read"
+            },
+            {
+                "path": "audio/98782f42d170453fb36b9f099aa18d8b008b7cf767815da60012a078c453f916.wav",
+                "entryId": "en:word:location-inside"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "entryId": "en:word:read",
+                "startFrame": 11067,
+                "frameCount": 11133
+            },
+            {
+                "path": "audio/98782f42d170453fb36b9f099aa18d8b008b7cf767815da60012a078c453f916.wav",
+                "entryId": "en:word:location-inside",
+                "startFrame": 24360,
+                "frameCount": 22137
+            }
+        ],
+        "sha256": "01a8df2ad61d9a1a0699be4b1b00efd6392e05b20b4b9a4b5563048e41eb73d2",
+        "frames": 58257,
+        "input": {
+            "language": "en",
+            "label": "I read inside.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    }
+]

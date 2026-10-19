@@ -1,5 +1,36 @@
 [
     {
+        "theme": "school",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:school-pencil",
+                "label": "pencil"
+            },
+            {
+                "entryId": "en:word:school-pen",
+                "label": "pen"
+            },
+            {
+                "entryId": "en:word:school-notebook",
+                "label": "notebook"
+            },
+            {
+                "entryId": "en:word:school-ruler",
+                "label": "ruler"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:school-example-pencil",
+            "en:sentence:school-example-pen",
+            "en:sentence:school-example-notebook",
+            "en:sentence:school-example-ruler"
+        ],
+        "recordedGrammaticalFormCount": 4,
+        "vocabularyAudit": "authoring/reviews/school-vocabulary.json"
+    },
+    {
         "theme": "seasons",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -264,19 +295,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/wildlife-vocabulary.json"
-    },
-    {
-        "theme": "core",
-        "newDistinctVocabularyCount": 0,
-        "vocabulary": [],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:core-example-read",
-            "en:sentence:core-example-write",
-            "en:sentence:core-example-speak",
-            "en:sentence:core-example-sleep"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/core-sentences.json"
     }
 ]

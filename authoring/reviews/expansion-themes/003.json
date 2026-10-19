@@ -54,6 +54,29 @@
         "vocabularyAudit": "authoring/reviews/length-vocabulary.json"
     },
     {
+        "theme": "location",
+        "newDistinctVocabularyCount": 2,
+        "vocabulary": [
+            {
+                "entryId": "en:word:location-inside",
+                "label": "inside"
+            },
+            {
+                "entryId": "en:word:location-outside",
+                "label": "outside"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:location-example-cat-inside",
+            "en:sentence:location-example-wait-outside",
+            "en:sentence:location-example-eat-outside",
+            "en:sentence:location-example-read-inside"
+        ],
+        "recordedGrammaticalFormCount": 0,
+        "vocabularyAudit": "authoring/reviews/location-vocabulary.json"
+    },
+    {
         "theme": "nature",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -249,36 +272,5 @@
         ],
         "recordedGrammaticalFormCount": 4,
         "vocabularyAudit": "authoring/reviews/rooms-vocabulary.json"
-    },
-    {
-        "theme": "school",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:school-pencil",
-                "label": "pencil"
-            },
-            {
-                "entryId": "en:word:school-pen",
-                "label": "pen"
-            },
-            {
-                "entryId": "en:word:school-notebook",
-                "label": "notebook"
-            },
-            {
-                "entryId": "en:word:school-ruler",
-                "label": "ruler"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:school-example-pencil",
-            "en:sentence:school-example-pen",
-            "en:sentence:school-example-notebook",
-            "en:sentence:school-example-ruler"
-        ],
-        "recordedGrammaticalFormCount": 4,
-        "vocabularyAudit": "authoring/reviews/school-vocabulary.json"
     }
 ]
