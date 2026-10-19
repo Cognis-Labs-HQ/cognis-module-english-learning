@@ -1,0 +1,130 @@
+[
+    {
+        "entryId": "en:word:form-fruit-peaches",
+        "path": "audio/f8d5804e7d7d92568c1517aae37cd478dcfb98ceeca8c3cd7441032afd4d51fa.wav",
+        "sha256": "f8d5804e7d7d92568c1517aae37cd478dcfb98ceeca8c3cd7441032afd4d51fa",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈpiːtʃɪz\">peaches</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "R97Hqqq9uAMfgmnq0jOs",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/fruit-forms/form-fruit-peaches.pcm",
+        "sourceSha256": "2051cfb65730b7d87d3c96912d1bc53c93f1054b0010163656ed83118d34f5ad",
+        "sourcePeak": 27465,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9782996541052248,
+        "paddingFramesEachSide": 480,
+        "frames": 25480,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-fruit-pears",
+        "path": "audio/27115372c4d20cbb9c0adf83e8a3ef5460c3a4447b83296dc4025067bc26267f.wav",
+        "sha256": "27115372c4d20cbb9c0adf83e8a3ef5460c3a4447b83296dc4025067bc26267f",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"peəz\">pears</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "JRbNmzMYbPpUsXpw5UOx",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/fruit-forms/form-fruit-pears.pcm",
+        "sourceSha256": "3f03e978955b324861c8383fea160ebe7d49bd1d82a407ba8fedb1bdaac077cf",
+        "sourcePeak": 23302,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 22137,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-fruit-watermelons",
+        "path": "audio/83c0ece28effedf718be52fe49458f40f3b41336526b479ffbd80e27258b646f.wav",
+        "sha256": "83c0ece28effedf718be52fe49458f40f3b41336526b479ffbd80e27258b646f",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈwɔːtəmelənz\">watermelons</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "xaZzmesIM0aOmrDRqeP9",
+            "character-cost": "6",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/fruit-forms/form-fruit-watermelons.pcm",
+        "sourceSha256": "4be3dc6ae998da24102a733f800de737d46dcc0f13a4df99f727442eae7e64a4",
+        "sourcePeak": 27389,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9810142758041549,
+        "paddingFramesEachSide": 480,
+        "frames": 31053,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-fruit-pineapples",
+        "path": "audio/960b7f76eb59a94f3328871835bd86efa84f78c30ec70cac39a1ec70087656e5.wav",
+        "sha256": "960b7f76eb59a94f3328871835bd86efa84f78c30ec70cac39a1ec70087656e5",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈpaɪnæplz\">pineapples</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "o5T8cidPKPYpiTIbNR4y",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/fruit-forms/form-fruit-pineapples.pcm",
+        "sourceSha256": "b83a8c5459a0ad2ec31fddfb66c56c14476d3b160d9e0de039499fec917f26c7",
+        "sourcePeak": 30064,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.8937267163384779,
+        "paddingFramesEachSide": 480,
+        "frames": 28824,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]

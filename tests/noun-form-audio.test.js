@@ -39,6 +39,10 @@ for (const [theme, base, plural, reading] of [
     ["furnishings", "lamp", "lamps", "/læmps/"],
     ["furnishings", "mirror", "mirrors", "/ˈmɪrəz/"],
     ["furnishings", "pillow", "pillows", "/ˈpɪləʊz/"],
+    ["fruit", "peach", "peaches", "/ˈpiːtʃɪz/"],
+    ["fruit", "pear", "pears", "/peəz/"],
+    ["fruit", "watermelon", "watermelons", "/ˈwɔːtəmelənz/"],
+    ["fruit", "pineapple", "pineapples", "/ˈpaɪnæplz/"],
 ]) {
     test(`${base} plural spelling, IPA and recorded request agree`, async () => {
         const words = await load(

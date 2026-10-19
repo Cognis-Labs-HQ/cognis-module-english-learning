@@ -1,0 +1,222 @@
+[
+    {
+        "entryId": "en:sentence:fruit-example-peach",
+        "label": "We buy two peaches.",
+        "reading": null,
+        "meanings": {
+            "en": "We buy two peaches.",
+            "de": "Wir kaufen zwei Pfirsiche.",
+            "id": "Kami membeli dua buah persik.",
+            "ja": "私たちは桃を二つ買います。"
+        },
+        "constituentIds": [
+            "en:word:capital-we",
+            "en:word:travel-buy",
+            "en:word:two",
+            "en:word:form-fruit-peaches",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/c1cdc3a4391f7025695c8a07efaa41a7454b88644b9bb47d6d467618bc8c406e.wav",
+        "sha256": "c1cdc3a4391f7025695c8a07efaa41a7454b88644b9bb47d6d467618bc8c406e",
+        "listening": "unverified-not-performed",
+        "textReview": "English two requires peaches; watermelon and pineapple use food mass-noun senses, and in summer expresses season. Japanese で marks shopping location, に marks existence location or seasonal time, and 好き takes が. なし is the fruit and ある is appropriate for it. Number and omitted subjects receive illustrative natural translations. All older examples remain intact.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-we",
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"wiː\">We</phoneme>.",
+                "sha256": "657d1b8e51821f12c5dbfedc21e6610e1d189acc1e5a38f2f3a7ad169c3a099f"
+            },
+            {
+                "entryId": "en:word:travel-buy",
+                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "buy",
+                "sha256": "83cc32a9912db2efbc24dc737e8800efbb2151e07e4d6150bb360ccb9dc2a3b4"
+            },
+            {
+                "entryId": "en:word:two",
+                "path": "audio/51b8f14fcdf9707ee8add50602f5ecabd4c6dd2396cb8901e8641d4c5371680d.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"tuː\">two</phoneme>.",
+                "sha256": "5bb5d08d8940ae9917e1fb2ffcdeaa1b5fb42a8d1954049693b4d0fddcd94955"
+            },
+            {
+                "entryId": "en:word:form-fruit-peaches",
+                "path": "audio/f8d5804e7d7d92568c1517aae37cd478dcfb98ceeca8c3cd7441032afd4d51fa.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈpiːtʃɪz\">peaches</phoneme>.",
+                "sha256": "5dfec1293f700b3dc8acdcfcf9eb9c0bd736a078aa8ac22eb16b69145f0b95f7"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    },
+    {
+        "entryId": "en:sentence:fruit-example-pear",
+        "label": "The pear is green.",
+        "reading": null,
+        "meanings": {
+            "en": "The pear is green.",
+            "de": "Die Birne ist grün.",
+            "id": "Pir itu berwarna hijau.",
+            "ja": "その梨は緑色です。"
+        },
+        "constituentIds": [
+            "en:word:capital-the",
+            "en:word:fruit-pear",
+            "en:word:form-english-be-is",
+            "en:word:colors-green",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/5b56de1a51c4e72f62f1ec6735134014a92e2e70faa7494d56077cbbb9a2c6c0.wav",
+        "sha256": "5b56de1a51c4e72f62f1ec6735134014a92e2e70faa7494d56077cbbb9a2c6c0",
+        "listening": "unverified-not-performed",
+        "textReview": "English two requires peaches; watermelon and pineapple use food mass-noun senses, and in summer expresses season. Japanese で marks shopping location, に marks existence location or seasonal time, and 好き takes が. なし is the fruit and ある is appropriate for it. Number and omitted subjects receive illustrative natural translations. All older examples remain intact.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-the",
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">The</phoneme>.",
+                "sha256": "8afecb26db8f5442c31c18cc1a16c18c0649b2dd6694ed6071ffa43d5db5f99a"
+            },
+            {
+                "entryId": "en:word:fruit-pear",
+                "path": "audio/e45683591a1b560a7b213e6581ac8fee714104875c52833407ff487b73773df0.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"peə\">pear</phoneme>.",
+                "sha256": "440b85029f2f38016798521ee19d374bacee240648b3d287d3a84b5a23441a5a"
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɪz\">is</phoneme>.",
+                "sha256": "8ddf540a1b70b081638155835213ea9562b8fd89bc891d336f9c33607bfb023f"
+            },
+            {
+                "entryId": "en:word:colors-green",
+                "path": "audio/db96542c1374b239273b03531b9960ca6d5d7eaf0fac9bbb879a2f0f4f55a4f5.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "green",
+                "sha256": "409669a6a5f87863dbf558aa70c5797e8c435b955125a190283c276dcc42703f"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    },
+    {
+        "entryId": "en:sentence:fruit-example-watermelon",
+        "label": "I eat watermelon in summer.",
+        "reading": null,
+        "meanings": {
+            "en": "I eat watermelon in summer.",
+            "de": "Ich esse im Sommer Wassermelone.",
+            "id": "Saya makan semangka pada musim panas.",
+            "ja": "私は夏にスイカを食べます。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:eat",
+            "en:word:fruit-watermelon",
+            "en:particle:in",
+            "en:word:seasons-summer",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/3b562b004304ba4765c58f35f8429bd91226774691cd9bc1424094003536aa0a.wav",
+        "sha256": "3b562b004304ba4765c58f35f8429bd91226774691cd9bc1424094003536aa0a",
+        "listening": "unverified-not-performed",
+        "textReview": "English two requires peaches; watermelon and pineapple use food mass-noun senses, and in summer expresses season. Japanese で marks shopping location, に marks existence location or seasonal time, and 好き takes が. なし is the fruit and ある is appropriate for it. Number and omitted subjects receive illustrative natural translations. All older examples remain intact.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:eat",
+                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈiːt\">eat</phoneme>.",
+                "sha256": "971719db886893157ecdc30c9aa196522545c151cfe9b9473de46117234feb76"
+            },
+            {
+                "entryId": "en:word:fruit-watermelon",
+                "path": "audio/79c66feeb454f66a25c8bba59421e9e6602d7695894437f447bbd0384c33257f.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈwɔːtəmelən\">watermelon</phoneme>.",
+                "sha256": "b114f3c2dd8b4ba4bb53bc3479001f27fef4e11b43f519a37e53f634bb993789"
+            },
+            {
+                "entryId": "en:particle:in",
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "in.",
+                "sha256": "807a72639918b348ca21ef14c205120a00e9e821a711fad6bbe065c5c53d756b"
+            },
+            {
+                "entryId": "en:word:seasons-summer",
+                "path": "audio/db662e7d1b002e52e40e93c11a8c52beda07d36ee4e49e234dc30b4cac32bdeb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "summer",
+                "sha256": "6c368a8b1d4afa5662e3a2769f5c56aa54ebf358c6d782c67efb97ea37a82656"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    },
+    {
+        "entryId": "en:sentence:fruit-example-pineapple",
+        "label": "She likes pineapple.",
+        "reading": null,
+        "meanings": {
+            "en": "She likes pineapple.",
+            "de": "Sie mag Ananas.",
+            "id": "Dia suka nanas.",
+            "ja": "彼女はパイナップルが好きです。"
+        },
+        "constituentIds": [
+            "en:word:capital-she",
+            "en:word:form-english-like-third-person",
+            "en:word:fruit-pineapple",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/e0d22d72025686528025c492f079dad5907303de1cd163609cb93c6d69c276e9.wav",
+        "sha256": "e0d22d72025686528025c492f079dad5907303de1cd163609cb93c6d69c276e9",
+        "listening": "unverified-not-performed",
+        "textReview": "English two requires peaches; watermelon and pineapple use food mass-noun senses, and in summer expresses season. Japanese で marks shopping location, に marks existence location or seasonal time, and 好き takes が. なし is the fruit and ある is appropriate for it. Number and omitted subjects receive illustrative natural translations. All older examples remain intact.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-she",
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ʃiː\">She</phoneme>.",
+                "sha256": "a22a256231312a962631113989bb0015c4cfdd4dda006e769918698d284e33d6"
+            },
+            {
+                "entryId": "en:word:form-english-like-third-person",
+                "path": "audio/c36a98159cd3599e0e3a4bcf704c2133e3a204f208b02467eaf2d409ad208da6.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"laɪks\">likes</phoneme>.",
+                "sha256": "dfea567c527ef1244637dbcb7adfbc9c5a14f4efe4316e64fa58ac356f531e06"
+            },
+            {
+                "entryId": "en:word:fruit-pineapple",
+                "path": "audio/c9664a7eae119618c696133181404f698286048db0d5686208c3b0c933446364.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈpaɪnæpl\">pineapple</phoneme>.",
+                "sha256": "68249d9ee2227b7e6006393f804336d9eca213c9380686281fb2e2b0d818e2fd"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    }
+]

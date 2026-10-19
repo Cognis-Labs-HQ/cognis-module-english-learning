@@ -110,6 +110,10 @@ Kaninchen, Pferd, Kuh und Schwein mit vier geprüften Bildern je Modul, vier eng
 
 Sofa, Lampe, Spiegel und Kopfkissen mit vier geprüften Bildern je Modul, vier englischen Pluralformen, acht natürlichen Beispielen und einem Einrichtungsstapel ergänzen. Kleines ァ in ソファ, die Beleuchtungsbedeutung von ランプ, stimmhaftes が in かがみ und die Bedeutung Kopfkissen prüfen. Festgelegte Stimmen und exakte Audiosegmente verwenden. Alle bisherigen Beispiele und Formen bleiben erhalten. Die Hörprüfung steht aus.
 
+## Weitere Früchte
+
+Pfirsich, Birne, Wassermelone und Ananas mit vier geprüften Bildern je Modul, vier englischen Pluralformen, acht natürlichen Beispielen und einem Obststapel ergänzen. Europäische und asiatische Birnen sowie ganze Früchte und Lebensmittelmengen unterscheiden; die zusätzliche Silbe in peaches und kleines ッ in パイナップル bewahren. Eine kumulative Übersicht trennt Grundwörter, Beispiele, aufgenommene Formen und Gesamtdatensätze und wird durch Tests geprüft. Die Hörprüfung steht aus.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)
