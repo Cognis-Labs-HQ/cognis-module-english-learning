@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 35,
+    "version": 36,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -11568,6 +11568,186 @@
                     "pronunciation": {
                         "removeSuffix": "/pɪɡ/",
                         "append": "/pɪɡz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-sofa",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-sofa"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "sofa",
+                    "append": "sofas",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈsəʊfə/",
+                        "append": "/ˈsəʊfəz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-lamp",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-lamp"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "lamp",
+                    "append": "lamps",
+                    "pronunciation": {
+                        "removeSuffix": "/læmp/",
+                        "append": "/læmps/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-mirror",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-mirror"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "mirror",
+                    "append": "mirrors",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈmɪrə/",
+                        "append": "/ˈmɪrəz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-pillow",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-pillow"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "pillow",
+                    "append": "pillows",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈpɪləʊ/",
+                        "append": "/ˈpɪləʊz/"
                     },
                     "definitionTransform": {
                         "template": {

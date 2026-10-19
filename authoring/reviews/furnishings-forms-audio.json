@@ -1,0 +1,130 @@
+[
+    {
+        "entryId": "en:word:form-furnishings-sofas",
+        "path": "audio/ba806c64f2ef8cf78fead26af9777bc1c4bf96bbc5b4ea5823fdf665c9716fb9.wav",
+        "sha256": "ba806c64f2ef8cf78fead26af9777bc1c4bf96bbc5b4ea5823fdf665c9716fb9",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈsəʊfəz\">sofas</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "ccST3bB6rPD8keGNs9ho",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/furnishings-forms/form-furnishings-sofas.pcm",
+        "sourceSha256": "813b7f05602a44efe8247be64a007df437b83c50f76d7fafc5223883c87d03ea",
+        "sourcePeak": 23450,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 25480,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-furnishings-lamps",
+        "path": "audio/47bdc4da68c5a59cf1e547f431689d9675067a78aafe43bc085a0ccf4ab66e90.wav",
+        "sha256": "47bdc4da68c5a59cf1e547f431689d9675067a78aafe43bc085a0ccf4ab66e90",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"læmps\">lamps</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "FjLKTYj4hPmyGI9BOKO7",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/furnishings-forms/form-furnishings-lamps.pcm",
+        "sourceSha256": "9ed23d17e59ca6ca850e6bb951e0cd79e08f2a32fb49a63ab7daff0183426583",
+        "sourcePeak": 25663,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 24366,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-furnishings-mirrors",
+        "path": "audio/f40112903aff4d93f60db4de6647517afe8b439c167a6e47793e886f632648aa.wav",
+        "sha256": "f40112903aff4d93f60db4de6647517afe8b439c167a6e47793e886f632648aa",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈmɪrəz\">mirrors</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "fioeqYhPoy0b4CNAumdc",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/furnishings-forms/form-furnishings-mirrors.pcm",
+        "sourceSha256": "64bdd53d519c1f34ed1aaed734ffa127ffcee318b988c8ce90f899870d80e13b",
+        "sourcePeak": 20832,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 23251,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-furnishings-pillows",
+        "path": "audio/63acd0be8dc8ec02afb883af78fac27701db364028205a9e891bcd793b1b0cd7.wav",
+        "sha256": "63acd0be8dc8ec02afb883af78fac27701db364028205a9e891bcd793b1b0cd7",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈpɪləʊz\">pillows</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "YpMK0NVO6fhnUYrzynCH",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/furnishings-forms/form-furnishings-pillows.pcm",
+        "sourceSha256": "fe26e63d869513582d97b3a004baf2dfff791c695c71c3e156713a6382153f51",
+        "sourcePeak": 27563,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9748213184341327,
+        "paddingFramesEachSide": 480,
+        "frames": 23251,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]

@@ -106,6 +106,10 @@ Tambahkan enam contoh kontekstual yang ditulis satu per satu untuk setiap modul,
 
 Tambahkan kelinci, kuda, sapi, dan babi dengan empat gambar yang diperiksa per modul, empat bentuk jamak Inggris, delapan contoh alami, dan dek hewan. Bedakan cow yang berarti sapi betina dari うし yang lebih luas; periksa suku kata tambahan dalam horses dan masukan Jepang asli. Gunakan suara yang ditetapkan dan segmen audio persis. Semua contoh dan bentuk sebelumnya tetap utuh. Pemeriksaan pendengaran belum dilakukan.
 
+## Perlengkapan Rumah
+
+Tambahkan sofa, lampu, cermin, dan bantal dengan empat gambar yang diperiksa per modul, empat bentuk jamak Inggris, delapan contoh alami, dan dek perlengkapan rumah. Periksa ァ kecil dalam ソファ, makna lampu dari ランプ, が bersuara dalam かがみ, serta makna bantal tidur. Gunakan suara yang ditetapkan dan segmen audio persis. Semua contoh dan bentuk sebelumnya tetap utuh. Pemeriksaan pendengaran belum dilakukan.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

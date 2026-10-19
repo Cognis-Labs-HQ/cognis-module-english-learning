@@ -1,0 +1,270 @@
+[
+    {
+        "entryId": "en:sentence:furnishings-example-sofa",
+        "label": "I read on the sofa.",
+        "reading": null,
+        "meanings": {
+            "en": "I read on the sofa.",
+            "de": "Ich lese auf dem Sofa.",
+            "id": "Saya membaca di sofa.",
+            "ja": "私はソファで読書します。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:read",
+            "en:particle:on",
+            "en:word:the",
+            "en:word:furnishings-sofa",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/92e36547d668ba84d7ffd8de092949430c7b3699f00963748448c8306919fb42.wav",
+        "sha256": "92e36547d668ba84d7ffd8de092949430c7b3699f00963748448c8306919fb42",
+        "listening": "unverified-not-performed",
+        "textReview": "English on locates someone or an object on furniture, in the mirror describes a reflection, and two requires plural pillows. Japanese に marks existence location; the living cat takes いる and the lamp takes ある. で marks the mirror as the instrument used to see a face. Omitted subjects, possession and singular number receive natural illustrative translations. Existing examples and forms remain intact.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:read",
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɹiːd\">read</phoneme>.",
+                "sha256": "51d6eb41f30a3204b55615a2263ed35f4534791a434472b0bbc501cbf97cd8d5"
+            },
+            {
+                "entryId": "en:particle:on",
+                "path": "audio/b16819d83e2bb0a994694ccb6feeb9a4e38f2a5662dc139ecd88628a19d9dca4.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "on.",
+                "sha256": "2a2c6001dc66a4bb620250f0ea9c4665eb4dab5d070c3d9b40e089bf1d312e02"
+            },
+            {
+                "entryId": "en:word:the",
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">the</phoneme>.",
+                "sha256": "b2de03d0a472a2c128fb577f21214734327c9ea284305cddf02da7e534c37d9c"
+            },
+            {
+                "entryId": "en:word:furnishings-sofa",
+                "path": "audio/fd13f18c9ce22b20c0567faffdac80008dd399675b1b6eef0d258c1c4712f173.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈsəʊfə\">sofa</phoneme>.",
+                "sha256": "fab7381e65ee16f7b11f0b29e5e20021ab7738351df52d58db778563e8ede8fe"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    },
+    {
+        "entryId": "en:sentence:furnishings-example-lamp",
+        "label": "The lamp is on the table.",
+        "reading": null,
+        "meanings": {
+            "en": "The lamp is on the table.",
+            "de": "Die Lampe steht auf dem Tisch.",
+            "id": "Lampunya ada di atas meja.",
+            "ja": "ランプはテーブルの上にあります。"
+        },
+        "constituentIds": [
+            "en:word:capital-the",
+            "en:word:furnishings-lamp",
+            "en:word:form-english-be-is",
+            "en:particle:on",
+            "en:word:the",
+            "en:word:table",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/703372f80a2f31eb5f372edf78c853a6db95c2bdc95c72bdb67c52bc4f5473ae.wav",
+        "sha256": "703372f80a2f31eb5f372edf78c853a6db95c2bdc95c72bdb67c52bc4f5473ae",
+        "listening": "unverified-not-performed",
+        "textReview": "English on locates someone or an object on furniture, in the mirror describes a reflection, and two requires plural pillows. Japanese に marks existence location; the living cat takes いる and the lamp takes ある. で marks the mirror as the instrument used to see a face. Omitted subjects, possession and singular number receive natural illustrative translations. Existing examples and forms remain intact.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-the",
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">The</phoneme>.",
+                "sha256": "8afecb26db8f5442c31c18cc1a16c18c0649b2dd6694ed6071ffa43d5db5f99a"
+            },
+            {
+                "entryId": "en:word:furnishings-lamp",
+                "path": "audio/541169ca08dca8ccbf90c6ca1ed3f072188b4782590e89ccdc86c0eb2d02fd9b.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"læmp\">lamp</phoneme>.",
+                "sha256": "66a00a19227c2cda86028ebe9e6fb3cf6b754fa11581bee4ca0c0e502b175d2d"
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɪz\">is</phoneme>.",
+                "sha256": "8ddf540a1b70b081638155835213ea9562b8fd89bc891d336f9c33607bfb023f"
+            },
+            {
+                "entryId": "en:particle:on",
+                "path": "audio/b16819d83e2bb0a994694ccb6feeb9a4e38f2a5662dc139ecd88628a19d9dca4.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "on.",
+                "sha256": "2a2c6001dc66a4bb620250f0ea9c4665eb4dab5d070c3d9b40e089bf1d312e02"
+            },
+            {
+                "entryId": "en:word:the",
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">the</phoneme>.",
+                "sha256": "b2de03d0a472a2c128fb577f21214734327c9ea284305cddf02da7e534c37d9c"
+            },
+            {
+                "entryId": "en:word:table",
+                "path": "audio/66fd65aedde46bfd761073cd0450d585bb6476048fa04edb6f8791a99ce426c4.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈteɪbəl\">table</phoneme>.",
+                "sha256": "d2e4c6dce76e0fa7f8ec98abadaf86ca8edda8dca3436ee3bfc037895450aba9"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    },
+    {
+        "entryId": "en:sentence:furnishings-example-mirror",
+        "label": "I see my face in the mirror.",
+        "reading": null,
+        "meanings": {
+            "en": "I see my face in the mirror.",
+            "de": "Ich sehe mein Gesicht im Spiegel.",
+            "id": "Saya melihat wajah saya di cermin.",
+            "ja": "私は鏡に映った自分の顔を見ます。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:see",
+            "en:word:my",
+            "en:word:face",
+            "en:particle:in",
+            "en:word:the",
+            "en:word:furnishings-mirror",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/0312850d5b8e0821ddce12fe1cf1283b994c88bde45bde09933d83dbc3ccdaa2.wav",
+        "sha256": "0312850d5b8e0821ddce12fe1cf1283b994c88bde45bde09933d83dbc3ccdaa2",
+        "listening": "unverified-not-performed",
+        "textReview": "English on locates someone or an object on furniture, in the mirror describes a reflection, and two requires plural pillows. Japanese に marks existence location; the living cat takes いる and the lamp takes ある. で marks the mirror as the instrument used to see a face. Omitted subjects, possession and singular number receive natural illustrative translations. Existing examples and forms remain intact.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:see",
+                "path": "audio/9b7843aec097ccb2e88f205448cd59c4d13b573f9b025bfeea72a95a0c467851.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"siː\">see</phoneme>.",
+                "sha256": "94b1ba2368a6e4c2c955f997f522317cbc725a4e921b643f4073cb210011fd27"
+            },
+            {
+                "entryId": "en:word:my",
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"maɪ\">my</phoneme>.",
+                "sha256": "17cfa257df1601abbf0994508a36e73a7a51d7183bf8ee50e16425a31eeacdf8"
+            },
+            {
+                "entryId": "en:word:face",
+                "path": "audio/7bbf0b6cc8b9064489c0dcfdc8c79e32733c354536a66d8a1ed4e3b5b698148f.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"feɪs\">face</phoneme>.",
+                "sha256": "7a97ea067ddb3cd4633aa526fd6143ebc634f508bf1f97c935bddf952637192c"
+            },
+            {
+                "entryId": "en:particle:in",
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "in.",
+                "sha256": "807a72639918b348ca21ef14c205120a00e9e821a711fad6bbe065c5c53d756b"
+            },
+            {
+                "entryId": "en:word:the",
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">the</phoneme>.",
+                "sha256": "b2de03d0a472a2c128fb577f21214734327c9ea284305cddf02da7e534c37d9c"
+            },
+            {
+                "entryId": "en:word:furnishings-mirror",
+                "path": "audio/f00773b391d6a256a32a7410b90d96cbc9d3cf0f45353b83c653055d94b5fc4c.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈmɪrə\">mirror</phoneme>.",
+                "sha256": "1e76af59d9508087c0a40547bf0ed26aecb6590ce2204607fa78517f04f124b0"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    },
+    {
+        "entryId": "en:sentence:furnishings-example-pillow",
+        "label": "We need two pillows.",
+        "reading": null,
+        "meanings": {
+            "en": "We need two pillows.",
+            "de": "Wir brauchen zwei Kopfkissen.",
+            "id": "Kami membutuhkan dua bantal.",
+            "ja": "私たちは枕が二つ必要です。"
+        },
+        "constituentIds": [
+            "en:word:capital-we",
+            "en:word:need",
+            "en:word:two",
+            "en:word:form-furnishings-pillows",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/1cfab0e21c412b9fe26fcd4317a5084e6d91403eccd04b85653fc653ee74bf3e.wav",
+        "sha256": "1cfab0e21c412b9fe26fcd4317a5084e6d91403eccd04b85653fc653ee74bf3e",
+        "listening": "unverified-not-performed",
+        "textReview": "English on locates someone or an object on furniture, in the mirror describes a reflection, and two requires plural pillows. Japanese に marks existence location; the living cat takes いる and the lamp takes ある. で marks the mirror as the instrument used to see a face. Omitted subjects, possession and singular number receive natural illustrative translations. Existing examples and forms remain intact.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-we",
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"wiː\">We</phoneme>.",
+                "sha256": "657d1b8e51821f12c5dbfedc21e6610e1d189acc1e5a38f2f3a7ad169c3a099f"
+            },
+            {
+                "entryId": "en:word:need",
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"niːd\">need</phoneme>.",
+                "sha256": "6080e14b7e4dca1867a955d4e5a2120225e3c5445e66756da8c70acb55add49b"
+            },
+            {
+                "entryId": "en:word:two",
+                "path": "audio/51b8f14fcdf9707ee8add50602f5ecabd4c6dd2396cb8901e8641d4c5371680d.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"tuː\">two</phoneme>.",
+                "sha256": "5bb5d08d8940ae9917e1fb2ffcdeaa1b5fb42a8d1954049693b4d0fddcd94955"
+            },
+            {
+                "entryId": "en:word:form-furnishings-pillows",
+                "path": "audio/63acd0be8dc8ec02afb883af78fac27701db364028205a9e891bcd793b1b0cd7.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈpɪləʊz\">pillows</phoneme>.",
+                "sha256": "68fda1dc67d618a5f5f87386a9d272a2b823820cf37af9d7bb310657f8a2d7f2"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    }
+]
