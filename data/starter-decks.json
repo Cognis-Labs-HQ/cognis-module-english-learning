@@ -1056,5 +1056,56 @@
             "en:sentence:study-habits-listen-teacher",
             "en:sentence:study-habits-need-pencil"
         ]
+    },
+    {
+        "key": "greetings-practice",
+        "name": {
+            "en": "Greetings and Farewells",
+            "de": "Begrüßung und Abschied",
+            "id": "Salam dan Perpisahan",
+            "ja": "出会いと別れの挨拶"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:word:greetings-morning",
+            "en:word:greetings-evening",
+            "en:word:greetings-night",
+            "en:word:greetings-later"
+        ]
+    },
+    {
+        "key": "reading-time-practice",
+        "name": {
+            "en": "Time and Reading",
+            "de": "Tageszeiten und Lesen",
+            "id": "Waktu dan Membaca",
+            "ja": "時間帯と読書"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:word:morning",
+            "en:word:night",
+            "en:word:book",
+            "en:word:reading-time-newspaper",
+            "en:sentence:reading-time-example-morning-news",
+            "en:sentence:reading-time-example-night-book",
+            "en:sentence:reading-time-example-news-table",
+            "en:sentence:reading-time-example-buy-news"
+        ]
+    },
+    {
+        "key": "comprehension-practice",
+        "name": {
+            "en": "Checking Understanding",
+            "de": "Verständnis klären",
+            "id": "Memeriksa Pemahaman",
+            "ja": "理解を確かめる"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:word:comprehension-understand",
+            "en:sentence:comprehension-example-check",
+            "en:sentence:comprehension-example-past"
+        ]
     }
 ]

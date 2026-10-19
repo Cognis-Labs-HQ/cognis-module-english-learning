@@ -1,5 +1,36 @@
 [
     {
+        "theme": "fruit",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:fruit-peach",
+                "label": "peach"
+            },
+            {
+                "entryId": "en:word:fruit-pear",
+                "label": "pear"
+            },
+            {
+                "entryId": "en:word:fruit-watermelon",
+                "label": "watermelon"
+            },
+            {
+                "entryId": "en:word:fruit-pineapple",
+                "label": "pineapple"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:fruit-example-peach",
+            "en:sentence:fruit-example-pear",
+            "en:sentence:fruit-example-watermelon",
+            "en:sentence:fruit-example-pineapple"
+        ],
+        "recordedGrammaticalFormCount": 4,
+        "vocabularyAudit": "authoring/reviews/fruit-vocabulary.json"
+    },
+    {
         "theme": "furnishings",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -29,6 +60,32 @@
         ],
         "recordedGrammaticalFormCount": 4,
         "vocabularyAudit": "authoring/reviews/furnishings-vocabulary.json"
+    },
+    {
+        "theme": "greetings",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:greetings-morning",
+                "label": "Good morning"
+            },
+            {
+                "entryId": "en:word:greetings-evening",
+                "label": "Good evening"
+            },
+            {
+                "entryId": "en:word:greetings-night",
+                "label": "Good night"
+            },
+            {
+                "entryId": "en:word:greetings-later",
+                "label": "See you"
+            }
+        ],
+        "newExampleCount": 0,
+        "exampleIds": [],
+        "recordedGrammaticalFormCount": 0,
+        "vocabularyAudit": "authoring/reviews/greetings-vocabulary.json"
     },
     {
         "theme": "household",
@@ -186,6 +243,25 @@
         "vocabularyAudit": "authoring/reviews/qualities-vocabulary.json"
     },
     {
+        "theme": "reading-time",
+        "newDistinctVocabularyCount": 1,
+        "vocabulary": [
+            {
+                "entryId": "en:word:reading-time-newspaper",
+                "label": "newspaper"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:reading-time-example-morning-news",
+            "en:sentence:reading-time-example-night-book",
+            "en:sentence:reading-time-example-news-table",
+            "en:sentence:reading-time-example-buy-news"
+        ],
+        "recordedGrammaticalFormCount": 0,
+        "vocabularyAudit": "authoring/reviews/reading-time-vocabulary.json"
+    },
+    {
         "theme": "requests",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -215,98 +291,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/requests-vocabulary.json"
-    },
-    {
-        "theme": "rooms",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:rooms-bedroom",
-                "label": "bedroom"
-            },
-            {
-                "entryId": "en:word:rooms-bathroom",
-                "label": "bathroom"
-            },
-            {
-                "entryId": "en:word:rooms-kitchen",
-                "label": "kitchen"
-            },
-            {
-                "entryId": "en:word:rooms-garden",
-                "label": "garden"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:rooms-example-bedroom",
-            "en:sentence:rooms-example-bathroom",
-            "en:sentence:rooms-example-kitchen",
-            "en:sentence:rooms-example-garden"
-        ],
-        "recordedGrammaticalFormCount": 4,
-        "vocabularyAudit": "authoring/reviews/rooms-vocabulary.json"
-    },
-    {
-        "theme": "school",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:school-pencil",
-                "label": "pencil"
-            },
-            {
-                "entryId": "en:word:school-pen",
-                "label": "pen"
-            },
-            {
-                "entryId": "en:word:school-notebook",
-                "label": "notebook"
-            },
-            {
-                "entryId": "en:word:school-ruler",
-                "label": "ruler"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:school-example-pencil",
-            "en:sentence:school-example-pen",
-            "en:sentence:school-example-notebook",
-            "en:sentence:school-example-ruler"
-        ],
-        "recordedGrammaticalFormCount": 4,
-        "vocabularyAudit": "authoring/reviews/school-vocabulary.json"
-    },
-    {
-        "theme": "seasons",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:seasons-spring",
-                "label": "spring"
-            },
-            {
-                "entryId": "en:word:seasons-summer",
-                "label": "summer"
-            },
-            {
-                "entryId": "en:word:seasons-autumn",
-                "label": "autumn"
-            },
-            {
-                "entryId": "en:word:seasons-winter",
-                "label": "winter"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:seasons-activity-spring",
-            "en:sentence:seasons-activity-summer",
-            "en:sentence:seasons-activity-autumn",
-            "en:sentence:seasons-activity-winter"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/seasons-vocabulary.json"
     }
 ]

@@ -1,0 +1,98 @@
+[
+    {
+        "entryId": "en:word:form-comprehension-understand-third-person",
+        "path": "audio/0a9182f221114b6d4dbaa4e1c3ef6d1a264cb13f77fef36b47a14e04096c420a.wav",
+        "sha256": "0a9182f221114b6d4dbaa4e1c3ef6d1a264cb13f77fef36b47a14e04096c420a",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˌʌndəˈstændz\">understands</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "1knfii9jxwvsUzzjSw8R",
+            "character-cost": "6",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/comprehension-forms/form-comprehension-understand-third-person.pcm",
+        "sourceSha256": "3ffbd2c3274e7519846ae301b68b8fa9f63ddce53e05e58f5c72d64831526993",
+        "sourcePeak": 27356,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9821976897207194,
+        "paddingFramesEachSide": 480,
+        "frames": 29939,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-comprehension-understand-past",
+        "path": "audio/0a7bad6dcac6d4626fe0c9a643f77d028b3e9496049278e315437a5bd41175d0.wav",
+        "sha256": "0a7bad6dcac6d4626fe0c9a643f77d028b3e9496049278e315437a5bd41175d0",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˌʌndəˈstʊd\">understood</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "y2jgjkq7dtJNq14KXWNt",
+            "character-cost": "5",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/comprehension-forms/form-comprehension-understand-past.pcm",
+        "sourceSha256": "dd7f5f449ae572062ad613dd6bdcc784f79f8e652366d7bce1f9b1c8d4d40b15",
+        "sourcePeak": 31159,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.8623190731409865,
+        "paddingFramesEachSide": 480,
+        "frames": 26595,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-comprehension-understand-present-participle",
+        "path": "audio/9ca6eff2b07c737696478972dda5253c379b3cb2f26ac818430f573c21114449.wav",
+        "sha256": "9ca6eff2b07c737696478972dda5253c379b3cb2f26ac818430f573c21114449",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˌʌndəˈstændɪŋ\">understanding</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "5ZL7WX2bY5ZLek9ArPFK",
+            "character-cost": "6",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/comprehension-forms/form-comprehension-understand-present-participle.pcm",
+        "sourceSha256": "f5c5734f2b32b0ca8a8486addec4492701ba17f4ce6782f997c5ec0212eda3a6",
+        "sourcePeak": 30837,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.8713234101890586,
+        "paddingFramesEachSide": 480,
+        "frames": 28824,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]

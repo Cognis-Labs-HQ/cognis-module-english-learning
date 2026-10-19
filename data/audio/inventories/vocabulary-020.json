@@ -442,5 +442,302 @@
             "listening": "unverified-not-performed",
             "sourcePcmSha256": "79913208fe557a8b714b9e5dfac57fd136a5c6ca92067b465da31df7d8641ee5"
         }
+    },
+    {
+        "path": "audio/a54f4db00546f6114c331b72ac88af4e32fe20f1eda7007884f7c3423f714ad2.wav",
+        "text": "Yes",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"jes\">Yes</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "Yes",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/jes/"]
+            }
+        ],
+        "entries": ["en:word:requests-yes"],
+        "variants": [],
+        "sha256": "a54f4db00546f6114c331b72ac88af4e32fe20f1eda7007884f7c3423f714ad2",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "fb8c21f1f4eae2406ddc814d47d0db21b662797b660b493e2d04e8e7bf58778c"
+        }
+    },
+    {
+        "path": "audio/7892f808cb3caba7867accf058b3100b747f01d90f51e5d7ac63b4da20bdc302.wav",
+        "text": "No",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"nəʊ\">No</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "No",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/nəʊ/"]
+            }
+        ],
+        "entries": ["en:word:requests-no"],
+        "variants": [],
+        "sha256": "7892f808cb3caba7867accf058b3100b747f01d90f51e5d7ac63b4da20bdc302",
+        "frames": 18793,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "f720de2c176e6f5c3652454c1d2a7522818c1632050e5d802d6d4b2439e6e30d"
+        }
+    },
+    {
+        "path": "audio/cbcd3d1340fc2e98981d35563f6bd5d6434375f40d4858088fd6413622975cea.wav",
+        "text": "Please",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"pliːz\">Please</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "Please",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/pliːz/"]
+            }
+        ],
+        "entries": ["en:word:requests-please"],
+        "variants": [],
+        "sha256": "cbcd3d1340fc2e98981d35563f6bd5d6434375f40d4858088fd6413622975cea",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "b3a1e848c90431ed8cd51faa5ff1fd9301a64bfd579217a96c8620d9540e7b39"
+        }
+    },
+    {
+        "path": "audio/048dac7df64d4150f80f428e731bab677e694f736c0fb76ed282b610343f1470.wav",
+        "text": "Pardon",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈpɑːdn\">Pardon</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "Pardon",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈpɑːdn/"]
+            }
+        ],
+        "entries": ["en:word:requests-repeat"],
+        "variants": [],
+        "sha256": "048dac7df64d4150f80f428e731bab677e694f736c0fb76ed282b610343f1470",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "61830a059c6164021550be017b93c33a5fec7e6d04ec88f145c72a0b9a3033fd"
+        }
+    },
+    {
+        "path": "audio/6f54ecef86b26ff64715eac16ec988e9d1ac8b5a05d1572e6d763fe503371389.wav",
+        "text": "Good morning",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˌɡʊd ˈmɔːnɪŋ\">Good morning</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "Good morning",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˌɡʊd ˈmɔːnɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:greetings-morning"],
+        "variants": [],
+        "sha256": "6f54ecef86b26ff64715eac16ec988e9d1ac8b5a05d1572e6d763fe503371389",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "35d2e55b5d77fa39c434f43d373ddcef427ef92b206ec7802e6cb86030269039"
+        }
+    },
+    {
+        "path": "audio/eebae08a77837b6fbadb08fd42460757cfedcc2478b8849bd2dba4fb328c10cf.wav",
+        "text": "Good evening",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˌɡʊd ˈiːvnɪŋ\">Good evening</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "Good evening",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˌɡʊd ˈiːvnɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:greetings-evening"],
+        "variants": [],
+        "sha256": "eebae08a77837b6fbadb08fd42460757cfedcc2478b8849bd2dba4fb328c10cf",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "296c057f9279b158cdd5889b6ba7a0243551346aa4b0ce9d5ca214da505c835f"
+        }
+    },
+    {
+        "path": "audio/371a807e99822eb47bdccc1fac3f751e4d65990f3cb816fcc38d92a9ca2bb764.wav",
+        "text": "Good night",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˌɡʊd ˈnaɪt\">Good night</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "Good night",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˌɡʊd ˈnaɪt/"]
+            }
+        ],
+        "entries": ["en:word:greetings-night"],
+        "variants": [],
+        "sha256": "371a807e99822eb47bdccc1fac3f751e4d65990f3cb816fcc38d92a9ca2bb764",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "7ac3916d5c415584a557ed179dec30d52c06ae2a0a55f1e83425ee5ad0478fc1"
+        }
+    },
+    {
+        "path": "audio/11d0aa4993adbf04935c800d21f7895d31be66a7182ed24321ef86a7fadcd4e3.wav",
+        "text": "See you",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈsiː juː\">See you</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "See you",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈsiː juː/"]
+            }
+        ],
+        "entries": ["en:word:greetings-later"],
+        "variants": [],
+        "sha256": "11d0aa4993adbf04935c800d21f7895d31be66a7182ed24321ef86a7fadcd4e3",
+        "frames": 18793,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "26be7bb8d29439f2d18f57f8bdf47601e98dbef3056ff2dde2aae617c6f1b11c"
+        }
+    },
+    {
+        "path": "audio/5fbea61f28718a3d1dc1a9cdb7c519c73729b95695b4b9f90200c86c215b113e.wav",
+        "text": "newspaper",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈnjuːzpeɪpə\">newspaper</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "newspaper",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈnjuːzpeɪpə/"]
+            }
+        ],
+        "entries": ["en:word:reading-time-newspaper"],
+        "variants": [],
+        "sha256": "5fbea61f28718a3d1dc1a9cdb7c519c73729b95695b4b9f90200c86c215b113e",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "b747cd9a55a79bb0bb0ee40abfc4340b1edfa84952aa671ebb7b991195292842"
+        }
     }
 ]

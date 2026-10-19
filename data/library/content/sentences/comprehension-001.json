@@ -1,0 +1,75 @@
+[
+    {
+        "id": "en:sentence:comprehension-example-check",
+        "label": "Do you understand?",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/be322098bfda329d7adf2bbbcf228ed04461f484107e26ceed9f5bbace96053b.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-do",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:you",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:comprehension-understand",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:question",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:comprehension-example-check",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:comprehension-example-past",
+        "label": "I understood the question.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/ad17a63251343f7a538cc1326b5cb1c2edd2620304eaea2ea67a87ea7b6aaa57.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-comprehension-understand-past",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:question",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:comprehension-example-past",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

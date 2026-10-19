@@ -1,0 +1,130 @@
+[
+    {
+        "entryId": "en:word:greetings-morning",
+        "path": "audio/6f54ecef86b26ff64715eac16ec988e9d1ac8b5a05d1572e6d763fe503371389.wav",
+        "sha256": "6f54ecef86b26ff64715eac16ec988e9d1ac8b5a05d1572e6d763fe503371389",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˌɡʊd ˈmɔːnɪŋ\">Good morning</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "bLMQ1APqaA0yXgtFzfwl",
+            "character-cost": "5",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/greetings/greetings-morning.pcm",
+        "sourceSha256": "35d2e55b5d77fa39c434f43d373ddcef427ef92b206ec7802e6cb86030269039",
+        "sourcePeak": 22782,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 25480,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:greetings-evening",
+        "path": "audio/eebae08a77837b6fbadb08fd42460757cfedcc2478b8849bd2dba4fb328c10cf.wav",
+        "sha256": "eebae08a77837b6fbadb08fd42460757cfedcc2478b8849bd2dba4fb328c10cf",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˌɡʊd ˈiːvnɪŋ\">Good evening</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "kvMu8cLtINP3TAH5zUjk",
+            "character-cost": "5",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/greetings/greetings-evening.pcm",
+        "sourceSha256": "296c057f9279b158cdd5889b6ba7a0243551346aa4b0ce9d5ca214da505c835f",
+        "sourcePeak": 26289,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 25480,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:greetings-night",
+        "path": "audio/371a807e99822eb47bdccc1fac3f751e4d65990f3cb816fcc38d92a9ca2bb764.wav",
+        "sha256": "371a807e99822eb47bdccc1fac3f751e4d65990f3cb816fcc38d92a9ca2bb764",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˌɡʊd ˈnaɪt\">Good night</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "r9MfjHJjtTy4oYBPHaE8",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/greetings/greetings-night.pcm",
+        "sourceSha256": "7ac3916d5c415584a557ed179dec30d52c06ae2a0a55f1e83425ee5ad0478fc1",
+        "sourcePeak": 27586,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.974008555064163,
+        "paddingFramesEachSide": 480,
+        "frames": 24366,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:greetings-later",
+        "path": "audio/11d0aa4993adbf04935c800d21f7895d31be66a7182ed24321ef86a7fadcd4e3.wav",
+        "sha256": "11d0aa4993adbf04935c800d21f7895d31be66a7182ed24321ef86a7fadcd4e3",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈsiː juː\">See you</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "urUHc63aSwxOuVhLB52i",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/greetings/greetings-later.pcm",
+        "sourceSha256": "26be7bb8d29439f2d18f57f8bdf47601e98dbef3056ff2dde2aae617c6f1b11c",
+        "sourcePeak": 24359,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 18793,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]

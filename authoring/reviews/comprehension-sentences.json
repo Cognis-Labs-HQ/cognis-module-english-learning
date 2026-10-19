@@ -1,0 +1,106 @@
+[
+    {
+        "entryId": "en:sentence:comprehension-example-check",
+        "label": "Do you understand?",
+        "reading": null,
+        "meanings": {
+            "en": "Do you understand?",
+            "de": "Verstehen Sie?",
+            "id": "Apakah Anda paham?",
+            "ja": "わかりますか。"
+        },
+        "constituentIds": [
+            "en:word:capital-do",
+            "en:word:you",
+            "en:word:comprehension-understand",
+            "en:particle:question"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/be322098bfda329d7adf2bbbcf228ed04461f484107e26ceed9f5bbace96053b.wav",
+        "sha256": "be322098bfda329d7adf2bbbcf228ed04461f484107e26ceed9f5bbace96053b",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Individually authored and reviewed for meaning, form and register. Japanese reading examples are plain narration with contextually omitted subject; comprehension examples use selected polite question/negative forms. English comprehension question may sound direct; usage notes explain tone. No base-form substitution for selected forms.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-do",
+                "path": "audio/0315495343266e8d61062f67fdbb6f63635f53beafdc10910f273f0ff2edc439.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"duː\">Do</phoneme>.",
+                "sha256": "314aea56cfed67a10b5010d095d26e59eeaecc6594947631a96b8bd3fb91768f"
+            },
+            {
+                "entryId": "en:word:you",
+                "path": "audio/eb086382ae703d891387e252285d567900018c6683c2e11bf35646a7a6efc228.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"juː\">you</phoneme>.",
+                "sha256": "eec9d0e2ccf963400dc1bc1bffb29a02f21283b7e0879b9f29d0cb7e17fb4c75"
+            },
+            {
+                "entryId": "en:word:comprehension-understand",
+                "path": "audio/48977aae8612cf56bddeb1377250bb15f66c1a450a38efd07d5f482c5020a88a.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˌʌndəˈstænd\">understand</phoneme>.",
+                "sha256": "a2dc97d89c346f5b4869c7cd5cb9f7a6f48be71eab2b54c13b5ad810024f02a3"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    },
+    {
+        "entryId": "en:sentence:comprehension-example-past",
+        "label": "I understood the question.",
+        "reading": null,
+        "meanings": {
+            "en": "I understood the question.",
+            "de": "Ich habe die Frage verstanden.",
+            "id": "Saya sudah memahami pertanyaan itu.",
+            "ja": "私は質問を理解しました。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:form-comprehension-understand-past",
+            "en:word:the",
+            "en:word:question",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/ad17a63251343f7a538cc1326b5cb1c2edd2620304eaea2ea67a87ea7b6aaa57.wav",
+        "sha256": "ad17a63251343f7a538cc1326b5cb1c2edd2620304eaea2ea67a87ea7b6aaa57",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Individually authored and reviewed for meaning, form and register. Japanese reading examples are plain narration with contextually omitted subject; comprehension examples use selected polite question/negative forms. English comprehension question may sound direct; usage notes explain tone. No base-form substitution for selected forms.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:form-comprehension-understand-past",
+                "path": "audio/0a7bad6dcac6d4626fe0c9a643f77d028b3e9496049278e315437a5bd41175d0.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˌʌndəˈstʊd\">understood</phoneme>.",
+                "sha256": "76963f3474a5929ad048f8ab70669274b85a0cbde9694e7414dfbea7013dc259"
+            },
+            {
+                "entryId": "en:word:the",
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">the</phoneme>.",
+                "sha256": "b2de03d0a472a2c128fb577f21214734327c9ea284305cddf02da7e534c37d9c"
+            },
+            {
+                "entryId": "en:word:question",
+                "path": "audio/35fad243608fc2d83692114a144def5d5db9497e3e2aa8c70cf9718d64777a85.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈkwestʃən\">question</phoneme>.",
+                "sha256": "a8b5df7b7a5a822a49eb431f4f177ba2119a66a5b6e8c355a9d47da7fddd7bf5"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    }
+]

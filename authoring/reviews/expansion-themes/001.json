@@ -222,6 +222,23 @@
         "vocabularyAudit": "authoring/reviews/colors-vocabulary.json"
     },
     {
+        "theme": "comprehension",
+        "newDistinctVocabularyCount": 1,
+        "vocabulary": [
+            {
+                "entryId": "en:word:comprehension-understand",
+                "label": "understand"
+            }
+        ],
+        "newExampleCount": 2,
+        "exampleIds": [
+            "en:sentence:comprehension-example-check",
+            "en:sentence:comprehension-example-past"
+        ],
+        "recordedGrammaticalFormCount": 4,
+        "vocabularyAudit": "authoring/reviews/comprehension-vocabulary.json"
+    },
+    {
         "theme": "directions",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -313,36 +330,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/frequency-vocabulary.json"
-    },
-    {
-        "theme": "fruit",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:fruit-peach",
-                "label": "peach"
-            },
-            {
-                "entryId": "en:word:fruit-pear",
-                "label": "pear"
-            },
-            {
-                "entryId": "en:word:fruit-watermelon",
-                "label": "watermelon"
-            },
-            {
-                "entryId": "en:word:fruit-pineapple",
-                "label": "pineapple"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:fruit-example-peach",
-            "en:sentence:fruit-example-pear",
-            "en:sentence:fruit-example-watermelon",
-            "en:sentence:fruit-example-pineapple"
-        ],
-        "recordedGrammaticalFormCount": 4,
-        "vocabularyAudit": "authoring/reviews/fruit-vocabulary.json"
     }
 ]
