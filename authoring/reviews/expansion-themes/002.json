@@ -54,6 +54,29 @@
         "vocabularyAudit": "authoring/reviews/fixtures-vocabulary.json"
     },
     {
+        "theme": "force",
+        "newDistinctVocabularyCount": 2,
+        "vocabulary": [
+            {
+                "entryId": "en:word:force-push",
+                "label": "push"
+            },
+            {
+                "entryId": "en:word:force-pull",
+                "label": "pull"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:force-example-push-box",
+            "en:sentence:force-example-pulled-chair",
+            "en:sentence:force-example-door-request",
+            "en:sentence:force-example-moving-table"
+        ],
+        "recordedGrammaticalFormCount": 8,
+        "vocabularyAudit": "authoring/reviews/force-vocabulary.json"
+    },
+    {
         "theme": "frequency",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -264,36 +287,5 @@
         ],
         "recordedGrammaticalFormCount": 4,
         "vocabularyAudit": "authoring/reviews/nature-vocabulary.json"
-    },
-    {
-        "theme": "places",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:places-library",
-                "label": "library"
-            },
-            {
-                "entryId": "en:word:places-hospital",
-                "label": "hospital"
-            },
-            {
-                "entryId": "en:word:places-supermarket",
-                "label": "supermarket"
-            },
-            {
-                "entryId": "en:word:places-restaurant",
-                "label": "restaurant"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:places-example-library",
-            "en:sentence:places-example-hospital",
-            "en:sentence:places-example-supermarket",
-            "en:sentence:places-example-restaurant"
-        ],
-        "recordedGrammaticalFormCount": 4,
-        "vocabularyAudit": "authoring/reviews/places-vocabulary.json"
     }
 ]

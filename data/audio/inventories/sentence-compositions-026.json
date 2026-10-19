@@ -1,0 +1,272 @@
+[
+    {
+        "path": "audio/813859216ddb900f248aca1f97f05a1d9065a90816a1964bc3b9bbdcaada04e6.wav",
+        "entryId": "en:sentence:force-example-push-box",
+        "label": "I push the box.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/50e529586d3a640a3845c6f9eb05038ba726702914cf810c64afc816c97ac29a.wav",
+                "entryId": "en:word:force-push"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/10703bad0a3eae4370c7e8255c0e077054f9470eff2d7a85ae2ee8935031865c.wav",
+                "entryId": "en:word:containers-box"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/50e529586d3a640a3845c6f9eb05038ba726702914cf810c64afc816c97ac29a.wav",
+                "entryId": "en:word:force-push",
+                "startFrame": 11067,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 34249,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/10703bad0a3eae4370c7e8255c0e077054f9470eff2d7a85ae2ee8935031865c.wav",
+                "entryId": "en:word:containers-box",
+                "startFrame": 44559,
+                "frameCount": 23251
+            }
+        ],
+        "sha256": "813859216ddb900f248aca1f97f05a1d9065a90816a1964bc3b9bbdcaada04e6",
+        "frames": 79570,
+        "input": {
+            "language": "en",
+            "label": "I push the box.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/ebceca4815a900cb3172c14d36cc9f2bc71284e27ed51bba0ff3cd0a967de313.wav",
+        "entryId": "en:sentence:force-example-pulled-chair",
+        "label": "She pulled the chair.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/65c5021d171e057994d370ba0bcf9d8ea1bbbaf43c2fd54088858907c1ce3695.wav",
+                "entryId": "en:word:form-force-pull-past"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/82aa54979a99171da309b32e9e169c762861233b3c19f5cd53781a43a9f546cf.wav",
+                "entryId": "en:word:chair"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/65c5021d171e057994d370ba0bcf9d8ea1bbbaf43c2fd54088858907c1ce3695.wav",
+                "entryId": "en:word:form-force-pull-past",
+                "startFrame": 14932,
+                "frameCount": 22137
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 39229,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/82aa54979a99171da309b32e9e169c762861233b3c19f5cd53781a43a9f546cf.wav",
+                "entryId": "en:word:chair",
+                "startFrame": 49539,
+                "frameCount": 36626
+            }
+        ],
+        "sha256": "ebceca4815a900cb3172c14d36cc9f2bc71284e27ed51bba0ff3cd0a967de313",
+        "frames": 97925,
+        "input": {
+            "language": "en",
+            "label": "She pulled the chair.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/efad56f29ad523d8f4a89204feb5558a1e34f3e3325de8c00e83d13de71ef9da.wav",
+        "entryId": "en:sentence:force-example-door-request",
+        "label": "Please push the door.",
+        "parts": [
+            {
+                "path": "audio/cbcd3d1340fc2e98981d35563f6bd5d6434375f40d4858088fd6413622975cea.wav",
+                "entryId": "en:word:requests-please"
+            },
+            {
+                "path": "audio/50e529586d3a640a3845c6f9eb05038ba726702914cf810c64afc816c97ac29a.wav",
+                "entryId": "en:word:force-push"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/6670fd21613e90e70f6c6deff51d944e17cd41e6ae5ccae2f938fe420a950e2e.wav",
+                "entryId": "en:word:door"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/cbcd3d1340fc2e98981d35563f6bd5d6434375f40d4858088fd6413622975cea.wav",
+                "entryId": "en:word:requests-please",
+                "startFrame": 2400,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/50e529586d3a640a3845c6f9eb05038ba726702914cf810c64afc816c97ac29a.wav",
+                "entryId": "en:word:force-push",
+                "startFrame": 25582,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 48764,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/6670fd21613e90e70f6c6deff51d944e17cd41e6ae5ccae2f938fe420a950e2e.wav",
+                "entryId": "en:word:door",
+                "startFrame": 59074,
+                "frameCount": 20891
+            }
+        ],
+        "sha256": "efad56f29ad523d8f4a89204feb5558a1e34f3e3325de8c00e83d13de71ef9da",
+        "frames": 91725,
+        "input": {
+            "language": "en",
+            "label": "Please push the door.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/5f0deedcb4e707e81c6488956deb4b81b3e6367b6c6adedd6c1697069491f574.wav",
+        "entryId": "en:sentence:force-example-moving-table",
+        "label": "We are pulling the table.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
+                "entryId": "en:word:form-english-be-are"
+            },
+            {
+                "path": "audio/763c9be1875509001aaa3bc1d15648bc9d3672be05001ff5ca4b7d282a6d3a16.wav",
+                "entryId": "en:word:form-force-pull-present-participle"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/66fd65aedde46bfd761073cd0450d585bb6476048fa04edb6f8791a99ce426c4.wav",
+                "entryId": "en:word:table"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
+                "entryId": "en:word:form-english-be-are",
+                "startFrame": 22112,
+                "frameCount": 5418
+            },
+            {
+                "path": "audio/763c9be1875509001aaa3bc1d15648bc9d3672be05001ff5ca4b7d282a6d3a16.wav",
+                "entryId": "en:word:form-force-pull-present-participle",
+                "startFrame": 29690,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 52872,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/66fd65aedde46bfd761073cd0450d585bb6476048fa04edb6f8791a99ce426c4.wav",
+                "entryId": "en:word:table",
+                "startFrame": 63182,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "5f0deedcb4e707e81c6488956deb4b81b3e6367b6c6adedd6c1697069491f574",
+        "frames": 94849,
+        "input": {
+            "language": "en",
+            "label": "We are pulling the table.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    }
+]

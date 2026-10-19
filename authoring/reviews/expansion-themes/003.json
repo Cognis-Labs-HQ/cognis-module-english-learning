@@ -1,5 +1,36 @@
 [
     {
+        "theme": "places",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:places-library",
+                "label": "library"
+            },
+            {
+                "entryId": "en:word:places-hospital",
+                "label": "hospital"
+            },
+            {
+                "entryId": "en:word:places-supermarket",
+                "label": "supermarket"
+            },
+            {
+                "entryId": "en:word:places-restaurant",
+                "label": "restaurant"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:places-example-library",
+            "en:sentence:places-example-hospital",
+            "en:sentence:places-example-supermarket",
+            "en:sentence:places-example-restaurant"
+        ],
+        "recordedGrammaticalFormCount": 4,
+        "vocabularyAudit": "authoring/reviews/places-vocabulary.json"
+    },
+    {
         "theme": "posture",
         "newDistinctVocabularyCount": 2,
         "vocabulary": [
@@ -257,31 +288,5 @@
         ],
         "recordedGrammaticalFormCount": 4,
         "vocabularyAudit": "authoring/reviews/tableware-vocabulary.json"
-    },
-    {
-        "theme": "time",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:time-tomorrow",
-                "label": "tomorrow"
-            },
-            {
-                "entryId": "en:word:time-yesterday",
-                "label": "yesterday"
-            },
-            {
-                "entryId": "en:word:time-soon",
-                "label": "soon"
-            },
-            {
-                "entryId": "en:word:time-later",
-                "label": "later"
-            }
-        ],
-        "newExampleCount": 0,
-        "exampleIds": [],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/time-vocabulary.json"
     }
 ]

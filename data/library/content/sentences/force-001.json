@@ -1,0 +1,163 @@
+[
+    {
+        "id": "en:sentence:force-example-push-box",
+        "label": "I push the box.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/813859216ddb900f248aca1f97f05a1d9065a90816a1964bc3b9bbdcaada04e6.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:force-push",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:containers-box",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:force-example-push-box",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:force-example-pulled-chair",
+        "label": "She pulled the chair.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/ebceca4815a900cb3172c14d36cc9f2bc71284e27ed51bba0ff3cd0a967de313.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-force-pull-past",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:chair",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:force-example-pulled-chair",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:force-example-door-request",
+        "label": "Please push the door.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/efad56f29ad523d8f4a89204feb5558a1e34f3e3325de8c00e83d13de71ef9da.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:requests-please",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:force-push",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:door",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:force-example-door-request",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:force-example-moving-table",
+        "label": "We are pulling the table.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/5f0deedcb4e707e81c6488956deb4b81b3e6367b6c6adedd6c1697069491f574.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-be-are",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-force-pull-present-participle",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:table",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:force-example-moving-table",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

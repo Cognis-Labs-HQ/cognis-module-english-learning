@@ -1,0 +1,94 @@
+[
+    {
+        "id": "en:word:force-push",
+        "label": "push",
+        "class": "lexical:verb",
+        "fields": {
+            "pronunciation": ["/pʊʃ/"],
+            "usage_notes": {
+                "en": "Apply force away from yourself to move an object. Pushes has an extra syllable; pushed ends in /t/. Japanese おす is transitive godan: おします, おした, おして. を marks the object. The picture shows pushing, not lifting.",
+                "de": "Durch Kraft vom Körper weg wird ein Gegenstand bewegt. Pushes hat eine zusätzliche Silbe; pushed endet auf /t/. おす ist transitiv und gehört zur Godan-Gruppe: おします・おした・おして. を markiert das Objekt. Das Bild zeigt Schieben, nicht Heben.",
+                "id": "Menggerakkan benda dengan gaya menjauh dari diri sendiri. Pushes memiliki suku kata tambahan; pushed berakhir dengan /t/. おす adalah verba godan transitif: おします・おした・おして. を menandai objek. Gambar menunjukkan mendorong, bukan mengangkat.",
+                "ja": "力を加えて物を自分から遠ざける動作を扱います。英語のpushesは一音節増え、pushedの末尾は/t/です。おすは他動詞の五段活用で、おします・おした・おしてと変化します。対象はをで示します。画像は持ち上げる動作ではなく押す動作です。"
+            },
+            "part_of_speech": "verb",
+            "reference_images": [
+                "images/afd33f1958029132e310fdb75075a103ea66ade7b7948c0584e35cb5c48680b8.jpg"
+            ],
+            "audio": "audio/50e529586d3a640a3845c6f9eb05038ba726702914cf810c64afc816c97ac29a.wav"
+        },
+        "tags": ["verb", "force-form-push"],
+        "references": [
+            {
+                "entryId": "en:char:p-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:force-push",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:force-pull",
+        "label": "pull",
+        "class": "lexical:verb",
+        "fields": {
+            "pronunciation": ["/pʊl/"],
+            "usage_notes": {
+                "en": "Use force to draw an object toward yourself. Pull keeps /ʊ/; pulled ends in /d/. Japanese ひく is transitive godan: ひきます, ひいた, ひいて. These forms have no small っ. This card excludes playing an instrument (弾く) and other homophones.",
+                "de": "Ein Gegenstand wird mit Kraft zum eigenen Körper gezogen. Pull behält /ʊ/; pulled endet auf /d/. ひく ist transitiv und gehört zur Godan-Gruppe: ひきます・ひいた・ひいて, ohne kleines っ. Das Spielen eines Instruments (弾く) und andere gleichlautende Wörter sind nicht gemeint.",
+                "id": "Menggunakan gaya untuk menarik benda ke arah diri sendiri. Pull mempertahankan /ʊ/; pulled berakhir dengan /d/. ひく adalah verba godan transitif: ひきます・ひいた・ひいて, tanpa っ kecil. Kartu ini tidak mencakup memainkan alat musik (弾く) atau homofon lain.",
+                "ja": "物を自分の方へ引き寄せる動作を扱います。英語pullの母音は/ʊ/、pulledの末尾は/d/です。ひくは他動詞の五段活用で、ひきます・ひいた・ひいてと変化し、小さいっは入りません。楽器を弾く意味や他の同音語は扱いません。"
+            },
+            "part_of_speech": "verb",
+            "reference_images": [
+                "images/c430c7c06c798f3798973f553f4a03dbf228f5af87ee0197a5488dae82d451c1.jpg"
+            ],
+            "audio": "audio/81afe748f67c9d64d4900570481fbcf5c55d438f29ac20119e6d92b2f17ce390.wav"
+        },
+        "tags": ["verb", "force-form-pull"],
+        "references": [
+            {
+                "entryId": "en:char:p-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:force-pull",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

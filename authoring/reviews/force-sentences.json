@@ -1,0 +1,234 @@
+[
+    {
+        "entryId": "en:sentence:force-example-push-box",
+        "label": "I push the box.",
+        "reading": null,
+        "meanings": {
+            "en": "I push the box.",
+            "de": "Ich schiebe die Schachtel.",
+            "id": "Saya mendorong kotak itu.",
+            "ja": "箱を押します。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:force-push",
+            "en:word:the",
+            "en:word:containers-box",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/813859216ddb900f248aca1f97f05a1d9065a90816a1964bc3b9bbdcaada04e6.wav",
+        "sha256": "813859216ddb900f248aca1f97f05a1d9065a90816a1964bc3b9bbdcaada04e6",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Physical transitive actions reviewed: English past, polite imperative and progressive use exact recorded forms. Japanese wo marks the object, yukkuri modifies pulling, a contrast connects heavy with pushing, and atode gives future context to the plain nonpast predicate.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:force-push",
+                "path": "audio/50e529586d3a640a3845c6f9eb05038ba726702914cf810c64afc816c97ac29a.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"pʊʃ\">push</phoneme>.",
+                "sha256": "7ebfca61ac7c437305c8c268e05831e12743c38f7c9477d10ea6e5ad9f771669"
+            },
+            {
+                "entryId": "en:word:the",
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">the</phoneme>.",
+                "sha256": "b2de03d0a472a2c128fb577f21214734327c9ea284305cddf02da7e534c37d9c"
+            },
+            {
+                "entryId": "en:word:containers-box",
+                "path": "audio/10703bad0a3eae4370c7e8255c0e077054f9470eff2d7a85ae2ee8935031865c.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"bɒks\">box</phoneme>.",
+                "sha256": "76fa7e91ac04634aeb5f0e87a100e9f93857c1a62f0ad40dc80453dfdfe68be9"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    },
+    {
+        "entryId": "en:sentence:force-example-pulled-chair",
+        "label": "She pulled the chair.",
+        "reading": null,
+        "meanings": {
+            "en": "She pulled the chair.",
+            "de": "Sie zog den Stuhl.",
+            "id": "Dia menarik kursi itu.",
+            "ja": "彼女はいすを引きました。"
+        },
+        "constituentIds": [
+            "en:word:capital-she",
+            "en:word:form-force-pull-past",
+            "en:word:the",
+            "en:word:chair",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/ebceca4815a900cb3172c14d36cc9f2bc71284e27ed51bba0ff3cd0a967de313.wav",
+        "sha256": "ebceca4815a900cb3172c14d36cc9f2bc71284e27ed51bba0ff3cd0a967de313",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Physical transitive actions reviewed: English past, polite imperative and progressive use exact recorded forms. Japanese wo marks the object, yukkuri modifies pulling, a contrast connects heavy with pushing, and atode gives future context to the plain nonpast predicate.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-she",
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ʃiː\">She</phoneme>.",
+                "sha256": "a22a256231312a962631113989bb0015c4cfdd4dda006e769918698d284e33d6"
+            },
+            {
+                "entryId": "en:word:form-force-pull-past",
+                "path": "audio/65c5021d171e057994d370ba0bcf9d8ea1bbbaf43c2fd54088858907c1ce3695.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"pʊld\">pulled</phoneme>.",
+                "sha256": "88eed378a9c0b3dd730c2a855ff85eff85d6edd27a1a4353472bf8800575f154"
+            },
+            {
+                "entryId": "en:word:the",
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">the</phoneme>.",
+                "sha256": "b2de03d0a472a2c128fb577f21214734327c9ea284305cddf02da7e534c37d9c"
+            },
+            {
+                "entryId": "en:word:chair",
+                "path": "audio/82aa54979a99171da309b32e9e169c762861233b3c19f5cd53781a43a9f546cf.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"tʃeə\">chair</phoneme>.",
+                "sha256": "3bc95108fff1005f56a7e93fd0de33048924cdbeb891f7f3ffbc600a52a0ae6e"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    },
+    {
+        "entryId": "en:sentence:force-example-door-request",
+        "label": "Please push the door.",
+        "reading": null,
+        "meanings": {
+            "en": "Please push the door.",
+            "de": "Bitte drücken Sie die Tür.",
+            "id": "Tolong dorong pintunya.",
+            "ja": "ドアを押してください。"
+        },
+        "constituentIds": [
+            "en:word:requests-please",
+            "en:word:force-push",
+            "en:word:the",
+            "en:word:door",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/efad56f29ad523d8f4a89204feb5558a1e34f3e3325de8c00e83d13de71ef9da.wav",
+        "sha256": "efad56f29ad523d8f4a89204feb5558a1e34f3e3325de8c00e83d13de71ef9da",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Physical transitive actions reviewed: English past, polite imperative and progressive use exact recorded forms. Japanese wo marks the object, yukkuri modifies pulling, a contrast connects heavy with pushing, and atode gives future context to the plain nonpast predicate.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:requests-please",
+                "path": "audio/cbcd3d1340fc2e98981d35563f6bd5d6434375f40d4858088fd6413622975cea.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"pliːz\">Please</phoneme>.",
+                "sha256": "38b92ee2108d687148aeb306deaf920cd7892b32d3db1c98060e8fa6ee1eee9e"
+            },
+            {
+                "entryId": "en:word:force-push",
+                "path": "audio/50e529586d3a640a3845c6f9eb05038ba726702914cf810c64afc816c97ac29a.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"pʊʃ\">push</phoneme>.",
+                "sha256": "7ebfca61ac7c437305c8c268e05831e12743c38f7c9477d10ea6e5ad9f771669"
+            },
+            {
+                "entryId": "en:word:the",
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">the</phoneme>.",
+                "sha256": "b2de03d0a472a2c128fb577f21214734327c9ea284305cddf02da7e534c37d9c"
+            },
+            {
+                "entryId": "en:word:door",
+                "path": "audio/6670fd21613e90e70f6c6deff51d944e17cd41e6ae5ccae2f938fe420a950e2e.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"dɔː\">door</phoneme>.",
+                "sha256": "66f8d95a2ecb67729c96b74819693a8f2f0e97aaeba1a5f0c20e653815463a3e"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    },
+    {
+        "entryId": "en:sentence:force-example-moving-table",
+        "label": "We are pulling the table.",
+        "reading": null,
+        "meanings": {
+            "en": "We are pulling the table.",
+            "de": "Wir ziehen gerade den Tisch.",
+            "id": "Kami sedang menarik meja itu.",
+            "ja": "私たちはテーブルを引いています。"
+        },
+        "constituentIds": [
+            "en:word:capital-we",
+            "en:word:form-english-be-are",
+            "en:word:form-force-pull-present-participle",
+            "en:word:the",
+            "en:word:table",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/5f0deedcb4e707e81c6488956deb4b81b3e6367b6c6adedd6c1697069491f574.wav",
+        "sha256": "5f0deedcb4e707e81c6488956deb4b81b3e6367b6c6adedd6c1697069491f574",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Physical transitive actions reviewed: English past, polite imperative and progressive use exact recorded forms. Japanese wo marks the object, yukkuri modifies pulling, a contrast connects heavy with pushing, and atode gives future context to the plain nonpast predicate.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-we",
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"wiː\">We</phoneme>.",
+                "sha256": "657d1b8e51821f12c5dbfedc21e6610e1d189acc1e5a38f2f3a7ad169c3a099f"
+            },
+            {
+                "entryId": "en:word:form-english-be-are",
+                "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɑː\">are</phoneme>.",
+                "sha256": "d511dbfad5cab5ad5e54d8eb8a01d3f2c90c7e3aef5dc825c7509656c202ae94"
+            },
+            {
+                "entryId": "en:word:form-force-pull-present-participle",
+                "path": "audio/763c9be1875509001aaa3bc1d15648bc9d3672be05001ff5ca4b7d282a6d3a16.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈpʊlɪŋ\">pulling</phoneme>.",
+                "sha256": "1c7cbc69f105030423dada9554f30e3129237a753508187a6ece05f87db4a56a"
+            },
+            {
+                "entryId": "en:word:the",
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">the</phoneme>.",
+                "sha256": "b2de03d0a472a2c128fb577f21214734327c9ea284305cddf02da7e534c37d9c"
+            },
+            {
+                "entryId": "en:word:table",
+                "path": "audio/66fd65aedde46bfd761073cd0450d585bb6476048fa04edb6f8791a99ce426c4.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈteɪbəl\">table</phoneme>.",
+                "sha256": "d2e4c6dce76e0fa7f8ec98abadaf86ca8edda8dca3436ee3bfc037895450aba9"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0
+    }
+]

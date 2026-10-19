@@ -1,5 +1,31 @@
 [
     {
+        "theme": "time",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:time-tomorrow",
+                "label": "tomorrow"
+            },
+            {
+                "entryId": "en:word:time-yesterday",
+                "label": "yesterday"
+            },
+            {
+                "entryId": "en:word:time-soon",
+                "label": "soon"
+            },
+            {
+                "entryId": "en:word:time-later",
+                "label": "later"
+            }
+        ],
+        "newExampleCount": 0,
+        "exampleIds": [],
+        "recordedGrammaticalFormCount": 0,
+        "vocabularyAudit": "authoring/reviews/time-vocabulary.json"
+    },
+    {
         "theme": "transport",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -198,21 +224,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/shopping.json"
-    },
-    {
-        "theme": "daily-needs",
-        "newDistinctVocabularyCount": 0,
-        "vocabulary": [],
-        "newExampleCount": 6,
-        "exampleIds": [
-            "en:sentence:daily-needs-1",
-            "en:sentence:daily-needs-2",
-            "en:sentence:daily-needs-3",
-            "en:sentence:daily-needs-4",
-            "en:sentence:daily-needs-5",
-            "en:sentence:daily-needs-6"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/daily-needs-sentences.json"
     }
 ]

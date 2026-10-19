@@ -1,0 +1,66 @@
+[
+    {
+        "entryId": "en:word:force-push",
+        "path": "audio/50e529586d3a640a3845c6f9eb05038ba726702914cf810c64afc816c97ac29a.wav",
+        "sha256": "50e529586d3a640a3845c6f9eb05038ba726702914cf810c64afc816c97ac29a",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"pʊʃ\">push</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "72Shc9OuIxDnoLT1n9xs",
+            "character-cost": "2",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/force/force-push.pcm",
+        "sourceSha256": "44eaacb2f89381f55de17a2168b3da07598323b271ff5d0b35b373f3b497d7b8",
+        "sourcePeak": 29117,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.922794243912491,
+        "paddingFramesEachSide": 480,
+        "frames": 21022,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:force-pull",
+        "path": "audio/81afe748f67c9d64d4900570481fbcf5c55d438f29ac20119e6d92b2f17ce390.wav",
+        "sha256": "81afe748f67c9d64d4900570481fbcf5c55d438f29ac20119e6d92b2f17ce390",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"pʊl\">pull</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "ywBhH1woihKAAYGJgB1r",
+            "character-cost": "2",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/force/force-pull.pcm",
+        "sourceSha256": "6824dba5f206ee3a24a4687fdb386e84d6b9129eea9ecf22e6edb23eed30efca",
+        "sourcePeak": 29083,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9238730529862806,
+        "paddingFramesEachSide": 480,
+        "frames": 19907,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]
