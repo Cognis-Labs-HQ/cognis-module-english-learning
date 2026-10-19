@@ -1,0 +1,272 @@
+[
+    {
+        "path": "audio/3d5d13ba101223bea539b21c8a43bdab3cc089ea8d4025bd7873d95c47fb6dd1.wav",
+        "entryId": "en:sentence:food-preparation-example-wash-carrot",
+        "label": "I wash a carrot.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/f871f020b3de15eef5914b6e3de3d22cbd60473330c2bdfa30976783eb09b34a.wav",
+                "entryId": "en:word:household-wash"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/e84fc06564c992c4dcac2215fa3bde9e8b1e8005a45d847cd0976903ec6e32b1.wav",
+                "entryId": "en:word:carrot"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/f871f020b3de15eef5914b6e3de3d22cbd60473330c2bdfa30976783eb09b34a.wav",
+                "entryId": "en:word:household-wash",
+                "startFrame": 11067,
+                "frameCount": 22137
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 35364,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/e84fc06564c992c4dcac2215fa3bde9e8b1e8005a45d847cd0976903ec6e32b1.wav",
+                "entryId": "en:word:carrot",
+                "startFrame": 50064,
+                "frameCount": 23251
+            }
+        ],
+        "sha256": "3d5d13ba101223bea539b21c8a43bdab3cc089ea8d4025bd7873d95c47fb6dd1",
+        "frames": 85075,
+        "input": {
+            "language": "en",
+            "label": "I wash a carrot.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/27f390bb40a129a2cddbb2ae5621d91d331c5364e08ab3fa6b1dcd826ea8bdd5.wav",
+        "entryId": "en:sentence:food-preparation-example-cut-onion",
+        "label": "She cuts the onion.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/3984eecf2b14008f209fb549273bb6a576920d7064feb58c52089a10ca8c3c7b.wav",
+                "entryId": "en:word:form-craft-cut-third-person"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/0c99e0ab61bee151bc8433024278e69e846626de56889e935345eaf88ba329e2.wav",
+                "entryId": "en:word:onion"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/3984eecf2b14008f209fb549273bb6a576920d7064feb58c52089a10ca8c3c7b.wav",
+                "entryId": "en:word:form-craft-cut-third-person",
+                "startFrame": 14932,
+                "frameCount": 23251
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 40343,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/0c99e0ab61bee151bc8433024278e69e846626de56889e935345eaf88ba329e2.wav",
+                "entryId": "en:word:onion",
+                "startFrame": 50653,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "27f390bb40a129a2cddbb2ae5621d91d331c5364e08ab3fa6b1dcd826ea8bdd5",
+        "frames": 82320,
+        "input": {
+            "language": "en",
+            "label": "She cuts the onion.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/37fe1f290683fd9781c5c8e5516d41206d124eebdf41d3547b0672c4190f70c1.wav",
+        "entryId": "en:sentence:food-preparation-example-cook-meal",
+        "label": "We cook chicken and rice.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/873d3ddc7f14042c8425ac23c85457ea9c6ec3a2061cdb616fc7dd81d01c32f3.wav",
+                "entryId": "en:word:household-cook"
+            },
+            {
+                "path": "audio/ccd89bbfa7ae3e84e46f690dd69890dcbacd21f38893d189dec926e2e7da1562.wav",
+                "entryId": "en:word:chicken"
+            },
+            {
+                "path": "audio/c17bea5cede4ef7cefc56eda7f4c62d72e4eb6756b6cf1f5dc17cfb9f91f338a.wav",
+                "entryId": "en:particle:and"
+            },
+            {
+                "path": "audio/2f1aff6b9fc48808c7ea17e0f18661f9f72669d3cbe8ece8f3a1bafd65482800.wav",
+                "entryId": "en:word:rice"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/873d3ddc7f14042c8425ac23c85457ea9c6ec3a2061cdb616fc7dd81d01c32f3.wav",
+                "entryId": "en:word:household-cook",
+                "startFrame": 22112,
+                "frameCount": 19907
+            },
+            {
+                "path": "audio/ccd89bbfa7ae3e84e46f690dd69890dcbacd21f38893d189dec926e2e7da1562.wav",
+                "entryId": "en:word:chicken",
+                "startFrame": 44179,
+                "frameCount": 39970
+            },
+            {
+                "path": "audio/c17bea5cede4ef7cefc56eda7f4c62d72e4eb6756b6cf1f5dc17cfb9f91f338a.wav",
+                "entryId": "en:particle:and",
+                "startFrame": 86309,
+                "frameCount": 11433
+            },
+            {
+                "path": "audio/2f1aff6b9fc48808c7ea17e0f18661f9f72669d3cbe8ece8f3a1bafd65482800.wav",
+                "entryId": "en:word:rice",
+                "startFrame": 99902,
+                "frameCount": 23251
+            }
+        ],
+        "sha256": "37fe1f290683fd9781c5c8e5516d41206d124eebdf41d3547b0672c4190f70c1",
+        "frames": 134913,
+        "input": {
+            "language": "en",
+            "label": "We cook chicken and rice.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/2ab2f09d4360768b35b4d51e759fd5c84750c1839503b20965a2f82bb8875296.wav",
+        "entryId": "en:sentence:food-preparation-example-cucumber-color",
+        "label": "The cucumber is green.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/cdb4b3caa825a4a9ba5364529c12ee656acfa28ff08d5a8f7e16a1c604ebfc83.wav",
+                "entryId": "en:word:cucumber"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/db96542c1374b239273b03531b9960ca6d5d7eaf0fac9bbb879a2f0f4f55a4f5.wav",
+                "entryId": "en:word:colors-green"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/cdb4b3caa825a4a9ba5364529c12ee656acfa28ff08d5a8f7e16a1c604ebfc83.wav",
+                "entryId": "en:word:cucumber",
+                "startFrame": 12710,
+                "frameCount": 25480
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 40350,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/db96542c1374b239273b03531b9960ca6d5d7eaf0fac9bbb879a2f0f4f55a4f5.wav",
+                "entryId": "en:word:colors-green",
+                "startFrame": 52897,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "2ab2f09d4360768b35b4d51e759fd5c84750c1839503b20965a2f82bb8875296",
+        "frames": 84564,
+        "input": {
+            "language": "en",
+            "label": "The cucumber is green.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    }
+]

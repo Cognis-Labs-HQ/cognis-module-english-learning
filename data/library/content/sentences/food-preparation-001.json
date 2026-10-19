@@ -1,0 +1,163 @@
+[
+    {
+        "id": "en:sentence:food-preparation-example-wash-carrot",
+        "label": "I wash a carrot.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/3d5d13ba101223bea539b21c8a43bdab3cc089ea8d4025bd7873d95c47fb6dd1.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:household-wash",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:carrot",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:food-preparation-example-wash-carrot",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:food-preparation-example-cut-onion",
+        "label": "She cuts the onion.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/27f390bb40a129a2cddbb2ae5621d91d331c5364e08ab3fa6b1dcd826ea8bdd5.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-craft-cut-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:onion",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:food-preparation-example-cut-onion",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:food-preparation-example-cook-meal",
+        "label": "We cook chicken and rice.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/37fe1f290683fd9781c5c8e5516d41206d124eebdf41d3547b0672c4190f70c1.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:household-cook",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:chicken",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:and",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:rice",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:food-preparation-example-cook-meal",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:food-preparation-example-cucumber-color",
+        "label": "The cucumber is green.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/2ab2f09d4360768b35b4d51e759fd5c84750c1839503b20965a2f82bb8875296.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:cucumber",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:colors-green",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:food-preparation-example-cucumber-color",
+                "relation": "definitions"
+            }
+        ]
+    }
+]
