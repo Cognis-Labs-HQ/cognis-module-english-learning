@@ -98,6 +98,10 @@ Bleistift, Stift, Notizbuch und Lineal mit vier geprüften Bildern je Modul, vie
 
 Sechs einzeln verfasste Kontextbeispiele je Modul mit exakten vorhandenen Audiosegmenten und einem eigenen Stapel ergänzen. Bedeutung, Register, Partikelfunktionen, Lesungen und Übersetzungen in vier Sprachen prüfen. Alle bisherigen Beispiele und Flexionsaufnahmen bleiben erhalten. Keine neuen Bilder oder externen Generierungsanfragen. Die Hörprüfung steht aus.
 
+## Im Restaurant
+
+Sechs einzeln verfasste Kontextbeispiele je Modul mit exakten vorhandenen Audiosegmenten und einem eigenen Stapel ergänzen. Bedeutung, Register, Partikelfunktionen, Lesungen und Übersetzungen in vier Sprachen prüfen. Alle bisherigen Beispiele und Flexionsaufnahmen bleiben erhalten. Keine neuen Bilder oder externen Generierungsanfragen. Die Hörprüfung steht aus.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

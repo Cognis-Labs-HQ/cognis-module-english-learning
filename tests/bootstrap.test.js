@@ -100,7 +100,7 @@ test("registers providers, ingests the pack, and publishes the language through 
             readFileSync(new URL("../manifest.json", import.meta.url), "utf8"),
         ).version,
     );
-    assert.equal(descriptor.starterDecks.length, 33);
+    assert.equal(descriptor.starterDecks.length, 34);
     assert.deepEqual(
         calls.providers.map(({ capabilities }) => capabilities),
         [["strokePattern"], ["dictionary"], ["dictionary"]],

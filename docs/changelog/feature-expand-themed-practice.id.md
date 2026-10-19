@@ -98,6 +98,10 @@ Tambahkan pensil, pena, buku catatan, dan penggaris dengan empat gambar yang dip
 
 Tambahkan enam contoh kontekstual yang ditulis satu per satu untuk setiap modul, dengan segmen audio lama yang persis dan dek khusus. Periksa makna, ragam bahasa, fungsi partikel, bacaan, serta terjemahan dalam empat bahasa. Pertahankan semua contoh dan rekaman perubahan bentuk sebelumnya. Tidak ada gambar baru atau permintaan generasi eksternal. Pemeriksaan pendengaran belum dilakukan.
 
+## Di Restoran
+
+Tambahkan enam contoh kontekstual yang ditulis satu per satu untuk setiap modul, dengan segmen audio lama yang persis dan dek khusus. Periksa makna, ragam bahasa, fungsi partikel, bacaan, serta terjemahan dalam empat bahasa. Pertahankan semua contoh dan rekaman perubahan bentuk sebelumnya. Tidak ada gambar baru atau permintaan generasi eksternal. Pemeriksaan pendengaran belum dilakukan.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

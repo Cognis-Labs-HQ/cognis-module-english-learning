@@ -1,0 +1,281 @@
+[
+    {
+        "id": "en:sentence:restaurant-1",
+        "label": "I want soup and bread.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/cbeefd00f0688cb1aa0389722662b4b4a237e0f6551f7afef8332507cec0dfec.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:want",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:soup",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:and",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:bread",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:restaurant-1",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:restaurant-2",
+        "label": "We eat rice with fish.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/906d4928ab61ca2f420d4da2bfc7874cbadf7e137c2eae949a23ed2a9859da8e.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:eat",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:rice",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:with",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:fish",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:restaurant-2",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:restaurant-3",
+        "label": "The soup is hot.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/4b5c5c6da065e3fb6b21ccca0fa35aa6c7f515c1861226c8509385fea7f05c96.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:soup",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:hot",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:restaurant-3",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:restaurant-4",
+        "label": "I drink tea with milk.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/e41cf2fcefca5780402102b8cd7b9c8581b14cdf8b445c79514dd49c1e59bd2f.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:drink",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:tea",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:with",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:milk",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:restaurant-4",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:restaurant-5",
+        "label": "I need a spoon for my soup.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/d25d8317d4236a0eeeffa0f66a0573dc0cf947d462018d1d69e749588aa9c304.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:need",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:tableware-spoon",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:for",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:my",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:word:soup",
+                "relation": "words",
+                "position": 6
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 7
+            },
+            {
+                "entryId": "en:definition:restaurant-5",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:restaurant-6",
+        "label": "We go to the restaurant by bus.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/eed272fe74710669d3fe4b3a53170c8e9b3a265bb86da90f379098d4aa5832fc.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:go",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:to",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:places-restaurant",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:by",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:word:bus",
+                "relation": "words",
+                "position": 6
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 7
+            },
+            {
+                "entryId": "en:definition:restaurant-6",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

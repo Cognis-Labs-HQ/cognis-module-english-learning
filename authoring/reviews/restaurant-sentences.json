@@ -1,0 +1,452 @@
+[
+    {
+        "entryId": "en:sentence:restaurant-1",
+        "label": "I want soup and bread.",
+        "reading": null,
+        "meanings": {
+            "en": "I want soup and bread.",
+            "de": "Ich möchte Suppe und Brot.",
+            "id": "Saya ingin sup dan roti.",
+            "ja": "私はスープとパンが欲しいです。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:want",
+            "en:word:soup",
+            "en:particle:and",
+            "en:word:bread",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/cbeefd00f0688cb1aa0389722662b4b4a237e0f6551f7afef8332507cec0dfec.wav",
+        "sha256": "cbeefd00f0688cb1aa0389722662b4b4a237e0f6551f7afef8332507cec0dfec",
+        "listening": "unverified-not-performed",
+        "textReview": "Soup, bread, rice, fish as food, tea and milk are used as mass nouns. With introduces an accompaniment or an ingredient; for marks the spoon's purpose. Hot describes temperature here. By bus names the means of transport without an article. Want states a preference, not a model polite ordering formula.",
+        "newImages": false,
+        "newExternalRequests": 0,
+        "reviewDate": "2026-10-19",
+        "technicalReview": "All source samples retained exactly in mono PCM16 at 24000 Hz; segment equality, hashes, non-silence, sample bounds and header integrity checked by regression suite. Listening not performed.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:want",
+                "path": "audio/64ba083ec87a85a2794c293b25059a4e3c21294016fdb68e582ab0fb098eeda7.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"wɒnt\">want</phoneme>.",
+                "sha256": "d6accc631a76530256c1e24a2a5ef22b91bee5d505cb889a5498cd9daf817738"
+            },
+            {
+                "entryId": "en:word:soup",
+                "path": "audio/005804606b17e2c7f4ead52c8c6161e032830c31bd4f14379f5eac739a5c3ac6.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"suːp\">soup</phoneme>.",
+                "sha256": "5ac2169a282b2cb36cd4b29ede9cb6ebcc709004737fffe9f6d0b6a293ce8343"
+            },
+            {
+                "entryId": "en:particle:and",
+                "path": "audio/c17bea5cede4ef7cefc56eda7f4c62d72e4eb6756b6cf1f5dc17cfb9f91f338a.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "and.",
+                "sha256": "0f14e73b3069df8910be4a53e8418ea44104b5c825fe0772e61493035a8e0d2e"
+            },
+            {
+                "entryId": "en:word:bread",
+                "path": "audio/71b5610f18ae99c4f6ec6bdfe244664b731bff3eb54237936ae395216a0cbf77.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"bɹed\">bread</phoneme>.",
+                "sha256": "a00a4eae926c6dc0ba56cd4d8cde6ed874ee1bf22ecfd29e5f7b4ff2a55bff87"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "senseReview": {
+            "source": "https://www.oxfordlearnersdictionaries.com/definition/english/hot_1",
+            "finding": "Hot has temperature and spicy senses; this authored example explicitly selects temperature in each translation."
+        }
+    },
+    {
+        "entryId": "en:sentence:restaurant-2",
+        "label": "We eat rice with fish.",
+        "reading": null,
+        "meanings": {
+            "en": "We eat rice with fish.",
+            "de": "Wir essen Reis mit Fisch.",
+            "id": "Kami makan nasi dengan ikan.",
+            "ja": "私たちはご飯と魚を一緒に食べます。"
+        },
+        "constituentIds": [
+            "en:word:capital-we",
+            "en:word:eat",
+            "en:word:rice",
+            "en:particle:with",
+            "en:word:fish",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/906d4928ab61ca2f420d4da2bfc7874cbadf7e137c2eae949a23ed2a9859da8e.wav",
+        "sha256": "906d4928ab61ca2f420d4da2bfc7874cbadf7e137c2eae949a23ed2a9859da8e",
+        "listening": "unverified-not-performed",
+        "textReview": "Soup, bread, rice, fish as food, tea and milk are used as mass nouns. With introduces an accompaniment or an ingredient; for marks the spoon's purpose. Hot describes temperature here. By bus names the means of transport without an article. Want states a preference, not a model polite ordering formula.",
+        "newImages": false,
+        "newExternalRequests": 0,
+        "reviewDate": "2026-10-19",
+        "technicalReview": "All source samples retained exactly in mono PCM16 at 24000 Hz; segment equality, hashes, non-silence, sample bounds and header integrity checked by regression suite. Listening not performed.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-we",
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"wiː\">We</phoneme>.",
+                "sha256": "657d1b8e51821f12c5dbfedc21e6610e1d189acc1e5a38f2f3a7ad169c3a099f"
+            },
+            {
+                "entryId": "en:word:eat",
+                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈiːt\">eat</phoneme>.",
+                "sha256": "971719db886893157ecdc30c9aa196522545c151cfe9b9473de46117234feb76"
+            },
+            {
+                "entryId": "en:word:rice",
+                "path": "audio/2f1aff6b9fc48808c7ea17e0f18661f9f72669d3cbe8ece8f3a1bafd65482800.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"raɪs\">rice</phoneme>.",
+                "sha256": "038ed4d5f0caae28489d5019f2c151b5f06b5dfeb826fceea3fe3bbaf7f426ad"
+            },
+            {
+                "entryId": "en:particle:with",
+                "path": "audio/6d2d3881b88f3c382ad83e70da941112308ecd8ffb35358a71c8c38c099170d6.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "with.",
+                "sha256": "2636824c852c264b49ea09b05516fa29019720e061452378ca96602a3604f381"
+            },
+            {
+                "entryId": "en:word:fish",
+                "path": "audio/1360536e96014d08faa30ed773379bf44e61f13af3c5cee15923479849359a4f.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"fɪʃ\">fish</phoneme>.",
+                "sha256": "769fcdfdaa580bf587ebb7a580c29a06de7b34045d87d9e6df6a961a371d60cd"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "senseReview": {
+            "source": "https://www.oxfordlearnersdictionaries.com/definition/english/hot_1",
+            "finding": "Hot has temperature and spicy senses; this authored example explicitly selects temperature in each translation."
+        }
+    },
+    {
+        "entryId": "en:sentence:restaurant-3",
+        "label": "The soup is hot.",
+        "reading": null,
+        "meanings": {
+            "en": "The soup is hot.",
+            "de": "Die Suppe ist heiß.",
+            "id": "Sup itu panas.",
+            "ja": "スープは熱いです。"
+        },
+        "constituentIds": [
+            "en:word:capital-the",
+            "en:word:soup",
+            "en:word:form-english-be-is",
+            "en:word:hot",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/4b5c5c6da065e3fb6b21ccca0fa35aa6c7f515c1861226c8509385fea7f05c96.wav",
+        "sha256": "4b5c5c6da065e3fb6b21ccca0fa35aa6c7f515c1861226c8509385fea7f05c96",
+        "listening": "unverified-not-performed",
+        "textReview": "Soup, bread, rice, fish as food, tea and milk are used as mass nouns. With introduces an accompaniment or an ingredient; for marks the spoon's purpose. Hot describes temperature here. By bus names the means of transport without an article. Want states a preference, not a model polite ordering formula.",
+        "newImages": false,
+        "newExternalRequests": 0,
+        "reviewDate": "2026-10-19",
+        "technicalReview": "All source samples retained exactly in mono PCM16 at 24000 Hz; segment equality, hashes, non-silence, sample bounds and header integrity checked by regression suite. Listening not performed.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-the",
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">The</phoneme>.",
+                "sha256": "8afecb26db8f5442c31c18cc1a16c18c0649b2dd6694ed6071ffa43d5db5f99a"
+            },
+            {
+                "entryId": "en:word:soup",
+                "path": "audio/005804606b17e2c7f4ead52c8c6161e032830c31bd4f14379f5eac739a5c3ac6.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"suːp\">soup</phoneme>.",
+                "sha256": "5ac2169a282b2cb36cd4b29ede9cb6ebcc709004737fffe9f6d0b6a293ce8343"
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɪz\">is</phoneme>.",
+                "sha256": "8ddf540a1b70b081638155835213ea9562b8fd89bc891d336f9c33607bfb023f"
+            },
+            {
+                "entryId": "en:word:hot",
+                "path": "audio/437a80cf008c1a34ee57e35047f6f986a4bab34697e4305c73d1ee25c57aa34b.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"hɒt\">hot</phoneme>.",
+                "sha256": "faf63103ae8c6ee0383d74b8e0355cde40b81f529a0138ea0ee6c6c88d187bbb"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "senseReview": {
+            "source": "https://www.oxfordlearnersdictionaries.com/definition/english/hot_1",
+            "finding": "Hot has temperature and spicy senses; this authored example explicitly selects temperature in each translation."
+        }
+    },
+    {
+        "entryId": "en:sentence:restaurant-4",
+        "label": "I drink tea with milk.",
+        "reading": null,
+        "meanings": {
+            "en": "I drink tea with milk.",
+            "de": "Ich trinke Tee mit Milch.",
+            "id": "Saya minum teh dengan susu.",
+            "ja": "私はミルクを入れたお茶を飲みます。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:drink",
+            "en:word:tea",
+            "en:particle:with",
+            "en:word:milk",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/e41cf2fcefca5780402102b8cd7b9c8581b14cdf8b445c79514dd49c1e59bd2f.wav",
+        "sha256": "e41cf2fcefca5780402102b8cd7b9c8581b14cdf8b445c79514dd49c1e59bd2f",
+        "listening": "unverified-not-performed",
+        "textReview": "Soup, bread, rice, fish as food, tea and milk are used as mass nouns. With introduces an accompaniment or an ingredient; for marks the spoon's purpose. Hot describes temperature here. By bus names the means of transport without an article. Want states a preference, not a model polite ordering formula.",
+        "newImages": false,
+        "newExternalRequests": 0,
+        "reviewDate": "2026-10-19",
+        "technicalReview": "All source samples retained exactly in mono PCM16 at 24000 Hz; segment equality, hashes, non-silence, sample bounds and header integrity checked by regression suite. Listening not performed.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:drink",
+                "path": "audio/03b62debf6ef4408c4897b5fb6c219dbe2fd2dc3aa3abcaaeac9e60a81ffd688.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"dɹɪŋk\">drink</phoneme>.",
+                "sha256": "8177ce54747034e96618aff21e69f35422f5e147b096f58f9e0c25f6dcc28e50"
+            },
+            {
+                "entryId": "en:word:tea",
+                "path": "audio/53612525976e57e096c89cf49ffcc1be60d2ab04136168922486a85043d6b84b.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"tiː\">tea</phoneme>.",
+                "sha256": "46f6f1ccdad190b2ad45cd0adc1c75d66bc5b91d74d57d3646d01bd30a319a7f"
+            },
+            {
+                "entryId": "en:particle:with",
+                "path": "audio/6d2d3881b88f3c382ad83e70da941112308ecd8ffb35358a71c8c38c099170d6.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "with.",
+                "sha256": "2636824c852c264b49ea09b05516fa29019720e061452378ca96602a3604f381"
+            },
+            {
+                "entryId": "en:word:milk",
+                "path": "audio/a16f821db4d533d146b66edbecc04bd8478cdb8378c94b473194ff26fb4444b6.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"mɪlk\">milk</phoneme>.",
+                "sha256": "d2f34a67321f6deb02458153903692e255a2b1f7fb3f01a3814bec0a423fc94e"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "senseReview": {
+            "source": "https://www.oxfordlearnersdictionaries.com/definition/english/hot_1",
+            "finding": "Hot has temperature and spicy senses; this authored example explicitly selects temperature in each translation."
+        }
+    },
+    {
+        "entryId": "en:sentence:restaurant-5",
+        "label": "I need a spoon for my soup.",
+        "reading": null,
+        "meanings": {
+            "en": "I need a spoon for my soup.",
+            "de": "Ich brauche einen Löffel für meine Suppe.",
+            "id": "Saya membutuhkan sendok untuk sup saya.",
+            "ja": "私は自分のスープを飲むためにスプーンが必要です。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:need",
+            "en:word:a",
+            "en:word:tableware-spoon",
+            "en:particle:for",
+            "en:word:my",
+            "en:word:soup",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/d25d8317d4236a0eeeffa0f66a0573dc0cf947d462018d1d69e749588aa9c304.wav",
+        "sha256": "d25d8317d4236a0eeeffa0f66a0573dc0cf947d462018d1d69e749588aa9c304",
+        "listening": "unverified-not-performed",
+        "textReview": "Soup, bread, rice, fish as food, tea and milk are used as mass nouns. With introduces an accompaniment or an ingredient; for marks the spoon's purpose. Hot describes temperature here. By bus names the means of transport without an article. Want states a preference, not a model polite ordering formula.",
+        "newImages": false,
+        "newExternalRequests": 0,
+        "reviewDate": "2026-10-19",
+        "technicalReview": "All source samples retained exactly in mono PCM16 at 24000 Hz; segment equality, hashes, non-silence, sample bounds and header integrity checked by regression suite. Listening not performed.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:need",
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"niːd\">need</phoneme>.",
+                "sha256": "6080e14b7e4dca1867a955d4e5a2120225e3c5445e66756da8c70acb55add49b"
+            },
+            {
+                "entryId": "en:word:a",
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ə\">a</phoneme>.",
+                "sha256": "7d5073e6c6c8c87efc2dd90a7e4f16a47f23ab71a57c34ced6daf13082d53f07"
+            },
+            {
+                "entryId": "en:word:tableware-spoon",
+                "path": "audio/5f9a3e905778bf89257f37ae9c5a042caef40f3963ac78fdceb0455248b17e77.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "spoon",
+                "sha256": "b4d8cf04fe19d6d9269f3b83fcef5ea8beb8251d073400d05d58b657addc4740"
+            },
+            {
+                "entryId": "en:particle:for",
+                "path": "audio/4f543c3de1cddba5e4dbfae2dca91a506d47326371e0bfa5b3c1ed19fa3f9166.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "for.",
+                "sha256": "9b448fe79b6ff52bc8d3c6203b1e4b42ee7314e3d4ef8aa6e30c2509532990a3"
+            },
+            {
+                "entryId": "en:word:my",
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"maɪ\">my</phoneme>.",
+                "sha256": "17cfa257df1601abbf0994508a36e73a7a51d7183bf8ee50e16425a31eeacdf8"
+            },
+            {
+                "entryId": "en:word:soup",
+                "path": "audio/005804606b17e2c7f4ead52c8c6161e032830c31bd4f14379f5eac739a5c3ac6.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"suːp\">soup</phoneme>.",
+                "sha256": "5ac2169a282b2cb36cd4b29ede9cb6ebcc709004737fffe9f6d0b6a293ce8343"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "senseReview": {
+            "source": "https://www.oxfordlearnersdictionaries.com/definition/english/hot_1",
+            "finding": "Hot has temperature and spicy senses; this authored example explicitly selects temperature in each translation."
+        }
+    },
+    {
+        "entryId": "en:sentence:restaurant-6",
+        "label": "We go to the restaurant by bus.",
+        "reading": null,
+        "meanings": {
+            "en": "We go to the restaurant by bus.",
+            "de": "Wir fahren mit dem Bus zum Restaurant.",
+            "id": "Kami pergi ke restoran dengan bus.",
+            "ja": "私たちはバスでレストランに行きます。"
+        },
+        "constituentIds": [
+            "en:word:capital-we",
+            "en:word:go",
+            "en:particle:to",
+            "en:word:the",
+            "en:word:places-restaurant",
+            "en:particle:by",
+            "en:word:bus",
+            "en:particle:period"
+        ],
+        "audioAvailability": "bundled-composition",
+        "audioPath": "audio/eed272fe74710669d3fe4b3a53170c8e9b3a265bb86da90f379098d4aa5832fc.wav",
+        "sha256": "eed272fe74710669d3fe4b3a53170c8e9b3a265bb86da90f379098d4aa5832fc",
+        "listening": "unverified-not-performed",
+        "textReview": "Soup, bread, rice, fish as food, tea and milk are used as mass nouns. With introduces an accompaniment or an ingredient; for marks the spoon's purpose. Hot describes temperature here. By bus names the means of transport without an article. Want states a preference, not a model polite ordering formula.",
+        "newImages": false,
+        "newExternalRequests": 0,
+        "reviewDate": "2026-10-19",
+        "technicalReview": "All source samples retained exactly in mono PCM16 at 24000 Hz; segment equality, hashes, non-silence, sample bounds and header integrity checked by regression suite. Listening not performed.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-we",
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"wiː\">We</phoneme>.",
+                "sha256": "657d1b8e51821f12c5dbfedc21e6610e1d189acc1e5a38f2f3a7ad169c3a099f"
+            },
+            {
+                "entryId": "en:word:go",
+                "path": "audio/42b81828f68c66abecf181e027005a9e134f7f4c0618553235928583db3f3fe4.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɡəʊ\">go</phoneme>.",
+                "sha256": "50466065326cb7b34c4b5e063ddd4140c49c53a309a1811a70f28e3aac3815e2"
+            },
+            {
+                "entryId": "en:particle:to",
+                "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "to.",
+                "sha256": "a311bb7fe8ae1dc3ee0f3dfab623f192dfd4b5fefea1b17047dcab12961da059"
+            },
+            {
+                "entryId": "en:word:the",
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">the</phoneme>.",
+                "sha256": "b2de03d0a472a2c128fb577f21214734327c9ea284305cddf02da7e534c37d9c"
+            },
+            {
+                "entryId": "en:word:places-restaurant",
+                "path": "audio/bb02ea13233036ee8def9eca37d90344641079b5c1939a05a0d1e67006579d52.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "restaurant",
+                "sha256": "c3e003a31bfc7c8e031cf59bf5fadc5855448a238d30710a14ea9655604ef6ba"
+            },
+            {
+                "entryId": "en:particle:by",
+                "path": "audio/bd04024b02ccfb1acb267613f4cb81cac9a887a044d4b7ab4f3da08e75c2a97c.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "by.",
+                "sha256": "1828c61219e56463d8e135d3c3d8a87b239086f0ebafc71fbac8a8e1d2bd4ee8"
+            },
+            {
+                "entryId": "en:word:bus",
+                "path": "audio/8fc1046eece5a689f07e9dc33d48283741453a856775b01cea5113f3cbfbf732.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"bʌs\">bus</phoneme>.",
+                "sha256": "c30b3ad8077cee8c904b13c2aacfb7d05ec127c0ad437a0a3944f6a8984b6e17"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "senseReview": {
+            "source": "https://www.oxfordlearnersdictionaries.com/definition/english/hot_1",
+            "finding": "Hot has temperature and spicy senses; this authored example explicitly selects temperature in each translation."
+        }
+    }
+]
