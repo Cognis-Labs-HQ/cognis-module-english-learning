@@ -304,3 +304,4 @@ Add scarf/glove and マフラー/てぶくろ with four inspected illustrations 
 - [d3d78b6](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d3d78b677eb258c39c4d75c53eb31d84b68d8a28)
 - [5b3cf38](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/5b3cf384ebc2a7d1ea3a871f8be5a41139a85123)
 - [1d47855](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/1d47855d5915cd2862f94a2341d77084e3b24c65)
+- [721a348](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/721a348f02811df6c662dedf44ca3eae49371c9e)
