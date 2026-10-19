@@ -1,0 +1,242 @@
+[
+    {
+        "path": "audio/3aff34237404848374385d51a83296d85835c366deea838e3ea88cd19ee64a9d.wav",
+        "entryId": "en:sentence:weather-example-sun",
+        "label": "I see the sun.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/9b7843aec097ccb2e88f205448cd59c4d13b573f9b025bfeea72a95a0c467851.wav",
+                "entryId": "en:word:see"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/721eebd0549f9cddc2b9f28812ff2810a329069ea9941108817200fb1b5b45e2.wav",
+                "entryId": "en:word:weather-sun"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/9b7843aec097ccb2e88f205448cd59c4d13b573f9b025bfeea72a95a0c467851.wav",
+                "entryId": "en:word:see",
+                "startFrame": 11067,
+                "frameCount": 11091
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 24318,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/721eebd0549f9cddc2b9f28812ff2810a329069ea9941108817200fb1b5b45e2.wav",
+                "entryId": "en:word:weather-sun",
+                "startFrame": 34628,
+                "frameCount": 18793
+            }
+        ],
+        "sha256": "3aff34237404848374385d51a83296d85835c366deea838e3ea88cd19ee64a9d",
+        "frames": 65181,
+        "input": {
+            "language": "en",
+            "label": "I see the sun.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact weather vocabulary and existing constituent PCM; English clouds uses the explicitly recorded plural /klaʊdz/."
+        }
+    },
+    {
+        "path": "audio/ded72a81bc11b441924089d4cf58f31704c41ae3543a33710bdc7c6eb4fd35b0.wav",
+        "entryId": "en:sentence:weather-example-snow",
+        "label": "I like snow.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/74e2b131c64da10695ba0b619e9a463dc2035c39a6de44f718afc3a7054689db.wav",
+                "entryId": "en:word:like"
+            },
+            {
+                "path": "audio/b5402130d53b97e483a26d111aad02fe645c40f3ca4f12805db72ed798897e3a.wav",
+                "entryId": "en:word:weather-snow"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/74e2b131c64da10695ba0b619e9a463dc2035c39a6de44f718afc3a7054689db.wav",
+                "entryId": "en:word:like",
+                "startFrame": 11067,
+                "frameCount": 13914
+            },
+            {
+                "path": "audio/b5402130d53b97e483a26d111aad02fe645c40f3ca4f12805db72ed798897e3a.wav",
+                "entryId": "en:word:weather-snow",
+                "startFrame": 27141,
+                "frameCount": 21022
+            }
+        ],
+        "sha256": "ded72a81bc11b441924089d4cf58f31704c41ae3543a33710bdc7c6eb4fd35b0",
+        "frames": 59923,
+        "input": {
+            "language": "en",
+            "label": "I like snow.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact weather vocabulary and existing constituent PCM; English clouds uses the explicitly recorded plural /klaʊdz/."
+        }
+    },
+    {
+        "path": "audio/a6940b9b7615bd9f90ccc20f83bfbd9fe76036d001c20c3e5fb00070c829b3fe.wav",
+        "entryId": "en:sentence:weather-example-wind",
+        "label": "I like the wind.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/74e2b131c64da10695ba0b619e9a463dc2035c39a6de44f718afc3a7054689db.wav",
+                "entryId": "en:word:like"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/542c89686a20fa93535164840ee4a0ba526a8993b4e225a85a1ec4184359bb78.wav",
+                "entryId": "en:word:weather-wind"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/74e2b131c64da10695ba0b619e9a463dc2035c39a6de44f718afc3a7054689db.wav",
+                "entryId": "en:word:like",
+                "startFrame": 11067,
+                "frameCount": 13914
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 27141,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/542c89686a20fa93535164840ee4a0ba526a8993b4e225a85a1ec4184359bb78.wav",
+                "entryId": "en:word:weather-wind",
+                "startFrame": 37451,
+                "frameCount": 22137
+            }
+        ],
+        "sha256": "a6940b9b7615bd9f90ccc20f83bfbd9fe76036d001c20c3e5fb00070c829b3fe",
+        "frames": 71348,
+        "input": {
+            "language": "en",
+            "label": "I like the wind.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact weather vocabulary and existing constituent PCM; English clouds uses the explicitly recorded plural /klaʊdz/."
+        }
+    },
+    {
+        "path": "audio/846236e02563cce25867136394c523fbd2bd34744d7158435df5309d73f2a111.wav",
+        "entryId": "en:sentence:weather-example-cloud",
+        "label": "I see clouds.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/9b7843aec097ccb2e88f205448cd59c4d13b573f9b025bfeea72a95a0c467851.wav",
+                "entryId": "en:word:see"
+            },
+            {
+                "path": "audio/f6ecb2fa5d3dbd561a272879576a9e9d2f2ccd721b4459532b52e34741dbec34.wav",
+                "entryId": "en:word:form-weather-clouds"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/9b7843aec097ccb2e88f205448cd59c4d13b573f9b025bfeea72a95a0c467851.wav",
+                "entryId": "en:word:see",
+                "startFrame": 11067,
+                "frameCount": 11091
+            },
+            {
+                "path": "audio/f6ecb2fa5d3dbd561a272879576a9e9d2f2ccd721b4459532b52e34741dbec34.wav",
+                "entryId": "en:word:form-weather-clouds",
+                "startFrame": 24318,
+                "frameCount": 24366
+            }
+        ],
+        "sha256": "846236e02563cce25867136394c523fbd2bd34744d7158435df5309d73f2a111",
+        "frames": 60444,
+        "input": {
+            "language": "en",
+            "label": "I see clouds.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact weather vocabulary and existing constituent PCM; English clouds uses the explicitly recorded plural /klaʊdz/."
+        }
+    }
+]

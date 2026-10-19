@@ -54,6 +54,10 @@ Add four illustrated weather nouns with localized meanings, pronunciation guidan
 
 Add left, right, north and south with four location examples and a practice deck. Inspect every original and final illustration for viewpoint, compass orientation and labels. Reuse exact constituent audio and retain provider usage evidence; listening remains unverified.
 
+## Weather Examples and Number
+
+Add four weather examples using exact constituent PCM. English cloud now exposes clouds with reviewed /klaʊdz/ pronunciation and an independently recorded plural clip. Japanese examples preserve natural particle use and context-dependent noun number. Listening remains unverified.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

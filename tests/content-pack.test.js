@@ -43,8 +43,8 @@ test("pack declares a stable English namespace and usable provider schema", () =
     assert.equal(manifest.protected, true);
     assert.equal(schema.id, "english");
     assert.equal(schema.language, "en");
-    assert.equal(schema.version, 26);
-    assert.equal(manifest.version, "24.0.13");
+    assert.equal(schema.version, 27);
+    assert.equal(manifest.version, "24.0.14");
     assert.equal(schema.metadata.provider.moduleId, "study-language-en");
     assert.equal(entries.size, [...layers.values()].flat().length);
     for (const layer of schema.layers) {
@@ -172,7 +172,7 @@ test("beginner vocabulary and grammar resolve genuine localized meanings and spe
 });
 
 test("all published sentences preserve every ordered word, inflection, and punctuation", () => {
-    assert.equal(layers.get("sentences").length, 83);
+    assert.equal(layers.get("sentences").length, 87);
     for (const sentence of layers.get("sentences")) {
         const constituents = sentence.references
             .filter(({ relation }) => relation !== "definitions")
@@ -189,7 +189,7 @@ test("all published sentences preserve every ordered word, inflection, and punct
 });
 
 test("curated transformations cover irregular verbs and contextual IPA", () => {
-    assert.equal(schema.transformSets.length, 120);
+    assert.equal(schema.transformSets.length, 121);
     const findForm = (word, ruleId) =>
         schema.transformSets
             .find(({ id }) => id === `english-${word}`)

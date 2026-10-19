@@ -54,6 +54,10 @@ Tambahkan empat nomina cuaca bergambar dengan arti lokal, panduan pelafalan, dan
 
 Tambahkan kiri, kanan, utara, dan selatan dengan empat contoh lokasi dan dek latihan. Periksa sudut pandang, orientasi kompas, dan label setiap gambar sumber dan akhir. Gunakan ulang segmen audio persis dan simpan bukti pemakaian penyedia; pemeriksaan pendengaran belum dilakukan.
 
+## Contoh Cuaca dan Jumlah
+
+Tambahkan empat contoh cuaca dengan segmen PCM persis. Cloud kini menyediakan clouds dengan transkripsi /klaʊdz/ yang ditinjau dan rekaman jamak tersendiri. Contoh Jepang mempertahankan partikel alami dan jumlah nomina yang bergantung konteks. Pemeriksaan pendengaran belum dilakukan.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

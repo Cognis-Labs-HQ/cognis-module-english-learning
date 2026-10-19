@@ -1,0 +1,148 @@
+[
+    {
+        "id": "en:sentence:weather-example-sun",
+        "label": "I see the sun.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/3aff34237404848374385d51a83296d85835c366deea838e3ea88cd19ee64a9d.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:see",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:weather-sun",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:weather-example-sun",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:weather-example-snow",
+        "label": "I like snow.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/ded72a81bc11b441924089d4cf58f31704c41ae3543a33710bdc7c6eb4fd35b0.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:like",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:weather-snow",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:weather-example-snow",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:weather-example-wind",
+        "label": "I like the wind.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/a6940b9b7615bd9f90ccc20f83bfbd9fe76036d001c20c3e5fb00070c829b3fe.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:like",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:weather-wind",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:weather-example-wind",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:weather-example-cloud",
+        "label": "I see clouds.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/846236e02563cce25867136394c523fbd2bd34744d7158435df5309d73f2a111.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:see",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-weather-clouds",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:weather-example-cloud",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

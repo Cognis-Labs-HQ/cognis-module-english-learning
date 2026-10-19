@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 26,
+    "version": 27,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -9843,6 +9843,51 @@
                     }
                 }
             ]
+        },
+        {
+            "id": "noun-cloud",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-cloud"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "cloud",
+                    "append": "clouds",
+                    "pronunciation": {
+                        "removeSuffix": "/klaʊd/",
+                        "append": "/klaʊdz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
         }
     ]
 }

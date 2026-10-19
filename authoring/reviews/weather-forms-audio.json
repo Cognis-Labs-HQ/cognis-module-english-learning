@@ -1,0 +1,34 @@
+[
+    {
+        "entryId": "en:word:form-weather-clouds",
+        "path": "audio/f6ecb2fa5d3dbd561a272879576a9e9d2f2ccd721b4459532b52e34741dbec34.wav",
+        "sha256": "f6ecb2fa5d3dbd561a272879576a9e9d2f2ccd721b4459532b52e34741dbec34",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"klaʊdz\">clouds</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "SxMLjvbIal72CU3sN0IE",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/weather-forms/form-weather-clouds.pcm",
+        "sourceSha256": "6adf290924ce239f5dcf7750c790ac7030d4175d2cc4fcabffb3cca8031d50f9",
+        "sourcePeak": 27166,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9890672163734079,
+        "paddingFramesEachSide": 480,
+        "frames": 24366,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]
