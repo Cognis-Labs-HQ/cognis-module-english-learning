@@ -153,3 +153,4 @@ Add cabbage, mushroom, spinach and lettuce in both modules with inspected illust
 - [6a068e8](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/6a068e89a4798723cb45c3370ada0bc0102a5962)
 - [756608f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/756608fc8dd94e25db0ef0ed5f7ef2ced44c3b0e)
 - [264dce3](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/264dce3662b49b0512dce5898a28d222f47ded65)
+- [c73c793](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c73c79346419bac633ca9065b2fd470e2a6fcb4f)
