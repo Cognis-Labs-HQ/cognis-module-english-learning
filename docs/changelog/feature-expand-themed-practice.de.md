@@ -58,3 +58,5 @@ Rot, Blau, Grün und Gelb werden als Farbnomen ergänzt, jeweils mit visuell gep
 - [e9994bc](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e9994bcd8aa12658e3128e051e0d06964b8c7263)
 - [4421e1f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4421e1f9701de6067aa2877b0481587f3e9a0c49)
 - [46bce52](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/46bce529a032af6f69ac36abed44cd1df125bbd0)
+- [cb19b51](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/cb19b51cfc72a76fa2e57914926f8f4d733ced70)
+- [c8d9420](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c8d94200941224cf07ba46c6a2da97356a1e08d4)
