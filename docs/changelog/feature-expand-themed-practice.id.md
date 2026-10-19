@@ -193,3 +193,4 @@ Tambahkan jawaban afirmatif dan negatif, permintaan sopan, serta permintaan peng
 - [02e31a4](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/02e31a49b3404ecf07459e42159597c1002c1d20)
 - [eae72da](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/eae72dadbc44fd5eca72cfe057f76621a9fbd56f)
 - [c48d567](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c48d567e9eb5b498d55d8e5108cef70042fde71f)
+- [0532720](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/05327205218ceaa841654c25e12e9839458eb178)
