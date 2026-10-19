@@ -206,6 +206,10 @@ Added sit and stand, their irregular English and godan Japanese forms, inspected
 
 Added four individually authored examples covering dishwashing, reading, sitting at a table and belongings. Japanese examples also reinforce giving soup to a friend and locating a key in a box. Existing vocabulary and exact recorded constituents are reused; no new pictures or provider requests are needed.
 
+## Wild animals in context
+
+Add fox, bear, monkey and elephant with four distinct examples about habitat, movement, observation and size, plus a focused starter deck. Review each original illustration and final JPEG; retain four-language meanings and notes about species examples, noun senses and the Japanese long vowel in ぞう. Compare all prior audio-provider selections byte for byte as inventories grow. New speech remains explicitly unverified by listening.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

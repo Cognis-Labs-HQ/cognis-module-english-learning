@@ -206,6 +206,10 @@ Menambahkan sit dan stand, bentuk tidak beraturan bahasa Inggris dan godan bahas
 
 Menambahkan empat contoh yang ditulis satu per satu tentang mencuci piring, membaca, duduk di meja, dan barang pribadi. Contoh bahasa Jepang juga melatih memberi sup kepada teman serta menyatakan letak kunci di dalam kotak. Kosakata dan rekaman penyusun yang persis dipakai kembali; tidak diperlukan gambar atau permintaan penyedia baru.
 
+## Satwa liar dalam konteks
+
+Tambahkan rubah, beruang, monyet, dan gajah dengan empat contoh berbeda tentang habitat, gerakan, pengamatan, dan ukuran serta satu set kartu awal. Setiap ilustrasi asli dan JPEG akhir telah diperiksa secara visual. Makna dan catatan tentang contoh spesies, makna nomina, dan vokal panjang pada ぞう tersedia dalam empat bahasa. Semua pilihan audio sebelumnya dibandingkan byte demi byte saat inventaris bertambah. Rekaman baru tetap ditandai belum diperiksa melalui pendengaran.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)
