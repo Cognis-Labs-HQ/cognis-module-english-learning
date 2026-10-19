@@ -1,0 +1,173 @@
+[
+    {
+        "id": "en:sentence:stationery-example-scissors-location",
+        "label": "The scissors are on the table.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/0b169a45c51fda753d05db6a97fa3ba7e9c5c2342690949cc7abb046c212a39b.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:stationery-scissors",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-are",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:on",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:table",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:stationery-example-scissors-location",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:stationery-example-eraser-possession",
+        "label": "I have an eraser.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/06e7c29ed40e066da4469a52b93734955e2bfd46a3a0bf530a1df33873bb2dbd.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:have",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:an",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:stationery-eraser",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:stationery-example-eraser-possession",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:stationery-example-buy-tape",
+        "label": "I need tape.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/3532c5b434ba95c5eb67223dc1ef7a3761b34f779a6fac0f26aafd61e4d51882.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:need",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:stationery-tape",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:stationery-example-buy-tape",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:stationery-example-stapler-location",
+        "label": "The stapler is in the bag.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/a622ec509cba952957e6ed131893c6cb0f39a8667da5e10382f3ad68edef451a.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:stationery-stapler",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:bag",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:stationery-example-stapler-location",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

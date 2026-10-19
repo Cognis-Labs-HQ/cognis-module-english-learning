@@ -194,6 +194,10 @@ Tambahkan give/receive dan あげる/もらう dengan dua ilustrasi yang diperik
 
 Menambahkan botol, kotak, keranjang, dan amplop beserta makna lokal, catatan penggunaan, ilustrasi yang diperiksa, dan empat contoh. Kata bahasa Jepang untuk amplop mempertahankan kedua vokal panjang. Audio memakai suara yang ditetapkan dan PCM konstituen yang persis; pemeriksaan melalui pendengaran belum dilakukan sesuai pengecualian yang tercatat.
 
+## Alat tulis dan latihan
+
+Menambahkan penghapus, gunting, selotip, dan stapler dengan ilustrasi yang diperiksa serta empat contoh. Catatan penggunaan dan hubungan kalimat mempertahankan bentuk jamak scissors, tape yang tidak dapat dihitung, vokal panjang テープ, dan ejaan ホチキス. Contoh menerima dalam bahasa Jepang mempertahankan guru sebagai sumber. Audio konstituen yang persis diperiksa secara teknis; pemeriksaan pendengaran belum dilakukan sesuai pengecualian yang tercatat.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

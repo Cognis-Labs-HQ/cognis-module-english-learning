@@ -1,5 +1,36 @@
 [
     {
+        "theme": "vegetables",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:vegetables-cabbage",
+                "label": "cabbage"
+            },
+            {
+                "entryId": "en:word:vegetables-mushroom",
+                "label": "mushroom"
+            },
+            {
+                "entryId": "en:word:vegetables-spinach",
+                "label": "spinach"
+            },
+            {
+                "entryId": "en:word:vegetables-lettuce",
+                "label": "lettuce"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:vegetables-example-cabbage",
+            "en:sentence:vegetables-example-mushroom",
+            "en:sentence:vegetables-example-spinach",
+            "en:sentence:vegetables-example-lettuce"
+        ],
+        "recordedGrammaticalFormCount": 3,
+        "vocabularyAudit": "authoring/reviews/vegetables-vocabulary.json"
+    },
+    {
         "theme": "weather",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -153,21 +184,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/restaurant-sentences.json"
-    },
-    {
-        "theme": "study-habits",
-        "newDistinctVocabularyCount": 0,
-        "vocabulary": [],
-        "newExampleCount": 6,
-        "exampleIds": [
-            "en:sentence:study-habits-write-notebook",
-            "en:sentence:study-habits-read-slowly",
-            "en:sentence:study-habits-learn-language",
-            "en:sentence:study-habits-difficult-question",
-            "en:sentence:study-habits-listen-teacher",
-            "en:sentence:study-habits-need-pencil"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/study-habits-sentences.json"
     }
 ]

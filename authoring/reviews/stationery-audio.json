@@ -1,0 +1,130 @@
+[
+    {
+        "entryId": "en:word:stationery-eraser",
+        "path": "audio/fff1db4a240356e3f3dbee2f016a82344fdf8bd542496e426f9db83f85a78638.wav",
+        "sha256": "fff1db4a240356e3f3dbee2f016a82344fdf8bd542496e426f9db83f85a78638",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ɪˈreɪzə\">eraser</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "s3Uvm5eOh6FLdkLgmeWi",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/stationery/stationery-eraser.pcm",
+        "sourceSha256": "dc744c0c6fb9db265b988dd07cbf93fb804ec365017a5eeecfed8217ac3d7a19",
+        "sourcePeak": 29645,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9063585764884466,
+        "paddingFramesEachSide": 480,
+        "frames": 24366,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:stationery-scissors",
+        "path": "audio/634013e646e4e750f55042920e7a4d3f63f3703e59f59b456cf42dbd3446dc17.wav",
+        "sha256": "634013e646e4e750f55042920e7a4d3f63f3703e59f59b456cf42dbd3446dc17",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈsɪzəz\">scissors</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "4Oo0tCYsB7CqbgOnq9NB",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/stationery/stationery-scissors.pcm",
+        "sourceSha256": "52a765aa901151936826e6f10ae4bdd5dbcdf1b37f38c650500b80283b594687",
+        "sourcePeak": 21819,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 24366,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:stationery-tape",
+        "path": "audio/0e77218b0edb7bbf75d404543359dd28f42d2ad15be060e715034b150a4e0a63.wav",
+        "sha256": "0e77218b0edb7bbf75d404543359dd28f42d2ad15be060e715034b150a4e0a63",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"teɪp\">tape</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "uNr9i1HSNfsvygK4BInz",
+            "character-cost": "2",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/stationery/stationery-tape.pcm",
+        "sourceSha256": "26f3345a85a113fea614834089a223e98d087f2e975471b9f0cc3f9c81b98bfb",
+        "sourcePeak": 27603,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9734086874615078,
+        "paddingFramesEachSide": 480,
+        "frames": 21022,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:stationery-stapler",
+        "path": "audio/323f0cef6a505cc3e3e36d08e89a27731cb2ec7f8378afb6d7cf740f1819e934.wav",
+        "sha256": "323f0cef6a505cc3e3e36d08e89a27731cb2ec7f8378afb6d7cf740f1819e934",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈsteɪplə\">stapler</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "4Fh02CUaLIcA0MEpbjj2",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/stationery/stationery-stapler.pcm",
+        "sourceSha256": "238b182f5fae25891ccdbc94466813e27071580d5dab8b5c590ea3dca143d666",
+        "sourcePeak": 31180,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.8617382937780629,
+        "paddingFramesEachSide": 480,
+        "frames": 24366,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]

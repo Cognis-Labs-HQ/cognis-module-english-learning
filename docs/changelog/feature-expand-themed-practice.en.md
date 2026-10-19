@@ -194,6 +194,10 @@ Add give/receive and あげる/もらう with two visually reviewed illustration
 
 Added bottle, box, basket and envelope with localized meanings and usage notes, inspected illustrations and four contextual examples. Japanese envelope preserves both long vowels. Audio uses the configured voices and exact constituent PCM; listening remains unverified under the recorded waiver.
 
+## Stationery vocabulary and practice
+
+Added eraser, scissors, adhesive tape and stapler with inspected illustrations and four contextual examples. Usage notes and sentence graphs preserve plural scissors, uncountable tape, the long vowel in テープ and the selected ホチキス spelling. Japanese receiving practice retains the teacher as source. Exact constituent audio is checked technically; listening remains unverified under the recorded waiver.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)
