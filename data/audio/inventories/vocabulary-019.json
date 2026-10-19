@@ -1,0 +1,134 @@
+[
+    {
+        "path": "audio/05c45e508861fb7a2a3aecbd9d0e3b81e4ffbe78ccdaf824d737db54161de605.wav",
+        "text": "left",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "left",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "left",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/left/"]
+            }
+        ],
+        "entries": ["en:word:directions-left"],
+        "variants": [],
+        "sha256": "05c45e508861fb7a2a3aecbd9d0e3b81e4ffbe78ccdaf824d737db54161de605",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "9c57458f44fa73b0b36ed72b89d29c7a275f16ae112a4647e9197a63b5a6b2d4"
+        }
+    },
+    {
+        "path": "audio/e0754bfa543276a6aeb9462f4d1c84de0e58aad7e37c74900d3caf02ba2d943d.wav",
+        "text": "right",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "right",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "right",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/raɪt/"]
+            }
+        ],
+        "entries": ["en:word:directions-right"],
+        "variants": [],
+        "sha256": "e0754bfa543276a6aeb9462f4d1c84de0e58aad7e37c74900d3caf02ba2d943d",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "def37c1fd13953f3d04609af8664ffc69fd2c2ce47883fadc3bdfe68cf5bbe54"
+        }
+    },
+    {
+        "path": "audio/c05947fecd22c3caf8deeba23bfedcb0cac477031d5bf4cf142236482d36d720.wav",
+        "text": "north",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "north",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "north",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/nɔːθ/"]
+            }
+        ],
+        "entries": ["en:word:directions-north"],
+        "variants": [],
+        "sha256": "c05947fecd22c3caf8deeba23bfedcb0cac477031d5bf4cf142236482d36d720",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "9578ef7ab06ef467525dbbc0cceba11576dccfb2b70a853e26d2dcc509fc575d"
+        }
+    },
+    {
+        "path": "audio/12bbf92a5a37b70108d9418e85dc8750e35cf3a70fa000814adb015471e4a275.wav",
+        "text": "south",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "south",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "south",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/saʊθ/"]
+            }
+        ],
+        "entries": ["en:word:directions-south"],
+        "variants": [],
+        "sha256": "12bbf92a5a37b70108d9418e85dc8750e35cf3a70fa000814adb015471e4a275",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "28761b7ed088107657afc5e7dee0b078525ddc0af5c449bfec6bae477c88cc00"
+        }
+    }
+]

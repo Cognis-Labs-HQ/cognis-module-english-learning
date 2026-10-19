@@ -50,6 +50,10 @@ Rot, Blau, Grün und Gelb werden als Farbnomen ergänzt, jeweils mit visuell gep
 
 Vier illustrierte Wetternomen mit lokalisierten Bedeutungen, Aussprachehinweisen und einem Übungsstapel ergänzen. Alle acht Quellbilder und endgültigen Bilder beider Module wurden visuell geprüft; die widersprüchliche japanische Windszene wurde korrigiert. Aufnahmen bewahren exakte Anfragen und Quell-PCM; eine Hörprüfung steht aus.
 
+## Richtungen im Kontext
+
+Links, rechts, Norden und Süden mit vier Ortsbeispielen und einem Übungsstapel ergänzen. Jedes Originalbild und endgültige Bild auf Blickrichtung, Kompassausrichtung und Beschriftung prüfen. Exakte Audiosegmente wiederverwenden und Nutzungsnachweise bewahren; die Hörprüfung steht aus.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

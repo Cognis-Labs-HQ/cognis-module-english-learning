@@ -503,5 +503,25 @@
             "en:word:weather-wind",
             "en:word:weather-cloud"
         ]
+    },
+    {
+        "key": "directions-practice",
+        "name": {
+            "en": "Finding Directions",
+            "de": "Richtungen finden",
+            "id": "Mengenal Arah",
+            "ja": "方向を知る"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:word:directions-left",
+            "en:word:directions-right",
+            "en:word:directions-north",
+            "en:word:directions-south",
+            "en:sentence:directions-location-left",
+            "en:sentence:directions-location-right",
+            "en:sentence:directions-location-north",
+            "en:sentence:directions-location-south"
+        ]
     }
 ]
