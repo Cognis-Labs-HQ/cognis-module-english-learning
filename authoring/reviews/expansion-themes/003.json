@@ -1,5 +1,36 @@
 [
     {
+        "theme": "kitchen",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:kitchen-bowl",
+                "label": "bowl"
+            },
+            {
+                "entryId": "en:word:kitchen-knife",
+                "label": "knife"
+            },
+            {
+                "entryId": "en:word:kitchen-pot",
+                "label": "pot"
+            },
+            {
+                "entryId": "en:word:kitchen-pan",
+                "label": "pan"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:kitchen-example-bowl",
+            "en:sentence:kitchen-example-knife",
+            "en:sentence:kitchen-example-pot",
+            "en:sentence:kitchen-example-pan"
+        ],
+        "recordedGrammaticalFormCount": 4,
+        "vocabularyAudit": "authoring/reviews/kitchen-vocabulary.json"
+    },
+    {
         "theme": "length",
         "newDistinctVocabularyCount": 2,
         "vocabulary": [
@@ -249,36 +280,5 @@
         ],
         "recordedGrammaticalFormCount": 4,
         "vocabularyAudit": "authoring/reviews/school-vocabulary.json"
-    },
-    {
-        "theme": "seasons",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:seasons-spring",
-                "label": "spring"
-            },
-            {
-                "entryId": "en:word:seasons-summer",
-                "label": "summer"
-            },
-            {
-                "entryId": "en:word:seasons-autumn",
-                "label": "autumn"
-            },
-            {
-                "entryId": "en:word:seasons-winter",
-                "label": "winter"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:seasons-activity-spring",
-            "en:sentence:seasons-activity-summer",
-            "en:sentence:seasons-activity-autumn",
-            "en:sentence:seasons-activity-winter"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/seasons-vocabulary.json"
     }
 ]

@@ -1,5 +1,36 @@
 [
     {
+        "theme": "seasons",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:seasons-spring",
+                "label": "spring"
+            },
+            {
+                "entryId": "en:word:seasons-summer",
+                "label": "summer"
+            },
+            {
+                "entryId": "en:word:seasons-autumn",
+                "label": "autumn"
+            },
+            {
+                "entryId": "en:word:seasons-winter",
+                "label": "winter"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:seasons-activity-spring",
+            "en:sentence:seasons-activity-summer",
+            "en:sentence:seasons-activity-autumn",
+            "en:sentence:seasons-activity-winter"
+        ],
+        "recordedGrammaticalFormCount": 0,
+        "vocabularyAudit": "authoring/reviews/seasons-vocabulary.json"
+    },
+    {
         "theme": "stationery",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -238,21 +269,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/social-sentences.json"
-    },
-    {
-        "theme": "mealtime",
-        "newDistinctVocabularyCount": 0,
-        "vocabulary": [],
-        "newExampleCount": 6,
-        "exampleIds": [
-            "en:sentence:mealtime-eat-cheese",
-            "en:sentence:mealtime-like-soup",
-            "en:sentence:mealtime-have-butter",
-            "en:sentence:mealtime-want-rice",
-            "en:sentence:mealtime-small-tomato",
-            "en:sentence:mealtime-drink-water"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/mealtime.json"
     }
 ]

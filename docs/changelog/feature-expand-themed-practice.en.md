@@ -222,6 +222,10 @@ Add long and short with English comparative and superlative recordings, Japanese
 
 Add Sorry and Welcome with ごめんなさい and ようこそ, inspected social scenes and two concise contextual examples per language. Notes distinguish arrival greetings from responses to thanks and explain the familiar tone of the Japanese apology example. Complete readings retain ん and the long vowel in よう. Audio is composed from exact recordings; listening remains unverified.
 
+## Cutting and folding materials
+
+Add cut and fold with exact English and Japanese form recordings, corrected and inspected action illustrations, and four varied examples. English also gains paper as a material noun; Japanese reuses its existing 紙 card. Notes distinguish godan 切る from ichidan 着る and paper-folding 折る from other senses. Identical cut forms reuse cached audio. Source evidence and rejected artwork are retained; listening remains unverified.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

@@ -1,0 +1,202 @@
+[
+    {
+        "path": "audio/3984eecf2b14008f209fb549273bb6a576920d7064feb58c52089a10ca8c3c7b.wav",
+        "text": "cuts",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"kʌts\">cuts</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "cuts",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/kʌts/"]
+            }
+        ],
+        "entries": ["en:word:form-craft-cut-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:craft-cut",
+                "setId": "craft-cut-forms",
+                "path": ["third-person"]
+            }
+        ],
+        "sha256": "3984eecf2b14008f209fb549273bb6a576920d7064feb58c52089a10ca8c3c7b",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "270aa9efb4e9d96a08c67fbe2463a74c0f7eebe0ee1592677a60731949d69ed4"
+        }
+    },
+    {
+        "path": "audio/6e89a7b2bc46f4a9886d5137f67f479c59a1b280d1c0c04de2d941f03e3ea5ca.wav",
+        "text": "cutting",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈkʌtɪŋ\">cutting</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "cutting",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈkʌtɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-craft-cut-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:craft-cut",
+                "setId": "craft-cut-forms",
+                "path": ["present-participle"]
+            }
+        ],
+        "sha256": "6e89a7b2bc46f4a9886d5137f67f479c59a1b280d1c0c04de2d941f03e3ea5ca",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "ac3c39dfe04128c8658adb40a0f81501c78f0e4efc47cf3a5ff5caf2c42f2811"
+        }
+    },
+    {
+        "path": "audio/5ed06cbe8db02c3a07f004535498b4a4c036fd3cb96c7944efa9b85a4b8fa85f.wav",
+        "text": "folds",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"fəʊldz\">folds</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "folds",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/fəʊldz/"]
+            }
+        ],
+        "entries": ["en:word:form-craft-fold-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:craft-fold",
+                "setId": "craft-fold-forms",
+                "path": ["third-person"]
+            }
+        ],
+        "sha256": "5ed06cbe8db02c3a07f004535498b4a4c036fd3cb96c7944efa9b85a4b8fa85f",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "aea7261882092534c7ea965b022cdab7f0146a45baf15a13cb9462fada1c44f6"
+        }
+    },
+    {
+        "path": "audio/447ef771ef65112be6486d0b852d05d85693c8658afc37dda1eea718660338c9.wav",
+        "text": "folded",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈfəʊldɪd\">folded</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "folded",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈfəʊldɪd/"]
+            }
+        ],
+        "entries": ["en:word:form-craft-fold-past"],
+        "variants": [
+            {
+                "entryId": "en:word:craft-fold",
+                "setId": "craft-fold-forms",
+                "path": ["past"]
+            },
+            {
+                "entryId": "en:word:craft-fold",
+                "setId": "craft-fold-forms",
+                "path": ["past-participle"]
+            }
+        ],
+        "sha256": "447ef771ef65112be6486d0b852d05d85693c8658afc37dda1eea718660338c9",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "336d2d609f2fa7fe4ecdf90fc915ff7b20eabbea1cc50dfd14fa691fb2fb9bbd"
+        }
+    },
+    {
+        "path": "audio/17c9a3eb2234e4e378fb42e38d5560ea02e672d233714328af3d8dc4729109a4.wav",
+        "text": "folding",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈfəʊldɪŋ\">folding</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "folding",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈfəʊldɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-craft-fold-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:craft-fold",
+                "setId": "craft-fold-forms",
+                "path": ["present-participle"]
+            }
+        ],
+        "sha256": "17c9a3eb2234e4e378fb42e38d5560ea02e672d233714328af3d8dc4729109a4",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "9122ff595d8fb3a6ce2fb6bf30070011a1b7c05145dfe8c687a91752d738befb"
+        }
+    }
+]

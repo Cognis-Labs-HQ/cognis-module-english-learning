@@ -1,5 +1,32 @@
 [
     {
+        "theme": "craft",
+        "newDistinctVocabularyCount": 3,
+        "vocabulary": [
+            {
+                "entryId": "en:word:craft-cut",
+                "label": "cut"
+            },
+            {
+                "entryId": "en:word:craft-fold",
+                "label": "fold"
+            },
+            {
+                "entryId": "en:word:craft-paper",
+                "label": "paper"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:craft-example-cut-paper",
+            "en:sentence:craft-example-fold-paper",
+            "en:sentence:craft-example-cutting-bread",
+            "en:sentence:craft-example-folded-map"
+        ],
+        "recordedGrammaticalFormCount": 8,
+        "vocabularyAudit": "authoring/reviews/craft-vocabulary.json"
+    },
+    {
         "theme": "directions",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -256,36 +283,5 @@
         ],
         "recordedGrammaticalFormCount": 16,
         "vocabularyAudit": "authoring/reviews/household-vocabulary.json"
-    },
-    {
-        "theme": "kitchen",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:kitchen-bowl",
-                "label": "bowl"
-            },
-            {
-                "entryId": "en:word:kitchen-knife",
-                "label": "knife"
-            },
-            {
-                "entryId": "en:word:kitchen-pot",
-                "label": "pot"
-            },
-            {
-                "entryId": "en:word:kitchen-pan",
-                "label": "pan"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:kitchen-example-bowl",
-            "en:sentence:kitchen-example-knife",
-            "en:sentence:kitchen-example-pot",
-            "en:sentence:kitchen-example-pan"
-        ],
-        "recordedGrammaticalFormCount": 4,
-        "vocabularyAudit": "authoring/reviews/kitchen-vocabulary.json"
     }
 ]

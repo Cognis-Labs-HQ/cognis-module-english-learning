@@ -1,0 +1,186 @@
+[
+    {
+        "entryId": "en:word:form-craft-cut-third-person",
+        "path": "audio/3984eecf2b14008f209fb549273bb6a576920d7064feb58c52089a10ca8c3c7b.wav",
+        "sha256": "3984eecf2b14008f209fb549273bb6a576920d7064feb58c52089a10ca8c3c7b",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"kʌts\">cuts</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "651Yl0bc8G1rHijBdDY7",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/craft-forms/form-craft-cut-third-person.pcm",
+        "sourceSha256": "270aa9efb4e9d96a08c67fbe2463a74c0f7eebe0ee1592677a60731949d69ed4",
+        "sourcePeak": 31198,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.8612411051990512,
+        "paddingFramesEachSide": 480,
+        "frames": 23251,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-craft-cut-past",
+        "path": "audio/5abaae46dee3f75c72e9ebd501b7b3312ad13bf3864c6ff25088eaa50282138f.wav",
+        "sha256": "5abaae46dee3f75c72e9ebd501b7b3312ad13bf3864c6ff25088eaa50282138f",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"kʌt\">cut</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "sourcePath": "authoring/audio/craft-forms/form-craft-cut-past.wav",
+        "sourceSha256": "5abaae46dee3f75c72e9ebd501b7b3312ad13bf3864c6ff25088eaa50282138f",
+        "sourceFullScaleSamples": 0,
+        "listening": "unverified-not-performed",
+        "reuse": "Existing exact input lookup and recorded bytes reused; no new provider request. Source is a retained WAV snapshot, not new original PCM.",
+        "providerCharacterCost": 0
+    },
+    {
+        "entryId": "en:word:form-craft-cut-present-participle",
+        "path": "audio/6e89a7b2bc46f4a9886d5137f67f479c59a1b280d1c0c04de2d941f03e3ea5ca.wav",
+        "sha256": "6e89a7b2bc46f4a9886d5137f67f479c59a1b280d1c0c04de2d941f03e3ea5ca",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈkʌtɪŋ\">cutting</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "jFklPAkZVXfeofey8clt",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/craft-forms/form-craft-cut-present-participle.pcm",
+        "sourceSha256": "ac3c39dfe04128c8658adb40a0f81501c78f0e4efc47cf3a5ff5caf2c42f2811",
+        "sourcePeak": 24068,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 22137,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-craft-fold-third-person",
+        "path": "audio/5ed06cbe8db02c3a07f004535498b4a4c036fd3cb96c7944efa9b85a4b8fa85f.wav",
+        "sha256": "5ed06cbe8db02c3a07f004535498b4a4c036fd3cb96c7944efa9b85a4b8fa85f",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"fəʊldz\">folds</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "ngjgMc7nTUT9kERytwuX",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/craft-forms/form-craft-fold-third-person.pcm",
+        "sourceSha256": "aea7261882092534c7ea965b022cdab7f0146a45baf15a13cb9462fada1c44f6",
+        "sourcePeak": 21696,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 25480,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-craft-fold-past",
+        "path": "audio/447ef771ef65112be6486d0b852d05d85693c8658afc37dda1eea718660338c9.wav",
+        "sha256": "447ef771ef65112be6486d0b852d05d85693c8658afc37dda1eea718660338c9",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈfəʊldɪd\">folded</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "srLOmB8PiEd3oeQtPs6P",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/craft-forms/form-craft-fold-past.pcm",
+        "sourceSha256": "336d2d609f2fa7fe4ecdf90fc915ff7b20eabbea1cc50dfd14fa691fb2fb9bbd",
+        "sourcePeak": 30237,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.8886132883553263,
+        "paddingFramesEachSide": 480,
+        "frames": 23251,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-craft-fold-present-participle",
+        "path": "audio/17c9a3eb2234e4e378fb42e38d5560ea02e672d233714328af3d8dc4729109a4.wav",
+        "sha256": "17c9a3eb2234e4e378fb42e38d5560ea02e672d233714328af3d8dc4729109a4",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈfəʊldɪŋ\">folding</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "gwss1McllzUg1AiVPEE3",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/craft-forms/form-craft-fold-present-participle.pcm",
+        "sourceSha256": "9122ff595d8fb3a6ce2fb6bf30070011a1b7c05145dfe8c687a91752d738befb",
+        "sourcePeak": 30192,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.8899377318494965,
+        "paddingFramesEachSide": 480,
+        "frames": 23251,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]

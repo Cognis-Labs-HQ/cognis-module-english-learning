@@ -1,0 +1,12 @@
+{
+    "existingDistinctInputsChecked": 1000,
+    "allSelectedAudioBytesPreserved": true,
+    "method": "Fetched every prior distinct language/label/role/reading input through createAudioProvider before and after expansion, comparing SHA-256 of returned WAV bytes. Optional synthesis disabled.",
+    "inventoryVersion": 2,
+    "rootIndexLines": 54,
+    "baselineFixture": {
+        "path": "authoring/reviews/audio-selection/craft-baseline.json.gz",
+        "sha256": "e3644d13427cc68a149168f05ce62276048fb978e91aaa672d5be3a1bb18ad85",
+        "inputCount": 1000
+    }
+}
