@@ -279,3 +279,4 @@ Menambahkan delapan contoh yang ditinjau satu per satu dan dua dek latihan denga
 - [e595ba6](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e595ba6b94e5ad46fe411cb69b82006dd0115f39)
 - [cca9bf2](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/cca9bf2c67e0b21a7146b280f4bc8247416627b1)
 - [419382d](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/419382d034a049c9c4c741359d0b6a5c44791ead)
+- [e35d759](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e35d7592bd04585e36320e0d02e80d509eaee08a)
