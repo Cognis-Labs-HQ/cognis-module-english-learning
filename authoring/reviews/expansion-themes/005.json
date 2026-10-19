@@ -1,5 +1,36 @@
 [
     {
+        "theme": "transport",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:transport-airplane",
+                "label": "airplane"
+            },
+            {
+                "entryId": "en:word:transport-boat",
+                "label": "boat"
+            },
+            {
+                "entryId": "en:word:transport-taxi",
+                "label": "taxi"
+            },
+            {
+                "entryId": "en:word:transport-motorcycle",
+                "label": "motorcycle"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:transport-example-airplane",
+            "en:sentence:transport-example-boat",
+            "en:sentence:transport-example-taxi",
+            "en:sentence:transport-example-motorcycle"
+        ],
+        "recordedGrammaticalFormCount": 4,
+        "vocabularyAudit": "authoring/reviews/transport-vocabulary.json"
+    },
+    {
         "theme": "vegetables",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -197,21 +228,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/daily.json"
-    },
-    {
-        "theme": "shopping",
-        "newDistinctVocabularyCount": 0,
-        "vocabulary": [],
-        "newExampleCount": 6,
-        "exampleIds": [
-            "en:sentence:shopping-want-small-bag",
-            "en:sentence:shopping-need-new-phone",
-            "en:sentence:shopping-buy-food",
-            "en:sentence:shopping-big-coat",
-            "en:sentence:shopping-like-hat",
-            "en:sentence:shopping-have-new-computer"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/shopping.json"
     }
 ]

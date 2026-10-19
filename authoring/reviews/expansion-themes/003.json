@@ -185,6 +185,29 @@
         "vocabularyAudit": "authoring/reviews/nature-vocabulary.json"
     },
     {
+        "theme": "outings",
+        "newDistinctVocabularyCount": 2,
+        "vocabulary": [
+            {
+                "entryId": "en:word:outings-museum",
+                "label": "museum"
+            },
+            {
+                "entryId": "en:word:outings-zoo",
+                "label": "zoo"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:outings-example-go-museum",
+            "en:sentence:outings-example-elephant-zoo",
+            "en:sentence:outings-example-city-museums",
+            "en:sentence:outings-example-like-zoos"
+        ],
+        "recordedGrammaticalFormCount": 2,
+        "vocabularyAudit": "authoring/reviews/outings-vocabulary.json"
+    },
+    {
         "theme": "places",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -237,36 +260,5 @@
         ],
         "recordedGrammaticalFormCount": 8,
         "vocabularyAudit": "authoring/reviews/posture-vocabulary.json"
-    },
-    {
-        "theme": "qualities",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:qualities-heavy",
-                "label": "heavy"
-            },
-            {
-                "entryId": "en:word:qualities-light",
-                "label": "light"
-            },
-            {
-                "entryId": "en:word:qualities-easy",
-                "label": "easy"
-            },
-            {
-                "entryId": "en:word:qualities-difficult",
-                "label": "difficult"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:qualities-example-heavy",
-            "en:sentence:qualities-example-light",
-            "en:sentence:qualities-example-easy",
-            "en:sentence:qualities-example-difficult"
-        ],
-        "recordedGrammaticalFormCount": 8,
-        "vocabularyAudit": "authoring/reviews/qualities-vocabulary.json"
     }
 ]

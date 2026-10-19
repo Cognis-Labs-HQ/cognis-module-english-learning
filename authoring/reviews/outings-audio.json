@@ -1,0 +1,66 @@
+[
+    {
+        "entryId": "en:word:outings-museum",
+        "path": "audio/0ebcd39087d27f0b45b89441af4022006d250d853212f794e980da03a38d0dc0.wav",
+        "sha256": "0ebcd39087d27f0b45b89441af4022006d250d853212f794e980da03a38d0dc0",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"mjuˈziːəm\">museum</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "JiHG9R1fCwbLyUpnmEso",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/outings/outings-museum.pcm",
+        "sourceSha256": "f600719041cda60fb16f6fc1ff2da70c57236898576dc7903b9c243a4163f578",
+        "sourcePeak": 22950,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 23251,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:outings-zoo",
+        "path": "audio/50fa14a757a67251164680ca05c0babf6c88f7fcdc09e8600d9d7de72b32c15a.wav",
+        "sha256": "50fa14a757a67251164680ca05c0babf6c88f7fcdc09e8600d9d7de72b32c15a",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"zuː\">zoo</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "r4hdQgz0qAeVGWrSWLFD",
+            "character-cost": "2",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/outings/outings-zoo.pcm",
+        "sourceSha256": "6400aa308caae2dc3ba5f47abcd57fa011dbecab7cac46dc9d7acbb66392fec6",
+        "sourcePeak": 12590,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 18793,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]

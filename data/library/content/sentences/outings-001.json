@@ -1,0 +1,183 @@
+[
+    {
+        "id": "en:sentence:outings-example-go-museum",
+        "label": "We go to the museum.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/0b63d525d3a31dd3996c63a58abad6bc4b357f562d539bba8c6223766b01ecc0.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:go",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:to",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:outings-museum",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:outings-example-go-museum",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:outings-example-elephant-zoo",
+        "label": "I see an elephant at the zoo.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/3bbbad3bfea71927b9cd41f3caf8c0a8ab91a6ae3dfca42d614e5b0fd39b8b1a.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:see",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:an",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:wildlife-elephant",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:at",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:word:outings-zoo",
+                "relation": "words",
+                "position": 6
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 7
+            },
+            {
+                "entryId": "en:definition:outings-example-elephant-zoo",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:outings-example-city-museums",
+        "label": "The museums are in the city.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/5ef40de4ebe83d80a6b358958ccbb4f36694ddd24432192955545ca56a3df2df.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-outings-museums",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-are",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:city",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:outings-example-city-museums",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:outings-example-like-zoos",
+        "label": "I like zoos.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/f0e1f139e644bff9bc5a965e06d56780f02293764dc9173ff8d6d394e8773996.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:like",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-outings-zoos",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:outings-example-like-zoos",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

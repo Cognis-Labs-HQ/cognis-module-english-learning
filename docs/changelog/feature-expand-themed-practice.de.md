@@ -258,6 +258,10 @@ Hard/soft und かたい/やわらかい mit vier geprüften Druckdarstellungen u
 
 Ball/racket und ボール/ラケット mit vier geprüften Gerätebildern und vier Beispielen je Sprache ergänzt. Die Sportbedeutungen werden ausgewählt, ボール und ボウル unterschieden und Langvokal sowie kleines っ erhalten. Exakte Pluralaufnahmen unterstützen englische Beispiele; japanische Beispiele üben Geben und Empfangen. Quellen, Originale und PCM bleiben; die Hörprüfung steht aus.
 
+## Ausflüge ins Museum und in den Zoo
+
+Museum/zoo und はくぶつかん/どうぶつえん mit vier geprüften Ortsbildern und vier abwechslungsreichen Beispielen je Sprache ergänzt. Hinweise erklären den Bedeutungsumfang von Museum und bewahren vollständige Lesungen. Museums/zoos haben exakte Aufnahmen; Beispiele üben Ziele, Besichtigen und Warten auf einen Freund. Quellen, Originale und PCM bleiben; die Hörprüfung steht aus.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

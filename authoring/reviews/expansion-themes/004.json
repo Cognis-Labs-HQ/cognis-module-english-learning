@@ -1,5 +1,36 @@
 [
     {
+        "theme": "qualities",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:qualities-heavy",
+                "label": "heavy"
+            },
+            {
+                "entryId": "en:word:qualities-light",
+                "label": "light"
+            },
+            {
+                "entryId": "en:word:qualities-easy",
+                "label": "easy"
+            },
+            {
+                "entryId": "en:word:qualities-difficult",
+                "label": "difficult"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:qualities-example-heavy",
+            "en:sentence:qualities-example-light",
+            "en:sentence:qualities-example-easy",
+            "en:sentence:qualities-example-difficult"
+        ],
+        "recordedGrammaticalFormCount": 8,
+        "vocabularyAudit": "authoring/reviews/qualities-vocabulary.json"
+    },
+    {
         "theme": "reading-time",
         "newDistinctVocabularyCount": 1,
         "vocabulary": [
@@ -252,36 +283,5 @@
         "exampleIds": [],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/time-vocabulary.json"
-    },
-    {
-        "theme": "transport",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:transport-airplane",
-                "label": "airplane"
-            },
-            {
-                "entryId": "en:word:transport-boat",
-                "label": "boat"
-            },
-            {
-                "entryId": "en:word:transport-taxi",
-                "label": "taxi"
-            },
-            {
-                "entryId": "en:word:transport-motorcycle",
-                "label": "motorcycle"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:transport-example-airplane",
-            "en:sentence:transport-example-boat",
-            "en:sentence:transport-example-taxi",
-            "en:sentence:transport-example-motorcycle"
-        ],
-        "recordedGrammaticalFormCount": 4,
-        "vocabularyAudit": "authoring/reviews/transport-vocabulary.json"
     }
 ]
