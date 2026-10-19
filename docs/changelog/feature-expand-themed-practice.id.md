@@ -69,3 +69,4 @@ Tambahkan kiri, kanan, utara, dan selatan dengan empat contoh lokasi dan dek lat
 - [cb19b51](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/cb19b51cfc72a76fa2e57914926f8f4d733ced70)
 - [c8d9420](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c8d94200941224cf07ba46c6a2da97356a1e08d4)
 - [e32a504](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e32a5047f6c746d7c4bad085ebce4629bd8727ef)
+- [3721b7b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/3721b7b3522a3b831437c78240dc93154dff053b)
