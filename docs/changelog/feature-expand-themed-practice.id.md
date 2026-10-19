@@ -294,3 +294,4 @@ Menambahkan deep dan shallow serta ふかい dan あさい dengan empat ilustras
 - [e35d759](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e35d7592bd04585e36320e0d02e80d509eaee08a)
 - [3fa46c3](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/3fa46c3075e6b962f0a26de858861f3f3e92578f)
 - [d3d78b6](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d3d78b677eb258c39c4d75c53eb31d84b68d8a28)
+- [5b3cf38](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/5b3cf384ebc2a7d1ea3a871f8be5a41139a85123)
