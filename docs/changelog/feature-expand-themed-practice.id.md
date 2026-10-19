@@ -38,3 +38,5 @@ Enam contoh belanja dan satu dek latihan membahas pilihan, kebutuhan, deskripsi,
 - [8110de7](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/8110de7d0f036602b01c5e4e5785dcf1f9fe69a4)
 - [25a5ff9](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/25a5ff9fb66ef36981c2f37b60e7e84776048be7)
 - [914c4c7](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/914c4c7299f9b93800af2a2dfc5ec92c91ec31e0)
+- [580a2c1](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/580a2c103e95c9acda0234292232488c26f9f43f)
+- [e9994bc](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e9994bcd8aa12658e3128e051e0d06964b8c7263)
