@@ -74,7 +74,7 @@ Free Dictionary liefert getrennte Vorschläge je Wortart mit ausschließlich pas
 
 ## Sprache und Aufnahmen
 
-Das Paket enthält geprüfte WAV-Aufnahmen für jede vertonte kuratierte Karte, jedes Zeichen, jede Partikel und jede erreichbare Schematransformation, einschließlich Pluralformen und mehrstufiger Verbformen. `gJx1vCzNCD1EQHT212Ls` ist die festgelegte Stimme dieser Sprache. `data/audio/recordings.json` dokumentiert Anforderungen, Stimme, Modell, Einstellungen, Transformationspfade und Prüfsummen; Zugangsdaten und Erzeugungswerkzeuge werden nicht mitgeliefert.
+Mitgelieferte WAV-Dateien werden auf Prüfsumme, Format und PCM-Integrität geprüft. Die Prüfung durch Anhören wird getrennt dokumentiert und kann unbestätigt sein. `data/audio/recordings.json` führt vorhandene Aufnahmen und Zusammensetzungen auf. `data/audio/unavailable.json` nennt Karten ohne mitgelieferte Audiodatei ausdrücklich; fehlende Aufnahmen sind keine Wiedergabe-URLs. Die festgelegte Stimme ist `gJx1vCzNCD1EQHT212Ls`. Zugangsdaten und Offline-Erzeugungswerkzeuge werden nicht mitgeliefert.
 
 Sätze verwenden exakt die PCM-Abtastwerte ihrer geordneten Wort- und Partikelaufnahmen einschließlich ausgewählter Transformationen. Gebündelte Sätze behalten dadurch dieselbe Stimme und Aussprache wie die Einzelwiedergabe. Neue Sätze verwenden die Zusammenstellung des Hosts; eine fehlende Variante darf niemals durch die Aussprache der Grundform ersetzt werden. Die Aufnahmen decken das kuratierte Paket ab, nicht sämtliche Wörterbucheinträge oder mögliche selbst verfasste Sätze.
 

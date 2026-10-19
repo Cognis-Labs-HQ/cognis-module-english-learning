@@ -22,6 +22,10 @@ Add twelve illustrated travel words, their reviewed grammatical forms, eight com
 
 Add six varied mealtime sentences and a practice deck, reusing existing vocabulary and exact constituent audio. The new compositions have technical integrity checks; listening has not been verified.
 
+## Daily Routines
+
+Add six daily-routine examples and a practice deck, covering time, place, company and direction with existing vocabulary and exact constituent audio.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

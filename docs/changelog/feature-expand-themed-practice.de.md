@@ -22,6 +22,10 @@ Zwölf bebilderte Reisewörter mit geprüften grammatischen Formen, acht aus ver
 
 Sechs abwechslungsreiche Sätze zum Essen und ein Übungsdeck verwenden vorhandenen Wortschatz und unveränderte Wortaufnahmen. Die neuen Audiokombinationen sind technisch geprüft, aber nicht durch Anhören bestätigt.
 
+## Tägliche Abläufe
+
+Sechs Alltagsbeispiele und ein Übungsdeck behandeln Zeit, Ort, Begleitung und Richtung mit vorhandenem Wortschatz und unveränderten Wortaufnahmen.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

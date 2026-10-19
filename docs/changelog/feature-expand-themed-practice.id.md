@@ -22,6 +22,10 @@ Tambahkan dua belas kata perjalanan bergambar, bentuk tata bahasa yang ditinjau,
 
 Tambahkan enam kalimat bervariasi tentang makanan dan satu dek latihan dengan kosakata serta audio unsur yang sudah ada. Integritas teknis gabungan audio diperiksa; verifikasi dengan mendengarkan belum dilakukan.
 
+## Rutinitas Harian
+
+Enam contoh rutinitas harian dan satu dek latihan membahas waktu, tempat, teman beraktivitas, dan arah dengan kosakata serta audio unsur yang sudah ada.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)
