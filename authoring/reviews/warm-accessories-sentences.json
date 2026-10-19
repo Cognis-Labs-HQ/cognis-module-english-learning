@@ -1,0 +1,250 @@
+[
+    {
+        "entryId": "en:sentence:warm-accessories-example-need-scarf",
+        "label": "I need a scarf.",
+        "reading": null,
+        "meanings": {
+            "en": "I need a scarf.",
+            "de": "Ich brauche einen Schal.",
+            "id": "Saya membutuhkan syal.",
+            "ja": "マフラーが必要です。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:need",
+            "en:word:a",
+            "en:word:warm-accessories-scarf",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/dcf6ae96b88e3daee842b22a94ecfc097cc78bef9d9bba017c6b1ae8275b9356.wav",
+        "sha256": "dcf6ae96b88e3daee842b22a94ecfc097cc78bef9d9bba017c6b1ae8275b9356",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Singular count noun scarf follows a; need takes a direct object. Japanese localization selects warm neckwear, not an exhaust muffler.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:need",
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"niːd\">need</phoneme>.",
+                "sha256": "6080e14b7e4dca1867a955d4e5a2120225e3c5445e66756da8c70acb55add49b"
+            },
+            {
+                "entryId": "en:word:a",
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ə\">a</phoneme>.",
+                "sha256": "7d5073e6c6c8c87efc2dd90a7e4f16a47f23ab71a57c34ced6daf13082d53f07"
+            },
+            {
+                "entryId": "en:word:warm-accessories-scarf",
+                "path": "audio/095f8dc33811e2e5e2a31c1e24c340ec8baf4b59abf0d22fe5baef8cc5977e85.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"skɑːf\">scarf</phoneme>.",
+                "sha256": "6616551c2a136e87c9b19e694852fd1579aab88304c33156d8bc27920a7830a2"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/warm-accessories-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    },
+    {
+        "entryId": "en:sentence:warm-accessories-example-gloves-bag",
+        "label": "The gloves are in the bag.",
+        "reading": null,
+        "meanings": {
+            "en": "The gloves are in the bag.",
+            "de": "Die Handschuhe sind in der Tasche.",
+            "id": "Sarung tangannya ada di dalam tas.",
+            "ja": "手袋はかばんの中にあります。"
+        },
+        "constituentIds": [
+            "en:word:capital-the",
+            "en:word:form-warm-accessories-gloves",
+            "en:word:form-english-be-are",
+            "en:particle:in",
+            "en:word:the",
+            "en:word:bag",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/cc3e232be624290b9834ea7d3e0709e0d5ffd75147a35e6d4bd9b9c7e3352cda.wav",
+        "sha256": "cc3e232be624290b9834ea7d3e0709e0d5ffd75147a35e6d4bd9b9c7e3352cda",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Plural gloves agrees with are. In locates the gloves inside the bag. Exact /vz/ plural recording is selected.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-the",
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">The</phoneme>.",
+                "sha256": "8afecb26db8f5442c31c18cc1a16c18c0649b2dd6694ed6071ffa43d5db5f99a"
+            },
+            {
+                "entryId": "en:word:form-warm-accessories-gloves",
+                "path": "audio/f5a94c9a31915f40547db2948dd243f3664fe9afee2821904fd2d8babfc06f8e.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɡlʌvz\">gloves</phoneme>.",
+                "sha256": "98863b1662c134bbe361eef0adecd096e4bcee970a724d68ac126487aa288861"
+            },
+            {
+                "entryId": "en:word:form-english-be-are",
+                "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɑː\">are</phoneme>.",
+                "sha256": "d511dbfad5cab5ad5e54d8eb8a01d3f2c90c7e3aef5dc825c7509656c202ae94"
+            },
+            {
+                "entryId": "en:particle:in",
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "in.",
+                "sha256": "807a72639918b348ca21ef14c205120a00e9e821a711fad6bbe065c5c53d756b"
+            },
+            {
+                "entryId": "en:word:the",
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">the</phoneme>.",
+                "sha256": "b2de03d0a472a2c128fb577f21214734327c9ea284305cddf02da7e534c37d9c"
+            },
+            {
+                "entryId": "en:word:bag",
+                "path": "audio/73013127fed0ea0a484238e0a4ba76df65fdb9996877d6dd180f519f856585fe.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"bæɡ\">bag</phoneme>.",
+                "sha256": "f0417c4ed9de4a7cae80037c54c39444e638cf92d8d479b05e5a2127da0425b7"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/warm-accessories-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    },
+    {
+        "entryId": "en:sentence:warm-accessories-example-wash-scarves",
+        "label": "I wash the scarves.",
+        "reading": null,
+        "meanings": {
+            "en": "I wash the scarves.",
+            "de": "Ich wasche die Schals.",
+            "id": "Saya mencuci syal-syal itu.",
+            "ja": "それらのマフラーを洗います。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:household-wash",
+            "en:word:the",
+            "en:word:form-warm-accessories-scarves",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/e7322b7bd530d4ac0f312a5f4312a435fb6266914095dbae90384e061059c7e7.wav",
+        "sha256": "e7322b7bd530d4ac0f312a5f4312a435fb6266914095dbae90384e061059c7e7",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Scarves is the preferred plural of scarf, with /f/ changing to /vz/. The plural is retained in German and Indonesian and made explicit by それら in Japanese. Exact plural PCM is used.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:household-wash",
+                "path": "audio/f871f020b3de15eef5914b6e3de3d22cbd60473330c2bdfa30976783eb09b34a.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"wɒʃ\">wash</phoneme>.",
+                "sha256": "30347c996fdce6ec1c10dfb37f2ca9d6941991611b206d3e688cc4894fe8dde5"
+            },
+            {
+                "entryId": "en:word:the",
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">the</phoneme>.",
+                "sha256": "b2de03d0a472a2c128fb577f21214734327c9ea284305cddf02da7e534c37d9c"
+            },
+            {
+                "entryId": "en:word:form-warm-accessories-scarves",
+                "path": "audio/0b451518c1b7c4334a10b8e2a18fd28ad875f2d0a31340e14fade07f075aea39.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"skɑːvz\">scarves</phoneme>.",
+                "sha256": "d3f9e61f3b563620b8e3e57a9d9e305aeeb7b555319f9d8fe787585a817a800d"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/warm-accessories-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    },
+    {
+        "entryId": "en:sentence:warm-accessories-example-small-glove",
+        "label": "The glove is small.",
+        "reading": null,
+        "meanings": {
+            "en": "The glove is small.",
+            "de": "Der Handschuh ist klein.",
+            "id": "Sarung tangan itu kecil.",
+            "ja": "その手袋は小さいです。"
+        },
+        "constituentIds": [
+            "en:word:capital-the",
+            "en:word:warm-accessories-glove",
+            "en:word:form-english-be-is",
+            "en:word:small",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/e9c2060da43e761d476ebd2009cd75aed4bc9c551659805d14f18b6a4130f79e.wav",
+        "sha256": "e9c2060da43e761d476ebd2009cd75aed4bc9c551659805d14f18b6a4130f79e",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Singular glove agrees with is. Small describes size, not the number of fingers.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-the",
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">The</phoneme>.",
+                "sha256": "8afecb26db8f5442c31c18cc1a16c18c0649b2dd6694ed6071ffa43d5db5f99a"
+            },
+            {
+                "entryId": "en:word:warm-accessories-glove",
+                "path": "audio/2084a24b2fa12039f8e919b8060d981a557a1e82608ef8554cff7a48fcad7419.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɡlʌv\">glove</phoneme>.",
+                "sha256": "4e83865f9b2a2a6efa22a04319d7f734c6492605cd289f5fae285223d5e515f8"
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɪz\">is</phoneme>.",
+                "sha256": "8ddf540a1b70b081638155835213ea9562b8fd89bc891d336f9c33607bfb023f"
+            },
+            {
+                "entryId": "en:word:small",
+                "path": "audio/de7a4bdecea3025be9ba5d3c667402f47cc1b671aca28db38ab59239fb3d54ca.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"smɔːl\">small</phoneme>.",
+                "sha256": "2cd109d4cf879100fcc2aca0eae33143a90700dd16daad165e6d66d9f81f4090"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/warm-accessories-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    }
+]

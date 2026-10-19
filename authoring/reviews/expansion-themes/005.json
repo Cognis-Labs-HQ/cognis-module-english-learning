@@ -1,5 +1,36 @@
 [
     {
+        "theme": "weather",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:weather-sun",
+                "label": "sun"
+            },
+            {
+                "entryId": "en:word:weather-snow",
+                "label": "snow"
+            },
+            {
+                "entryId": "en:word:weather-wind",
+                "label": "wind"
+            },
+            {
+                "entryId": "en:word:weather-cloud",
+                "label": "cloud"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:weather-example-sun",
+            "en:sentence:weather-example-snow",
+            "en:sentence:weather-example-wind",
+            "en:sentence:weather-example-cloud"
+        ],
+        "recordedGrammaticalFormCount": 1,
+        "vocabularyAudit": "authoring/reviews/weather-vocabulary.json"
+    },
+    {
         "theme": "width",
         "newDistinctVocabularyCount": 2,
         "vocabulary": [
@@ -160,21 +191,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/classroom-sentences.json"
-    },
-    {
-        "theme": "restaurant",
-        "newDistinctVocabularyCount": 0,
-        "vocabulary": [],
-        "newExampleCount": 6,
-        "exampleIds": [
-            "en:sentence:restaurant-1",
-            "en:sentence:restaurant-2",
-            "en:sentence:restaurant-3",
-            "en:sentence:restaurant-4",
-            "en:sentence:restaurant-5",
-            "en:sentence:restaurant-6"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/restaurant-sentences.json"
     }
 ]

@@ -246,6 +246,10 @@ Menambahkan deep dan shallow serta ふかい dan あさい dengan empat ilustras
 
 Menambahkan bright dan dark serta あかるい dan くらい dengan empat ilustrasi ruangan yang diperiksa dan empat contoh per bahasa. Catatan membedakan pencahayaan dari warna, kecerdasan dan kepribadian. Bentuk perbandingan Inggris serta bentuk adverbial, negatif dan lampau Jepang mempertahankan rekaman yang tepat. Sumber, gambar asli dan PCM disimpan; pendengaran belum diperiksa.
 
+## Syal dan sarung tangan
+
+Menambahkan scarf/glove dan マフラー/てぶくろ dengan empat gambar yang diperiksa serta empat contoh per bahasa. Scarves/gloves memakai rekaman jamak yang tepat. Catatan membedakan syal dari peredam knalpot dan menjelaskan jumlah serta cakupan mitten dalam bahasa Jepang. Sumber, gambar asli dan PCM disimpan; pendengaran belum diperiksa.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

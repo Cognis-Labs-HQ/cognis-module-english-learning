@@ -274,34 +274,26 @@
         "vocabularyAudit": "authoring/reviews/vegetables-vocabulary.json"
     },
     {
-        "theme": "weather",
-        "newDistinctVocabularyCount": 4,
+        "theme": "warm-accessories",
+        "newDistinctVocabularyCount": 2,
         "vocabulary": [
             {
-                "entryId": "en:word:weather-sun",
-                "label": "sun"
+                "entryId": "en:word:warm-accessories-scarf",
+                "label": "scarf"
             },
             {
-                "entryId": "en:word:weather-snow",
-                "label": "snow"
-            },
-            {
-                "entryId": "en:word:weather-wind",
-                "label": "wind"
-            },
-            {
-                "entryId": "en:word:weather-cloud",
-                "label": "cloud"
+                "entryId": "en:word:warm-accessories-glove",
+                "label": "glove"
             }
         ],
         "newExampleCount": 4,
         "exampleIds": [
-            "en:sentence:weather-example-sun",
-            "en:sentence:weather-example-snow",
-            "en:sentence:weather-example-wind",
-            "en:sentence:weather-example-cloud"
+            "en:sentence:warm-accessories-example-need-scarf",
+            "en:sentence:warm-accessories-example-gloves-bag",
+            "en:sentence:warm-accessories-example-wash-scarves",
+            "en:sentence:warm-accessories-example-small-glove"
         ],
-        "recordedGrammaticalFormCount": 1,
-        "vocabularyAudit": "authoring/reviews/weather-vocabulary.json"
+        "recordedGrammaticalFormCount": 2,
+        "vocabularyAudit": "authoring/reviews/warm-accessories-vocabulary.json"
     }
 ]

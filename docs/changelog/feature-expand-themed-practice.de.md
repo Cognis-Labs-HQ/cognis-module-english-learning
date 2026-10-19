@@ -246,6 +246,10 @@ Deep und shallow sowie ふかい und あさい mit vier geprüften Schüsselbild
 
 Bright und dark sowie あかるい und くらい mit vier geprüften Zimmerbildern und vier Kontextbeispielen je Sprache ergänzt. Hinweise unterscheiden Beleuchtung von Farbe, Intelligenz und Persönlichkeit. Englische Steigerungsformen und japanische adverbiale, verneinte und vergangene Formen behalten die exakten gewählten Aufnahmen. Quellen, Originalbilder und PCM bleiben erhalten; die Hörprüfung steht aus.
 
+## Schals und Handschuhe
+
+Scarf/glove und マフラー/てぶくろ mit vier geprüften Bildern und vier Kontextbeispielen je Sprache ergänzt. Scarves/gloves behalten exakte Pluralaufnahmen. Hinweise unterscheiden Schal und Auspuffschalldämpfer und erklären Zahl und Fäustlinge im Japanischen. Quellen, Originalbilder und PCM bleiben erhalten; die Hörprüfung steht aus.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)
