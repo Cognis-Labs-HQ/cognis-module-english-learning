@@ -122,6 +122,18 @@ Schüssel, Messer, Kochtopf und Pfanne mit geprüften Bildern in beiden Modulen 
 
 Kohl, Pilz, Spinat und Kopfsalat mit geprüften Bildern in beiden Modulen ergänzen, dazu drei englische Pluralformen, acht abwechslungsreiche Beispiele und zwei Stapel. Lebensmittelmengen von ganzen Pflanzen unterscheiden, lange Vokale in ほうれんそう und kleines ャ in キャベツ bewahren; kein Anfängerplural für spinach. Kumulative Themenzählung aktualisieren und bisherige Beispiele erhalten. Die Hörprüfung steht aus.
 
+## Räume und Garten
+
+Schlafzimmer, Badezimmer, Küche, Garten mit vier geprüften Bildern je Modul, vier englischen Pluralformen, acht eigenständig verfassten Beispielen und zwei Stapeln ergänzen. Lesungen und lokalisierte Bedeutungsunterschiede prüfen, exakte PCM-Bausteine und alle bisherigen Beispiele bewahren und die kumulative Wortzählung aktualisieren. Die Hörprüfung steht aus.
+
+## Natur in der Nähe
+
+Baum, Wald, Blatt, Stein mit vier geprüften Bildern je Modul, vier englischen Pluralformen, acht eigenständig verfassten Beispielen und zwei Stapeln ergänzen. Lesungen und lokalisierte Bedeutungsunterschiede prüfen, exakte PCM-Bausteine und alle bisherigen Beispiele bewahren und die kumulative Wortzählung aktualisieren. Die Hörprüfung steht aus.
+
+## Haushaltsausstattung
+
+Kühlschrank, Backofen, Spülbecken, Dusche mit vier geprüften Bildern je Modul, vier englischen Pluralformen, acht eigenständig verfassten Beispielen und zwei Stapeln ergänzen. Lesungen und lokalisierte Bedeutungsunterschiede prüfen, exakte PCM-Bausteine und alle bisherigen Beispiele bewahren und die kumulative Wortzählung aktualisieren. Die Hörprüfung steht aus.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

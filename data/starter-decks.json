@@ -841,5 +841,65 @@
             "en:sentence:vegetables-example-spinach",
             "en:sentence:vegetables-example-lettuce"
         ]
+    },
+    {
+        "key": "rooms-practice",
+        "name": {
+            "en": "Rooms and Garden",
+            "de": "Räume und Garten",
+            "id": "Ruangan dan Taman",
+            "ja": "部屋と庭"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:word:rooms-bedroom",
+            "en:word:rooms-bathroom",
+            "en:word:rooms-kitchen",
+            "en:word:rooms-garden",
+            "en:sentence:rooms-example-bedroom",
+            "en:sentence:rooms-example-bathroom",
+            "en:sentence:rooms-example-kitchen",
+            "en:sentence:rooms-example-garden"
+        ]
+    },
+    {
+        "key": "nature-practice",
+        "name": {
+            "en": "Nature Nearby",
+            "de": "Natur in der Nähe",
+            "id": "Alam Sekitar",
+            "ja": "身近な自然"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:word:nature-tree",
+            "en:word:nature-forest",
+            "en:word:nature-leaf",
+            "en:word:nature-stone",
+            "en:sentence:nature-example-tree",
+            "en:sentence:nature-example-forest",
+            "en:sentence:nature-example-leaf",
+            "en:sentence:nature-example-stone"
+        ]
+    },
+    {
+        "key": "fixtures-practice",
+        "name": {
+            "en": "Household Fixtures",
+            "de": "Haushaltsausstattung",
+            "id": "Perlengkapan Rumah",
+            "ja": "家の設備"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:word:fixtures-fridge",
+            "en:word:fixtures-oven",
+            "en:word:fixtures-sink",
+            "en:word:fixtures-shower",
+            "en:sentence:fixtures-example-fridge",
+            "en:sentence:fixtures-example-oven",
+            "en:sentence:fixtures-example-sink",
+            "en:sentence:fixtures-example-shower"
+        ]
     }
 ]

@@ -1,0 +1,173 @@
+[
+    {
+        "id": "en:sentence:rooms-example-bedroom",
+        "label": "I sleep in my bedroom.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/4da1154fa5670866c6454224167bd797949571556056c67aa8a1f3157a9b695d.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:sleep",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:my",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:rooms-bedroom",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:rooms-example-bedroom",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:rooms-example-bathroom",
+        "label": "The bathroom is small.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/f086ff206cd2c05a36992a4fd43832780c3dbf6036bb3de0a93c9fc431dfb213.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:rooms-bathroom",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:small",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:rooms-example-bathroom",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:rooms-example-kitchen",
+        "label": "We cook in the kitchen.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/51039d8207422f8dfa513b7b48f80f9be99e9dd4822c74bd64c811252367548e.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:household-cook",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:rooms-kitchen",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:rooms-example-kitchen",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:rooms-example-garden",
+        "label": "They play in the garden.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/cd21e365dc589487c93e76bbf4664be2af772de3ed77bac79ba8fd33b340c260.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-they",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:play",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:rooms-garden",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:rooms-example-garden",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

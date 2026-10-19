@@ -1,0 +1,188 @@
+[
+    {
+        "id": "en:sentence:fixtures-example-fridge",
+        "label": "The milk is in the fridge.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/cc4274bc328b9db356ae114fc8218dedeeb34fb373578e0ad2b4f834fb95a759.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:milk",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:fixtures-fridge",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:fixtures-example-fridge",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:fixtures-example-oven",
+        "label": "The oven is hot.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/fadc9f2832fa8613711e70c0cbe9900891038afd363def4619da9e6c851df553.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:fixtures-oven",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:hot",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:fixtures-example-oven",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:fixtures-example-sink",
+        "label": "I wash the cup in the sink.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/1e7bf5b8bf1901726bf2a8eab1eb220b93e5761d7370272afd3aa8f50bb089a5.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:household-wash",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:tableware-cup",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:word:fixtures-sink",
+                "relation": "words",
+                "position": 6
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 7
+            },
+            {
+                "entryId": "en:definition:fixtures-example-sink",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:fixtures-example-shower",
+        "label": "We need a new shower.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/83953d4435b384780692a390506f0559913c8e1d301aa7ffd56c39e561388658.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:need",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:new",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:fixtures-shower",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:fixtures-example-shower",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

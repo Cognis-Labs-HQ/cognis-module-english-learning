@@ -122,6 +122,18 @@ Tambahkan mangkuk, pisau, panci, dan wajan pada kedua modul dengan gambar yang d
 
 Tambahkan kubis, jamur, bayam, dan selada pada kedua modul dengan gambar yang diperiksa, tiga bentuk jamak Inggris, delapan contoh bervariasi, dan dua dek. Bedakan makanan dari tanaman utuh, pertahankan vokal panjang dalam ほうれんそう dan ャ kecil dalam キャベツ, tanpa bentuk jamak pemula untuk spinach. Perbarui hitungan kumulatif dan pertahankan contoh lama. Pemeriksaan pendengaran belum dilakukan.
 
+## Ruangan dan Taman
+
+Tambahkan kamar tidur, kamar mandi, dapur, taman dengan empat gambar yang diperiksa per modul, empat bentuk jamak Inggris, delapan contoh yang ditulis tersendiri, dan dua dek. Periksa bacaan serta perbedaan makna, pertahankan PCM unsur yang tepat dan semua contoh lama, lalu perbarui hitungan kosakata kumulatif. Pemeriksaan pendengaran belum dilakukan.
+
+## Alam Sekitar
+
+Tambahkan pohon, hutan, daun, batu dengan empat gambar yang diperiksa per modul, empat bentuk jamak Inggris, delapan contoh yang ditulis tersendiri, dan dua dek. Periksa bacaan serta perbedaan makna, pertahankan PCM unsur yang tepat dan semua contoh lama, lalu perbarui hitungan kosakata kumulatif. Pemeriksaan pendengaran belum dilakukan.
+
+## Perlengkapan Rumah
+
+Tambahkan kulkas, oven, bak cuci, pancuran mandi dengan empat gambar yang diperiksa per modul, empat bentuk jamak Inggris, delapan contoh yang ditulis tersendiri, dan dua dek. Periksa bacaan serta perbedaan makna, pertahankan PCM unsur yang tepat dan semua contoh lama, lalu perbarui hitungan kosakata kumulatif. Pemeriksaan pendengaran belum dilakukan.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

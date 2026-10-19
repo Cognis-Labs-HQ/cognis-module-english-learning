@@ -50,6 +50,18 @@ for (const [theme, base, plural, reading] of [
     ["vegetables", "cabbage", "cabbages", "/ˈkæbɪdʒɪz/"],
     ["vegetables", "mushroom", "mushrooms", "/ˈmʌʃrʊmz/"],
     ["vegetables", "lettuce", "lettuces", "/ˈletɪsɪz/"],
+    ["rooms", "bedroom", "bedrooms", "/ˈbedruːmz/"],
+    ["rooms", "bathroom", "bathrooms", "/ˈbɑːθruːmz/"],
+    ["rooms", "kitchen", "kitchens", "/ˈkɪtʃɪnz/"],
+    ["rooms", "garden", "gardens", "/ˈɡɑːdnz/"],
+    ["nature", "tree", "trees", "/triːz/"],
+    ["nature", "forest", "forests", "/ˈfɒrɪsts/"],
+    ["nature", "leaf", "leaves", "/liːvz/"],
+    ["nature", "stone", "stones", "/stəʊnz/"],
+    ["fixtures", "fridge", "fridges", "/frɪdʒɪz/"],
+    ["fixtures", "oven", "ovens", "/ˈʌvnz/"],
+    ["fixtures", "sink", "sinks", "/sɪŋks/"],
+    ["fixtures", "shower", "showers", "/ˈʃaʊəz/"],
 ]) {
     test(`${base} plural spelling, IPA and recorded request agree`, async () => {
         const words = await load(

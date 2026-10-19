@@ -122,6 +122,18 @@ Add bowl, knife, pot and pan in both modules with inspected illustrations, four 
 
 Add cabbage, mushroom, spinach and lettuce in both modules with inspected illustrations, three English plural forms, eight varied examples and two decks. Distinguish food from whole-plant countability, retain long vowels in ほうれんそう and small ャ in キャベツ, and omit a beginner plural for spinach. Update cumulative theme accounting and preserve earlier examples. Listening remains unverified.
 
+## Rooms and Garden
+
+Add bedroom, bathroom, kitchen, garden with four inspected illustrations per module, four English plural forms, eight independently authored examples and two decks. Review native readings and localized sense distinctions, preserve exact constituent PCM and all earlier examples, and update cumulative vocabulary accounting. Listening remains unverified.
+
+## Nature Nearby
+
+Add tree, forest, leaf, stone with four inspected illustrations per module, four English plural forms, eight independently authored examples and two decks. Review native readings and localized sense distinctions, preserve exact constituent PCM and all earlier examples, and update cumulative vocabulary accounting. Listening remains unverified.
+
+## Household Fixtures
+
+Add fridge, oven, sink, shower with four inspected illustrations per module, four English plural forms, eight independently authored examples and two decks. Review native readings and localized sense distinctions, preserve exact constituent PCM and all earlier examples, and update cumulative vocabulary accounting. Listening remains unverified.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

@@ -1,0 +1,130 @@
+[
+    {
+        "entryId": "en:word:fixtures-fridge",
+        "path": "audio/598c34dccf9451efd9dc49009fc053b773d604c53b8457363561d195ee67d39a.wav",
+        "sha256": "598c34dccf9451efd9dc49009fc053b773d604c53b8457363561d195ee67d39a",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"frɪdʒ\">fridge</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "S4aV78o8b4gJYVfE3JX1",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/fixtures/fixtures-fridge.pcm",
+        "sourceSha256": "2cf8aa2419c88d43a8762d8407512fa4866d1396d40d433c292baa52509e4f5c",
+        "sourcePeak": 24792,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 22137,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:fixtures-oven",
+        "path": "audio/262399df4b1b214164f6b4139ce2a9bce21e811387231fa9c1a828852b2d49c6.wav",
+        "sha256": "262399df4b1b214164f6b4139ce2a9bce21e811387231fa9c1a828852b2d49c6",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈʌvn\">oven</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "ayS8Ot43enHQFwtHgTfQ",
+            "character-cost": "2",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/fixtures/fixtures-oven.pcm",
+        "sourceSha256": "757e56b9a052b9275390c33dbd172d55041fa63df17ee99fae876661549ee15f",
+        "sourcePeak": 17759,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 27709,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:fixtures-sink",
+        "path": "audio/6991089f64d9c43a2230866a24ca2b76d5c4c4799c63666515730eb189b13361.wav",
+        "sha256": "6991089f64d9c43a2230866a24ca2b76d5c4c4799c63666515730eb189b13361",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"sɪŋk\">sink</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "GrPTfMD1c5vJVwMj51ZP",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/fixtures/fixtures-sink.pcm",
+        "sourceSha256": "b23e13ffe951c94ed5e2fbcfaa0b338f3c8fd506e91b94ab49f44ab1f26fe74c",
+        "sourcePeak": 29137,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9221608264406082,
+        "paddingFramesEachSide": 480,
+        "frames": 19907,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:fixtures-shower",
+        "path": "audio/16bff6f07343b7a4096b42f648710f63dfe2ed2add86ce9753b74760296bd7d4.wav",
+        "sha256": "16bff6f07343b7a4096b42f648710f63dfe2ed2add86ce9753b74760296bd7d4",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈʃaʊə\">shower</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "kKNJhKwevVtm0Ff73ePD",
+            "character-cost": "2",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/fixtures/fixtures-shower.pcm",
+        "sourceSha256": "07a7bc9681ec01a2c6689a3188021d396f0e68915c28592b3b8f5225fc0a71e7",
+        "sourcePeak": 25779,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 19907,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]

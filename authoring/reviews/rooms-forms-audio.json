@@ -1,0 +1,130 @@
+[
+    {
+        "entryId": "en:word:form-rooms-bedrooms",
+        "path": "audio/b934388fafb8a997455237641358207c9248cfcbea4f6058ac20c846f3288af3.wav",
+        "sha256": "b934388fafb8a997455237641358207c9248cfcbea4f6058ac20c846f3288af3",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈbedruːmz\">bedrooms</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "CybbFwFGBQwWcnLwnQix",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/rooms-forms/form-rooms-bedrooms.pcm",
+        "sourceSha256": "f3daccebe096464a527e022fb19005878a3e45d0b6f8cbba0784ea193243dee7",
+        "sourcePeak": 30465,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.881962908255375,
+        "paddingFramesEachSide": 480,
+        "frames": 24366,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-rooms-bathrooms",
+        "path": "audio/2a14c8d646ed870857e2ea420663b035bd0b1eba3f22524fc00f57f4cd187d1c.wav",
+        "sha256": "2a14c8d646ed870857e2ea420663b035bd0b1eba3f22524fc00f57f4cd187d1c",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈbɑːθruːmz\">bathrooms</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "kfzha6UskkmWR8evVhMR",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/rooms-forms/form-rooms-bathrooms.pcm",
+        "sourceSha256": "baab1e028c45ac710ef44fb2bb154190e9769e4b6cfb11a15605125de9562779",
+        "sourcePeak": 28594,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9396726585997063,
+        "paddingFramesEachSide": 480,
+        "frames": 27709,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-rooms-kitchens",
+        "path": "audio/9b847b2602df019832fb108bca416af1e1ac6dfaf675b19df40707eaffda4768.wav",
+        "sha256": "9b847b2602df019832fb108bca416af1e1ac6dfaf675b19df40707eaffda4768",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈkɪtʃɪnz\">kitchens</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "R5b8KhuQJDHmAo8FrT5q",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/rooms-forms/form-rooms-kitchens.pcm",
+        "sourceSha256": "620dd905bdd9c1d4e903786161ea0a04a90c1ef9eba840a8e0067f0573728065",
+        "sourcePeak": 27173,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9888124240974496,
+        "paddingFramesEachSide": 480,
+        "frames": 26595,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-rooms-gardens",
+        "path": "audio/658d5de85a2ac978008703a4811c44f807dd760435559bd60014dd9fe84839a4.wav",
+        "sha256": "658d5de85a2ac978008703a4811c44f807dd760435559bd60014dd9fe84839a4",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈɡɑːdnz\">gardens</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "a4OgEz4k7ISWswV4yykB",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/rooms-forms/form-rooms-gardens.pcm",
+        "sourceSha256": "9f5fdc11a36079f81704e3a787f649530ac677a695c8c9d64e2dccb37c02e042",
+        "sourcePeak": 28181,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9534438096589901,
+        "paddingFramesEachSide": 480,
+        "frames": 24366,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]

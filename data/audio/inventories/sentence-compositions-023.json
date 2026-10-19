@@ -258,5 +258,265 @@
             "listening": "unverified-not-performed",
             "construction": "Exact animals constituent PCM, including the English plural horses with its extra syllable."
         }
+    },
+    {
+        "path": "audio/c1cdc3a4391f7025695c8a07efaa41a7454b88644b9bb47d6d467618bc8c406e.wav",
+        "entryId": "en:sentence:fruit-example-peach",
+        "label": "We buy two peaches.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+                "entryId": "en:word:travel-buy"
+            },
+            {
+                "path": "audio/51b8f14fcdf9707ee8add50602f5ecabd4c6dd2396cb8901e8641d4c5371680d.wav",
+                "entryId": "en:word:two"
+            },
+            {
+                "path": "audio/f8d5804e7d7d92568c1517aae37cd478dcfb98ceeca8c3cd7441032afd4d51fa.wav",
+                "entryId": "en:word:form-fruit-peaches"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+                "entryId": "en:word:travel-buy",
+                "startFrame": 22112,
+                "frameCount": 19907
+            },
+            {
+                "path": "audio/51b8f14fcdf9707ee8add50602f5ecabd4c6dd2396cb8901e8641d4c5371680d.wav",
+                "entryId": "en:word:two",
+                "startFrame": 44179,
+                "frameCount": 9510
+            },
+            {
+                "path": "audio/f8d5804e7d7d92568c1517aae37cd478dcfb98ceeca8c3cd7441032afd4d51fa.wav",
+                "entryId": "en:word:form-fruit-peaches",
+                "startFrame": 55849,
+                "frameCount": 25480
+            }
+        ],
+        "sha256": "c1cdc3a4391f7025695c8a07efaa41a7454b88644b9bb47d6d467618bc8c406e",
+        "frames": 93089,
+        "input": {
+            "language": "en",
+            "label": "We buy two peaches.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact fruit constituent PCM, including the English plural peaches with its extra syllable."
+        }
+    },
+    {
+        "path": "audio/5b56de1a51c4e72f62f1ec6735134014a92e2e70faa7494d56077cbbb9a2c6c0.wav",
+        "entryId": "en:sentence:fruit-example-pear",
+        "label": "The pear is green.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/e45683591a1b560a7b213e6581ac8fee714104875c52833407ff487b73773df0.wav",
+                "entryId": "en:word:fruit-pear"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/db96542c1374b239273b03531b9960ca6d5d7eaf0fac9bbb879a2f0f4f55a4f5.wav",
+                "entryId": "en:word:colors-green"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/e45683591a1b560a7b213e6581ac8fee714104875c52833407ff487b73773df0.wav",
+                "entryId": "en:word:fruit-pear",
+                "startFrame": 12710,
+                "frameCount": 19907
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 34777,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/db96542c1374b239273b03531b9960ca6d5d7eaf0fac9bbb879a2f0f4f55a4f5.wav",
+                "entryId": "en:word:colors-green",
+                "startFrame": 47324,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "5b56de1a51c4e72f62f1ec6735134014a92e2e70faa7494d56077cbbb9a2c6c0",
+        "frames": 78991,
+        "input": {
+            "language": "en",
+            "label": "The pear is green.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact fruit constituent PCM, including the English plural peaches with its extra syllable."
+        }
+    },
+    {
+        "path": "audio/3b562b004304ba4765c58f35f8429bd91226774691cd9bc1424094003536aa0a.wav",
+        "entryId": "en:sentence:fruit-example-watermelon",
+        "label": "I eat watermelon in summer.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
+                "entryId": "en:word:eat"
+            },
+            {
+                "path": "audio/79c66feeb454f66a25c8bba59421e9e6602d7695894437f447bbd0384c33257f.wav",
+                "entryId": "en:word:fruit-watermelon"
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in"
+            },
+            {
+                "path": "audio/db662e7d1b002e52e40e93c11a8c52beda07d36ee4e49e234dc30b4cac32bdeb.wav",
+                "entryId": "en:word:seasons-summer"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
+                "entryId": "en:word:eat",
+                "startFrame": 11067,
+                "frameCount": 10258
+            },
+            {
+                "path": "audio/79c66feeb454f66a25c8bba59421e9e6602d7695894437f447bbd0384c33257f.wav",
+                "entryId": "en:word:fruit-watermelon",
+                "startFrame": 23485,
+                "frameCount": 27709
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in",
+                "startFrame": 53354,
+                "frameCount": 7315
+            },
+            {
+                "path": "audio/db662e7d1b002e52e40e93c11a8c52beda07d36ee4e49e234dc30b4cac32bdeb.wav",
+                "entryId": "en:word:seasons-summer",
+                "startFrame": 62829,
+                "frameCount": 18793
+            }
+        ],
+        "sha256": "3b562b004304ba4765c58f35f8429bd91226774691cd9bc1424094003536aa0a",
+        "frames": 93382,
+        "input": {
+            "language": "en",
+            "label": "I eat watermelon in summer.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact fruit constituent PCM, including the English plural peaches with its extra syllable."
+        }
+    },
+    {
+        "path": "audio/e0d22d72025686528025c492f079dad5907303de1cd163609cb93c6d69c276e9.wav",
+        "entryId": "en:sentence:fruit-example-pineapple",
+        "label": "She likes pineapple.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/c36a98159cd3599e0e3a4bcf704c2133e3a204f208b02467eaf2d409ad208da6.wav",
+                "entryId": "en:word:form-english-like-third-person"
+            },
+            {
+                "path": "audio/c9664a7eae119618c696133181404f698286048db0d5686208c3b0c933446364.wav",
+                "entryId": "en:word:fruit-pineapple"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/c36a98159cd3599e0e3a4bcf704c2133e3a204f208b02467eaf2d409ad208da6.wav",
+                "entryId": "en:word:form-english-like-third-person",
+                "startFrame": 14932,
+                "frameCount": 13186
+            },
+            {
+                "path": "audio/c9664a7eae119618c696133181404f698286048db0d5686208c3b0c933446364.wav",
+                "entryId": "en:word:fruit-pineapple",
+                "startFrame": 30278,
+                "frameCount": 24366
+            }
+        ],
+        "sha256": "e0d22d72025686528025c492f079dad5907303de1cd163609cb93c6d69c276e9",
+        "frames": 66404,
+        "input": {
+            "language": "en",
+            "label": "She likes pineapple.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact fruit constituent PCM, including the English plural peaches with its extra syllable."
+        }
     }
 ]
