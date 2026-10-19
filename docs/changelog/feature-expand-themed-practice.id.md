@@ -334,3 +334,4 @@ Memperluas dek Mengirim dan Membawa yang ada dari enam menjadi sepuluh kartu per
 - [7a7e580](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/7a7e58098c44678d3997ef21c9c2d13fcf444ba4)
 - [922a1b1](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/922a1b1741516ff7b49fde682e1d59d97021ef16)
 - [ef5b409](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef5b4093cd120a913ee22799c7ee01ac878291f8)
+- [4b6475c](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4b6475c65d861a08a1b7dcd794488d83cc38d29b)
