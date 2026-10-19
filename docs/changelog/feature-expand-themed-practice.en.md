@@ -86,6 +86,10 @@ Add six contextual examples and a daily-needs deck per module, covering water, u
 
 Add soap, towel, toothbrush and toothpaste with four inspected illustrations per module, exact base-word recordings, two English plural recordings and eight contextual examples. Localized notes explain countability and Japanese readings. Record image-count provenance and the current Japanese import constraint; preserve every existing sentence and all inflected audio. Listening remains unverified.
 
+## Getting Around
+
+Add airplane, boat, taxi and motorcycle with four inspected pictures per module, four English plural forms, eight natural examples and a transport deck. Explain regional English names, Japanese long vowels, the small-boat sense and Japanese-made オートバイ. Use the designated voices and exact constituent audio. Preserve every previous sentence and grammatical recording. Listening remains unverified.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

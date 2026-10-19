@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 32,
+    "version": 33,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -11028,6 +11028,186 @@
                     "pronunciation": {
                         "removeSuffix": "/ˈtuːθbrʌʃ/",
                         "append": "/ˈtuːθbrʌʃɪz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-airplane",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-airplane"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "airplane",
+                    "append": "airplanes",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈeəpleɪn/",
+                        "append": "/ˈeəpleɪnz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-boat",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-boat"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "boat",
+                    "append": "boats",
+                    "pronunciation": {
+                        "removeSuffix": "/bəʊt/",
+                        "append": "/bəʊts/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-taxi",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-taxi"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "taxi",
+                    "append": "taxis",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈtæksi/",
+                        "append": "/ˈtæksiz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (jamak)",
+                                "ja": "{{ definition }}（複数）"
+                            }
+                        }
+                    }
+                }
+            ],
+            "optInTag": "plural"
+        },
+        {
+            "id": "noun-motorcycle",
+            "metadata": {
+                "labels": {
+                    "en": "Noun Number",
+                    "de": "Substantivzahl",
+                    "id": "Jumlah Nomina",
+                    "ja": "名詞の数"
+                }
+            },
+            "matchTags": ["noun", "plural-motorcycle"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "motorcycle",
+                    "append": "motorcycles",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈməʊtəsaɪkl/",
+                        "append": "/ˈməʊtəsaɪklz/"
                     },
                     "definitionTransform": {
                         "template": {

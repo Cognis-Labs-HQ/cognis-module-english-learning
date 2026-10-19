@@ -86,6 +86,10 @@ Je Modul sechs Beispiele und einen Stapel zu Wasser, Besteck, Orten, Einkaufspl�
 
 Seife, Handtuch, Zahnbürste und Zahnpasta mit vier geprüften Bildern je Modul, genauen Wortaufnahmen, zwei englischen Pluralaufnahmen und acht Beispielen ergänzen. Lokalisierte Hinweise erklären Zählbarkeit und japanische Lesungen. Bildzahlen und die aktuelle japanische Importgrenze dokumentieren; alle bisherigen Sätze und Flexionsaufnahmen bewahren. Die Hörprüfung steht aus.
 
+## Unterwegs
+
+Flugzeug, Boot, Taxi und Motorrad mit vier geprüften Bildern je Modul, vier englischen Pluralformen, acht natürlichen Beispielen und einem Verkehrsstapel ergänzen. Regionale englische Namen, japanische Langvokale, kleine Boote und die japanische Wortbildung オートバイ erklären. Festgelegte Stimmen und exakte Audiosegmente verwenden. Alle bisherigen Sätze und Flexionsaufnahmen bewahren. Die Hörprüfung steht aus.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

@@ -1,0 +1,262 @@
+[
+    {
+        "path": "audio/04dfc91a10061e6406cd45578464d3d8b5cc1d11a5f5ec9934b664df1b31e1fa.wav",
+        "entryId": "en:sentence:transport-example-airplane",
+        "label": "I see two airplanes.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/9b7843aec097ccb2e88f205448cd59c4d13b573f9b025bfeea72a95a0c467851.wav",
+                "entryId": "en:word:see"
+            },
+            {
+                "path": "audio/51b8f14fcdf9707ee8add50602f5ecabd4c6dd2396cb8901e8641d4c5371680d.wav",
+                "entryId": "en:word:two"
+            },
+            {
+                "path": "audio/1dd6ac4ee65261bedbce46afd691a6dbe27f959bb83e63bdc4682347461eef49.wav",
+                "entryId": "en:word:form-transport-airplanes"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/9b7843aec097ccb2e88f205448cd59c4d13b573f9b025bfeea72a95a0c467851.wav",
+                "entryId": "en:word:see",
+                "startFrame": 11067,
+                "frameCount": 11091
+            },
+            {
+                "path": "audio/51b8f14fcdf9707ee8add50602f5ecabd4c6dd2396cb8901e8641d4c5371680d.wav",
+                "entryId": "en:word:two",
+                "startFrame": 24318,
+                "frameCount": 9510
+            },
+            {
+                "path": "audio/1dd6ac4ee65261bedbce46afd691a6dbe27f959bb83e63bdc4682347461eef49.wav",
+                "entryId": "en:word:form-transport-airplanes",
+                "startFrame": 35988,
+                "frameCount": 27709
+            }
+        ],
+        "sha256": "04dfc91a10061e6406cd45578464d3d8b5cc1d11a5f5ec9934b664df1b31e1fa",
+        "frames": 75457,
+        "input": {
+            "language": "en",
+            "label": "I see two airplanes.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact transport constituent PCM, including the English plural airplanes."
+        }
+    },
+    {
+        "path": "audio/5dd69de1c8d8ac069fb9c5faa45e153f94c3c6de25da238323b41ecc78ef8821.wav",
+        "entryId": "en:sentence:transport-example-boat",
+        "label": "We go by boat.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/42b81828f68c66abecf181e027005a9e134f7f4c0618553235928583db3f3fe4.wav",
+                "entryId": "en:word:go"
+            },
+            {
+                "path": "audio/bd04024b02ccfb1acb267613f4cb81cac9a887a044d4b7ab4f3da08e75c2a97c.wav",
+                "entryId": "en:particle:by"
+            },
+            {
+                "path": "audio/56763e975ead494533c40dc59395a126c381b0d8184ff7867d09b09508139a7c.wav",
+                "entryId": "en:word:transport-boat"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/42b81828f68c66abecf181e027005a9e134f7f4c0618553235928583db3f3fe4.wav",
+                "entryId": "en:word:go",
+                "startFrame": 22112,
+                "frameCount": 11545
+            },
+            {
+                "path": "audio/bd04024b02ccfb1acb267613f4cb81cac9a887a044d4b7ab4f3da08e75c2a97c.wav",
+                "entryId": "en:particle:by",
+                "startFrame": 35817,
+                "frameCount": 11602
+            },
+            {
+                "path": "audio/56763e975ead494533c40dc59395a126c381b0d8184ff7867d09b09508139a7c.wav",
+                "entryId": "en:word:transport-boat",
+                "startFrame": 49579,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "5dd69de1c8d8ac069fb9c5faa45e153f94c3c6de25da238323b41ecc78ef8821",
+        "frames": 81246,
+        "input": {
+            "language": "en",
+            "label": "We go by boat.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact transport constituent PCM, including the English plural airplanes."
+        }
+    },
+    {
+        "path": "audio/ef32a8663dfd8c00710d8b8abb386630b80cd2054e086785bcc6f14f1be50b35.wav",
+        "entryId": "en:sentence:transport-example-taxi",
+        "label": "I need a taxi.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/a7d7005bcbc32153422b6ab2ffd54abdf7bf764abe8279e70f55aaf5c647b625.wav",
+                "entryId": "en:word:transport-taxi"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need",
+                "startFrame": 11067,
+                "frameCount": 9927
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 23154,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/a7d7005bcbc32153422b6ab2ffd54abdf7bf764abe8279e70f55aaf5c647b625.wav",
+                "entryId": "en:word:transport-taxi",
+                "startFrame": 37854,
+                "frameCount": 22137
+            }
+        ],
+        "sha256": "ef32a8663dfd8c00710d8b8abb386630b80cd2054e086785bcc6f14f1be50b35",
+        "frames": 71751,
+        "input": {
+            "language": "en",
+            "label": "I need a taxi.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact transport constituent PCM, including the English plural airplanes."
+        }
+    },
+    {
+        "path": "audio/1b445e0f0240a4c1ba39d2e3f7ac0379f725480784840c49f7d3422803fa9448.wav",
+        "entryId": "en:sentence:transport-example-motorcycle",
+        "label": "She has a motorcycle.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/bda924c2c4116df9e3bfe3599856e66a2305d8fd57fc299ded5eec1d595f99c6.wav",
+                "entryId": "en:word:form-english-have-third-person"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/d46d47fe1e942d929c92f9aedacc00c3b95d8ed6150bd53cdaa2d7ac45cdba73.wav",
+                "entryId": "en:word:transport-motorcycle"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/bda924c2c4116df9e3bfe3599856e66a2305d8fd57fc299ded5eec1d595f99c6.wav",
+                "entryId": "en:word:form-english-have-third-person",
+                "startFrame": 14932,
+                "frameCount": 9951
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 27043,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/d46d47fe1e942d929c92f9aedacc00c3b95d8ed6150bd53cdaa2d7ac45cdba73.wav",
+                "entryId": "en:word:transport-motorcycle",
+                "startFrame": 41743,
+                "frameCount": 28824
+            }
+        ],
+        "sha256": "1b445e0f0240a4c1ba39d2e3f7ac0379f725480784840c49f7d3422803fa9448",
+        "frames": 82327,
+        "input": {
+            "language": "en",
+            "label": "She has a motorcycle.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact transport constituent PCM, including the English plural airplanes."
+        }
+    }
+]

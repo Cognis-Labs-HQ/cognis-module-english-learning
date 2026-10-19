@@ -1,0 +1,158 @@
+[
+    {
+        "id": "en:sentence:transport-example-airplane",
+        "label": "I see two airplanes.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/04dfc91a10061e6406cd45578464d3d8b5cc1d11a5f5ec9934b664df1b31e1fa.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:see",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:two",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:form-transport-airplanes",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:transport-example-airplane",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:transport-example-boat",
+        "label": "We go by boat.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/5dd69de1c8d8ac069fb9c5faa45e153f94c3c6de25da238323b41ecc78ef8821.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:go",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:by",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:transport-boat",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:transport-example-boat",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:transport-example-taxi",
+        "label": "I need a taxi.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/ef32a8663dfd8c00710d8b8abb386630b80cd2054e086785bcc6f14f1be50b35.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:need",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:transport-taxi",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:transport-example-taxi",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:transport-example-motorcycle",
+        "label": "She has a motorcycle.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/1b445e0f0240a4c1ba39d2e3f7ac0379f725480784840c49f7d3422803fa9448.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-have-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:transport-motorcycle",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:transport-example-motorcycle",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

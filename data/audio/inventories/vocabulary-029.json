@@ -486,5 +486,293 @@
             "listening": "unverified-not-performed",
             "sourcePcmSha256": "2aba6af8cbd7e0ec89cd4817e09016d0799a1d9ac132bfd13eaf475479ec8486"
         }
+    },
+    {
+        "path": "audio/9546233a612755a5713c596604a9c54dc6e2ae46b9e1edac46a9536c2a74c452.wav",
+        "text": "airplane",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈeəpleɪn\">airplane</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "airplane",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈeəpleɪn/"]
+            }
+        ],
+        "entries": ["en:word:transport-airplane"],
+        "variants": [],
+        "sha256": "9546233a612755a5713c596604a9c54dc6e2ae46b9e1edac46a9536c2a74c452",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "6f43174181ed5673efce8f93754c090a831d7404cdd4c4a5e0be2e4bb312e4fa"
+        }
+    },
+    {
+        "path": "audio/56763e975ead494533c40dc59395a126c381b0d8184ff7867d09b09508139a7c.wav",
+        "text": "boat",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"bəʊt\">boat</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "boat",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/bəʊt/"]
+            }
+        ],
+        "entries": ["en:word:transport-boat"],
+        "variants": [],
+        "sha256": "56763e975ead494533c40dc59395a126c381b0d8184ff7867d09b09508139a7c",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "1e89eb35f26d5e0e84acdfff8789e74d7764ade1908c2e9239f2c7139ae65fda"
+        }
+    },
+    {
+        "path": "audio/a7d7005bcbc32153422b6ab2ffd54abdf7bf764abe8279e70f55aaf5c647b625.wav",
+        "text": "taxi",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈtæksi\">taxi</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "taxi",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈtæksi/"]
+            }
+        ],
+        "entries": ["en:word:transport-taxi"],
+        "variants": [],
+        "sha256": "a7d7005bcbc32153422b6ab2ffd54abdf7bf764abe8279e70f55aaf5c647b625",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "17a4ec086bf2bb1e10283b5d6d25b926831bf2dfcccf98236fa57b182e9a8e2c"
+        }
+    },
+    {
+        "path": "audio/d46d47fe1e942d929c92f9aedacc00c3b95d8ed6150bd53cdaa2d7ac45cdba73.wav",
+        "text": "motorcycle",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈməʊtəsaɪkl\">motorcycle</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "motorcycle",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈməʊtəsaɪkl/"]
+            }
+        ],
+        "entries": ["en:word:transport-motorcycle"],
+        "variants": [],
+        "sha256": "d46d47fe1e942d929c92f9aedacc00c3b95d8ed6150bd53cdaa2d7ac45cdba73",
+        "frames": 28824,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "e2338a3d5e45e92b6a146363a860cb6f8678d878e53085f1aceca2ca886cd7ad"
+        }
+    },
+    {
+        "path": "audio/1dd6ac4ee65261bedbce46afd691a6dbe27f959bb83e63bdc4682347461eef49.wav",
+        "text": "airplanes",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈeəpleɪnz\">airplanes</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "airplanes",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈeəpleɪnz/"]
+            }
+        ],
+        "entries": ["en:word:form-transport-airplanes"],
+        "variants": [
+            {
+                "entryId": "en:word:transport-airplane",
+                "setId": "noun-airplane",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "1dd6ac4ee65261bedbce46afd691a6dbe27f959bb83e63bdc4682347461eef49",
+        "frames": 27709,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "2adfa7f4c1d02ad8671a14b3a7f8a6702d609e1b3d1dfd4e415fb0ddb94c7582"
+        }
+    },
+    {
+        "path": "audio/437007c149a958ece1947d437089974ce2bf51774980fa655e4e4b86aecacf82.wav",
+        "text": "boats",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"bəʊts\">boats</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "boats",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/bəʊts/"]
+            }
+        ],
+        "entries": ["en:word:form-transport-boats"],
+        "variants": [
+            {
+                "entryId": "en:word:transport-boat",
+                "setId": "noun-boat",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "437007c149a958ece1947d437089974ce2bf51774980fa655e4e4b86aecacf82",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "770804199ffdb962d3694710a62403baa0e8497c14627fc4246e7c76e4c51d05"
+        }
+    },
+    {
+        "path": "audio/e7167f4cb872271f11811a2f1824d4f5148376fbeef8b3b7865550af29afd6d5.wav",
+        "text": "taxis",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈtæksiz\">taxis</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "taxis",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈtæksiz/"]
+            }
+        ],
+        "entries": ["en:word:form-transport-taxis"],
+        "variants": [
+            {
+                "entryId": "en:word:transport-taxi",
+                "setId": "noun-taxi",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "e7167f4cb872271f11811a2f1824d4f5148376fbeef8b3b7865550af29afd6d5",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "ec970c3c1254bef8b2c5d19b65b01cdda95d008a98f1e608860e0133cfb6b9d2"
+        }
+    },
+    {
+        "path": "audio/d7d1af6a999e0bb1545c909e968048d4ebc11ec8457aee64136d989f68496410.wav",
+        "text": "motorcycles",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈməʊtəsaɪklz\">motorcycles</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "motorcycles",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈməʊtəsaɪklz/"]
+            }
+        ],
+        "entries": ["en:word:form-transport-motorcycles"],
+        "variants": [
+            {
+                "entryId": "en:word:transport-motorcycle",
+                "setId": "noun-motorcycle",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "d7d1af6a999e0bb1545c909e968048d4ebc11ec8457aee64136d989f68496410",
+        "frames": 31053,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "17935e7e4f99812b237e3c9daa29b7ef70fa6cea2cf911f3f84ad2c391e5a9da"
+        }
     }
 ]
