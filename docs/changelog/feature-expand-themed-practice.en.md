@@ -214,6 +214,10 @@ Add fox, bear, monkey and elephant with four distinct examples about habitat, mo
 
 Add push and pull with reviewed English regular endings and Japanese su/ku godan forms, inspected action illustrations and four varied examples. Examples cover a request, a past event, action in progress, manner, contrast and later action. Each language receives one focused deck. Exact constituent recordings and source evidence are retained; listening remains unverified.
 
+## Describing and comparing length
+
+Add long and short with English comparative and superlative recordings, Japanese i-adjective forms and inspected length comparisons. Four distinct examples cover a description, a needed or purchased object, comparison or degree, and location. Notes distinguish length from height and preserve the consonant in longer and longest. Exact recorded constituents and four-language meanings remain traceable; listening is unverified.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

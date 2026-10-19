@@ -214,6 +214,10 @@ Tambahkan rubah, beruang, monyet, dan gajah dengan empat contoh berbeda tentang 
 
 Menambahkan push dan pull dengan akhiran beraturan bahasa Inggris dan bentuk godan su/ku bahasa Jepang yang diperiksa, ilustrasi tindakan yang ditinjau, serta empat contoh berbeda. Contoh mencakup permintaan, kejadian lampau, tindakan berlangsung, cara, pertentangan, dan tindakan nanti. Setiap bahasa mendapat satu set kartu. Rekaman unsur yang tepat dan bukti sumber disimpan; pemeriksaan pendengaran belum dilakukan.
 
+## Menjelaskan dan membandingkan panjang
+
+Menambahkan long dan short dengan rekaman komparatif dan superlatif bahasa Inggris, bentuk adjektiva i bahasa Jepang, serta ilustrasi perbandingan panjang yang diperiksa. Empat contoh berbeda mencakup deskripsi, benda yang dibutuhkan atau dibeli, perbandingan atau derajat, dan lokasi. Catatan membedakan panjang dari tinggi badan serta mempertahankan konsonan pada longer dan longest. Rekaman unsur dan makna empat bahasa dapat ditelusuri; pendengaran belum diperiksa.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

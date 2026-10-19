@@ -258,34 +258,26 @@
         "vocabularyAudit": "authoring/reviews/kitchen-vocabulary.json"
     },
     {
-        "theme": "nature",
-        "newDistinctVocabularyCount": 4,
+        "theme": "length",
+        "newDistinctVocabularyCount": 2,
         "vocabulary": [
             {
-                "entryId": "en:word:nature-tree",
-                "label": "tree"
+                "entryId": "en:word:length-long",
+                "label": "long"
             },
             {
-                "entryId": "en:word:nature-forest",
-                "label": "forest"
-            },
-            {
-                "entryId": "en:word:nature-leaf",
-                "label": "leaf"
-            },
-            {
-                "entryId": "en:word:nature-stone",
-                "label": "stone"
+                "entryId": "en:word:length-short",
+                "label": "short"
             }
         ],
         "newExampleCount": 4,
         "exampleIds": [
-            "en:sentence:nature-example-tree",
-            "en:sentence:nature-example-forest",
-            "en:sentence:nature-example-leaf",
-            "en:sentence:nature-example-stone"
+            "en:sentence:length-example-ruler-length",
+            "en:sentence:length-example-pencil-need",
+            "en:sentence:length-example-skirt-comparison",
+            "en:sentence:length-example-longest-location"
         ],
         "recordedGrammaticalFormCount": 4,
-        "vocabularyAudit": "authoring/reviews/nature-vocabulary.json"
+        "vocabularyAudit": "authoring/reviews/length-vocabulary.json"
     }
 ]

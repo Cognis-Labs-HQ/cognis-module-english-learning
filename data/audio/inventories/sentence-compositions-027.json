@@ -1,0 +1,302 @@
+[
+    {
+        "path": "audio/90ae0aa497c0cfe3bf68c6405adcf628be63cc8464cb3e75c735ae92dcf332f0.wav",
+        "entryId": "en:sentence:length-example-ruler-length",
+        "label": "The ruler is long.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/99ecadfb9b0623b7c3fe91557040dfe1a4c87bcdf10fd7d7f25549dde56a29ac.wav",
+                "entryId": "en:word:school-ruler"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/33d425d2918799b116e629dcbfd04a96a6b49b7913a1782ebde1c259fb4dd39b.wav",
+                "entryId": "en:word:length-long"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/99ecadfb9b0623b7c3fe91557040dfe1a4c87bcdf10fd7d7f25549dde56a29ac.wav",
+                "entryId": "en:word:school-ruler",
+                "startFrame": 12710,
+                "frameCount": 22137
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 37007,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/33d425d2918799b116e629dcbfd04a96a6b49b7913a1782ebde1c259fb4dd39b.wav",
+                "entryId": "en:word:length-long",
+                "startFrame": 49554,
+                "frameCount": 34397
+            }
+        ],
+        "sha256": "90ae0aa497c0cfe3bf68c6405adcf628be63cc8464cb3e75c735ae92dcf332f0",
+        "frames": 95711,
+        "input": {
+            "language": "en",
+            "label": "The ruler is long.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/83d76d566bd4e001221de9739032b89703497a718f36f20aa0b4449c1a242fc6.wav",
+        "entryId": "en:sentence:length-example-pencil-need",
+        "label": "I need a short pencil.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/774f5a698a8e150b56239658b4ef76672287c22ad3c058d45057b50ebefa71b4.wav",
+                "entryId": "en:word:length-short"
+            },
+            {
+                "path": "audio/923a4d859a8d86b5a088328f9b634e5f7f6073802146cca458afd5f2e5f4f9dc.wav",
+                "entryId": "en:word:school-pencil"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need",
+                "startFrame": 11067,
+                "frameCount": 9927
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 23154,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/774f5a698a8e150b56239658b4ef76672287c22ad3c058d45057b50ebefa71b4.wav",
+                "entryId": "en:word:length-short",
+                "startFrame": 37854,
+                "frameCount": 22137
+            },
+            {
+                "path": "audio/923a4d859a8d86b5a088328f9b634e5f7f6073802146cca458afd5f2e5f4f9dc.wav",
+                "entryId": "en:word:school-pencil",
+                "startFrame": 62151,
+                "frameCount": 23251
+            }
+        ],
+        "sha256": "83d76d566bd4e001221de9739032b89703497a718f36f20aa0b4449c1a242fc6",
+        "frames": 97162,
+        "input": {
+            "language": "en",
+            "label": "I need a short pencil.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/5f71157b9213dfca75e92e317b79500941b43a11f4dbb619fd8c249bdbd0256b.wav",
+        "entryId": "en:sentence:length-example-skirt-comparison",
+        "label": "This skirt is shorter.",
+        "parts": [
+            {
+                "path": "audio/8f1a8820f4f39a725ae1e72a595127faccdf533771641521b849d3c94a6e3acd.wav",
+                "entryId": "en:word:capital-this"
+            },
+            {
+                "path": "audio/8b1d66eb13eb98a2ae5ed643e2b85c3a76c85359c9f7d42d06bfb43399da9191.wav",
+                "entryId": "en:word:clothing-skirt"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/f219db0877d219f8b424d1aa88b73da567aa5d7e57dcde8f0d038b29cbf8a715.wav",
+                "entryId": "en:word:form-length-short-comparative"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/8f1a8820f4f39a725ae1e72a595127faccdf533771641521b849d3c94a6e3acd.wav",
+                "entryId": "en:word:capital-this",
+                "startFrame": 2400,
+                "frameCount": 12058
+            },
+            {
+                "path": "audio/8b1d66eb13eb98a2ae5ed643e2b85c3a76c85359c9f7d42d06bfb43399da9191.wav",
+                "entryId": "en:word:clothing-skirt",
+                "startFrame": 16618,
+                "frameCount": 22137
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 40915,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/f219db0877d219f8b424d1aa88b73da567aa5d7e57dcde8f0d038b29cbf8a715.wav",
+                "entryId": "en:word:form-length-short-comparative",
+                "startFrame": 53462,
+                "frameCount": 23251
+            }
+        ],
+        "sha256": "5f71157b9213dfca75e92e317b79500941b43a11f4dbb619fd8c249bdbd0256b",
+        "frames": 88473,
+        "input": {
+            "language": "en",
+            "label": "This skirt is shorter.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/c0448658ea4c14311b0dfcd095625083c616e111a619fecfe77dbce9e81eaabd.wav",
+        "entryId": "en:sentence:length-example-longest-location",
+        "label": "The longest ruler is in the box.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/242262cfe3a78df72d773dfa6630711f5dfe64bfa7ff721a0e4b711ac644d512.wav",
+                "entryId": "en:word:form-length-long-superlative"
+            },
+            {
+                "path": "audio/99ecadfb9b0623b7c3fe91557040dfe1a4c87bcdf10fd7d7f25549dde56a29ac.wav",
+                "entryId": "en:word:school-ruler"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/10703bad0a3eae4370c7e8255c0e077054f9470eff2d7a85ae2ee8935031865c.wav",
+                "entryId": "en:word:containers-box"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/242262cfe3a78df72d773dfa6630711f5dfe64bfa7ff721a0e4b711ac644d512.wav",
+                "entryId": "en:word:form-length-long-superlative",
+                "startFrame": 12710,
+                "frameCount": 25480
+            },
+            {
+                "path": "audio/99ecadfb9b0623b7c3fe91557040dfe1a4c87bcdf10fd7d7f25549dde56a29ac.wav",
+                "entryId": "en:word:school-ruler",
+                "startFrame": 40350,
+                "frameCount": 22137
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 64647,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in",
+                "startFrame": 77194,
+                "frameCount": 7315
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 86669,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/10703bad0a3eae4370c7e8255c0e077054f9470eff2d7a85ae2ee8935031865c.wav",
+                "entryId": "en:word:containers-box",
+                "startFrame": 96979,
+                "frameCount": 23251
+            }
+        ],
+        "sha256": "c0448658ea4c14311b0dfcd095625083c616e111a619fecfe77dbce9e81eaabd",
+        "frames": 131990,
+        "input": {
+            "language": "en",
+            "label": "The longest ruler is in the box.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    }
+]

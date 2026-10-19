@@ -1,5 +1,36 @@
 [
     {
+        "theme": "tableware",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:tableware-cup",
+                "label": "cup"
+            },
+            {
+                "entryId": "en:word:tableware-plate",
+                "label": "plate"
+            },
+            {
+                "entryId": "en:word:tableware-spoon",
+                "label": "spoon"
+            },
+            {
+                "entryId": "en:word:tableware-fork",
+                "label": "fork"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:tableware-example-cup",
+            "en:sentence:tableware-example-plate",
+            "en:sentence:tableware-example-spoon",
+            "en:sentence:tableware-example-fork"
+        ],
+        "recordedGrammaticalFormCount": 4,
+        "vocabularyAudit": "authoring/reviews/tableware-vocabulary.json"
+    },
+    {
         "theme": "time",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -208,21 +239,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/daily.json"
-    },
-    {
-        "theme": "shopping",
-        "newDistinctVocabularyCount": 0,
-        "vocabulary": [],
-        "newExampleCount": 6,
-        "exampleIds": [
-            "en:sentence:shopping-want-small-bag",
-            "en:sentence:shopping-need-new-phone",
-            "en:sentence:shopping-buy-food",
-            "en:sentence:shopping-big-coat",
-            "en:sentence:shopping-like-hat",
-            "en:sentence:shopping-have-new-computer"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/shopping.json"
     }
 ]

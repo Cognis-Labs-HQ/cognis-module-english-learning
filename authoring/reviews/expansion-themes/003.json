@@ -1,5 +1,36 @@
 [
     {
+        "theme": "nature",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:nature-tree",
+                "label": "tree"
+            },
+            {
+                "entryId": "en:word:nature-forest",
+                "label": "forest"
+            },
+            {
+                "entryId": "en:word:nature-leaf",
+                "label": "leaf"
+            },
+            {
+                "entryId": "en:word:nature-stone",
+                "label": "stone"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:nature-example-tree",
+            "en:sentence:nature-example-forest",
+            "en:sentence:nature-example-leaf",
+            "en:sentence:nature-example-stone"
+        ],
+        "recordedGrammaticalFormCount": 4,
+        "vocabularyAudit": "authoring/reviews/nature-vocabulary.json"
+    },
+    {
         "theme": "places",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -257,36 +288,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/stationery-vocabulary.json"
-    },
-    {
-        "theme": "tableware",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:tableware-cup",
-                "label": "cup"
-            },
-            {
-                "entryId": "en:word:tableware-plate",
-                "label": "plate"
-            },
-            {
-                "entryId": "en:word:tableware-spoon",
-                "label": "spoon"
-            },
-            {
-                "entryId": "en:word:tableware-fork",
-                "label": "fork"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:tableware-example-cup",
-            "en:sentence:tableware-example-plate",
-            "en:sentence:tableware-example-spoon",
-            "en:sentence:tableware-example-fork"
-        ],
-        "recordedGrammaticalFormCount": 4,
-        "vocabularyAudit": "authoring/reviews/tableware-vocabulary.json"
     }
 ]
