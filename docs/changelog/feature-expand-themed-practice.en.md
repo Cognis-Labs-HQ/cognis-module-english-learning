@@ -26,6 +26,10 @@ Add six varied mealtime sentences and a practice deck, reusing existing vocabula
 
 Add six daily-routine examples and a practice deck, covering time, place, company and direction with existing vocabulary and exact constituent audio.
 
+## Shopping Choices
+
+Add six shopping examples and a practice deck for choices, needs, descriptions and purchases. Compose audio only where every exact constituent is available; explicitly identify missing recordings.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

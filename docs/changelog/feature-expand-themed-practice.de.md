@@ -26,6 +26,10 @@ Sechs abwechslungsreiche Sätze zum Essen und ein Übungsdeck verwenden vorhande
 
 Sechs Alltagsbeispiele und ein Übungsdeck behandeln Zeit, Ort, Begleitung und Richtung mit vorhandenem Wortschatz und unveränderten Wortaufnahmen.
 
+## Beim Einkaufen
+
+Sechs Einkaufsbeispiele und ein Übungsdeck behandeln Auswahl, Bedarf, Beschreibungen und Käufe. Audio wird nur aus vollständig vorhandenen passenden Wortaufnahmen zusammengesetzt; fehlende Aufnahmen sind ausdrücklich aufgeführt.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

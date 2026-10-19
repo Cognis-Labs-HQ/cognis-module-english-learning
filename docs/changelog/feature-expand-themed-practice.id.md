@@ -26,6 +26,10 @@ Tambahkan enam kalimat bervariasi tentang makanan dan satu dek latihan dengan ko
 
 Enam contoh rutinitas harian dan satu dek latihan membahas waktu, tempat, teman beraktivitas, dan arah dengan kosakata serta audio unsur yang sudah ada.
 
+## Pilihan Saat Berbelanja
+
+Enam contoh belanja dan satu dek latihan membahas pilihan, kebutuhan, deskripsi, dan pembelian. Audio digabungkan hanya jika semua rekaman unsur yang tepat tersedia; rekaman yang belum ada dicatat secara jelas.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

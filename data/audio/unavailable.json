@@ -133,6 +133,13 @@
             "label": "I read the map.",
             "reason": "not-generated-no-verified-spending-scope",
             "listening": "not-applicable-no-audio"
+        },
+        {
+            "entryId": "en:sentence:shopping-buy-food",
+            "label": "We buy food.",
+            "reason": "missing-exact-constituent-recordings",
+            "missingConstituentIds": ["en:word:travel-buy"],
+            "listening": "not-applicable-no-audio"
         }
     ]
 }
