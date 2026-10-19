@@ -79,3 +79,4 @@ Vier illustrierte Jahreszeiten, vier Aktivit√§tsbeispiele und einen gemischten √
 - [e32a504](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e32a5047f6c746d7c4bad085ebce4629bd8727ef)
 - [3721b7b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/3721b7b3522a3b831437c78240dc93154dff053b)
 - [1d340f0](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/1d340f0ad72490348f939d4eadfdb983d2f1c627)
+- [6a918c0](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/6a918c0667eef24e6774e31b7d5d7c6b27ca1b0a)
