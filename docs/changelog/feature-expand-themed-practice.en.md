@@ -274,3 +274,4 @@ Add cut and fold with exact English and Japanese form recordings, corrected and 
 - [040731f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/040731f87a09c7aaed71270afb818c4377f2cb67)
 - [e595ba6](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e595ba6b94e5ad46fe411cb69b82006dd0115f39)
 - [cca9bf2](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/cca9bf2c67e0b21a7146b280f4bc8247416627b1)
+- [419382d](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/419382d034a049c9c4c741359d0b6a5c44791ead)
