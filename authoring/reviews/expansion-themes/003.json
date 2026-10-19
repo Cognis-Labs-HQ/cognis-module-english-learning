@@ -1,5 +1,28 @@
 [
     {
+        "theme": "length",
+        "newDistinctVocabularyCount": 2,
+        "vocabulary": [
+            {
+                "entryId": "en:word:length-long",
+                "label": "long"
+            },
+            {
+                "entryId": "en:word:length-short",
+                "label": "short"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:length-example-ruler-length",
+            "en:sentence:length-example-pencil-need",
+            "en:sentence:length-example-skirt-comparison",
+            "en:sentence:length-example-longest-location"
+        ],
+        "recordedGrammaticalFormCount": 4,
+        "vocabularyAudit": "authoring/reviews/length-vocabulary.json"
+    },
+    {
         "theme": "nature",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -257,36 +280,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/seasons-vocabulary.json"
-    },
-    {
-        "theme": "stationery",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:stationery-eraser",
-                "label": "eraser"
-            },
-            {
-                "entryId": "en:word:stationery-scissors",
-                "label": "scissors"
-            },
-            {
-                "entryId": "en:word:stationery-tape",
-                "label": "tape"
-            },
-            {
-                "entryId": "en:word:stationery-stapler",
-                "label": "stapler"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:stationery-example-scissors-location",
-            "en:sentence:stationery-example-eraser-possession",
-            "en:sentence:stationery-example-buy-tape",
-            "en:sentence:stationery-example-stapler-location"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/stationery-vocabulary.json"
     }
 ]

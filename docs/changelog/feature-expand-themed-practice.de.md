@@ -218,6 +218,10 @@ Push und pull mit geprüften regelmäßigen englischen Endungen und japanischen 
 
 Long und short mit englischen Komparativ- und Superlativaufnahmen, japanischen I-Adjektivformen und geprüften Längenvergleichen ergänzt. Vier verschiedene Beispiele behandeln Beschreibung, benötigte oder gekaufte Gegenstände, Vergleich oder Grad sowie Ort. Hinweise unterscheiden Länge von Körpergröße und erhalten den Konsonanten in longer und longest. Aufnahmen und Bedeutungen in vier Sprachen sind nachvollziehbar; die Hörprüfung steht aus.
 
+## Entschuldigungen und Begrüßungen
+
+Sorry und Welcome sowie ごめんなさい und ようこそ mit geprüften Alltagsszenen und je zwei kurzen Beispielen ergänzt. Hinweise unterscheiden Begrüßungen von Antworten auf Dank und erklären den vertrauten Ton des japanischen Entschuldigungsbeispiels. Vollständige Lesungen erhalten ん und den Langvokal in よう. Die Satzaufnahmen verwenden exakte Bestandteile; die Hörprüfung steht aus.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

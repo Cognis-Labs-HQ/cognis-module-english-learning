@@ -1,5 +1,36 @@
 [
     {
+        "theme": "directions",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:directions-left",
+                "label": "left"
+            },
+            {
+                "entryId": "en:word:directions-right",
+                "label": "right"
+            },
+            {
+                "entryId": "en:word:directions-north",
+                "label": "north"
+            },
+            {
+                "entryId": "en:word:directions-south",
+                "label": "south"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:directions-location-left",
+            "en:sentence:directions-location-right",
+            "en:sentence:directions-location-north",
+            "en:sentence:directions-location-south"
+        ],
+        "recordedGrammaticalFormCount": 0,
+        "vocabularyAudit": "authoring/reviews/directions-vocabulary.json"
+    },
+    {
         "theme": "exchange",
         "newDistinctVocabularyCount": 2,
         "vocabulary": [
@@ -256,28 +287,5 @@
         ],
         "recordedGrammaticalFormCount": 4,
         "vocabularyAudit": "authoring/reviews/kitchen-vocabulary.json"
-    },
-    {
-        "theme": "length",
-        "newDistinctVocabularyCount": 2,
-        "vocabulary": [
-            {
-                "entryId": "en:word:length-long",
-                "label": "long"
-            },
-            {
-                "entryId": "en:word:length-short",
-                "label": "short"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:length-example-ruler-length",
-            "en:sentence:length-example-pencil-need",
-            "en:sentence:length-example-skirt-comparison",
-            "en:sentence:length-example-longest-location"
-        ],
-        "recordedGrammaticalFormCount": 4,
-        "vocabularyAudit": "authoring/reviews/length-vocabulary.json"
     }
 ]

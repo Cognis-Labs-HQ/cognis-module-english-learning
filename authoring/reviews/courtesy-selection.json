@@ -1,0 +1,12 @@
+{
+    "existingDistinctInputsChecked": 996,
+    "allSelectedAudioBytesPreserved": true,
+    "method": "Fetched every prior distinct language/label/role/reading input through createAudioProvider before and after expansion, comparing SHA-256 of returned WAV bytes. Optional synthesis disabled.",
+    "inventoryVersion": 2,
+    "rootIndexLines": 54,
+    "baselineFixture": {
+        "path": "authoring/reviews/audio-selection/courtesy-baseline.json.gz",
+        "sha256": "261181ee6275d1dbe5b2b813a4dc5d9a04a1159dc71ba9cb1bb3477b58de667f",
+        "inputCount": 996
+    }
+}

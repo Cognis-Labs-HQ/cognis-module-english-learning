@@ -1,0 +1,68 @@
+[
+    {
+        "path": "audio/c8ca467a53cfaead554bf1b3fb43a8994baf026612251fe8f1288b599bda9ce9.wav",
+        "text": "Sorry",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈsɒri\">Sorry</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "Sorry",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈsɒri/"]
+            }
+        ],
+        "entries": ["en:word:courtesy-sorry"],
+        "variants": [],
+        "sha256": "c8ca467a53cfaead554bf1b3fb43a8994baf026612251fe8f1288b599bda9ce9",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "b83e40d075e5a6838b8b25d608fb7af784b935544c58088c980b51c0679675bd"
+        }
+    },
+    {
+        "path": "audio/47cd2d4dc323381624ad3fe13b01d40dcdd299e7f18c08c891c58cdc2bf078aa.wav",
+        "text": "Welcome",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈwelkəm\">Welcome</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "Welcome",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈwelkəm/"]
+            }
+        ],
+        "entries": ["en:word:courtesy-welcome"],
+        "variants": [],
+        "sha256": "47cd2d4dc323381624ad3fe13b01d40dcdd299e7f18c08c891c58cdc2bf078aa",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "e4f929d0ee569f6a047365e9455898dee7ecede0b49a7f25726678b4bade1518"
+        }
+    }
+]

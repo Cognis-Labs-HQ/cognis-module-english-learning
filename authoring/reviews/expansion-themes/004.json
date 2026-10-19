@@ -1,5 +1,36 @@
 [
     {
+        "theme": "stationery",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:stationery-eraser",
+                "label": "eraser"
+            },
+            {
+                "entryId": "en:word:stationery-scissors",
+                "label": "scissors"
+            },
+            {
+                "entryId": "en:word:stationery-tape",
+                "label": "tape"
+            },
+            {
+                "entryId": "en:word:stationery-stapler",
+                "label": "stapler"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:stationery-example-scissors-location",
+            "en:sentence:stationery-example-eraser-possession",
+            "en:sentence:stationery-example-buy-tape",
+            "en:sentence:stationery-example-stapler-location"
+        ],
+        "recordedGrammaticalFormCount": 0,
+        "vocabularyAudit": "authoring/reviews/stationery-vocabulary.json"
+    },
+    {
         "theme": "tableware",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -223,21 +254,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/mealtime.json"
-    },
-    {
-        "theme": "daily",
-        "newDistinctVocabularyCount": 0,
-        "vocabulary": [],
-        "newExampleCount": 6,
-        "exampleIds": [
-            "en:sentence:daily-morning-reading",
-            "en:sentence:daily-eat-home",
-            "en:sentence:daily-work-city",
-            "en:sentence:daily-walk-park",
-            "en:sentence:daily-sleep-night",
-            "en:sentence:daily-drink-water"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/daily.json"
     }
 ]

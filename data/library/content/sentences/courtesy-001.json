@@ -1,0 +1,90 @@
+[
+    {
+        "id": "en:sentence:courtesy-example-apology-understanding",
+        "label": "Sorry, I do not understand.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/ff596631f877a3de898c0d9bb00cd1a55cb6e322701fe00ba798a8bae2d57a8c.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:courtesy-sorry",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:particle:comma",
+                "relation": "particles",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:do",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:not",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:comprehension-understand",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:courtesy-example-apology-understanding",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:courtesy-example-welcome-home",
+        "label": "Welcome to my home.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/c04cb867c9494b526256660172444389effa528d7e009e25ad9075fd8667f766.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:courtesy-welcome",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:particle:to",
+                "relation": "particles",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:my",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:home",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:courtesy-example-welcome-home",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

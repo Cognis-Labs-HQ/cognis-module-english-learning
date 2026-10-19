@@ -301,34 +301,24 @@
         "vocabularyAudit": "authoring/reviews/containers-vocabulary.json"
     },
     {
-        "theme": "directions",
-        "newDistinctVocabularyCount": 4,
+        "theme": "courtesy",
+        "newDistinctVocabularyCount": 2,
         "vocabulary": [
             {
-                "entryId": "en:word:directions-left",
-                "label": "left"
+                "entryId": "en:word:courtesy-sorry",
+                "label": "Sorry"
             },
             {
-                "entryId": "en:word:directions-right",
-                "label": "right"
-            },
-            {
-                "entryId": "en:word:directions-north",
-                "label": "north"
-            },
-            {
-                "entryId": "en:word:directions-south",
-                "label": "south"
+                "entryId": "en:word:courtesy-welcome",
+                "label": "Welcome"
             }
         ],
-        "newExampleCount": 4,
+        "newExampleCount": 2,
         "exampleIds": [
-            "en:sentence:directions-location-left",
-            "en:sentence:directions-location-right",
-            "en:sentence:directions-location-north",
-            "en:sentence:directions-location-south"
+            "en:sentence:courtesy-example-apology-understanding",
+            "en:sentence:courtesy-example-welcome-home"
         ],
         "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/directions-vocabulary.json"
+        "vocabularyAudit": "authoring/reviews/courtesy-vocabulary.json"
     }
 ]
