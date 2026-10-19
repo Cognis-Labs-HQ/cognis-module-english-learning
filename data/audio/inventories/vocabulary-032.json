@@ -1,10 +1,10 @@
 [
     {
-        "path": "audio/9c21b7cb1296db1d1b7b6362264c6c920ed2880db7d61579978f787ad369b05d.wav",
-        "text": "cup",
+        "path": "audio/331df3e2921645a7ddec192dd6e9220b96211ee941c19bb334a367779d2b94e7.wav",
+        "text": "rabbit",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "cup",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈræbɪt\">rabbit</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -18,26 +18,26 @@
         "inputs": [
             {
                 "language": "en",
-                "label": "cup",
+                "label": "rabbit",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/kʌp/"]
+                "readings": ["/ˈræbɪt/"]
             }
         ],
-        "entries": ["en:word:tableware-cup"],
+        "entries": ["en:word:animals-rabbit"],
         "variants": [],
-        "sha256": "9c21b7cb1296db1d1b7b6362264c6c920ed2880db7d61579978f787ad369b05d",
-        "frames": 17678,
+        "sha256": "331df3e2921645a7ddec192dd6e9220b96211ee941c19bb334a367779d2b94e7",
+        "frames": 21022,
         "metadata": {
             "listening": "unverified-not-performed",
-            "sourcePcmSha256": "2c1c234ac61f3e11b9433309675ea8fbb57738220bb0cc8a049921facaa8aac1"
+            "sourcePcmSha256": "df7f7695a429ada2be6d4d3f29a1f5787dcf1bb1f9d3750f200f66438dd7b312"
         }
     },
     {
-        "path": "audio/fc3ecd7d1abfbc340f59297766bb1e85f8652d4f943c5c47a92443b289dda215.wav",
-        "text": "plate",
+        "path": "audio/4b80599f7cc07f893e21a1af5931fa0cc38bd30c7886ad94f0735831ea3f41cf.wav",
+        "text": "horse",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "plate",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"hɔːs\">horse</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -51,26 +51,26 @@
         "inputs": [
             {
                 "language": "en",
-                "label": "plate",
+                "label": "horse",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/pleɪt/"]
+                "readings": ["/hɔːs/"]
             }
         ],
-        "entries": ["en:word:tableware-plate"],
+        "entries": ["en:word:animals-horse"],
         "variants": [],
-        "sha256": "fc3ecd7d1abfbc340f59297766bb1e85f8652d4f943c5c47a92443b289dda215",
+        "sha256": "4b80599f7cc07f893e21a1af5931fa0cc38bd30c7886ad94f0735831ea3f41cf",
         "frames": 19907,
         "metadata": {
             "listening": "unverified-not-performed",
-            "sourcePcmSha256": "f0f172678c0928192046035e875d47abe98a6144c0aadb2c3364aecb2badd741"
+            "sourcePcmSha256": "e52f700ac4d363de654be59a8f2663d9c18eeffc2cb86605ff4f333182b780d8"
         }
     },
     {
-        "path": "audio/5f9a3e905778bf89257f37ae9c5a042caef40f3963ac78fdceb0455248b17e77.wav",
-        "text": "spoon",
+        "path": "audio/b69d412d0b6ddfb9c17ac2f90ea1b1953d2e653084a74efabb1483de7ece45fe.wav",
+        "text": "cow",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "spoon",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"kaʊ\">cow</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -84,26 +84,26 @@
         "inputs": [
             {
                 "language": "en",
-                "label": "spoon",
+                "label": "cow",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/spuːn/"]
+                "readings": ["/kaʊ/"]
             }
         ],
-        "entries": ["en:word:tableware-spoon"],
+        "entries": ["en:word:animals-cow"],
         "variants": [],
-        "sha256": "5f9a3e905778bf89257f37ae9c5a042caef40f3963ac78fdceb0455248b17e77",
-        "frames": 23251,
+        "sha256": "b69d412d0b6ddfb9c17ac2f90ea1b1953d2e653084a74efabb1483de7ece45fe",
+        "frames": 28824,
         "metadata": {
             "listening": "unverified-not-performed",
-            "sourcePcmSha256": "c1c40a9736aac8007f7232e385ee5cc484a33b6bb9f8ea5da4cad3cdbb11d5b7"
+            "sourcePcmSha256": "fdbf0eb2e025a46d2d54ebae773088304ee851b3bce4cdce5d687e38bb2b038f"
         }
     },
     {
-        "path": "audio/3ae57b1ee1ad50c3f7332cd673152ab4265fb5077877184121609195c234baf2.wav",
-        "text": "fork",
+        "path": "audio/6d576ed90ca9c022431d70c26d5c71e60eaa4171b24ceb2b9312c9fc6d90865c.wav",
+        "text": "pig",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "fork",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"pɪɡ\">pig</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -117,18 +117,18 @@
         "inputs": [
             {
                 "language": "en",
-                "label": "fork",
+                "label": "pig",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/fɔːk/"]
+                "readings": ["/pɪɡ/"]
             }
         ],
-        "entries": ["en:word:tableware-fork"],
+        "entries": ["en:word:animals-pig"],
         "variants": [],
-        "sha256": "3ae57b1ee1ad50c3f7332cd673152ab4265fb5077877184121609195c234baf2",
+        "sha256": "6d576ed90ca9c022431d70c26d5c71e60eaa4171b24ceb2b9312c9fc6d90865c",
         "frames": 19907,
         "metadata": {
             "listening": "unverified-not-performed",
-            "sourcePcmSha256": "438309cdd3b9eb09dfd5a32901189c2db9727bce8ad99431b709fa6670c45fa3"
+            "sourcePcmSha256": "42405ec9a8a62f812f72635d5c368148b2b06ce83969f027631be8bb0c3d055c"
         }
     }
 ]

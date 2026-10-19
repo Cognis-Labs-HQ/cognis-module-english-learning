@@ -1,10 +1,10 @@
 [
     {
-        "path": "audio/d08a786a90f2d48d33d3a38b1e420a8b1eb48f327803464685f0b17b9576824d.wav",
-        "text": "shirts",
+        "path": "audio/1fab45f6687314ac0fa65d78c224138449d8d2c973d5e29c3c221a4825724342.wav",
+        "text": "rabbits",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"ʃɜːts\">shirts</phoneme>.",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈræbɪts\">rabbits</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -18,71 +18,32 @@
         "inputs": [
             {
                 "language": "en",
-                "label": "shirts",
+                "label": "rabbits",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/ʃɜːts/"]
+                "readings": ["/ˈræbɪts/"]
             }
         ],
-        "entries": ["en:word:form-clothing-shirts"],
+        "entries": ["en:word:form-animals-rabbits"],
         "variants": [
             {
-                "entryId": "en:word:clothing-shirt",
-                "setId": "noun-shirt",
+                "entryId": "en:word:animals-rabbit",
+                "setId": "noun-rabbit",
                 "path": ["plural"]
             }
         ],
-        "sha256": "d08a786a90f2d48d33d3a38b1e420a8b1eb48f327803464685f0b17b9576824d",
-        "frames": 23251,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "a958584352c6bd05a2b192cdc3b25bb7f8e879012b14b449c2ff672a01ce0631"
-        }
-    },
-    {
-        "path": "audio/f3dc31c95afbbe212206398c7705ed39f9c6d2b870700417b87de967ab0818cf.wav",
-        "text": "dresses",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈdresɪz\">dresses</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "dresses",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ˈdresɪz/"]
-            }
-        ],
-        "entries": ["en:word:form-clothing-dresses"],
-        "variants": [
-            {
-                "entryId": "en:word:clothing-dress",
-                "setId": "noun-dress",
-                "path": ["plural"]
-            }
-        ],
-        "sha256": "f3dc31c95afbbe212206398c7705ed39f9c6d2b870700417b87de967ab0818cf",
+        "sha256": "1fab45f6687314ac0fa65d78c224138449d8d2c973d5e29c3c221a4825724342",
         "frames": 24366,
         "metadata": {
             "listening": "unverified-not-performed",
-            "sourcePcmSha256": "15268ec903202581c5b2943e56a4afa86505a29902f877e5c9754eb16a8a84e8"
+            "sourcePcmSha256": "3a3a598574de868f503c3b78339eb0edc6e459b089676b9d6681bdc190302327"
         }
     },
     {
-        "path": "audio/aba9e1351f05adb48d1d2c909c1787f1293ee5dadcd04219843bb8914fdb75aa.wav",
-        "text": "socks",
+        "path": "audio/8c6daf825cbb034b8adf7735cecf0af417126022423dbbb069f60de8c0bcde39.wav",
+        "text": "horses",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"sɒks\">socks</phoneme>.",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈhɔːsɪz\">horses</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -96,32 +57,32 @@
         "inputs": [
             {
                 "language": "en",
-                "label": "socks",
+                "label": "horses",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/sɒks/"]
+                "readings": ["/ˈhɔːsɪz/"]
             }
         ],
-        "entries": ["en:word:form-clothing-socks"],
+        "entries": ["en:word:form-animals-horses"],
         "variants": [
             {
-                "entryId": "en:word:clothing-sock",
-                "setId": "noun-sock",
+                "entryId": "en:word:animals-horse",
+                "setId": "noun-horse",
                 "path": ["plural"]
             }
         ],
-        "sha256": "aba9e1351f05adb48d1d2c909c1787f1293ee5dadcd04219843bb8914fdb75aa",
-        "frames": 24366,
+        "sha256": "8c6daf825cbb034b8adf7735cecf0af417126022423dbbb069f60de8c0bcde39",
+        "frames": 25480,
         "metadata": {
             "listening": "unverified-not-performed",
-            "sourcePcmSha256": "87505492361eea31cb73f8be0131f2b906e3f15bc4be4f7159c84323634bc533"
+            "sourcePcmSha256": "7e13f488cdb2a91b250e47ed839c9a7ae5be2a98d647063cbe0d4d72a5e516bd"
         }
     },
     {
-        "path": "audio/d424e787dafa88b963fe33eaf446e66c9068ffa451db6f8224ca39bb8e1ae0d2.wav",
-        "text": "skirts",
+        "path": "audio/2e18b1dffd374a06941cb4b28a72dd72cfb9b74de2744c430bd8e38f00f7c0b9.wav",
+        "text": "cows",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"skɜːts\">skirts</phoneme>.",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"kaʊz\">cows</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -135,24 +96,63 @@
         "inputs": [
             {
                 "language": "en",
-                "label": "skirts",
+                "label": "cows",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/skɜːts/"]
+                "readings": ["/kaʊz/"]
             }
         ],
-        "entries": ["en:word:form-clothing-skirts"],
+        "entries": ["en:word:form-animals-cows"],
         "variants": [
             {
-                "entryId": "en:word:clothing-skirt",
-                "setId": "noun-skirt",
+                "entryId": "en:word:animals-cow",
+                "setId": "noun-cow",
                 "path": ["plural"]
             }
         ],
-        "sha256": "d424e787dafa88b963fe33eaf446e66c9068ffa451db6f8224ca39bb8e1ae0d2",
+        "sha256": "2e18b1dffd374a06941cb4b28a72dd72cfb9b74de2744c430bd8e38f00f7c0b9",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "03d91009e010419c87cd539adc4662d888673ef97f525f9c0595c9932f40ae1b"
+        }
+    },
+    {
+        "path": "audio/523ebefc569ba01423e4c178a5df2e50a8b219de9d06e51473c1c520846ea5d5.wav",
+        "text": "pigs",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"pɪɡz\">pigs</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "pigs",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/pɪɡz/"]
+            }
+        ],
+        "entries": ["en:word:form-animals-pigs"],
+        "variants": [
+            {
+                "entryId": "en:word:animals-pig",
+                "setId": "noun-pig",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "523ebefc569ba01423e4c178a5df2e50a8b219de9d06e51473c1c520846ea5d5",
         "frames": 23251,
         "metadata": {
             "listening": "unverified-not-performed",
-            "sourcePcmSha256": "319ff9bb26ca5a7a472a1bca08cec07b41866e695215a51db40df21e7a22d6d0"
+            "sourcePcmSha256": "05fa2999168c3786ab5424f597f22023a0135def1c64c7d4e343e481885c38a4"
         }
     }
 ]

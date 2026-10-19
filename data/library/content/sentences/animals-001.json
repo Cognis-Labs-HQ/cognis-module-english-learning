@@ -1,0 +1,158 @@
+[
+    {
+        "id": "en:sentence:animals-example-rabbit",
+        "label": "The rabbit is small.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/fe9c2124190389352c6f3a9625bfa81dc59457e73a94623ff01e5ab2a3d8dbc3.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:animals-rabbit",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:small",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:animals-example-rabbit",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:animals-example-horse",
+        "label": "I see two horses.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/de1234d198a3e9dea23c9bfe9d03a279558208d18d1d6d06ec02480d67d88f14.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:see",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:two",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:form-animals-horses",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:animals-example-horse",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:animals-example-cow",
+        "label": "The cow drinks water.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/68250a73f38e913a5fe935bce8f3f10d54cd0bae53c46aa37f70754dde9afee4.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:animals-cow",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-drink-third-person",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:water",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:animals-example-cow",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:animals-example-pig",
+        "label": "The pig eats food.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/71be8fdecde41943cca41db8853ba6ff08a8fc3d03401939593c5be894806005.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:animals-pig",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-eat-third-person",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:food",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:animals-example-pig",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

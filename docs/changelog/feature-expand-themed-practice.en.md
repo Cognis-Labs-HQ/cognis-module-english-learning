@@ -102,6 +102,10 @@ Add six individually authored contextual examples per module with exact existing
 
 Add six individually authored contextual examples per module with exact existing constituent audio and a dedicated deck. Check meaning, register, particle roles, readings and four-language translations. Preserve all earlier examples and grammatical recordings. No new images or external generation requests. Listening remains unverified.
 
+## More Animals
+
+Add rabbit, horse, cow and pig with four inspected pictures per module, four English plural forms, eight natural examples and an animal deck. Distinguish female cow from broader Japanese うし, preserve the extra syllable in horses and verify native Japanese inputs. Use fixed voices and exact constituent audio. Keep all previous examples and forms. Listening remains unverified.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

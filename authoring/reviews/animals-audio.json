@@ -1,0 +1,130 @@
+[
+    {
+        "entryId": "en:word:animals-rabbit",
+        "path": "audio/331df3e2921645a7ddec192dd6e9220b96211ee941c19bb334a367779d2b94e7.wav",
+        "sha256": "331df3e2921645a7ddec192dd6e9220b96211ee941c19bb334a367779d2b94e7",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈræbɪt\">rabbit</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "xcTGoIvoNX99N80VlizQ",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/animals/animals-rabbit.pcm",
+        "sourceSha256": "df7f7695a429ada2be6d4d3f29a1f5787dcf1bb1f9d3750f200f66438dd7b312",
+        "sourcePeak": 22187,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 21022,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:animals-horse",
+        "path": "audio/4b80599f7cc07f893e21a1af5931fa0cc38bd30c7886ad94f0735831ea3f41cf.wav",
+        "sha256": "4b80599f7cc07f893e21a1af5931fa0cc38bd30c7886ad94f0735831ea3f41cf",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"hɔːs\">horse</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "UElhjK8AyxxDE5lwQ4Le",
+            "character-cost": "2",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/animals/animals-horse.pcm",
+        "sourceSha256": "e52f700ac4d363de654be59a8f2663d9c18eeffc2cb86605ff4f333182b780d8",
+        "sourcePeak": 31213,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.8608272194278025,
+        "paddingFramesEachSide": 480,
+        "frames": 19907,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:animals-cow",
+        "path": "audio/b69d412d0b6ddfb9c17ac2f90ea1b1953d2e653084a74efabb1483de7ece45fe.wav",
+        "sha256": "b69d412d0b6ddfb9c17ac2f90ea1b1953d2e653084a74efabb1483de7ece45fe",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"kaʊ\">cow</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "OvxlCWXGTpUByKi2KAJz",
+            "character-cost": "2",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/animals/animals-cow.pcm",
+        "sourceSha256": "fdbf0eb2e025a46d2d54ebae773088304ee851b3bce4cdce5d687e38bb2b038f",
+        "sourcePeak": 29418,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9133523692977089,
+        "paddingFramesEachSide": 480,
+        "frames": 28824,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:animals-pig",
+        "path": "audio/6d576ed90ca9c022431d70c26d5c71e60eaa4171b24ceb2b9312c9fc6d90865c.wav",
+        "sha256": "6d576ed90ca9c022431d70c26d5c71e60eaa4171b24ceb2b9312c9fc6d90865c",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"pɪɡ\">pig</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "MRj6cG0x5IMasx2DRS4k",
+            "character-cost": "2",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/animals/animals-pig.pcm",
+        "sourceSha256": "42405ec9a8a62f812f72635d5c368148b2b06ce83969f027631be8bb0c3d055c",
+        "sourcePeak": 23126,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 19907,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]

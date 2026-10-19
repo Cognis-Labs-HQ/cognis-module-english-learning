@@ -1,0 +1,262 @@
+[
+    {
+        "path": "audio/fe9c2124190389352c6f3a9625bfa81dc59457e73a94623ff01e5ab2a3d8dbc3.wav",
+        "entryId": "en:sentence:animals-example-rabbit",
+        "label": "The rabbit is small.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/331df3e2921645a7ddec192dd6e9220b96211ee941c19bb334a367779d2b94e7.wav",
+                "entryId": "en:word:animals-rabbit"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/de7a4bdecea3025be9ba5d3c667402f47cc1b671aca28db38ab59239fb3d54ca.wav",
+                "entryId": "en:word:small"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/331df3e2921645a7ddec192dd6e9220b96211ee941c19bb334a367779d2b94e7.wav",
+                "entryId": "en:word:animals-rabbit",
+                "startFrame": 12710,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 35892,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/de7a4bdecea3025be9ba5d3c667402f47cc1b671aca28db38ab59239fb3d54ca.wav",
+                "entryId": "en:word:small",
+                "startFrame": 48439,
+                "frameCount": 14627
+            }
+        ],
+        "sha256": "fe9c2124190389352c6f3a9625bfa81dc59457e73a94623ff01e5ab2a3d8dbc3",
+        "frames": 74826,
+        "input": {
+            "language": "en",
+            "label": "The rabbit is small.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact animals constituent PCM, including the English plural horses with its extra syllable."
+        }
+    },
+    {
+        "path": "audio/de1234d198a3e9dea23c9bfe9d03a279558208d18d1d6d06ec02480d67d88f14.wav",
+        "entryId": "en:sentence:animals-example-horse",
+        "label": "I see two horses.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/9b7843aec097ccb2e88f205448cd59c4d13b573f9b025bfeea72a95a0c467851.wav",
+                "entryId": "en:word:see"
+            },
+            {
+                "path": "audio/51b8f14fcdf9707ee8add50602f5ecabd4c6dd2396cb8901e8641d4c5371680d.wav",
+                "entryId": "en:word:two"
+            },
+            {
+                "path": "audio/8c6daf825cbb034b8adf7735cecf0af417126022423dbbb069f60de8c0bcde39.wav",
+                "entryId": "en:word:form-animals-horses"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/9b7843aec097ccb2e88f205448cd59c4d13b573f9b025bfeea72a95a0c467851.wav",
+                "entryId": "en:word:see",
+                "startFrame": 11067,
+                "frameCount": 11091
+            },
+            {
+                "path": "audio/51b8f14fcdf9707ee8add50602f5ecabd4c6dd2396cb8901e8641d4c5371680d.wav",
+                "entryId": "en:word:two",
+                "startFrame": 24318,
+                "frameCount": 9510
+            },
+            {
+                "path": "audio/8c6daf825cbb034b8adf7735cecf0af417126022423dbbb069f60de8c0bcde39.wav",
+                "entryId": "en:word:form-animals-horses",
+                "startFrame": 35988,
+                "frameCount": 25480
+            }
+        ],
+        "sha256": "de1234d198a3e9dea23c9bfe9d03a279558208d18d1d6d06ec02480d67d88f14",
+        "frames": 73228,
+        "input": {
+            "language": "en",
+            "label": "I see two horses.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact animals constituent PCM, including the English plural horses with its extra syllable."
+        }
+    },
+    {
+        "path": "audio/68250a73f38e913a5fe935bce8f3f10d54cd0bae53c46aa37f70754dde9afee4.wav",
+        "entryId": "en:sentence:animals-example-cow",
+        "label": "The cow drinks water.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/b69d412d0b6ddfb9c17ac2f90ea1b1953d2e653084a74efabb1483de7ece45fe.wav",
+                "entryId": "en:word:animals-cow"
+            },
+            {
+                "path": "audio/3eca6e67d85d977e599fed0c9ab6a484f51a46dec8d7a561f2c2ace25e9cc1c5.wav",
+                "entryId": "en:word:form-english-drink-third-person"
+            },
+            {
+                "path": "audio/de43a97fbedea7909d8f9b9ca31da43c5bd95debf2a1c3f89a02f2f0996bee27.wav",
+                "entryId": "en:word:water"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/b69d412d0b6ddfb9c17ac2f90ea1b1953d2e653084a74efabb1483de7ece45fe.wav",
+                "entryId": "en:word:animals-cow",
+                "startFrame": 12710,
+                "frameCount": 28824
+            },
+            {
+                "path": "audio/3eca6e67d85d977e599fed0c9ab6a484f51a46dec8d7a561f2c2ace25e9cc1c5.wav",
+                "entryId": "en:word:form-english-drink-third-person",
+                "startFrame": 43694,
+                "frameCount": 13170
+            },
+            {
+                "path": "audio/de43a97fbedea7909d8f9b9ca31da43c5bd95debf2a1c3f89a02f2f0996bee27.wav",
+                "entryId": "en:word:water",
+                "startFrame": 59024,
+                "frameCount": 13834
+            }
+        ],
+        "sha256": "68250a73f38e913a5fe935bce8f3f10d54cd0bae53c46aa37f70754dde9afee4",
+        "frames": 84618,
+        "input": {
+            "language": "en",
+            "label": "The cow drinks water.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact animals constituent PCM, including the English plural horses with its extra syllable."
+        }
+    },
+    {
+        "path": "audio/71be8fdecde41943cca41db8853ba6ff08a8fc3d03401939593c5be894806005.wav",
+        "entryId": "en:sentence:animals-example-pig",
+        "label": "The pig eats food.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/6d576ed90ca9c022431d70c26d5c71e60eaa4171b24ceb2b9312c9fc6d90865c.wav",
+                "entryId": "en:word:animals-pig"
+            },
+            {
+                "path": "audio/c8c7a1a2802324c6e6e60309019ce7073f0e9665e27c37be688dceb40e34cd17.wav",
+                "entryId": "en:word:form-english-eat-third-person"
+            },
+            {
+                "path": "audio/6da033542f95bc3306b9d9a4dd284aed21bec2f19ff8980447ab6e40dce3cd96.wav",
+                "entryId": "en:word:food"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/6d576ed90ca9c022431d70c26d5c71e60eaa4171b24ceb2b9312c9fc6d90865c.wav",
+                "entryId": "en:word:animals-pig",
+                "startFrame": 12710,
+                "frameCount": 19907
+            },
+            {
+                "path": "audio/c8c7a1a2802324c6e6e60309019ce7073f0e9665e27c37be688dceb40e34cd17.wav",
+                "entryId": "en:word:form-english-eat-third-person",
+                "startFrame": 34777,
+                "frameCount": 11794
+            },
+            {
+                "path": "audio/6da033542f95bc3306b9d9a4dd284aed21bec2f19ff8980447ab6e40dce3cd96.wav",
+                "entryId": "en:word:food",
+                "startFrame": 48731,
+                "frameCount": 11116
+            }
+        ],
+        "sha256": "71be8fdecde41943cca41db8853ba6ff08a8fc3d03401939593c5be894806005",
+        "frames": 71607,
+        "input": {
+            "language": "en",
+            "label": "The pig eats food.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact animals constituent PCM, including the English plural horses with its extra syllable."
+        }
+    }
+]
