@@ -1,0 +1,158 @@
+[
+    {
+        "id": "en:sentence:tableware-example-cup",
+        "label": "The cup is on the table.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/41b664a0b92d8b3d6f740615ef0a0892a8e20ad25ad8c5e050f983c8238dd836.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:tableware-cup",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:on",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:table",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:tableware-example-cup",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:tableware-example-plate",
+        "label": "I need a plate.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/b18fe68a34d8c6e378b3654bcaaae853ccb3e1c1c46581f3c6006154796dcefb.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:need",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:tableware-plate",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:tableware-example-plate",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:tableware-example-spoon",
+        "label": "We need spoons.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/0988f4428049275661701162a8b5275b3d926c307df7f8321e16c5f17ffbc880.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:need",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-tableware-spoons",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:tableware-example-spoon",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:tableware-example-fork",
+        "label": "They have forks.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/5bd7997c526e3c5a8d3d9be328d312937abd9a114a12781d400620dda7d0d461.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-they",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:have",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-tableware-forks",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:tableware-example-fork",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

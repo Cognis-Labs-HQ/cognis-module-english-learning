@@ -66,6 +66,10 @@ Tambahkan empat nama musim bergambar, empat contoh kegiatan, dan dek latihan gab
 
 Tambahkan kemeja, gaun sehari-hari, kaus kaki, dan rok dengan empat bentuk jamak Inggris, empat contoh per modul, serta dek pakaian. Periksa semua gambar sumber dan akhir, pertahankan kana kecil dan vokal panjang Jepang, dan susun segmen audio persis. Uji regresi menolak byte rekaman yang bertentangan untuk kunci pencarian kartu atau bentuk yang sama. Pemeriksaan pendengaran belum dilakukan.
 
+## Peralatan Makan
+
+Tambahkan cangkir, piring, sendok, dan garpu dengan empat bentuk jamak Inggris, empat contoh per modul, serta dek tematik. Periksa gambar sumber dan akhir, kana kecil, serta vokal panjang; pertahankan PCM unsur yang persis dan asal rekaman. Uji bentuk jamak memeriksa ejaan, IPA, permintaan penyedia, dan pengaitan bentuk. Pemeriksaan pendengaran belum dilakukan.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

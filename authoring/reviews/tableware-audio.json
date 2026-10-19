@@ -1,0 +1,130 @@
+[
+    {
+        "entryId": "en:word:tableware-cup",
+        "path": "audio/9c21b7cb1296db1d1b7b6362264c6c920ed2880db7d61579978f787ad369b05d.wav",
+        "sha256": "9c21b7cb1296db1d1b7b6362264c6c920ed2880db7d61579978f787ad369b05d",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "cup",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "sxq6Wth0OVVuxNVUNXXX",
+            "character-cost": "2",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/tableware/tableware-cup.pcm",
+        "sourceSha256": "2c1c234ac61f3e11b9433309675ea8fbb57738220bb0cc8a049921facaa8aac1",
+        "sourcePeak": 32443,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.8281909811053232,
+        "paddingFramesEachSide": 480,
+        "frames": 17678,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:tableware-plate",
+        "path": "audio/fc3ecd7d1abfbc340f59297766bb1e85f8652d4f943c5c47a92443b289dda215.wav",
+        "sha256": "fc3ecd7d1abfbc340f59297766bb1e85f8652d4f943c5c47a92443b289dda215",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "plate",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "MwjCSagyrQpnMBrBmsvY",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/tableware/tableware-plate.pcm",
+        "sourceSha256": "f0f172678c0928192046035e875d47abe98a6144c0aadb2c3364aecb2badd741",
+        "sourcePeak": 21307,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 19907,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:tableware-spoon",
+        "path": "audio/5f9a3e905778bf89257f37ae9c5a042caef40f3963ac78fdceb0455248b17e77.wav",
+        "sha256": "5f9a3e905778bf89257f37ae9c5a042caef40f3963ac78fdceb0455248b17e77",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "spoon",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "qhPgn8K6CGu6CXq8xiVh",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/tableware/tableware-spoon.pcm",
+        "sourceSha256": "c1c40a9736aac8007f7232e385ee5cc484a33b6bb9f8ea5da4cad3cdbb11d5b7",
+        "sourcePeak": 26100,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 23251,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:tableware-fork",
+        "path": "audio/3ae57b1ee1ad50c3f7332cd673152ab4265fb5077877184121609195c234baf2.wav",
+        "sha256": "3ae57b1ee1ad50c3f7332cd673152ab4265fb5077877184121609195c234baf2",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "fork",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "Lh3IPZ6OYqiBsMt3fLaP",
+            "character-cost": "2",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/tableware/tableware-fork.pcm",
+        "sourceSha256": "438309cdd3b9eb09dfd5a32901189c2db9727bce8ad99431b709fa6670c45fa3",
+        "sourcePeak": 29123,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9226041273220479,
+        "paddingFramesEachSide": 480,
+        "frames": 19907,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]

@@ -1,0 +1,134 @@
+[
+    {
+        "path": "audio/9c21b7cb1296db1d1b7b6362264c6c920ed2880db7d61579978f787ad369b05d.wav",
+        "text": "cup",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "cup",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "cup",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/kʌp/"]
+            }
+        ],
+        "entries": ["en:word:tableware-cup"],
+        "variants": [],
+        "sha256": "9c21b7cb1296db1d1b7b6362264c6c920ed2880db7d61579978f787ad369b05d",
+        "frames": 17678,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "2c1c234ac61f3e11b9433309675ea8fbb57738220bb0cc8a049921facaa8aac1"
+        }
+    },
+    {
+        "path": "audio/fc3ecd7d1abfbc340f59297766bb1e85f8652d4f943c5c47a92443b289dda215.wav",
+        "text": "plate",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "plate",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "plate",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/pleɪt/"]
+            }
+        ],
+        "entries": ["en:word:tableware-plate"],
+        "variants": [],
+        "sha256": "fc3ecd7d1abfbc340f59297766bb1e85f8652d4f943c5c47a92443b289dda215",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "f0f172678c0928192046035e875d47abe98a6144c0aadb2c3364aecb2badd741"
+        }
+    },
+    {
+        "path": "audio/5f9a3e905778bf89257f37ae9c5a042caef40f3963ac78fdceb0455248b17e77.wav",
+        "text": "spoon",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "spoon",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "spoon",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/spuːn/"]
+            }
+        ],
+        "entries": ["en:word:tableware-spoon"],
+        "variants": [],
+        "sha256": "5f9a3e905778bf89257f37ae9c5a042caef40f3963ac78fdceb0455248b17e77",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "c1c40a9736aac8007f7232e385ee5cc484a33b6bb9f8ea5da4cad3cdbb11d5b7"
+        }
+    },
+    {
+        "path": "audio/3ae57b1ee1ad50c3f7332cd673152ab4265fb5077877184121609195c234baf2.wav",
+        "text": "fork",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "fork",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "fork",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/fɔːk/"]
+            }
+        ],
+        "entries": ["en:word:tableware-fork"],
+        "variants": [],
+        "sha256": "3ae57b1ee1ad50c3f7332cd673152ab4265fb5077877184121609195c234baf2",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "438309cdd3b9eb09dfd5a32901189c2db9727bce8ad99431b709fa6670c45fa3"
+        }
+    }
+]

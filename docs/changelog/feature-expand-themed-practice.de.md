@@ -66,6 +66,10 @@ Vier illustrierte Jahreszeiten, vier Aktivitätsbeispiele und einen gemischten �
 
 Hemden, Alltagskleider, Socken und Röcke mit vier englischen Pluralformen, vier Kontextbeispielen je Modul und einem Kleidungsstapel ergänzen. Alle Quellbilder und endgültigen Bilder prüfen, kleine Kana und lange Vokale bewahren und exakte Audiosegmente zusammensetzen. Ein Regressionstest lehnt widersprüchliche Aufnahmebytes für denselben Abrufschlüssel einer Karte oder Form ab. Die Hörprüfung steht aus.
 
+## Geschirr und Besteck
+
+Tassen, Teller, Löffel und Gabeln mit vier englischen Pluralformen, vier Beispielen je Modul und einem Themenstapel ergänzen. Alle Quellbilder und endgültigen Bilder sowie kleine Kana und lange Vokale prüfen; exakte PCM-Segmente und Aufnahmeherkunft bewahren. Pluraltests prüfen Schreibweise, IPA, Anbieteranfrage und Formzuordnung. Die Hörprüfung steht aus.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)
