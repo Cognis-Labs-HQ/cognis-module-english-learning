@@ -94,6 +94,10 @@ Tambahkan pesawat terbang, perahu, taksi, dan sepeda motor dengan empat gambar y
 
 Tambahkan pensil, pena, buku catatan, dan penggaris dengan empat gambar yang diperiksa per modul, empat bentuk jamak Inggris, delapan contoh alami, dan dek perlengkapan sekolah. Periksa makna serta bacaan Jepang. Semua kalimat dan rekaman perubahan bentuk sebelumnya tetap utuh. Pemeriksaan pendengaran belum dilakukan.
 
+## Hari di Sekolah
+
+Tambahkan enam contoh kontekstual yang ditulis satu per satu untuk setiap modul, dengan segmen audio lama yang persis dan dek khusus. Periksa makna, ragam bahasa, fungsi partikel, bacaan, serta terjemahan dalam empat bahasa. Pertahankan semua contoh dan rekaman perubahan bentuk sebelumnya. Tidak ada gambar baru atau permintaan generasi eksternal. Pemeriksaan pendengaran belum dilakukan.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

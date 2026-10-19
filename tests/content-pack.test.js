@@ -172,7 +172,7 @@ test("beginner vocabulary and grammar resolve genuine localized meanings and spe
 });
 
 test("all published sentences preserve every ordered word, inflection, and punctuation", () => {
-    assert.equal(layers.get("sentences").length, 125);
+    assert.equal(layers.get("sentences").length, 131);
     for (const sentence of layers.get("sentences")) {
         const constituents = sentence.references
             .filter(({ relation }) => relation !== "definitions")
@@ -220,7 +220,7 @@ test("curated transformations cover irregular verbs and contextual IPA", () => {
 
 test("starter decks use visible records from the published schema", async () => {
     const decks = JSON.parse(await readFile("data/starter-decks.json", "utf8"));
-    assert.equal(decks.length, 32);
+    assert.equal(decks.length, 33);
     for (const deck of decks) {
         assert.equal(deck.schemaId, schema.id);
         assert.equal(Object.keys(deck.name).length, 4);
