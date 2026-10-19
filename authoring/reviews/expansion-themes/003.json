@@ -1,5 +1,36 @@
 [
     {
+        "theme": "tableware",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:tableware-cup",
+                "label": "cup"
+            },
+            {
+                "entryId": "en:word:tableware-plate",
+                "label": "plate"
+            },
+            {
+                "entryId": "en:word:tableware-spoon",
+                "label": "spoon"
+            },
+            {
+                "entryId": "en:word:tableware-fork",
+                "label": "fork"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:tableware-example-cup",
+            "en:sentence:tableware-example-plate",
+            "en:sentence:tableware-example-spoon",
+            "en:sentence:tableware-example-fork"
+        ],
+        "recordedGrammaticalFormCount": 4,
+        "vocabularyAudit": "authoring/reviews/tableware-vocabulary.json"
+    },
+    {
         "theme": "time",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -193,21 +224,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/shopping.json"
-    },
-    {
-        "theme": "daily-needs",
-        "newDistinctVocabularyCount": 0,
-        "vocabulary": [],
-        "newExampleCount": 6,
-        "exampleIds": [
-            "en:sentence:daily-needs-1",
-            "en:sentence:daily-needs-2",
-            "en:sentence:daily-needs-3",
-            "en:sentence:daily-needs-4",
-            "en:sentence:daily-needs-5",
-            "en:sentence:daily-needs-6"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/daily-needs-sentences.json"
     }
 ]

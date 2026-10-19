@@ -1,115 +1,5 @@
 [
     {
-        "path": "audio/dc1395e71a936e3773e6c1109928acb3c8f027807b23d153ffc21d7fd648acc9.wav",
-        "entryId": "en:sentence:mealtime-eat-cheese",
-        "label": "I eat cheese.",
-        "parts": [
-            {
-                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
-                "entryId": "en:word:i"
-            },
-            {
-                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
-                "entryId": "en:word:eat"
-            },
-            {
-                "path": "audio/a86713471e75629ccacd84683c93c4106d78ea3c07211f09626e81b65b99b3cc.wav",
-                "entryId": "en:word:cheese"
-            },
-            {
-                "pauseMs": 400
-            }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
-                "entryId": "en:word:i",
-                "startFrame": 2400,
-                "frameCount": 6507
-            },
-            {
-                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
-                "entryId": "en:word:eat",
-                "startFrame": 11067,
-                "frameCount": 10258
-            },
-            {
-                "path": "audio/a86713471e75629ccacd84683c93c4106d78ea3c07211f09626e81b65b99b3cc.wav",
-                "entryId": "en:word:cheese",
-                "startFrame": 23485,
-                "frameCount": 37740
-            }
-        ],
-        "sha256": "dc1395e71a936e3773e6c1109928acb3c8f027807b23d153ffc21d7fd648acc9",
-        "frames": 72985,
-        "input": {
-            "language": "en",
-            "label": "I eat cheese.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact existing constituent PCM; no external synthesis."
-        }
-    },
-    {
-        "path": "audio/0f99f12874889f0db06475f28e43dd28772a9a44549df2081de8dfadc56a943f.wav",
-        "entryId": "en:sentence:mealtime-like-soup",
-        "label": "She likes soup.",
-        "parts": [
-            {
-                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
-                "entryId": "en:word:capital-she"
-            },
-            {
-                "path": "audio/c36a98159cd3599e0e3a4bcf704c2133e3a204f208b02467eaf2d409ad208da6.wav",
-                "entryId": "en:word:form-english-like-third-person"
-            },
-            {
-                "path": "audio/005804606b17e2c7f4ead52c8c6161e032830c31bd4f14379f5eac739a5c3ac6.wav",
-                "entryId": "en:word:soup"
-            },
-            {
-                "pauseMs": 400
-            }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
-                "entryId": "en:word:capital-she",
-                "startFrame": 2400,
-                "frameCount": 10372
-            },
-            {
-                "path": "audio/c36a98159cd3599e0e3a4bcf704c2133e3a204f208b02467eaf2d409ad208da6.wav",
-                "entryId": "en:word:form-english-like-third-person",
-                "startFrame": 14932,
-                "frameCount": 13186
-            },
-            {
-                "path": "audio/005804606b17e2c7f4ead52c8c6161e032830c31bd4f14379f5eac739a5c3ac6.wav",
-                "entryId": "en:word:soup",
-                "startFrame": 30278,
-                "frameCount": 17678
-            }
-        ],
-        "sha256": "0f99f12874889f0db06475f28e43dd28772a9a44549df2081de8dfadc56a943f",
-        "frames": 59716,
-        "input": {
-            "language": "en",
-            "label": "She likes soup.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact existing constituent PCM; no external synthesis."
-        }
-    },
-    {
         "path": "audio/2825c93985f68e9aa7b1717dbde46663ea73e26e0f35c1b53407b42cd40e8450.wav",
         "entryId": "en:sentence:mealtime-have-butter",
         "label": "We have butter.",
@@ -126,9 +16,7 @@
                 "path": "audio/1bc577f8231c03383cac2bd5cb4e2f36586c0477ab5beddd174aba98c053330a.wav",
                 "entryId": "en:word:butter"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -181,9 +69,7 @@
                 "path": "audio/2f1aff6b9fc48808c7ea17e0f18661f9f72669d3cbe8ece8f3a1bafd65482800.wav",
                 "entryId": "en:word:rice"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -240,9 +126,7 @@
                 "path": "audio/de7a4bdecea3025be9ba5d3c667402f47cc1b671aca28db38ab59239fb3d54ca.wav",
                 "entryId": "en:word:small"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -301,9 +185,7 @@
                 "path": "audio/de43a97fbedea7909d8f9b9ca31da43c5bd95debf2a1c3f89a02f2f0996bee27.wav",
                 "entryId": "en:word:water"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -331,6 +213,550 @@
         "input": {
             "language": "en",
             "label": "You drink water.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM; no external synthesis."
+        }
+    },
+    {
+        "path": "audio/0c3d7a8ba0a087826a2aef54e95014c5dd0dcba21ace255200a2ed1b69b55acd.wav",
+        "entryId": "en:sentence:daily-morning-reading",
+        "label": "I read in the morning.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "entryId": "en:word:read"
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/ee881e674c9ef8f5e57993e590131081d0cda5f31a7f257d75e9108439e0d25f.wav",
+                "entryId": "en:word:morning"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "entryId": "en:word:read",
+                "startFrame": 11067,
+                "frameCount": 11133
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in",
+                "startFrame": 24360,
+                "frameCount": 7315
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 33835,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/ee881e674c9ef8f5e57993e590131081d0cda5f31a7f257d75e9108439e0d25f.wav",
+                "entryId": "en:word:morning",
+                "startFrame": 44145,
+                "frameCount": 14905
+            }
+        ],
+        "sha256": "0c3d7a8ba0a087826a2aef54e95014c5dd0dcba21ace255200a2ed1b69b55acd",
+        "frames": 70810,
+        "input": {
+            "language": "en",
+            "label": "I read in the morning.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM; no external synthesis."
+        }
+    },
+    {
+        "path": "audio/056666425da2fc9f864db5c2fc6e6ff86bbe89dab0a8eaca0fa37998381b692f.wav",
+        "entryId": "en:sentence:daily-eat-home",
+        "label": "We eat at home.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
+                "entryId": "en:word:eat"
+            },
+            {
+                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
+                "entryId": "en:particle:at"
+            },
+            {
+                "path": "audio/e6cabc8adac4be8b43eb723f61d8c3f03674cf3542a5f82bfc16deec706100ef.wav",
+                "entryId": "en:word:home"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
+                "entryId": "en:word:eat",
+                "startFrame": 22112,
+                "frameCount": 10258
+            },
+            {
+                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
+                "entryId": "en:particle:at",
+                "startFrame": 34530,
+                "frameCount": 9361
+            },
+            {
+                "path": "audio/e6cabc8adac4be8b43eb723f61d8c3f03674cf3542a5f82bfc16deec706100ef.wav",
+                "entryId": "en:word:home",
+                "startFrame": 46051,
+                "frameCount": 12520
+            }
+        ],
+        "sha256": "056666425da2fc9f864db5c2fc6e6ff86bbe89dab0a8eaca0fa37998381b692f",
+        "frames": 70331,
+        "input": {
+            "language": "en",
+            "label": "We eat at home.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM; no external synthesis."
+        }
+    },
+    {
+        "path": "audio/f1a13a3feab51bdfb96eebb9e964b1e0deedd36d4ff4ae7880e5bc4b5c893419.wav",
+        "entryId": "en:sentence:daily-work-city",
+        "label": "They work in the city.",
+        "parts": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they"
+            },
+            {
+                "path": "audio/05844c9d895e84f001ac9d056b4e9443ba4ee7b49b4cc15a039676971d6c17dd.wav",
+                "entryId": "en:word:work"
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/7afbcc23f3580d170fac475af0801dd017ff2f78f81ec0db3e27dd85ea2927ab.wav",
+                "entryId": "en:word:city"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they",
+                "startFrame": 2400,
+                "frameCount": 9803
+            },
+            {
+                "path": "audio/05844c9d895e84f001ac9d056b4e9443ba4ee7b49b4cc15a039676971d6c17dd.wav",
+                "entryId": "en:word:work",
+                "startFrame": 14363,
+                "frameCount": 81044
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in",
+                "startFrame": 97567,
+                "frameCount": 7315
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 107042,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/7afbcc23f3580d170fac475af0801dd017ff2f78f81ec0db3e27dd85ea2927ab.wav",
+                "entryId": "en:word:city",
+                "startFrame": 117352,
+                "frameCount": 14159
+            }
+        ],
+        "sha256": "f1a13a3feab51bdfb96eebb9e964b1e0deedd36d4ff4ae7880e5bc4b5c893419",
+        "frames": 143271,
+        "input": {
+            "language": "en",
+            "label": "They work in the city.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM; no external synthesis."
+        }
+    },
+    {
+        "path": "audio/8674062fce3859ab475f0db5d654cf302eb08584064ec1219669aa74167e9757.wav",
+        "entryId": "en:sentence:daily-walk-park",
+        "label": "She walks to the park.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/6fe4eea49f2031d3b6afeada0a1dedbbe0f562f3a187fbc50fdb32c877c17ef6.wav",
+                "entryId": "en:word:form-english-walk-third-person"
+            },
+            {
+                "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
+                "entryId": "en:particle:to"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/a5ce5107d16d8c24e116e3c283d649f94982b001b6479ba384eb7392c1e63cbe.wav",
+                "entryId": "en:word:park"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/6fe4eea49f2031d3b6afeada0a1dedbbe0f562f3a187fbc50fdb32c877c17ef6.wav",
+                "entryId": "en:word:form-english-walk-third-person",
+                "startFrame": 14932,
+                "frameCount": 14426
+            },
+            {
+                "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
+                "entryId": "en:particle:to",
+                "startFrame": 31518,
+                "frameCount": 7478
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 41156,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/a5ce5107d16d8c24e116e3c283d649f94982b001b6479ba384eb7392c1e63cbe.wav",
+                "entryId": "en:word:park",
+                "startFrame": 51466,
+                "frameCount": 13401
+            }
+        ],
+        "sha256": "8674062fce3859ab475f0db5d654cf302eb08584064ec1219669aa74167e9757",
+        "frames": 76627,
+        "input": {
+            "language": "en",
+            "label": "She walks to the park.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM; no external synthesis."
+        }
+    },
+    {
+        "path": "audio/6cf4f1fd8b0b317b1f37ad427677fa8185eace8b72b6c6580f916c69228f2b66.wav",
+        "entryId": "en:sentence:daily-sleep-night",
+        "label": "I sleep at night.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/d167b04d745c13877949ec79ad83914a71df0c25a7bfb853c2f15b6a27c44b87.wav",
+                "entryId": "en:word:sleep"
+            },
+            {
+                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
+                "entryId": "en:particle:at"
+            },
+            {
+                "path": "audio/96ddaef58bad7a373325de863b646ff8cb5805a43c84067260d9d70408e8ec95.wav",
+                "entryId": "en:word:night"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/d167b04d745c13877949ec79ad83914a71df0c25a7bfb853c2f15b6a27c44b87.wav",
+                "entryId": "en:word:sleep",
+                "startFrame": 11067,
+                "frameCount": 13912
+            },
+            {
+                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
+                "entryId": "en:particle:at",
+                "startFrame": 27139,
+                "frameCount": 9361
+            },
+            {
+                "path": "audio/96ddaef58bad7a373325de863b646ff8cb5805a43c84067260d9d70408e8ec95.wav",
+                "entryId": "en:word:night",
+                "startFrame": 38660,
+                "frameCount": 9744
+            }
+        ],
+        "sha256": "6cf4f1fd8b0b317b1f37ad427677fa8185eace8b72b6c6580f916c69228f2b66",
+        "frames": 60164,
+        "input": {
+            "language": "en",
+            "label": "I sleep at night.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM; no external synthesis."
+        }
+    },
+    {
+        "path": "audio/bbc1c12018067ecf20bed891d4fda62fff95366f0e1344a48ee8abe7a284239c.wav",
+        "entryId": "en:sentence:daily-drink-water",
+        "label": "He drinks water.",
+        "parts": [
+            {
+                "path": "audio/6479e690a54602e0b1c5a5bbe4418239c707d393fdde6754b827fac5d2eb56c9.wav",
+                "entryId": "en:word:capital-he"
+            },
+            {
+                "path": "audio/3eca6e67d85d977e599fed0c9ab6a484f51a46dec8d7a561f2c2ace25e9cc1c5.wav",
+                "entryId": "en:word:form-english-drink-third-person"
+            },
+            {
+                "path": "audio/de43a97fbedea7909d8f9b9ca31da43c5bd95debf2a1c3f89a02f2f0996bee27.wav",
+                "entryId": "en:word:water"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/6479e690a54602e0b1c5a5bbe4418239c707d393fdde6754b827fac5d2eb56c9.wav",
+                "entryId": "en:word:capital-he",
+                "startFrame": 2400,
+                "frameCount": 10803
+            },
+            {
+                "path": "audio/3eca6e67d85d977e599fed0c9ab6a484f51a46dec8d7a561f2c2ace25e9cc1c5.wav",
+                "entryId": "en:word:form-english-drink-third-person",
+                "startFrame": 15363,
+                "frameCount": 13170
+            },
+            {
+                "path": "audio/de43a97fbedea7909d8f9b9ca31da43c5bd95debf2a1c3f89a02f2f0996bee27.wav",
+                "entryId": "en:word:water",
+                "startFrame": 30693,
+                "frameCount": 13834
+            }
+        ],
+        "sha256": "bbc1c12018067ecf20bed891d4fda62fff95366f0e1344a48ee8abe7a284239c",
+        "frames": 56287,
+        "input": {
+            "language": "en",
+            "label": "He drinks water.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM; no external synthesis."
+        }
+    },
+    {
+        "path": "audio/a622e0ab62267fa58696a2c9054709f5d02b51ec1b760dc0801d5a5bec6f71a3.wav",
+        "entryId": "en:sentence:shopping-want-small-bag",
+        "label": "I want a small bag.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/64ba083ec87a85a2794c293b25059a4e3c21294016fdb68e582ab0fb098eeda7.wav",
+                "entryId": "en:word:want"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/de7a4bdecea3025be9ba5d3c667402f47cc1b671aca28db38ab59239fb3d54ca.wav",
+                "entryId": "en:word:small"
+            },
+            {
+                "path": "audio/73013127fed0ea0a484238e0a4ba76df65fdb9996877d6dd180f519f856585fe.wav",
+                "entryId": "en:word:bag"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/64ba083ec87a85a2794c293b25059a4e3c21294016fdb68e582ab0fb098eeda7.wav",
+                "entryId": "en:word:want",
+                "startFrame": 11067,
+                "frameCount": 13990
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 27217,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/de7a4bdecea3025be9ba5d3c667402f47cc1b671aca28db38ab59239fb3d54ca.wav",
+                "entryId": "en:word:small",
+                "startFrame": 41917,
+                "frameCount": 14627
+            },
+            {
+                "path": "audio/73013127fed0ea0a484238e0a4ba76df65fdb9996877d6dd180f519f856585fe.wav",
+                "entryId": "en:word:bag",
+                "startFrame": 58704,
+                "frameCount": 21022
+            }
+        ],
+        "sha256": "a622e0ab62267fa58696a2c9054709f5d02b51ec1b760dc0801d5a5bec6f71a3",
+        "frames": 91486,
+        "input": {
+            "language": "en",
+            "label": "I want a small bag.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM; no external synthesis."
+        }
+    },
+    {
+        "path": "audio/195e3c83d457c492a27b14d46bdb0245a6d7dd049439479d9f82818f82235e4f.wav",
+        "entryId": "en:sentence:shopping-need-new-phone",
+        "label": "She needs a new phone.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/f0481cffb8d824527026fdff7aa234c9d6168eac83dcbaaafe98ff2695159c5f.wav",
+                "entryId": "en:word:form-english-need-third-person"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/1f1f40b6ea41c9a2807522f799faae6184a0d500ba368249b0a0d535c68f58e8.wav",
+                "entryId": "en:word:new"
+            },
+            {
+                "path": "audio/117a67fda04ed77d3be09804cfb4ecafd1ad565ae850710d715b8b09b91eaef3.wav",
+                "entryId": "en:word:phone"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/f0481cffb8d824527026fdff7aa234c9d6168eac83dcbaaafe98ff2695159c5f.wav",
+                "entryId": "en:word:form-english-need-third-person",
+                "startFrame": 14932,
+                "frameCount": 15655
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 32747,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/1f1f40b6ea41c9a2807522f799faae6184a0d500ba368249b0a0d535c68f58e8.wav",
+                "entryId": "en:word:new",
+                "startFrame": 47447,
+                "frameCount": 10768
+            },
+            {
+                "path": "audio/117a67fda04ed77d3be09804cfb4ecafd1ad565ae850710d715b8b09b91eaef3.wav",
+                "entryId": "en:word:phone",
+                "startFrame": 60375,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "195e3c83d457c492a27b14d46bdb0245a6d7dd049439479d9f82818f82235e4f",
+        "frames": 92042,
+        "input": {
+            "language": "en",
+            "label": "She needs a new phone.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
         },

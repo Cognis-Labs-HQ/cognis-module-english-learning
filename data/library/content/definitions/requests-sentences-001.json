@@ -1,0 +1,62 @@
+[
+    {
+        "id": "en:definition:requests-example-yes",
+        "label": "Yes, I am a student.",
+        "class": "definition",
+        "hidden": true,
+        "fields": {
+            "string_key": "studyenglish:definitions:requests_example_yes",
+            "translations": {
+                "en": "Yes, I am a student.",
+                "de": "Ja, ich bin Student.",
+                "id": "Ya, saya seorang pelajar.",
+                "ja": "はい、私は学生です。"
+            }
+        }
+    },
+    {
+        "id": "en:definition:requests-example-no",
+        "label": "No, I am a teacher.",
+        "class": "definition",
+        "hidden": true,
+        "fields": {
+            "string_key": "studyenglish:definitions:requests_example_no",
+            "translations": {
+                "en": "No, I am a teacher.",
+                "de": "Nein, ich bin Lehrer.",
+                "id": "Tidak, saya seorang guru.",
+                "ja": "いいえ、私は先生です。"
+            }
+        }
+    },
+    {
+        "id": "en:definition:requests-example-please",
+        "label": "Please speak slowly.",
+        "class": "definition",
+        "hidden": true,
+        "fields": {
+            "string_key": "studyenglish:definitions:requests_example_please",
+            "translations": {
+                "en": "Please speak slowly.",
+                "de": "Bitte sprechen Sie langsam.",
+                "id": "Tolong bicara perlahan.",
+                "ja": "ゆっくり話してください。"
+            }
+        }
+    },
+    {
+        "id": "en:definition:requests-example-repeat",
+        "label": "Pardon? Please speak slowly.",
+        "class": "definition",
+        "hidden": true,
+        "fields": {
+            "string_key": "studyenglish:definitions:requests_example_repeat",
+            "translations": {
+                "en": "Pardon? Please speak slowly.",
+                "de": "Wie bitte? Bitte sprechen Sie langsam.",
+                "id": "Maaf, bisa diulang? Tolong bicara perlahan.",
+                "ja": "もう一度言ってください。ゆっくり話してください。"
+            }
+        }
+    }
+]

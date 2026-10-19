@@ -154,6 +154,10 @@ Tambahkan predikat Jepang untuk membaca, menulis, berbicara, dan tidur dengan ti
 
 Tambahkan sapaan siang, terima kasih sopan, permintaan perhatian, dan perpisahan Jepang dengan gambar kontekstual serta catatan ragam. Tambahkan latihan percakapan Inggris mandiri tanpa memaksakan kesetaraan ungkapan. Tautkan bunyi わ dalam こんにちは dengan benar dan simpan bukti sumber. Pemeriksaan pendengaran belum dilakukan.
 
+## Jawaban dan Klarifikasi
+
+Tambahkan jawaban afirmatif dan negatif, permintaan sopan, serta permintaan pengulangan. Pisahkan Please sebagai ungkapan sopan dari verba menyenangkan. Jelaskan pengakuan Jepang, vokal panjang, dan padanan sesuai konteks. Gambar asli dan JPEG akhir diperiksa; audio unsur persis serta bukti disimpan. Pemeriksaan pendengaran belum dilakukan.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

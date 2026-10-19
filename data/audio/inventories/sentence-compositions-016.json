@@ -1,0 +1,715 @@
+[
+    {
+        "path": "audio/74a6c10cf85d882f3a1bf0e5b4218657bb1e26bc123869b599db291815dc1603.wav",
+        "entryId": "en:sentence:care-example-soap",
+        "label": "I wash my face with soap.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/f871f020b3de15eef5914b6e3de3d22cbd60473330c2bdfa30976783eb09b34a.wav",
+                "entryId": "en:word:household-wash"
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my"
+            },
+            {
+                "path": "audio/7bbf0b6cc8b9064489c0dcfdc8c79e32733c354536a66d8a1ed4e3b5b698148f.wav",
+                "entryId": "en:word:face"
+            },
+            {
+                "path": "audio/6d2d3881b88f3c382ad83e70da941112308ecd8ffb35358a71c8c38c099170d6.wav",
+                "entryId": "en:particle:with"
+            },
+            {
+                "path": "audio/464a9aa9194e8ee2ea50bd0d943d48558569b9f7ff125d1e606a5d3d1d6e17ed.wav",
+                "entryId": "en:word:care-soap"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/f871f020b3de15eef5914b6e3de3d22cbd60473330c2bdfa30976783eb09b34a.wav",
+                "entryId": "en:word:household-wash",
+                "startFrame": 11067,
+                "frameCount": 22137
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my",
+                "startFrame": 35364,
+                "frameCount": 9522
+            },
+            {
+                "path": "audio/7bbf0b6cc8b9064489c0dcfdc8c79e32733c354536a66d8a1ed4e3b5b698148f.wav",
+                "entryId": "en:word:face",
+                "startFrame": 47046,
+                "frameCount": 22137
+            },
+            {
+                "path": "audio/6d2d3881b88f3c382ad83e70da941112308ecd8ffb35358a71c8c38c099170d6.wav",
+                "entryId": "en:particle:with",
+                "startFrame": 71343,
+                "frameCount": 12362
+            },
+            {
+                "path": "audio/464a9aa9194e8ee2ea50bd0d943d48558569b9f7ff125d1e606a5d3d1d6e17ed.wav",
+                "entryId": "en:word:care-soap",
+                "startFrame": 85865,
+                "frameCount": 29939
+            }
+        ],
+        "sha256": "74a6c10cf85d882f3a1bf0e5b4218657bb1e26bc123869b599db291815dc1603",
+        "frames": 127564,
+        "input": {
+            "language": "en",
+            "label": "I wash my face with soap.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact personal-care constituent PCM, including the English plural towels."
+        }
+    },
+    {
+        "path": "audio/d2c5e7171b667c8a4cb36b4436d4e7fa0decd37654d8bb94b4dcf7bf592d7244.wav",
+        "entryId": "en:sentence:care-example-towel",
+        "label": "We need towels.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need"
+            },
+            {
+                "path": "audio/27bbcd89bf897061f6263cf5b1e741dc880e77a37b84a26648e086541bf6975d.wav",
+                "entryId": "en:word:form-care-towels"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need",
+                "startFrame": 22112,
+                "frameCount": 9927
+            },
+            {
+                "path": "audio/27bbcd89bf897061f6263cf5b1e741dc880e77a37b84a26648e086541bf6975d.wav",
+                "entryId": "en:word:form-care-towels",
+                "startFrame": 34199,
+                "frameCount": 29939
+            }
+        ],
+        "sha256": "d2c5e7171b667c8a4cb36b4436d4e7fa0decd37654d8bb94b4dcf7bf592d7244",
+        "frames": 75898,
+        "input": {
+            "language": "en",
+            "label": "We need towels.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact personal-care constituent PCM, including the English plural towels."
+        }
+    },
+    {
+        "path": "audio/9a1f943140a0d9663ef84d2863b2b214e7b0c2d092c1e3f8a8d44973f8d01d75.wav",
+        "entryId": "en:sentence:care-example-toothbrush",
+        "label": "She has a new toothbrush.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/bda924c2c4116df9e3bfe3599856e66a2305d8fd57fc299ded5eec1d595f99c6.wav",
+                "entryId": "en:word:form-english-have-third-person"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/1f1f40b6ea41c9a2807522f799faae6184a0d500ba368249b0a0d535c68f58e8.wav",
+                "entryId": "en:word:new"
+            },
+            {
+                "path": "audio/01632476e1f382221605d1049ff718a9721eb1a1f4da5cc9088de91fb9daf1aa.wav",
+                "entryId": "en:word:care-toothbrush"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/bda924c2c4116df9e3bfe3599856e66a2305d8fd57fc299ded5eec1d595f99c6.wav",
+                "entryId": "en:word:form-english-have-third-person",
+                "startFrame": 14932,
+                "frameCount": 9951
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 27043,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/1f1f40b6ea41c9a2807522f799faae6184a0d500ba368249b0a0d535c68f58e8.wav",
+                "entryId": "en:word:new",
+                "startFrame": 41743,
+                "frameCount": 10768
+            },
+            {
+                "path": "audio/01632476e1f382221605d1049ff718a9721eb1a1f4da5cc9088de91fb9daf1aa.wav",
+                "entryId": "en:word:care-toothbrush",
+                "startFrame": 54671,
+                "frameCount": 26595
+            }
+        ],
+        "sha256": "9a1f943140a0d9663ef84d2863b2b214e7b0c2d092c1e3f8a8d44973f8d01d75",
+        "frames": 93026,
+        "input": {
+            "language": "en",
+            "label": "She has a new toothbrush.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact personal-care constituent PCM, including the English plural towels."
+        }
+    },
+    {
+        "path": "audio/e467b63d0cdb21fad9400f4ea4b7edc0cdaeeba6d6509a6a95136c66790a0943.wav",
+        "entryId": "en:sentence:care-example-toothpaste",
+        "label": "I buy toothpaste at the supermarket.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+                "entryId": "en:word:travel-buy"
+            },
+            {
+                "path": "audio/2a7df9a454b151405b2fe20f3053b323c0b7707fee9973e11f34cf5b1b438288.wav",
+                "entryId": "en:word:care-toothpaste"
+            },
+            {
+                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
+                "entryId": "en:particle:at"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/578eaa7c2d92a0ee7eb8ddbe36c8f4fc9df41588cc286435751ad234cfb4f5c7.wav",
+                "entryId": "en:word:places-supermarket"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+                "entryId": "en:word:travel-buy",
+                "startFrame": 11067,
+                "frameCount": 19907
+            },
+            {
+                "path": "audio/2a7df9a454b151405b2fe20f3053b323c0b7707fee9973e11f34cf5b1b438288.wav",
+                "entryId": "en:word:care-toothpaste",
+                "startFrame": 33134,
+                "frameCount": 27709
+            },
+            {
+                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
+                "entryId": "en:particle:at",
+                "startFrame": 63003,
+                "frameCount": 9361
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 74524,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/578eaa7c2d92a0ee7eb8ddbe36c8f4fc9df41588cc286435751ad234cfb4f5c7.wav",
+                "entryId": "en:word:places-supermarket",
+                "startFrame": 84834,
+                "frameCount": 26595
+            }
+        ],
+        "sha256": "e467b63d0cdb21fad9400f4ea4b7edc0cdaeeba6d6509a6a95136c66790a0943",
+        "frames": 123189,
+        "input": {
+            "language": "en",
+            "label": "I buy toothpaste at the supermarket.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact personal-care constituent PCM, including the English plural towels."
+        }
+    },
+    {
+        "path": "audio/e668351211a1a421501a3caf1b38830f99d2e6578d966b01a6d225050aa1e21c.wav",
+        "entryId": "en:sentence:qualities-example-heavy",
+        "label": "The bag is heavy.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/73013127fed0ea0a484238e0a4ba76df65fdb9996877d6dd180f519f856585fe.wav",
+                "entryId": "en:word:bag"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/42dd8448d89fc16e29189895eb4d77f7f4ecc84a4f8eb2d892eb436d20c01460.wav",
+                "entryId": "en:word:qualities-heavy"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/73013127fed0ea0a484238e0a4ba76df65fdb9996877d6dd180f519f856585fe.wav",
+                "entryId": "en:word:bag",
+                "startFrame": 12710,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 35892,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/42dd8448d89fc16e29189895eb4d77f7f4ecc84a4f8eb2d892eb436d20c01460.wav",
+                "entryId": "en:word:qualities-heavy",
+                "startFrame": 48439,
+                "frameCount": 18793
+            }
+        ],
+        "sha256": "e668351211a1a421501a3caf1b38830f99d2e6578d966b01a6d225050aa1e21c",
+        "frames": 78992,
+        "input": {
+            "language": "en",
+            "label": "The bag is heavy.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/f53decca063c18f62d0f2c176ebe6e8cfad541e27932648dd00e93ec1eeee5a4.wav",
+        "entryId": "en:sentence:qualities-example-light",
+        "label": "This coat is light.",
+        "parts": [
+            {
+                "path": "audio/8f1a8820f4f39a725ae1e72a595127faccdf533771641521b849d3c94a6e3acd.wav",
+                "entryId": "en:word:capital-this"
+            },
+            {
+                "path": "audio/e72db60db99f01ff27735a2ec347691e8fe769d672a7b0e94f3352ec0344e584.wav",
+                "entryId": "en:word:coat"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/3ce98bbc885831bca22c494c5d950ed929454301081fae8c3a72e7be55609660.wav",
+                "entryId": "en:word:qualities-light"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/8f1a8820f4f39a725ae1e72a595127faccdf533771641521b849d3c94a6e3acd.wav",
+                "entryId": "en:word:capital-this",
+                "startFrame": 2400,
+                "frameCount": 12058
+            },
+            {
+                "path": "audio/e72db60db99f01ff27735a2ec347691e8fe769d672a7b0e94f3352ec0344e584.wav",
+                "entryId": "en:word:coat",
+                "startFrame": 16618,
+                "frameCount": 28824
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 47602,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/3ce98bbc885831bca22c494c5d950ed929454301081fae8c3a72e7be55609660.wav",
+                "entryId": "en:word:qualities-light",
+                "startFrame": 60149,
+                "frameCount": 72292
+            }
+        ],
+        "sha256": "f53decca063c18f62d0f2c176ebe6e8cfad541e27932648dd00e93ec1eeee5a4",
+        "frames": 144201,
+        "input": {
+            "language": "en",
+            "label": "This coat is light.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/29e0dfc24d66b9669073ecdc52f47e1a15722ac1d176fb1d70dea9ce7ffa1937.wav",
+        "entryId": "en:sentence:qualities-example-easy",
+        "label": "This question is easy.",
+        "parts": [
+            {
+                "path": "audio/8f1a8820f4f39a725ae1e72a595127faccdf533771641521b849d3c94a6e3acd.wav",
+                "entryId": "en:word:capital-this"
+            },
+            {
+                "path": "audio/35fad243608fc2d83692114a144def5d5db9497e3e2aa8c70cf9718d64777a85.wav",
+                "entryId": "en:word:question"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/6a1a92047207014007f61432749d32dab7399076af957b76791a825417cf794f.wav",
+                "entryId": "en:word:qualities-easy"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/8f1a8820f4f39a725ae1e72a595127faccdf533771641521b849d3c94a6e3acd.wav",
+                "entryId": "en:word:capital-this",
+                "startFrame": 2400,
+                "frameCount": 12058
+            },
+            {
+                "path": "audio/35fad243608fc2d83692114a144def5d5db9497e3e2aa8c70cf9718d64777a85.wav",
+                "entryId": "en:word:question",
+                "startFrame": 16618,
+                "frameCount": 13824
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 32602,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/6a1a92047207014007f61432749d32dab7399076af957b76791a825417cf794f.wav",
+                "entryId": "en:word:qualities-easy",
+                "startFrame": 45149,
+                "frameCount": 18793
+            }
+        ],
+        "sha256": "29e0dfc24d66b9669073ecdc52f47e1a15722ac1d176fb1d70dea9ce7ffa1937",
+        "frames": 75702,
+        "input": {
+            "language": "en",
+            "label": "This question is easy.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/edd1d4bd11f306f5b750a0377362dae756c7c3a4b52bbc374af3a336c1c0101f.wav",
+        "entryId": "en:sentence:qualities-example-difficult",
+        "label": "The question is difficult.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/35fad243608fc2d83692114a144def5d5db9497e3e2aa8c70cf9718d64777a85.wav",
+                "entryId": "en:word:question"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/1f0e9e75cec1b9ebf8e9982bfc802b2039c4be24125e30956f407c7f9a47b756.wav",
+                "entryId": "en:word:qualities-difficult"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/35fad243608fc2d83692114a144def5d5db9497e3e2aa8c70cf9718d64777a85.wav",
+                "entryId": "en:word:question",
+                "startFrame": 12710,
+                "frameCount": 13824
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 28694,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/1f0e9e75cec1b9ebf8e9982bfc802b2039c4be24125e30956f407c7f9a47b756.wav",
+                "entryId": "en:word:qualities-difficult",
+                "startFrame": 41241,
+                "frameCount": 27709
+            }
+        ],
+        "sha256": "edd1d4bd11f306f5b750a0377362dae756c7c3a4b52bbc374af3a336c1c0101f",
+        "frames": 80710,
+        "input": {
+            "language": "en",
+            "label": "The question is difficult.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/0c2bbd9df33e5242e1d7047b19db3c24358bb25890624f7aeec62838a868d2e4.wav",
+        "entryId": "en:sentence:frequency-example-often",
+        "label": "I often read.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/9a05b479bd06312a9e9dc72b6d3154b589a7096efb1414391e23470e96551bef.wav",
+                "entryId": "en:word:frequency-often"
+            },
+            {
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "entryId": "en:word:read"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/9a05b479bd06312a9e9dc72b6d3154b589a7096efb1414391e23470e96551bef.wav",
+                "entryId": "en:word:frequency-often",
+                "startFrame": 11067,
+                "frameCount": 19907
+            },
+            {
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "entryId": "en:word:read",
+                "startFrame": 33134,
+                "frameCount": 11133
+            }
+        ],
+        "sha256": "0c2bbd9df33e5242e1d7047b19db3c24358bb25890624f7aeec62838a868d2e4",
+        "frames": 56027,
+        "input": {
+            "language": "en",
+            "label": "I often read.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/87991db62bf47123bf9e8e92c4b12c5c98e9fec2531bf4a6b07ced5e16e8e33e.wav",
+        "entryId": "en:sentence:frequency-example-sometimes",
+        "label": "We sometimes swim.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/d9ddff4f3957714dd7844669cbc48bb018a1fc24b6923c5c956ddcf339bd08eb.wav",
+                "entryId": "en:word:frequency-sometimes"
+            },
+            {
+                "path": "audio/84088360bfd4be82b2f925caa2d7b6044b8384c0f1855795f514b2b7004c5316.wav",
+                "entryId": "en:word:actions-swim"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/d9ddff4f3957714dd7844669cbc48bb018a1fc24b6923c5c956ddcf339bd08eb.wav",
+                "entryId": "en:word:frequency-sometimes",
+                "startFrame": 22112,
+                "frameCount": 27709
+            },
+            {
+                "path": "audio/84088360bfd4be82b2f925caa2d7b6044b8384c0f1855795f514b2b7004c5316.wav",
+                "entryId": "en:word:actions-swim",
+                "startFrame": 51981,
+                "frameCount": 21022
+            }
+        ],
+        "sha256": "87991db62bf47123bf9e8e92c4b12c5c98e9fec2531bf4a6b07ced5e16e8e33e",
+        "frames": 84763,
+        "input": {
+            "language": "en",
+            "label": "We sometimes swim.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/9500915212cb92dfa02ca2c97a900ff2d23ae18e28e9dc0b79068768e1653c92.wav",
+        "entryId": "en:sentence:frequency-example-usually",
+        "label": "I usually drink tea.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/fe7abe7add7e5f7cbd58983ad0b62a5bb6e3e3f21202d3cc64c32d2ca1e9ea7a.wav",
+                "entryId": "en:word:frequency-usually"
+            },
+            {
+                "path": "audio/03b62debf6ef4408c4897b5fb6c219dbe2fd2dc3aa3abcaaeac9e60a81ffd688.wav",
+                "entryId": "en:word:drink"
+            },
+            {
+                "path": "audio/53612525976e57e096c89cf49ffcc1be60d2ab04136168922486a85043d6b84b.wav",
+                "entryId": "en:word:tea"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/fe7abe7add7e5f7cbd58983ad0b62a5bb6e3e3f21202d3cc64c32d2ca1e9ea7a.wav",
+                "entryId": "en:word:frequency-usually",
+                "startFrame": 11067,
+                "frameCount": 24366
+            },
+            {
+                "path": "audio/03b62debf6ef4408c4897b5fb6c219dbe2fd2dc3aa3abcaaeac9e60a81ffd688.wav",
+                "entryId": "en:word:drink",
+                "startFrame": 37593,
+                "frameCount": 11105
+            },
+            {
+                "path": "audio/53612525976e57e096c89cf49ffcc1be60d2ab04136168922486a85043d6b84b.wav",
+                "entryId": "en:word:tea",
+                "startFrame": 50858,
+                "frameCount": 10235
+            }
+        ],
+        "sha256": "9500915212cb92dfa02ca2c97a900ff2d23ae18e28e9dc0b79068768e1653c92",
+        "frames": 72853,
+        "input": {
+            "language": "en",
+            "label": "I usually drink tea.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    }
+]

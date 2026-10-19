@@ -1,162 +1,30 @@
 [
     {
-        "path": "audio/5906c58530e2957097dedfe5fcba6277d9edfe768325898bc80d5d7b63e26c72.wav",
-        "entryId": "en:sentence:household-example-wash",
-        "label": "I wash my face.",
-        "parts": [
-            {
-                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
-                "entryId": "en:word:i"
-            },
-            {
-                "path": "audio/f871f020b3de15eef5914b6e3de3d22cbd60473330c2bdfa30976783eb09b34a.wav",
-                "entryId": "en:word:household-wash"
-            },
-            {
-                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
-                "entryId": "en:word:my"
-            },
-            {
-                "path": "audio/7bbf0b6cc8b9064489c0dcfdc8c79e32733c354536a66d8a1ed4e3b5b698148f.wav",
-                "entryId": "en:word:face"
-            },
-            {
-                "pauseMs": 400
-            }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
-                "entryId": "en:word:i",
-                "startFrame": 2400,
-                "frameCount": 6507
-            },
-            {
-                "path": "audio/f871f020b3de15eef5914b6e3de3d22cbd60473330c2bdfa30976783eb09b34a.wav",
-                "entryId": "en:word:household-wash",
-                "startFrame": 11067,
-                "frameCount": 22137
-            },
-            {
-                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
-                "entryId": "en:word:my",
-                "startFrame": 35364,
-                "frameCount": 9522
-            },
-            {
-                "path": "audio/7bbf0b6cc8b9064489c0dcfdc8c79e32733c354536a66d8a1ed4e3b5b698148f.wav",
-                "entryId": "en:word:face",
-                "startFrame": 47046,
-                "frameCount": 22137
-            }
-        ],
-        "sha256": "5906c58530e2957097dedfe5fcba6277d9edfe768325898bc80d5d7b63e26c72",
-        "frames": 80943,
-        "input": {
-            "language": "en",
-            "label": "I wash my face.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact household-action constituent PCM, including English cooked and cleaning and Japanese あらいます, りょうりしました and かわかした."
-        }
-    },
-    {
-        "path": "audio/f7f3ed783ebac1cc1f30736e137e80c08f5a38496a9d064d6b901b23a976b53d.wav",
-        "entryId": "en:sentence:household-example-cook",
-        "label": "She cooked rice yesterday.",
-        "parts": [
-            {
-                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
-                "entryId": "en:word:capital-she"
-            },
-            {
-                "path": "audio/4b501e2a74dc5162ad599b2cafbb011650893e95db7032fdab9bcf4854607b96.wav",
-                "entryId": "en:word:form-household-cook-past"
-            },
-            {
-                "path": "audio/2f1aff6b9fc48808c7ea17e0f18661f9f72669d3cbe8ece8f3a1bafd65482800.wav",
-                "entryId": "en:word:rice"
-            },
-            {
-                "path": "audio/a7f5ee6d4e49bcb471661ca5714f13c543a543da7ee4602f2d51fb065b761b9c.wav",
-                "entryId": "en:word:time-yesterday"
-            },
-            {
-                "pauseMs": 400
-            }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
-                "entryId": "en:word:capital-she",
-                "startFrame": 2400,
-                "frameCount": 10372
-            },
-            {
-                "path": "audio/4b501e2a74dc5162ad599b2cafbb011650893e95db7032fdab9bcf4854607b96.wav",
-                "entryId": "en:word:form-household-cook-past",
-                "startFrame": 14932,
-                "frameCount": 21022
-            },
-            {
-                "path": "audio/2f1aff6b9fc48808c7ea17e0f18661f9f72669d3cbe8ece8f3a1bafd65482800.wav",
-                "entryId": "en:word:rice",
-                "startFrame": 38114,
-                "frameCount": 23251
-            },
-            {
-                "path": "audio/a7f5ee6d4e49bcb471661ca5714f13c543a543da7ee4602f2d51fb065b761b9c.wav",
-                "entryId": "en:word:time-yesterday",
-                "startFrame": 63525,
-                "frameCount": 23251
-            }
-        ],
-        "sha256": "f7f3ed783ebac1cc1f30736e137e80c08f5a38496a9d064d6b901b23a976b53d",
-        "frames": 98536,
-        "input": {
-            "language": "en",
-            "label": "She cooked rice yesterday.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact household-action constituent PCM, including English cooked and cleaning and Japanese あらいます, りょうりしました and かわかした."
-        }
-    },
-    {
-        "path": "audio/4dd5987bb288a3f730525ed073defbcc99cb7fb8275e3c4c7f652981048174fa.wav",
-        "entryId": "en:sentence:household-example-clean",
-        "label": "We are cleaning the room.",
+        "path": "audio/39dfa3cd8c2e46a54c9addcab44b7e6f83a1c18d09ca6ab38fe92a3682337fa6.wav",
+        "entryId": "en:sentence:frequency-example-again",
+        "label": "We read the question again.",
         "parts": [
             {
                 "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
                 "entryId": "en:word:capital-we"
             },
             {
-                "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
-                "entryId": "en:word:form-english-be-are"
-            },
-            {
-                "path": "audio/3f454d88d4e331a09c78888ee6f9331091fadb5dfff4f089e4f4f1fe611f6d21.wav",
-                "entryId": "en:word:form-household-clean-present-participle"
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "entryId": "en:word:read"
             },
             {
                 "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
                 "entryId": "en:word:the"
             },
             {
-                "path": "audio/99dfb2260e1504e5c3b5ac99b58686489b21c659aa542edb52fb67b86c0f534d.wav",
-                "entryId": "en:word:room"
+                "path": "audio/35fad243608fc2d83692114a144def5d5db9497e3e2aa8c70cf9718d64777a85.wav",
+                "entryId": "en:word:question"
             },
             {
-                "pauseMs": 400
-            }
+                "path": "audio/024b55e2d0ec5a9bc349fb971943726460526ecde794d2b5bc02e61bd4ce65d4.wav",
+                "entryId": "en:word:frequency-again"
+            },
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -167,67 +35,207 @@
                 "frameCount": 17552
             },
             {
-                "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
-                "entryId": "en:word:form-english-be-are",
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "entryId": "en:word:read",
                 "startFrame": 22112,
-                "frameCount": 5418
-            },
-            {
-                "path": "audio/3f454d88d4e331a09c78888ee6f9331091fadb5dfff4f089e4f4f1fe611f6d21.wav",
-                "entryId": "en:word:form-household-clean-present-participle",
-                "startFrame": 29690,
-                "frameCount": 22137
+                "frameCount": 11133
             },
             {
                 "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
                 "entryId": "en:word:the",
-                "startFrame": 53987,
+                "startFrame": 35405,
                 "frameCount": 8150
             },
             {
-                "path": "audio/99dfb2260e1504e5c3b5ac99b58686489b21c659aa542edb52fb67b86c0f534d.wav",
-                "entryId": "en:word:room",
-                "startFrame": 64297,
-                "frameCount": 9190
+                "path": "audio/35fad243608fc2d83692114a144def5d5db9497e3e2aa8c70cf9718d64777a85.wav",
+                "entryId": "en:word:question",
+                "startFrame": 45715,
+                "frameCount": 13824
+            },
+            {
+                "path": "audio/024b55e2d0ec5a9bc349fb971943726460526ecde794d2b5bc02e61bd4ce65d4.wav",
+                "entryId": "en:word:frequency-again",
+                "startFrame": 61699,
+                "frameCount": 21022
             }
         ],
-        "sha256": "4dd5987bb288a3f730525ed073defbcc99cb7fb8275e3c4c7f652981048174fa",
-        "frames": 85247,
+        "sha256": "39dfa3cd8c2e46a54c9addcab44b7e6f83a1c18d09ca6ab38fe92a3682337fa6",
+        "frames": 94481,
         "input": {
             "language": "en",
-            "label": "We are cleaning the room.",
+            "label": "We read the question again.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
         },
         "metadata": {
             "listening": "unverified-not-performed",
-            "construction": "Exact household-action constituent PCM, including English cooked and cleaning and Japanese あらいます, りょうりしました and かわかした."
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
         }
     },
     {
-        "path": "audio/09bd7945bdab5044497abf273f013964009d75de91773c87ca9a4e5973faa3eb.wav",
-        "entryId": "en:sentence:household-example-dry",
-        "label": "They dry the plates.",
+        "path": "audio/46cd37bd5f9c338f1138189b668680ff1ebe6aaa1ef74c0333a2ba773c45ee19.wav",
+        "entryId": "en:sentence:core-example-read",
+        "label": "I read in the library.",
         "parts": [
             {
-                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
-                "entryId": "en:word:capital-they"
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
             },
             {
-                "path": "audio/885b5f5bfc288f3d11a87e369cb0f48818ae2ccc5c90e78ab42a4f03b0036de6.wav",
-                "entryId": "en:word:household-dry"
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "entryId": "en:word:read"
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in"
             },
             {
                 "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
                 "entryId": "en:word:the"
             },
             {
-                "path": "audio/9dc7d8bb03561421cd31a9481c1826300984d533eec85b6bc2f98ab79a7c4504.wav",
-                "entryId": "en:word:form-tableware-plates"
+                "path": "audio/9572e372989b5c731c9f77f0370494110dfb2b2df0dbcd1043df6e56f81fe2ad.wav",
+                "entryId": "en:word:places-library"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
             },
             {
-                "pauseMs": 400
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "entryId": "en:word:read",
+                "startFrame": 11067,
+                "frameCount": 11133
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in",
+                "startFrame": 24360,
+                "frameCount": 7315
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 33835,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/9572e372989b5c731c9f77f0370494110dfb2b2df0dbcd1043df6e56f81fe2ad.wav",
+                "entryId": "en:word:places-library",
+                "startFrame": 44145,
+                "frameCount": 24366
             }
+        ],
+        "sha256": "46cd37bd5f9c338f1138189b668680ff1ebe6aaa1ef74c0333a2ba773c45ee19",
+        "frames": 80271,
+        "input": {
+            "language": "en",
+            "label": "I read in the library.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/a5586d46a9e011a433d32247ff3b0118c2eb51ea4975e2f5402d1ea05b37b1ec.wav",
+        "entryId": "en:sentence:core-example-write",
+        "label": "I write with a pen.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/16a2d1eaaa889296b2f83e59f3b322f25fe44467632933ef9771f2c00ea68bbb.wav",
+                "entryId": "en:word:write"
+            },
+            {
+                "path": "audio/6d2d3881b88f3c382ad83e70da941112308ecd8ffb35358a71c8c38c099170d6.wav",
+                "entryId": "en:particle:with"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/4aea6ff75bd574d18c082382beed1704fb552f0e633a8e749b083cc1a66e0b60.wav",
+                "entryId": "en:word:school-pen"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/16a2d1eaaa889296b2f83e59f3b322f25fe44467632933ef9771f2c00ea68bbb.wav",
+                "entryId": "en:word:write",
+                "startFrame": 11067,
+                "frameCount": 13293
+            },
+            {
+                "path": "audio/6d2d3881b88f3c382ad83e70da941112308ecd8ffb35358a71c8c38c099170d6.wav",
+                "entryId": "en:particle:with",
+                "startFrame": 26520,
+                "frameCount": 12362
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 41042,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/4aea6ff75bd574d18c082382beed1704fb552f0e633a8e749b083cc1a66e0b60.wav",
+                "entryId": "en:word:school-pen",
+                "startFrame": 55742,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "a5586d46a9e011a433d32247ff3b0118c2eb51ea4975e2f5402d1ea05b37b1ec",
+        "frames": 87409,
+        "input": {
+            "language": "en",
+            "label": "I write with a pen.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/2306b5698db25977cfc3284bf1c70a0eca0c1db276ce3790e60ac2a92fa99ac4.wav",
+        "entryId": "en:sentence:core-example-speak",
+        "label": "They speak English.",
+        "parts": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they"
+            },
+            {
+                "path": "audio/a39b067c873d54f1cc32e7db3083ede911328e7819731066390622ea0c5b975c.wav",
+                "entryId": "en:word:speak"
+            },
+            {
+                "path": "audio/f0bcb581f921e4885369caaa14ef8b658f494c2df87673ea2b22776fcf933db0.wav",
+                "entryId": "en:word:english"
+            },
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -238,211 +246,49 @@
                 "frameCount": 9803
             },
             {
-                "path": "audio/885b5f5bfc288f3d11a87e369cb0f48818ae2ccc5c90e78ab42a4f03b0036de6.wav",
-                "entryId": "en:word:household-dry",
+                "path": "audio/a39b067c873d54f1cc32e7db3083ede911328e7819731066390622ea0c5b975c.wav",
+                "entryId": "en:word:speak",
                 "startFrame": 14363,
-                "frameCount": 19907
+                "frameCount": 16610
             },
             {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the",
-                "startFrame": 36430,
-                "frameCount": 8150
-            },
-            {
-                "path": "audio/9dc7d8bb03561421cd31a9481c1826300984d533eec85b6bc2f98ab79a7c4504.wav",
-                "entryId": "en:word:form-tableware-plates",
-                "startFrame": 46740,
-                "frameCount": 23251
+                "path": "audio/f0bcb581f921e4885369caaa14ef8b658f494c2df87673ea2b22776fcf933db0.wav",
+                "entryId": "en:word:english",
+                "startFrame": 33133,
+                "frameCount": 16343
             }
         ],
-        "sha256": "09bd7945bdab5044497abf273f013964009d75de91773c87ca9a4e5973faa3eb",
-        "frames": 81751,
+        "sha256": "2306b5698db25977cfc3284bf1c70a0eca0c1db276ce3790e60ac2a92fa99ac4",
+        "frames": 61236,
         "input": {
             "language": "en",
-            "label": "They dry the plates.",
+            "label": "They speak English.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
         },
         "metadata": {
             "listening": "unverified-not-performed",
-            "construction": "Exact household-action constituent PCM, including English cooked and cleaning and Japanese あらいます, りょうりしました and かわかした."
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
         }
     },
     {
-        "path": "audio/7bbb14b8a819a059b8f5b93da32f433805f9f3c7e5b38c4beeabb1090b54b31c.wav",
-        "entryId": "en:sentence:daily-needs-1",
-        "label": "I need water.",
-        "parts": [
-            {
-                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
-                "entryId": "en:word:i"
-            },
-            {
-                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
-                "entryId": "en:word:need"
-            },
-            {
-                "path": "audio/de43a97fbedea7909d8f9b9ca31da43c5bd95debf2a1c3f89a02f2f0996bee27.wav",
-                "entryId": "en:word:water"
-            },
-            {
-                "pauseMs": 400
-            }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
-                "entryId": "en:word:i",
-                "startFrame": 2400,
-                "frameCount": 6507
-            },
-            {
-                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
-                "entryId": "en:word:need",
-                "startFrame": 11067,
-                "frameCount": 9927
-            },
-            {
-                "path": "audio/de43a97fbedea7909d8f9b9ca31da43c5bd95debf2a1c3f89a02f2f0996bee27.wav",
-                "entryId": "en:word:water",
-                "startFrame": 23154,
-                "frameCount": 13834
-            }
-        ],
-        "sha256": "7bbb14b8a819a059b8f5b93da32f433805f9f3c7e5b38c4beeabb1090b54b31c",
-        "frames": 48748,
-        "input": {
-            "language": "en",
-            "label": "I need water.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact existing constituent PCM, without synthesis or new external requests."
-        }
-    },
-    {
-        "path": "audio/c580dbb1e46006648e4ffb6876cff5637b2cdfba5749cb091c1b2f9df04afda0.wav",
-        "entryId": "en:sentence:daily-needs-2",
-        "label": "We need a spoon and a fork.",
-        "parts": [
-            {
-                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
-                "entryId": "en:word:capital-we"
-            },
-            {
-                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
-                "entryId": "en:word:need"
-            },
-            {
-                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
-                "entryId": "en:word:a"
-            },
-            {
-                "path": "audio/5f9a3e905778bf89257f37ae9c5a042caef40f3963ac78fdceb0455248b17e77.wav",
-                "entryId": "en:word:tableware-spoon"
-            },
-            {
-                "path": "audio/c17bea5cede4ef7cefc56eda7f4c62d72e4eb6756b6cf1f5dc17cfb9f91f338a.wav",
-                "entryId": "en:particle:and"
-            },
-            {
-                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
-                "entryId": "en:word:a"
-            },
-            {
-                "path": "audio/3ae57b1ee1ad50c3f7332cd673152ab4265fb5077877184121609195c234baf2.wav",
-                "entryId": "en:word:tableware-fork"
-            },
-            {
-                "pauseMs": 400
-            }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
-                "entryId": "en:word:capital-we",
-                "startFrame": 2400,
-                "frameCount": 17552
-            },
-            {
-                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
-                "entryId": "en:word:need",
-                "startFrame": 22112,
-                "frameCount": 9927
-            },
-            {
-                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
-                "entryId": "en:word:a",
-                "startFrame": 34199,
-                "frameCount": 12540
-            },
-            {
-                "path": "audio/5f9a3e905778bf89257f37ae9c5a042caef40f3963ac78fdceb0455248b17e77.wav",
-                "entryId": "en:word:tableware-spoon",
-                "startFrame": 48899,
-                "frameCount": 23251
-            },
-            {
-                "path": "audio/c17bea5cede4ef7cefc56eda7f4c62d72e4eb6756b6cf1f5dc17cfb9f91f338a.wav",
-                "entryId": "en:particle:and",
-                "startFrame": 74310,
-                "frameCount": 11433
-            },
-            {
-                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
-                "entryId": "en:word:a",
-                "startFrame": 87903,
-                "frameCount": 12540
-            },
-            {
-                "path": "audio/3ae57b1ee1ad50c3f7332cd673152ab4265fb5077877184121609195c234baf2.wav",
-                "entryId": "en:word:tableware-fork",
-                "startFrame": 102603,
-                "frameCount": 19907
-            }
-        ],
-        "sha256": "c580dbb1e46006648e4ffb6876cff5637b2cdfba5749cb091c1b2f9df04afda0",
-        "frames": 134270,
-        "input": {
-            "language": "en",
-            "label": "We need a spoon and a fork.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact existing constituent PCM, without synthesis or new external requests."
-        }
-    },
-    {
-        "path": "audio/97fc1f65331729ab88aa3a90e5c859374e3d17ec9a842cdb47d0c310c6f8d818.wav",
-        "entryId": "en:sentence:daily-needs-3",
-        "label": "The key is here.",
+        "path": "audio/7a737114f4058649c2553360427b4db5a19c3186d64fe53c2ec35988d0c916d6.wav",
+        "entryId": "en:sentence:core-example-sleep",
+        "label": "The child sleeps.",
         "parts": [
             {
                 "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
                 "entryId": "en:word:capital-the"
             },
             {
-                "path": "audio/e5b442edb628e9fed0cb699a3ab7c8a979d4e2d94b229d8f6598a36d6daf90ea.wav",
-                "entryId": "en:word:key"
+                "path": "audio/99384efe80537043c09c51b03eeca279200eefb8662283ed8116fc613de82adb.wav",
+                "entryId": "en:word:child"
             },
             {
-                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "path": "audio/a1767128764871415c3a84c5effedf7cb871591df1295ee1d57e3379b42b127b.wav",
+                "entryId": "en:word:form-english-sleep-third-person"
             },
-            {
-                "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
-                "entryId": "en:word:here"
-            },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -453,73 +299,61 @@
                 "frameCount": 8150
             },
             {
-                "path": "audio/e5b442edb628e9fed0cb699a3ab7c8a979d4e2d94b229d8f6598a36d6daf90ea.wav",
-                "entryId": "en:word:key",
+                "path": "audio/99384efe80537043c09c51b03eeca279200eefb8662283ed8116fc613de82adb.wav",
+                "entryId": "en:word:child",
                 "startFrame": 12710,
-                "frameCount": 18793
+                "frameCount": 30746
             },
             {
-                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
-                "startFrame": 33663,
-                "frameCount": 10387
-            },
-            {
-                "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
-                "entryId": "en:word:here",
-                "startFrame": 46210,
-                "frameCount": 11241
+                "path": "audio/a1767128764871415c3a84c5effedf7cb871591df1295ee1d57e3379b42b127b.wav",
+                "entryId": "en:word:form-english-sleep-third-person",
+                "startFrame": 45616,
+                "frameCount": 16646
             }
         ],
-        "sha256": "97fc1f65331729ab88aa3a90e5c859374e3d17ec9a842cdb47d0c310c6f8d818",
-        "frames": 69211,
+        "sha256": "7a737114f4058649c2553360427b4db5a19c3186d64fe53c2ec35988d0c916d6",
+        "frames": 74022,
         "input": {
             "language": "en",
-            "label": "The key is here.",
+            "label": "The child sleeps.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
         },
         "metadata": {
             "listening": "unverified-not-performed",
-            "construction": "Exact existing constituent PCM, without synthesis or new external requests."
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
         }
     },
     {
-        "path": "audio/9acafc95785009b21f45e56947486b5211c92181d4f959ee6b90fb30859828cb.wav",
-        "entryId": "en:sentence:daily-needs-4",
-        "label": "I want to go to the supermarket.",
+        "path": "audio/87e963d02f3925cbc6d5ed715c6f123b0b8ff8cf698e9a85ab45c1f885055777.wav",
+        "entryId": "en:sentence:social-example-greeting",
+        "label": "I say hello to my friend.",
         "parts": [
             {
                 "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
                 "entryId": "en:word:i"
             },
             {
-                "path": "audio/64ba083ec87a85a2794c293b25059a4e3c21294016fdb68e582ab0fb098eeda7.wav",
-                "entryId": "en:word:want"
+                "path": "audio/60deff6b8df82aa4b61902d3eee36d8bd3b3136a94d499faa75dbfd0969ad482.wav",
+                "entryId": "en:word:say"
+            },
+            {
+                "path": "audio/027f6ba42b37458669ca6af7232a5a73b22ee6f278f39d7ff9f689fc085d03c0.wav",
+                "entryId": "en:word:hello"
             },
             {
                 "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
                 "entryId": "en:particle:to"
             },
             {
-                "path": "audio/42b81828f68c66abecf181e027005a9e134f7f4c0618553235928583db3f3fe4.wav",
-                "entryId": "en:word:go"
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my"
             },
             {
-                "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
-                "entryId": "en:particle:to"
+                "path": "audio/cd6f1f4eaf8a91a02e40d8200bc074b3105c2af729a3689741b8ef53b827ae19.wav",
+                "entryId": "en:word:friend"
             },
-            {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the"
-            },
-            {
-                "path": "audio/578eaa7c2d92a0ee7eb8ddbe36c8f4fc9df41588cc286435751ad234cfb4f5c7.wav",
-                "entryId": "en:word:places-supermarket"
-            },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -530,79 +364,213 @@
                 "frameCount": 6507
             },
             {
-                "path": "audio/64ba083ec87a85a2794c293b25059a4e3c21294016fdb68e582ab0fb098eeda7.wav",
-                "entryId": "en:word:want",
+                "path": "audio/60deff6b8df82aa4b61902d3eee36d8bd3b3136a94d499faa75dbfd0969ad482.wav",
+                "entryId": "en:word:say",
                 "startFrame": 11067,
-                "frameCount": 13990
+                "frameCount": 11173
+            },
+            {
+                "path": "audio/027f6ba42b37458669ca6af7232a5a73b22ee6f278f39d7ff9f689fc085d03c0.wav",
+                "entryId": "en:word:hello",
+                "startFrame": 24400,
+                "frameCount": 11781
             },
             {
                 "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
                 "entryId": "en:particle:to",
-                "startFrame": 27217,
+                "startFrame": 38341,
                 "frameCount": 7478
             },
             {
-                "path": "audio/42b81828f68c66abecf181e027005a9e134f7f4c0618553235928583db3f3fe4.wav",
-                "entryId": "en:word:go",
-                "startFrame": 36855,
-                "frameCount": 11545
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my",
+                "startFrame": 47979,
+                "frameCount": 9522
             },
             {
-                "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
-                "entryId": "en:particle:to",
-                "startFrame": 50560,
-                "frameCount": 7478
-            },
-            {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the",
-                "startFrame": 60198,
-                "frameCount": 8150
-            },
-            {
-                "path": "audio/578eaa7c2d92a0ee7eb8ddbe36c8f4fc9df41588cc286435751ad234cfb4f5c7.wav",
-                "entryId": "en:word:places-supermarket",
-                "startFrame": 70508,
-                "frameCount": 26595
+                "path": "audio/cd6f1f4eaf8a91a02e40d8200bc074b3105c2af729a3689741b8ef53b827ae19.wav",
+                "entryId": "en:word:friend",
+                "startFrame": 59661,
+                "frameCount": 12778
             }
         ],
-        "sha256": "9acafc95785009b21f45e56947486b5211c92181d4f959ee6b90fb30859828cb",
-        "frames": 108863,
+        "sha256": "87e963d02f3925cbc6d5ed715c6f123b0b8ff8cf698e9a85ab45c1f885055777",
+        "frames": 84199,
         "input": {
             "language": "en",
-            "label": "I want to go to the supermarket.",
+            "label": "I say hello to my friend.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
         },
         "metadata": {
             "listening": "unverified-not-performed",
-            "construction": "Exact existing constituent PCM, without synthesis or new external requests."
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
         }
     },
     {
-        "path": "audio/09bade198b63a8911870ac07311facdaef3e7ed2eb7646797f054ef16c8b3df6.wav",
-        "entryId": "en:sentence:daily-needs-5",
-        "label": "We cook at home.",
+        "path": "audio/928d2e1a9ca474ae9917c2ff79c30f935e3b0afb87db59d2d5a196174324775b.wav",
+        "entryId": "en:sentence:social-example-gratitude",
+        "label": "I say thanks to my friend.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/60deff6b8df82aa4b61902d3eee36d8bd3b3136a94d499faa75dbfd0969ad482.wav",
+                "entryId": "en:word:say"
+            },
+            {
+                "path": "audio/18315f07684cb91cfe42074ef899faf3f1049589d52973887e1e6173d96001cf.wav",
+                "entryId": "en:word:thanks"
+            },
+            {
+                "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
+                "entryId": "en:particle:to"
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my"
+            },
+            {
+                "path": "audio/cd6f1f4eaf8a91a02e40d8200bc074b3105c2af729a3689741b8ef53b827ae19.wav",
+                "entryId": "en:word:friend"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/60deff6b8df82aa4b61902d3eee36d8bd3b3136a94d499faa75dbfd0969ad482.wav",
+                "entryId": "en:word:say",
+                "startFrame": 11067,
+                "frameCount": 11173
+            },
+            {
+                "path": "audio/18315f07684cb91cfe42074ef899faf3f1049589d52973887e1e6173d96001cf.wav",
+                "entryId": "en:word:thanks",
+                "startFrame": 24400,
+                "frameCount": 12841
+            },
+            {
+                "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
+                "entryId": "en:particle:to",
+                "startFrame": 39401,
+                "frameCount": 7478
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my",
+                "startFrame": 49039,
+                "frameCount": 9522
+            },
+            {
+                "path": "audio/cd6f1f4eaf8a91a02e40d8200bc074b3105c2af729a3689741b8ef53b827ae19.wav",
+                "entryId": "en:word:friend",
+                "startFrame": 60721,
+                "frameCount": 12778
+            }
+        ],
+        "sha256": "928d2e1a9ca474ae9917c2ff79c30f935e3b0afb87db59d2d5a196174324775b",
+        "frames": 85259,
+        "input": {
+            "language": "en",
+            "label": "I say thanks to my friend.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/abe517bbfc88064b46a51401fb55db5b710f5d9207121a9222ec487c43860bd8.wav",
+        "entryId": "en:sentence:social-example-attention",
+        "label": "I need a teacher.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/c286e951ed70b2957ed3a653bd770640c0a715281f6734cafbb1e58ef6a2c771.wav",
+                "entryId": "en:word:teacher"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need",
+                "startFrame": 11067,
+                "frameCount": 9927
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 23154,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/c286e951ed70b2957ed3a653bd770640c0a715281f6734cafbb1e58ef6a2c771.wav",
+                "entryId": "en:word:teacher",
+                "startFrame": 37854,
+                "frameCount": 12796
+            }
+        ],
+        "sha256": "abe517bbfc88064b46a51401fb55db5b710f5d9207121a9222ec487c43860bd8",
+        "frames": 62410,
+        "input": {
+            "language": "en",
+            "label": "I need a teacher.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/f535e21a5b4667555b8f03c92e7be7f6f571157746b37d80f7b449d13115088f.wav",
+        "entryId": "en:sentence:social-example-farewell",
+        "label": "We speak slowly.",
         "parts": [
             {
                 "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
                 "entryId": "en:word:capital-we"
             },
             {
-                "path": "audio/873d3ddc7f14042c8425ac23c85457ea9c6ec3a2061cdb616fc7dd81d01c32f3.wav",
-                "entryId": "en:word:household-cook"
+                "path": "audio/a39b067c873d54f1cc32e7db3083ede911328e7819731066390622ea0c5b975c.wav",
+                "entryId": "en:word:speak"
             },
             {
-                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
-                "entryId": "en:particle:at"
+                "path": "audio/2b74222ac22ab764968a4ea170457de805e525ea92c037da57ab21e8fc8e29e8.wav",
+                "entryId": "en:word:slowly"
             },
-            {
-                "path": "audio/e6cabc8adac4be8b43eb723f61d8c3f03674cf3542a5f82bfc16deec706100ef.wav",
-                "entryId": "en:word:home"
-            },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -613,100 +581,175 @@
                 "frameCount": 17552
             },
             {
-                "path": "audio/873d3ddc7f14042c8425ac23c85457ea9c6ec3a2061cdb616fc7dd81d01c32f3.wav",
-                "entryId": "en:word:household-cook",
+                "path": "audio/a39b067c873d54f1cc32e7db3083ede911328e7819731066390622ea0c5b975c.wav",
+                "entryId": "en:word:speak",
                 "startFrame": 22112,
-                "frameCount": 19907
+                "frameCount": 16610
             },
             {
-                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
-                "entryId": "en:particle:at",
-                "startFrame": 44179,
-                "frameCount": 9361
-            },
-            {
-                "path": "audio/e6cabc8adac4be8b43eb723f61d8c3f03674cf3542a5f82bfc16deec706100ef.wav",
-                "entryId": "en:word:home",
-                "startFrame": 55700,
-                "frameCount": 12520
+                "path": "audio/2b74222ac22ab764968a4ea170457de805e525ea92c037da57ab21e8fc8e29e8.wav",
+                "entryId": "en:word:slowly",
+                "startFrame": 40882,
+                "frameCount": 17166
             }
         ],
-        "sha256": "09bade198b63a8911870ac07311facdaef3e7ed2eb7646797f054ef16c8b3df6",
-        "frames": 79980,
+        "sha256": "f535e21a5b4667555b8f03c92e7be7f6f571157746b37d80f7b449d13115088f",
+        "frames": 69808,
         "input": {
             "language": "en",
-            "label": "We cook at home.",
+            "label": "We speak slowly.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
         },
         "metadata": {
             "listening": "unverified-not-performed",
-            "construction": "Exact existing constituent PCM, without synthesis or new external requests."
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
         }
     },
     {
-        "path": "audio/240c310ee3f0737c19d1ea7138aae5db9c51eaa81637bf9ae98cdc7095bf275e.wav",
-        "entryId": "en:sentence:daily-needs-6",
-        "label": "I clean my room.",
+        "path": "audio/e2510cb05c8ad7aedb43d1c8357211af83e4cd2fc04dbfa7a9c9015c0778f146.wav",
+        "entryId": "en:sentence:requests-example-yes",
+        "label": "Yes, I am a student.",
         "parts": [
+            {
+                "path": "audio/a54f4db00546f6114c331b72ac88af4e32fe20f1eda7007884f7c3423f714ad2.wav",
+                "entryId": "en:word:requests-yes"
+            },
             {
                 "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
                 "entryId": "en:word:i"
             },
             {
-                "path": "audio/54d7756b9e9d1fe760270f8a5618a4cf1b26c9dcea15fec6bb9acfacc9ac6e53.wav",
-                "entryId": "en:word:household-clean"
+                "path": "audio/487088dd8be1b2ac3af870c58e10ddfb75d35e254b1221160654d062f9db7a73.wav",
+                "entryId": "en:word:form-english-be-am"
             },
             {
-                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
-                "entryId": "en:word:my"
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
             },
             {
-                "path": "audio/99dfb2260e1504e5c3b5ac99b58686489b21c659aa542edb52fb67b86c0f534d.wav",
-                "entryId": "en:word:room"
+                "path": "audio/78fb66d2d00a4eb48ead7962133c9bf7f8388b29269dc71ed9446c1b98b09189.wav",
+                "entryId": "en:word:student"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
             {
+                "path": "audio/a54f4db00546f6114c331b72ac88af4e32fe20f1eda7007884f7c3423f714ad2.wav",
+                "entryId": "en:word:requests-yes",
+                "startFrame": 2400,
+                "frameCount": 22137
+            },
+            {
                 "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
                 "entryId": "en:word:i",
-                "startFrame": 2400,
+                "startFrame": 26697,
                 "frameCount": 6507
             },
             {
-                "path": "audio/54d7756b9e9d1fe760270f8a5618a4cf1b26c9dcea15fec6bb9acfacc9ac6e53.wav",
-                "entryId": "en:word:household-clean",
-                "startFrame": 11067,
-                "frameCount": 21022
+                "path": "audio/487088dd8be1b2ac3af870c58e10ddfb75d35e254b1221160654d062f9db7a73.wav",
+                "entryId": "en:word:form-english-be-am",
+                "startFrame": 35364,
+                "frameCount": 13320
             },
             {
-                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
-                "entryId": "en:word:my",
-                "startFrame": 34249,
-                "frameCount": 9522
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 50844,
+                "frameCount": 12540
             },
             {
-                "path": "audio/99dfb2260e1504e5c3b5ac99b58686489b21c659aa542edb52fb67b86c0f534d.wav",
-                "entryId": "en:word:room",
-                "startFrame": 45931,
-                "frameCount": 9190
+                "path": "audio/78fb66d2d00a4eb48ead7962133c9bf7f8388b29269dc71ed9446c1b98b09189.wav",
+                "entryId": "en:word:student",
+                "startFrame": 65544,
+                "frameCount": 15347
             }
         ],
-        "sha256": "240c310ee3f0737c19d1ea7138aae5db9c51eaa81637bf9ae98cdc7095bf275e",
-        "frames": 66881,
+        "sha256": "e2510cb05c8ad7aedb43d1c8357211af83e4cd2fc04dbfa7a9c9015c0778f146",
+        "frames": 92651,
         "input": {
             "language": "en",
-            "label": "I clean my room.",
+            "label": "Yes, I am a student.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
         },
         "metadata": {
             "listening": "unverified-not-performed",
-            "construction": "Exact existing constituent PCM, without synthesis or new external requests."
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/2aa14e40109a881b95d2aa8155072b423ed718fed25a815b26fb72950b69b81b.wav",
+        "entryId": "en:sentence:requests-example-no",
+        "label": "No, I am a teacher.",
+        "parts": [
+            {
+                "path": "audio/7892f808cb3caba7867accf058b3100b747f01d90f51e5d7ac63b4da20bdc302.wav",
+                "entryId": "en:word:requests-no"
+            },
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/487088dd8be1b2ac3af870c58e10ddfb75d35e254b1221160654d062f9db7a73.wav",
+                "entryId": "en:word:form-english-be-am"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/c286e951ed70b2957ed3a653bd770640c0a715281f6734cafbb1e58ef6a2c771.wav",
+                "entryId": "en:word:teacher"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/7892f808cb3caba7867accf058b3100b747f01d90f51e5d7ac63b4da20bdc302.wav",
+                "entryId": "en:word:requests-no",
+                "startFrame": 2400,
+                "frameCount": 18793
+            },
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 23353,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/487088dd8be1b2ac3af870c58e10ddfb75d35e254b1221160654d062f9db7a73.wav",
+                "entryId": "en:word:form-english-be-am",
+                "startFrame": 32020,
+                "frameCount": 13320
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 47500,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/c286e951ed70b2957ed3a653bd770640c0a715281f6734cafbb1e58ef6a2c771.wav",
+                "entryId": "en:word:teacher",
+                "startFrame": 62200,
+                "frameCount": 12796
+            }
+        ],
+        "sha256": "2aa14e40109a881b95d2aa8155072b423ed718fed25a815b26fb72950b69b81b",
+        "frames": 86756,
+        "input": {
+            "language": "en",
+            "label": "No, I am a teacher.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
         }
     }
 ]

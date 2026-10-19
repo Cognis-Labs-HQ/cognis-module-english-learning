@@ -1,0 +1,118 @@
+[
+    {
+        "path": "audio/35ed9b6bc4fa89719887af65699d1b0cac020ba473c73f7e655ed6e45326addf.wav",
+        "entryId": "en:sentence:requests-example-please",
+        "label": "Please speak slowly.",
+        "parts": [
+            {
+                "path": "audio/cbcd3d1340fc2e98981d35563f6bd5d6434375f40d4858088fd6413622975cea.wav",
+                "entryId": "en:word:requests-please"
+            },
+            {
+                "path": "audio/a39b067c873d54f1cc32e7db3083ede911328e7819731066390622ea0c5b975c.wav",
+                "entryId": "en:word:speak"
+            },
+            {
+                "path": "audio/2b74222ac22ab764968a4ea170457de805e525ea92c037da57ab21e8fc8e29e8.wav",
+                "entryId": "en:word:slowly"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/cbcd3d1340fc2e98981d35563f6bd5d6434375f40d4858088fd6413622975cea.wav",
+                "entryId": "en:word:requests-please",
+                "startFrame": 2400,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/a39b067c873d54f1cc32e7db3083ede911328e7819731066390622ea0c5b975c.wav",
+                "entryId": "en:word:speak",
+                "startFrame": 25582,
+                "frameCount": 16610
+            },
+            {
+                "path": "audio/2b74222ac22ab764968a4ea170457de805e525ea92c037da57ab21e8fc8e29e8.wav",
+                "entryId": "en:word:slowly",
+                "startFrame": 44352,
+                "frameCount": 17166
+            }
+        ],
+        "sha256": "35ed9b6bc4fa89719887af65699d1b0cac020ba473c73f7e655ed6e45326addf",
+        "frames": 73278,
+        "input": {
+            "language": "en",
+            "label": "Please speak slowly.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/719ad6fd9aed160aba0f149180258dfbe8b966c94696a8e35467c4f471e88240.wav",
+        "entryId": "en:sentence:requests-example-repeat",
+        "label": "Pardon? Please speak slowly.",
+        "parts": [
+            {
+                "path": "audio/048dac7df64d4150f80f428e731bab677e694f736c0fb76ed282b610343f1470.wav",
+                "entryId": "en:word:requests-repeat"
+            },
+            {
+                "path": "audio/cbcd3d1340fc2e98981d35563f6bd5d6434375f40d4858088fd6413622975cea.wav",
+                "entryId": "en:word:requests-please"
+            },
+            {
+                "path": "audio/a39b067c873d54f1cc32e7db3083ede911328e7819731066390622ea0c5b975c.wav",
+                "entryId": "en:word:speak"
+            },
+            {
+                "path": "audio/2b74222ac22ab764968a4ea170457de805e525ea92c037da57ab21e8fc8e29e8.wav",
+                "entryId": "en:word:slowly"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/048dac7df64d4150f80f428e731bab677e694f736c0fb76ed282b610343f1470.wav",
+                "entryId": "en:word:requests-repeat",
+                "startFrame": 2400,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/cbcd3d1340fc2e98981d35563f6bd5d6434375f40d4858088fd6413622975cea.wav",
+                "entryId": "en:word:requests-please",
+                "startFrame": 25582,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/a39b067c873d54f1cc32e7db3083ede911328e7819731066390622ea0c5b975c.wav",
+                "entryId": "en:word:speak",
+                "startFrame": 48764,
+                "frameCount": 16610
+            },
+            {
+                "path": "audio/2b74222ac22ab764968a4ea170457de805e525ea92c037da57ab21e8fc8e29e8.wav",
+                "entryId": "en:word:slowly",
+                "startFrame": 67534,
+                "frameCount": 17166
+            }
+        ],
+        "sha256": "719ad6fd9aed160aba0f149180258dfbe8b966c94696a8e35467c4f471e88240",
+        "frames": 96460,
+        "input": {
+            "language": "en",
+            "label": "Pardon? Please speak slowly.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    }
+]

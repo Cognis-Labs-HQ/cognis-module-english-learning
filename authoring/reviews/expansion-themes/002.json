@@ -186,6 +186,37 @@
         "vocabularyAudit": "authoring/reviews/qualities-vocabulary.json"
     },
     {
+        "theme": "requests",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:requests-yes",
+                "label": "Yes"
+            },
+            {
+                "entryId": "en:word:requests-no",
+                "label": "No"
+            },
+            {
+                "entryId": "en:word:requests-please",
+                "label": "Please"
+            },
+            {
+                "entryId": "en:word:requests-repeat",
+                "label": "Pardon"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:requests-example-yes",
+            "en:sentence:requests-example-no",
+            "en:sentence:requests-example-please",
+            "en:sentence:requests-example-repeat"
+        ],
+        "recordedGrammaticalFormCount": 0,
+        "vocabularyAudit": "authoring/reviews/requests-vocabulary.json"
+    },
+    {
         "theme": "rooms",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -277,36 +308,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/seasons-vocabulary.json"
-    },
-    {
-        "theme": "tableware",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:tableware-cup",
-                "label": "cup"
-            },
-            {
-                "entryId": "en:word:tableware-plate",
-                "label": "plate"
-            },
-            {
-                "entryId": "en:word:tableware-spoon",
-                "label": "spoon"
-            },
-            {
-                "entryId": "en:word:tableware-fork",
-                "label": "fork"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:tableware-example-cup",
-            "en:sentence:tableware-example-plate",
-            "en:sentence:tableware-example-spoon",
-            "en:sentence:tableware-example-fork"
-        ],
-        "recordedGrammaticalFormCount": 4,
-        "vocabularyAudit": "authoring/reviews/tableware-vocabulary.json"
     }
 ]

@@ -1,32 +1,89 @@
 [
     {
-        "path": "audio/0c3d7a8ba0a087826a2aef54e95014c5dd0dcba21ace255200a2ed1b69b55acd.wav",
-        "entryId": "en:sentence:daily-morning-reading",
-        "label": "I read in the morning.",
+        "path": "audio/01995d1b12ce3f50aeefecc2c72d4fc9d665825785f0be4b10f95730c04f25d2.wav",
+        "entryId": "en:sentence:shopping-big-coat",
+        "label": "The coat is big.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/e72db60db99f01ff27735a2ec347691e8fe769d672a7b0e94f3352ec0344e584.wav",
+                "entryId": "en:word:coat"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/2b24cc481581375416e015341c1c564cc12532b6bc70557143f32367c7d60efa.wav",
+                "entryId": "en:word:big"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/e72db60db99f01ff27735a2ec347691e8fe769d672a7b0e94f3352ec0344e584.wav",
+                "entryId": "en:word:coat",
+                "startFrame": 12710,
+                "frameCount": 28824
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 43694,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/2b24cc481581375416e015341c1c564cc12532b6bc70557143f32367c7d60efa.wav",
+                "entryId": "en:word:big",
+                "startFrame": 56241,
+                "frameCount": 11582
+            }
+        ],
+        "sha256": "01995d1b12ce3f50aeefecc2c72d4fc9d665825785f0be4b10f95730c04f25d2",
+        "frames": 79583,
+        "input": {
+            "language": "en",
+            "label": "The coat is big.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM; no external synthesis."
+        }
+    },
+    {
+        "path": "audio/5ed96e07d9a0b23370444f7dc9da25e5723d87c4938dbfd62228554e6c3f9e69.wav",
+        "entryId": "en:sentence:shopping-like-hat",
+        "label": "I like this hat.",
         "parts": [
             {
                 "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
                 "entryId": "en:word:i"
             },
             {
-                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
-                "entryId": "en:word:read"
+                "path": "audio/74e2b131c64da10695ba0b619e9a463dc2035c39a6de44f718afc3a7054689db.wav",
+                "entryId": "en:word:like"
             },
             {
-                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
-                "entryId": "en:particle:in"
+                "path": "audio/b0ade986d119e127e7a8aa79ca884982b528e3cc3fd9466d7f956d03bac29301.wav",
+                "entryId": "en:word:this"
             },
             {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the"
+                "path": "audio/81e21c7cdea8da154afb04e8a9f4fcb42bbb628d22fbfb1ccddec36599fc92fe.wav",
+                "entryId": "en:word:hat"
             },
-            {
-                "path": "audio/ee881e674c9ef8f5e57993e590131081d0cda5f31a7f257d75e9108439e0d25f.wav",
-                "entryId": "en:word:morning"
-            },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -37,35 +94,29 @@
                 "frameCount": 6507
             },
             {
-                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
-                "entryId": "en:word:read",
+                "path": "audio/74e2b131c64da10695ba0b619e9a463dc2035c39a6de44f718afc3a7054689db.wav",
+                "entryId": "en:word:like",
                 "startFrame": 11067,
-                "frameCount": 11133
+                "frameCount": 13914
             },
             {
-                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
-                "entryId": "en:particle:in",
-                "startFrame": 24360,
-                "frameCount": 7315
+                "path": "audio/b0ade986d119e127e7a8aa79ca884982b528e3cc3fd9466d7f956d03bac29301.wav",
+                "entryId": "en:word:this",
+                "startFrame": 27141,
+                "frameCount": 12058
             },
             {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the",
-                "startFrame": 33835,
-                "frameCount": 8150
-            },
-            {
-                "path": "audio/ee881e674c9ef8f5e57993e590131081d0cda5f31a7f257d75e9108439e0d25f.wav",
-                "entryId": "en:word:morning",
-                "startFrame": 44145,
-                "frameCount": 14905
+                "path": "audio/81e21c7cdea8da154afb04e8a9f4fcb42bbb628d22fbfb1ccddec36599fc92fe.wav",
+                "entryId": "en:word:hat",
+                "startFrame": 41359,
+                "frameCount": 21022
             }
         ],
-        "sha256": "0c3d7a8ba0a087826a2aef54e95014c5dd0dcba21ace255200a2ed1b69b55acd",
-        "frames": 70810,
+        "sha256": "5ed96e07d9a0b23370444f7dc9da25e5723d87c4938dbfd62228554e6c3f9e69",
+        "frames": 74141,
         "input": {
             "language": "en",
-            "label": "I read in the morning.",
+            "label": "I like this hat.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
         },
@@ -75,29 +126,96 @@
         }
     },
     {
-        "path": "audio/056666425da2fc9f864db5c2fc6e6ff86bbe89dab0a8eaca0fa37998381b692f.wav",
-        "entryId": "en:sentence:daily-eat-home",
-        "label": "We eat at home.",
+        "path": "audio/ca024b6be53ec67a2ff124830944f64539e9a5efd88fab7c42ee2010cf7b4854.wav",
+        "entryId": "en:sentence:shopping-have-new-computer",
+        "label": "You have a new computer.",
+        "parts": [
+            {
+                "path": "audio/af8d279b718503c23a1b51f8358d4c84f3a678b5e35a80bc2d40bf468b793ec9.wav",
+                "entryId": "en:word:capital-you"
+            },
+            {
+                "path": "audio/d4255166c4544afe249fa6b9d94b7c269dfe26aca8cd05c12b894525d7eaed7d.wav",
+                "entryId": "en:word:have"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/1f1f40b6ea41c9a2807522f799faae6184a0d500ba368249b0a0d535c68f58e8.wav",
+                "entryId": "en:word:new"
+            },
+            {
+                "path": "audio/2ff4bb8a92f69e0175bcaf1bc5c1b5df69e978c8aa17b41889a74f346647cdb9.wav",
+                "entryId": "en:word:computer"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/af8d279b718503c23a1b51f8358d4c84f3a678b5e35a80bc2d40bf468b793ec9.wav",
+                "entryId": "en:word:capital-you",
+                "startFrame": 2400,
+                "frameCount": 9630
+            },
+            {
+                "path": "audio/d4255166c4544afe249fa6b9d94b7c269dfe26aca8cd05c12b894525d7eaed7d.wav",
+                "entryId": "en:word:have",
+                "startFrame": 14190,
+                "frameCount": 11117
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 27467,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/1f1f40b6ea41c9a2807522f799faae6184a0d500ba368249b0a0d535c68f58e8.wav",
+                "entryId": "en:word:new",
+                "startFrame": 42167,
+                "frameCount": 10768
+            },
+            {
+                "path": "audio/2ff4bb8a92f69e0175bcaf1bc5c1b5df69e978c8aa17b41889a74f346647cdb9.wav",
+                "entryId": "en:word:computer",
+                "startFrame": 55095,
+                "frameCount": 25480
+            }
+        ],
+        "sha256": "ca024b6be53ec67a2ff124830944f64539e9a5efd88fab7c42ee2010cf7b4854",
+        "frames": 92335,
+        "input": {
+            "language": "en",
+            "label": "You have a new computer.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM; no external synthesis."
+        }
+    },
+    {
+        "path": "audio/41bd92e37fbbf47267103bd48b42aa009165ffbb8f2b42177300857727cfe456.wav",
+        "entryId": "en:sentence:shopping-buy-food",
+        "label": "We buy food.",
         "parts": [
             {
                 "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
                 "entryId": "en:word:capital-we"
             },
             {
-                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
-                "entryId": "en:word:eat"
+                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+                "entryId": "en:word:travel-buy"
             },
             {
-                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
-                "entryId": "en:particle:at"
+                "path": "audio/6da033542f95bc3306b9d9a4dd284aed21bec2f19ff8980447ab6e40dce3cd96.wav",
+                "entryId": "en:word:food"
             },
-            {
-                "path": "audio/e6cabc8adac4be8b43eb723f61d8c3f03674cf3542a5f82bfc16deec706100ef.wav",
-                "entryId": "en:word:home"
-            },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -108,211 +226,53 @@
                 "frameCount": 17552
             },
             {
-                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
-                "entryId": "en:word:eat",
+                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+                "entryId": "en:word:travel-buy",
                 "startFrame": 22112,
-                "frameCount": 10258
+                "frameCount": 19907
             },
             {
-                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
-                "entryId": "en:particle:at",
-                "startFrame": 34530,
-                "frameCount": 9361
-            },
-            {
-                "path": "audio/e6cabc8adac4be8b43eb723f61d8c3f03674cf3542a5f82bfc16deec706100ef.wav",
-                "entryId": "en:word:home",
-                "startFrame": 46051,
-                "frameCount": 12520
+                "path": "audio/6da033542f95bc3306b9d9a4dd284aed21bec2f19ff8980447ab6e40dce3cd96.wav",
+                "entryId": "en:word:food",
+                "startFrame": 44179,
+                "frameCount": 11116
             }
         ],
-        "sha256": "056666425da2fc9f864db5c2fc6e6ff86bbe89dab0a8eaca0fa37998381b692f",
-        "frames": 70331,
+        "sha256": "41bd92e37fbbf47267103bd48b42aa009165ffbb8f2b42177300857727cfe456",
+        "frames": 67055,
         "input": {
             "language": "en",
-            "label": "We eat at home.",
+            "label": "We buy food.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
         },
         "metadata": {
             "listening": "unverified-not-performed",
-            "construction": "Exact existing constituent PCM; no external synthesis."
+            "construction": "Exact selected constituent PCM including newly synthesized travel forms."
         }
     },
     {
-        "path": "audio/f1a13a3feab51bdfb96eebb9e964b1e0deedd36d4ff4ae7880e5bc4b5c893419.wav",
-        "entryId": "en:sentence:daily-work-city",
-        "label": "They work in the city.",
-        "parts": [
-            {
-                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
-                "entryId": "en:word:capital-they"
-            },
-            {
-                "path": "audio/05844c9d895e84f001ac9d056b4e9443ba4ee7b49b4cc15a039676971d6c17dd.wav",
-                "entryId": "en:word:work"
-            },
-            {
-                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
-                "entryId": "en:particle:in"
-            },
-            {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the"
-            },
-            {
-                "path": "audio/7afbcc23f3580d170fac475af0801dd017ff2f78f81ec0db3e27dd85ea2927ab.wav",
-                "entryId": "en:word:city"
-            },
-            {
-                "pauseMs": 400
-            }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
-                "entryId": "en:word:capital-they",
-                "startFrame": 2400,
-                "frameCount": 9803
-            },
-            {
-                "path": "audio/05844c9d895e84f001ac9d056b4e9443ba4ee7b49b4cc15a039676971d6c17dd.wav",
-                "entryId": "en:word:work",
-                "startFrame": 14363,
-                "frameCount": 81044
-            },
-            {
-                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
-                "entryId": "en:particle:in",
-                "startFrame": 97567,
-                "frameCount": 7315
-            },
-            {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the",
-                "startFrame": 107042,
-                "frameCount": 8150
-            },
-            {
-                "path": "audio/7afbcc23f3580d170fac475af0801dd017ff2f78f81ec0db3e27dd85ea2927ab.wav",
-                "entryId": "en:word:city",
-                "startFrame": 117352,
-                "frameCount": 14159
-            }
-        ],
-        "sha256": "f1a13a3feab51bdfb96eebb9e964b1e0deedd36d4ff4ae7880e5bc4b5c893419",
-        "frames": 143271,
-        "input": {
-            "language": "en",
-            "label": "They work in the city.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact existing constituent PCM; no external synthesis."
-        }
-    },
-    {
-        "path": "audio/8674062fce3859ab475f0db5d654cf302eb08584064ec1219669aa74167e9757.wav",
-        "entryId": "en:sentence:daily-walk-park",
-        "label": "She walks to the park.",
-        "parts": [
-            {
-                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
-                "entryId": "en:word:capital-she"
-            },
-            {
-                "path": "audio/6fe4eea49f2031d3b6afeada0a1dedbbe0f562f3a187fbc50fdb32c877c17ef6.wav",
-                "entryId": "en:word:form-english-walk-third-person"
-            },
-            {
-                "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
-                "entryId": "en:particle:to"
-            },
-            {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the"
-            },
-            {
-                "path": "audio/a5ce5107d16d8c24e116e3c283d649f94982b001b6479ba384eb7392c1e63cbe.wav",
-                "entryId": "en:word:park"
-            },
-            {
-                "pauseMs": 400
-            }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
-                "entryId": "en:word:capital-she",
-                "startFrame": 2400,
-                "frameCount": 10372
-            },
-            {
-                "path": "audio/6fe4eea49f2031d3b6afeada0a1dedbbe0f562f3a187fbc50fdb32c877c17ef6.wav",
-                "entryId": "en:word:form-english-walk-third-person",
-                "startFrame": 14932,
-                "frameCount": 14426
-            },
-            {
-                "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
-                "entryId": "en:particle:to",
-                "startFrame": 31518,
-                "frameCount": 7478
-            },
-            {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the",
-                "startFrame": 41156,
-                "frameCount": 8150
-            },
-            {
-                "path": "audio/a5ce5107d16d8c24e116e3c283d649f94982b001b6479ba384eb7392c1e63cbe.wav",
-                "entryId": "en:word:park",
-                "startFrame": 51466,
-                "frameCount": 13401
-            }
-        ],
-        "sha256": "8674062fce3859ab475f0db5d654cf302eb08584064ec1219669aa74167e9757",
-        "frames": 76627,
-        "input": {
-            "language": "en",
-            "label": "She walks to the park.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact existing constituent PCM; no external synthesis."
-        }
-    },
-    {
-        "path": "audio/6cf4f1fd8b0b317b1f37ad427677fa8185eace8b72b6c6580f916c69228f2b66.wav",
-        "entryId": "en:sentence:daily-sleep-night",
-        "label": "I sleep at night.",
+        "path": "audio/d80dcf4422ce79f9704a99d1c6b68dca6d82fa01b7805441a5ef54513a56d378.wav",
+        "entryId": "en:sentence:travel-bought-ticket",
+        "label": "I bought a ticket.",
         "parts": [
             {
                 "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
                 "entryId": "en:word:i"
             },
             {
-                "path": "audio/d167b04d745c13877949ec79ad83914a71df0c25a7bfb853c2f15b6a27c44b87.wav",
-                "entryId": "en:word:sleep"
+                "path": "audio/053666a90a57631a71a99a6f4e0b05f3cddd33d891447a1828f89e507f017172.wav",
+                "entryId": "en:word:travel-buy-past"
             },
             {
-                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
-                "entryId": "en:particle:at"
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
             },
             {
-                "path": "audio/96ddaef58bad7a373325de863b646ff8cb5805a43c84067260d9d70408e8ec95.wav",
-                "entryId": "en:word:night"
+                "path": "audio/13addf06063eb86d2ee6b006d3f40adb45533e296ac2df787f4b7504d72dc4b5.wav",
+                "entryId": "en:word:travel-ticket"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -323,90 +283,463 @@
                 "frameCount": 6507
             },
             {
-                "path": "audio/d167b04d745c13877949ec79ad83914a71df0c25a7bfb853c2f15b6a27c44b87.wav",
-                "entryId": "en:word:sleep",
+                "path": "audio/053666a90a57631a71a99a6f4e0b05f3cddd33d891447a1828f89e507f017172.wav",
+                "entryId": "en:word:travel-buy-past",
                 "startFrame": 11067,
-                "frameCount": 13912
+                "frameCount": 18793
             },
             {
-                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
-                "entryId": "en:particle:at",
-                "startFrame": 27139,
-                "frameCount": 9361
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 32020,
+                "frameCount": 12540
             },
             {
-                "path": "audio/96ddaef58bad7a373325de863b646ff8cb5805a43c84067260d9d70408e8ec95.wav",
-                "entryId": "en:word:night",
-                "startFrame": 38660,
-                "frameCount": 9744
+                "path": "audio/13addf06063eb86d2ee6b006d3f40adb45533e296ac2df787f4b7504d72dc4b5.wav",
+                "entryId": "en:word:travel-ticket",
+                "startFrame": 46720,
+                "frameCount": 19907
             }
         ],
-        "sha256": "6cf4f1fd8b0b317b1f37ad427677fa8185eace8b72b6c6580f916c69228f2b66",
-        "frames": 60164,
+        "sha256": "d80dcf4422ce79f9704a99d1c6b68dca6d82fa01b7805441a5ef54513a56d378",
+        "frames": 78387,
         "input": {
             "language": "en",
-            "label": "I sleep at night.",
+            "label": "I bought a ticket.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
         },
         "metadata": {
             "listening": "unverified-not-performed",
-            "construction": "Exact existing constituent PCM; no external synthesis."
+            "construction": "Exact selected constituent PCM including newly synthesized travel forms."
         }
     },
     {
-        "path": "audio/bbc1c12018067ecf20bed891d4fda62fff95366f0e1344a48ee8abe7a284239c.wav",
-        "entryId": "en:sentence:daily-drink-water",
-        "label": "He drinks water.",
+        "path": "audio/78f6f25b58fc8ce279a4c87bf9f56b0d6b32f011c4160171d2788cb7030d0949.wav",
+        "entryId": "en:sentence:travel-arrived-station",
+        "label": "We arrived at the station.",
         "parts": [
             {
-                "path": "audio/6479e690a54602e0b1c5a5bbe4418239c707d393fdde6754b827fac5d2eb56c9.wav",
-                "entryId": "en:word:capital-he"
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
             },
             {
-                "path": "audio/3eca6e67d85d977e599fed0c9ab6a484f51a46dec8d7a561f2c2ace25e9cc1c5.wav",
-                "entryId": "en:word:form-english-drink-third-person"
+                "path": "audio/b32e6ec0c93a4f7edce364ece2f625d8a835fa19be1dac115f909bf9b3af6451.wav",
+                "entryId": "en:word:travel-arrive-past"
             },
             {
-                "path": "audio/de43a97fbedea7909d8f9b9ca31da43c5bd95debf2a1c3f89a02f2f0996bee27.wav",
-                "entryId": "en:word:water"
+                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
+                "entryId": "en:particle:at"
             },
             {
-                "pauseMs": 400
-            }
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/3fb2aebfb3234140e80aad57cdfff1963c62d329f2109f447636dafb983bd4ac.wav",
+                "entryId": "en:word:travel-station"
+            },
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
             {
-                "path": "audio/6479e690a54602e0b1c5a5bbe4418239c707d393fdde6754b827fac5d2eb56c9.wav",
-                "entryId": "en:word:capital-he",
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
                 "startFrame": 2400,
-                "frameCount": 10803
+                "frameCount": 17552
             },
             {
-                "path": "audio/3eca6e67d85d977e599fed0c9ab6a484f51a46dec8d7a561f2c2ace25e9cc1c5.wav",
-                "entryId": "en:word:form-english-drink-third-person",
-                "startFrame": 15363,
-                "frameCount": 13170
+                "path": "audio/b32e6ec0c93a4f7edce364ece2f625d8a835fa19be1dac115f909bf9b3af6451.wav",
+                "entryId": "en:word:travel-arrive-past",
+                "startFrame": 22112,
+                "frameCount": 23251
             },
             {
-                "path": "audio/de43a97fbedea7909d8f9b9ca31da43c5bd95debf2a1c3f89a02f2f0996bee27.wav",
-                "entryId": "en:word:water",
-                "startFrame": 30693,
-                "frameCount": 13834
+                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
+                "entryId": "en:particle:at",
+                "startFrame": 47523,
+                "frameCount": 9361
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 59044,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/3fb2aebfb3234140e80aad57cdfff1963c62d329f2109f447636dafb983bd4ac.wav",
+                "entryId": "en:word:travel-station",
+                "startFrame": 69354,
+                "frameCount": 25480
             }
         ],
-        "sha256": "bbc1c12018067ecf20bed891d4fda62fff95366f0e1344a48ee8abe7a284239c",
-        "frames": 56287,
+        "sha256": "78f6f25b58fc8ce279a4c87bf9f56b0d6b32f011c4160171d2788cb7030d0949",
+        "frames": 106594,
         "input": {
             "language": "en",
-            "label": "He drinks water.",
+            "label": "We arrived at the station.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
         },
         "metadata": {
             "listening": "unverified-not-performed",
-            "construction": "Exact existing constituent PCM; no external synthesis."
+            "construction": "Exact selected constituent PCM including newly synthesized travel forms."
+        }
+    },
+    {
+        "path": "audio/1f5f6a70a053987dce7bed61b4819866511c0a2b6dfcecac05491732f8fcffa4.wav",
+        "entryId": "en:sentence:travel-wait-platform",
+        "label": "They wait on the platform.",
+        "parts": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they"
+            },
+            {
+                "path": "audio/00b6b734746af19c08db250cf03bad7a8abad330b41f88cc31ae819ceeab0b0b.wav",
+                "entryId": "en:word:travel-wait"
+            },
+            {
+                "path": "audio/b16819d83e2bb0a994694ccb6feeb9a4e38f2a5662dc139ecd88628a19d9dca4.wav",
+                "entryId": "en:particle:on"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/bccb328c3da88bb98b9b36eb46bc6e25246f3f2831e4c2d82ab2d0f434179c06.wav",
+                "entryId": "en:word:travel-platform"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they",
+                "startFrame": 2400,
+                "frameCount": 9803
+            },
+            {
+                "path": "audio/00b6b734746af19c08db250cf03bad7a8abad330b41f88cc31ae819ceeab0b0b.wav",
+                "entryId": "en:word:travel-wait",
+                "startFrame": 14363,
+                "frameCount": 18793
+            },
+            {
+                "path": "audio/b16819d83e2bb0a994694ccb6feeb9a4e38f2a5662dc139ecd88628a19d9dca4.wav",
+                "entryId": "en:particle:on",
+                "startFrame": 35316,
+                "frameCount": 8465
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 45941,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/bccb328c3da88bb98b9b36eb46bc6e25246f3f2831e4c2d82ab2d0f434179c06.wav",
+                "entryId": "en:word:travel-platform",
+                "startFrame": 56251,
+                "frameCount": 24366
+            }
+        ],
+        "sha256": "1f5f6a70a053987dce7bed61b4819866511c0a2b6dfcecac05491732f8fcffa4",
+        "frames": 92377,
+        "input": {
+            "language": "en",
+            "label": "They wait on the platform.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact selected constituent PCM including newly synthesized travel forms."
+        }
+    },
+    {
+        "path": "audio/0360195a7b4e7941610a017c616cbb12e386522cd01c4764aa32681d7d52f1c7.wav",
+        "entryId": "en:sentence:travel-depart-airport",
+        "label": "We depart from the airport.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/f34e0c27c866a310883661b9e64717752127c2259a8469790f19eb1b21782a93.wav",
+                "entryId": "en:word:travel-depart"
+            },
+            {
+                "path": "audio/bd95d0a18f27b2f94db5a173fdaebefa40164c7fd8a5951ba9bdf814941971f4.wav",
+                "entryId": "en:particle:from"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/18259f109cece97ae9b0362e1cb218133c94d27e120584863ae830f05e75beae.wav",
+                "entryId": "en:word:travel-airport"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/f34e0c27c866a310883661b9e64717752127c2259a8469790f19eb1b21782a93.wav",
+                "entryId": "en:word:travel-depart",
+                "startFrame": 22112,
+                "frameCount": 22137
+            },
+            {
+                "path": "audio/bd95d0a18f27b2f94db5a173fdaebefa40164c7fd8a5951ba9bdf814941971f4.wav",
+                "entryId": "en:particle:from",
+                "startFrame": 46409,
+                "frameCount": 12291
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 60860,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/18259f109cece97ae9b0362e1cb218133c94d27e120584863ae830f05e75beae.wav",
+                "entryId": "en:word:travel-airport",
+                "startFrame": 71170,
+                "frameCount": 22137
+            }
+        ],
+        "sha256": "0360195a7b4e7941610a017c616cbb12e386522cd01c4764aa32681d7d52f1c7",
+        "frames": 105067,
+        "input": {
+            "language": "en",
+            "label": "We depart from the airport.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact selected constituent PCM including newly synthesized travel forms."
+        }
+    },
+    {
+        "path": "audio/4ae2213323db30e765d3b9ad90d6d03e262d7d35bf37bef6deec3dffe6dc088f.wav",
+        "entryId": "en:sentence:travel-passport-here",
+        "label": "The passport is here.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/530487fb841e627bf2e86cc561211a7383cd70e9a13325bee68e5a4d61c88c51.wav",
+                "entryId": "en:word:travel-passport"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
+                "entryId": "en:word:here"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/530487fb841e627bf2e86cc561211a7383cd70e9a13325bee68e5a4d61c88c51.wav",
+                "entryId": "en:word:travel-passport",
+                "startFrame": 12710,
+                "frameCount": 24366
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 39236,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
+                "entryId": "en:word:here",
+                "startFrame": 51783,
+                "frameCount": 11241
+            }
+        ],
+        "sha256": "4ae2213323db30e765d3b9ad90d6d03e262d7d35bf37bef6deec3dffe6dc088f",
+        "frames": 74784,
+        "input": {
+            "language": "en",
+            "label": "The passport is here.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact selected constituent PCM including newly synthesized travel forms."
+        }
+    },
+    {
+        "path": "audio/ae295be10988a719a9bc6cb6d4447e4d26dbdd5ea12d870c64ec246dfbd2ecee.wav",
+        "entryId": "en:sentence:travel-suitcase-there",
+        "label": "The suitcase is there.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/a5236ba77e97840a3565edddf6a0315411280f04a0de915c5932c6b9e73bd72f.wav",
+                "entryId": "en:word:travel-suitcase"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/8961cebd2cb22387c25879c12ff0c1490f5027478180e805fe8e46c6c2f2a49b.wav",
+                "entryId": "en:word:there"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/a5236ba77e97840a3565edddf6a0315411280f04a0de915c5932c6b9e73bd72f.wav",
+                "entryId": "en:word:travel-suitcase",
+                "startFrame": 12710,
+                "frameCount": 24366
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 39236,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/8961cebd2cb22387c25879c12ff0c1490f5027478180e805fe8e46c6c2f2a49b.wav",
+                "entryId": "en:word:there",
+                "startFrame": 51783,
+                "frameCount": 11481
+            }
+        ],
+        "sha256": "ae295be10988a719a9bc6cb6d4447e4d26dbdd5ea12d870c64ec246dfbd2ecee",
+        "frames": 75024,
+        "input": {
+            "language": "en",
+            "label": "The suitcase is there.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact selected constituent PCM including newly synthesized travel forms."
+        }
+    },
+    {
+        "path": "audio/17b42d06f2d1acd80a2cf2594ff6c9aac0c86d13c6fa9cc9340baf8fc55550c8.wav",
+        "entryId": "en:sentence:travel-bicycle-school",
+        "label": "She goes to school by bicycle.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/8b9e604e5d8aca23b6a316f955e0d8de408425c0b1bf191ab91daa67560c4552.wav",
+                "entryId": "en:word:form-english-go-third-person"
+            },
+            {
+                "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
+                "entryId": "en:particle:to"
+            },
+            {
+                "path": "audio/51bd627382d00740b5650b5a76f4e181feee90c3f1dbd10156966342c249553a.wav",
+                "entryId": "en:word:school"
+            },
+            {
+                "path": "audio/bd04024b02ccfb1acb267613f4cb81cac9a887a044d4b7ab4f3da08e75c2a97c.wav",
+                "entryId": "en:particle:by"
+            },
+            {
+                "path": "audio/1043874a2dd104ce1c3fa9ab4f8b19c80613457e0c7b47631e01bf8f96c712c9.wav",
+                "entryId": "en:word:travel-bicycle"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/8b9e604e5d8aca23b6a316f955e0d8de408425c0b1bf191ab91daa67560c4552.wav",
+                "entryId": "en:word:form-english-go-third-person",
+                "startFrame": 14932,
+                "frameCount": 13282
+            },
+            {
+                "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
+                "entryId": "en:particle:to",
+                "startFrame": 30374,
+                "frameCount": 7478
+            },
+            {
+                "path": "audio/51bd627382d00740b5650b5a76f4e181feee90c3f1dbd10156966342c249553a.wav",
+                "entryId": "en:word:school",
+                "startFrame": 40012,
+                "frameCount": 13929
+            },
+            {
+                "path": "audio/bd04024b02ccfb1acb267613f4cb81cac9a887a044d4b7ab4f3da08e75c2a97c.wav",
+                "entryId": "en:particle:by",
+                "startFrame": 56101,
+                "frameCount": 11602
+            },
+            {
+                "path": "audio/1043874a2dd104ce1c3fa9ab4f8b19c80613457e0c7b47631e01bf8f96c712c9.wav",
+                "entryId": "en:word:travel-bicycle",
+                "startFrame": 69863,
+                "frameCount": 23251
+            }
+        ],
+        "sha256": "17b42d06f2d1acd80a2cf2594ff6c9aac0c86d13c6fa9cc9340baf8fc55550c8",
+        "frames": 104874,
+        "input": {
+            "language": "en",
+            "label": "She goes to school by bicycle.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact selected constituent PCM including newly synthesized travel forms."
         }
     }
 ]

@@ -1,5 +1,360 @@
 [
     {
+        "path": "audio/18caf77f72dd4c26b5438af2d04eed69615710f3b57bbf74c0facc22a9ee11e2.wav",
+        "entryId": "en:sentence:kitchen-example-pan",
+        "label": "She cooks fish in a pan.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/e8e8627c615b63bf37f084f4f312317128412a0a62763cb2d1b1c18060f3ce29.wav",
+                "entryId": "en:word:form-household-cook-third-person"
+            },
+            {
+                "path": "audio/1360536e96014d08faa30ed773379bf44e61f13af3c5cee15923479849359a4f.wav",
+                "entryId": "en:word:fish"
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/6cda0d008b83d3b3fa4def812c16623aa22b6fbf6fb422b942c9136da8249fd6.wav",
+                "entryId": "en:word:kitchen-pan"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/e8e8627c615b63bf37f084f4f312317128412a0a62763cb2d1b1c18060f3ce29.wav",
+                "entryId": "en:word:form-household-cook-third-person",
+                "startFrame": 14932,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/1360536e96014d08faa30ed773379bf44e61f13af3c5cee15923479849359a4f.wav",
+                "entryId": "en:word:fish",
+                "startFrame": 38114,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in",
+                "startFrame": 61296,
+                "frameCount": 7315
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 70771,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/6cda0d008b83d3b3fa4def812c16623aa22b6fbf6fb422b942c9136da8249fd6.wav",
+                "entryId": "en:word:kitchen-pan",
+                "startFrame": 85471,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "18caf77f72dd4c26b5438af2d04eed69615710f3b57bbf74c0facc22a9ee11e2",
+        "frames": 117138,
+        "input": {
+            "language": "en",
+            "label": "She cooks fish in a pan.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, including each selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/2ce57ebee701accca5ce71e24d8f5485af3dd47a01ae435051115f3256326345.wav",
+        "entryId": "en:sentence:nature-example-tree",
+        "label": "The tree is big.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/5de7460ef6a1843b652d307cb74ca47e8bb6b36bddf0e891ec95c46c595f76b1.wav",
+                "entryId": "en:word:nature-tree"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/2b24cc481581375416e015341c1c564cc12532b6bc70557143f32367c7d60efa.wav",
+                "entryId": "en:word:big"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/5de7460ef6a1843b652d307cb74ca47e8bb6b36bddf0e891ec95c46c595f76b1.wav",
+                "entryId": "en:word:nature-tree",
+                "startFrame": 12710,
+                "frameCount": 19907
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 34777,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/2b24cc481581375416e015341c1c564cc12532b6bc70557143f32367c7d60efa.wav",
+                "entryId": "en:word:big",
+                "startFrame": 47324,
+                "frameCount": 11582
+            }
+        ],
+        "sha256": "2ce57ebee701accca5ce71e24d8f5485af3dd47a01ae435051115f3256326345",
+        "frames": 70666,
+        "input": {
+            "language": "en",
+            "label": "The tree is big.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/8e8931c1e941288505681ef9455d2bf326f3acfae1f8ce6742b806d036855ebe.wav",
+        "entryId": "en:sentence:nature-example-forest",
+        "label": "We walk in the forest.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/82c2fbde04321545b5674ebe469df88897c9e266555ffdbd6307ff19cfc6ede8.wav",
+                "entryId": "en:word:walk"
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/4ae4ba0ad52b3142f2c746a723768898a860d7dde6ea68db59b6ad7a376b2153.wav",
+                "entryId": "en:word:nature-forest"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/82c2fbde04321545b5674ebe469df88897c9e266555ffdbd6307ff19cfc6ede8.wav",
+                "entryId": "en:word:walk",
+                "startFrame": 22112,
+                "frameCount": 83546
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in",
+                "startFrame": 107818,
+                "frameCount": 7315
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 117293,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/4ae4ba0ad52b3142f2c746a723768898a860d7dde6ea68db59b6ad7a376b2153.wav",
+                "entryId": "en:word:nature-forest",
+                "startFrame": 127603,
+                "frameCount": 25480
+            }
+        ],
+        "sha256": "8e8931c1e941288505681ef9455d2bf326f3acfae1f8ce6742b806d036855ebe",
+        "frames": 164843,
+        "input": {
+            "language": "en",
+            "label": "We walk in the forest.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/7fdb0c2be14dc8c0f3c77bc61c5df6e77c229e9fdfb15517d7950e77697da84d.wav",
+        "entryId": "en:sentence:nature-example-leaf",
+        "label": "I see two green leaves.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/9b7843aec097ccb2e88f205448cd59c4d13b573f9b025bfeea72a95a0c467851.wav",
+                "entryId": "en:word:see"
+            },
+            {
+                "path": "audio/51b8f14fcdf9707ee8add50602f5ecabd4c6dd2396cb8901e8641d4c5371680d.wav",
+                "entryId": "en:word:two"
+            },
+            {
+                "path": "audio/db96542c1374b239273b03531b9960ca6d5d7eaf0fac9bbb879a2f0f4f55a4f5.wav",
+                "entryId": "en:word:colors-green"
+            },
+            {
+                "path": "audio/3eb992e14fc9c498909883b5ad4a6854210087f322589711c7d48c604b5faeb3.wav",
+                "entryId": "en:word:form-nature-leaves"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/9b7843aec097ccb2e88f205448cd59c4d13b573f9b025bfeea72a95a0c467851.wav",
+                "entryId": "en:word:see",
+                "startFrame": 11067,
+                "frameCount": 11091
+            },
+            {
+                "path": "audio/51b8f14fcdf9707ee8add50602f5ecabd4c6dd2396cb8901e8641d4c5371680d.wav",
+                "entryId": "en:word:two",
+                "startFrame": 24318,
+                "frameCount": 9510
+            },
+            {
+                "path": "audio/db96542c1374b239273b03531b9960ca6d5d7eaf0fac9bbb879a2f0f4f55a4f5.wav",
+                "entryId": "en:word:colors-green",
+                "startFrame": 35988,
+                "frameCount": 19907
+            },
+            {
+                "path": "audio/3eb992e14fc9c498909883b5ad4a6854210087f322589711c7d48c604b5faeb3.wav",
+                "entryId": "en:word:form-nature-leaves",
+                "startFrame": 58055,
+                "frameCount": 22137
+            }
+        ],
+        "sha256": "7fdb0c2be14dc8c0f3c77bc61c5df6e77c229e9fdfb15517d7950e77697da84d",
+        "frames": 91952,
+        "input": {
+            "language": "en",
+            "label": "I see two green leaves.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/d55acffd6a09acfdb3b53ecc9fa019270eeb66a2499aa717df0038e71392e28d.wav",
+        "entryId": "en:sentence:nature-example-stone",
+        "label": "The stone is cold.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/6eaac52196ea282234b285821593f4b12bd6225b26f5cac14686bba6826d1dce.wav",
+                "entryId": "en:word:nature-stone"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/1dc2d508944f9d8b4a8f624b3cb630b6d14841bdfa4a045d56e77ad7aa8d9d55.wav",
+                "entryId": "en:word:cold"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/6eaac52196ea282234b285821593f4b12bd6225b26f5cac14686bba6826d1dce.wav",
+                "entryId": "en:word:nature-stone",
+                "startFrame": 12710,
+                "frameCount": 31053
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 45923,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/1dc2d508944f9d8b4a8f624b3cb630b6d14841bdfa4a045d56e77ad7aa8d9d55.wav",
+                "entryId": "en:word:cold",
+                "startFrame": 58470,
+                "frameCount": 23381
+            }
+        ],
+        "sha256": "d55acffd6a09acfdb3b53ecc9fa019270eeb66a2499aa717df0038e71392e28d",
+        "frames": 93611,
+        "input": {
+            "language": "en",
+            "label": "The stone is cold.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    },
+    {
         "path": "audio/d85cca3c5ddfd58b34fcc8e4e82fff806e9a0b1547d835481af37cbd8ff91fb0.wav",
         "entryId": "en:sentence:vegetables-example-cabbage",
         "label": "We buy a cabbage.",
@@ -20,9 +375,7 @@
                 "path": "audio/eed9eca676bb3188728781713d6b7c9654a2bf304a15640111bb1b6f9d408cde.wav",
                 "entryId": "en:word:vegetables-cabbage"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -89,9 +442,7 @@
                 "path": "audio/2f1aff6b9fc48808c7ea17e0f18661f9f72669d3cbe8ece8f3a1bafd65482800.wav",
                 "entryId": "en:word:rice"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -156,9 +507,7 @@
                 "path": "audio/1895d0d4843393c91b47fd36d3032d08ced438258b23060a471566d6f64fb04f.wav",
                 "entryId": "en:word:vegetables-spinach"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -215,9 +564,7 @@
                 "path": "audio/db96542c1374b239273b03531b9960ca6d5d7eaf0fac9bbb879a2f0f4f55a4f5.wav",
                 "entryId": "en:word:colors-green"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -280,9 +627,7 @@
                 "path": "audio/2e31df0d4095d797087b395a01949491a0b3e7621711b9cd60d5860c10643512.wav",
                 "entryId": "en:word:seasons-spring"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -349,9 +694,7 @@
                 "path": "audio/db662e7d1b002e52e40e93c11a8c52beda07d36ee4e49e234dc30b4cac32bdeb.wav",
                 "entryId": "en:word:seasons-summer"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -391,146 +734,6 @@
         "input": {
             "language": "en",
             "label": "We drink water in summer.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact season-noun recordings and existing constituent PCM; no whole-sentence synthesis."
-        }
-    },
-    {
-        "path": "audio/3fe8592c215ed3b6781fee10b9a3d2573b9b6b7b4c6dd7bec32ceebda7f034eb.wav",
-        "entryId": "en:sentence:seasons-activity-autumn",
-        "label": "They read in autumn.",
-        "parts": [
-            {
-                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
-                "entryId": "en:word:capital-they"
-            },
-            {
-                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
-                "entryId": "en:word:read"
-            },
-            {
-                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
-                "entryId": "en:particle:in"
-            },
-            {
-                "path": "audio/a3c1cdb1926cb9426154daf1e82d63171db0135c9d65137e30f851e28032a4fd.wav",
-                "entryId": "en:word:seasons-autumn"
-            },
-            {
-                "pauseMs": 400
-            }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
-                "entryId": "en:word:capital-they",
-                "startFrame": 2400,
-                "frameCount": 9803
-            },
-            {
-                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
-                "entryId": "en:word:read",
-                "startFrame": 14363,
-                "frameCount": 11133
-            },
-            {
-                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
-                "entryId": "en:particle:in",
-                "startFrame": 27656,
-                "frameCount": 7315
-            },
-            {
-                "path": "audio/a3c1cdb1926cb9426154daf1e82d63171db0135c9d65137e30f851e28032a4fd.wav",
-                "entryId": "en:word:seasons-autumn",
-                "startFrame": 37131,
-                "frameCount": 19907
-            }
-        ],
-        "sha256": "3fe8592c215ed3b6781fee10b9a3d2573b9b6b7b4c6dd7bec32ceebda7f034eb",
-        "frames": 68798,
-        "input": {
-            "language": "en",
-            "label": "They read in autumn.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact season-noun recordings and existing constituent PCM; no whole-sentence synthesis."
-        }
-    },
-    {
-        "path": "audio/715bed3d794deed5a7d1de1a87d6a1afcb5b5d35db4a33975bdf3ac45c14c0ca.wav",
-        "entryId": "en:sentence:seasons-activity-winter",
-        "label": "I drink tea in winter.",
-        "parts": [
-            {
-                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
-                "entryId": "en:word:i"
-            },
-            {
-                "path": "audio/03b62debf6ef4408c4897b5fb6c219dbe2fd2dc3aa3abcaaeac9e60a81ffd688.wav",
-                "entryId": "en:word:drink"
-            },
-            {
-                "path": "audio/53612525976e57e096c89cf49ffcc1be60d2ab04136168922486a85043d6b84b.wav",
-                "entryId": "en:word:tea"
-            },
-            {
-                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
-                "entryId": "en:particle:in"
-            },
-            {
-                "path": "audio/3c12cd571e992637a1a3bc543337436f2d1730bfa8748083d6abccfcf27bb4aa.wav",
-                "entryId": "en:word:seasons-winter"
-            },
-            {
-                "pauseMs": 400
-            }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
-                "entryId": "en:word:i",
-                "startFrame": 2400,
-                "frameCount": 6507
-            },
-            {
-                "path": "audio/03b62debf6ef4408c4897b5fb6c219dbe2fd2dc3aa3abcaaeac9e60a81ffd688.wav",
-                "entryId": "en:word:drink",
-                "startFrame": 11067,
-                "frameCount": 11105
-            },
-            {
-                "path": "audio/53612525976e57e096c89cf49ffcc1be60d2ab04136168922486a85043d6b84b.wav",
-                "entryId": "en:word:tea",
-                "startFrame": 24332,
-                "frameCount": 10235
-            },
-            {
-                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
-                "entryId": "en:particle:in",
-                "startFrame": 36727,
-                "frameCount": 7315
-            },
-            {
-                "path": "audio/3c12cd571e992637a1a3bc543337436f2d1730bfa8748083d6abccfcf27bb4aa.wav",
-                "entryId": "en:word:seasons-winter",
-                "startFrame": 46202,
-                "frameCount": 19907
-            }
-        ],
-        "sha256": "715bed3d794deed5a7d1de1a87d6a1afcb5b5d35db4a33975bdf3ac45c14c0ca",
-        "frames": 77869,
-        "input": {
-            "language": "en",
-            "label": "I drink tea in winter.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
         },
