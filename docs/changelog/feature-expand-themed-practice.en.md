@@ -262,6 +262,10 @@ Add ball/racket and ボール/ラケット with four inspected equipment illustr
 
 Add museum/zoo and はくぶつかん/どうぶつえん with four inspected venue illustrations and four varied examples per language. Notes distinguish museum coverage and preserve complete native readings. English museums/zoos have exact recordings; examples practise destinations, viewing and waiting for a friend. Sources, originals and PCM remain; listening is unverified.
 
+## Letters and postcards
+
+Add letter/postcard and てがみ/はがき with four inspected illustrations, eight contextual examples and two exact English plural bindings. Notes distinguish correspondence from alphabet letters and preserve voiced が. Sources, original pictures and exact constituent PCM are retained. Listening remains unverified.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

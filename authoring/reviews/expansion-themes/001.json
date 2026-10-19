@@ -301,24 +301,26 @@
         "vocabularyAudit": "authoring/reviews/containers-vocabulary.json"
     },
     {
-        "theme": "courtesy",
+        "theme": "correspondence",
         "newDistinctVocabularyCount": 2,
         "vocabulary": [
             {
-                "entryId": "en:word:courtesy-sorry",
-                "label": "Sorry"
+                "entryId": "en:word:correspondence-letter",
+                "label": "letter"
             },
             {
-                "entryId": "en:word:courtesy-welcome",
-                "label": "Welcome"
+                "entryId": "en:word:correspondence-postcard",
+                "label": "postcard"
             }
         ],
-        "newExampleCount": 2,
+        "newExampleCount": 4,
         "exampleIds": [
-            "en:sentence:courtesy-example-apology-understanding",
-            "en:sentence:courtesy-example-welcome-home"
+            "en:sentence:correspondence-example-write-letter",
+            "en:sentence:correspondence-example-postcards-box",
+            "en:sentence:correspondence-example-read-letters",
+            "en:sentence:correspondence-example-give-postcard"
         ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/courtesy-vocabulary.json"
+        "recordedGrammaticalFormCount": 2,
+        "vocabularyAudit": "authoring/reviews/correspondence-vocabulary.json"
     }
 ]

@@ -1,0 +1,173 @@
+[
+    {
+        "id": "en:sentence:correspondence-example-write-letter",
+        "label": "I write a letter.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/ede1ad39eb02d07c3d9a635a6873e349257011ecb42bc5b7a525d4103274a068.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:write",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:correspondence-letter",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:correspondence-example-write-letter",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:correspondence-example-postcards-box",
+        "label": "The postcards are in the box.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/4efceb3553c72b185bcd5942438a76f826169a1c504ff76870aa38e4b719d510.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-correspondence-postcards",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-are",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:containers-box",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:correspondence-example-postcards-box",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:correspondence-example-read-letters",
+        "label": "I read the letters.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/782bf10da592dd3fc7284465504353fc9f59a573d632a42c8caca2836914de13.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:read",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:form-correspondence-letters",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:correspondence-example-read-letters",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:correspondence-example-give-postcard",
+        "label": "I give you a postcard.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/89f9b8b5ddaf95457495fca74d7c99e707c9a111c0944a98931850dc0f7df572.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:exchange-give",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:you",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:correspondence-postcard",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:correspondence-example-give-postcard",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

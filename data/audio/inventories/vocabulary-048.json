@@ -1,0 +1,68 @@
+[
+    {
+        "path": "audio/318cdcbcbd4c4b122acdb41704812e66960383c8e0a56489fd9dc11efd04d9fe.wav",
+        "text": "letter",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈletə\">letter</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "letter",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈletə/"]
+            }
+        ],
+        "entries": ["en:word:correspondence-letter"],
+        "variants": [],
+        "sha256": "318cdcbcbd4c4b122acdb41704812e66960383c8e0a56489fd9dc11efd04d9fe",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "cb18d234d01a758050f15e4823c408443c8a719c5f2c7f2606ef8d9bb7f5a19d"
+        }
+    },
+    {
+        "path": "audio/14b5bd88fb4dac4a235dc7e5996f715c7aedb45249a7e9b821169163e592a911.wav",
+        "text": "postcard",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈpəʊstkɑːd\">postcard</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "postcard",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈpəʊstkɑːd/"]
+            }
+        ],
+        "entries": ["en:word:correspondence-postcard"],
+        "variants": [],
+        "sha256": "14b5bd88fb4dac4a235dc7e5996f715c7aedb45249a7e9b821169163e592a911",
+        "frames": 26595,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "438b8a4d0f93621aab14ccb9fe62003bd04e21c69233dd28e97ad7d8a8da74a3"
+        }
+    }
+]

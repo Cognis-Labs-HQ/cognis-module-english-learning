@@ -1,5 +1,26 @@
 [
     {
+        "theme": "courtesy",
+        "newDistinctVocabularyCount": 2,
+        "vocabulary": [
+            {
+                "entryId": "en:word:courtesy-sorry",
+                "label": "Sorry"
+            },
+            {
+                "entryId": "en:word:courtesy-welcome",
+                "label": "Welcome"
+            }
+        ],
+        "newExampleCount": 2,
+        "exampleIds": [
+            "en:sentence:courtesy-example-apology-understanding",
+            "en:sentence:courtesy-example-welcome-home"
+        ],
+        "recordedGrammaticalFormCount": 0,
+        "vocabularyAudit": "authoring/reviews/courtesy-vocabulary.json"
+    },
+    {
         "theme": "craft",
         "newDistinctVocabularyCount": 3,
         "vocabulary": [
@@ -249,31 +270,5 @@
         ],
         "recordedGrammaticalFormCount": 4,
         "vocabularyAudit": "authoring/reviews/furnishings-vocabulary.json"
-    },
-    {
-        "theme": "greetings",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:greetings-morning",
-                "label": "Good morning"
-            },
-            {
-                "entryId": "en:word:greetings-evening",
-                "label": "Good evening"
-            },
-            {
-                "entryId": "en:word:greetings-night",
-                "label": "Good night"
-            },
-            {
-                "entryId": "en:word:greetings-later",
-                "label": "See you"
-            }
-        ],
-        "newExampleCount": 0,
-        "exampleIds": [],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/greetings-vocabulary.json"
     }
 ]

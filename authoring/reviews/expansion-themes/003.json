@@ -1,5 +1,31 @@
 [
     {
+        "theme": "greetings",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:greetings-morning",
+                "label": "Good morning"
+            },
+            {
+                "entryId": "en:word:greetings-evening",
+                "label": "Good evening"
+            },
+            {
+                "entryId": "en:word:greetings-night",
+                "label": "Good night"
+            },
+            {
+                "entryId": "en:word:greetings-later",
+                "label": "See you"
+            }
+        ],
+        "newExampleCount": 0,
+        "exampleIds": [],
+        "recordedGrammaticalFormCount": 0,
+        "vocabularyAudit": "authoring/reviews/greetings-vocabulary.json"
+    },
+    {
         "theme": "household",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -237,28 +263,5 @@
         ],
         "recordedGrammaticalFormCount": 4,
         "vocabularyAudit": "authoring/reviews/places-vocabulary.json"
-    },
-    {
-        "theme": "posture",
-        "newDistinctVocabularyCount": 2,
-        "vocabulary": [
-            {
-                "entryId": "en:word:posture-sit",
-                "label": "sit"
-            },
-            {
-                "entryId": "en:word:posture-stand",
-                "label": "stand"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:posture-example-sit-chair",
-            "en:sentence:posture-example-sat-yesterday",
-            "en:sentence:posture-example-stand-station",
-            "en:sentence:posture-example-stood-door"
-        ],
-        "recordedGrammaticalFormCount": 8,
-        "vocabularyAudit": "authoring/reviews/posture-vocabulary.json"
     }
 ]

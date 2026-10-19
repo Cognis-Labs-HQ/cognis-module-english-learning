@@ -1,0 +1,292 @@
+[
+    {
+        "path": "audio/ede1ad39eb02d07c3d9a635a6873e349257011ecb42bc5b7a525d4103274a068.wav",
+        "entryId": "en:sentence:correspondence-example-write-letter",
+        "label": "I write a letter.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/16a2d1eaaa889296b2f83e59f3b322f25fe44467632933ef9771f2c00ea68bbb.wav",
+                "entryId": "en:word:write"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/318cdcbcbd4c4b122acdb41704812e66960383c8e0a56489fd9dc11efd04d9fe.wav",
+                "entryId": "en:word:correspondence-letter"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/16a2d1eaaa889296b2f83e59f3b322f25fe44467632933ef9771f2c00ea68bbb.wav",
+                "entryId": "en:word:write",
+                "startFrame": 11067,
+                "frameCount": 13293
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 26520,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/318cdcbcbd4c4b122acdb41704812e66960383c8e0a56489fd9dc11efd04d9fe.wav",
+                "entryId": "en:word:correspondence-letter",
+                "startFrame": 41220,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "ede1ad39eb02d07c3d9a635a6873e349257011ecb42bc5b7a525d4103274a068",
+        "frames": 72887,
+        "input": {
+            "language": "en",
+            "label": "I write a letter.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/4efceb3553c72b185bcd5942438a76f826169a1c504ff76870aa38e4b719d510.wav",
+        "entryId": "en:sentence:correspondence-example-postcards-box",
+        "label": "The postcards are in the box.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/c3c142a0bee507a7114aa63f13185f445b878a26a1dacf9b52e5102f1f7cb6f5.wav",
+                "entryId": "en:word:form-correspondence-postcards"
+            },
+            {
+                "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
+                "entryId": "en:word:form-english-be-are"
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/10703bad0a3eae4370c7e8255c0e077054f9470eff2d7a85ae2ee8935031865c.wav",
+                "entryId": "en:word:containers-box"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/c3c142a0bee507a7114aa63f13185f445b878a26a1dacf9b52e5102f1f7cb6f5.wav",
+                "entryId": "en:word:form-correspondence-postcards",
+                "startFrame": 12710,
+                "frameCount": 29939
+            },
+            {
+                "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
+                "entryId": "en:word:form-english-be-are",
+                "startFrame": 44809,
+                "frameCount": 5418
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in",
+                "startFrame": 52387,
+                "frameCount": 7315
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 61862,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/10703bad0a3eae4370c7e8255c0e077054f9470eff2d7a85ae2ee8935031865c.wav",
+                "entryId": "en:word:containers-box",
+                "startFrame": 72172,
+                "frameCount": 23251
+            }
+        ],
+        "sha256": "4efceb3553c72b185bcd5942438a76f826169a1c504ff76870aa38e4b719d510",
+        "frames": 107183,
+        "input": {
+            "language": "en",
+            "label": "The postcards are in the box.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/782bf10da592dd3fc7284465504353fc9f59a573d632a42c8caca2836914de13.wav",
+        "entryId": "en:sentence:correspondence-example-read-letters",
+        "label": "I read the letters.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "entryId": "en:word:read"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/ab91d7ce32f11c8dba578609a36033bb25d0313e8ed126dffe4dc359ff43233f.wav",
+                "entryId": "en:word:form-correspondence-letters"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "entryId": "en:word:read",
+                "startFrame": 11067,
+                "frameCount": 11133
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 24360,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/ab91d7ce32f11c8dba578609a36033bb25d0313e8ed126dffe4dc359ff43233f.wav",
+                "entryId": "en:word:form-correspondence-letters",
+                "startFrame": 34670,
+                "frameCount": 23251
+            }
+        ],
+        "sha256": "782bf10da592dd3fc7284465504353fc9f59a573d632a42c8caca2836914de13",
+        "frames": 69681,
+        "input": {
+            "language": "en",
+            "label": "I read the letters.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/89f9b8b5ddaf95457495fca74d7c99e707c9a111c0944a98931850dc0f7df572.wav",
+        "entryId": "en:sentence:correspondence-example-give-postcard",
+        "label": "I give you a postcard.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/7aaa681c34581cd7a2e7811b586a1a6e4d92beda0aabc2a582f28cd49a770fd5.wav",
+                "entryId": "en:word:exchange-give"
+            },
+            {
+                "path": "audio/eb086382ae703d891387e252285d567900018c6683c2e11bf35646a7a6efc228.wav",
+                "entryId": "en:word:you"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/14b5bd88fb4dac4a235dc7e5996f715c7aedb45249a7e9b821169163e592a911.wav",
+                "entryId": "en:word:correspondence-postcard"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/7aaa681c34581cd7a2e7811b586a1a6e4d92beda0aabc2a582f28cd49a770fd5.wav",
+                "entryId": "en:word:exchange-give",
+                "startFrame": 11067,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/eb086382ae703d891387e252285d567900018c6683c2e11bf35646a7a6efc228.wav",
+                "entryId": "en:word:you",
+                "startFrame": 34249,
+                "frameCount": 9630
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 46039,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/14b5bd88fb4dac4a235dc7e5996f715c7aedb45249a7e9b821169163e592a911.wav",
+                "entryId": "en:word:correspondence-postcard",
+                "startFrame": 60739,
+                "frameCount": 26595
+            }
+        ],
+        "sha256": "89f9b8b5ddaf95457495fca74d7c99e707c9a111c0944a98931850dc0f7df572",
+        "frames": 99094,
+        "input": {
+            "language": "en",
+            "label": "I give you a postcard.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    }
+]

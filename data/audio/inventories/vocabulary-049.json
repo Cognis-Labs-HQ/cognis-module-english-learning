@@ -1,0 +1,80 @@
+[
+    {
+        "path": "audio/ab91d7ce32f11c8dba578609a36033bb25d0313e8ed126dffe4dc359ff43233f.wav",
+        "text": "letters",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈletəz\">letters</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "letters",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈletəz/"]
+            }
+        ],
+        "entries": ["en:word:form-correspondence-letters"],
+        "variants": [
+            {
+                "entryId": "en:word:correspondence-letter",
+                "setId": "correspondence-letter-forms",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "ab91d7ce32f11c8dba578609a36033bb25d0313e8ed126dffe4dc359ff43233f",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "463a4a8386c503970164ca1732c4d6e38a98332e85ecdaa2cd481bfa6cc5e25d"
+        }
+    },
+    {
+        "path": "audio/c3c142a0bee507a7114aa63f13185f445b878a26a1dacf9b52e5102f1f7cb6f5.wav",
+        "text": "postcards",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈpəʊstkɑːdz\">postcards</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "postcards",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈpəʊstkɑːdz/"]
+            }
+        ],
+        "entries": ["en:word:form-correspondence-postcards"],
+        "variants": [
+            {
+                "entryId": "en:word:correspondence-postcard",
+                "setId": "correspondence-postcard-forms",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "c3c142a0bee507a7114aa63f13185f445b878a26a1dacf9b52e5102f1f7cb6f5",
+        "frames": 29939,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "e77d76f40a7b1245c5f95297f8b9d15a9696f27db942928d068ee1de27b0edc0"
+        }
+    }
+]

@@ -1,5 +1,31 @@
 [
     {
+        "theme": "time",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:time-tomorrow",
+                "label": "tomorrow"
+            },
+            {
+                "entryId": "en:word:time-yesterday",
+                "label": "yesterday"
+            },
+            {
+                "entryId": "en:word:time-soon",
+                "label": "soon"
+            },
+            {
+                "entryId": "en:word:time-later",
+                "label": "later"
+            }
+        ],
+        "newExampleCount": 0,
+        "exampleIds": [],
+        "recordedGrammaticalFormCount": 0,
+        "vocabularyAudit": "authoring/reviews/time-vocabulary.json"
+    },
+    {
         "theme": "transport",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -212,21 +238,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/mealtime.json"
-    },
-    {
-        "theme": "daily",
-        "newDistinctVocabularyCount": 0,
-        "vocabulary": [],
-        "newExampleCount": 6,
-        "exampleIds": [
-            "en:sentence:daily-morning-reading",
-            "en:sentence:daily-eat-home",
-            "en:sentence:daily-work-city",
-            "en:sentence:daily-walk-park",
-            "en:sentence:daily-sleep-night",
-            "en:sentence:daily-drink-water"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/daily.json"
     }
 ]

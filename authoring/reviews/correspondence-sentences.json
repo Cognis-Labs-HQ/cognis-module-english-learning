@@ -1,0 +1,258 @@
+[
+    {
+        "entryId": "en:sentence:correspondence-example-write-letter",
+        "label": "I write a letter.",
+        "reading": null,
+        "meanings": {
+            "en": "I write a letter.",
+            "de": "Ich schreibe einen Brief.",
+            "id": "Saya menulis surat.",
+            "ja": "手紙を書きます。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:write",
+            "en:word:a",
+            "en:word:correspondence-letter",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/ede1ad39eb02d07c3d9a635a6873e349257011ecb42bc5b7a525d4103274a068.wav",
+        "sha256": "ede1ad39eb02d07c3d9a635a6873e349257011ecb42bc5b7a525d4103274a068",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "The object is written correspondence, not an alphabet character. English a marks one countable letter; Japanese を marks the object of かく.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:write",
+                "path": "audio/16a2d1eaaa889296b2f83e59f3b322f25fe44467632933ef9771f2c00ea68bbb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɹaɪt\">write</phoneme>.",
+                "sha256": "0a21d772641abc985c3ada683f7f92682fc3607576ea7bfbc4c2070bb0ac7f3f"
+            },
+            {
+                "entryId": "en:word:a",
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ə\">a</phoneme>.",
+                "sha256": "7d5073e6c6c8c87efc2dd90a7e4f16a47f23ab71a57c34ced6daf13082d53f07"
+            },
+            {
+                "entryId": "en:word:correspondence-letter",
+                "path": "audio/318cdcbcbd4c4b122acdb41704812e66960383c8e0a56489fd9dc11efd04d9fe.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈletə\">letter</phoneme>.",
+                "sha256": "7441e4c775bae3782de1a0f4d3ae1cea1f8458e2fc32f8c8c727a5471f681381"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/correspondence-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    },
+    {
+        "entryId": "en:sentence:correspondence-example-postcards-box",
+        "label": "The postcards are in the box.",
+        "reading": null,
+        "meanings": {
+            "en": "The postcards are in the box.",
+            "de": "Die Postkarten sind in der Schachtel.",
+            "id": "Kartu-kartu pos itu ada di dalam kotak.",
+            "ja": "それらの葉書は箱の中にあります。"
+        },
+        "constituentIds": [
+            "en:word:capital-the",
+            "en:word:form-correspondence-postcards",
+            "en:word:form-english-be-are",
+            "en:particle:in",
+            "en:word:the",
+            "en:word:containers-box",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/4efceb3553c72b185bcd5942438a76f826169a1c504ff76870aa38e4b719d510.wav",
+        "sha256": "4efceb3553c72b185bcd5942438a76f826169a1c504ff76870aa38e4b719d510",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Plural postcards agrees with are. In specifies the interior of the box; exact plural PCM retains final /dz/.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:capital-the",
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">The</phoneme>.",
+                "sha256": "8afecb26db8f5442c31c18cc1a16c18c0649b2dd6694ed6071ffa43d5db5f99a"
+            },
+            {
+                "entryId": "en:word:form-correspondence-postcards",
+                "path": "audio/c3c142a0bee507a7114aa63f13185f445b878a26a1dacf9b52e5102f1f7cb6f5.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈpəʊstkɑːdz\">postcards</phoneme>.",
+                "sha256": "145362405f99da60204abef9dd960011b193017e72ea7b09a6be42f5d31feeb4"
+            },
+            {
+                "entryId": "en:word:form-english-be-are",
+                "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɑː\">are</phoneme>.",
+                "sha256": "d511dbfad5cab5ad5e54d8eb8a01d3f2c90c7e3aef5dc825c7509656c202ae94"
+            },
+            {
+                "entryId": "en:particle:in",
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "in.",
+                "sha256": "807a72639918b348ca21ef14c205120a00e9e821a711fad6bbe065c5c53d756b"
+            },
+            {
+                "entryId": "en:word:the",
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">the</phoneme>.",
+                "sha256": "b2de03d0a472a2c128fb577f21214734327c9ea284305cddf02da7e534c37d9c"
+            },
+            {
+                "entryId": "en:word:containers-box",
+                "path": "audio/10703bad0a3eae4370c7e8255c0e077054f9470eff2d7a85ae2ee8935031865c.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"bɒks\">box</phoneme>.",
+                "sha256": "76fa7e91ac04634aeb5f0e87a100e9f93857c1a62f0ad40dc80453dfdfe68be9"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/correspondence-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    },
+    {
+        "entryId": "en:sentence:correspondence-example-read-letters",
+        "label": "I read the letters.",
+        "reading": null,
+        "meanings": {
+            "en": "I read the letters.",
+            "de": "Ich lese die Briefe.",
+            "id": "Saya membaca surat-surat itu.",
+            "ja": "それらの手紙を読みます。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:read",
+            "en:word:the",
+            "en:word:form-correspondence-letters",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/782bf10da592dd3fc7284465504353fc9f59a573d632a42c8caca2836914de13.wav",
+        "sha256": "782bf10da592dd3fc7284465504353fc9f59a573d632a42c8caca2836914de13",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Read is present-tense /riːd/ here. The plural letters refers to written messages.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:read",
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɹiːd\">read</phoneme>.",
+                "sha256": "51d6eb41f30a3204b55615a2263ed35f4534791a434472b0bbc501cbf97cd8d5"
+            },
+            {
+                "entryId": "en:word:the",
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ðə\">the</phoneme>.",
+                "sha256": "b2de03d0a472a2c128fb577f21214734327c9ea284305cddf02da7e534c37d9c"
+            },
+            {
+                "entryId": "en:word:form-correspondence-letters",
+                "path": "audio/ab91d7ce32f11c8dba578609a36033bb25d0313e8ed126dffe4dc359ff43233f.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈletəz\">letters</phoneme>.",
+                "sha256": "f54b1c15eafce9da3f3f8567788afef13372a963703c36d4b98891f92ff2b410"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/correspondence-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    },
+    {
+        "entryId": "en:sentence:correspondence-example-give-postcard",
+        "label": "I give you a postcard.",
+        "reading": null,
+        "meanings": {
+            "en": "I give you a postcard.",
+            "de": "Ich gebe dir eine Postkarte.",
+            "id": "Saya memberimu kartu pos.",
+            "ja": "あなたに葉書をあげます。"
+        },
+        "constituentIds": [
+            "en:word:i",
+            "en:word:exchange-give",
+            "en:word:you",
+            "en:word:a",
+            "en:word:correspondence-postcard",
+            "en:particle:period"
+        ],
+        "selectedTransformations": [],
+        "audioPath": "audio/89f9b8b5ddaf95457495fca74d7c99e707c9a111c0944a98931850dc0f7df572.wav",
+        "sha256": "89f9b8b5ddaf95457495fca74d7c99e707c9a111c0944a98931850dc0f7df572",
+        "audioAvailability": "bundled-composition",
+        "listening": "unverified-not-performed",
+        "textReview": "Give takes indirect object you before direct object a postcard.",
+        "sourceAudioEvidence": [
+            {
+                "entryId": "en:word:i",
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">I</phoneme>.",
+                "sha256": "0de27b960b616aa052b67fc1c0856712d62140a4f1b8a6c5c6c8d86ad3c558b5"
+            },
+            {
+                "entryId": "en:word:exchange-give",
+                "path": "audio/7aaa681c34581cd7a2e7811b586a1a6e4d92beda0aabc2a582f28cd49a770fd5.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ɡɪv\">give</phoneme>.",
+                "sha256": "b3b0ce10795a73c234af8ea36aeb8803cadbf75203b0801136ab758bcc5bf5fa"
+            },
+            {
+                "entryId": "en:word:you",
+                "path": "audio/eb086382ae703d891387e252285d567900018c6683c2e11bf35646a7a6efc228.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"juː\">you</phoneme>.",
+                "sha256": "eec9d0e2ccf963400dc1bc1bffb29a02f21283b7e0879b9f29d0cb7e17fb4c75"
+            },
+            {
+                "entryId": "en:word:a",
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ə\">a</phoneme>.",
+                "sha256": "7d5073e6c6c8c87efc2dd90a7e4f16a47f23ab71a57c34ced6daf13082d53f07"
+            },
+            {
+                "entryId": "en:word:correspondence-postcard",
+                "path": "audio/14b5bd88fb4dac4a235dc7e5996f715c7aedb45249a7e9b821169163e592a911.wav",
+                "voiceId": "gJx1vCzNCD1EQHT212Ls",
+                "requestText": "<phoneme alphabet=\"ipa\" ph=\"ˈpəʊstkɑːd\">postcard</phoneme>.",
+                "sha256": "4e53a76066c09b308721d7de96d83587ce9916d642ca33a2764ba691186d6631"
+            }
+        ],
+        "peak": 26869,
+        "fullScaleSamples": 0,
+        "sourceAudit": "authoring/reviews/correspondence-vocabulary.json",
+        "reviewedDate": "2026-10-19"
+    }
+]
