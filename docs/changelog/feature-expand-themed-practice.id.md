@@ -34,6 +34,10 @@ Enam contoh belanja dan satu dek latihan membahas pilihan, kebutuhan, deskripsi,
 
 Buat rekaman kata dan bentuk perjalanan yang diizinkan dengan suara yang ditetapkan, simpan PCM sumber serta asal permintaan, lalu gabungkan kalimat perjalanan dan belanja yang tersisa dari unsur yang tepat. Pemeriksaan langganan tidak memiliki izin user_read; sintesis berhasil. Pemeriksaan melalui pendengaran tetap belum dilakukan.
 
+## Batch kosakata berikutnya disiapkan
+
+Siapkan empat ungkapan waktu baru untuk pemula beserta bacaan, makna terjemahan, contoh kontekstual, dan rancangan dek. Simpan di luar konten runtime hingga ilustrasi tersendiri dibuat dan diperiksa secara visual.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

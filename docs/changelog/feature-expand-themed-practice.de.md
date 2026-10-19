@@ -34,6 +34,10 @@ Sechs Einkaufsbeispiele und ein Übungsdeck behandeln Auswahl, Bedarf, Beschreib
 
 Die freigegebenen Reisewörter und Formen werden mit den festgelegten Stimmen erzeugt. Quell-PCM und Anfragedaten bleiben erhalten; Reise- und noch offene Einkaufssätze werden aus den genauen Bestandteilen zusammengesetzt. Für die Abonnementabfrage fehlt user_read, die Sprachsynthese funktioniert. Die Hörprüfung bleibt ausdrücklich ausstehend.
 
+## Nächster Wortschatz vorbereitet
+
+Vier neue Zeitangaben für Anfänger sind mit Lesungen, übersetzten Bedeutungen, Kontextbeispielen und einem Deckentwurf vorbereitet. Sie bleiben außerhalb der Laufzeitinhalte, bis eigene Illustrationen erzeugt und visuell geprüft sind.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)
