@@ -78,6 +78,10 @@ Add libraries, hospitals, supermarkets and restaurants with reviewed meanings, f
 
 Add wash, cook, clean and dry with four inspected action illustrations per module, localized sense and transitivity notes, and a household deck. Support sixteen English grammatical forms with twelve shared recordings and thirty-two Japanese forms, with canonical form/audio tests. Eight varied examples use exact constituent audio. English examples include present, past and progressive forms; Japanese examples use base forms for host import compatibility while all thirty-two forms remain available for transformation practice. Listening remains unverified.
 
+## Daily Needs
+
+Add six contextual examples and a daily-needs deck per module, covering water, utensils, locations, shopping plans, cooking and personal care. Reuse exact constituent PCM without new generation requests or images. Japanese particles and English articles are reviewed in context. Listening remains explicitly unverified.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

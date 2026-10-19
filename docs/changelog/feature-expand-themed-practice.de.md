@@ -78,6 +78,10 @@ Bibliotheken, Krankenhäuser, Supermärkte und Restaurants mit geprüften Bedeut
 
 Waschen, Kochen, Reinigen und Trocknen mit vier geprüften Aktionsbildern je Modul, lokalisierten Hinweisen zu Bedeutung und Transitivität sowie einem Haushaltsstapel ergänzen. Sechzehn englische Formen mit zwölf gemeinsam genutzten Aufnahmen und zweiunddreißig japanische Formen samt Form- und Audiotests unterstützen. Acht abwechslungsreiche Beispiele nutzen exakte Audiosegmente. Englische Beispiele behandeln Gegenwart, Vergangenheit und Verlaufsformen. Japanische Beispiele verwenden wegen des Host-Imports Grundformen; alle zweiunddreißig Formen bleiben für die Transformationsübungen verfügbar. Die Hörprüfung steht aus.
 
+## Alltägliche Bedürfnisse
+
+Je Modul sechs Beispiele und einen Stapel zu Wasser, Besteck, Orten, Einkaufsplänen, Kochen und Körperpflege ergänzen. Exakte Audiosegmente ohne neue Generierungsanfragen oder Bilder wiederverwenden. Japanische Partikeln und englische Artikel im Kontext prüfen. Die Hörprüfung steht weiterhin aus.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

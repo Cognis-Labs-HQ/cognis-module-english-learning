@@ -1,0 +1,261 @@
+[
+    {
+        "id": "en:sentence:daily-needs-1",
+        "label": "I need water.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/7bbb14b8a819a059b8f5b93da32f433805f9f3c7e5b38c4beeabb1090b54b31c.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:need",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:water",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:daily-needs-1",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:daily-needs-2",
+        "label": "We need a spoon and a fork.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/c580dbb1e46006648e4ffb6876cff5637b2cdfba5749cb091c1b2f9df04afda0.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:need",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:tableware-spoon",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:and",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:word:tableware-fork",
+                "relation": "words",
+                "position": 6
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 7
+            },
+            {
+                "entryId": "en:definition:daily-needs-2",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:daily-needs-3",
+        "label": "The key is here.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/97fc1f65331729ab88aa3a90e5c859374e3d17ec9a842cdb47d0c310c6f8d818.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:key",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:here",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:daily-needs-3",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:daily-needs-4",
+        "label": "I want to go to the supermarket.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/9acafc95785009b21f45e56947486b5211c92181d4f959ee6b90fb30859828cb.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:want",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:to",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:go",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:to",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:word:places-supermarket",
+                "relation": "words",
+                "position": 6
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 7
+            },
+            {
+                "entryId": "en:definition:daily-needs-4",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:daily-needs-5",
+        "label": "We cook at home.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/09bade198b63a8911870ac07311facdaef3e7ed2eb7646797f054ef16c8b3df6.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:household-cook",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:at",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:home",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:daily-needs-5",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:daily-needs-6",
+        "label": "I clean my room.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/240c310ee3f0737c19d1ea7138aae5db9c51eaa81637bf9ae98cdc7095bf275e.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:household-clean",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:my",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:room",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:daily-needs-6",
+                "relation": "definitions"
+            }
+        ]
+    }
+]
