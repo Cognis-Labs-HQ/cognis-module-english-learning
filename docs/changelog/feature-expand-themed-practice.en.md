@@ -269,3 +269,4 @@ Add Sorry and Welcome with ごめんなさい and ようこそ, inspected social
 - [bd4e7fe](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/bd4e7feaccb472ac120ff0dc7f6c8994197a232e)
 - [040731f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/040731f87a09c7aaed71270afb818c4377f2cb67)
 - [e595ba6](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e595ba6b94e5ad46fe411cb69b82006dd0115f39)
+- [cca9bf2](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/cca9bf2c67e0b21a7146b280f4bc8247416627b1)
