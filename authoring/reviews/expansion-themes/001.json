@@ -129,6 +129,37 @@
         "vocabularyAudit": "authoring/reviews/animals-vocabulary.json"
     },
     {
+        "theme": "belongings",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:belongings-wallet",
+                "label": "wallet"
+            },
+            {
+                "entryId": "en:word:belongings-camera",
+                "label": "camera"
+            },
+            {
+                "entryId": "en:word:belongings-glasses",
+                "label": "glasses"
+            },
+            {
+                "entryId": "en:word:belongings-watch",
+                "label": "watch"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:belongings-example-wallet-possession",
+            "en:sentence:belongings-example-camera-location",
+            "en:sentence:belongings-example-glasses-location",
+            "en:sentence:belongings-example-new-watch"
+        ],
+        "recordedGrammaticalFormCount": 0,
+        "vocabularyAudit": "authoring/reviews/belongings-vocabulary.json"
+    },
+    {
         "theme": "care",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -299,36 +330,5 @@
         ],
         "recordedGrammaticalFormCount": 4,
         "vocabularyAudit": "authoring/reviews/fixtures-vocabulary.json"
-    },
-    {
-        "theme": "frequency",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:frequency-often",
-                "label": "often"
-            },
-            {
-                "entryId": "en:word:frequency-sometimes",
-                "label": "sometimes"
-            },
-            {
-                "entryId": "en:word:frequency-usually",
-                "label": "usually"
-            },
-            {
-                "entryId": "en:word:frequency-again",
-                "label": "again"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:frequency-example-often",
-            "en:sentence:frequency-example-sometimes",
-            "en:sentence:frequency-example-usually",
-            "en:sentence:frequency-example-again"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/frequency-vocabulary.json"
     }
 ]

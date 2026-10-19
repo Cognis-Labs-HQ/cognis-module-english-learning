@@ -1,5 +1,36 @@
 [
     {
+        "theme": "frequency",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:frequency-often",
+                "label": "often"
+            },
+            {
+                "entryId": "en:word:frequency-sometimes",
+                "label": "sometimes"
+            },
+            {
+                "entryId": "en:word:frequency-usually",
+                "label": "usually"
+            },
+            {
+                "entryId": "en:word:frequency-again",
+                "label": "again"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:frequency-example-often",
+            "en:sentence:frequency-example-sometimes",
+            "en:sentence:frequency-example-usually",
+            "en:sentence:frequency-example-again"
+        ],
+        "recordedGrammaticalFormCount": 0,
+        "vocabularyAudit": "authoring/reviews/frequency-vocabulary.json"
+    },
+    {
         "theme": "fruit",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -260,36 +291,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/reading-time-vocabulary.json"
-    },
-    {
-        "theme": "requests",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:requests-yes",
-                "label": "Yes"
-            },
-            {
-                "entryId": "en:word:requests-no",
-                "label": "No"
-            },
-            {
-                "entryId": "en:word:requests-please",
-                "label": "Please"
-            },
-            {
-                "entryId": "en:word:requests-repeat",
-                "label": "Pardon"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:requests-example-yes",
-            "en:sentence:requests-example-no",
-            "en:sentence:requests-example-please",
-            "en:sentence:requests-example-repeat"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/requests-vocabulary.json"
     }
 ]

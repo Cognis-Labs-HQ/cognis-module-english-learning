@@ -1,5 +1,36 @@
 [
     {
+        "theme": "requests",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:requests-yes",
+                "label": "Yes"
+            },
+            {
+                "entryId": "en:word:requests-no",
+                "label": "No"
+            },
+            {
+                "entryId": "en:word:requests-please",
+                "label": "Please"
+            },
+            {
+                "entryId": "en:word:requests-repeat",
+                "label": "Pardon"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:requests-example-yes",
+            "en:sentence:requests-example-no",
+            "en:sentence:requests-example-please",
+            "en:sentence:requests-example-repeat"
+        ],
+        "recordedGrammaticalFormCount": 0,
+        "vocabularyAudit": "authoring/reviews/requests-vocabulary.json"
+    },
+    {
         "theme": "rooms",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -255,19 +286,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/core-sentences.json"
-    },
-    {
-        "theme": "social",
-        "newDistinctVocabularyCount": 0,
-        "vocabulary": [],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:social-example-greeting",
-            "en:sentence:social-example-gratitude",
-            "en:sentence:social-example-attention",
-            "en:sentence:social-example-farewell"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/social-sentences.json"
     }
 ]

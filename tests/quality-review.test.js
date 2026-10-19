@@ -6,8 +6,8 @@ import { createHash } from "node:crypto";
 const read = (path) =>
     JSON.parse(readFileSync(new URL("../" + path, import.meta.url), "utf8"));
 
-test("ambiguous task and repetition artwork stays rejected and the reviewed replacement is shipped", () => {
-    for (const theme of ["qualities", "frequency"]) {
+test("rejected artwork stays rejected and the reviewed replacement is shipped", () => {
+    for (const theme of ["qualities", "frequency", "belongings"]) {
         const rejected = read(
             `authoring/reviews/${theme}-rejected-images.json`,
         );

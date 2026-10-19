@@ -1,0 +1,130 @@
+[
+    {
+        "entryId": "en:word:belongings-wallet",
+        "path": "audio/37f0527840ebcd7b9ccbf90010f150323387995a2568e3151d56c8cbc847b072.wav",
+        "sha256": "37f0527840ebcd7b9ccbf90010f150323387995a2568e3151d56c8cbc847b072",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈwɒlɪt\">wallet</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "0A0O4k70pBlgS44x5F3x",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/belongings/belongings-wallet.pcm",
+        "sourceSha256": "868c1485cf11c5dd488b676b6ec1122e303ce92ffe711b96cc7178210557f7f5",
+        "sourcePeak": 27160,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9892857142857143,
+        "paddingFramesEachSide": 480,
+        "frames": 22137,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:belongings-camera",
+        "path": "audio/ad534989cc7616a0a28fab600b7f81b42009a2ae304b319b4d424d5be6ca2108.wav",
+        "sha256": "ad534989cc7616a0a28fab600b7f81b42009a2ae304b319b4d424d5be6ca2108",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈkæmrə\">camera</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "ndakwDBbWgSyI6VOHSJt",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/belongings/belongings-camera.pcm",
+        "sourceSha256": "b12af29fdd05db866134a17e0614af8a1a7aecbceb4857d6a7b17011569a4a3b",
+        "sourcePeak": 22113,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 21022,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:belongings-glasses",
+        "path": "audio/b6da6a63eebad0d2ceb607a58c21af556a67551c90f85c86cc15763915d72373.wav",
+        "sha256": "b6da6a63eebad0d2ceb607a58c21af556a67551c90f85c86cc15763915d72373",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈɡlɑːsɪz\">glasses</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "XFRwyr0nQRTPl7ygLMRq",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/belongings/belongings-glasses.pcm",
+        "sourceSha256": "0cd9488325b3485deb92492a70b1f365dde39aab0764c0f279373a2990ca9544",
+        "sourcePeak": 30446,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.8825133022400315,
+        "paddingFramesEachSide": 480,
+        "frames": 25480,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:belongings-watch",
+        "path": "audio/b414513ac19ef2ee318ea14d75c5070e422eff3b1d41737711549125de3b0fbd.wav",
+        "sha256": "b414513ac19ef2ee318ea14d75c5070e422eff3b1d41737711549125de3b0fbd",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɒtʃ\">watch</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "JR8LCVB10xx3zquqo79C",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/belongings/belongings-watch.pcm",
+        "sourceSha256": "8321ae299aa0676f04d23b2f0db20fd85ddae4b15e412312694e2e22168b3d56",
+        "sourcePeak": 19401,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 23251,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]

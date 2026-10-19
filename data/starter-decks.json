@@ -1107,5 +1107,41 @@
             "en:sentence:comprehension-example-check",
             "en:sentence:comprehension-example-past"
         ]
+    },
+    {
+        "key": "belongings-practice",
+        "name": {
+            "en": "Personal Belongings",
+            "de": "Persönliche Gegenstände",
+            "id": "Barang Pribadi",
+            "ja": "身の回りの持ち物"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:word:belongings-wallet",
+            "en:word:belongings-camera",
+            "en:word:belongings-glasses",
+            "en:word:belongings-watch",
+            "en:sentence:belongings-example-wallet-possession",
+            "en:sentence:belongings-example-camera-location",
+            "en:sentence:belongings-example-glasses-location",
+            "en:sentence:belongings-example-new-watch"
+        ]
+    },
+    {
+        "key": "getting-ready-practice",
+        "name": {
+            "en": "Getting Ready",
+            "de": "Vorbereitungen",
+            "id": "Bersiap-siap",
+            "ja": "出かける準備"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:sentence:getting-ready-example-passport-need",
+            "en:sentence:getting-ready-example-ticket-here",
+            "en:sentence:getting-ready-example-camera-map",
+            "en:sentence:getting-ready-example-key-phone"
+        ]
     }
 ]

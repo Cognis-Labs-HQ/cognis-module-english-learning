@@ -1,0 +1,178 @@
+[
+    {
+        "id": "en:sentence:belongings-example-wallet-possession",
+        "label": "I have my wallet.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/31476f424b263ab2e4566d8b3c2bc09f81589c1ee8912cdd88bbbd426fa6a45b.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:have",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:my",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:belongings-wallet",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:belongings-example-wallet-possession",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:belongings-example-camera-location",
+        "label": "The camera is in the bag.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/f7746a72162b06f6dabcea7fdb0cdc4ae5e48ff6c8a263303c9bac47427fe8c7.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:belongings-camera",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:bag",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:belongings-example-camera-location",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:belongings-example-glasses-location",
+        "label": "The glasses are on the table.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/3dede94a11292857cfbf344bf39dd5745c80fe761f5b8403839548c0751698d7.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:belongings-glasses",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-are",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:on",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:table",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:belongings-example-glasses-location",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:belongings-example-new-watch",
+        "label": "This watch is new.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/e4500ac180144d78e8171c855749d2321104f65da476f49ba2f0f768030ebdb2.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-this",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:belongings-watch",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:new",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:belongings-example-new-watch",
+                "relation": "definitions"
+            }
+        ]
+    }
+]
