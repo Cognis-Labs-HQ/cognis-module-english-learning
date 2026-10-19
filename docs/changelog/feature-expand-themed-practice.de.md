@@ -18,6 +18,10 @@ Lokalisierte Hinweise und Beispiele verdeutlichen Artikelwahl, Gegensätze, Bedi
 
 Zwölf bebilderte Reisewörter mit geprüften grammatischen Formen, acht aus verknüpften Wörtern aufgebaute Beispielsätze und zwei lokalisierte Übungsdecks ergänzen den Inhalt. Neue Reiseaufnahmen sind nicht enthalten.
 
+## Übungen zum Essen
+
+Sechs abwechslungsreiche Sätze zum Essen und ein Übungsdeck verwenden vorhandenen Wortschatz und unveränderte Wortaufnahmen. Die neuen Audiokombinationen sind technisch geprüft, aber nicht durch Anhören bestätigt.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

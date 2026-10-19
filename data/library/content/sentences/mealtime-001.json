@@ -1,0 +1,211 @@
+[
+    {
+        "id": "en:sentence:mealtime-eat-cheese",
+        "label": "I eat cheese.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/dc1395e71a936e3773e6c1109928acb3c8f027807b23d153ffc21d7fd648acc9.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:eat",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:cheese",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:mealtime-eat-cheese",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:mealtime-like-soup",
+        "label": "She likes soup.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/0f99f12874889f0db06475f28e43dd28772a9a44549df2081de8dfadc56a943f.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-like-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:soup",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:mealtime-like-soup",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:mealtime-have-butter",
+        "label": "We have butter.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/2825c93985f68e9aa7b1717dbde46663ea73e26e0f35c1b53407b42cd40e8450.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:have",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:butter",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:mealtime-have-butter",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:mealtime-want-rice",
+        "label": "They want rice.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/98c597df5fe836895f60c517e727eba7856ecd6a9fd01351387c30d47f05815a.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-they",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:want",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:rice",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:mealtime-want-rice",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:mealtime-small-tomato",
+        "label": "The tomato is small.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/8d0de780a0d2274b2a33f4564ef762c704936b4e224dde4e2655793602c5ebc6.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:tomato",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:small",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:mealtime-small-tomato",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:mealtime-drink-water",
+        "label": "You drink water.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/a8d063e1bf5580e73a059a7d6aaf710ca965814cc92e18d4faca8f21c7f10868.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-you",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:drink",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:water",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:mealtime-drink-water",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

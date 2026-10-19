@@ -18,6 +18,10 @@ Clarify article choice, contrast, conditions and illustrated word senses with lo
 
 Add twelve illustrated travel words, their reviewed grammatical forms, eight composed-text examples and two localized practice decks. New travel recordings are not bundled.
 
+## Mealtime Practice
+
+Add six varied mealtime sentences and a practice deck, reusing existing vocabulary and exact constituent audio. The new compositions have technical integrity checks; listening has not been verified.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

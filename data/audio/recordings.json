@@ -21,7 +21,7 @@
     "inventoryVersion": 1,
     "counts": {
         "recordings": 448,
-        "compositions": 49,
+        "compositions": 55,
         "sentences": 49
     },
     "inventories": [
@@ -204,6 +204,12 @@
             "kind": "sentences",
             "count": 23,
             "sha256": "48c22282ef64063236facf836fdcf1b0992ba7c20c92b7c4f9ef65497fd58cc8"
+        },
+        {
+            "path": "inventories/sentence-compositions-005.json",
+            "kind": "compositions",
+            "count": 6,
+            "sha256": "5494d3ccb7ee94b92e91430a8018f403d2f04c67867c3783a73d977acd9cb13a"
         }
     ]
 }
