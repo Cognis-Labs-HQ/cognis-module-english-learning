@@ -607,5 +607,25 @@
             "en:sentence:places-example-supermarket",
             "en:sentence:places-example-restaurant"
         ]
+    },
+    {
+        "key": "household-practice",
+        "name": {
+            "en": "Household Actions",
+            "de": "Tätigkeiten im Haushalt",
+            "id": "Kegiatan Rumah Tangga",
+            "ja": "家事と身の回りの動作"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:word:household-wash",
+            "en:word:household-cook",
+            "en:word:household-clean",
+            "en:word:household-dry",
+            "en:sentence:household-example-wash",
+            "en:sentence:household-example-cook",
+            "en:sentence:household-example-clean",
+            "en:sentence:household-example-dry"
+        ]
     }
 ]

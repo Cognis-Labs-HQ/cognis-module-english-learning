@@ -1,0 +1,134 @@
+[
+    {
+        "path": "audio/f871f020b3de15eef5914b6e3de3d22cbd60473330c2bdfa30976783eb09b34a.wav",
+        "text": "wash",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɒʃ\">wash</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "wash",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɒʃ/"]
+            }
+        ],
+        "entries": ["en:word:household-wash"],
+        "variants": [],
+        "sha256": "f871f020b3de15eef5914b6e3de3d22cbd60473330c2bdfa30976783eb09b34a",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "441333fbd216458734e310a601ecf9d1e661c5086aa73721e39fc4c5d147927e"
+        }
+    },
+    {
+        "path": "audio/873d3ddc7f14042c8425ac23c85457ea9c6ec3a2061cdb616fc7dd81d01c32f3.wav",
+        "text": "cook",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"kʊk\">cook</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "cook",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/kʊk/"]
+            }
+        ],
+        "entries": ["en:word:household-cook"],
+        "variants": [],
+        "sha256": "873d3ddc7f14042c8425ac23c85457ea9c6ec3a2061cdb616fc7dd81d01c32f3",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "325728b2228a7df758e0fbb1ccd9734268fcd4ad6a54648b3b9ca3b57574bcc1"
+        }
+    },
+    {
+        "path": "audio/54d7756b9e9d1fe760270f8a5618a4cf1b26c9dcea15fec6bb9acfacc9ac6e53.wav",
+        "text": "clean",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"kliːn\">clean</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "clean",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/kliːn/"]
+            }
+        ],
+        "entries": ["en:word:household-clean"],
+        "variants": [],
+        "sha256": "54d7756b9e9d1fe760270f8a5618a4cf1b26c9dcea15fec6bb9acfacc9ac6e53",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "4f01bb6ea79a6ad89d3ae41c2c6ef9cfa1507ec2d6ddbdfacc900464e3435a1a"
+        }
+    },
+    {
+        "path": "audio/885b5f5bfc288f3d11a87e369cb0f48818ae2ccc5c90e78ab42a4f03b0036de6.wav",
+        "text": "dry",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"draɪ\">dry</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "dry",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/draɪ/"]
+            }
+        ],
+        "entries": ["en:word:household-dry"],
+        "variants": [],
+        "sha256": "885b5f5bfc288f3d11a87e369cb0f48818ae2ccc5c90e78ab42a4f03b0036de6",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "38831d0bffec6d6d3bc6e213f9e37674b27a69dfcbac951792fd768abe1519f4"
+        }
+    }
+]

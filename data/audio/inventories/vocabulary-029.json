@@ -1,0 +1,490 @@
+[
+    {
+        "path": "audio/0366a71ea8cd278ce98f1dce2ad95e6da1f6c55b605b81a0535cf3af8551a468.wav",
+        "text": "washes",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈwɒʃɪz\">washes</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "washes",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈwɒʃɪz/"]
+            }
+        ],
+        "entries": ["en:word:form-household-wash-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:household-wash",
+                "setId": "household-wash-forms",
+                "path": ["third-person"]
+            }
+        ],
+        "sha256": "0366a71ea8cd278ce98f1dce2ad95e6da1f6c55b605b81a0535cf3af8551a468",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "4c010609aad4c2c1d00dfe40f0605a4ad66accc5f3da0cf6675afcf044488a79"
+        }
+    },
+    {
+        "path": "audio/6c48791bf1b0b6b608bf75fb69a3fd42d04473d607c201a6e0d38138096d5680.wav",
+        "text": "washed",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɒʃt\">washed</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "washed",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɒʃt/"]
+            }
+        ],
+        "entries": ["en:word:form-household-wash-past"],
+        "variants": [
+            {
+                "entryId": "en:word:household-wash",
+                "setId": "household-wash-forms",
+                "path": ["past"]
+            },
+            {
+                "entryId": "en:word:household-wash",
+                "setId": "household-wash-forms",
+                "path": ["past-participle"]
+            }
+        ],
+        "sha256": "6c48791bf1b0b6b608bf75fb69a3fd42d04473d607c201a6e0d38138096d5680",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "960374efffbc771d65cf03f37a86cb28d1422035c55b032bcb7288eb4177713c"
+        }
+    },
+    {
+        "path": "audio/b252e4261d996d384dbcade475386e3f85f11d69c985d45591d0b3f8049a30e6.wav",
+        "text": "washing",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈwɒʃɪŋ\">washing</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "washing",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈwɒʃɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-household-wash-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:household-wash",
+                "setId": "household-wash-forms",
+                "path": ["present-participle"]
+            }
+        ],
+        "sha256": "b252e4261d996d384dbcade475386e3f85f11d69c985d45591d0b3f8049a30e6",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "4d4408c42ee48e6707e14af60d8c291afc6645ecb83e6968e666f109c7e152b3"
+        }
+    },
+    {
+        "path": "audio/e8e8627c615b63bf37f084f4f312317128412a0a62763cb2d1b1c18060f3ce29.wav",
+        "text": "cooks",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"kʊks\">cooks</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "cooks",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/kʊks/"]
+            }
+        ],
+        "entries": ["en:word:form-household-cook-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:household-cook",
+                "setId": "household-cook-forms",
+                "path": ["third-person"]
+            }
+        ],
+        "sha256": "e8e8627c615b63bf37f084f4f312317128412a0a62763cb2d1b1c18060f3ce29",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "395669561fa76de532e7759516e9d2e730aa20f0ecadd53a4a54d60a8c0374f4"
+        }
+    },
+    {
+        "path": "audio/4b501e2a74dc5162ad599b2cafbb011650893e95db7032fdab9bcf4854607b96.wav",
+        "text": "cooked",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"kʊkt\">cooked</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "cooked",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/kʊkt/"]
+            }
+        ],
+        "entries": ["en:word:form-household-cook-past"],
+        "variants": [
+            {
+                "entryId": "en:word:household-cook",
+                "setId": "household-cook-forms",
+                "path": ["past"]
+            },
+            {
+                "entryId": "en:word:household-cook",
+                "setId": "household-cook-forms",
+                "path": ["past-participle"]
+            }
+        ],
+        "sha256": "4b501e2a74dc5162ad599b2cafbb011650893e95db7032fdab9bcf4854607b96",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "cd47b42b5bbcb47c28d1c03ab8ccf4b910796ed7b5bb2987bf0debded06ddf59"
+        }
+    },
+    {
+        "path": "audio/b9b1172ffc19f58cd727702b24e3e081b1ae537d4e9c27e6c9c0936405023ce3.wav",
+        "text": "cooking",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈkʊkɪŋ\">cooking</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "cooking",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈkʊkɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-household-cook-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:household-cook",
+                "setId": "household-cook-forms",
+                "path": ["present-participle"]
+            }
+        ],
+        "sha256": "b9b1172ffc19f58cd727702b24e3e081b1ae537d4e9c27e6c9c0936405023ce3",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "c4da0e57edfca3e244cc119e53b7349d9474d822153c74ba80c74b2f79915ff4"
+        }
+    },
+    {
+        "path": "audio/83d3d86e5d5479667f937c640916d9ab8f042745c4f239343af5213f32fb906d.wav",
+        "text": "cleans",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"kliːnz\">cleans</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "cleans",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/kliːnz/"]
+            }
+        ],
+        "entries": ["en:word:form-household-clean-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:household-clean",
+                "setId": "household-clean-forms",
+                "path": ["third-person"]
+            }
+        ],
+        "sha256": "83d3d86e5d5479667f937c640916d9ab8f042745c4f239343af5213f32fb906d",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "7978ea56e35becc27cb03eb5e2cb1dd07d73e1f59b572ec2427f39727e2fc501"
+        }
+    },
+    {
+        "path": "audio/c47d959a3f13df71f8e111f0bd8211f817ec86d2419ce3d9ebeac47c6106d58c.wav",
+        "text": "cleaned",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"kliːnd\">cleaned</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "cleaned",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/kliːnd/"]
+            }
+        ],
+        "entries": ["en:word:form-household-clean-past"],
+        "variants": [
+            {
+                "entryId": "en:word:household-clean",
+                "setId": "household-clean-forms",
+                "path": ["past"]
+            },
+            {
+                "entryId": "en:word:household-clean",
+                "setId": "household-clean-forms",
+                "path": ["past-participle"]
+            }
+        ],
+        "sha256": "c47d959a3f13df71f8e111f0bd8211f817ec86d2419ce3d9ebeac47c6106d58c",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "2af31388abb8e174e9c3ae79dcf6f5b54eba80155816c75e0b12f907ed2a00eb"
+        }
+    },
+    {
+        "path": "audio/3f454d88d4e331a09c78888ee6f9331091fadb5dfff4f089e4f4f1fe611f6d21.wav",
+        "text": "cleaning",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈkliːnɪŋ\">cleaning</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "cleaning",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈkliːnɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-household-clean-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:household-clean",
+                "setId": "household-clean-forms",
+                "path": ["present-participle"]
+            }
+        ],
+        "sha256": "3f454d88d4e331a09c78888ee6f9331091fadb5dfff4f089e4f4f1fe611f6d21",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "ed2b46404c8aa636ab667761f391acc1c390dd0f6b8ccbc76915d703bd429c4b"
+        }
+    },
+    {
+        "path": "audio/dd93b48d03146a78db6ed65646cb4df1d1c40bf5d8b59b10643339c6fa94570a.wav",
+        "text": "dries",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"draɪz\">dries</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "dries",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/draɪz/"]
+            }
+        ],
+        "entries": ["en:word:form-household-dry-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:household-dry",
+                "setId": "household-dry-forms",
+                "path": ["third-person"]
+            }
+        ],
+        "sha256": "dd93b48d03146a78db6ed65646cb4df1d1c40bf5d8b59b10643339c6fa94570a",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "b6d5917b3068f622e87987ebd0355271bbbc6ab663aaa198f49a633967bf6df8"
+        }
+    },
+    {
+        "path": "audio/ca945bebbfede1e2744575aecad313602e366b024033bafd8d01052035d8c1f8.wav",
+        "text": "dried",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"draɪd\">dried</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "dried",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/draɪd/"]
+            }
+        ],
+        "entries": ["en:word:form-household-dry-past"],
+        "variants": [
+            {
+                "entryId": "en:word:household-dry",
+                "setId": "household-dry-forms",
+                "path": ["past"]
+            },
+            {
+                "entryId": "en:word:household-dry",
+                "setId": "household-dry-forms",
+                "path": ["past-participle"]
+            }
+        ],
+        "sha256": "ca945bebbfede1e2744575aecad313602e366b024033bafd8d01052035d8c1f8",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "429d32b5c9d5d095292e667617647cb2ea26f29bfe6e40a4fa0971337e596914"
+        }
+    },
+    {
+        "path": "audio/062db57db01f8a47848da342001f63407ae469f873054914a968bedf3125b4eb.wav",
+        "text": "drying",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈdraɪɪŋ\">drying</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "drying",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈdraɪɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-household-dry-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:household-dry",
+                "setId": "household-dry-forms",
+                "path": ["present-participle"]
+            }
+        ],
+        "sha256": "062db57db01f8a47848da342001f63407ae469f873054914a968bedf3125b4eb",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "2aba6af8cbd7e0ec89cd4817e09016d0799a1d9ac132bfd13eaf475479ec8486"
+        }
+    }
+]

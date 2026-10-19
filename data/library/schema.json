@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 30,
+    "version": 31,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -10428,6 +10428,530 @@
                 }
             ],
             "optInTag": "plural"
+        },
+        {
+            "id": "household-wash-forms",
+            "metadata": {
+                "labels": {
+                    "en": "wash Forms",
+                    "de": "wash-Formen",
+                    "id": "Bentuk wash",
+                    "ja": "washの活用"
+                }
+            },
+            "matchTags": ["verb", "household-form-wash"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "third-person",
+                    "metadata": {
+                        "labels": {
+                            "en": "Third-Person Singular",
+                            "de": "Dritte Person Singular",
+                            "id": "Orang Ketiga Tunggal",
+                            "ja": "三人称単数"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "third-person",
+                    "removeSuffix": "wash",
+                    "append": "washes",
+                    "pronunciation": {
+                        "removeSuffix": "/wɒʃ/",
+                        "append": "/ˈwɒʃɪz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Third-Person Singular)",
+                                "de": "{{ definition }} (Dritte Person Singular)",
+                                "id": "{{ definition }} (Orang Ketiga Tunggal)",
+                                "ja": "{{ definition }} (三人称単数)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past",
+                            "de": "Vergangenheit",
+                            "id": "Lampau",
+                            "ja": "過去形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past",
+                    "removeSuffix": "wash",
+                    "append": "washed",
+                    "pronunciation": {
+                        "removeSuffix": "/wɒʃ/",
+                        "append": "/wɒʃt/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past)",
+                                "de": "{{ definition }} (Vergangenheit)",
+                                "id": "{{ definition }} (Lampau)",
+                                "ja": "{{ definition }} (過去形)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "present-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Present Participle",
+                            "de": "Präsenspartizip",
+                            "id": "Partisip Kini",
+                            "ja": "現在分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "present-participle",
+                    "removeSuffix": "wash",
+                    "append": "washing",
+                    "pronunciation": {
+                        "removeSuffix": "/wɒʃ/",
+                        "append": "/ˈwɒʃɪŋ/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Present Participle)",
+                                "de": "{{ definition }} (Präsenspartizip)",
+                                "id": "{{ definition }} (Partisip Kini)",
+                                "ja": "{{ definition }} (現在分詞)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past Participle",
+                            "de": "Partizip Perfekt",
+                            "id": "Partisip Lampau",
+                            "ja": "過去分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past-participle",
+                    "removeSuffix": "wash",
+                    "append": "washed",
+                    "pronunciation": {
+                        "removeSuffix": "/wɒʃ/",
+                        "append": "/wɒʃt/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past Participle)",
+                                "de": "{{ definition }} (Partizip Perfekt)",
+                                "id": "{{ definition }} (Partisip Lampau)",
+                                "ja": "{{ definition }} (過去分詞)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "household-cook-forms",
+            "metadata": {
+                "labels": {
+                    "en": "cook Forms",
+                    "de": "cook-Formen",
+                    "id": "Bentuk cook",
+                    "ja": "cookの活用"
+                }
+            },
+            "matchTags": ["verb", "household-form-cook"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "third-person",
+                    "metadata": {
+                        "labels": {
+                            "en": "Third-Person Singular",
+                            "de": "Dritte Person Singular",
+                            "id": "Orang Ketiga Tunggal",
+                            "ja": "三人称単数"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "third-person",
+                    "removeSuffix": "cook",
+                    "append": "cooks",
+                    "pronunciation": {
+                        "removeSuffix": "/kʊk/",
+                        "append": "/kʊks/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Third-Person Singular)",
+                                "de": "{{ definition }} (Dritte Person Singular)",
+                                "id": "{{ definition }} (Orang Ketiga Tunggal)",
+                                "ja": "{{ definition }} (三人称単数)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past",
+                            "de": "Vergangenheit",
+                            "id": "Lampau",
+                            "ja": "過去形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past",
+                    "removeSuffix": "cook",
+                    "append": "cooked",
+                    "pronunciation": {
+                        "removeSuffix": "/kʊk/",
+                        "append": "/kʊkt/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past)",
+                                "de": "{{ definition }} (Vergangenheit)",
+                                "id": "{{ definition }} (Lampau)",
+                                "ja": "{{ definition }} (過去形)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "present-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Present Participle",
+                            "de": "Präsenspartizip",
+                            "id": "Partisip Kini",
+                            "ja": "現在分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "present-participle",
+                    "removeSuffix": "cook",
+                    "append": "cooking",
+                    "pronunciation": {
+                        "removeSuffix": "/kʊk/",
+                        "append": "/ˈkʊkɪŋ/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Present Participle)",
+                                "de": "{{ definition }} (Präsenspartizip)",
+                                "id": "{{ definition }} (Partisip Kini)",
+                                "ja": "{{ definition }} (現在分詞)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past Participle",
+                            "de": "Partizip Perfekt",
+                            "id": "Partisip Lampau",
+                            "ja": "過去分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past-participle",
+                    "removeSuffix": "cook",
+                    "append": "cooked",
+                    "pronunciation": {
+                        "removeSuffix": "/kʊk/",
+                        "append": "/kʊkt/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past Participle)",
+                                "de": "{{ definition }} (Partizip Perfekt)",
+                                "id": "{{ definition }} (Partisip Lampau)",
+                                "ja": "{{ definition }} (過去分詞)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "household-clean-forms",
+            "metadata": {
+                "labels": {
+                    "en": "clean Forms",
+                    "de": "clean-Formen",
+                    "id": "Bentuk clean",
+                    "ja": "cleanの活用"
+                }
+            },
+            "matchTags": ["verb", "household-form-clean"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "third-person",
+                    "metadata": {
+                        "labels": {
+                            "en": "Third-Person Singular",
+                            "de": "Dritte Person Singular",
+                            "id": "Orang Ketiga Tunggal",
+                            "ja": "三人称単数"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "third-person",
+                    "removeSuffix": "clean",
+                    "append": "cleans",
+                    "pronunciation": {
+                        "removeSuffix": "/kliːn/",
+                        "append": "/kliːnz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Third-Person Singular)",
+                                "de": "{{ definition }} (Dritte Person Singular)",
+                                "id": "{{ definition }} (Orang Ketiga Tunggal)",
+                                "ja": "{{ definition }} (三人称単数)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past",
+                            "de": "Vergangenheit",
+                            "id": "Lampau",
+                            "ja": "過去形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past",
+                    "removeSuffix": "clean",
+                    "append": "cleaned",
+                    "pronunciation": {
+                        "removeSuffix": "/kliːn/",
+                        "append": "/kliːnd/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past)",
+                                "de": "{{ definition }} (Vergangenheit)",
+                                "id": "{{ definition }} (Lampau)",
+                                "ja": "{{ definition }} (過去形)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "present-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Present Participle",
+                            "de": "Präsenspartizip",
+                            "id": "Partisip Kini",
+                            "ja": "現在分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "present-participle",
+                    "removeSuffix": "clean",
+                    "append": "cleaning",
+                    "pronunciation": {
+                        "removeSuffix": "/kliːn/",
+                        "append": "/ˈkliːnɪŋ/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Present Participle)",
+                                "de": "{{ definition }} (Präsenspartizip)",
+                                "id": "{{ definition }} (Partisip Kini)",
+                                "ja": "{{ definition }} (現在分詞)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past Participle",
+                            "de": "Partizip Perfekt",
+                            "id": "Partisip Lampau",
+                            "ja": "過去分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past-participle",
+                    "removeSuffix": "clean",
+                    "append": "cleaned",
+                    "pronunciation": {
+                        "removeSuffix": "/kliːn/",
+                        "append": "/kliːnd/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past Participle)",
+                                "de": "{{ definition }} (Partizip Perfekt)",
+                                "id": "{{ definition }} (Partisip Lampau)",
+                                "ja": "{{ definition }} (過去分詞)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "household-dry-forms",
+            "metadata": {
+                "labels": {
+                    "en": "dry Forms",
+                    "de": "dry-Formen",
+                    "id": "Bentuk dry",
+                    "ja": "dryの活用"
+                }
+            },
+            "matchTags": ["verb", "household-form-dry"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "third-person",
+                    "metadata": {
+                        "labels": {
+                            "en": "Third-Person Singular",
+                            "de": "Dritte Person Singular",
+                            "id": "Orang Ketiga Tunggal",
+                            "ja": "三人称単数"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "third-person",
+                    "removeSuffix": "dry",
+                    "append": "dries",
+                    "pronunciation": {
+                        "removeSuffix": "/draɪ/",
+                        "append": "/draɪz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Third-Person Singular)",
+                                "de": "{{ definition }} (Dritte Person Singular)",
+                                "id": "{{ definition }} (Orang Ketiga Tunggal)",
+                                "ja": "{{ definition }} (三人称単数)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past",
+                            "de": "Vergangenheit",
+                            "id": "Lampau",
+                            "ja": "過去形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past",
+                    "removeSuffix": "dry",
+                    "append": "dried",
+                    "pronunciation": {
+                        "removeSuffix": "/draɪ/",
+                        "append": "/draɪd/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past)",
+                                "de": "{{ definition }} (Vergangenheit)",
+                                "id": "{{ definition }} (Lampau)",
+                                "ja": "{{ definition }} (過去形)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "present-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Present Participle",
+                            "de": "Präsenspartizip",
+                            "id": "Partisip Kini",
+                            "ja": "現在分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "present-participle",
+                    "removeSuffix": "dry",
+                    "append": "drying",
+                    "pronunciation": {
+                        "removeSuffix": "/draɪ/",
+                        "append": "/ˈdraɪɪŋ/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Present Participle)",
+                                "de": "{{ definition }} (Präsenspartizip)",
+                                "id": "{{ definition }} (Partisip Kini)",
+                                "ja": "{{ definition }} (現在分詞)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past Participle",
+                            "de": "Partizip Perfekt",
+                            "id": "Partisip Lampau",
+                            "ja": "過去分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past-participle",
+                    "removeSuffix": "dry",
+                    "append": "dried",
+                    "pronunciation": {
+                        "removeSuffix": "/draɪ/",
+                        "append": "/draɪd/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past Participle)",
+                                "de": "{{ definition }} (Partizip Perfekt)",
+                                "id": "{{ definition }} (Partisip Lampau)",
+                                "ja": "{{ definition }} (過去分詞)"
+                            }
+                        }
+                    }
+                }
+            ]
         }
     ]
 }

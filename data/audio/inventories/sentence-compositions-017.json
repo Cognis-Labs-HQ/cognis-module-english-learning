@@ -1,0 +1,272 @@
+[
+    {
+        "path": "audio/5906c58530e2957097dedfe5fcba6277d9edfe768325898bc80d5d7b63e26c72.wav",
+        "entryId": "en:sentence:household-example-wash",
+        "label": "I wash my face.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/f871f020b3de15eef5914b6e3de3d22cbd60473330c2bdfa30976783eb09b34a.wav",
+                "entryId": "en:word:household-wash"
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my"
+            },
+            {
+                "path": "audio/7bbf0b6cc8b9064489c0dcfdc8c79e32733c354536a66d8a1ed4e3b5b698148f.wav",
+                "entryId": "en:word:face"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/f871f020b3de15eef5914b6e3de3d22cbd60473330c2bdfa30976783eb09b34a.wav",
+                "entryId": "en:word:household-wash",
+                "startFrame": 11067,
+                "frameCount": 22137
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my",
+                "startFrame": 35364,
+                "frameCount": 9522
+            },
+            {
+                "path": "audio/7bbf0b6cc8b9064489c0dcfdc8c79e32733c354536a66d8a1ed4e3b5b698148f.wav",
+                "entryId": "en:word:face",
+                "startFrame": 47046,
+                "frameCount": 22137
+            }
+        ],
+        "sha256": "5906c58530e2957097dedfe5fcba6277d9edfe768325898bc80d5d7b63e26c72",
+        "frames": 80943,
+        "input": {
+            "language": "en",
+            "label": "I wash my face.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact household-action constituent PCM, including English cooked and cleaning and Japanese あらいます, りょうりしました and かわかした."
+        }
+    },
+    {
+        "path": "audio/f7f3ed783ebac1cc1f30736e137e80c08f5a38496a9d064d6b901b23a976b53d.wav",
+        "entryId": "en:sentence:household-example-cook",
+        "label": "She cooked rice yesterday.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/4b501e2a74dc5162ad599b2cafbb011650893e95db7032fdab9bcf4854607b96.wav",
+                "entryId": "en:word:form-household-cook-past"
+            },
+            {
+                "path": "audio/2f1aff6b9fc48808c7ea17e0f18661f9f72669d3cbe8ece8f3a1bafd65482800.wav",
+                "entryId": "en:word:rice"
+            },
+            {
+                "path": "audio/a7f5ee6d4e49bcb471661ca5714f13c543a543da7ee4602f2d51fb065b761b9c.wav",
+                "entryId": "en:word:time-yesterday"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/4b501e2a74dc5162ad599b2cafbb011650893e95db7032fdab9bcf4854607b96.wav",
+                "entryId": "en:word:form-household-cook-past",
+                "startFrame": 14932,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/2f1aff6b9fc48808c7ea17e0f18661f9f72669d3cbe8ece8f3a1bafd65482800.wav",
+                "entryId": "en:word:rice",
+                "startFrame": 38114,
+                "frameCount": 23251
+            },
+            {
+                "path": "audio/a7f5ee6d4e49bcb471661ca5714f13c543a543da7ee4602f2d51fb065b761b9c.wav",
+                "entryId": "en:word:time-yesterday",
+                "startFrame": 63525,
+                "frameCount": 23251
+            }
+        ],
+        "sha256": "f7f3ed783ebac1cc1f30736e137e80c08f5a38496a9d064d6b901b23a976b53d",
+        "frames": 98536,
+        "input": {
+            "language": "en",
+            "label": "She cooked rice yesterday.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact household-action constituent PCM, including English cooked and cleaning and Japanese あらいます, りょうりしました and かわかした."
+        }
+    },
+    {
+        "path": "audio/4dd5987bb288a3f730525ed073defbcc99cb7fb8275e3c4c7f652981048174fa.wav",
+        "entryId": "en:sentence:household-example-clean",
+        "label": "We are cleaning the room.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
+                "entryId": "en:word:form-english-be-are"
+            },
+            {
+                "path": "audio/3f454d88d4e331a09c78888ee6f9331091fadb5dfff4f089e4f4f1fe611f6d21.wav",
+                "entryId": "en:word:form-household-clean-present-participle"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/99dfb2260e1504e5c3b5ac99b58686489b21c659aa542edb52fb67b86c0f534d.wav",
+                "entryId": "en:word:room"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
+                "entryId": "en:word:form-english-be-are",
+                "startFrame": 22112,
+                "frameCount": 5418
+            },
+            {
+                "path": "audio/3f454d88d4e331a09c78888ee6f9331091fadb5dfff4f089e4f4f1fe611f6d21.wav",
+                "entryId": "en:word:form-household-clean-present-participle",
+                "startFrame": 29690,
+                "frameCount": 22137
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 53987,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/99dfb2260e1504e5c3b5ac99b58686489b21c659aa542edb52fb67b86c0f534d.wav",
+                "entryId": "en:word:room",
+                "startFrame": 64297,
+                "frameCount": 9190
+            }
+        ],
+        "sha256": "4dd5987bb288a3f730525ed073defbcc99cb7fb8275e3c4c7f652981048174fa",
+        "frames": 85247,
+        "input": {
+            "language": "en",
+            "label": "We are cleaning the room.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact household-action constituent PCM, including English cooked and cleaning and Japanese あらいます, りょうりしました and かわかした."
+        }
+    },
+    {
+        "path": "audio/09bd7945bdab5044497abf273f013964009d75de91773c87ca9a4e5973faa3eb.wav",
+        "entryId": "en:sentence:household-example-dry",
+        "label": "They dry the plates.",
+        "parts": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they"
+            },
+            {
+                "path": "audio/885b5f5bfc288f3d11a87e369cb0f48818ae2ccc5c90e78ab42a4f03b0036de6.wav",
+                "entryId": "en:word:household-dry"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/9dc7d8bb03561421cd31a9481c1826300984d533eec85b6bc2f98ab79a7c4504.wav",
+                "entryId": "en:word:form-tableware-plates"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they",
+                "startFrame": 2400,
+                "frameCount": 9803
+            },
+            {
+                "path": "audio/885b5f5bfc288f3d11a87e369cb0f48818ae2ccc5c90e78ab42a4f03b0036de6.wav",
+                "entryId": "en:word:household-dry",
+                "startFrame": 14363,
+                "frameCount": 19907
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 36430,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/9dc7d8bb03561421cd31a9481c1826300984d533eec85b6bc2f98ab79a7c4504.wav",
+                "entryId": "en:word:form-tableware-plates",
+                "startFrame": 46740,
+                "frameCount": 23251
+            }
+        ],
+        "sha256": "09bd7945bdab5044497abf273f013964009d75de91773c87ca9a4e5973faa3eb",
+        "frames": 81751,
+        "input": {
+            "language": "en",
+            "label": "They dry the plates.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact household-action constituent PCM, including English cooked and cleaning and Japanese あらいます, りょうりしました and かわかした."
+        }
+    }
+]

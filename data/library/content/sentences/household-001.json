@@ -1,0 +1,163 @@
+[
+    {
+        "id": "en:sentence:household-example-wash",
+        "label": "I wash my face.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/5906c58530e2957097dedfe5fcba6277d9edfe768325898bc80d5d7b63e26c72.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:household-wash",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:my",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:face",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:household-example-wash",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:household-example-cook",
+        "label": "She cooked rice yesterday.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/f7f3ed783ebac1cc1f30736e137e80c08f5a38496a9d064d6b901b23a976b53d.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-household-cook-past",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:rice",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:time-yesterday",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:household-example-cook",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:household-example-clean",
+        "label": "We are cleaning the room.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/4dd5987bb288a3f730525ed073defbcc99cb7fb8275e3c4c7f652981048174fa.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-be-are",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-household-clean-present-participle",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:room",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:household-example-clean",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:household-example-dry",
+        "label": "They dry the plates.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/09bd7945bdab5044497abf273f013964009d75de91773c87ca9a4e5973faa3eb.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-they",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:household-dry",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:form-tableware-plates",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:household-example-dry",
+                "relation": "definitions"
+            }
+        ]
+    }
+]
