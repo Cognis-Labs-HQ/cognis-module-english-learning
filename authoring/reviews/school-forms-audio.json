@@ -1,0 +1,130 @@
+[
+    {
+        "entryId": "en:word:form-school-pencils",
+        "path": "audio/b0ef4e3d2d48822ea1ec35704b9ce62bbb22c914158e97f980bce43ca98e435c.wav",
+        "sha256": "b0ef4e3d2d48822ea1ec35704b9ce62bbb22c914158e97f980bce43ca98e435c",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈpenslz\">pencils</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "i3yG1YbFxnqdZl7AeaNl",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/school-forms/form-school-pencils.pcm",
+        "sourceSha256": "3a7f49fb21dc747e3c7a7243eee8bb196e43b8e1fc975a5698bdee4eba30e406",
+        "sourcePeak": 24526,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 25480,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-school-pens",
+        "path": "audio/ef891f7c07a79c9a34a30cc01c95b2fa0e3c08b56956937d877aaac84e4d6266.wav",
+        "sha256": "ef891f7c07a79c9a34a30cc01c95b2fa0e3c08b56956937d877aaac84e4d6266",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"penz\">pens</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "8QYUh6NutKps9Z5LED5z",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/school-forms/form-school-pens.pcm",
+        "sourceSha256": "4746d69ba587970e03023aff5ad718266806d6d1797db5dd953d4b0fe357aad7",
+        "sourcePeak": 30497,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.8810374790963046,
+        "paddingFramesEachSide": 480,
+        "frames": 23251,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-school-notebooks",
+        "path": "audio/9b4ba1ff2bae6b8119005921b142601dbf86bde85c855f03811314f872aa77c2.wav",
+        "sha256": "9b4ba1ff2bae6b8119005921b142601dbf86bde85c855f03811314f872aa77c2",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈnəʊtbʊks\">notebooks</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "1fugfcmbWJkDlr0nRCoS",
+            "character-cost": "5",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/school-forms/form-school-notebooks.pcm",
+        "sourceSha256": "dd70d9072171ad9f1789f428f19d86a3b4856b7eaac574dec88ebcfd6ffe6728",
+        "sourcePeak": 25527,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 26595,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-school-rulers",
+        "path": "audio/ccff70ddbc5b106263d228cfb52cc95d2197da0ef14a198cbe06836df881761e.wav",
+        "sha256": "ccff70ddbc5b106263d228cfb52cc95d2197da0ef14a198cbe06836df881761e",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈruːləz\">rulers</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "78A9EDY4EC5F5cXxe5ts",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/school-forms/form-school-rulers.pcm",
+        "sourceSha256": "c260f23a5a87cb06445e81529a82019be1950195861dda548deb37c370454650",
+        "sourcePeak": 21477,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 24366,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]

@@ -1,0 +1,158 @@
+[
+    {
+        "path": "audio/b0ef4e3d2d48822ea1ec35704b9ce62bbb22c914158e97f980bce43ca98e435c.wav",
+        "text": "pencils",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈpenslz\">pencils</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "pencils",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈpenslz/"]
+            }
+        ],
+        "entries": ["en:word:form-school-pencils"],
+        "variants": [
+            {
+                "entryId": "en:word:school-pencil",
+                "setId": "noun-pencil",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "b0ef4e3d2d48822ea1ec35704b9ce62bbb22c914158e97f980bce43ca98e435c",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "3a7f49fb21dc747e3c7a7243eee8bb196e43b8e1fc975a5698bdee4eba30e406"
+        }
+    },
+    {
+        "path": "audio/ef891f7c07a79c9a34a30cc01c95b2fa0e3c08b56956937d877aaac84e4d6266.wav",
+        "text": "pens",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"penz\">pens</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "pens",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/penz/"]
+            }
+        ],
+        "entries": ["en:word:form-school-pens"],
+        "variants": [
+            {
+                "entryId": "en:word:school-pen",
+                "setId": "noun-pen",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "ef891f7c07a79c9a34a30cc01c95b2fa0e3c08b56956937d877aaac84e4d6266",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "4746d69ba587970e03023aff5ad718266806d6d1797db5dd953d4b0fe357aad7"
+        }
+    },
+    {
+        "path": "audio/9b4ba1ff2bae6b8119005921b142601dbf86bde85c855f03811314f872aa77c2.wav",
+        "text": "notebooks",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈnəʊtbʊks\">notebooks</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "notebooks",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈnəʊtbʊks/"]
+            }
+        ],
+        "entries": ["en:word:form-school-notebooks"],
+        "variants": [
+            {
+                "entryId": "en:word:school-notebook",
+                "setId": "noun-notebook",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "9b4ba1ff2bae6b8119005921b142601dbf86bde85c855f03811314f872aa77c2",
+        "frames": 26595,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "dd70d9072171ad9f1789f428f19d86a3b4856b7eaac574dec88ebcfd6ffe6728"
+        }
+    },
+    {
+        "path": "audio/ccff70ddbc5b106263d228cfb52cc95d2197da0ef14a198cbe06836df881761e.wav",
+        "text": "rulers",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈruːləz\">rulers</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "rulers",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈruːləz/"]
+            }
+        ],
+        "entries": ["en:word:form-school-rulers"],
+        "variants": [
+            {
+                "entryId": "en:word:school-ruler",
+                "setId": "noun-ruler",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "ccff70ddbc5b106263d228cfb52cc95d2197da0ef14a198cbe06836df881761e",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "c260f23a5a87cb06445e81529a82019be1950195861dda548deb37c370454650"
+        }
+    }
+]

@@ -1,10 +1,10 @@
 [
     {
-        "path": "audio/d162deb08d3dd519f34540f65727194bee453b20882460e6483b7d0dc0e0830c.wav",
-        "text": "red",
+        "path": "audio/923a4d859a8d86b5a088328f9b634e5f7f6073802146cca458afd5f2e5f4f9dc.wav",
+        "text": "pencil",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "red",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈpensl\">pencil</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -18,26 +18,26 @@
         "inputs": [
             {
                 "language": "en",
-                "label": "red",
+                "label": "pencil",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/red/"]
+                "readings": ["/ˈpensl/"]
             }
         ],
-        "entries": ["en:word:colors-red"],
+        "entries": ["en:word:school-pencil"],
         "variants": [],
-        "sha256": "d162deb08d3dd519f34540f65727194bee453b20882460e6483b7d0dc0e0830c",
-        "frames": 18793,
+        "sha256": "923a4d859a8d86b5a088328f9b634e5f7f6073802146cca458afd5f2e5f4f9dc",
+        "frames": 23251,
         "metadata": {
             "listening": "unverified-not-performed",
-            "sourcePcmSha256": "cd4d7bda86e7500eeec93fc4cf2a1d9b357b535148caeebb353942ebfe3073ee"
+            "sourcePcmSha256": "d5d7e45829ebe911df3db43682ad3a3c711e2c989b76e642963ea19b362c3883"
         }
     },
     {
-        "path": "audio/5f1703d559fbcaa9e6ca34531d5066e64e5b6ea078e80a3b55c7bc0b8ca83ec4.wav",
-        "text": "blue",
+        "path": "audio/4aea6ff75bd574d18c082382beed1704fb552f0e633a8e749b083cc1a66e0b60.wav",
+        "text": "pen",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "blue",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"pen\">pen</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -51,26 +51,26 @@
         "inputs": [
             {
                 "language": "en",
-                "label": "blue",
+                "label": "pen",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/bluː/"]
+                "readings": ["/pen/"]
             }
         ],
-        "entries": ["en:word:colors-blue"],
+        "entries": ["en:word:school-pen"],
         "variants": [],
-        "sha256": "5f1703d559fbcaa9e6ca34531d5066e64e5b6ea078e80a3b55c7bc0b8ca83ec4",
+        "sha256": "4aea6ff75bd574d18c082382beed1704fb552f0e633a8e749b083cc1a66e0b60",
         "frames": 19907,
         "metadata": {
             "listening": "unverified-not-performed",
-            "sourcePcmSha256": "636be954e597b27376fdf0e39f69dbb467458570f46622d8a0f1c56ed2f24a16"
+            "sourcePcmSha256": "f308141cd91a6cd9f98386f4e12ae1afa863f88187e97a524a21b9021c758ad9"
         }
     },
     {
-        "path": "audio/db96542c1374b239273b03531b9960ca6d5d7eaf0fac9bbb879a2f0f4f55a4f5.wav",
-        "text": "green",
+        "path": "audio/8b649cd68a079a305723da3969afb56419915cda9327fa283d2d7678672b0329.wav",
+        "text": "notebook",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "green",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈnəʊtbʊk\">notebook</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -84,26 +84,26 @@
         "inputs": [
             {
                 "language": "en",
-                "label": "green",
+                "label": "notebook",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/ɡriːn/"]
+                "readings": ["/ˈnəʊtbʊk/"]
             }
         ],
-        "entries": ["en:word:colors-green"],
+        "entries": ["en:word:school-notebook"],
         "variants": [],
-        "sha256": "db96542c1374b239273b03531b9960ca6d5d7eaf0fac9bbb879a2f0f4f55a4f5",
-        "frames": 19907,
+        "sha256": "8b649cd68a079a305723da3969afb56419915cda9327fa283d2d7678672b0329",
+        "frames": 24366,
         "metadata": {
             "listening": "unverified-not-performed",
-            "sourcePcmSha256": "a9e791abadd15e205eab9146d849ebd5904a5e97c055e87919af25cf63ec0a3e"
+            "sourcePcmSha256": "8f321ebbc801fb40823b59ee6f2ca6cbada3f1e458ead6db4694cfd3da9b1e32"
         }
     },
     {
-        "path": "audio/4e97fc2d7680a44375e1896a585f1a00b3ff5be890aa9d51d3f787a9cbe6c7b7.wav",
-        "text": "yellow",
+        "path": "audio/99ecadfb9b0623b7c3fe91557040dfe1a4c87bcdf10fd7d7f25549dde56a29ac.wav",
+        "text": "ruler",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "yellow",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈruːlə\">ruler</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -117,18 +117,18 @@
         "inputs": [
             {
                 "language": "en",
-                "label": "yellow",
+                "label": "ruler",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/ˈjeləʊ/"]
+                "readings": ["/ˈruːlə/"]
             }
         ],
-        "entries": ["en:word:colors-yellow"],
+        "entries": ["en:word:school-ruler"],
         "variants": [],
-        "sha256": "4e97fc2d7680a44375e1896a585f1a00b3ff5be890aa9d51d3f787a9cbe6c7b7",
-        "frames": 21022,
+        "sha256": "99ecadfb9b0623b7c3fe91557040dfe1a4c87bcdf10fd7d7f25549dde56a29ac",
+        "frames": 22137,
         "metadata": {
             "listening": "unverified-not-performed",
-            "sourcePcmSha256": "ca9efbae59ca6edc469a344c0008f7b2252871aa575ad0931b56df076f86179b"
+            "sourcePcmSha256": "521a41106bb06382c4424b80dda6b23da3767323de37e585c9e9b27ab3d0fe1e"
         }
     }
 ]
