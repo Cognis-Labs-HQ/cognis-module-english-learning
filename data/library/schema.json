@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 25,
+    "version": 26,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -8967,6 +8967,882 @@
                 }
             ],
             "optInTag": "plural"
+        },
+        {
+            "id": "travel-ticket-forms",
+            "metadata": {
+                "labels": {
+                    "en": "ticket Forms",
+                    "de": "ticket-Formen",
+                    "id": "Bentuk ticket",
+                    "ja": "ticketの活用"
+                }
+            },
+            "matchTags": ["noun", "travel-form-ticket"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "ticket",
+                    "append": "tickets",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈtɪkɪt/",
+                        "append": "/ˈtɪkɪts/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (Jamak)",
+                                "ja": "{{ definition }} (複数形)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "travel-station-forms",
+            "metadata": {
+                "labels": {
+                    "en": "station Forms",
+                    "de": "station-Formen",
+                    "id": "Bentuk station",
+                    "ja": "stationの活用"
+                }
+            },
+            "matchTags": ["noun", "travel-form-station"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "station",
+                    "append": "stations",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈsteɪʃən/",
+                        "append": "/ˈsteɪʃənz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (Jamak)",
+                                "ja": "{{ definition }} (複数形)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "travel-platform-forms",
+            "metadata": {
+                "labels": {
+                    "en": "platform Forms",
+                    "de": "platform-Formen",
+                    "id": "Bentuk platform",
+                    "ja": "platformの活用"
+                }
+            },
+            "matchTags": ["noun", "travel-form-platform"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "platform",
+                    "append": "platforms",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈplætfɔːm/",
+                        "append": "/ˈplætfɔːmz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (Jamak)",
+                                "ja": "{{ definition }} (複数形)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "travel-airport-forms",
+            "metadata": {
+                "labels": {
+                    "en": "airport Forms",
+                    "de": "airport-Formen",
+                    "id": "Bentuk airport",
+                    "ja": "airportの活用"
+                }
+            },
+            "matchTags": ["noun", "travel-form-airport"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "airport",
+                    "append": "airports",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈeəpɔːt/",
+                        "append": "/ˈeəpɔːts/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (Jamak)",
+                                "ja": "{{ definition }} (複数形)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "travel-passport-forms",
+            "metadata": {
+                "labels": {
+                    "en": "passport Forms",
+                    "de": "passport-Formen",
+                    "id": "Bentuk passport",
+                    "ja": "passportの活用"
+                }
+            },
+            "matchTags": ["noun", "travel-form-passport"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "passport",
+                    "append": "passports",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈpɑːspɔːt/",
+                        "append": "/ˈpɑːspɔːts/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (Jamak)",
+                                "ja": "{{ definition }} (複数形)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "travel-suitcase-forms",
+            "metadata": {
+                "labels": {
+                    "en": "suitcase Forms",
+                    "de": "suitcase-Formen",
+                    "id": "Bentuk suitcase",
+                    "ja": "suitcaseの活用"
+                }
+            },
+            "matchTags": ["noun", "travel-form-suitcase"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "suitcase",
+                    "append": "suitcases",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈsuːtkeɪs/",
+                        "append": "/ˈsuːtkeɪsɪz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (Jamak)",
+                                "ja": "{{ definition }} (複数形)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "travel-bicycle-forms",
+            "metadata": {
+                "labels": {
+                    "en": "bicycle Forms",
+                    "de": "bicycle-Formen",
+                    "id": "Bentuk bicycle",
+                    "ja": "bicycleの活用"
+                }
+            },
+            "matchTags": ["noun", "travel-form-bicycle"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "bicycle",
+                    "append": "bicycles",
+                    "pronunciation": {
+                        "removeSuffix": "/ˈbaɪsɪkəl/",
+                        "append": "/ˈbaɪsɪkəlz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (Jamak)",
+                                "ja": "{{ definition }} (複数形)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "travel-map-forms",
+            "metadata": {
+                "labels": {
+                    "en": "map Forms",
+                    "de": "map-Formen",
+                    "id": "Bentuk map",
+                    "ja": "mapの活用"
+                }
+            },
+            "matchTags": ["noun", "travel-form-map"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "plural",
+                    "metadata": {
+                        "labels": {
+                            "en": "Plural",
+                            "de": "Plural",
+                            "id": "Jamak",
+                            "ja": "複数形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "plural",
+                    "removeSuffix": "map",
+                    "append": "maps",
+                    "pronunciation": {
+                        "removeSuffix": "/mæp/",
+                        "append": "/mæps/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Plural)",
+                                "de": "{{ definition }} (Plural)",
+                                "id": "{{ definition }} (Jamak)",
+                                "ja": "{{ definition }} (複数形)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "travel-arrive-forms",
+            "metadata": {
+                "labels": {
+                    "en": "arrive Forms",
+                    "de": "arrive-Formen",
+                    "id": "Bentuk arrive",
+                    "ja": "arriveの活用"
+                }
+            },
+            "matchTags": ["verb", "travel-form-arrive"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "third-person",
+                    "metadata": {
+                        "labels": {
+                            "en": "Third-Person Singular",
+                            "de": "Dritte Person Singular",
+                            "id": "Orang Ketiga Tunggal",
+                            "ja": "三人称単数"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "third-person",
+                    "removeSuffix": "arrive",
+                    "append": "arrives",
+                    "pronunciation": {
+                        "removeSuffix": "/əˈraɪv/",
+                        "append": "/əˈraɪvz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Third-Person Singular)",
+                                "de": "{{ definition }} (Dritte Person Singular)",
+                                "id": "{{ definition }} (Orang Ketiga Tunggal)",
+                                "ja": "{{ definition }} (三人称単数)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past",
+                            "de": "Vergangenheit",
+                            "id": "Lampau",
+                            "ja": "過去形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past",
+                    "removeSuffix": "arrive",
+                    "append": "arrived",
+                    "pronunciation": {
+                        "removeSuffix": "/əˈraɪv/",
+                        "append": "/əˈraɪvd/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past)",
+                                "de": "{{ definition }} (Vergangenheit)",
+                                "id": "{{ definition }} (Lampau)",
+                                "ja": "{{ definition }} (過去形)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "present-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Present Participle",
+                            "de": "Präsenspartizip",
+                            "id": "Partisip Kini",
+                            "ja": "現在分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "present-participle",
+                    "removeSuffix": "arrive",
+                    "append": "arriving",
+                    "pronunciation": {
+                        "removeSuffix": "/əˈraɪv/",
+                        "append": "/əˈraɪvɪŋ/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Present Participle)",
+                                "de": "{{ definition }} (Präsenspartizip)",
+                                "id": "{{ definition }} (Partisip Kini)",
+                                "ja": "{{ definition }} (現在分詞)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past Participle",
+                            "de": "Partizip Perfekt",
+                            "id": "Partisip Lampau",
+                            "ja": "過去分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past-participle",
+                    "removeSuffix": "arrive",
+                    "append": "arrived",
+                    "pronunciation": {
+                        "removeSuffix": "/əˈraɪv/",
+                        "append": "/əˈraɪvd/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past Participle)",
+                                "de": "{{ definition }} (Partizip Perfekt)",
+                                "id": "{{ definition }} (Partisip Lampau)",
+                                "ja": "{{ definition }} (過去分詞)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "travel-depart-forms",
+            "metadata": {
+                "labels": {
+                    "en": "depart Forms",
+                    "de": "depart-Formen",
+                    "id": "Bentuk depart",
+                    "ja": "departの活用"
+                }
+            },
+            "matchTags": ["verb", "travel-form-depart"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "third-person",
+                    "metadata": {
+                        "labels": {
+                            "en": "Third-Person Singular",
+                            "de": "Dritte Person Singular",
+                            "id": "Orang Ketiga Tunggal",
+                            "ja": "三人称単数"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "third-person",
+                    "removeSuffix": "depart",
+                    "append": "departs",
+                    "pronunciation": {
+                        "removeSuffix": "/dɪˈpɑːt/",
+                        "append": "/dɪˈpɑːts/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Third-Person Singular)",
+                                "de": "{{ definition }} (Dritte Person Singular)",
+                                "id": "{{ definition }} (Orang Ketiga Tunggal)",
+                                "ja": "{{ definition }} (三人称単数)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past",
+                            "de": "Vergangenheit",
+                            "id": "Lampau",
+                            "ja": "過去形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past",
+                    "removeSuffix": "depart",
+                    "append": "departed",
+                    "pronunciation": {
+                        "removeSuffix": "/dɪˈpɑːt/",
+                        "append": "/dɪˈpɑːtɪd/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past)",
+                                "de": "{{ definition }} (Vergangenheit)",
+                                "id": "{{ definition }} (Lampau)",
+                                "ja": "{{ definition }} (過去形)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "present-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Present Participle",
+                            "de": "Präsenspartizip",
+                            "id": "Partisip Kini",
+                            "ja": "現在分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "present-participle",
+                    "removeSuffix": "depart",
+                    "append": "departing",
+                    "pronunciation": {
+                        "removeSuffix": "/dɪˈpɑːt/",
+                        "append": "/dɪˈpɑːtɪŋ/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Present Participle)",
+                                "de": "{{ definition }} (Präsenspartizip)",
+                                "id": "{{ definition }} (Partisip Kini)",
+                                "ja": "{{ definition }} (現在分詞)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past Participle",
+                            "de": "Partizip Perfekt",
+                            "id": "Partisip Lampau",
+                            "ja": "過去分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past-participle",
+                    "removeSuffix": "depart",
+                    "append": "departed",
+                    "pronunciation": {
+                        "removeSuffix": "/dɪˈpɑːt/",
+                        "append": "/dɪˈpɑːtɪd/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past Participle)",
+                                "de": "{{ definition }} (Partizip Perfekt)",
+                                "id": "{{ definition }} (Partisip Lampau)",
+                                "ja": "{{ definition }} (過去分詞)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "travel-buy-forms",
+            "metadata": {
+                "labels": {
+                    "en": "buy Forms",
+                    "de": "buy-Formen",
+                    "id": "Bentuk buy",
+                    "ja": "buyの活用"
+                }
+            },
+            "matchTags": ["verb", "travel-form-buy"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "third-person",
+                    "metadata": {
+                        "labels": {
+                            "en": "Third-Person Singular",
+                            "de": "Dritte Person Singular",
+                            "id": "Orang Ketiga Tunggal",
+                            "ja": "三人称単数"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "third-person",
+                    "removeSuffix": "buy",
+                    "append": "buys",
+                    "pronunciation": {
+                        "removeSuffix": "/baɪ/",
+                        "append": "/baɪz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Third-Person Singular)",
+                                "de": "{{ definition }} (Dritte Person Singular)",
+                                "id": "{{ definition }} (Orang Ketiga Tunggal)",
+                                "ja": "{{ definition }} (三人称単数)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past",
+                            "de": "Vergangenheit",
+                            "id": "Lampau",
+                            "ja": "過去形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past",
+                    "removeSuffix": "buy",
+                    "append": "bought",
+                    "pronunciation": {
+                        "removeSuffix": "/baɪ/",
+                        "append": "/bɔːt/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past)",
+                                "de": "{{ definition }} (Vergangenheit)",
+                                "id": "{{ definition }} (Lampau)",
+                                "ja": "{{ definition }} (過去形)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "present-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Present Participle",
+                            "de": "Präsenspartizip",
+                            "id": "Partisip Kini",
+                            "ja": "現在分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "present-participle",
+                    "removeSuffix": "buy",
+                    "append": "buying",
+                    "pronunciation": {
+                        "removeSuffix": "/baɪ/",
+                        "append": "/ˈbaɪɪŋ/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Present Participle)",
+                                "de": "{{ definition }} (Präsenspartizip)",
+                                "id": "{{ definition }} (Partisip Kini)",
+                                "ja": "{{ definition }} (現在分詞)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past Participle",
+                            "de": "Partizip Perfekt",
+                            "id": "Partisip Lampau",
+                            "ja": "過去分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past-participle",
+                    "removeSuffix": "buy",
+                    "append": "bought",
+                    "pronunciation": {
+                        "removeSuffix": "/baɪ/",
+                        "append": "/bɔːt/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past Participle)",
+                                "de": "{{ definition }} (Partizip Perfekt)",
+                                "id": "{{ definition }} (Partisip Lampau)",
+                                "ja": "{{ definition }} (過去分詞)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "travel-wait-forms",
+            "metadata": {
+                "labels": {
+                    "en": "wait Forms",
+                    "de": "wait-Formen",
+                    "id": "Bentuk wait",
+                    "ja": "waitの活用"
+                }
+            },
+            "matchTags": ["verb", "travel-form-wait"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "third-person",
+                    "metadata": {
+                        "labels": {
+                            "en": "Third-Person Singular",
+                            "de": "Dritte Person Singular",
+                            "id": "Orang Ketiga Tunggal",
+                            "ja": "三人称単数"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "third-person",
+                    "removeSuffix": "wait",
+                    "append": "waits",
+                    "pronunciation": {
+                        "removeSuffix": "/weɪt/",
+                        "append": "/weɪts/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Third-Person Singular)",
+                                "de": "{{ definition }} (Dritte Person Singular)",
+                                "id": "{{ definition }} (Orang Ketiga Tunggal)",
+                                "ja": "{{ definition }} (三人称単数)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past",
+                            "de": "Vergangenheit",
+                            "id": "Lampau",
+                            "ja": "過去形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past",
+                    "removeSuffix": "wait",
+                    "append": "waited",
+                    "pronunciation": {
+                        "removeSuffix": "/weɪt/",
+                        "append": "/ˈweɪtɪd/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past)",
+                                "de": "{{ definition }} (Vergangenheit)",
+                                "id": "{{ definition }} (Lampau)",
+                                "ja": "{{ definition }} (過去形)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "present-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Present Participle",
+                            "de": "Präsenspartizip",
+                            "id": "Partisip Kini",
+                            "ja": "現在分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "present-participle",
+                    "removeSuffix": "wait",
+                    "append": "waiting",
+                    "pronunciation": {
+                        "removeSuffix": "/weɪt/",
+                        "append": "/ˈweɪtɪŋ/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Present Participle)",
+                                "de": "{{ definition }} (Präsenspartizip)",
+                                "id": "{{ definition }} (Partisip Kini)",
+                                "ja": "{{ definition }} (現在分詞)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past Participle",
+                            "de": "Partizip Perfekt",
+                            "id": "Partisip Lampau",
+                            "ja": "過去分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past-participle",
+                    "removeSuffix": "wait",
+                    "append": "waited",
+                    "pronunciation": {
+                        "removeSuffix": "/weɪt/",
+                        "append": "/ˈweɪtɪd/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past Participle)",
+                                "de": "{{ definition }} (Partizip Perfekt)",
+                                "id": "{{ definition }} (Partisip Lampau)",
+                                "ja": "{{ definition }} (過去分詞)"
+                            }
+                        }
+                    }
+                }
+            ]
         }
     ]
 }

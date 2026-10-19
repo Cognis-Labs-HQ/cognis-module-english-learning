@@ -1,0 +1,109 @@
+[
+    {
+        "id": "en:word:travel-buy-past",
+        "label": "bought",
+        "hidden": true,
+        "class": "lexical:verb",
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/bɔːt/"]
+        },
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:b-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:word:travel-buy",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:travel-buy",
+                "relation": "inflected-from"
+            }
+        ]
+    },
+    {
+        "id": "en:word:travel-arrive-past",
+        "label": "arrived",
+        "hidden": true,
+        "class": "lexical:verb",
+        "fields": {
+            "part_of_speech": "verb",
+            "pronunciation": ["/əˈraɪvd/"]
+        },
+        "tags": ["verb", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:v-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:word:travel-arrive",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:travel-arrive",
+                "relation": "inflected-from"
+            }
+        ]
+    }
+]

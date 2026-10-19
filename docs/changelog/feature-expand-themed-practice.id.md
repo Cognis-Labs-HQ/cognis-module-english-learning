@@ -14,6 +14,10 @@ Ganti delapan ilustrasi yang ambigu atau salah terpotong. Makna verba please dit
 
 Catatan dan contoh terlokalisasi memperjelas pemilihan artikel, pertentangan, syarat, dan makna kata yang digambarkan. Adegan payung yang baru ditinjau menunjukkan tindakan berjaga-jaga dalam in case.
 
+## Kosakata Perjalanan
+
+Tambahkan dua belas kata perjalanan bergambar, bentuk tata bahasa yang ditinjau, delapan contoh dengan unsur kata terhubung, dan dua dek latihan terlokalisasi. Rekaman baru untuk materi perjalanan belum disertakan.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

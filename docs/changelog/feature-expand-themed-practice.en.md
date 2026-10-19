@@ -14,6 +14,10 @@ Replace eight ambiguous or incorrectly cropped illustrations. Show the verb mean
 
 Clarify article choice, contrast, conditions and illustrated word senses with localized usage notes and examples. Show the precaution behind in case with a newly reviewed umbrella scene.
 
+## Travel Vocabulary
+
+Add twelve illustrated travel words, their reviewed grammatical forms, eight composed-text examples and two localized practice decks. New travel recordings are not bundled.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

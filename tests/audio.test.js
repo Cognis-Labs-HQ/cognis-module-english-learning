@@ -7,6 +7,12 @@ import { createAudioProvider } from "../api/audio/index.js";
 import { readContentLayers } from "../api/reuse/content.js";
 
 const inventory = await readAudioInventory("data/audio");
+const unavailable = JSON.parse(
+    await readFile("data/audio/unavailable.json", "utf8"),
+);
+const unrecordedIds = new Set(
+    unavailable.entries.map(({ entryId }) => entryId),
+);
 const schema = JSON.parse(await readFile("data/library/schema.json", "utf8"));
 const layers = await readContentLayers(
     "data/library/content",
@@ -138,7 +144,7 @@ test("every packaged clip has the designated language voice, stable settings, au
     }
 });
 
-test("every spoken seed card and every reachable transformation has a playable bundled recording", async () => {
+test("recorded cards retain complete audio coverage and unrecorded additions are explicit", async () => {
     const provider = makeProvider(() => {
         throw new Error("unexpected_speech_lookup");
     });
@@ -150,6 +156,10 @@ test("every spoken seed card and every reachable transformation has a playable b
                 entry.tags?.includes("punctuation")
             )
                 continue;
+            if (unrecordedIds.has(entry.id)) {
+                assert.equal(entry.fields.audio, undefined, entry.id);
+                continue;
+            }
             assert.ok(assets.has(entry.fields.audio), entry.id);
             const input = {
                 language: inventory.language,
@@ -322,5 +332,24 @@ test("packaged sentence playback preserves exact constituent composition without
             Buffer.from(result.data),
             assets.get(composition.path),
         );
+    }
+});
+
+test("unrecorded inventory exactly matches missing audio without weakening recorded coverage", () => {
+    assert.equal(unrecordedIds.size, unavailable.entries.length);
+    const missing = [...entries.values()]
+        .filter(
+            (entry) =>
+                entry.class !== "definition" &&
+                !entry.tags?.includes("punctuation") &&
+                !entry.fields.audio,
+        )
+        .map(({ id }) => id)
+        .sort();
+    assert.deepEqual(missing, [...unrecordedIds].sort());
+    for (const item of unavailable.entries) {
+        assert.equal(entries.get(item.entryId)?.label, item.label);
+        assert.equal(item.listening, "unverified-not-performed");
+        assert.ok(item.reason);
     }
 });

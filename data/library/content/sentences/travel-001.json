@@ -1,0 +1,165 @@
+[
+    {
+        "id": "en:sentence:travel-bought-ticket",
+        "label": "I bought a ticket.",
+        "class": "composite",
+        "fields": {},
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:travel-buy-past",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:travel-ticket",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:travel-bought-ticket",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:travel-arrived-station",
+        "label": "We arrived at the station.",
+        "class": "composite",
+        "fields": {},
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:travel-arrive-past",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:at",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:travel-station",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:sentence:travel-arrived-station",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:travel-wait-platform",
+        "label": "They wait on the platform.",
+        "class": "composite",
+        "fields": {},
+        "references": [
+            {
+                "entryId": "en:word:capital-they",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:travel-wait",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:on",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:travel-platform",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:sentence:travel-wait-platform",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:travel-depart-airport",
+        "label": "We depart from the airport.",
+        "class": "composite",
+        "fields": {},
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:travel-depart",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:from",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:travel-airport",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:sentence:travel-depart-airport",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

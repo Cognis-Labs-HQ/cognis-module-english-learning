@@ -2,7 +2,7 @@
     "id": "study-language-en",
     "uuid": "b1adc29f-9d54-5785-9bea-2ce76f1981e4",
     "name": "module.study.language.en.name",
-    "version": "1.5.17",
+    "version": "1.5.18",
     "class": "extension",
     "privileged": true,
     "coreApiVersion": "v1",
@@ -335,6 +335,10 @@
         {
             "path": "data/audio/recordings.json",
             "sha256": "74019ec620a6052fc2b250da82b8618e28d8d8e0caacace773dcf66e36bde9b8"
+        },
+        {
+            "path": "data/audio/unavailable.json",
+            "sha256": "cfeddf861b8319d923d33301bad5f8844b221c3d1cc0f3f69747f49db5547c6a"
         },
         {
             "path": "data/library/assets/audio/0015e4a735e367f4479b9dee83d7029a3179ae5663d13be09f63cc1ab18054a2.wav",
@@ -2633,6 +2637,10 @@
             "sha256": "284f6012e6ea83380a1489eb211ba8436838f94e9b5eeb98806dd0398f26db8c"
         },
         {
+            "path": "data/library/assets/images/28b42657d0bda10fbc457533c209cc6f40699528917b4dbfcc220c049f84684a.jpg",
+            "sha256": "28b42657d0bda10fbc457533c209cc6f40699528917b4dbfcc220c049f84684a"
+        },
+        {
             "path": "data/library/assets/images/2ad68a434839aa755d848d50ff21b6fbc76f04a44c5c6cac011602568cc2673b.jpg",
             "sha256": "2ad68a434839aa755d848d50ff21b6fbc76f04a44c5c6cac011602568cc2673b"
         },
@@ -2643,6 +2651,10 @@
         {
             "path": "data/library/assets/images/2efeb976ff787b6db691603461be254fd11f1a7c6e16dd5afaf52922671afbdf.jpg",
             "sha256": "2efeb976ff787b6db691603461be254fd11f1a7c6e16dd5afaf52922671afbdf"
+        },
+        {
+            "path": "data/library/assets/images/305ba987aaa47b4a1296b876284e36bee4d43a252557f2bc7ec59b2bdb9bbd74.jpg",
+            "sha256": "305ba987aaa47b4a1296b876284e36bee4d43a252557f2bc7ec59b2bdb9bbd74"
         },
         {
             "path": "data/library/assets/images/30ce803708e6fd922a855787f5abe795476f26077e207ceb1567cdf38de5a4d1.jpg",
@@ -2663,6 +2675,10 @@
         {
             "path": "data/library/assets/images/37cee81b19756d72ca1287ea692869f34ed3381e87c87ce816738e76693962c3.jpg",
             "sha256": "37cee81b19756d72ca1287ea692869f34ed3381e87c87ce816738e76693962c3"
+        },
+        {
+            "path": "data/library/assets/images/385c2108c203de341ae92212aa50922eeb8184d458821ab5a7140bbe9507a3d0.jpg",
+            "sha256": "385c2108c203de341ae92212aa50922eeb8184d458821ab5a7140bbe9507a3d0"
         },
         {
             "path": "data/library/assets/images/3afdd09541a2dff985c464ed50bcae253fcf5dbd1cf85e2c46aec99c8fbcf274.jpg",
@@ -2753,6 +2769,10 @@
             "sha256": "53a448d0ea953f12a3578ea6583add0ab2f670e9f6881dd63e3e70898072107b"
         },
         {
+            "path": "data/library/assets/images/553f7e04e8e5e53bdfa81b497234b09bc396587e629c8d669e916074c10cb896.jpg",
+            "sha256": "553f7e04e8e5e53bdfa81b497234b09bc396587e629c8d669e916074c10cb896"
+        },
+        {
             "path": "data/library/assets/images/55e94e3943a0f3bf6a95774bfe2d2bbe9da6f05ff62b2d81da3f9131327a9dcc.jpg",
             "sha256": "55e94e3943a0f3bf6a95774bfe2d2bbe9da6f05ff62b2d81da3f9131327a9dcc"
         },
@@ -2789,6 +2809,10 @@
             "sha256": "5d5cc924d936b49a42e01b2f7960982d7b14d450f4fd0363e54a95f13eba0def"
         },
         {
+            "path": "data/library/assets/images/5e78484be51b1ea7b31cb5f80d1ef5a7dd2cbc800fee2478e1612e7586ecc71b.jpg",
+            "sha256": "5e78484be51b1ea7b31cb5f80d1ef5a7dd2cbc800fee2478e1612e7586ecc71b"
+        },
+        {
             "path": "data/library/assets/images/5ec40974a15d93bd57610d7f8cdd9d74a8ad49bb795015fd96988758aad9c2ac.jpg",
             "sha256": "5ec40974a15d93bd57610d7f8cdd9d74a8ad49bb795015fd96988758aad9c2ac"
         },
@@ -2803,6 +2827,10 @@
         {
             "path": "data/library/assets/images/63dcf0e06c9f1f618a154804287bc94e1948e1d2337159ae9c8e214a34cc63d5.jpg",
             "sha256": "63dcf0e06c9f1f618a154804287bc94e1948e1d2337159ae9c8e214a34cc63d5"
+        },
+        {
+            "path": "data/library/assets/images/63e236c6cd3b1c43ca4aca07bc302191954bdcb303232b203ed3223d2a56db27.jpg",
+            "sha256": "63e236c6cd3b1c43ca4aca07bc302191954bdcb303232b203ed3223d2a56db27"
         },
         {
             "path": "data/library/assets/images/64f607bbd0b39a2692ec20fa5d0cbe5d9113038277ddb4f908f468efd12c9e29.jpg",
@@ -3033,6 +3061,10 @@
             "sha256": "a6f30840c67a1ebee268924fa55591323dd660a4abf79ba5cfcc0f6746e29655"
         },
         {
+            "path": "data/library/assets/images/a86f0c6876bf2bf21af465eb78d470915c131d1d967e96ac0059fb7b22f76ddd.jpg",
+            "sha256": "a86f0c6876bf2bf21af465eb78d470915c131d1d967e96ac0059fb7b22f76ddd"
+        },
+        {
             "path": "data/library/assets/images/ab0fedd3e82a9b8b1bf0122e7690b212eefe5e933681ff6a4602997ec6f0b1a7.jpg",
             "sha256": "ab0fedd3e82a9b8b1bf0122e7690b212eefe5e933681ff6a4602997ec6f0b1a7"
         },
@@ -3055,6 +3087,14 @@
         {
             "path": "data/library/assets/images/b3546c8b897db57ae5d77703b38a418a791f2b38a00049c719375a4433b0b6a7.jpg",
             "sha256": "b3546c8b897db57ae5d77703b38a418a791f2b38a00049c719375a4433b0b6a7"
+        },
+        {
+            "path": "data/library/assets/images/b51bdc8d6b52b8608224aaa7163c9924f584e70a584043f5691c889afd29c3a1.jpg",
+            "sha256": "b51bdc8d6b52b8608224aaa7163c9924f584e70a584043f5691c889afd29c3a1"
+        },
+        {
+            "path": "data/library/assets/images/b6e3be1298bbc25f869eb207cd84924536d73bb8eb69168f681b933d6e523066.jpg",
+            "sha256": "b6e3be1298bbc25f869eb207cd84924536d73bb8eb69168f681b933d6e523066"
         },
         {
             "path": "data/library/assets/images/b791308ebdae2e6b780a66ced1de9af6ea379a87483b099d2889e7a0c50c7de9.jpg",
@@ -3138,7 +3178,7 @@
         },
         {
             "path": "data/library/assets/images/catalog.json",
-            "sha256": "312c453e2b849e1fe922283182e41fb5b3b94a14dc00bde6300f6adda5200ae0"
+            "sha256": "92acfa056cd0312533dd77ebc799c254c722ba7cdbbcd82ed268dbf18791f85c"
         },
         {
             "path": "data/library/assets/images/cdd570029258ee5f5a216a183a3b149545e46e74920187b1046ce4adc0c11b55.jpg",
@@ -3173,6 +3213,10 @@
             "sha256": "d6ddc1b897d6bddf3958afa502f169bcb038bf83d34bafc41cc4fa099162df56"
         },
         {
+            "path": "data/library/assets/images/d7fbb72cf76cfbd381cba82141851246b6614bc04ea8d305bd4afc4ea72914ac.jpg",
+            "sha256": "d7fbb72cf76cfbd381cba82141851246b6614bc04ea8d305bd4afc4ea72914ac"
+        },
+        {
             "path": "data/library/assets/images/da262c5eab258bf19683f40f1063da5c7493ab5a0324c3b6382e384e1396d51e.jpg",
             "sha256": "da262c5eab258bf19683f40f1063da5c7493ab5a0324c3b6382e384e1396d51e"
         },
@@ -3199,6 +3243,10 @@
         {
             "path": "data/library/assets/images/ddb08c64240b92b967c925232251b5bdf626a02c207acfcc6a92392ef9f775a6.jpg",
             "sha256": "ddb08c64240b92b967c925232251b5bdf626a02c207acfcc6a92392ef9f775a6"
+        },
+        {
+            "path": "data/library/assets/images/def60abbf27139be3bc1c24282d0c3da6dc1a59a841e2005db80f96a18eb2fab.jpg",
+            "sha256": "def60abbf27139be3bc1c24282d0c3da6dc1a59a841e2005db80f96a18eb2fab"
         },
         {
             "path": "data/library/assets/images/df1480cdd7dab661057d704937d76c06b16279401cc658d1cacee8cb663f2b60.jpg",
@@ -3235,6 +3283,10 @@
         {
             "path": "data/library/assets/images/e8388e3a5954704025c9f5f2ef25e2f21b6c9714337be9d797292723d4120927.jpg",
             "sha256": "e8388e3a5954704025c9f5f2ef25e2f21b6c9714337be9d797292723d4120927"
+        },
+        {
+            "path": "data/library/assets/images/e9d824e43aad695b2c8bd52e4f91dc9415326e1cbd5d6f1b1c5c39c02260a872.jpg",
+            "sha256": "e9d824e43aad695b2c8bd52e4f91dc9415326e1cbd5d6f1b1c5c39c02260a872"
         },
         {
             "path": "data/library/assets/images/edf833e37b5a28f47bb2fd0c97770db55345c5afd41e298d266223d1091302ac.jpg",
@@ -3381,6 +3433,18 @@
             "sha256": "4977ad7e4b851edccd5d69f57b325b8f1f8d00c70627325487bdce4e077ff091"
         },
         {
+            "path": "data/library/content/definitions/travel-001.json",
+            "sha256": "b4fd3611e6169581b50c73232fa32e48fd994f4cb8b4dd4789b0325bdc5dbba7"
+        },
+        {
+            "path": "data/library/content/definitions/travel-002.json",
+            "sha256": "e82684e00387b3a9557cc620fb9c31fad50e64e3ed8647f61b7c3087f214cda9"
+        },
+        {
+            "path": "data/library/content/definitions/travel-003.json",
+            "sha256": "3d073282f81baa18bf7bbb3562fe97e0bc627b8c0c30b599a863ae9e086fd4a7"
+        },
+        {
             "path": "data/library/content/particles/common.json",
             "sha256": "946cbb59c76809a740daac1d587cb35bd5ff437cf90e3ad32a6973bf39d29b70"
         },
@@ -3415,6 +3479,14 @@
         {
             "path": "data/library/content/sentences/foodbody.json",
             "sha256": "9a519d9b9a1715634bc230d3bbbe755486e231585426613c8cc8dbd7c9df931a"
+        },
+        {
+            "path": "data/library/content/sentences/travel-001.json",
+            "sha256": "d4b070f4eead0c01349b5e7529d79694ebad5d2b95dc7885cfc52cbbb3a424c5"
+        },
+        {
+            "path": "data/library/content/sentences/travel-002.json",
+            "sha256": "8fd2edf21b033f4036d8769fe0ba550820ba5746e0d60de1eae762167719698d"
         },
         {
             "path": "data/library/content/words/beginner-001.json",
@@ -3569,12 +3641,28 @@
             "sha256": "36256fbf3aa84224b172b7786811dfab24e1bf3d098c95a01d99197fcfe58d7a"
         },
         {
+            "path": "data/library/content/words/travel-001.json",
+            "sha256": "e5c184219293bd0aa3d0868b00b122c68dd185fd1e11228461d757bdce2bae6d"
+        },
+        {
+            "path": "data/library/content/words/travel-002.json",
+            "sha256": "6821a96326c6ac6a274cac75534fd1a58e70f699809b9e028c556b5284fb9074"
+        },
+        {
+            "path": "data/library/content/words/travel-003.json",
+            "sha256": "38290518b400249f46a60379b9ed85bd916b48e81c634ac32f595b34c6a3fca4"
+        },
+        {
+            "path": "data/library/content/words/travel-inflected.json",
+            "sha256": "cbd2ee09bfddaa1b3546c121523ad701cc39a9ec71e1039b2b2ab65c348c1b6e"
+        },
+        {
             "path": "data/library/manifest.json",
-            "sha256": "bd4ed7f8854c865a4ea580ade7fb9944efa4ff283958d3c8e1803be1d8000cec"
+            "sha256": "4da913b4ce3f285d33813b889ff8c74c94fbc029183bc2ef424747cd1fcd35a0"
         },
         {
             "path": "data/library/schema.json",
-            "sha256": "d1de561c3113c7b43c1e8e1f7d6897edc02752f84e80e677c4df63ca5abac98b"
+            "sha256": "5d03983fe4f3e81e7cfb14cc5c02024633e128e78744fff5b34ef1492deb894d"
         },
         {
             "path": "data/reference/00.json.gz",
@@ -4610,7 +4698,7 @@
         },
         {
             "path": "data/starter-decks.json",
-            "sha256": "c4042d59028c33472b341bb5bda5e91baaa64876bde5d046c9688021ab5c4429"
+            "sha256": "b93d84575d2a3d06720ee9cc916f37082b3643cce4247d4d1ec27a803da3564c"
         },
         {
             "path": "docs/dictionary.de.md",
@@ -4646,11 +4734,11 @@
         },
         {
             "path": "package-lock.json",
-            "sha256": "be4a73de9790036a9852624181daa0f5c819a09140cde33c17356d586ff8f77b"
+            "sha256": "4ce82316e594736aab43fde347f8147aa4405b976934cb02c3d277989a64ca38"
         },
         {
             "path": "package.json",
-            "sha256": "1a3a01445d07360ebf12ee929f66e076c71560854017277482d31301e8e035f2"
+            "sha256": "8fab1c67771fc3174e792a1cd655db63ffff33e6a015588481df26fe0b3bdaa5"
         },
         {
             "path": "routes.json",
@@ -4682,19 +4770,19 @@
         },
         {
             "path": "tests/audio.test.js",
-            "sha256": "0074c5f4acb6fa66dbf992ad9fd57146722bf867d79696a70b90f3a4739b0642"
+            "sha256": "bb37edd1918e61894af4b5297934f23838ab0aea7409324847b5896108a399b1"
         },
         {
             "path": "tests/authoring-validation.test.js",
-            "sha256": "b8b94f5add5c58d8337f3894a4a65e8c71231681f9464342f59bd0044c73bade"
+            "sha256": "bf12ea565160ee36b228d08b215758959cf4a8b30f51895ba9cf2823cb63ff59"
         },
         {
             "path": "tests/bootstrap.test.js",
-            "sha256": "f0504d10636d948a4f78cbdbc95a3b5cca29d75cdb14d06f2e2528b65f7d7771"
+            "sha256": "012c880f47be29100ec47cf3d20c044d5a001ae022aa2a4c0206bb90e0b5e584"
         },
         {
             "path": "tests/content-pack.test.js",
-            "sha256": "4a9d89253dd3c2037fe3ef821a4846cbb53e4c15e294559ce9b2a916e0e3999d"
+            "sha256": "4c882d84e6e668ece7e37ffc2658bb1a92f65ee8ef0c12d411993330e95b83c6"
         },
         {
             "path": "tests/documentation-convention.test.js",
@@ -4741,6 +4829,10 @@
             "sha256": "93bb0de3f1c5e87ce664c2bf718e0761c46a6fbdbb482eabae46eebe7c8070c9"
         },
         {
+            "path": "tests/travel.test.js",
+            "sha256": "a406d8fb8b5748799a5208f9d22ff4315f0915a08ca75090e3a7101fdf7b911a"
+        },
+        {
             "path": "tests/uninstall-configuration.test.js",
             "sha256": "6682c8e6415248d8072f48cc47f3c0feb880c66188e98d2d2c0226af3c966c58"
         },
@@ -4758,19 +4850,19 @@
         },
         {
             "path": "ui/languages/de/strings.xml",
-            "sha256": "2803fd5de6f887b96cecca15bf608dbaeb8690549cfac67ec91e11dbc1e716e4"
+            "sha256": "f341ec579fb7b1461d6944f45c5ca4a720d56af351f0ab61a67b22aff7262fd9"
         },
         {
             "path": "ui/languages/en/strings.xml",
-            "sha256": "caa752cdf113096c5859a93ba4bccd7a3e73a9041e83f1283b0946fa8d152d22"
+            "sha256": "f1ea4e6e3daccfcdceda6daeba03507a20f144a2f039376f29ccca7216cb8392"
         },
         {
             "path": "ui/languages/id/strings.xml",
-            "sha256": "a9ffb962c31139a78aa88c2a7db700c9cc8946c870f329a995ee8d0cc825b6bc"
+            "sha256": "021f53af4d9514a433365b1a136cb083ba2ffd48f5677875d15670fe5fd0b669"
         },
         {
             "path": "ui/languages/ja/strings.xml",
-            "sha256": "002c08ed91ce50529c496a8730f3c6a2c5452d87118b6f4aa2a056bce833f18b"
+            "sha256": "d41621da9e3e4d8225ce90dc7238a643232c83f209f7aa44be66d04f3dfb46fc"
         }
     ],
     "softDependencies": ["2b71bcdf-e29c-408b-8d12-ead6e377c82e"]

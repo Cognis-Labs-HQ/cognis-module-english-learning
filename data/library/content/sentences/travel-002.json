@@ -1,0 +1,160 @@
+[
+    {
+        "id": "en:sentence:travel-passport-here",
+        "label": "The passport is here.",
+        "class": "composite",
+        "fields": {},
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:travel-passport",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:here",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:travel-passport-here",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:travel-suitcase-there",
+        "label": "The suitcase is there.",
+        "class": "composite",
+        "fields": {},
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:travel-suitcase",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:there",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:travel-suitcase-there",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:travel-bicycle-school",
+        "label": "She goes to school by bicycle.",
+        "class": "composite",
+        "fields": {},
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-go-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:to",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:school",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:by",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:travel-bicycle",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:sentence:travel-bicycle-school",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:travel-read-map",
+        "label": "I read the map.",
+        "class": "composite",
+        "fields": {},
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:read",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:travel-map",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:sentence:travel-read-map",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

@@ -14,6 +14,10 @@ Acht mehrdeutige oder falsch zugeschnittene Illustrationen werden ersetzt. Die V
 
 Lokalisierte Hinweise und Beispiele verdeutlichen Artikelwahl, Gegensätze, Bedingungen und abgebildete Wortbedeutungen. Eine neu geprüfte Schirmszene zeigt die Vorsorge hinter in case.
 
+## Reisewortschatz
+
+Zwölf bebilderte Reisewörter mit geprüften grammatischen Formen, acht aus verknüpften Wörtern aufgebaute Beispielsätze und zwei lokalisierte Übungsdecks ergänzen den Inhalt. Neue Reiseaufnahmen sind nicht enthalten.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

@@ -353,5 +353,49 @@
             "en:sentence:we-are-here",
             "en:sentence:they-are-there"
         ]
+    },
+    {
+        "key": "travel-vocabulary",
+        "name": {
+            "en": "Travel Vocabulary",
+            "de": "Reisewortschatz",
+            "id": "Kosakata Perjalanan",
+            "ja": "旅行の語彙"
+        },
+        "sourceRecordIds": [
+            "en:word:travel-ticket",
+            "en:word:travel-station",
+            "en:word:travel-platform",
+            "en:word:travel-airport",
+            "en:word:travel-passport",
+            "en:word:travel-suitcase",
+            "en:word:travel-bicycle",
+            "en:word:travel-map",
+            "en:word:travel-arrive",
+            "en:word:travel-depart",
+            "en:word:travel-buy",
+            "en:word:travel-wait"
+        ],
+        "schemaId": "english"
+    },
+    {
+        "key": "travel-in-context",
+        "name": {
+            "en": "Travel in Context",
+            "de": "Reisen im Zusammenhang",
+            "id": "Perjalanan dalam Konteks",
+            "ja": "旅行の表現"
+        },
+        "sourceRecordIds": [
+            "en:sentence:travel-bought-ticket",
+            "en:sentence:travel-arrived-station",
+            "en:sentence:travel-wait-platform",
+            "en:sentence:travel-depart-airport",
+            "en:sentence:travel-passport-here",
+            "en:sentence:travel-suitcase-there",
+            "en:sentence:travel-bicycle-school",
+            "en:sentence:travel-read-map"
+        ],
+        "schemaId": "english"
     }
 ]
