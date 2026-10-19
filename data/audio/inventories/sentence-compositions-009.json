@@ -1,121 +1,5 @@
 [
     {
-        "path": "audio/b18fe68a34d8c6e378b3654bcaaae853ccb3e1c1c46581f3c6006154796dcefb.wav",
-        "entryId": "en:sentence:tableware-example-plate",
-        "label": "I need a plate.",
-        "parts": [
-            {
-                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
-                "entryId": "en:word:i"
-            },
-            {
-                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
-                "entryId": "en:word:need"
-            },
-            {
-                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
-                "entryId": "en:word:a"
-            },
-            {
-                "path": "audio/fc3ecd7d1abfbc340f59297766bb1e85f8652d4f943c5c47a92443b289dda215.wav",
-                "entryId": "en:word:tableware-plate"
-            },
-            { "pauseMs": 400 }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
-                "entryId": "en:word:i",
-                "startFrame": 2400,
-                "frameCount": 6507
-            },
-            {
-                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
-                "entryId": "en:word:need",
-                "startFrame": 11067,
-                "frameCount": 9927
-            },
-            {
-                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
-                "entryId": "en:word:a",
-                "startFrame": 23154,
-                "frameCount": 12540
-            },
-            {
-                "path": "audio/fc3ecd7d1abfbc340f59297766bb1e85f8652d4f943c5c47a92443b289dda215.wav",
-                "entryId": "en:word:tableware-plate",
-                "startFrame": 37854,
-                "frameCount": 19907
-            }
-        ],
-        "sha256": "b18fe68a34d8c6e378b3654bcaaae853ccb3e1c1c46581f3c6006154796dcefb",
-        "frames": 69521,
-        "input": {
-            "language": "en",
-            "label": "I need a plate.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact tableware and existing constituent PCM, including selected English is, spoons and forks."
-        }
-    },
-    {
-        "path": "audio/0988f4428049275661701162a8b5275b3d926c307df7f8321e16c5f17ffbc880.wav",
-        "entryId": "en:sentence:tableware-example-spoon",
-        "label": "We need spoons.",
-        "parts": [
-            {
-                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
-                "entryId": "en:word:capital-we"
-            },
-            {
-                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
-                "entryId": "en:word:need"
-            },
-            {
-                "path": "audio/88c48c2cbedaa2f072bdb8a940b6be0eea815cefca54708b6a6231578a540663.wav",
-                "entryId": "en:word:form-tableware-spoons"
-            },
-            { "pauseMs": 400 }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
-                "entryId": "en:word:capital-we",
-                "startFrame": 2400,
-                "frameCount": 17552
-            },
-            {
-                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
-                "entryId": "en:word:need",
-                "startFrame": 22112,
-                "frameCount": 9927
-            },
-            {
-                "path": "audio/88c48c2cbedaa2f072bdb8a940b6be0eea815cefca54708b6a6231578a540663.wav",
-                "entryId": "en:word:form-tableware-spoons",
-                "startFrame": 34199,
-                "frameCount": 26595
-            }
-        ],
-        "sha256": "0988f4428049275661701162a8b5275b3d926c307df7f8321e16c5f17ffbc880",
-        "frames": 72554,
-        "input": {
-            "language": "en",
-            "label": "We need spoons.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact tableware and existing constituent PCM, including selected English is, spoons and forks."
-        }
-    },
-    {
         "path": "audio/5bd7997c526e3c5a8d3d9be328d312937abd9a114a12781d400620dda7d0d461.wav",
         "entryId": "en:sentence:tableware-example-fork",
         "label": "They have forks.",
@@ -727,6 +611,162 @@
         "input": {
             "language": "en",
             "label": "I need water.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM, without synthesis or new external requests."
+        }
+    },
+    {
+        "path": "audio/c580dbb1e46006648e4ffb6876cff5637b2cdfba5749cb091c1b2f9df04afda0.wav",
+        "entryId": "en:sentence:daily-needs-2",
+        "label": "We need a spoon and a fork.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/5f9a3e905778bf89257f37ae9c5a042caef40f3963ac78fdceb0455248b17e77.wav",
+                "entryId": "en:word:tableware-spoon"
+            },
+            {
+                "path": "audio/c17bea5cede4ef7cefc56eda7f4c62d72e4eb6756b6cf1f5dc17cfb9f91f338a.wav",
+                "entryId": "en:particle:and"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/3ae57b1ee1ad50c3f7332cd673152ab4265fb5077877184121609195c234baf2.wav",
+                "entryId": "en:word:tableware-fork"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need",
+                "startFrame": 22112,
+                "frameCount": 9927
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 34199,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/5f9a3e905778bf89257f37ae9c5a042caef40f3963ac78fdceb0455248b17e77.wav",
+                "entryId": "en:word:tableware-spoon",
+                "startFrame": 48899,
+                "frameCount": 23251
+            },
+            {
+                "path": "audio/c17bea5cede4ef7cefc56eda7f4c62d72e4eb6756b6cf1f5dc17cfb9f91f338a.wav",
+                "entryId": "en:particle:and",
+                "startFrame": 74310,
+                "frameCount": 11433
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 87903,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/3ae57b1ee1ad50c3f7332cd673152ab4265fb5077877184121609195c234baf2.wav",
+                "entryId": "en:word:tableware-fork",
+                "startFrame": 102603,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "c580dbb1e46006648e4ffb6876cff5637b2cdfba5749cb091c1b2f9df04afda0",
+        "frames": 134270,
+        "input": {
+            "language": "en",
+            "label": "We need a spoon and a fork.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM, without synthesis or new external requests."
+        }
+    },
+    {
+        "path": "audio/97fc1f65331729ab88aa3a90e5c859374e3d17ec9a842cdb47d0c310c6f8d818.wav",
+        "entryId": "en:sentence:daily-needs-3",
+        "label": "The key is here.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/e5b442edb628e9fed0cb699a3ab7c8a979d4e2d94b229d8f6598a36d6daf90ea.wav",
+                "entryId": "en:word:key"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
+                "entryId": "en:word:here"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/e5b442edb628e9fed0cb699a3ab7c8a979d4e2d94b229d8f6598a36d6daf90ea.wav",
+                "entryId": "en:word:key",
+                "startFrame": 12710,
+                "frameCount": 18793
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 33663,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
+                "entryId": "en:word:here",
+                "startFrame": 46210,
+                "frameCount": 11241
+            }
+        ],
+        "sha256": "97fc1f65331729ab88aa3a90e5c859374e3d17ec9a842cdb47d0c310c6f8d818",
+        "frames": 69211,
+        "input": {
+            "language": "en",
+            "label": "The key is here.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
         },

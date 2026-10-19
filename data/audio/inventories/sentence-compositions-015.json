@@ -1,224 +1,5 @@
 [
     {
-        "path": "audio/3fe8592c215ed3b6781fee10b9a3d2573b9b6b7b4c6dd7bec32ceebda7f034eb.wav",
-        "entryId": "en:sentence:seasons-activity-autumn",
-        "label": "They read in autumn.",
-        "parts": [
-            {
-                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
-                "entryId": "en:word:capital-they"
-            },
-            {
-                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
-                "entryId": "en:word:read"
-            },
-            {
-                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
-                "entryId": "en:particle:in"
-            },
-            {
-                "path": "audio/a3c1cdb1926cb9426154daf1e82d63171db0135c9d65137e30f851e28032a4fd.wav",
-                "entryId": "en:word:seasons-autumn"
-            },
-            { "pauseMs": 400 }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
-                "entryId": "en:word:capital-they",
-                "startFrame": 2400,
-                "frameCount": 9803
-            },
-            {
-                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
-                "entryId": "en:word:read",
-                "startFrame": 14363,
-                "frameCount": 11133
-            },
-            {
-                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
-                "entryId": "en:particle:in",
-                "startFrame": 27656,
-                "frameCount": 7315
-            },
-            {
-                "path": "audio/a3c1cdb1926cb9426154daf1e82d63171db0135c9d65137e30f851e28032a4fd.wav",
-                "entryId": "en:word:seasons-autumn",
-                "startFrame": 37131,
-                "frameCount": 19907
-            }
-        ],
-        "sha256": "3fe8592c215ed3b6781fee10b9a3d2573b9b6b7b4c6dd7bec32ceebda7f034eb",
-        "frames": 68798,
-        "input": {
-            "language": "en",
-            "label": "They read in autumn.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact season-noun recordings and existing constituent PCM; no whole-sentence synthesis."
-        }
-    },
-    {
-        "path": "audio/715bed3d794deed5a7d1de1a87d6a1afcb5b5d35db4a33975bdf3ac45c14c0ca.wav",
-        "entryId": "en:sentence:seasons-activity-winter",
-        "label": "I drink tea in winter.",
-        "parts": [
-            {
-                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
-                "entryId": "en:word:i"
-            },
-            {
-                "path": "audio/03b62debf6ef4408c4897b5fb6c219dbe2fd2dc3aa3abcaaeac9e60a81ffd688.wav",
-                "entryId": "en:word:drink"
-            },
-            {
-                "path": "audio/53612525976e57e096c89cf49ffcc1be60d2ab04136168922486a85043d6b84b.wav",
-                "entryId": "en:word:tea"
-            },
-            {
-                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
-                "entryId": "en:particle:in"
-            },
-            {
-                "path": "audio/3c12cd571e992637a1a3bc543337436f2d1730bfa8748083d6abccfcf27bb4aa.wav",
-                "entryId": "en:word:seasons-winter"
-            },
-            { "pauseMs": 400 }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
-                "entryId": "en:word:i",
-                "startFrame": 2400,
-                "frameCount": 6507
-            },
-            {
-                "path": "audio/03b62debf6ef4408c4897b5fb6c219dbe2fd2dc3aa3abcaaeac9e60a81ffd688.wav",
-                "entryId": "en:word:drink",
-                "startFrame": 11067,
-                "frameCount": 11105
-            },
-            {
-                "path": "audio/53612525976e57e096c89cf49ffcc1be60d2ab04136168922486a85043d6b84b.wav",
-                "entryId": "en:word:tea",
-                "startFrame": 24332,
-                "frameCount": 10235
-            },
-            {
-                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
-                "entryId": "en:particle:in",
-                "startFrame": 36727,
-                "frameCount": 7315
-            },
-            {
-                "path": "audio/3c12cd571e992637a1a3bc543337436f2d1730bfa8748083d6abccfcf27bb4aa.wav",
-                "entryId": "en:word:seasons-winter",
-                "startFrame": 46202,
-                "frameCount": 19907
-            }
-        ],
-        "sha256": "715bed3d794deed5a7d1de1a87d6a1afcb5b5d35db4a33975bdf3ac45c14c0ca",
-        "frames": 77869,
-        "input": {
-            "language": "en",
-            "label": "I drink tea in winter.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact season-noun recordings and existing constituent PCM; no whole-sentence synthesis."
-        }
-    },
-    {
-        "path": "audio/cc4274bc328b9db356ae114fc8218dedeeb34fb373578e0ad2b4f834fb95a759.wav",
-        "entryId": "en:sentence:fixtures-example-fridge",
-        "label": "The milk is in the fridge.",
-        "parts": [
-            {
-                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
-                "entryId": "en:word:capital-the"
-            },
-            {
-                "path": "audio/a16f821db4d533d146b66edbecc04bd8478cdb8378c94b473194ff26fb4444b6.wav",
-                "entryId": "en:word:milk"
-            },
-            {
-                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
-            },
-            {
-                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
-                "entryId": "en:particle:in"
-            },
-            {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the"
-            },
-            {
-                "path": "audio/598c34dccf9451efd9dc49009fc053b773d604c53b8457363561d195ee67d39a.wav",
-                "entryId": "en:word:fixtures-fridge"
-            },
-            { "pauseMs": 400 }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
-                "entryId": "en:word:capital-the",
-                "startFrame": 2400,
-                "frameCount": 8150
-            },
-            {
-                "path": "audio/a16f821db4d533d146b66edbecc04bd8478cdb8378c94b473194ff26fb4444b6.wav",
-                "entryId": "en:word:milk",
-                "startFrame": 12710,
-                "frameCount": 12626
-            },
-            {
-                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
-                "startFrame": 27496,
-                "frameCount": 10387
-            },
-            {
-                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
-                "entryId": "en:particle:in",
-                "startFrame": 40043,
-                "frameCount": 7315
-            },
-            {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the",
-                "startFrame": 49518,
-                "frameCount": 8150
-            },
-            {
-                "path": "audio/598c34dccf9451efd9dc49009fc053b773d604c53b8457363561d195ee67d39a.wav",
-                "entryId": "en:word:fixtures-fridge",
-                "startFrame": 59828,
-                "frameCount": 22137
-            }
-        ],
-        "sha256": "cc4274bc328b9db356ae114fc8218dedeeb34fb373578e0ad2b4f834fb95a759",
-        "frames": 93725,
-        "input": {
-            "language": "en",
-            "label": "The milk is in the fridge.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact constituent PCM, preserving every selected grammatical form."
-        }
-    },
-    {
         "path": "audio/fadc9f2832fa8613711e70c0cbe9900891038afd363def4619da9e6c851df553.wav",
         "entryId": "en:sentence:fixtures-example-oven",
         "label": "The oven is hot.",
@@ -697,6 +478,298 @@
         "metadata": {
             "listening": "unverified-not-performed",
             "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/74a6c10cf85d882f3a1bf0e5b4218657bb1e26bc123869b599db291815dc1603.wav",
+        "entryId": "en:sentence:care-example-soap",
+        "label": "I wash my face with soap.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/f871f020b3de15eef5914b6e3de3d22cbd60473330c2bdfa30976783eb09b34a.wav",
+                "entryId": "en:word:household-wash"
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my"
+            },
+            {
+                "path": "audio/7bbf0b6cc8b9064489c0dcfdc8c79e32733c354536a66d8a1ed4e3b5b698148f.wav",
+                "entryId": "en:word:face"
+            },
+            {
+                "path": "audio/6d2d3881b88f3c382ad83e70da941112308ecd8ffb35358a71c8c38c099170d6.wav",
+                "entryId": "en:particle:with"
+            },
+            {
+                "path": "audio/464a9aa9194e8ee2ea50bd0d943d48558569b9f7ff125d1e606a5d3d1d6e17ed.wav",
+                "entryId": "en:word:care-soap"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/f871f020b3de15eef5914b6e3de3d22cbd60473330c2bdfa30976783eb09b34a.wav",
+                "entryId": "en:word:household-wash",
+                "startFrame": 11067,
+                "frameCount": 22137
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my",
+                "startFrame": 35364,
+                "frameCount": 9522
+            },
+            {
+                "path": "audio/7bbf0b6cc8b9064489c0dcfdc8c79e32733c354536a66d8a1ed4e3b5b698148f.wav",
+                "entryId": "en:word:face",
+                "startFrame": 47046,
+                "frameCount": 22137
+            },
+            {
+                "path": "audio/6d2d3881b88f3c382ad83e70da941112308ecd8ffb35358a71c8c38c099170d6.wav",
+                "entryId": "en:particle:with",
+                "startFrame": 71343,
+                "frameCount": 12362
+            },
+            {
+                "path": "audio/464a9aa9194e8ee2ea50bd0d943d48558569b9f7ff125d1e606a5d3d1d6e17ed.wav",
+                "entryId": "en:word:care-soap",
+                "startFrame": 85865,
+                "frameCount": 29939
+            }
+        ],
+        "sha256": "74a6c10cf85d882f3a1bf0e5b4218657bb1e26bc123869b599db291815dc1603",
+        "frames": 127564,
+        "input": {
+            "language": "en",
+            "label": "I wash my face with soap.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact personal-care constituent PCM, including the English plural towels."
+        }
+    },
+    {
+        "path": "audio/d2c5e7171b667c8a4cb36b4436d4e7fa0decd37654d8bb94b4dcf7bf592d7244.wav",
+        "entryId": "en:sentence:care-example-towel",
+        "label": "We need towels.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need"
+            },
+            {
+                "path": "audio/27bbcd89bf897061f6263cf5b1e741dc880e77a37b84a26648e086541bf6975d.wav",
+                "entryId": "en:word:form-care-towels"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need",
+                "startFrame": 22112,
+                "frameCount": 9927
+            },
+            {
+                "path": "audio/27bbcd89bf897061f6263cf5b1e741dc880e77a37b84a26648e086541bf6975d.wav",
+                "entryId": "en:word:form-care-towels",
+                "startFrame": 34199,
+                "frameCount": 29939
+            }
+        ],
+        "sha256": "d2c5e7171b667c8a4cb36b4436d4e7fa0decd37654d8bb94b4dcf7bf592d7244",
+        "frames": 75898,
+        "input": {
+            "language": "en",
+            "label": "We need towels.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact personal-care constituent PCM, including the English plural towels."
+        }
+    },
+    {
+        "path": "audio/9a1f943140a0d9663ef84d2863b2b214e7b0c2d092c1e3f8a8d44973f8d01d75.wav",
+        "entryId": "en:sentence:care-example-toothbrush",
+        "label": "She has a new toothbrush.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/bda924c2c4116df9e3bfe3599856e66a2305d8fd57fc299ded5eec1d595f99c6.wav",
+                "entryId": "en:word:form-english-have-third-person"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/1f1f40b6ea41c9a2807522f799faae6184a0d500ba368249b0a0d535c68f58e8.wav",
+                "entryId": "en:word:new"
+            },
+            {
+                "path": "audio/01632476e1f382221605d1049ff718a9721eb1a1f4da5cc9088de91fb9daf1aa.wav",
+                "entryId": "en:word:care-toothbrush"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/bda924c2c4116df9e3bfe3599856e66a2305d8fd57fc299ded5eec1d595f99c6.wav",
+                "entryId": "en:word:form-english-have-third-person",
+                "startFrame": 14932,
+                "frameCount": 9951
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 27043,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/1f1f40b6ea41c9a2807522f799faae6184a0d500ba368249b0a0d535c68f58e8.wav",
+                "entryId": "en:word:new",
+                "startFrame": 41743,
+                "frameCount": 10768
+            },
+            {
+                "path": "audio/01632476e1f382221605d1049ff718a9721eb1a1f4da5cc9088de91fb9daf1aa.wav",
+                "entryId": "en:word:care-toothbrush",
+                "startFrame": 54671,
+                "frameCount": 26595
+            }
+        ],
+        "sha256": "9a1f943140a0d9663ef84d2863b2b214e7b0c2d092c1e3f8a8d44973f8d01d75",
+        "frames": 93026,
+        "input": {
+            "language": "en",
+            "label": "She has a new toothbrush.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact personal-care constituent PCM, including the English plural towels."
+        }
+    },
+    {
+        "path": "audio/e467b63d0cdb21fad9400f4ea4b7edc0cdaeeba6d6509a6a95136c66790a0943.wav",
+        "entryId": "en:sentence:care-example-toothpaste",
+        "label": "I buy toothpaste at the supermarket.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+                "entryId": "en:word:travel-buy"
+            },
+            {
+                "path": "audio/2a7df9a454b151405b2fe20f3053b323c0b7707fee9973e11f34cf5b1b438288.wav",
+                "entryId": "en:word:care-toothpaste"
+            },
+            {
+                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
+                "entryId": "en:particle:at"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/578eaa7c2d92a0ee7eb8ddbe36c8f4fc9df41588cc286435751ad234cfb4f5c7.wav",
+                "entryId": "en:word:places-supermarket"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+                "entryId": "en:word:travel-buy",
+                "startFrame": 11067,
+                "frameCount": 19907
+            },
+            {
+                "path": "audio/2a7df9a454b151405b2fe20f3053b323c0b7707fee9973e11f34cf5b1b438288.wav",
+                "entryId": "en:word:care-toothpaste",
+                "startFrame": 33134,
+                "frameCount": 27709
+            },
+            {
+                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
+                "entryId": "en:particle:at",
+                "startFrame": 63003,
+                "frameCount": 9361
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 74524,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/578eaa7c2d92a0ee7eb8ddbe36c8f4fc9df41588cc286435751ad234cfb4f5c7.wav",
+                "entryId": "en:word:places-supermarket",
+                "startFrame": 84834,
+                "frameCount": 26595
+            }
+        ],
+        "sha256": "e467b63d0cdb21fad9400f4ea4b7edc0cdaeeba6d6509a6a95136c66790a0943",
+        "frames": 123189,
+        "input": {
+            "language": "en",
+            "label": "I buy toothpaste at the supermarket.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact personal-care constituent PCM, including the English plural towels."
         }
     }
 ]

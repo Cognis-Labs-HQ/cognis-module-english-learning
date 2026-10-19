@@ -1,88 +1,5 @@
 [
     {
-        "path": "audio/782dcc7eba6f94f8e4ada6f83e445f166113a0075921c0b4b0005c1a233a8fb7.wav",
-        "entryId": "en:sentence:directions-location-north",
-        "label": "The city is in the north.",
-        "parts": [
-            {
-                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
-                "entryId": "en:word:capital-the"
-            },
-            {
-                "path": "audio/7afbcc23f3580d170fac475af0801dd017ff2f78f81ec0db3e27dd85ea2927ab.wav",
-                "entryId": "en:word:city"
-            },
-            {
-                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
-            },
-            {
-                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
-                "entryId": "en:particle:in"
-            },
-            {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the"
-            },
-            {
-                "path": "audio/c05947fecd22c3caf8deeba23bfedcb0cac477031d5bf4cf142236482d36d720.wav",
-                "entryId": "en:word:directions-north"
-            },
-            { "pauseMs": 400 }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
-                "entryId": "en:word:capital-the",
-                "startFrame": 2400,
-                "frameCount": 8150
-            },
-            {
-                "path": "audio/7afbcc23f3580d170fac475af0801dd017ff2f78f81ec0db3e27dd85ea2927ab.wav",
-                "entryId": "en:word:city",
-                "startFrame": 12710,
-                "frameCount": 14159
-            },
-            {
-                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
-                "startFrame": 29029,
-                "frameCount": 10387
-            },
-            {
-                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
-                "entryId": "en:particle:in",
-                "startFrame": 41576,
-                "frameCount": 7315
-            },
-            {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the",
-                "startFrame": 51051,
-                "frameCount": 8150
-            },
-            {
-                "path": "audio/c05947fecd22c3caf8deeba23bfedcb0cac477031d5bf4cf142236482d36d720.wav",
-                "entryId": "en:word:directions-north",
-                "startFrame": 61361,
-                "frameCount": 19907
-            }
-        ],
-        "sha256": "782dcc7eba6f94f8e4ada6f83e445f166113a0075921c0b4b0005c1a233a8fb7",
-        "frames": 93028,
-        "input": {
-            "language": "en",
-            "label": "The city is in the north.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact direction-noun and existing constituent PCM; English copula is retained as its selected third-person form."
-        }
-    },
-    {
         "path": "audio/1cbfab2eee6109bba6eaecbd59b9464c712cd83bd943c56adde69811cbf5b6f1.wav",
         "entryId": "en:sentence:directions-location-south",
         "label": "The airport is in the south.",
@@ -714,6 +631,122 @@
         "input": {
             "language": "en",
             "label": "The cup is on the table.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact tableware and existing constituent PCM, including selected English is, spoons and forks."
+        }
+    },
+    {
+        "path": "audio/b18fe68a34d8c6e378b3654bcaaae853ccb3e1c1c46581f3c6006154796dcefb.wav",
+        "entryId": "en:sentence:tableware-example-plate",
+        "label": "I need a plate.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/fc3ecd7d1abfbc340f59297766bb1e85f8652d4f943c5c47a92443b289dda215.wav",
+                "entryId": "en:word:tableware-plate"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need",
+                "startFrame": 11067,
+                "frameCount": 9927
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 23154,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/fc3ecd7d1abfbc340f59297766bb1e85f8652d4f943c5c47a92443b289dda215.wav",
+                "entryId": "en:word:tableware-plate",
+                "startFrame": 37854,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "b18fe68a34d8c6e378b3654bcaaae853ccb3e1c1c46581f3c6006154796dcefb",
+        "frames": 69521,
+        "input": {
+            "language": "en",
+            "label": "I need a plate.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact tableware and existing constituent PCM, including selected English is, spoons and forks."
+        }
+    },
+    {
+        "path": "audio/0988f4428049275661701162a8b5275b3d926c307df7f8321e16c5f17ffbc880.wav",
+        "entryId": "en:sentence:tableware-example-spoon",
+        "label": "We need spoons.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need"
+            },
+            {
+                "path": "audio/88c48c2cbedaa2f072bdb8a940b6be0eea815cefca54708b6a6231578a540663.wav",
+                "entryId": "en:word:form-tableware-spoons"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need",
+                "startFrame": 22112,
+                "frameCount": 9927
+            },
+            {
+                "path": "audio/88c48c2cbedaa2f072bdb8a940b6be0eea815cefca54708b6a6231578a540663.wav",
+                "entryId": "en:word:form-tableware-spoons",
+                "startFrame": 34199,
+                "frameCount": 26595
+            }
+        ],
+        "sha256": "0988f4428049275661701162a8b5275b3d926c307df7f8321e16c5f17ffbc880",
+        "frames": 72554,
+        "input": {
+            "language": "en",
+            "label": "We need spoons.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
         },

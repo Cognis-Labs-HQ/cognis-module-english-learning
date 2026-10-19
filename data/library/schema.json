@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 45,
+    "version": 46,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -13731,6 +13731,268 @@
                     "pronunciation": {
                         "removeSuffix": "/ˌʌndəˈstænd/",
                         "append": "/ˌʌndəˈstʊd/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past Participle)",
+                                "de": "{{ definition }} (Partizip Perfekt)",
+                                "id": "{{ definition }} (Partisip Lampau)",
+                                "ja": "{{ definition }} (過去分詞)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "exchange-give-forms",
+            "metadata": {
+                "labels": {
+                    "en": "give Forms",
+                    "de": "give-Formen",
+                    "id": "Bentuk give",
+                    "ja": "giveの活用"
+                }
+            },
+            "matchTags": ["verb", "exchange-form-give"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "third-person",
+                    "metadata": {
+                        "labels": {
+                            "en": "Third-Person Singular",
+                            "de": "Dritte Person Singular",
+                            "id": "Orang Ketiga Tunggal",
+                            "ja": "三人称単数"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "third-person",
+                    "removeSuffix": "give",
+                    "append": "gives",
+                    "pronunciation": {
+                        "removeSuffix": "/ɡɪv/",
+                        "append": "/ɡɪvz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Third-Person Singular)",
+                                "de": "{{ definition }} (Dritte Person Singular)",
+                                "id": "{{ definition }} (Orang Ketiga Tunggal)",
+                                "ja": "{{ definition }} (三人称単数)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past",
+                            "de": "Vergangenheit",
+                            "id": "Lampau",
+                            "ja": "過去形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past",
+                    "removeSuffix": "give",
+                    "append": "gave",
+                    "pronunciation": {
+                        "removeSuffix": "/ɡɪv/",
+                        "append": "/ɡeɪv/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past)",
+                                "de": "{{ definition }} (Vergangenheit)",
+                                "id": "{{ definition }} (Lampau)",
+                                "ja": "{{ definition }} (過去形)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "present-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Present Participle",
+                            "de": "Präsenspartizip",
+                            "id": "Partisip Kini",
+                            "ja": "現在分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "present-participle",
+                    "removeSuffix": "give",
+                    "append": "giving",
+                    "pronunciation": {
+                        "removeSuffix": "/ɡɪv/",
+                        "append": "/ˈɡɪvɪŋ/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Present Participle)",
+                                "de": "{{ definition }} (Präsenspartizip)",
+                                "id": "{{ definition }} (Partisip Kini)",
+                                "ja": "{{ definition }} (現在分詞)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past Participle",
+                            "de": "Partizip Perfekt",
+                            "id": "Partisip Lampau",
+                            "ja": "過去分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past-participle",
+                    "removeSuffix": "give",
+                    "append": "given",
+                    "pronunciation": {
+                        "removeSuffix": "/ɡɪv/",
+                        "append": "/ˈɡɪvn/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past Participle)",
+                                "de": "{{ definition }} (Partizip Perfekt)",
+                                "id": "{{ definition }} (Partisip Lampau)",
+                                "ja": "{{ definition }} (過去分詞)"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "exchange-receive-forms",
+            "metadata": {
+                "labels": {
+                    "en": "receive Forms",
+                    "de": "receive-Formen",
+                    "id": "Bentuk receive",
+                    "ja": "receiveの活用"
+                }
+            },
+            "matchTags": ["verb", "exchange-form-receive"],
+            "baseState": "base",
+            "rules": [
+                {
+                    "id": "third-person",
+                    "metadata": {
+                        "labels": {
+                            "en": "Third-Person Singular",
+                            "de": "Dritte Person Singular",
+                            "id": "Orang Ketiga Tunggal",
+                            "ja": "三人称単数"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "third-person",
+                    "removeSuffix": "receive",
+                    "append": "receives",
+                    "pronunciation": {
+                        "removeSuffix": "/rɪˈsiːv/",
+                        "append": "/rɪˈsiːvz/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Third-Person Singular)",
+                                "de": "{{ definition }} (Dritte Person Singular)",
+                                "id": "{{ definition }} (Orang Ketiga Tunggal)",
+                                "ja": "{{ definition }} (三人称単数)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past",
+                            "de": "Vergangenheit",
+                            "id": "Lampau",
+                            "ja": "過去形"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past",
+                    "removeSuffix": "receive",
+                    "append": "received",
+                    "pronunciation": {
+                        "removeSuffix": "/rɪˈsiːv/",
+                        "append": "/rɪˈsiːvd/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Past)",
+                                "de": "{{ definition }} (Vergangenheit)",
+                                "id": "{{ definition }} (Lampau)",
+                                "ja": "{{ definition }} (過去形)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "present-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Present Participle",
+                            "de": "Präsenspartizip",
+                            "id": "Partisip Kini",
+                            "ja": "現在分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "present-participle",
+                    "removeSuffix": "receive",
+                    "append": "receiving",
+                    "pronunciation": {
+                        "removeSuffix": "/rɪˈsiːv/",
+                        "append": "/rɪˈsiːvɪŋ/"
+                    },
+                    "definitionTransform": {
+                        "template": {
+                            "labels": {
+                                "en": "{{ definition }} (Present Participle)",
+                                "de": "{{ definition }} (Präsenspartizip)",
+                                "id": "{{ definition }} (Partisip Kini)",
+                                "ja": "{{ definition }} (現在分詞)"
+                            }
+                        }
+                    }
+                },
+                {
+                    "id": "past-participle",
+                    "metadata": {
+                        "labels": {
+                            "en": "Past Participle",
+                            "de": "Partizip Perfekt",
+                            "id": "Partisip Lampau",
+                            "ja": "過去分詞"
+                        }
+                    },
+                    "fromState": "base",
+                    "toState": "past-participle",
+                    "removeSuffix": "receive",
+                    "append": "received",
+                    "pronunciation": {
+                        "removeSuffix": "/rɪˈsiːv/",
+                        "append": "/rɪˈsiːvd/"
                     },
                     "definitionTransform": {
                         "template": {

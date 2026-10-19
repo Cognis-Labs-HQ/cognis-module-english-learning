@@ -1,35 +1,5 @@
 [
     {
-        "path": "audio/b0ade986d119e127e7a8aa79ca884982b528e3cc3fd9466d7f956d03bac29301.wav",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "text": "this",
-        "phonemes": "ðɪs",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"ðɪs\">this</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "this",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ðɪs/"]
-            }
-        ],
-        "entries": ["en:word:this"],
-        "variants": [],
-        "sha256": "ff735c5c843ff2a896613f6803c034bc697a8b2d09df8f21e1ff3f7c5c9530de",
-        "frames": 12058
-    },
-    {
         "path": "audio/b5e47d56319433c3a6c804700f866f3ba77860148868a4d37c3544bd80b2c151.wav",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "text": "that",
@@ -750,5 +720,65 @@
         "variants": [],
         "sha256": "2566853a7434c5775ae39ac86ff88a63ac44ea5d4a2b40889dde5cfa3d90ccf4",
         "frames": 8799
+    },
+    {
+        "path": "audio/d167b04d745c13877949ec79ad83914a71df0c25a7bfb853c2f15b6a27c44b87.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "sleep",
+        "phonemes": "sliːp",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"sliːp\">sleep</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "sleep",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/sliːp/"]
+            }
+        ],
+        "entries": ["en:word:sleep"],
+        "variants": [],
+        "sha256": "1791d6a23c1800ff009869add263238bbc10180ee55368422d2b3a0c4a7e0565",
+        "frames": 13912
+    },
+    {
+        "path": "audio/a39b067c873d54f1cc32e7db3083ede911328e7819731066390622ea0c5b975c.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "speak",
+        "phonemes": "spiːk",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"spiːk\">speak</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "speak",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/spiːk/"]
+            }
+        ],
+        "entries": ["en:word:speak"],
+        "variants": [],
+        "sha256": "2602f18f1a41f29ffef12bbcdbd8282bad752b306a2212df081d63f094461eda",
+        "frames": 16610
     }
 ]

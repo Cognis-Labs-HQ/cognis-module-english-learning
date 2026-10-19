@@ -1,330 +1,5 @@
 [
     {
-        "path": "audio/39dfa3cd8c2e46a54c9addcab44b7e6f83a1c18d09ca6ab38fe92a3682337fa6.wav",
-        "entryId": "en:sentence:frequency-example-again",
-        "label": "We read the question again.",
-        "parts": [
-            {
-                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
-                "entryId": "en:word:capital-we"
-            },
-            {
-                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
-                "entryId": "en:word:read"
-            },
-            {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the"
-            },
-            {
-                "path": "audio/35fad243608fc2d83692114a144def5d5db9497e3e2aa8c70cf9718d64777a85.wav",
-                "entryId": "en:word:question"
-            },
-            {
-                "path": "audio/024b55e2d0ec5a9bc349fb971943726460526ecde794d2b5bc02e61bd4ce65d4.wav",
-                "entryId": "en:word:frequency-again"
-            },
-            { "pauseMs": 400 }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
-                "entryId": "en:word:capital-we",
-                "startFrame": 2400,
-                "frameCount": 17552
-            },
-            {
-                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
-                "entryId": "en:word:read",
-                "startFrame": 22112,
-                "frameCount": 11133
-            },
-            {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the",
-                "startFrame": 35405,
-                "frameCount": 8150
-            },
-            {
-                "path": "audio/35fad243608fc2d83692114a144def5d5db9497e3e2aa8c70cf9718d64777a85.wav",
-                "entryId": "en:word:question",
-                "startFrame": 45715,
-                "frameCount": 13824
-            },
-            {
-                "path": "audio/024b55e2d0ec5a9bc349fb971943726460526ecde794d2b5bc02e61bd4ce65d4.wav",
-                "entryId": "en:word:frequency-again",
-                "startFrame": 61699,
-                "frameCount": 21022
-            }
-        ],
-        "sha256": "39dfa3cd8c2e46a54c9addcab44b7e6f83a1c18d09ca6ab38fe92a3682337fa6",
-        "frames": 94481,
-        "input": {
-            "language": "en",
-            "label": "We read the question again.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact constituent PCM, preserving every selected grammatical form."
-        }
-    },
-    {
-        "path": "audio/46cd37bd5f9c338f1138189b668680ff1ebe6aaa1ef74c0333a2ba773c45ee19.wav",
-        "entryId": "en:sentence:core-example-read",
-        "label": "I read in the library.",
-        "parts": [
-            {
-                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
-                "entryId": "en:word:i"
-            },
-            {
-                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
-                "entryId": "en:word:read"
-            },
-            {
-                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
-                "entryId": "en:particle:in"
-            },
-            {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the"
-            },
-            {
-                "path": "audio/9572e372989b5c731c9f77f0370494110dfb2b2df0dbcd1043df6e56f81fe2ad.wav",
-                "entryId": "en:word:places-library"
-            },
-            { "pauseMs": 400 }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
-                "entryId": "en:word:i",
-                "startFrame": 2400,
-                "frameCount": 6507
-            },
-            {
-                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
-                "entryId": "en:word:read",
-                "startFrame": 11067,
-                "frameCount": 11133
-            },
-            {
-                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
-                "entryId": "en:particle:in",
-                "startFrame": 24360,
-                "frameCount": 7315
-            },
-            {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the",
-                "startFrame": 33835,
-                "frameCount": 8150
-            },
-            {
-                "path": "audio/9572e372989b5c731c9f77f0370494110dfb2b2df0dbcd1043df6e56f81fe2ad.wav",
-                "entryId": "en:word:places-library",
-                "startFrame": 44145,
-                "frameCount": 24366
-            }
-        ],
-        "sha256": "46cd37bd5f9c338f1138189b668680ff1ebe6aaa1ef74c0333a2ba773c45ee19",
-        "frames": 80271,
-        "input": {
-            "language": "en",
-            "label": "I read in the library.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact constituent PCM, preserving every selected grammatical form."
-        }
-    },
-    {
-        "path": "audio/a5586d46a9e011a433d32247ff3b0118c2eb51ea4975e2f5402d1ea05b37b1ec.wav",
-        "entryId": "en:sentence:core-example-write",
-        "label": "I write with a pen.",
-        "parts": [
-            {
-                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
-                "entryId": "en:word:i"
-            },
-            {
-                "path": "audio/16a2d1eaaa889296b2f83e59f3b322f25fe44467632933ef9771f2c00ea68bbb.wav",
-                "entryId": "en:word:write"
-            },
-            {
-                "path": "audio/6d2d3881b88f3c382ad83e70da941112308ecd8ffb35358a71c8c38c099170d6.wav",
-                "entryId": "en:particle:with"
-            },
-            {
-                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
-                "entryId": "en:word:a"
-            },
-            {
-                "path": "audio/4aea6ff75bd574d18c082382beed1704fb552f0e633a8e749b083cc1a66e0b60.wav",
-                "entryId": "en:word:school-pen"
-            },
-            { "pauseMs": 400 }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
-                "entryId": "en:word:i",
-                "startFrame": 2400,
-                "frameCount": 6507
-            },
-            {
-                "path": "audio/16a2d1eaaa889296b2f83e59f3b322f25fe44467632933ef9771f2c00ea68bbb.wav",
-                "entryId": "en:word:write",
-                "startFrame": 11067,
-                "frameCount": 13293
-            },
-            {
-                "path": "audio/6d2d3881b88f3c382ad83e70da941112308ecd8ffb35358a71c8c38c099170d6.wav",
-                "entryId": "en:particle:with",
-                "startFrame": 26520,
-                "frameCount": 12362
-            },
-            {
-                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
-                "entryId": "en:word:a",
-                "startFrame": 41042,
-                "frameCount": 12540
-            },
-            {
-                "path": "audio/4aea6ff75bd574d18c082382beed1704fb552f0e633a8e749b083cc1a66e0b60.wav",
-                "entryId": "en:word:school-pen",
-                "startFrame": 55742,
-                "frameCount": 19907
-            }
-        ],
-        "sha256": "a5586d46a9e011a433d32247ff3b0118c2eb51ea4975e2f5402d1ea05b37b1ec",
-        "frames": 87409,
-        "input": {
-            "language": "en",
-            "label": "I write with a pen.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact constituent PCM, preserving every selected grammatical form."
-        }
-    },
-    {
-        "path": "audio/2306b5698db25977cfc3284bf1c70a0eca0c1db276ce3790e60ac2a92fa99ac4.wav",
-        "entryId": "en:sentence:core-example-speak",
-        "label": "They speak English.",
-        "parts": [
-            {
-                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
-                "entryId": "en:word:capital-they"
-            },
-            {
-                "path": "audio/a39b067c873d54f1cc32e7db3083ede911328e7819731066390622ea0c5b975c.wav",
-                "entryId": "en:word:speak"
-            },
-            {
-                "path": "audio/f0bcb581f921e4885369caaa14ef8b658f494c2df87673ea2b22776fcf933db0.wav",
-                "entryId": "en:word:english"
-            },
-            { "pauseMs": 400 }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
-                "entryId": "en:word:capital-they",
-                "startFrame": 2400,
-                "frameCount": 9803
-            },
-            {
-                "path": "audio/a39b067c873d54f1cc32e7db3083ede911328e7819731066390622ea0c5b975c.wav",
-                "entryId": "en:word:speak",
-                "startFrame": 14363,
-                "frameCount": 16610
-            },
-            {
-                "path": "audio/f0bcb581f921e4885369caaa14ef8b658f494c2df87673ea2b22776fcf933db0.wav",
-                "entryId": "en:word:english",
-                "startFrame": 33133,
-                "frameCount": 16343
-            }
-        ],
-        "sha256": "2306b5698db25977cfc3284bf1c70a0eca0c1db276ce3790e60ac2a92fa99ac4",
-        "frames": 61236,
-        "input": {
-            "language": "en",
-            "label": "They speak English.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact constituent PCM, preserving every selected grammatical form."
-        }
-    },
-    {
-        "path": "audio/7a737114f4058649c2553360427b4db5a19c3186d64fe53c2ec35988d0c916d6.wav",
-        "entryId": "en:sentence:core-example-sleep",
-        "label": "The child sleeps.",
-        "parts": [
-            {
-                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
-                "entryId": "en:word:capital-the"
-            },
-            {
-                "path": "audio/99384efe80537043c09c51b03eeca279200eefb8662283ed8116fc613de82adb.wav",
-                "entryId": "en:word:child"
-            },
-            {
-                "path": "audio/a1767128764871415c3a84c5effedf7cb871591df1295ee1d57e3379b42b127b.wav",
-                "entryId": "en:word:form-english-sleep-third-person"
-            },
-            { "pauseMs": 400 }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
-                "entryId": "en:word:capital-the",
-                "startFrame": 2400,
-                "frameCount": 8150
-            },
-            {
-                "path": "audio/99384efe80537043c09c51b03eeca279200eefb8662283ed8116fc613de82adb.wav",
-                "entryId": "en:word:child",
-                "startFrame": 12710,
-                "frameCount": 30746
-            },
-            {
-                "path": "audio/a1767128764871415c3a84c5effedf7cb871591df1295ee1d57e3379b42b127b.wav",
-                "entryId": "en:word:form-english-sleep-third-person",
-                "startFrame": 45616,
-                "frameCount": 16646
-            }
-        ],
-        "sha256": "7a737114f4058649c2553360427b4db5a19c3186d64fe53c2ec35988d0c916d6",
-        "frames": 74022,
-        "input": {
-            "language": "en",
-            "label": "The child sleeps.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact constituent PCM, preserving every selected grammatical form."
-        }
-    },
-    {
         "path": "audio/87e963d02f3925cbc6d5ed715c6f123b0b8ff8cf698e9a85ab45c1f885055777.wav",
         "entryId": "en:sentence:social-example-greeting",
         "label": "I say hello to my friend.",
@@ -750,6 +425,321 @@
         "metadata": {
             "listening": "unverified-not-performed",
             "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/35ed9b6bc4fa89719887af65699d1b0cac020ba473c73f7e655ed6e45326addf.wav",
+        "entryId": "en:sentence:requests-example-please",
+        "label": "Please speak slowly.",
+        "parts": [
+            {
+                "path": "audio/cbcd3d1340fc2e98981d35563f6bd5d6434375f40d4858088fd6413622975cea.wav",
+                "entryId": "en:word:requests-please"
+            },
+            {
+                "path": "audio/a39b067c873d54f1cc32e7db3083ede911328e7819731066390622ea0c5b975c.wav",
+                "entryId": "en:word:speak"
+            },
+            {
+                "path": "audio/2b74222ac22ab764968a4ea170457de805e525ea92c037da57ab21e8fc8e29e8.wav",
+                "entryId": "en:word:slowly"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/cbcd3d1340fc2e98981d35563f6bd5d6434375f40d4858088fd6413622975cea.wav",
+                "entryId": "en:word:requests-please",
+                "startFrame": 2400,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/a39b067c873d54f1cc32e7db3083ede911328e7819731066390622ea0c5b975c.wav",
+                "entryId": "en:word:speak",
+                "startFrame": 25582,
+                "frameCount": 16610
+            },
+            {
+                "path": "audio/2b74222ac22ab764968a4ea170457de805e525ea92c037da57ab21e8fc8e29e8.wav",
+                "entryId": "en:word:slowly",
+                "startFrame": 44352,
+                "frameCount": 17166
+            }
+        ],
+        "sha256": "35ed9b6bc4fa89719887af65699d1b0cac020ba473c73f7e655ed6e45326addf",
+        "frames": 73278,
+        "input": {
+            "language": "en",
+            "label": "Please speak slowly.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/719ad6fd9aed160aba0f149180258dfbe8b966c94696a8e35467c4f471e88240.wav",
+        "entryId": "en:sentence:requests-example-repeat",
+        "label": "Pardon? Please speak slowly.",
+        "parts": [
+            {
+                "path": "audio/048dac7df64d4150f80f428e731bab677e694f736c0fb76ed282b610343f1470.wav",
+                "entryId": "en:word:requests-repeat"
+            },
+            {
+                "path": "audio/cbcd3d1340fc2e98981d35563f6bd5d6434375f40d4858088fd6413622975cea.wav",
+                "entryId": "en:word:requests-please"
+            },
+            {
+                "path": "audio/a39b067c873d54f1cc32e7db3083ede911328e7819731066390622ea0c5b975c.wav",
+                "entryId": "en:word:speak"
+            },
+            {
+                "path": "audio/2b74222ac22ab764968a4ea170457de805e525ea92c037da57ab21e8fc8e29e8.wav",
+                "entryId": "en:word:slowly"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/048dac7df64d4150f80f428e731bab677e694f736c0fb76ed282b610343f1470.wav",
+                "entryId": "en:word:requests-repeat",
+                "startFrame": 2400,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/cbcd3d1340fc2e98981d35563f6bd5d6434375f40d4858088fd6413622975cea.wav",
+                "entryId": "en:word:requests-please",
+                "startFrame": 25582,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/a39b067c873d54f1cc32e7db3083ede911328e7819731066390622ea0c5b975c.wav",
+                "entryId": "en:word:speak",
+                "startFrame": 48764,
+                "frameCount": 16610
+            },
+            {
+                "path": "audio/2b74222ac22ab764968a4ea170457de805e525ea92c037da57ab21e8fc8e29e8.wav",
+                "entryId": "en:word:slowly",
+                "startFrame": 67534,
+                "frameCount": 17166
+            }
+        ],
+        "sha256": "719ad6fd9aed160aba0f149180258dfbe8b966c94696a8e35467c4f471e88240",
+        "frames": 96460,
+        "input": {
+            "language": "en",
+            "label": "Pardon? Please speak slowly.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM, preserving every selected grammatical form."
+        }
+    },
+    {
+        "path": "audio/0a84a0348eb96b936408c6c4f698db0a26f74eaf076cf4c443fa689ebb6660b0.wav",
+        "entryId": "en:sentence:plans-library-tomorrow",
+        "label": "I go to the library tomorrow.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/42b81828f68c66abecf181e027005a9e134f7f4c0618553235928583db3f3fe4.wav",
+                "entryId": "en:word:go"
+            },
+            {
+                "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
+                "entryId": "en:particle:to"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/9572e372989b5c731c9f77f0370494110dfb2b2df0dbcd1043df6e56f81fe2ad.wav",
+                "entryId": "en:word:places-library"
+            },
+            {
+                "path": "audio/3bda29c76b1da7d79aacd67a064d60921581ad443f11583eabd5843598acd322.wav",
+                "entryId": "en:word:time-tomorrow"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/42b81828f68c66abecf181e027005a9e134f7f4c0618553235928583db3f3fe4.wav",
+                "entryId": "en:word:go",
+                "startFrame": 11067,
+                "frameCount": 11545
+            },
+            {
+                "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
+                "entryId": "en:particle:to",
+                "startFrame": 24772,
+                "frameCount": 7478
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 34410,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/9572e372989b5c731c9f77f0370494110dfb2b2df0dbcd1043df6e56f81fe2ad.wav",
+                "entryId": "en:word:places-library",
+                "startFrame": 44720,
+                "frameCount": 24366
+            },
+            {
+                "path": "audio/3bda29c76b1da7d79aacd67a064d60921581ad443f11583eabd5843598acd322.wav",
+                "entryId": "en:word:time-tomorrow",
+                "startFrame": 71246,
+                "frameCount": 24366
+            }
+        ],
+        "sha256": "0a84a0348eb96b936408c6c4f698db0a26f74eaf076cf4c443fa689ebb6660b0",
+        "frames": 107372,
+        "input": {
+            "language": "en",
+            "label": "I go to the library tomorrow.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM; no external synthesis."
+        }
+    },
+    {
+        "path": "audio/c2988752c3d2335a1ef6e986a519845e71b6ae3a9f210cf4ba44dace6bfd0825.wav",
+        "entryId": "en:sentence:plans-arrive-soon",
+        "label": "They arrive soon.",
+        "parts": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they"
+            },
+            {
+                "path": "audio/ffe1889995368b442ef4cddfa005eee34ad47a5a2fa784da0052087f82af9d70.wav",
+                "entryId": "en:word:travel-arrive"
+            },
+            {
+                "path": "audio/3b4058dbb6d0c25e594059afd5ed01e32a93c8edd80abbb553e635bcfdb3bb04.wav",
+                "entryId": "en:word:time-soon"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they",
+                "startFrame": 2400,
+                "frameCount": 9803
+            },
+            {
+                "path": "audio/ffe1889995368b442ef4cddfa005eee34ad47a5a2fa784da0052087f82af9d70.wav",
+                "entryId": "en:word:travel-arrive",
+                "startFrame": 14363,
+                "frameCount": 24366
+            },
+            {
+                "path": "audio/3b4058dbb6d0c25e594059afd5ed01e32a93c8edd80abbb553e635bcfdb3bb04.wav",
+                "entryId": "en:word:time-soon",
+                "startFrame": 40889,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "c2988752c3d2335a1ef6e986a519845e71b6ae3a9f210cf4ba44dace6bfd0825",
+        "frames": 72556,
+        "input": {
+            "language": "en",
+            "label": "They arrive soon.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM; no external synthesis."
+        }
+    },
+    {
+        "path": "audio/61fcdce6201af2436f7e236d4bf90d5ba634baa6c77e821ba56064f5a15e3b75.wav",
+        "entryId": "en:sentence:plans-home-later",
+        "label": "She goes home later.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/8b9e604e5d8aca23b6a316f955e0d8de408425c0b1bf191ab91daa67560c4552.wav",
+                "entryId": "en:word:form-english-go-third-person"
+            },
+            {
+                "path": "audio/e6cabc8adac4be8b43eb723f61d8c3f03674cf3542a5f82bfc16deec706100ef.wav",
+                "entryId": "en:word:home"
+            },
+            {
+                "path": "audio/dee3a0aea9789a8b0e8b72c5ee2a63327f8f4ca9534b42c3452d0b6a900396e2.wav",
+                "entryId": "en:word:time-later"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/8b9e604e5d8aca23b6a316f955e0d8de408425c0b1bf191ab91daa67560c4552.wav",
+                "entryId": "en:word:form-english-go-third-person",
+                "startFrame": 14932,
+                "frameCount": 13282
+            },
+            {
+                "path": "audio/e6cabc8adac4be8b43eb723f61d8c3f03674cf3542a5f82bfc16deec706100ef.wav",
+                "entryId": "en:word:home",
+                "startFrame": 30374,
+                "frameCount": 12520
+            },
+            {
+                "path": "audio/dee3a0aea9789a8b0e8b72c5ee2a63327f8f4ca9534b42c3452d0b6a900396e2.wav",
+                "entryId": "en:word:time-later",
+                "startFrame": 45054,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "61fcdce6201af2436f7e236d4bf90d5ba634baa6c77e821ba56064f5a15e3b75",
+        "frames": 76721,
+        "input": {
+            "language": "en",
+            "label": "She goes home later.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM; no external synthesis."
         }
     }
 ]

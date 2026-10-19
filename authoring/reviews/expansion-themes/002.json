@@ -1,5 +1,36 @@
 [
     {
+        "theme": "fixtures",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:fixtures-fridge",
+                "label": "fridge"
+            },
+            {
+                "entryId": "en:word:fixtures-oven",
+                "label": "oven"
+            },
+            {
+                "entryId": "en:word:fixtures-sink",
+                "label": "sink"
+            },
+            {
+                "entryId": "en:word:fixtures-shower",
+                "label": "shower"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:fixtures-example-fridge",
+            "en:sentence:fixtures-example-oven",
+            "en:sentence:fixtures-example-sink",
+            "en:sentence:fixtures-example-shower"
+        ],
+        "recordedGrammaticalFormCount": 4,
+        "vocabularyAudit": "authoring/reviews/fixtures-vocabulary.json"
+    },
+    {
         "theme": "frequency",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -272,24 +303,5 @@
         ],
         "recordedGrammaticalFormCount": 8,
         "vocabularyAudit": "authoring/reviews/qualities-vocabulary.json"
-    },
-    {
-        "theme": "reading-time",
-        "newDistinctVocabularyCount": 1,
-        "vocabulary": [
-            {
-                "entryId": "en:word:reading-time-newspaper",
-                "label": "newspaper"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:reading-time-example-morning-news",
-            "en:sentence:reading-time-example-night-book",
-            "en:sentence:reading-time-example-news-table",
-            "en:sentence:reading-time-example-buy-news"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/reading-time-vocabulary.json"
     }
 ]

@@ -1,40 +1,101 @@
 [
     {
-        "path": "audio/847503c5834cd3840ff158d86ae75021973d6eb78ce7ed614f74e69836a3cb5c.wav",
-        "entryId": "en:sentence:study-habits-write-notebook",
-        "label": "I write the answer in my notebook.",
+        "path": "audio/75dbb231bfad8652f40f8af18b0742b8ba3c56ebd699af1e68d9c51e6ca80d57.wav",
+        "entryId": "en:sentence:getting-ready-example-ticket-here",
+        "label": "The ticket is here.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/13addf06063eb86d2ee6b006d3f40adb45533e296ac2df787f4b7504d72dc4b5.wav",
+                "entryId": "en:word:travel-ticket"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
+                "entryId": "en:word:here"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/13addf06063eb86d2ee6b006d3f40adb45533e296ac2df787f4b7504d72dc4b5.wav",
+                "entryId": "en:word:travel-ticket",
+                "startFrame": 12710,
+                "frameCount": 19907
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 34777,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
+                "entryId": "en:word:here",
+                "startFrame": 47324,
+                "frameCount": 11241
+            }
+        ],
+        "sha256": "75dbb231bfad8652f40f8af18b0742b8ba3c56ebd699af1e68d9c51e6ca80d57",
+        "frames": 70325,
+        "input": {
+            "language": "en",
+            "label": "The ticket is here.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/ad47be98810a27c7c434358ac421974f79b783e387e94ec8d29444d5bcbf4b86.wav",
+        "entryId": "en:sentence:getting-ready-example-camera-map",
+        "label": "I take my camera and my map.",
         "parts": [
             {
                 "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
                 "entryId": "en:word:i"
             },
             {
-                "path": "audio/16a2d1eaaa889296b2f83e59f3b322f25fe44467632933ef9771f2c00ea68bbb.wav",
-                "entryId": "en:word:write"
-            },
-            {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the"
-            },
-            {
-                "path": "audio/506c0de6132c3b0fcffbac23bb14c931007adba8e6185f42f80385b660020ad6.wav",
-                "entryId": "en:word:answer"
-            },
-            {
-                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
-                "entryId": "en:particle:in"
+                "path": "audio/866b143420fea2c1c9f87ace932f03942d1e74d82268cd2977b1eee595542bb3.wav",
+                "entryId": "en:word:take"
             },
             {
                 "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
                 "entryId": "en:word:my"
             },
             {
-                "path": "audio/8b649cd68a079a305723da3969afb56419915cda9327fa283d2d7678672b0329.wav",
-                "entryId": "en:word:school-notebook"
+                "path": "audio/ad534989cc7616a0a28fab600b7f81b42009a2ae304b319b4d424d5be6ca2108.wav",
+                "entryId": "en:word:belongings-camera"
             },
             {
-                "pauseMs": 400
-            }
+                "path": "audio/c17bea5cede4ef7cefc56eda7f4c62d72e4eb6756b6cf1f5dc17cfb9f91f338a.wav",
+                "entryId": "en:particle:and"
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my"
+            },
+            {
+                "path": "audio/5892016b0b6e69a27533346650d767f5a09322f5c9e7baa52c7eb37ce2c09ed4.wav",
+                "entryId": "en:word:travel-map"
+            },
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -45,75 +106,261 @@
                 "frameCount": 6507
             },
             {
-                "path": "audio/16a2d1eaaa889296b2f83e59f3b322f25fe44467632933ef9771f2c00ea68bbb.wav",
-                "entryId": "en:word:write",
+                "path": "audio/866b143420fea2c1c9f87ace932f03942d1e74d82268cd2977b1eee595542bb3.wav",
+                "entryId": "en:word:take",
                 "startFrame": 11067,
-                "frameCount": 13293
-            },
-            {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the",
-                "startFrame": 26520,
-                "frameCount": 8150
-            },
-            {
-                "path": "audio/506c0de6132c3b0fcffbac23bb14c931007adba8e6185f42f80385b660020ad6.wav",
-                "entryId": "en:word:answer",
-                "startFrame": 36830,
-                "frameCount": 14436
-            },
-            {
-                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
-                "entryId": "en:particle:in",
-                "startFrame": 53426,
-                "frameCount": 7315
+                "frameCount": 13165
             },
             {
                 "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
                 "entryId": "en:word:my",
-                "startFrame": 62901,
+                "startFrame": 26392,
                 "frameCount": 9522
             },
             {
-                "path": "audio/8b649cd68a079a305723da3969afb56419915cda9327fa283d2d7678672b0329.wav",
-                "entryId": "en:word:school-notebook",
-                "startFrame": 74583,
-                "frameCount": 24366
+                "path": "audio/ad534989cc7616a0a28fab600b7f81b42009a2ae304b319b4d424d5be6ca2108.wav",
+                "entryId": "en:word:belongings-camera",
+                "startFrame": 38074,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/c17bea5cede4ef7cefc56eda7f4c62d72e4eb6756b6cf1f5dc17cfb9f91f338a.wav",
+                "entryId": "en:particle:and",
+                "startFrame": 61256,
+                "frameCount": 11433
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my",
+                "startFrame": 74849,
+                "frameCount": 9522
+            },
+            {
+                "path": "audio/5892016b0b6e69a27533346650d767f5a09322f5c9e7baa52c7eb37ce2c09ed4.wav",
+                "entryId": "en:word:travel-map",
+                "startFrame": 86531,
+                "frameCount": 16564
             }
         ],
-        "sha256": "847503c5834cd3840ff158d86ae75021973d6eb78ce7ed614f74e69836a3cb5c",
-        "frames": 110709,
+        "sha256": "ad47be98810a27c7c434358ac421974f79b783e387e94ec8d29444d5bcbf4b86",
+        "frames": 114855,
         "input": {
             "language": "en",
-            "label": "I write the answer in my notebook.",
+            "label": "I take my camera and my map.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
         },
         "metadata": {
             "listening": "unverified-not-performed",
-            "construction": "Exact existing constituent PCM; no external synthesis."
+            "construction": "Exact constituent PCM with explicit selected transformations."
         }
     },
     {
-        "path": "audio/4b2d6fd993bb5e15a0b2769e76335514031123d9c51a7dd8f20f6d52a32c5ebf.wav",
-        "entryId": "en:sentence:study-habits-read-slowly",
-        "label": "She reads slowly.",
+        "path": "audio/4dd1066dcec93adc7fffa8a6e7e684a46370a9d96da032cc2edf5e85037cf8c8.wav",
+        "entryId": "en:sentence:getting-ready-example-key-phone",
+        "label": "I have my key and my phone.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/d4255166c4544afe249fa6b9d94b7c269dfe26aca8cd05c12b894525d7eaed7d.wav",
+                "entryId": "en:word:have"
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my"
+            },
+            {
+                "path": "audio/e5b442edb628e9fed0cb699a3ab7c8a979d4e2d94b229d8f6598a36d6daf90ea.wav",
+                "entryId": "en:word:key"
+            },
+            {
+                "path": "audio/c17bea5cede4ef7cefc56eda7f4c62d72e4eb6756b6cf1f5dc17cfb9f91f338a.wav",
+                "entryId": "en:particle:and"
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my"
+            },
+            {
+                "path": "audio/117a67fda04ed77d3be09804cfb4ecafd1ad565ae850710d715b8b09b91eaef3.wav",
+                "entryId": "en:word:phone"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/d4255166c4544afe249fa6b9d94b7c269dfe26aca8cd05c12b894525d7eaed7d.wav",
+                "entryId": "en:word:have",
+                "startFrame": 11067,
+                "frameCount": 11117
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my",
+                "startFrame": 24344,
+                "frameCount": 9522
+            },
+            {
+                "path": "audio/e5b442edb628e9fed0cb699a3ab7c8a979d4e2d94b229d8f6598a36d6daf90ea.wav",
+                "entryId": "en:word:key",
+                "startFrame": 36026,
+                "frameCount": 18793
+            },
+            {
+                "path": "audio/c17bea5cede4ef7cefc56eda7f4c62d72e4eb6756b6cf1f5dc17cfb9f91f338a.wav",
+                "entryId": "en:particle:and",
+                "startFrame": 56979,
+                "frameCount": 11433
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my",
+                "startFrame": 70572,
+                "frameCount": 9522
+            },
+            {
+                "path": "audio/117a67fda04ed77d3be09804cfb4ecafd1ad565ae850710d715b8b09b91eaef3.wav",
+                "entryId": "en:word:phone",
+                "startFrame": 82254,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "4dd1066dcec93adc7fffa8a6e7e684a46370a9d96da032cc2edf5e85037cf8c8",
+        "frames": 113921,
+        "input": {
+            "language": "en",
+            "label": "I have my key and my phone.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/4f7edc8430b8dc4f77274c5679cacbb1bdd6e74c91fe994157551da451acbe05.wav",
+        "entryId": "en:sentence:exchange-example-gave-book",
+        "label": "I gave my friend a book.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/cda55fbce58d54030780a5820e48f5dcebb11784c38ec2884237956afdce2791.wav",
+                "entryId": "en:word:form-exchange-give-past"
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my"
+            },
+            {
+                "path": "audio/cd6f1f4eaf8a91a02e40d8200bc074b3105c2af729a3689741b8ef53b827ae19.wav",
+                "entryId": "en:word:friend"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/8cc861c3afd001379e8aeaf2dfbca4a8d1a8822e4b0b61d2131e46e39ca9fc72.wav",
+                "entryId": "en:word:book"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/cda55fbce58d54030780a5820e48f5dcebb11784c38ec2884237956afdce2791.wav",
+                "entryId": "en:word:form-exchange-give-past",
+                "startFrame": 11067,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my",
+                "startFrame": 34249,
+                "frameCount": 9522
+            },
+            {
+                "path": "audio/cd6f1f4eaf8a91a02e40d8200bc074b3105c2af729a3689741b8ef53b827ae19.wav",
+                "entryId": "en:word:friend",
+                "startFrame": 45931,
+                "frameCount": 12778
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 60869,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/8cc861c3afd001379e8aeaf2dfbca4a8d1a8822e4b0b61d2131e46e39ca9fc72.wav",
+                "entryId": "en:word:book",
+                "startFrame": 75569,
+                "frameCount": 10706
+            }
+        ],
+        "sha256": "4f7edc8430b8dc4f77274c5679cacbb1bdd6e74c91fe994157551da451acbe05",
+        "frames": 98035,
+        "input": {
+            "language": "en",
+            "label": "I gave my friend a book.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/2f9025f13bb9ae85414bb909175061b037c973c97217a0aa9fe09d34576e7a40.wav",
+        "entryId": "en:sentence:exchange-example-gives-apple",
+        "label": "She gives the child an apple.",
         "parts": [
             {
                 "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
                 "entryId": "en:word:capital-she"
             },
             {
-                "path": "audio/5bc6c73d388441c4b3ccdf9abbea2cb6943c2fcacea43b6ca964ea7a4e8a03cf.wav",
-                "entryId": "en:word:form-english-read-third-person"
+                "path": "audio/7adc1ae15c06293ebf3ac08f56c344cac7893069e20396eb93e86ac2e05f5106.wav",
+                "entryId": "en:word:form-exchange-give-third-person"
             },
             {
-                "path": "audio/2b74222ac22ab764968a4ea170457de805e525ea92c037da57ab21e8fc8e29e8.wav",
-                "entryId": "en:word:slowly"
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
             },
             {
-                "pauseMs": 400
-            }
+                "path": "audio/99384efe80537043c09c51b03eeca279200eefb8662283ed8116fc613de82adb.wav",
+                "entryId": "en:word:child"
+            },
+            {
+                "path": "audio/dcae49349faaea394b80ec40846b30fe80d5b79ab19b0c5b96b75458d1d5d18f.wav",
+                "entryId": "en:word:an"
+            },
+            {
+                "path": "audio/c5ca5481f0db0738d946d33e49b7afd80679b17837d168369e5ef32f8198669d.wav",
+                "entryId": "en:word:apple"
+            },
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -124,270 +371,83 @@
                 "frameCount": 10372
             },
             {
-                "path": "audio/5bc6c73d388441c4b3ccdf9abbea2cb6943c2fcacea43b6ca964ea7a4e8a03cf.wav",
-                "entryId": "en:word:form-english-read-third-person",
+                "path": "audio/7adc1ae15c06293ebf3ac08f56c344cac7893069e20396eb93e86ac2e05f5106.wav",
+                "entryId": "en:word:form-exchange-give-third-person",
                 "startFrame": 14932,
-                "frameCount": 13546
-            },
-            {
-                "path": "audio/2b74222ac22ab764968a4ea170457de805e525ea92c037da57ab21e8fc8e29e8.wav",
-                "entryId": "en:word:slowly",
-                "startFrame": 30638,
-                "frameCount": 17166
-            }
-        ],
-        "sha256": "4b2d6fd993bb5e15a0b2769e76335514031123d9c51a7dd8f20f6d52a32c5ebf",
-        "frames": 59564,
-        "input": {
-            "language": "en",
-            "label": "She reads slowly.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact existing constituent PCM; no external synthesis."
-        }
-    },
-    {
-        "path": "audio/37e35dfafa33f6e7cb1fec3553246ebe10ce19119e06a6519736513eca78227e.wav",
-        "entryId": "en:sentence:study-habits-learn-language",
-        "label": "We learn English at school.",
-        "parts": [
-            {
-                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
-                "entryId": "en:word:capital-we"
-            },
-            {
-                "path": "audio/9f14c553875cf5406701c3c7cdaac72ee9af8067aa30e14df63b64ba995dd7d1.wav",
-                "entryId": "en:word:learn"
-            },
-            {
-                "path": "audio/f0bcb581f921e4885369caaa14ef8b658f494c2df87673ea2b22776fcf933db0.wav",
-                "entryId": "en:word:english"
-            },
-            {
-                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
-                "entryId": "en:particle:at"
-            },
-            {
-                "path": "audio/51bd627382d00740b5650b5a76f4e181feee90c3f1dbd10156966342c249553a.wav",
-                "entryId": "en:word:school"
-            },
-            {
-                "pauseMs": 400
-            }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
-                "entryId": "en:word:capital-we",
-                "startFrame": 2400,
-                "frameCount": 17552
-            },
-            {
-                "path": "audio/9f14c553875cf5406701c3c7cdaac72ee9af8067aa30e14df63b64ba995dd7d1.wav",
-                "entryId": "en:word:learn",
-                "startFrame": 22112,
-                "frameCount": 10298
-            },
-            {
-                "path": "audio/f0bcb581f921e4885369caaa14ef8b658f494c2df87673ea2b22776fcf933db0.wav",
-                "entryId": "en:word:english",
-                "startFrame": 34570,
-                "frameCount": 16343
-            },
-            {
-                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
-                "entryId": "en:particle:at",
-                "startFrame": 53073,
-                "frameCount": 9361
-            },
-            {
-                "path": "audio/51bd627382d00740b5650b5a76f4e181feee90c3f1dbd10156966342c249553a.wav",
-                "entryId": "en:word:school",
-                "startFrame": 64594,
-                "frameCount": 13929
-            }
-        ],
-        "sha256": "37e35dfafa33f6e7cb1fec3553246ebe10ce19119e06a6519736513eca78227e",
-        "frames": 90283,
-        "input": {
-            "language": "en",
-            "label": "We learn English at school.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact existing constituent PCM; no external synthesis."
-        }
-    },
-    {
-        "path": "audio/b2fec4f504b32c495945eb5fd0f0cc92e84982338ca946fe2af578e98855e635.wav",
-        "entryId": "en:sentence:study-habits-difficult-question",
-        "label": "This book is difficult.",
-        "parts": [
-            {
-                "path": "audio/8f1a8820f4f39a725ae1e72a595127faccdf533771641521b849d3c94a6e3acd.wav",
-                "entryId": "en:word:capital-this"
-            },
-            {
-                "path": "audio/8cc861c3afd001379e8aeaf2dfbca4a8d1a8822e4b0b61d2131e46e39ca9fc72.wav",
-                "entryId": "en:word:book"
-            },
-            {
-                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
-            },
-            {
-                "path": "audio/1f0e9e75cec1b9ebf8e9982bfc802b2039c4be24125e30956f407c7f9a47b756.wav",
-                "entryId": "en:word:qualities-difficult"
-            },
-            {
-                "pauseMs": 400
-            }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/8f1a8820f4f39a725ae1e72a595127faccdf533771641521b849d3c94a6e3acd.wav",
-                "entryId": "en:word:capital-this",
-                "startFrame": 2400,
-                "frameCount": 12058
-            },
-            {
-                "path": "audio/8cc861c3afd001379e8aeaf2dfbca4a8d1a8822e4b0b61d2131e46e39ca9fc72.wav",
-                "entryId": "en:word:book",
-                "startFrame": 16618,
-                "frameCount": 10706
-            },
-            {
-                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
-                "startFrame": 29484,
-                "frameCount": 10387
-            },
-            {
-                "path": "audio/1f0e9e75cec1b9ebf8e9982bfc802b2039c4be24125e30956f407c7f9a47b756.wav",
-                "entryId": "en:word:qualities-difficult",
-                "startFrame": 42031,
-                "frameCount": 27709
-            }
-        ],
-        "sha256": "b2fec4f504b32c495945eb5fd0f0cc92e84982338ca946fe2af578e98855e635",
-        "frames": 81500,
-        "input": {
-            "language": "en",
-            "label": "This book is difficult.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact existing constituent PCM; no external synthesis."
-        }
-    },
-    {
-        "path": "audio/28e88122c8077269dc06aed5f73e8da13fd078598bf6ccf04b5830ffc11fd3d3.wav",
-        "entryId": "en:sentence:study-habits-listen-teacher",
-        "label": "Please listen to the teacher.",
-        "parts": [
-            {
-                "path": "audio/cbcd3d1340fc2e98981d35563f6bd5d6434375f40d4858088fd6413622975cea.wav",
-                "entryId": "en:word:requests-please"
-            },
-            {
-                "path": "audio/d3f1ea0ea48a64eb2d53074820877ddb1f7cfec8518ffac00f38d0e114b454c2.wav",
-                "entryId": "en:word:listen"
-            },
-            {
-                "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
-                "entryId": "en:particle:to"
-            },
-            {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the"
-            },
-            {
-                "path": "audio/c286e951ed70b2957ed3a653bd770640c0a715281f6734cafbb1e58ef6a2c771.wav",
-                "entryId": "en:word:teacher"
-            },
-            {
-                "pauseMs": 400
-            }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/cbcd3d1340fc2e98981d35563f6bd5d6434375f40d4858088fd6413622975cea.wav",
-                "entryId": "en:word:requests-please",
-                "startFrame": 2400,
-                "frameCount": 21022
-            },
-            {
-                "path": "audio/d3f1ea0ea48a64eb2d53074820877ddb1f7cfec8518ffac00f38d0e114b454c2.wav",
-                "entryId": "en:word:listen",
-                "startFrame": 25582,
-                "frameCount": 12840
-            },
-            {
-                "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
-                "entryId": "en:particle:to",
-                "startFrame": 40582,
-                "frameCount": 7478
+                "frameCount": 24366
             },
             {
                 "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
                 "entryId": "en:word:the",
-                "startFrame": 50220,
+                "startFrame": 41458,
                 "frameCount": 8150
             },
             {
-                "path": "audio/c286e951ed70b2957ed3a653bd770640c0a715281f6734cafbb1e58ef6a2c771.wav",
-                "entryId": "en:word:teacher",
-                "startFrame": 60530,
-                "frameCount": 12796
+                "path": "audio/99384efe80537043c09c51b03eeca279200eefb8662283ed8116fc613de82adb.wav",
+                "entryId": "en:word:child",
+                "startFrame": 51768,
+                "frameCount": 30746
+            },
+            {
+                "path": "audio/dcae49349faaea394b80ec40846b30fe80d5b79ab19b0c5b96b75458d1d5d18f.wav",
+                "entryId": "en:word:an",
+                "startFrame": 84674,
+                "frameCount": 9462
+            },
+            {
+                "path": "audio/c5ca5481f0db0738d946d33e49b7afd80679b17837d168369e5ef32f8198669d.wav",
+                "entryId": "en:word:apple",
+                "startFrame": 96296,
+                "frameCount": 10930
             }
         ],
-        "sha256": "28e88122c8077269dc06aed5f73e8da13fd078598bf6ccf04b5830ffc11fd3d3",
-        "frames": 85086,
+        "sha256": "2f9025f13bb9ae85414bb909175061b037c973c97217a0aa9fe09d34576e7a40",
+        "frames": 118986,
         "input": {
             "language": "en",
-            "label": "Please listen to the teacher.",
+            "label": "She gives the child an apple.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
         },
         "metadata": {
             "listening": "unverified-not-performed",
-            "construction": "Exact existing constituent PCM; no external synthesis."
+            "construction": "Exact constituent PCM with explicit selected transformations."
         }
     },
     {
-        "path": "audio/4d0b0cc478584fc90fce602c05b095210f59acc47828ef3d60069240ff28ab0d.wav",
-        "entryId": "en:sentence:study-habits-need-pencil",
-        "label": "I need a pencil.",
+        "path": "audio/c0f69ef230eaf4d23195af069b97cd2d9de6d93a856304064f1a4c909be1e88c.wav",
+        "entryId": "en:sentence:exchange-example-received-camera",
+        "label": "I received a camera from my father.",
         "parts": [
             {
                 "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
                 "entryId": "en:word:i"
             },
             {
-                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
-                "entryId": "en:word:need"
+                "path": "audio/2f8336bfa16be402ad3e135f3a78a26c537cc751b3e279ae04fa9c69ac4ba668.wav",
+                "entryId": "en:word:form-exchange-receive-past"
             },
             {
                 "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
                 "entryId": "en:word:a"
             },
             {
-                "path": "audio/923a4d859a8d86b5a088328f9b634e5f7f6073802146cca458afd5f2e5f4f9dc.wav",
-                "entryId": "en:word:school-pencil"
+                "path": "audio/ad534989cc7616a0a28fab600b7f81b42009a2ae304b319b4d424d5be6ca2108.wav",
+                "entryId": "en:word:belongings-camera"
             },
             {
-                "pauseMs": 400
-            }
+                "path": "audio/bd95d0a18f27b2f94db5a173fdaebefa40164c7fd8a5951ba9bdf814941971f4.wav",
+                "entryId": "en:particle:from"
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my"
+            },
+            {
+                "path": "audio/ad72cddfd8aea0fe731184cc09c370adf08a2b001d02332f0e22a9fc8ea37bd9.wav",
+                "entryId": "en:word:father"
+            },
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -398,35 +458,146 @@
                 "frameCount": 6507
             },
             {
-                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
-                "entryId": "en:word:need",
+                "path": "audio/2f8336bfa16be402ad3e135f3a78a26c537cc751b3e279ae04fa9c69ac4ba668.wav",
+                "entryId": "en:word:form-exchange-receive-past",
                 "startFrame": 11067,
-                "frameCount": 9927
+                "frameCount": 24366
             },
             {
                 "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
                 "entryId": "en:word:a",
-                "startFrame": 23154,
+                "startFrame": 37593,
                 "frameCount": 12540
             },
             {
-                "path": "audio/923a4d859a8d86b5a088328f9b634e5f7f6073802146cca458afd5f2e5f4f9dc.wav",
-                "entryId": "en:word:school-pencil",
-                "startFrame": 37854,
-                "frameCount": 23251
+                "path": "audio/ad534989cc7616a0a28fab600b7f81b42009a2ae304b319b4d424d5be6ca2108.wav",
+                "entryId": "en:word:belongings-camera",
+                "startFrame": 52293,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/bd95d0a18f27b2f94db5a173fdaebefa40164c7fd8a5951ba9bdf814941971f4.wav",
+                "entryId": "en:particle:from",
+                "startFrame": 75475,
+                "frameCount": 12291
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my",
+                "startFrame": 89926,
+                "frameCount": 9522
+            },
+            {
+                "path": "audio/ad72cddfd8aea0fe731184cc09c370adf08a2b001d02332f0e22a9fc8ea37bd9.wav",
+                "entryId": "en:word:father",
+                "startFrame": 101608,
+                "frameCount": 12183
             }
         ],
-        "sha256": "4d0b0cc478584fc90fce602c05b095210f59acc47828ef3d60069240ff28ab0d",
-        "frames": 72865,
+        "sha256": "c0f69ef230eaf4d23195af069b97cd2d9de6d93a856304064f1a4c909be1e88c",
+        "frames": 125551,
         "input": {
             "language": "en",
-            "label": "I need a pencil.",
+            "label": "I received a camera from my father.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
         },
         "metadata": {
             "listening": "unverified-not-performed",
-            "construction": "Exact existing constituent PCM; no external synthesis."
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/d1f05813a7ddd0dcab26e8eccbe1bab2464164aa4137c7c429df2ffad762dadf.wav",
+        "entryId": "en:sentence:exchange-example-morning-news",
+        "label": "We receive the newspaper in the morning.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/b437287b62aa9ff62ed37bf3e693d5f46c055322c921da4b7841fc5bc4683f1a.wav",
+                "entryId": "en:word:exchange-receive"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/5fbea61f28718a3d1dc1a9cdb7c519c73729b95695b4b9f90200c86c215b113e.wav",
+                "entryId": "en:word:reading-time-newspaper"
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/ee881e674c9ef8f5e57993e590131081d0cda5f31a7f257d75e9108439e0d25f.wav",
+                "entryId": "en:word:morning"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/b437287b62aa9ff62ed37bf3e693d5f46c055322c921da4b7841fc5bc4683f1a.wav",
+                "entryId": "en:word:exchange-receive",
+                "startFrame": 22112,
+                "frameCount": 23251
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 47523,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/5fbea61f28718a3d1dc1a9cdb7c519c73729b95695b4b9f90200c86c215b113e.wav",
+                "entryId": "en:word:reading-time-newspaper",
+                "startFrame": 57833,
+                "frameCount": 25480
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in",
+                "startFrame": 85473,
+                "frameCount": 7315
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 94948,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/ee881e674c9ef8f5e57993e590131081d0cda5f31a7f257d75e9108439e0d25f.wav",
+                "entryId": "en:word:morning",
+                "startFrame": 105258,
+                "frameCount": 14905
+            }
+        ],
+        "sha256": "d1f05813a7ddd0dcab26e8eccbe1bab2464164aa4137c7c429df2ffad762dadf",
+        "frames": 131923,
+        "input": {
+            "language": "en",
+            "label": "We receive the newspaper in the morning.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
         }
     }
 ]

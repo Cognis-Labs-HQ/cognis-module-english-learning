@@ -749,5 +749,35 @@
         "variants": [],
         "sha256": "ab05643608bd2ce9c75c8c93e3b8525ab4adfd2e6fdc4af16bcf7b855b77403d",
         "frames": 20714
+    },
+    {
+        "path": "audio/b0ade986d119e127e7a8aa79ca884982b528e3cc3fd9466d7f956d03bac29301.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "this",
+        "phonemes": "ðɪs",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ðɪs\">this</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "this",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ðɪs/"]
+            }
+        ],
+        "entries": ["en:word:this"],
+        "variants": [],
+        "sha256": "ff735c5c843ff2a896613f6803c034bc697a8b2d09df8f21e1ff3f7c5c9530de",
+        "frames": 12058
     }
 ]

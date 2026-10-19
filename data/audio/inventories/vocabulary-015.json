@@ -1,464 +1,5 @@
 [
     {
-        "path": "audio/d7d1af6a999e0bb1545c909e968048d4ebc11ec8457aee64136d989f68496410.wav",
-        "text": "motorcycles",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈməʊtəsaɪklz\">motorcycles</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "motorcycles",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ˈməʊtəsaɪklz/"]
-            }
-        ],
-        "entries": ["en:word:form-transport-motorcycles"],
-        "variants": [
-            {
-                "entryId": "en:word:transport-motorcycle",
-                "setId": "noun-motorcycle",
-                "path": ["plural"]
-            }
-        ],
-        "sha256": "d7d1af6a999e0bb1545c909e968048d4ebc11ec8457aee64136d989f68496410",
-        "frames": 31053,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "17935e7e4f99812b237e3c9daa29b7ef70fa6cea2cf911f3f84ad2c391e5a9da"
-        }
-    },
-    {
-        "path": "audio/923a4d859a8d86b5a088328f9b634e5f7f6073802146cca458afd5f2e5f4f9dc.wav",
-        "text": "pencil",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈpensl\">pencil</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "pencil",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ˈpensl/"]
-            }
-        ],
-        "entries": ["en:word:school-pencil"],
-        "variants": [],
-        "sha256": "923a4d859a8d86b5a088328f9b634e5f7f6073802146cca458afd5f2e5f4f9dc",
-        "frames": 23251,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "d5d7e45829ebe911df3db43682ad3a3c711e2c989b76e642963ea19b362c3883"
-        }
-    },
-    {
-        "path": "audio/4aea6ff75bd574d18c082382beed1704fb552f0e633a8e749b083cc1a66e0b60.wav",
-        "text": "pen",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"pen\">pen</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "pen",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/pen/"]
-            }
-        ],
-        "entries": ["en:word:school-pen"],
-        "variants": [],
-        "sha256": "4aea6ff75bd574d18c082382beed1704fb552f0e633a8e749b083cc1a66e0b60",
-        "frames": 19907,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "f308141cd91a6cd9f98386f4e12ae1afa863f88187e97a524a21b9021c758ad9"
-        }
-    },
-    {
-        "path": "audio/8b649cd68a079a305723da3969afb56419915cda9327fa283d2d7678672b0329.wav",
-        "text": "notebook",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈnəʊtbʊk\">notebook</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "notebook",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ˈnəʊtbʊk/"]
-            }
-        ],
-        "entries": ["en:word:school-notebook"],
-        "variants": [],
-        "sha256": "8b649cd68a079a305723da3969afb56419915cda9327fa283d2d7678672b0329",
-        "frames": 24366,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "8f321ebbc801fb40823b59ee6f2ca6cbada3f1e458ead6db4694cfd3da9b1e32"
-        }
-    },
-    {
-        "path": "audio/99ecadfb9b0623b7c3fe91557040dfe1a4c87bcdf10fd7d7f25549dde56a29ac.wav",
-        "text": "ruler",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈruːlə\">ruler</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "ruler",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ˈruːlə/"]
-            }
-        ],
-        "entries": ["en:word:school-ruler"],
-        "variants": [],
-        "sha256": "99ecadfb9b0623b7c3fe91557040dfe1a4c87bcdf10fd7d7f25549dde56a29ac",
-        "frames": 22137,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "521a41106bb06382c4424b80dda6b23da3767323de37e585c9e9b27ab3d0fe1e"
-        }
-    },
-    {
-        "path": "audio/b0ef4e3d2d48822ea1ec35704b9ce62bbb22c914158e97f980bce43ca98e435c.wav",
-        "text": "pencils",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈpenslz\">pencils</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "pencils",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ˈpenslz/"]
-            }
-        ],
-        "entries": ["en:word:form-school-pencils"],
-        "variants": [
-            {
-                "entryId": "en:word:school-pencil",
-                "setId": "noun-pencil",
-                "path": ["plural"]
-            }
-        ],
-        "sha256": "b0ef4e3d2d48822ea1ec35704b9ce62bbb22c914158e97f980bce43ca98e435c",
-        "frames": 25480,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "3a7f49fb21dc747e3c7a7243eee8bb196e43b8e1fc975a5698bdee4eba30e406"
-        }
-    },
-    {
-        "path": "audio/ef891f7c07a79c9a34a30cc01c95b2fa0e3c08b56956937d877aaac84e4d6266.wav",
-        "text": "pens",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"penz\">pens</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "pens",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/penz/"]
-            }
-        ],
-        "entries": ["en:word:form-school-pens"],
-        "variants": [
-            {
-                "entryId": "en:word:school-pen",
-                "setId": "noun-pen",
-                "path": ["plural"]
-            }
-        ],
-        "sha256": "ef891f7c07a79c9a34a30cc01c95b2fa0e3c08b56956937d877aaac84e4d6266",
-        "frames": 23251,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "4746d69ba587970e03023aff5ad718266806d6d1797db5dd953d4b0fe357aad7"
-        }
-    },
-    {
-        "path": "audio/9b4ba1ff2bae6b8119005921b142601dbf86bde85c855f03811314f872aa77c2.wav",
-        "text": "notebooks",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈnəʊtbʊks\">notebooks</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "notebooks",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ˈnəʊtbʊks/"]
-            }
-        ],
-        "entries": ["en:word:form-school-notebooks"],
-        "variants": [
-            {
-                "entryId": "en:word:school-notebook",
-                "setId": "noun-notebook",
-                "path": ["plural"]
-            }
-        ],
-        "sha256": "9b4ba1ff2bae6b8119005921b142601dbf86bde85c855f03811314f872aa77c2",
-        "frames": 26595,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "dd70d9072171ad9f1789f428f19d86a3b4856b7eaac574dec88ebcfd6ffe6728"
-        }
-    },
-    {
-        "path": "audio/ccff70ddbc5b106263d228cfb52cc95d2197da0ef14a198cbe06836df881761e.wav",
-        "text": "rulers",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈruːləz\">rulers</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "rulers",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ˈruːləz/"]
-            }
-        ],
-        "entries": ["en:word:form-school-rulers"],
-        "variants": [
-            {
-                "entryId": "en:word:school-ruler",
-                "setId": "noun-ruler",
-                "path": ["plural"]
-            }
-        ],
-        "sha256": "ccff70ddbc5b106263d228cfb52cc95d2197da0ef14a198cbe06836df881761e",
-        "frames": 24366,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "c260f23a5a87cb06445e81529a82019be1950195861dda548deb37c370454650"
-        }
-    },
-    {
-        "path": "audio/331df3e2921645a7ddec192dd6e9220b96211ee941c19bb334a367779d2b94e7.wav",
-        "text": "rabbit",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈræbɪt\">rabbit</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "rabbit",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ˈræbɪt/"]
-            }
-        ],
-        "entries": ["en:word:animals-rabbit"],
-        "variants": [],
-        "sha256": "331df3e2921645a7ddec192dd6e9220b96211ee941c19bb334a367779d2b94e7",
-        "frames": 21022,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "df7f7695a429ada2be6d4d3f29a1f5787dcf1bb1f9d3750f200f66438dd7b312"
-        }
-    },
-    {
-        "path": "audio/4b80599f7cc07f893e21a1af5931fa0cc38bd30c7886ad94f0735831ea3f41cf.wav",
-        "text": "horse",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"hɔːs\">horse</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "horse",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/hɔːs/"]
-            }
-        ],
-        "entries": ["en:word:animals-horse"],
-        "variants": [],
-        "sha256": "4b80599f7cc07f893e21a1af5931fa0cc38bd30c7886ad94f0735831ea3f41cf",
-        "frames": 19907,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "e52f700ac4d363de654be59a8f2663d9c18eeffc2cb86605ff4f333182b780d8"
-        }
-    },
-    {
-        "path": "audio/b69d412d0b6ddfb9c17ac2f90ea1b1953d2e653084a74efabb1483de7ece45fe.wav",
-        "text": "cow",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"kaʊ\">cow</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "cow",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/kaʊ/"]
-            }
-        ],
-        "entries": ["en:word:animals-cow"],
-        "variants": [],
-        "sha256": "b69d412d0b6ddfb9c17ac2f90ea1b1953d2e653084a74efabb1483de7ece45fe",
-        "frames": 28824,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "fdbf0eb2e025a46d2d54ebae773088304ee851b3bce4cdce5d687e38bb2b038f"
-        }
-    },
-    {
-        "path": "audio/6d576ed90ca9c022431d70c26d5c71e60eaa4171b24ceb2b9312c9fc6d90865c.wav",
-        "text": "pig",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"pɪɡ\">pig</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "pig",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/pɪɡ/"]
-            }
-        ],
-        "entries": ["en:word:animals-pig"],
-        "variants": [],
-        "sha256": "6d576ed90ca9c022431d70c26d5c71e60eaa4171b24ceb2b9312c9fc6d90865c",
-        "frames": 19907,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "42405ec9a8a62f812f72635d5c368148b2b06ce83969f027631be8bb0c3d055c"
-        }
-    },
-    {
         "path": "audio/1fab45f6687314ac0fa65d78c224138449d8d2c973d5e29c3c221a4825724342.wav",
         "text": "rabbits",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
@@ -744,6 +285,489 @@
         "metadata": {
             "listening": "unverified-not-performed",
             "sourcePcmSha256": "68e67fc84b74844705d3ef194a80f4c7e9fd35b28ad05938a564ee68644c9c05"
+        }
+    },
+    {
+        "path": "audio/ba806c64f2ef8cf78fead26af9777bc1c4bf96bbc5b4ea5823fdf665c9716fb9.wav",
+        "text": "sofas",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈsəʊfəz\">sofas</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "sofas",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈsəʊfəz/"]
+            }
+        ],
+        "entries": ["en:word:form-furnishings-sofas"],
+        "variants": [
+            {
+                "entryId": "en:word:furnishings-sofa",
+                "setId": "noun-sofa",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "ba806c64f2ef8cf78fead26af9777bc1c4bf96bbc5b4ea5823fdf665c9716fb9",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "813b7f05602a44efe8247be64a007df437b83c50f76d7fafc5223883c87d03ea"
+        }
+    },
+    {
+        "path": "audio/47bdc4da68c5a59cf1e547f431689d9675067a78aafe43bc085a0ccf4ab66e90.wav",
+        "text": "lamps",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"læmps\">lamps</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "lamps",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/læmps/"]
+            }
+        ],
+        "entries": ["en:word:form-furnishings-lamps"],
+        "variants": [
+            {
+                "entryId": "en:word:furnishings-lamp",
+                "setId": "noun-lamp",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "47bdc4da68c5a59cf1e547f431689d9675067a78aafe43bc085a0ccf4ab66e90",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "9ed23d17e59ca6ca850e6bb951e0cd79e08f2a32fb49a63ab7daff0183426583"
+        }
+    },
+    {
+        "path": "audio/f40112903aff4d93f60db4de6647517afe8b439c167a6e47793e886f632648aa.wav",
+        "text": "mirrors",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈmɪrəz\">mirrors</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "mirrors",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈmɪrəz/"]
+            }
+        ],
+        "entries": ["en:word:form-furnishings-mirrors"],
+        "variants": [
+            {
+                "entryId": "en:word:furnishings-mirror",
+                "setId": "noun-mirror",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "f40112903aff4d93f60db4de6647517afe8b439c167a6e47793e886f632648aa",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "64bdd53d519c1f34ed1aaed734ffa127ffcee318b988c8ce90f899870d80e13b"
+        }
+    },
+    {
+        "path": "audio/63acd0be8dc8ec02afb883af78fac27701db364028205a9e891bcd793b1b0cd7.wav",
+        "text": "pillows",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈpɪləʊz\">pillows</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "pillows",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈpɪləʊz/"]
+            }
+        ],
+        "entries": ["en:word:form-furnishings-pillows"],
+        "variants": [
+            {
+                "entryId": "en:word:furnishings-pillow",
+                "setId": "noun-pillow",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "63acd0be8dc8ec02afb883af78fac27701db364028205a9e891bcd793b1b0cd7",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "fe26e63d869513582d97b3a004baf2dfff791c695c71c3e156713a6382153f51"
+        }
+    },
+    {
+        "path": "audio/a39c99137e68b960cd845e8c3ccbf91fd86cd77edcaad7e6e1b913bc3da6a68f.wav",
+        "text": "peach",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"piːtʃ\">peach</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "peach",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/piːtʃ/"]
+            }
+        ],
+        "entries": ["en:word:fruit-peach"],
+        "variants": [],
+        "sha256": "a39c99137e68b960cd845e8c3ccbf91fd86cd77edcaad7e6e1b913bc3da6a68f",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "302058ffbbcec1ef8fe532c10e6e86e7e929f3bf42c5cc415f68cfb3b8f64c43"
+        }
+    },
+    {
+        "path": "audio/e45683591a1b560a7b213e6581ac8fee714104875c52833407ff487b73773df0.wav",
+        "text": "pear",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"peə\">pear</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "pear",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/peə/"]
+            }
+        ],
+        "entries": ["en:word:fruit-pear"],
+        "variants": [],
+        "sha256": "e45683591a1b560a7b213e6581ac8fee714104875c52833407ff487b73773df0",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "b0639c567d9f8c65f9d61db82de567898d7d93816c7d75bf74966d745e8a0003"
+        }
+    },
+    {
+        "path": "audio/79c66feeb454f66a25c8bba59421e9e6602d7695894437f447bbd0384c33257f.wav",
+        "text": "watermelon",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈwɔːtəmelən\">watermelon</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "watermelon",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈwɔːtəmelən/"]
+            }
+        ],
+        "entries": ["en:word:fruit-watermelon"],
+        "variants": [],
+        "sha256": "79c66feeb454f66a25c8bba59421e9e6602d7695894437f447bbd0384c33257f",
+        "frames": 27709,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "03333f195ab903c1d11dd1ed51378975dd948d71b7a8a950524fe2987fd8e8c6"
+        }
+    },
+    {
+        "path": "audio/c9664a7eae119618c696133181404f698286048db0d5686208c3b0c933446364.wav",
+        "text": "pineapple",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈpaɪnæpl\">pineapple</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "pineapple",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈpaɪnæpl/"]
+            }
+        ],
+        "entries": ["en:word:fruit-pineapple"],
+        "variants": [],
+        "sha256": "c9664a7eae119618c696133181404f698286048db0d5686208c3b0c933446364",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "e56cb2d97fc20ca25e39e8890cb77cea5da47e804cafeb62d6484a8b96854a59"
+        }
+    },
+    {
+        "path": "audio/f8d5804e7d7d92568c1517aae37cd478dcfb98ceeca8c3cd7441032afd4d51fa.wav",
+        "text": "peaches",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈpiːtʃɪz\">peaches</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "peaches",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈpiːtʃɪz/"]
+            }
+        ],
+        "entries": ["en:word:form-fruit-peaches"],
+        "variants": [
+            {
+                "entryId": "en:word:fruit-peach",
+                "setId": "noun-peach",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "f8d5804e7d7d92568c1517aae37cd478dcfb98ceeca8c3cd7441032afd4d51fa",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "2051cfb65730b7d87d3c96912d1bc53c93f1054b0010163656ed83118d34f5ad"
+        }
+    },
+    {
+        "path": "audio/27115372c4d20cbb9c0adf83e8a3ef5460c3a4447b83296dc4025067bc26267f.wav",
+        "text": "pears",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"peəz\">pears</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "pears",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/peəz/"]
+            }
+        ],
+        "entries": ["en:word:form-fruit-pears"],
+        "variants": [
+            {
+                "entryId": "en:word:fruit-pear",
+                "setId": "noun-pear",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "27115372c4d20cbb9c0adf83e8a3ef5460c3a4447b83296dc4025067bc26267f",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "3f03e978955b324861c8383fea160ebe7d49bd1d82a407ba8fedb1bdaac077cf"
+        }
+    },
+    {
+        "path": "audio/83c0ece28effedf718be52fe49458f40f3b41336526b479ffbd80e27258b646f.wav",
+        "text": "watermelons",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈwɔːtəmelənz\">watermelons</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "watermelons",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈwɔːtəmelənz/"]
+            }
+        ],
+        "entries": ["en:word:form-fruit-watermelons"],
+        "variants": [
+            {
+                "entryId": "en:word:fruit-watermelon",
+                "setId": "noun-watermelon",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "83c0ece28effedf718be52fe49458f40f3b41336526b479ffbd80e27258b646f",
+        "frames": 31053,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "4be3dc6ae998da24102a733f800de737d46dcc0f13a4df99f727442eae7e64a4"
+        }
+    },
+    {
+        "path": "audio/960b7f76eb59a94f3328871835bd86efa84f78c30ec70cac39a1ec70087656e5.wav",
+        "text": "pineapples",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈpaɪnæplz\">pineapples</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "pineapples",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈpaɪnæplz/"]
+            }
+        ],
+        "entries": ["en:word:form-fruit-pineapples"],
+        "variants": [
+            {
+                "entryId": "en:word:fruit-pineapple",
+                "setId": "noun-pineapple",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "960b7f76eb59a94f3328871835bd86efa84f78c30ec70cac39a1ec70087656e5",
+        "frames": 28824,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "b83a8c5459a0ad2ec31fddfb66c56c14476d3b160d9e0de039499fec917f26c7"
+        }
+    },
+    {
+        "path": "audio/c28dcbe9c035bd8c0b68b5989756769a423d85f3d2058d84ed086a20c53f93df.wav",
+        "text": "bowls",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"bəʊlz\">bowls</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "bowls",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/bəʊlz/"]
+            }
+        ],
+        "entries": ["en:word:form-kitchen-bowls"],
+        "variants": [
+            {
+                "entryId": "en:word:kitchen-bowl",
+                "setId": "noun-bowl",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "c28dcbe9c035bd8c0b68b5989756769a423d85f3d2058d84ed086a20c53f93df",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "9f45626d9a1ddeffe8c04e4719564b2156d784875d5144f07d694de4ce97680a"
         }
     }
 ]

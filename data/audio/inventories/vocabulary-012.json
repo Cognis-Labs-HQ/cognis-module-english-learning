@@ -1,335 +1,5 @@
 [
     {
-        "path": "audio/4e97fc2d7680a44375e1896a585f1a00b3ff5be890aa9d51d3f787a9cbe6c7b7.wav",
-        "text": "yellow",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "yellow",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "yellow",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ˈjeləʊ/"]
-            }
-        ],
-        "entries": ["en:word:colors-yellow"],
-        "variants": [],
-        "sha256": "4e97fc2d7680a44375e1896a585f1a00b3ff5be890aa9d51d3f787a9cbe6c7b7",
-        "frames": 21022,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "ca9efbae59ca6edc469a344c0008f7b2252871aa575ad0931b56df076f86179b"
-        }
-    },
-    {
-        "path": "audio/721eebd0549f9cddc2b9f28812ff2810a329069ea9941108817200fb1b5b45e2.wav",
-        "text": "sun",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "sun",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "sun",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/sʌn/"]
-            }
-        ],
-        "entries": ["en:word:weather-sun"],
-        "variants": [],
-        "sha256": "721eebd0549f9cddc2b9f28812ff2810a329069ea9941108817200fb1b5b45e2",
-        "frames": 18793,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "678bf74da52e261a052298daf3dcd996893e6cd6a0a6fa9cb5cda79b1203d3e5"
-        }
-    },
-    {
-        "path": "audio/b5402130d53b97e483a26d111aad02fe645c40f3ca4f12805db72ed798897e3a.wav",
-        "text": "snow",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "snow",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "snow",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/snəʊ/"]
-            }
-        ],
-        "entries": ["en:word:weather-snow"],
-        "variants": [],
-        "sha256": "b5402130d53b97e483a26d111aad02fe645c40f3ca4f12805db72ed798897e3a",
-        "frames": 21022,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "343fa75bf1b61ff7f6c247c36cf060b6db3a9c0e3f4dfd8ce2ad5d694500b91e"
-        }
-    },
-    {
-        "path": "audio/542c89686a20fa93535164840ee4a0ba526a8993b4e225a85a1ec4184359bb78.wav",
-        "text": "wind",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"wɪnd\">wind</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "wind",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/wɪnd/"]
-            }
-        ],
-        "entries": ["en:word:weather-wind"],
-        "variants": [],
-        "sha256": "542c89686a20fa93535164840ee4a0ba526a8993b4e225a85a1ec4184359bb78",
-        "frames": 22137,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "6128e6154bcff8db94b6a1af01224d61ba2a1dd65c24b721d451855551ba33f5"
-        }
-    },
-    {
-        "path": "audio/d8444c84472077cc1f9bd206c5f9375ad3030c6d286aff8f3288e7690ba58398.wav",
-        "text": "cloud",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "cloud",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "cloud",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/klaʊd/"]
-            }
-        ],
-        "entries": ["en:word:weather-cloud"],
-        "variants": [],
-        "sha256": "d8444c84472077cc1f9bd206c5f9375ad3030c6d286aff8f3288e7690ba58398",
-        "frames": 21022,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "b802b0ad404bd2fff6135f652a5abd14d59e3d82357a48665536073c579eaa69"
-        }
-    },
-    {
-        "path": "audio/05c45e508861fb7a2a3aecbd9d0e3b81e4ffbe78ccdaf824d737db54161de605.wav",
-        "text": "left",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "left",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "left",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/left/"]
-            }
-        ],
-        "entries": ["en:word:directions-left"],
-        "variants": [],
-        "sha256": "05c45e508861fb7a2a3aecbd9d0e3b81e4ffbe78ccdaf824d737db54161de605",
-        "frames": 22137,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "9c57458f44fa73b0b36ed72b89d29c7a275f16ae112a4647e9197a63b5a6b2d4"
-        }
-    },
-    {
-        "path": "audio/e0754bfa543276a6aeb9462f4d1c84de0e58aad7e37c74900d3caf02ba2d943d.wav",
-        "text": "right",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "right",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "right",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/raɪt/"]
-            }
-        ],
-        "entries": ["en:word:directions-right"],
-        "variants": [],
-        "sha256": "e0754bfa543276a6aeb9462f4d1c84de0e58aad7e37c74900d3caf02ba2d943d",
-        "frames": 19907,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "def37c1fd13953f3d04609af8664ffc69fd2c2ce47883fadc3bdfe68cf5bbe54"
-        }
-    },
-    {
-        "path": "audio/c05947fecd22c3caf8deeba23bfedcb0cac477031d5bf4cf142236482d36d720.wav",
-        "text": "north",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "north",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "north",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/nɔːθ/"]
-            }
-        ],
-        "entries": ["en:word:directions-north"],
-        "variants": [],
-        "sha256": "c05947fecd22c3caf8deeba23bfedcb0cac477031d5bf4cf142236482d36d720",
-        "frames": 19907,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "9578ef7ab06ef467525dbbc0cceba11576dccfb2b70a853e26d2dcc509fc575d"
-        }
-    },
-    {
-        "path": "audio/12bbf92a5a37b70108d9418e85dc8750e35cf3a70fa000814adb015471e4a275.wav",
-        "text": "south",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "south",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "south",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/saʊθ/"]
-            }
-        ],
-        "entries": ["en:word:directions-south"],
-        "variants": [],
-        "sha256": "12bbf92a5a37b70108d9418e85dc8750e35cf3a70fa000814adb015471e4a275",
-        "frames": 21022,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "28761b7ed088107657afc5e7dee0b078525ddc0af5c449bfec6bae477c88cc00"
-        }
-    },
-    {
-        "path": "audio/1dcc58ee3a2dce873b01b597e4820c285eba988cdc8570159cf30389a4e6f065.wav",
-        "text": "shirt",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "shirt",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "shirt",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ʃɜːt/"]
-            }
-        ],
-        "entries": ["en:word:clothing-shirt"],
-        "variants": [],
-        "sha256": "1dcc58ee3a2dce873b01b597e4820c285eba988cdc8570159cf30389a4e6f065",
-        "frames": 18793,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "218b42917772639956051b8b150a89031a48a97b5ad4713c3962ab02f751118d"
-        }
-    },
-    {
         "path": "audio/fbc5452b8350acb7b99d28bcd1d2d468addb024891ef8ae82f9072ca09d4b42b.wav",
         "text": "dress",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
@@ -753,6 +423,372 @@
         "metadata": {
             "listening": "unverified-not-performed",
             "sourcePcmSha256": "602c55e407ad458603e817296d62626fa981aa1abab307be3471409958e557da"
+        }
+    },
+    {
+        "path": "audio/9dc7d8bb03561421cd31a9481c1826300984d533eec85b6bc2f98ab79a7c4504.wav",
+        "text": "plates",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"pleɪts\">plates</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "plates",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/pleɪts/"]
+            }
+        ],
+        "entries": ["en:word:form-tableware-plates"],
+        "variants": [
+            {
+                "entryId": "en:word:tableware-plate",
+                "setId": "noun-plate",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "9dc7d8bb03561421cd31a9481c1826300984d533eec85b6bc2f98ab79a7c4504",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "37a78832a9665d41b71bec4e0fadefb41a6fba3fb860f455e836c8a3a8271d89"
+        }
+    },
+    {
+        "path": "audio/88c48c2cbedaa2f072bdb8a940b6be0eea815cefca54708b6a6231578a540663.wav",
+        "text": "spoons",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"spuːnz\">spoons</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "spoons",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/spuːnz/"]
+            }
+        ],
+        "entries": ["en:word:form-tableware-spoons"],
+        "variants": [
+            {
+                "entryId": "en:word:tableware-spoon",
+                "setId": "noun-spoon",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "88c48c2cbedaa2f072bdb8a940b6be0eea815cefca54708b6a6231578a540663",
+        "frames": 26595,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "e41000d57c48f9bf3fe227bd06b8b0cd4f7d8d22b21ce6838b247f0c9c60405d"
+        }
+    },
+    {
+        "path": "audio/80e0e347e3742b9908d81590dff5e039a7066be39240fff169a916f68249117a.wav",
+        "text": "forks",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"fɔːks\">forks</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "forks",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/fɔːks/"]
+            }
+        ],
+        "entries": ["en:word:form-tableware-forks"],
+        "variants": [
+            {
+                "entryId": "en:word:tableware-fork",
+                "setId": "noun-fork",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "80e0e347e3742b9908d81590dff5e039a7066be39240fff169a916f68249117a",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "27d1eb274c607ea817f0f7c0c50002fc3f76117df96a4e0ae39c79cf05e4d6a2"
+        }
+    },
+    {
+        "path": "audio/9572e372989b5c731c9f77f0370494110dfb2b2df0dbcd1043df6e56f81fe2ad.wav",
+        "text": "library",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "library",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "library",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈlaɪbrəri/"]
+            }
+        ],
+        "entries": ["en:word:places-library"],
+        "variants": [],
+        "sha256": "9572e372989b5c731c9f77f0370494110dfb2b2df0dbcd1043df6e56f81fe2ad",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "d52f5ca741e4284587ed17ba9fec69fb4bb435112d82f83344b547b0d4142363"
+        }
+    },
+    {
+        "path": "audio/2bfa6419ef6336ced8fa0fc8c760aefe94fda710d1fac8f7b9e37074cf77599a.wav",
+        "text": "hospital",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "hospital",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "hospital",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈhɒspɪtəl/"]
+            }
+        ],
+        "entries": ["en:word:places-hospital"],
+        "variants": [],
+        "sha256": "2bfa6419ef6336ced8fa0fc8c760aefe94fda710d1fac8f7b9e37074cf77599a",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "dd0436198978d74316879caf2194c6f998732ea205bbb60cf8522e370fff0aa3"
+        }
+    },
+    {
+        "path": "audio/578eaa7c2d92a0ee7eb8ddbe36c8f4fc9df41588cc286435751ad234cfb4f5c7.wav",
+        "text": "supermarket",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "supermarket",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "supermarket",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈsuːpəmɑːkɪt/"]
+            }
+        ],
+        "entries": ["en:word:places-supermarket"],
+        "variants": [],
+        "sha256": "578eaa7c2d92a0ee7eb8ddbe36c8f4fc9df41588cc286435751ad234cfb4f5c7",
+        "frames": 26595,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "9bd9b9d0f97b5ba86fccf5397b309855576e064fb9bd627b7b91c317fa8b5bd7"
+        }
+    },
+    {
+        "path": "audio/bb02ea13233036ee8def9eca37d90344641079b5c1939a05a0d1e67006579d52.wav",
+        "text": "restaurant",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "restaurant",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "restaurant",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈrestrɒnt/"]
+            }
+        ],
+        "entries": ["en:word:places-restaurant"],
+        "variants": [],
+        "sha256": "bb02ea13233036ee8def9eca37d90344641079b5c1939a05a0d1e67006579d52",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "1a58192d2ab2958df48430ee2334cb64d32aadbc0bdef0356e2ef2328b932811"
+        }
+    },
+    {
+        "path": "audio/fb658fed55d29002b1c4115e8c73fcc964ab1bcb65d21cda7f1df28b02e7ab3b.wav",
+        "text": "libraries",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈlaɪbrəriz\">libraries</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "libraries",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈlaɪbrəriz/"]
+            }
+        ],
+        "entries": ["en:word:form-places-libraries"],
+        "variants": [
+            {
+                "entryId": "en:word:places-library",
+                "setId": "noun-library",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "fb658fed55d29002b1c4115e8c73fcc964ab1bcb65d21cda7f1df28b02e7ab3b",
+        "frames": 27709,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "14a04f05c575e61922806fa8f186713879697d5e1208e902871f13c5f549b946"
+        }
+    },
+    {
+        "path": "audio/56cfbbb32b48aeac610b2cdfe151b5c3f620b3be93770e3237f40aa3fdf74cee.wav",
+        "text": "hospitals",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈhɒspɪtəlz\">hospitals</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "hospitals",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈhɒspɪtəlz/"]
+            }
+        ],
+        "entries": ["en:word:form-places-hospitals"],
+        "variants": [
+            {
+                "entryId": "en:word:places-hospital",
+                "setId": "noun-hospital",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "56cfbbb32b48aeac610b2cdfe151b5c3f620b3be93770e3237f40aa3fdf74cee",
+        "frames": 27709,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "4e06d226e133c61ed1cfa7d523e3602220658301dbc952e30da38b9c4cc395f3"
+        }
+    },
+    {
+        "path": "audio/7e26f9a78018e6172a0fdfa1e99c2ca6081b6224adf9153ab8a1ab056eb7bbb3.wav",
+        "text": "supermarkets",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈsuːpəmɑːkɪts\">supermarkets</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "supermarkets",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈsuːpəmɑːkɪts/"]
+            }
+        ],
+        "entries": ["en:word:form-places-supermarkets"],
+        "variants": [
+            {
+                "entryId": "en:word:places-supermarket",
+                "setId": "noun-supermarket",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "7e26f9a78018e6172a0fdfa1e99c2ca6081b6224adf9153ab8a1ab056eb7bbb3",
+        "frames": 35511,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "40d055e155213e3df949d173be0ebdb7288e5ce527e9450cbd0ec4a0fe393848"
         }
     }
 ]

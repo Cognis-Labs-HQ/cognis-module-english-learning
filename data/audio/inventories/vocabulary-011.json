@@ -1,312 +1,5 @@
 [
     {
-        "path": "audio/ac0a84211cbb621a8d212ea618beda506557b635563c3bc2757aef6a50c038c6.wav",
-        "text": "buying",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "buying",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "buying",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ˈbaɪɪŋ/"]
-            }
-        ],
-        "entries": [],
-        "variants": [
-            {
-                "entryId": "en:word:travel-buy",
-                "setId": "travel-buy-forms",
-                "path": ["present-participle"]
-            }
-        ],
-        "sha256": "ac0a84211cbb621a8d212ea618beda506557b635563c3bc2757aef6a50c038c6",
-        "frames": 22137,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "languageSelection": "native-input-autodetection",
-            "sourcePcmSha256": "a64a4ab3b82d615414c4e957b57c0a167a986958531d06b38815fde9e83f68ce"
-        }
-    },
-    {
-        "path": "audio/f34e0c27c866a310883661b9e64717752127c2259a8469790f19eb1b21782a93.wav",
-        "text": "depart",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "depart",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "depart",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/dɪˈpɑːt/"]
-            }
-        ],
-        "entries": ["en:word:travel-depart"],
-        "variants": [],
-        "sha256": "f34e0c27c866a310883661b9e64717752127c2259a8469790f19eb1b21782a93",
-        "frames": 22137,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "languageSelection": "native-input-autodetection",
-            "sourcePcmSha256": "b220ae8970a937e57a536fd8b0159bddae848acbe8d387e02aa869a67fbd1319"
-        }
-    },
-    {
-        "path": "audio/4d7b088f996bb31cc40cb33fe16964ac4ca05c62e236a6607dc17d8142d941df.wav",
-        "text": "departs",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "departs",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "departs",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/dɪˈpɑːts/"]
-            }
-        ],
-        "entries": [],
-        "variants": [
-            {
-                "entryId": "en:word:travel-depart",
-                "setId": "travel-depart-forms",
-                "path": ["third-person"]
-            }
-        ],
-        "sha256": "4d7b088f996bb31cc40cb33fe16964ac4ca05c62e236a6607dc17d8142d941df",
-        "frames": 25480,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "languageSelection": "native-input-autodetection",
-            "sourcePcmSha256": "299889a063cb9446953b5f5b2e89faa1dfd2486d1a675b445f17fb97c49bbe7b"
-        }
-    },
-    {
-        "path": "audio/f1354781f53e1d305970947787645ec1ee17529ccde8019c237e9e4bad9ffb15.wav",
-        "text": "departed",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "departed",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "departed",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/dɪˈpɑːtɪd/"]
-            }
-        ],
-        "entries": [],
-        "variants": [
-            {
-                "entryId": "en:word:travel-depart",
-                "setId": "travel-depart-forms",
-                "path": ["past"]
-            },
-            {
-                "entryId": "en:word:travel-depart",
-                "setId": "travel-depart-forms",
-                "path": ["past-participle"]
-            }
-        ],
-        "sha256": "f1354781f53e1d305970947787645ec1ee17529ccde8019c237e9e4bad9ffb15",
-        "frames": 23251,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "languageSelection": "native-input-autodetection",
-            "sourcePcmSha256": "420110610755475c8717f2240478042d19671a863bea57e6c60f7611158ca605"
-        }
-    },
-    {
-        "path": "audio/b2db6dc99442160a1aaecee35482fa58857551ac726ed40e309c9e7e7d903894.wav",
-        "text": "departing",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "departing",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "departing",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/dɪˈpɑːtɪŋ/"]
-            }
-        ],
-        "entries": [],
-        "variants": [
-            {
-                "entryId": "en:word:travel-depart",
-                "setId": "travel-depart-forms",
-                "path": ["present-participle"]
-            }
-        ],
-        "sha256": "b2db6dc99442160a1aaecee35482fa58857551ac726ed40e309c9e7e7d903894",
-        "frames": 24366,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "languageSelection": "native-input-autodetection",
-            "sourcePcmSha256": "5e04b48c1e15e92683759db2eb1ca4aef8022d2132d6a8b13edc25ec248e9a89"
-        }
-    },
-    {
-        "path": "audio/a5236ba77e97840a3565edddf6a0315411280f04a0de915c5932c6b9e73bd72f.wav",
-        "text": "suitcase",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "suitcase",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "suitcase",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ˈsuːtkeɪs/"]
-            }
-        ],
-        "entries": ["en:word:travel-suitcase"],
-        "variants": [],
-        "sha256": "a5236ba77e97840a3565edddf6a0315411280f04a0de915c5932c6b9e73bd72f",
-        "frames": 24366,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "languageSelection": "native-input-autodetection",
-            "sourcePcmSha256": "3e14d993e11aa1a8d3f15ebd8ce7b0159198eb87dd2bafd6e213958a800b8c00"
-        }
-    },
-    {
-        "path": "audio/24d397f0a3fac11132e42b0b9dc24d9be66eba14ac2033d28f1be7a1bacaf289.wav",
-        "text": "suitcases",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "suitcases",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "suitcases",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ˈsuːtkeɪsɪz/"]
-            }
-        ],
-        "entries": [],
-        "variants": [
-            {
-                "entryId": "en:word:travel-suitcase",
-                "setId": "travel-suitcase-forms",
-                "path": ["plural"]
-            }
-        ],
-        "sha256": "24d397f0a3fac11132e42b0b9dc24d9be66eba14ac2033d28f1be7a1bacaf289",
-        "frames": 28824,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "languageSelection": "native-input-autodetection",
-            "sourcePcmSha256": "227ef9ab9013d45ecd47dec055d233834d5a58f2ccd5d203f44c06468b4cef91"
-        }
-    },
-    {
-        "path": "audio/13addf06063eb86d2ee6b006d3f40adb45533e296ac2df787f4b7504d72dc4b5.wav",
-        "text": "ticket",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "ticket",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "ticket",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ˈtɪkɪt/"]
-            }
-        ],
-        "entries": ["en:word:travel-ticket"],
-        "variants": [],
-        "sha256": "13addf06063eb86d2ee6b006d3f40adb45533e296ac2df787f4b7504d72dc4b5",
-        "frames": 19907,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "languageSelection": "native-input-autodetection",
-            "sourcePcmSha256": "6056396ab88930078ddc25991d4ab942a47a5d1b52334d088f4c342728f99de3"
-        }
-    },
-    {
         "path": "audio/523659aaaa20c22b467768c3fa466372b56e4b9080201ee459297746e3439b5f.wav",
         "text": "tickets",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
@@ -734,6 +427,336 @@
         "metadata": {
             "listening": "unverified-not-performed",
             "sourcePcmSha256": "a9e791abadd15e205eab9146d849ebd5904a5e97c055e87919af25cf63ec0a3e"
+        }
+    },
+    {
+        "path": "audio/4e97fc2d7680a44375e1896a585f1a00b3ff5be890aa9d51d3f787a9cbe6c7b7.wav",
+        "text": "yellow",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "yellow",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "yellow",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈjeləʊ/"]
+            }
+        ],
+        "entries": ["en:word:colors-yellow"],
+        "variants": [],
+        "sha256": "4e97fc2d7680a44375e1896a585f1a00b3ff5be890aa9d51d3f787a9cbe6c7b7",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "ca9efbae59ca6edc469a344c0008f7b2252871aa575ad0931b56df076f86179b"
+        }
+    },
+    {
+        "path": "audio/721eebd0549f9cddc2b9f28812ff2810a329069ea9941108817200fb1b5b45e2.wav",
+        "text": "sun",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "sun",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "sun",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/sʌn/"]
+            }
+        ],
+        "entries": ["en:word:weather-sun"],
+        "variants": [],
+        "sha256": "721eebd0549f9cddc2b9f28812ff2810a329069ea9941108817200fb1b5b45e2",
+        "frames": 18793,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "678bf74da52e261a052298daf3dcd996893e6cd6a0a6fa9cb5cda79b1203d3e5"
+        }
+    },
+    {
+        "path": "audio/b5402130d53b97e483a26d111aad02fe645c40f3ca4f12805db72ed798897e3a.wav",
+        "text": "snow",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "snow",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "snow",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/snəʊ/"]
+            }
+        ],
+        "entries": ["en:word:weather-snow"],
+        "variants": [],
+        "sha256": "b5402130d53b97e483a26d111aad02fe645c40f3ca4f12805db72ed798897e3a",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "343fa75bf1b61ff7f6c247c36cf060b6db3a9c0e3f4dfd8ce2ad5d694500b91e"
+        }
+    },
+    {
+        "path": "audio/542c89686a20fa93535164840ee4a0ba526a8993b4e225a85a1ec4184359bb78.wav",
+        "text": "wind",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɪnd\">wind</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "wind",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɪnd/"]
+            }
+        ],
+        "entries": ["en:word:weather-wind"],
+        "variants": [],
+        "sha256": "542c89686a20fa93535164840ee4a0ba526a8993b4e225a85a1ec4184359bb78",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "6128e6154bcff8db94b6a1af01224d61ba2a1dd65c24b721d451855551ba33f5"
+        }
+    },
+    {
+        "path": "audio/d8444c84472077cc1f9bd206c5f9375ad3030c6d286aff8f3288e7690ba58398.wav",
+        "text": "cloud",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "cloud",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "cloud",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/klaʊd/"]
+            }
+        ],
+        "entries": ["en:word:weather-cloud"],
+        "variants": [],
+        "sha256": "d8444c84472077cc1f9bd206c5f9375ad3030c6d286aff8f3288e7690ba58398",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "b802b0ad404bd2fff6135f652a5abd14d59e3d82357a48665536073c579eaa69"
+        }
+    },
+    {
+        "path": "audio/05c45e508861fb7a2a3aecbd9d0e3b81e4ffbe78ccdaf824d737db54161de605.wav",
+        "text": "left",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "left",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "left",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/left/"]
+            }
+        ],
+        "entries": ["en:word:directions-left"],
+        "variants": [],
+        "sha256": "05c45e508861fb7a2a3aecbd9d0e3b81e4ffbe78ccdaf824d737db54161de605",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "9c57458f44fa73b0b36ed72b89d29c7a275f16ae112a4647e9197a63b5a6b2d4"
+        }
+    },
+    {
+        "path": "audio/e0754bfa543276a6aeb9462f4d1c84de0e58aad7e37c74900d3caf02ba2d943d.wav",
+        "text": "right",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "right",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "right",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/raɪt/"]
+            }
+        ],
+        "entries": ["en:word:directions-right"],
+        "variants": [],
+        "sha256": "e0754bfa543276a6aeb9462f4d1c84de0e58aad7e37c74900d3caf02ba2d943d",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "def37c1fd13953f3d04609af8664ffc69fd2c2ce47883fadc3bdfe68cf5bbe54"
+        }
+    },
+    {
+        "path": "audio/c05947fecd22c3caf8deeba23bfedcb0cac477031d5bf4cf142236482d36d720.wav",
+        "text": "north",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "north",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "north",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/nɔːθ/"]
+            }
+        ],
+        "entries": ["en:word:directions-north"],
+        "variants": [],
+        "sha256": "c05947fecd22c3caf8deeba23bfedcb0cac477031d5bf4cf142236482d36d720",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "9578ef7ab06ef467525dbbc0cceba11576dccfb2b70a853e26d2dcc509fc575d"
+        }
+    },
+    {
+        "path": "audio/12bbf92a5a37b70108d9418e85dc8750e35cf3a70fa000814adb015471e4a275.wav",
+        "text": "south",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "south",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "south",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/saʊθ/"]
+            }
+        ],
+        "entries": ["en:word:directions-south"],
+        "variants": [],
+        "sha256": "12bbf92a5a37b70108d9418e85dc8750e35cf3a70fa000814adb015471e4a275",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "28761b7ed088107657afc5e7dee0b078525ddc0af5c449bfec6bae477c88cc00"
+        }
+    },
+    {
+        "path": "audio/1dcc58ee3a2dce873b01b597e4820c285eba988cdc8570159cf30389a4e6f065.wav",
+        "text": "shirt",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "shirt",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "shirt",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ʃɜːt/"]
+            }
+        ],
+        "entries": ["en:word:clothing-shirt"],
+        "variants": [],
+        "sha256": "1dcc58ee3a2dce873b01b597e4820c285eba988cdc8570159cf30389a4e6f065",
+        "frames": 18793,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "218b42917772639956051b8b150a89031a48a97b5ad4713c3962ab02f751118d"
         }
     }
 ]

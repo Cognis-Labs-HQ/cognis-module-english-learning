@@ -301,34 +301,26 @@
         "vocabularyAudit": "authoring/reviews/directions-vocabulary.json"
     },
     {
-        "theme": "fixtures",
-        "newDistinctVocabularyCount": 4,
+        "theme": "exchange",
+        "newDistinctVocabularyCount": 2,
         "vocabulary": [
             {
-                "entryId": "en:word:fixtures-fridge",
-                "label": "fridge"
+                "entryId": "en:word:exchange-give",
+                "label": "give"
             },
             {
-                "entryId": "en:word:fixtures-oven",
-                "label": "oven"
-            },
-            {
-                "entryId": "en:word:fixtures-sink",
-                "label": "sink"
-            },
-            {
-                "entryId": "en:word:fixtures-shower",
-                "label": "shower"
+                "entryId": "en:word:exchange-receive",
+                "label": "receive"
             }
         ],
         "newExampleCount": 4,
         "exampleIds": [
-            "en:sentence:fixtures-example-fridge",
-            "en:sentence:fixtures-example-oven",
-            "en:sentence:fixtures-example-sink",
-            "en:sentence:fixtures-example-shower"
+            "en:sentence:exchange-example-gave-book",
+            "en:sentence:exchange-example-gives-apple",
+            "en:sentence:exchange-example-received-camera",
+            "en:sentence:exchange-example-morning-news"
         ],
-        "recordedGrammaticalFormCount": 4,
-        "vocabularyAudit": "authoring/reviews/fixtures-vocabulary.json"
+        "recordedGrammaticalFormCount": 8,
+        "vocabularyAudit": "authoring/reviews/exchange-vocabulary.json"
     }
 ]

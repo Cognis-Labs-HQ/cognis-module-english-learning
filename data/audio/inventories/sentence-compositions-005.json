@@ -1,58 +1,5 @@
 [
     {
-        "path": "audio/2825c93985f68e9aa7b1717dbde46663ea73e26e0f35c1b53407b42cd40e8450.wav",
-        "entryId": "en:sentence:mealtime-have-butter",
-        "label": "We have butter.",
-        "parts": [
-            {
-                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
-                "entryId": "en:word:capital-we"
-            },
-            {
-                "path": "audio/d4255166c4544afe249fa6b9d94b7c269dfe26aca8cd05c12b894525d7eaed7d.wav",
-                "entryId": "en:word:have"
-            },
-            {
-                "path": "audio/1bc577f8231c03383cac2bd5cb4e2f36586c0477ab5beddd174aba98c053330a.wav",
-                "entryId": "en:word:butter"
-            },
-            { "pauseMs": 400 }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
-                "entryId": "en:word:capital-we",
-                "startFrame": 2400,
-                "frameCount": 17552
-            },
-            {
-                "path": "audio/d4255166c4544afe249fa6b9d94b7c269dfe26aca8cd05c12b894525d7eaed7d.wav",
-                "entryId": "en:word:have",
-                "startFrame": 22112,
-                "frameCount": 11117
-            },
-            {
-                "path": "audio/1bc577f8231c03383cac2bd5cb4e2f36586c0477ab5beddd174aba98c053330a.wav",
-                "entryId": "en:word:butter",
-                "startFrame": 35389,
-                "frameCount": 21022
-            }
-        ],
-        "sha256": "2825c93985f68e9aa7b1717dbde46663ea73e26e0f35c1b53407b42cd40e8450",
-        "frames": 68171,
-        "input": {
-            "language": "en",
-            "label": "We have butter.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact existing constituent PCM; no external synthesis."
-        }
-    },
-    {
         "path": "audio/98c597df5fe836895f60c517e727eba7856ecd6a9fd01351387c30d47f05815a.wav",
         "entryId": "en:sentence:mealtime-want-rice",
         "label": "They want rice.",
@@ -757,6 +704,69 @@
         "input": {
             "language": "en",
             "label": "She needs a new phone.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM; no external synthesis."
+        }
+    },
+    {
+        "path": "audio/01995d1b12ce3f50aeefecc2c72d4fc9d665825785f0be4b10f95730c04f25d2.wav",
+        "entryId": "en:sentence:shopping-big-coat",
+        "label": "The coat is big.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/e72db60db99f01ff27735a2ec347691e8fe769d672a7b0e94f3352ec0344e584.wav",
+                "entryId": "en:word:coat"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/2b24cc481581375416e015341c1c564cc12532b6bc70557143f32367c7d60efa.wav",
+                "entryId": "en:word:big"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/e72db60db99f01ff27735a2ec347691e8fe769d672a7b0e94f3352ec0344e584.wav",
+                "entryId": "en:word:coat",
+                "startFrame": 12710,
+                "frameCount": 28824
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 43694,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/2b24cc481581375416e015341c1c564cc12532b6bc70557143f32367c7d60efa.wav",
+                "entryId": "en:word:big",
+                "startFrame": 56241,
+                "frameCount": 11582
+            }
+        ],
+        "sha256": "01995d1b12ce3f50aeefecc2c72d4fc9d665825785f0be4b10f95730c04f25d2",
+        "frames": 79583,
+        "input": {
+            "language": "en",
+            "label": "The coat is big.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
         },
