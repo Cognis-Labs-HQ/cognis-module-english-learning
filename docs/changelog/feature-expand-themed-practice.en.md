@@ -70,6 +70,10 @@ Add shirts, everyday dresses, socks and skirts with four English plural forms, f
 
 Add cups, plates, spoons and forks with four English plural forms, four contextual examples per module and a tableware deck. Inspect all source and final pictures, review small kana and long vowels, and preserve exact constituent PCM and recording provenance. Canonical plural tests verify spelling, IPA, provider request and selected-form bindings. Listening remains unverified.
 
+## Places in Town
+
+Add libraries, hospitals, supermarkets and restaurants with reviewed meanings, four English plural forms and a themed deck. Eight varied examples cover reading, employment, location questions, planned travel, shopping and dining. Inspect all source and final pictures, verify dictionary senses and readings, and preserve exact constituent audio. Listening remains unverified.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

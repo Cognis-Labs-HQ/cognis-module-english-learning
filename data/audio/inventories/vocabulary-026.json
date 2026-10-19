@@ -1,0 +1,134 @@
+[
+    {
+        "path": "audio/9572e372989b5c731c9f77f0370494110dfb2b2df0dbcd1043df6e56f81fe2ad.wav",
+        "text": "library",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "library",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "library",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈlaɪbrəri/"]
+            }
+        ],
+        "entries": ["en:word:places-library"],
+        "variants": [],
+        "sha256": "9572e372989b5c731c9f77f0370494110dfb2b2df0dbcd1043df6e56f81fe2ad",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "d52f5ca741e4284587ed17ba9fec69fb4bb435112d82f83344b547b0d4142363"
+        }
+    },
+    {
+        "path": "audio/2bfa6419ef6336ced8fa0fc8c760aefe94fda710d1fac8f7b9e37074cf77599a.wav",
+        "text": "hospital",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "hospital",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "hospital",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈhɒspɪtəl/"]
+            }
+        ],
+        "entries": ["en:word:places-hospital"],
+        "variants": [],
+        "sha256": "2bfa6419ef6336ced8fa0fc8c760aefe94fda710d1fac8f7b9e37074cf77599a",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "dd0436198978d74316879caf2194c6f998732ea205bbb60cf8522e370fff0aa3"
+        }
+    },
+    {
+        "path": "audio/578eaa7c2d92a0ee7eb8ddbe36c8f4fc9df41588cc286435751ad234cfb4f5c7.wav",
+        "text": "supermarket",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "supermarket",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "supermarket",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈsuːpəmɑːkɪt/"]
+            }
+        ],
+        "entries": ["en:word:places-supermarket"],
+        "variants": [],
+        "sha256": "578eaa7c2d92a0ee7eb8ddbe36c8f4fc9df41588cc286435751ad234cfb4f5c7",
+        "frames": 26595,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "9bd9b9d0f97b5ba86fccf5397b309855576e064fb9bd627b7b91c317fa8b5bd7"
+        }
+    },
+    {
+        "path": "audio/bb02ea13233036ee8def9eca37d90344641079b5c1939a05a0d1e67006579d52.wav",
+        "text": "restaurant",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "restaurant",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "restaurant",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈrestrɒnt/"]
+            }
+        ],
+        "entries": ["en:word:places-restaurant"],
+        "variants": [],
+        "sha256": "bb02ea13233036ee8def9eca37d90344641079b5c1939a05a0d1e67006579d52",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "1a58192d2ab2958df48430ee2334cb64d32aadbc0bdef0356e2ef2328b932811"
+        }
+    }
+]

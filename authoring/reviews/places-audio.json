@@ -1,0 +1,130 @@
+[
+    {
+        "entryId": "en:word:places-library",
+        "path": "audio/9572e372989b5c731c9f77f0370494110dfb2b2df0dbcd1043df6e56f81fe2ad.wav",
+        "sha256": "9572e372989b5c731c9f77f0370494110dfb2b2df0dbcd1043df6e56f81fe2ad",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "library",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "nKHvRctH0WJtMCkf7E2I",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/places/places-library.pcm",
+        "sourceSha256": "d52f5ca741e4284587ed17ba9fec69fb4bb435112d82f83344b547b0d4142363",
+        "sourcePeak": 22416,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 24366,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:places-hospital",
+        "path": "audio/2bfa6419ef6336ced8fa0fc8c760aefe94fda710d1fac8f7b9e37074cf77599a.wav",
+        "sha256": "2bfa6419ef6336ced8fa0fc8c760aefe94fda710d1fac8f7b9e37074cf77599a",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "hospital",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "LZcza96BUCqRMCtuUeQO",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/places/places-hospital.pcm",
+        "sourceSha256": "dd0436198978d74316879caf2194c6f998732ea205bbb60cf8522e370fff0aa3",
+        "sourcePeak": 28920,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9290802213001383,
+        "paddingFramesEachSide": 480,
+        "frames": 23251,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:places-supermarket",
+        "path": "audio/578eaa7c2d92a0ee7eb8ddbe36c8f4fc9df41588cc286435751ad234cfb4f5c7.wav",
+        "sha256": "578eaa7c2d92a0ee7eb8ddbe36c8f4fc9df41588cc286435751ad234cfb4f5c7",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "supermarket",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "aZMd1fBwewodM2O8q4hi",
+            "character-cost": "6",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/places/places-supermarket.pcm",
+        "sourceSha256": "9bd9b9d0f97b5ba86fccf5397b309855576e064fb9bd627b7b91c317fa8b5bd7",
+        "sourcePeak": 22184,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 26595,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:places-restaurant",
+        "path": "audio/bb02ea13233036ee8def9eca37d90344641079b5c1939a05a0d1e67006579d52.wav",
+        "sha256": "bb02ea13233036ee8def9eca37d90344641079b5c1939a05a0d1e67006579d52",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "restaurant",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "j01JWBW6sAEdtAME1TVe",
+            "character-cost": "5",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/places/places-restaurant.pcm",
+        "sourceSha256": "1a58192d2ab2958df48430ee2334cb64d32aadbc0bdef0356e2ef2328b932811",
+        "sourcePeak": 24930,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 23251,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]
