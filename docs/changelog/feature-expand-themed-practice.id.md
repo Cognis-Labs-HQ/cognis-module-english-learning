@@ -158,6 +158,14 @@ Tambahkan sapaan siang, terima kasih sopan, permintaan perhatian, dan perpisahan
 
 Tambahkan jawaban afirmatif dan negatif, permintaan sopan, serta permintaan pengulangan. Pisahkan Please sebagai ungkapan sopan dari verba menyenangkan. Jelaskan pengakuan Jepang, vokal panjang, dan padanan sesuai konteks. Gambar asli dan JPEG akhir diperiksa; audio unsur persis serta bukti disimpan. Pemeriksaan pendengaran belum dilakukan.
 
+## Membuat Rencana
+
+Enam contoh perencanaan dan satu dek membahas kegiatan mendatang, kedatangan, menunggu, dan tiket. Makna waktu sesuai konteks serta struktur tiap bahasa dipertahankan; audio disusun dari unsur yang sudah ada tanpa biaya sintesis baru.
+
+## Kebiasaan Belajar
+
+Enam contoh belajar yang ditulis satu per satu dan satu dek mencakup alat tulis, membaca, belajar bahasa, menyimak di kelas, dan pertanyaan. Rekaman kata yang tepat digunakan kembali tanpa menduplikasi kosakata atau menambah ilustrasi.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)
