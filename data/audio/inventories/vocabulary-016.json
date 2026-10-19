@@ -1,0 +1,134 @@
+[
+    {
+        "path": "audio/3bda29c76b1da7d79aacd67a064d60921581ad443f11583eabd5843598acd322.wav",
+        "text": "tomorrow",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "tomorrow",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "tomorrow",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/təˈmɒrəʊ/"]
+            }
+        ],
+        "entries": ["en:word:time-tomorrow"],
+        "variants": [],
+        "sha256": "3bda29c76b1da7d79aacd67a064d60921581ad443f11583eabd5843598acd322",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "e491d394a96d9cc7e8c1fc1d899fefcbc236cf092a3ce4d1ba8876bf20c8669e"
+        }
+    },
+    {
+        "path": "audio/a7f5ee6d4e49bcb471661ca5714f13c543a543da7ee4602f2d51fb065b761b9c.wav",
+        "text": "yesterday",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "yesterday",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "yesterday",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈjestədeɪ/"]
+            }
+        ],
+        "entries": ["en:word:time-yesterday"],
+        "variants": [],
+        "sha256": "a7f5ee6d4e49bcb471661ca5714f13c543a543da7ee4602f2d51fb065b761b9c",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "5a1abeff254525e3bac885aa7f121993c23e2d887aef8e3c6d2cf02ba7d850b8"
+        }
+    },
+    {
+        "path": "audio/3b4058dbb6d0c25e594059afd5ed01e32a93c8edd80abbb553e635bcfdb3bb04.wav",
+        "text": "soon",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "soon",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "soon",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/suːn/"]
+            }
+        ],
+        "entries": ["en:word:time-soon"],
+        "variants": [],
+        "sha256": "3b4058dbb6d0c25e594059afd5ed01e32a93c8edd80abbb553e635bcfdb3bb04",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "3bcd54301af62112e59fe9ac033dda730b1a54793eb22068340d814b9e71643a"
+        }
+    },
+    {
+        "path": "audio/dee3a0aea9789a8b0e8b72c5ee2a63327f8f4ca9534b42c3452d0b6a900396e2.wav",
+        "text": "later",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "later",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "later",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈleɪtə/"]
+            }
+        ],
+        "entries": ["en:word:time-later"],
+        "variants": [],
+        "sha256": "dee3a0aea9789a8b0e8b72c5ee2a63327f8f4ca9534b42c3452d0b6a900396e2",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "bd64c6f9882791e547c366ea568fa3efe50c6e8ffbbad66080ff0611d38bbcec"
+        }
+    }
+]

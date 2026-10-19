@@ -1,24 +1,24 @@
 {
     "checkedDate": "2026-10-19",
     "moduleTests": {
-        "passed": 124,
+        "passed": 125,
         "failed": 0
     },
     "formattingAndLint": "pass",
     "manifestValidation": {
         "status": "pass",
-        "packagedFiles": 1280,
+        "packagedFiles": 1292,
         "authoringFilesIncluded": 0
     },
     "hostCompatibility": {
         "head": "9b17168e54d1127aa85a8a0ef4c607ea63ac138c",
         "contentPackInspection": "pass",
-        "records": 859,
-        "assets": 671,
+        "records": 867,
+        "assets": 679,
         "targetedTestsPassed": 11,
         "targetedTests": ["content-pack", "content-audio", "browse-permissions"]
     },
-    "audioChanges": "Authorized 76-request travel batch completed across both modules; exact constituent PCM closes travel and shopping sentence gaps. Native Japanese inputs; automatic language detection recorded truthfully. Listening unverified.",
+    "audioChanges": "Four exact-word recordings per module added for time vocabulary. Explicit Japanese language/normalization settings retained; all clips technically validated and listening unverified.",
     "finalJpegReview": "each replacement inspected individually at full resolution after encoding",
     "remainingContextWork": "All 33 earlier context dispositions resolved. Travel vocabulary and sentences now published under the revised audio-verification instruction.",
     "contextReview": {
@@ -36,6 +36,7 @@
         "daily": "authoring/reviews/daily.json",
         "shopping": "authoring/reviews/shopping.json",
         "synthesisAccess": "authoring/reviews/synthesis-access.json",
-        "synthesisPlan": "authoring/reviews/synthesis-plan.json"
+        "synthesisPlan": "authoring/reviews/synthesis-plan.json",
+        "time": "authoring/staged/time/index.json"
     }
 }

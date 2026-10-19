@@ -38,6 +38,10 @@ Generate the authorized travel words and forms with the specified voices, retain
 
 Prepare four new beginner time expressions with readings, localized meanings, contextual examples and a proposed deck. Keep them outside runtime content until distinct illustrations are generated and visually reviewed; no unreviewed artwork is published.
 
+## Time vocabulary with reviewed media
+
+Publish tomorrow, yesterday, soon and later with four inspected illustrations, designated-voice recordings, complete readings, contextual examples and a vocabulary deck. Calendar dates, one-minute arrival signs and ordered activity panels clarify the temporal meanings. Listening remains unverified.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)
