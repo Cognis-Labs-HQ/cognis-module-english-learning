@@ -264,3 +264,4 @@ Long und short mit englischen Komparativ- und Superlativaufnahmen, japanischen I
 - [c77a174](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c77a174a29d77c3fb6e0305df449b5e2a56ceae9)
 - [bd4e7fe](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/bd4e7feaccb472ac120ff0dc7f6c8994197a232e)
 - [040731f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/040731f87a09c7aaed71270afb818c4377f2cb67)
+- [e595ba6](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e595ba6b94e5ad46fe411cb69b82006dd0115f39)
