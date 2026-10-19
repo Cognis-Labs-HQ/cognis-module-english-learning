@@ -1,0 +1,66 @@
+[
+    {
+        "entryId": "en:word:form-care-towels",
+        "path": "audio/27bbcd89bf897061f6263cf5b1e741dc880e77a37b84a26648e086541bf6975d.wav",
+        "sha256": "27bbcd89bf897061f6263cf5b1e741dc880e77a37b84a26648e086541bf6975d",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈtaʊəlz\">towels</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "CzSLG9qyOBLcJzHRdoZg",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/care-forms/form-care-towels.pcm",
+        "sourceSha256": "bff3ca6a414058f5a5f471bdf0ae9e26a46af152f6f29f4e565ae3b8d620dfe3",
+        "sourcePeak": 32036,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.8387126982145087,
+        "paddingFramesEachSide": 480,
+        "frames": 29939,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:form-care-toothbrushes",
+        "path": "audio/026c49758774bc97da8ef931b1971bd40e8a01176b62a24a103c960bae1814fb.wav",
+        "sha256": "026c49758774bc97da8ef931b1971bd40e8a01176b62a24a103c960bae1814fb",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈtuːθbrʌʃɪz\">toothbrushes</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "h6aWyekGVrzcz2lh3ZfT",
+            "character-cost": "5",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/care-forms/form-care-toothbrushes.pcm",
+        "sourceSha256": "34c186fc57c3c7260d3ea5e67b111744b9a01e7d8d45baa0a28fa9579de911bc",
+        "sourcePeak": 27752,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9681824733352551,
+        "paddingFramesEachSide": 480,
+        "frames": 28824,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]

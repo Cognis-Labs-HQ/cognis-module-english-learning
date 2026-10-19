@@ -645,5 +645,25 @@
             "en:sentence:daily-needs-5",
             "en:sentence:daily-needs-6"
         ]
+    },
+    {
+        "key": "care-practice",
+        "name": {
+            "en": "Personal Care",
+            "de": "Körperpflege",
+            "id": "Perawatan Diri",
+            "ja": "身の回りの用品"
+        },
+        "schemaId": "english",
+        "sourceRecordIds": [
+            "en:word:care-soap",
+            "en:word:care-towel",
+            "en:word:care-toothbrush",
+            "en:word:care-toothpaste",
+            "en:sentence:care-example-soap",
+            "en:sentence:care-example-towel",
+            "en:sentence:care-example-toothbrush",
+            "en:sentence:care-example-toothpaste"
+        ]
     }
 ]

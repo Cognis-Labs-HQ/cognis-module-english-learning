@@ -21,6 +21,8 @@ for (const [theme, base, plural, reading] of [
     ["places", "hospital", "hospitals", "/ˈhɒspɪtəlz/"],
     ["places", "supermarket", "supermarkets", "/ˈsuːpəmɑːkɪts/"],
     ["places", "restaurant", "restaurants", "/ˈrestrɒnts/"],
+    ["care", "towel", "towels", "/ˈtaʊəlz/"],
+    ["care", "toothbrush", "toothbrushes", "/ˈtuːθbrʌʃɪz/"],
 ]) {
     test(`${base} plural spelling, IPA and recorded request agree`, async () => {
         const words = await load(
