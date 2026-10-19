@@ -1,0 +1,134 @@
+[
+    {
+        "path": "audio/721eebd0549f9cddc2b9f28812ff2810a329069ea9941108817200fb1b5b45e2.wav",
+        "text": "sun",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "sun",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "sun",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/sʌn/"]
+            }
+        ],
+        "entries": ["en:word:weather-sun"],
+        "variants": [],
+        "sha256": "721eebd0549f9cddc2b9f28812ff2810a329069ea9941108817200fb1b5b45e2",
+        "frames": 18793,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "678bf74da52e261a052298daf3dcd996893e6cd6a0a6fa9cb5cda79b1203d3e5"
+        }
+    },
+    {
+        "path": "audio/b5402130d53b97e483a26d111aad02fe645c40f3ca4f12805db72ed798897e3a.wav",
+        "text": "snow",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "snow",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "snow",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/snəʊ/"]
+            }
+        ],
+        "entries": ["en:word:weather-snow"],
+        "variants": [],
+        "sha256": "b5402130d53b97e483a26d111aad02fe645c40f3ca4f12805db72ed798897e3a",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "343fa75bf1b61ff7f6c247c36cf060b6db3a9c0e3f4dfd8ce2ad5d694500b91e"
+        }
+    },
+    {
+        "path": "audio/542c89686a20fa93535164840ee4a0ba526a8993b4e225a85a1ec4184359bb78.wav",
+        "text": "wind",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɪnd\">wind</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "wind",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɪnd/"]
+            }
+        ],
+        "entries": ["en:word:weather-wind"],
+        "variants": [],
+        "sha256": "542c89686a20fa93535164840ee4a0ba526a8993b4e225a85a1ec4184359bb78",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "6128e6154bcff8db94b6a1af01224d61ba2a1dd65c24b721d451855551ba33f5"
+        }
+    },
+    {
+        "path": "audio/d8444c84472077cc1f9bd206c5f9375ad3030c6d286aff8f3288e7690ba58398.wav",
+        "text": "cloud",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "cloud",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "cloud",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/klaʊd/"]
+            }
+        ],
+        "entries": ["en:word:weather-cloud"],
+        "variants": [],
+        "sha256": "d8444c84472077cc1f9bd206c5f9375ad3030c6d286aff8f3288e7690ba58398",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "b802b0ad404bd2fff6135f652a5abd14d59e3d82357a48665536073c579eaa69"
+        }
+    }
+]

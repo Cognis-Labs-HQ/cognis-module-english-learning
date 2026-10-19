@@ -44,7 +44,7 @@ test("pack declares a stable English namespace and usable provider schema", () =
     assert.equal(schema.id, "english");
     assert.equal(schema.language, "en");
     assert.equal(schema.version, 26);
-    assert.equal(manifest.version, "24.0.11");
+    assert.equal(manifest.version, "24.0.12");
     assert.equal(schema.metadata.provider.moduleId, "study-language-en");
     assert.equal(entries.size, [...layers.values()].flat().length);
     for (const layer of schema.layers) {
@@ -133,7 +133,7 @@ test("alphabet variants and letter combinations carry complete normalized writin
 
 test("beginner vocabulary and grammar resolve genuine localized meanings and spellings", async () => {
     const vocabulary = layers.get("words").filter(({ hidden }) => !hidden);
-    assert.equal(vocabulary.length, 212);
+    assert.equal(vocabulary.length, 216);
     assert.equal(layers.get("particles").length, 21);
     for (const record of vocabulary) {
         const spellings = record.references
@@ -220,7 +220,7 @@ test("curated transformations cover irregular verbs and contextual IPA", () => {
 
 test("starter decks use visible records from the published schema", async () => {
     const decks = JSON.parse(await readFile("data/starter-decks.json", "utf8"));
-    assert.equal(decks.length, 21);
+    assert.equal(decks.length, 22);
     for (const deck of decks) {
         assert.equal(deck.schemaId, schema.id);
         assert.equal(Object.keys(deck.name).length, 4);

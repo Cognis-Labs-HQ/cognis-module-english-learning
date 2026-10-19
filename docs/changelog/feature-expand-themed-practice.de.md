@@ -46,6 +46,10 @@ Morgen, gestern, bald und später erscheinen mit vier visuell geprüften Illustr
 
 Rot, Blau, Grün und Gelb werden als Farbnomen ergänzt, jeweils mit visuell geprüfter Illustration, Aufnahme der festgelegten Stimme, vollständiger Lesung und übersetzten Anwendungsbeispielen. Vier Vorliebensätze pro Sprache verwenden unveränderte Wortaufnahmen, einschließlich der englischen Form likes. Ein gemeinsames Vokabel- und Satzdeck ermöglicht direktes Üben. Japanische Hinweise unterscheiden Farbnomen von Adjektivformen.
 
+## Wetterwortschatz
+
+Vier illustrierte Wetternomen mit lokalisierten Bedeutungen, Aussprachehinweisen und einem Übungsstapel ergänzen. Alle acht Quellbilder und endgültigen Bilder beider Module wurden visuell geprüft; die widersprüchliche japanische Windszene wurde korrigiert. Aufnahmen bewahren exakte Anfragen und Quell-PCM; eine Hörprüfung steht aus.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

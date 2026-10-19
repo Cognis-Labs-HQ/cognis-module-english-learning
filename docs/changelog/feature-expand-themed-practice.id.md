@@ -46,6 +46,10 @@ Terbitkan besok, kemarin, segera, dan nanti dengan empat ilustrasi yang diperiks
 
 Tambahkan merah, biru, hijau, dan kuning sebagai kata benda warna, masing-masing dengan ilustrasi yang diperiksa, rekaman suara yang ditetapkan, bacaan lengkap, dan contoh penggunaan terjemahan. Empat kalimat kesukaan per bahasa memakai PCM unsur yang tepat, termasuk bentuk likes dalam bahasa Inggris. Dek gabungan kosakata dan kalimat mendukung latihan langsung. Catatan Jepang membedakan nama warna dari bentuk kata sifat.
 
+## Kosakata Cuaca
+
+Tambahkan empat nomina cuaca bergambar dengan arti lokal, panduan pelafalan, dan dek latihan. Kedelapan gambar sumber dan gambar akhir di kedua modul telah diperiksa secara visual; adegan angin bahasa Jepang yang bertentangan telah diperbaiki. Rekaman menyimpan permintaan persis dan PCM sumber; pemeriksaan pendengaran belum dilakukan.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)

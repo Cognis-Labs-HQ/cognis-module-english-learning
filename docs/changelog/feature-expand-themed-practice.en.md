@@ -46,6 +46,10 @@ Publish tomorrow, yesterday, soon and later with four inspected illustrations, d
 
 Add red, blue, green and yellow as color nouns, each with a visually inspected illustration, selected-voice recording, complete reading and localized usage examples. Four preference sentences per language reuse exact constituent PCM, including English third-person likes. A combined vocabulary and sentence deck supports immediate practice. Japanese notes distinguish color nouns from adjective forms.
 
+## Weather Vocabulary
+
+Add four illustrated weather nouns with localized meanings, pronunciation guidance and a starter deck. All eight source and final images across both modules were visually inspected; the conflicting Japanese wind scene was corrected. Recordings retain exact requests and source PCM; listening remains unverified.
+
 ## Commits
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)
