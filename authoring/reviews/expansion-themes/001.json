@@ -270,6 +270,37 @@
         "vocabularyAudit": "authoring/reviews/comprehension-vocabulary.json"
     },
     {
+        "theme": "containers",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:containers-bottle",
+                "label": "bottle"
+            },
+            {
+                "entryId": "en:word:containers-box",
+                "label": "box"
+            },
+            {
+                "entryId": "en:word:containers-basket",
+                "label": "basket"
+            },
+            {
+                "entryId": "en:word:containers-envelope",
+                "label": "envelope"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:containers-example-open-box",
+            "en:sentence:containers-example-wash-bottle",
+            "en:sentence:containers-example-basket-possession",
+            "en:sentence:containers-example-need-envelope"
+        ],
+        "recordedGrammaticalFormCount": 0,
+        "vocabularyAudit": "authoring/reviews/containers-vocabulary.json"
+    },
+    {
         "theme": "directions",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -299,28 +330,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/directions-vocabulary.json"
-    },
-    {
-        "theme": "exchange",
-        "newDistinctVocabularyCount": 2,
-        "vocabulary": [
-            {
-                "entryId": "en:word:exchange-give",
-                "label": "give"
-            },
-            {
-                "entryId": "en:word:exchange-receive",
-                "label": "receive"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:exchange-example-gave-book",
-            "en:sentence:exchange-example-gives-apple",
-            "en:sentence:exchange-example-received-camera",
-            "en:sentence:exchange-example-morning-news"
-        ],
-        "recordedGrammaticalFormCount": 8,
-        "vocabularyAudit": "authoring/reviews/exchange-vocabulary.json"
     }
 ]

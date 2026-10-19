@@ -1,5 +1,36 @@
 [
     {
+        "theme": "qualities",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:qualities-heavy",
+                "label": "heavy"
+            },
+            {
+                "entryId": "en:word:qualities-light",
+                "label": "light"
+            },
+            {
+                "entryId": "en:word:qualities-easy",
+                "label": "easy"
+            },
+            {
+                "entryId": "en:word:qualities-difficult",
+                "label": "difficult"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:qualities-example-heavy",
+            "en:sentence:qualities-example-light",
+            "en:sentence:qualities-example-easy",
+            "en:sentence:qualities-example-difficult"
+        ],
+        "recordedGrammaticalFormCount": 8,
+        "vocabularyAudit": "authoring/reviews/qualities-vocabulary.json"
+    },
+    {
         "theme": "reading-time",
         "newDistinctVocabularyCount": 1,
         "vocabulary": [
@@ -260,36 +291,5 @@
         ],
         "recordedGrammaticalFormCount": 3,
         "vocabularyAudit": "authoring/reviews/vegetables-vocabulary.json"
-    },
-    {
-        "theme": "weather",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:weather-sun",
-                "label": "sun"
-            },
-            {
-                "entryId": "en:word:weather-snow",
-                "label": "snow"
-            },
-            {
-                "entryId": "en:word:weather-wind",
-                "label": "wind"
-            },
-            {
-                "entryId": "en:word:weather-cloud",
-                "label": "cloud"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:weather-example-sun",
-            "en:sentence:weather-example-snow",
-            "en:sentence:weather-example-wind",
-            "en:sentence:weather-example-cloud"
-        ],
-        "recordedGrammaticalFormCount": 1,
-        "vocabularyAudit": "authoring/reviews/weather-vocabulary.json"
     }
 ]

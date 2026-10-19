@@ -1,0 +1,130 @@
+[
+    {
+        "entryId": "en:word:containers-bottle",
+        "path": "audio/3e5128f6965bd8d2d8b7ba7df6856347d42e735afa5de68ee8567fb6824c4741.wav",
+        "sha256": "3e5128f6965bd8d2d8b7ba7df6856347d42e735afa5de68ee8567fb6824c4741",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈbɒtl\">bottle</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "W3C4WFEXAiA0e7DColMX",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/containers/containers-bottle.pcm",
+        "sourceSha256": "46290eb7ae87136d024ac18400dfa14ef96b07529ca23782e55dbaa2550a5b7f",
+        "sourcePeak": 30500,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.8809508196721312,
+        "paddingFramesEachSide": 480,
+        "frames": 21022,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:containers-box",
+        "path": "audio/10703bad0a3eae4370c7e8255c0e077054f9470eff2d7a85ae2ee8935031865c.wav",
+        "sha256": "10703bad0a3eae4370c7e8255c0e077054f9470eff2d7a85ae2ee8935031865c",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"bɒks\">box</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "YQXENAGEfNNj9NFk0xaB",
+            "character-cost": "3",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/containers/containers-box.pcm",
+        "sourceSha256": "375da9b38260da329ab38ad8bd29760bb513c646731d1cff5317efb6bf17c115",
+        "sourcePeak": 29845,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.9002848048249288,
+        "paddingFramesEachSide": 480,
+        "frames": 23251,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:containers-basket",
+        "path": "audio/f03aade4c3bbfb1fd6fece413eafcb6aa2c2f4514523963a5152c494c868160a.wav",
+        "sha256": "f03aade4c3bbfb1fd6fece413eafcb6aa2c2f4514523963a5152c494c868160a",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈbɑːskɪt\">basket</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "x3dz9EKhkzdZbNglpfYb",
+            "character-cost": "4",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/containers/containers-basket.pcm",
+        "sourceSha256": "25ebf7f3f053c0a2a0cb218e5a088d21a9f3abb76aabb6d9616d115b857c82cd",
+        "sourcePeak": 30624,
+        "sourceFullScaleSamples": 0,
+        "gain": 0.8773837513061651,
+        "paddingFramesEachSide": 480,
+        "frames": 24366,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    },
+    {
+        "entryId": "en:word:containers-envelope",
+        "path": "audio/2e63c7ae835f356ce9ea101bd152ecd289637bed9d3718c3e7298e216e68eda4.wav",
+        "sha256": "2e63c7ae835f356ce9ea101bd152ecd289637bed9d3718c3e7298e216e68eda4",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈenvələʊp\">envelope</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "response": {
+            "request-id": "Zj6lKFauUjmgwtJsYGa0",
+            "character-cost": "5",
+            "content-type": "audio/pcm"
+        },
+        "sourcePath": "authoring/audio/containers/containers-envelope.pcm",
+        "sourceSha256": "c8b3ba7752f722316eaff4b06e358d92c6db711b47297f5ac599042163cc9b96",
+        "sourcePeak": 22136,
+        "sourceFullScaleSamples": 0,
+        "gain": 1,
+        "paddingFramesEachSide": 480,
+        "frames": 25480,
+        "listening": "unverified-not-performed",
+        "technicalReview": "Native written input and intended reading checked; all PCM frames preserved with gain limit and endpoint padding; non-silent mono PCM16 at 24000Hz. Not auditory verification."
+    }
+]

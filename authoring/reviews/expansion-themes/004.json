@@ -1,5 +1,36 @@
 [
     {
+        "theme": "weather",
+        "newDistinctVocabularyCount": 4,
+        "vocabulary": [
+            {
+                "entryId": "en:word:weather-sun",
+                "label": "sun"
+            },
+            {
+                "entryId": "en:word:weather-snow",
+                "label": "snow"
+            },
+            {
+                "entryId": "en:word:weather-wind",
+                "label": "wind"
+            },
+            {
+                "entryId": "en:word:weather-cloud",
+                "label": "cloud"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:weather-example-sun",
+            "en:sentence:weather-example-snow",
+            "en:sentence:weather-example-wind",
+            "en:sentence:weather-example-cloud"
+        ],
+        "recordedGrammaticalFormCount": 1,
+        "vocabularyAudit": "authoring/reviews/weather-vocabulary.json"
+    },
+    {
         "theme": "core",
         "newDistinctVocabularyCount": 0,
         "vocabulary": [],
@@ -138,21 +169,5 @@
         ],
         "recordedGrammaticalFormCount": 0,
         "vocabularyAudit": "authoring/reviews/study-habits-sentences.json"
-    },
-    {
-        "theme": "plans",
-        "newDistinctVocabularyCount": 0,
-        "vocabulary": [],
-        "newExampleCount": 6,
-        "exampleIds": [
-            "en:sentence:plans-library-tomorrow",
-            "en:sentence:plans-arrive-soon",
-            "en:sentence:plans-home-later",
-            "en:sentence:plans-restaurant-tomorrow",
-            "en:sentence:plans-ticket-today",
-            "en:sentence:plans-wait-here"
-        ],
-        "recordedGrammaticalFormCount": 0,
-        "vocabularyAudit": "authoring/reviews/plans-sentences.json"
     }
 ]

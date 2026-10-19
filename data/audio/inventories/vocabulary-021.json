@@ -1,0 +1,134 @@
+[
+    {
+        "path": "audio/3e5128f6965bd8d2d8b7ba7df6856347d42e735afa5de68ee8567fb6824c4741.wav",
+        "text": "bottle",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈbɒtl\">bottle</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "bottle",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈbɒtl/"]
+            }
+        ],
+        "entries": ["en:word:containers-bottle"],
+        "variants": [],
+        "sha256": "3e5128f6965bd8d2d8b7ba7df6856347d42e735afa5de68ee8567fb6824c4741",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "46290eb7ae87136d024ac18400dfa14ef96b07529ca23782e55dbaa2550a5b7f"
+        }
+    },
+    {
+        "path": "audio/10703bad0a3eae4370c7e8255c0e077054f9470eff2d7a85ae2ee8935031865c.wav",
+        "text": "box",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"bɒks\">box</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "box",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/bɒks/"]
+            }
+        ],
+        "entries": ["en:word:containers-box"],
+        "variants": [],
+        "sha256": "10703bad0a3eae4370c7e8255c0e077054f9470eff2d7a85ae2ee8935031865c",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "375da9b38260da329ab38ad8bd29760bb513c646731d1cff5317efb6bf17c115"
+        }
+    },
+    {
+        "path": "audio/f03aade4c3bbfb1fd6fece413eafcb6aa2c2f4514523963a5152c494c868160a.wav",
+        "text": "basket",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈbɑːskɪt\">basket</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "basket",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈbɑːskɪt/"]
+            }
+        ],
+        "entries": ["en:word:containers-basket"],
+        "variants": [],
+        "sha256": "f03aade4c3bbfb1fd6fece413eafcb6aa2c2f4514523963a5152c494c868160a",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "25ebf7f3f053c0a2a0cb218e5a088d21a9f3abb76aabb6d9616d115b857c82cd"
+        }
+    },
+    {
+        "path": "audio/2e63c7ae835f356ce9ea101bd152ecd289637bed9d3718c3e7298e216e68eda4.wav",
+        "text": "envelope",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈenvələʊp\">envelope</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "envelope",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈenvələʊp/"]
+            }
+        ],
+        "entries": ["en:word:containers-envelope"],
+        "variants": [],
+        "sha256": "2e63c7ae835f356ce9ea101bd152ecd289637bed9d3718c3e7298e216e68eda4",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "c8b3ba7752f722316eaff4b06e358d92c6db711b47297f5ac599042163cc9b96"
+        }
+    }
+]

@@ -1,5 +1,28 @@
 [
     {
+        "theme": "exchange",
+        "newDistinctVocabularyCount": 2,
+        "vocabulary": [
+            {
+                "entryId": "en:word:exchange-give",
+                "label": "give"
+            },
+            {
+                "entryId": "en:word:exchange-receive",
+                "label": "receive"
+            }
+        ],
+        "newExampleCount": 4,
+        "exampleIds": [
+            "en:sentence:exchange-example-gave-book",
+            "en:sentence:exchange-example-gives-apple",
+            "en:sentence:exchange-example-received-camera",
+            "en:sentence:exchange-example-morning-news"
+        ],
+        "recordedGrammaticalFormCount": 8,
+        "vocabularyAudit": "authoring/reviews/exchange-vocabulary.json"
+    },
+    {
         "theme": "fixtures",
         "newDistinctVocabularyCount": 4,
         "vocabulary": [
@@ -272,36 +295,5 @@
         ],
         "recordedGrammaticalFormCount": 4,
         "vocabularyAudit": "authoring/reviews/places-vocabulary.json"
-    },
-    {
-        "theme": "qualities",
-        "newDistinctVocabularyCount": 4,
-        "vocabulary": [
-            {
-                "entryId": "en:word:qualities-heavy",
-                "label": "heavy"
-            },
-            {
-                "entryId": "en:word:qualities-light",
-                "label": "light"
-            },
-            {
-                "entryId": "en:word:qualities-easy",
-                "label": "easy"
-            },
-            {
-                "entryId": "en:word:qualities-difficult",
-                "label": "difficult"
-            }
-        ],
-        "newExampleCount": 4,
-        "exampleIds": [
-            "en:sentence:qualities-example-heavy",
-            "en:sentence:qualities-example-light",
-            "en:sentence:qualities-example-easy",
-            "en:sentence:qualities-example-difficult"
-        ],
-        "recordedGrammaticalFormCount": 8,
-        "vocabularyAudit": "authoring/reviews/qualities-vocabulary.json"
     }
 ]
