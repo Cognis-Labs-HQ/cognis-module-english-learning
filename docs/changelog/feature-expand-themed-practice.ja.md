@@ -84,3 +84,4 @@
 - [3721b7b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/3721b7b3522a3b831437c78240dc93154dff053b)
 - [1d340f0](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/1d340f0ad72490348f939d4eadfdb983d2f1c627)
 - [6a918c0](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/6a918c0667eef24e6774e31b7d5d7c6b27ca1b0a)
+- [70ed0cf](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/70ed0cff589ecec7ed8cab7156b2d2f6725b2bdf)
