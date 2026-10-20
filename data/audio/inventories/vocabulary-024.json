@@ -1,0 +1,246 @@
+[
+    {
+        "path": "audio/380f99835ea91ee74af9dcb62b7fb86e026540ca2b2847b68be948569c2ca55d.wav",
+        "text": "sits",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"sɪts\">sits</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "sits",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/sɪts/"]
+            }
+        ],
+        "entries": ["en:word:form-posture-sit-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:posture-sit",
+                "setId": "posture-sit-forms",
+                "path": ["third-person"]
+            }
+        ],
+        "sha256": "380f99835ea91ee74af9dcb62b7fb86e026540ca2b2847b68be948569c2ca55d",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "01bb4ff0ee01869e8af7fee8a491fdb3e2d30fb9f8027737d9ae2643f6959528"
+        }
+    },
+    {
+        "path": "audio/ecf4351511d34148f55f440a3d1e9c80135e6d68a76a54ab21fb3e1f6280ab25.wav",
+        "text": "sat",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"sæt\">sat</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "sat",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/sæt/"]
+            }
+        ],
+        "entries": ["en:word:form-posture-sit-past"],
+        "variants": [
+            {
+                "entryId": "en:word:posture-sit",
+                "setId": "posture-sit-forms",
+                "path": ["past"]
+            },
+            {
+                "entryId": "en:word:posture-sit",
+                "setId": "posture-sit-forms",
+                "path": ["past-participle"]
+            }
+        ],
+        "sha256": "ecf4351511d34148f55f440a3d1e9c80135e6d68a76a54ab21fb3e1f6280ab25",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "3d51e6988b84df0f6d4097ed9e4717ac2aace3946bf384f14ccac6ba463af910"
+        }
+    },
+    {
+        "path": "audio/8d06042b280bfd7fcf58a8cd7c27d75cfd3e14c684d346cf99345edeadc2cad1.wav",
+        "text": "sitting",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈsɪtɪŋ\">sitting</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "sitting",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈsɪtɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-posture-sit-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:posture-sit",
+                "setId": "posture-sit-forms",
+                "path": ["present-participle"]
+            }
+        ],
+        "sha256": "8d06042b280bfd7fcf58a8cd7c27d75cfd3e14c684d346cf99345edeadc2cad1",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "2bd125cacce57d2ca2bb10aa264de0b590057a5e2e9f95bbace0f5142ba64ec4"
+        }
+    },
+    {
+        "path": "audio/e0f25bcfaa4f2c3cc4e8b173960a2465eb2b667689822eadf5902764d5b522b8.wav",
+        "text": "stands",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"stændz\">stands</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "stands",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/stændz/"]
+            }
+        ],
+        "entries": ["en:word:form-posture-stand-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:posture-stand",
+                "setId": "posture-stand-forms",
+                "path": ["third-person"]
+            }
+        ],
+        "sha256": "e0f25bcfaa4f2c3cc4e8b173960a2465eb2b667689822eadf5902764d5b522b8",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "36ed46077178a05a9d6bd2671d1ff6661e5ece4f04bbf90158c6ba2403951a0e"
+        }
+    },
+    {
+        "path": "audio/8a9124a1401d2e8e81b08baa01b3d8ff800e8e26dd734720dc419d1f0d98a65e.wav",
+        "text": "stood",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"stʊd\">stood</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "stood",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/stʊd/"]
+            }
+        ],
+        "entries": ["en:word:form-posture-stand-past"],
+        "variants": [
+            {
+                "entryId": "en:word:posture-stand",
+                "setId": "posture-stand-forms",
+                "path": ["past"]
+            },
+            {
+                "entryId": "en:word:posture-stand",
+                "setId": "posture-stand-forms",
+                "path": ["past-participle"]
+            }
+        ],
+        "sha256": "8a9124a1401d2e8e81b08baa01b3d8ff800e8e26dd734720dc419d1f0d98a65e",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "5a49217d920e9f59c4b492e4df847ed798fc5216ce2adc9be5f6701d5e567cd1"
+        }
+    },
+    {
+        "path": "audio/ab19ec51349c761e609ed87ba3e21fc2c9dae7dbe5d9835a5526110e272fb3d6.wav",
+        "text": "standing",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈstændɪŋ\">standing</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "standing",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈstændɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-posture-stand-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:posture-stand",
+                "setId": "posture-stand-forms",
+                "path": ["present-participle"]
+            }
+        ],
+        "sha256": "ab19ec51349c761e609ed87ba3e21fc2c9dae7dbe5d9835a5526110e272fb3d6",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "ac3d653e0ff3a9a0fd7b4ab9d24ee149ff0ff75a0b6c94701c6de15299e91d5d"
+        }
+    }
+]

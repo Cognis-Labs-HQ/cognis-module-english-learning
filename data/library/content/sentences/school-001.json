@@ -1,0 +1,178 @@
+[
+    {
+        "id": "en:sentence:school-example-pencil",
+        "label": "I write with a pencil.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/59f513729d9d3b115c421c8fcf89ba167f6b11683b59344ff613cdf1c60a69fe.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:write",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:with",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:school-pencil",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:school-example-pencil",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:school-example-pen",
+        "label": "She has two pens.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/56d0a02c2d50edde17df9ef5db01df50a4ba6dd478b2539e5a043cdde5078cd5.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-have-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:two",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:form-school-pens",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:school-example-pen",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:school-example-notebook",
+        "label": "I write in my notebook.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/bfdde9f3125a2a5816942e622ca4965c489ba32020efb0f3634d45030fe3f347.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:write",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:my",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:school-notebook",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:school-example-notebook",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:school-example-ruler",
+        "label": "The ruler is on the table.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/75d2cdb5f645f15b8bbaee88c6e64b41fb8f09451f3c9fa888b3071163e4861c.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:school-ruler",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:on",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:table",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:school-example-ruler",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

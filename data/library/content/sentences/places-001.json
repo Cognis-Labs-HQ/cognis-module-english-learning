@@ -1,0 +1,183 @@
+[
+    {
+        "id": "en:sentence:places-example-library",
+        "label": "I read at the library.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/0475c0ddb9254f45c071a6326529e4321000115936b85058f7ea9fcbeff0be2e.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:read",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:at",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:places-library",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:places-example-library",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:places-example-hospital",
+        "label": "She works at the hospital.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/ae180ae790ee9b6cd695fd4e6d2e67eafe8630a5e21d9d6429a63a030a1dd435.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-work-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:at",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:places-hospital",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:places-example-hospital",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:places-example-supermarket",
+        "label": "We buy food at the supermarket.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/54245a9c7e6600499a45edc71d19c75c578c1f685f476c832780e4911de4f1f3.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:travel-buy",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:food",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:at",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:places-supermarket",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:places-example-supermarket",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:places-example-restaurant",
+        "label": "They eat at the restaurant.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/932f8fed64618193eb5777dc98973f7a6081a36e70d51f7fd5249611757e1e1b.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-they",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:eat",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:at",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:places-restaurant",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:places-example-restaurant",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

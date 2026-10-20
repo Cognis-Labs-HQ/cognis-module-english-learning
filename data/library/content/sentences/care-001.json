@@ -1,0 +1,178 @@
+[
+    {
+        "id": "en:sentence:care-example-soap",
+        "label": "I wash my face with soap.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/74a6c10cf85d882f3a1bf0e5b4218657bb1e26bc123869b599db291815dc1603.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:household-wash",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:my",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:face",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:with",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:care-soap",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:care-example-soap",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:care-example-towel",
+        "label": "We need towels.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/d2c5e7171b667c8a4cb36b4436d4e7fa0decd37654d8bb94b4dcf7bf592d7244.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:need",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-care-towels",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:care-example-towel",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:care-example-toothbrush",
+        "label": "She has a new toothbrush.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/9a1f943140a0d9663ef84d2863b2b214e7b0c2d092c1e3f8a8d44973f8d01d75.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-have-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:new",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:care-toothbrush",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:care-example-toothbrush",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:care-example-toothpaste",
+        "label": "I buy toothpaste at the supermarket.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/e467b63d0cdb21fad9400f4ea4b7edc0cdaeeba6d6509a6a95136c66790a0943.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:travel-buy",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:care-toothpaste",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:at",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:places-supermarket",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:care-example-toothpaste",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

@@ -1,0 +1,158 @@
+[
+    {
+        "id": "en:sentence:containers-example-open-box",
+        "label": "I open the box.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/241d6f41bc06ca3e21f5c8cb9a6105578dc8a999d1280376fe68a0dd458292a6.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:open",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:containers-box",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:containers-example-open-box",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:containers-example-wash-bottle",
+        "label": "I wash the bottle.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/4439d3b9cf5dbe4bffd8a145de451ee964282ac481c6c5afadf7821553ee4db4.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:household-wash",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:containers-bottle",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:containers-example-wash-bottle",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:containers-example-basket-possession",
+        "label": "She has a basket.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/8338dad7ce2eb016a5623674fc100848fa44abe926fc5c7df9a29d99b1200a7b.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-have-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:containers-basket",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:containers-example-basket-possession",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:containers-example-need-envelope",
+        "label": "I need an envelope.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/b8f7f626880a6d748a4490da4d9b0bba605ee1f6e80bcf20a06666e9e045cab2.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:need",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:an",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:containers-envelope",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:containers-example-need-envelope",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

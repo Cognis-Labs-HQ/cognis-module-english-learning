@@ -1,0 +1,167 @@
+[
+    {
+        "id": "en:word:requests-yes",
+        "label": "Yes",
+        "class": "lexical:interjection",
+        "fields": {
+            "pronunciation": ["/jes/"],
+            "part_of_speech": "interjection",
+            "reference_images": [
+                "images/9cd9be2d66178bae4faa654f1bc72f1e7db4ca3c840da9570f19618496c6f8e3.jpg"
+            ],
+            "audio": "audio/a54f4db00546f6114c331b72ac88af4e32fe20f1eda7007884f7c3423f714ad2.wav"
+        },
+        "tags": ["interjection", "requests"],
+        "references": [
+            {
+                "entryId": "en:char:y",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:requests-yes",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:requests-no",
+        "label": "No",
+        "class": "lexical:interjection",
+        "fields": {
+            "pronunciation": ["/nəʊ/"],
+            "part_of_speech": "interjection",
+            "reference_images": [
+                "images/fd3b3f19377d7f17bd6304f13a7c0b7a2b3dfbb0f1583ccc819feb5ea934978d.jpg"
+            ],
+            "audio": "audio/7892f808cb3caba7867accf058b3100b747f01d90f51e5d7ac63b4da20bdc302.wav"
+        },
+        "tags": ["interjection", "requests"],
+        "references": [
+            {
+                "entryId": "en:char:n",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:definition:requests-no",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:requests-please",
+        "label": "Please",
+        "class": "lexical:interjection",
+        "fields": {
+            "pronunciation": ["/pliːz/"],
+            "part_of_speech": "interjection",
+            "reference_images": [
+                "images/2cc62205643d5c9da0e057702cd23687cec0118dbc69374b5ae7263890555520.jpg"
+            ],
+            "audio": "audio/cbcd3d1340fc2e98981d35563f6bd5d6434375f40d4858088fd6413622975cea.wav"
+        },
+        "tags": ["interjection", "requests"],
+        "references": [
+            {
+                "entryId": "en:char:p",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:requests-please",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:requests-repeat",
+        "label": "Pardon",
+        "class": "lexical:interjection",
+        "fields": {
+            "pronunciation": ["/ˈpɑːdn/"],
+            "part_of_speech": "interjection",
+            "reference_images": [
+                "images/89aded4c53177d6a4f2bfec6e7e6525eeb15ddb87e83b015111c9508e1207f44.jpg"
+            ],
+            "audio": "audio/048dac7df64d4150f80f428e731bab677e694f736c0fb76ed282b610343f1470.wav"
+        },
+        "tags": ["interjection", "requests"],
+        "references": [
+            {
+                "entryId": "en:char:p",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:requests-repeat",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

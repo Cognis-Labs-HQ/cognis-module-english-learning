@@ -4,12 +4,16 @@
 
 English learning content and provider integration for Cognis Study.
 
+## Packaged content
+
+The pack provides writing guides, themed vocabulary, linked examples, illustrations and starter decks. The packaged content and media inventories are the source of truth for availability.
+
 ## Features
 
-- 52 alphabet cards and 17 letter combinations with original JSON writing guides; 192 vocabulary cards, 21 grammar/punctuation cards and 49 linked sentences.
-- 37 curated verb, copula and adjective paradigms with irregular forms and IPA; hidden supporting forms preserve complete sentence graphs.
+- Alphabet and letter-combination cards include original JSON writing guides; vocabulary, grammar and punctuation cards link to contextual sentences.
+- Curated verb, copula and adjective paradigms with irregular forms and IPA; hidden supporting forms preserve complete sentence graphs.
 - Searchable Free Dictionary lookup, bounded definitions/readings, hidden attribution and host-owned caching.
-- Ten localized starter decks use Cognis flashcards, favourites and sharing.
+- localized starter decks use Cognis flashcards, favourites and sharing.
 
 ## Installation
 
@@ -34,9 +38,9 @@ git diff --check
 
 ## Speech and recordings
 
-The pack includes verified WAV recordings for every spoken curated card, character, particle and reachable schema transformation, including plurals and chained verb forms. `gJx1vCzNCD1EQHT212Ls` is the designated voice for this language. `data/audio/recordings.json` records each request, voice, model, settings, transformation path and file checksum; credentials and generation tools are not packaged.
+Bundled WAV files receive checksum, format and PCM integrity checks; listening review is recorded separately and may be unverified. `data/audio/recordings.json` lists available recordings and compositions. `data/audio/unavailable.json` explicitly lists cards without bundled audio; missing recordings are not playback URLs. The designated voice is `gJx1vCzNCD1EQHT212Ls`. Credentials and offline generation tools are not packaged.
 
-Shipped sentences use directly generated whole-sentence recordings before composite audio. New or unrecorded sentences use host composition with the exact ordered constituent PCM and selected transformations; missing variants never substitute their base form. Recordings cover the curated pack, not every lazy dictionary entry or possible user-authored sentence.
+Packaged sentence playback prioritizes exact constituent-composed PCM, including the intended grammatical forms. Independently generated whole-sentence recordings retain their original provenance and remain separate. A sentence without all exact constituent recordings has no bundled audio; missing forms never substitute base-form clips.
 
 Bootstrap registers a removable `study:audio:provider.registerProvider` implementation. Bundled cards and their variants work without ElevenLabs installed or configured. Missing lexical recordings may use the optional configured `elevenlabs-tts:synthesis` capability; the default request voice is the designated language voice, with an administrator voice override available for new synthesis. New sentences never request separate whole-sentence synthesis. Cognis owns global-card authorization, caching, manual uploads and private/classroom composition policy. Only the primary authored pronunciation is selected.
 
@@ -44,11 +48,11 @@ Generated files use 24 kHz mono 16-bit PCM with bounded peaks and verified non-s
 
 ## Vocabulary Illustrations
 
-Every shipped vocabulary card now has its own generated colored-pencil and watercolor illustration (192 cards). Concrete objects, actions and contextual scenes for abstract concepts use the existing card-detail gallery and full-image popup. The old source photographs have been replaced. [The image catalog](data/library/assets/images/catalog.json) records generation source, style, crop provenance, checksums and card assignments; [image licensing](data/library/assets/images/LICENSE.md) describes the bundled artwork. Images load locally, and the host preserves custom user images during provider reloads.
+Vocabulary cards use generated colored-pencil and watercolor illustrations. Concrete objects, actions and contextual scenes for abstract concepts use the existing card-detail gallery and full-image popup. The old source photographs have been replaced. [The image catalog](data/library/assets/images/catalog.json) records generation source, style, crop provenance, checksums and card assignments; [image licensing](data/library/assets/images/LICENSE.md) describes the bundled artwork. Images load locally, and the host preserves custom user images during provider reloads.
 
 ## Household Vocabulary
 
-Fifteen everyday nouns cover furniture, clothing, objects and food, with four-language meanings, pronunciation links, dedicated recordings and a Household Essentials deck. English countable nouns include recorded plural transformations, including unchanged plural fish; rice remains a mass noun. Japanese beginner spellings link complete readings to atomic kana, including the long-vowel mark ー used in テーブル and コート.
+Everyday nouns cover furniture, clothing, objects and food, with four-language meanings, pronunciation links, dedicated recordings and a Household Essentials deck. English countable nouns include recorded plural transformations, including unchanged plural fish; rice remains a mass noun. Japanese beginner spellings link complete readings to atomic kana, including the long-vowel mark ー used in テーブル and コート.
 
 ## Food and Body Vocabulary
 
@@ -56,7 +60,7 @@ Packaged sentence playback uses exact constituent-composed PCM, including select
 
 ## Recording Inventories
 
-`data/audio/recordings.json` is a compact manifest with language, voice, model, shared processing settings, totals and integrity-checked inventory paths. Purpose-grouped files under `data/audio/inventories/` separately describe characters, vocabulary, transformations, direct sentences and precomposed sentence recordings. Each file stays below 800 lines and retains exact requests, per-clip voice provenance, transformation paths and audio checksums. Bootstrap verifies every inventory checksum and count before registering playback; the recording bytes and lookup precedence are unchanged.
+`data/audio/recordings.json` uses inventory format 2 with language, voice, model, processing settings, totals and hashed purpose-index paths. Files under `data/audio/indexes/` list the hashed shards under `data/audio/inventories/`, grouped into characters, vocabulary, transformations, direct sentences and sentence compositions. Root and purpose indexes stay below 400 lines; recording shards stay at or below 800 lines. The loader verifies both levels, counts, allowed paths, purpose/kind agreement and duplicate paths before registering playback. Recording objects, audio bytes and lookup precedence are preserved.
 
 ## Explicit catalog normalization and sentence composition inventories
 

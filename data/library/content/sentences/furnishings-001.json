@@ -1,0 +1,188 @@
+[
+    {
+        "id": "en:sentence:furnishings-example-sofa",
+        "label": "I read on the sofa.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/92e36547d668ba84d7ffd8de092949430c7b3699f00963748448c8306919fb42.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:read",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:on",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:furnishings-sofa",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:furnishings-example-sofa",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:furnishings-example-lamp",
+        "label": "The lamp is on the table.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/703372f80a2f31eb5f372edf78c853a6db95c2bdc95c72bdb67c52bc4f5473ae.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:furnishings-lamp",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:on",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:table",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:furnishings-example-lamp",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:furnishings-example-mirror",
+        "label": "I see my face in the mirror.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/0312850d5b8e0821ddce12fe1cf1283b994c88bde45bde09933d83dbc3ccdaa2.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:see",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:my",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:face",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:word:furnishings-mirror",
+                "relation": "words",
+                "position": 6
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 7
+            },
+            {
+                "entryId": "en:definition:furnishings-example-mirror",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:furnishings-example-pillow",
+        "label": "We need two pillows.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/1cfab0e21c412b9fe26fcd4317a5084e6d91403eccd04b85653fc653ee74bf3e.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:need",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:two",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:form-furnishings-pillows",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:furnishings-example-pillow",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

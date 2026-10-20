@@ -1,185 +1,5 @@
 [
     {
-        "path": "audio/74e2b131c64da10695ba0b619e9a463dc2035c39a6de44f718afc3a7054689db.wav",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "text": "like",
-        "phonemes": "laɪk",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"laɪk\">like</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "like",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/laɪk/"]
-            }
-        ],
-        "entries": ["en:word:like"],
-        "variants": [],
-        "sha256": "e4bc8c500e79511c951d5f274677776824e7bcadd1b18955ae344d7a56a04929",
-        "frames": 13914
-    },
-    {
-        "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "text": "need",
-        "phonemes": "niːd",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"niːd\">need</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "need",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/niːd/"]
-            }
-        ],
-        "entries": ["en:word:need"],
-        "variants": [],
-        "sha256": "2c59e1904444db56efa722bb489fb1845e294a5d2d566b7567506bf6c2ad3d6d",
-        "frames": 9927
-    },
-    {
-        "path": "audio/3d98346f8f54020f1798453da7ecce34ff7d7664a64fada2c7c0ab26609138f4.wav",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "text": "study",
-        "phonemes": "ˈstʌdi",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈstʌdi\">study</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "study",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ˈstʌdi/"]
-            }
-        ],
-        "entries": ["en:word:study"],
-        "variants": [],
-        "sha256": "f5a16532e9acf202fe37a43d8aa95a52254f0be341d0ca98256dd714f49fdb47",
-        "frames": 15132
-    },
-    {
-        "path": "audio/e8170072b00fc50dd8d3a04b9bb8fab6af5bc73631a942ae6848737027bf08de.wav",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "text": "live",
-        "phonemes": "lɪv",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"lɪv\">live</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "live",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/lɪv/"]
-            }
-        ],
-        "entries": ["en:word:live"],
-        "variants": [],
-        "sha256": "2566853a7434c5775ae39ac86ff88a63ac44ea5d4a2b40889dde5cfa3d90ccf4",
-        "frames": 8799
-    },
-    {
-        "path": "audio/d167b04d745c13877949ec79ad83914a71df0c25a7bfb853c2f15b6a27c44b87.wav",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "text": "sleep",
-        "phonemes": "sliːp",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"sliːp\">sleep</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "sleep",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/sliːp/"]
-            }
-        ],
-        "entries": ["en:word:sleep"],
-        "variants": [],
-        "sha256": "1791d6a23c1800ff009869add263238bbc10180ee55368422d2b3a0c4a7e0565",
-        "frames": 13912
-    },
-    {
-        "path": "audio/a39b067c873d54f1cc32e7db3083ede911328e7819731066390622ea0c5b975c.wav",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "text": "speak",
-        "phonemes": "spiːk",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"spiːk\">speak</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "speak",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/spiːk/"]
-            }
-        ],
-        "entries": ["en:word:speak"],
-        "variants": [],
-        "sha256": "2602f18f1a41f29ffef12bbcdbd8282bad752b306a2212df081d63f094461eda",
-        "frames": 16610
-    },
-    {
         "path": "audio/d3f1ea0ea48a64eb2d53074820877ddb1f7cfec8518ffac00f38d0e114b454c2.wav",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "text": "listen",
@@ -688,5 +508,275 @@
         "variants": [],
         "sha256": "80680fc78ee1d8fd689c0c9dbc6d4c9b0e2af36aef28dcddd34092a8a3080d1e",
         "frames": 12520
+    },
+    {
+        "path": "audio/99dfb2260e1504e5c3b5ac99b58686489b21c659aa542edb52fb67b86c0f534d.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "room",
+        "phonemes": "ɹuːm",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ɹuːm\">room</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "room",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ruːm/"]
+            }
+        ],
+        "entries": ["en:word:room"],
+        "variants": [],
+        "sha256": "43c8c66631fe06ab9ec05e16312a9e9f05a9fa80406ffff18aa8fe0ff8fb4cc2",
+        "frames": 9190
+    },
+    {
+        "path": "audio/6670fd21613e90e70f6c6deff51d944e17cd41e6ae5ccae2f938fe420a950e2e.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "door",
+        "phonemes": "dɔː",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"dɔː\">door</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "door",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/dɔː/"]
+            }
+        ],
+        "entries": ["en:word:door"],
+        "variants": [],
+        "sha256": "e1cc871e82361427c63bea7394b788caf18ad622e83497928170e95b73fa5f80",
+        "frames": 20891
+    },
+    {
+        "path": "audio/2965235cbfe636347ed1817b4f1d6dc1d32173310af7b5ba8b0e7b62464d782c.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "window",
+        "phonemes": "ˈwɪndəʊ",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈwɪndəʊ\">window</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "window",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈwɪndəʊ/"]
+            }
+        ],
+        "entries": ["en:word:window"],
+        "variants": [],
+        "sha256": "41d5326439178d4462292d3b2ef4352daa31b0ea4c8ac29cae2b2f585d91da86",
+        "frames": 13983
+    },
+    {
+        "path": "audio/51bd627382d00740b5650b5a76f4e181feee90c3f1dbd10156966342c249553a.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "school",
+        "phonemes": "skuːl",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"skuːl\">school</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "school",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/skuːl/"]
+            }
+        ],
+        "entries": ["en:word:school"],
+        "variants": [],
+        "sha256": "241d0f938b61baca65f18a6f0e492232671e51c4d1961a9f1262dae6cfce0e95",
+        "frames": 13929
+    },
+    {
+        "path": "audio/c286e951ed70b2957ed3a653bd770640c0a715281f6734cafbb1e58ef6a2c771.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "teacher",
+        "phonemes": "ˈtiːtʃə",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈtiːtʃə\">teacher</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "teacher",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈtiːtʃə/"]
+            }
+        ],
+        "entries": ["en:word:teacher"],
+        "variants": [],
+        "sha256": "3a65e9d2f3e0b420ef5d0bc90f9712647a9a21818dcc07d9bd0bdbada83be263",
+        "frames": 12796
+    },
+    {
+        "path": "audio/78fb66d2d00a4eb48ead7962133c9bf7f8388b29269dc71ed9446c1b98b09189.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "student",
+        "phonemes": "ˈstjuːdənt",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈstjuːdənt\">student</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "student",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈstjuːdənt/"]
+            }
+        ],
+        "entries": ["en:word:student"],
+        "variants": [],
+        "sha256": "baa628af908c512be78f7520898806e90bb8e8a3cff9441e33bf0cad84b0f46a",
+        "frames": 15347
+    },
+    {
+        "path": "audio/cd6f1f4eaf8a91a02e40d8200bc074b3105c2af729a3689741b8ef53b827ae19.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "friend",
+        "phonemes": "fɹend",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"fɹend\">friend</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "friend",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/frend/"]
+            }
+        ],
+        "entries": ["en:word:friend"],
+        "variants": [],
+        "sha256": "b49ae3d21cfe978b77ef527f1f4ca58b7cfc8d04dfa386746fbe0575b1ac5b5b",
+        "frames": 12778
+    },
+    {
+        "path": "audio/3c6d6a0d4a00369c4494d1cdef6dd89b2624b9fb6ab1ba438f4af3bc67ac7533.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "family",
+        "phonemes": "ˈfæməli",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈfæməli\">family</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "family",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈfæməli/"]
+            }
+        ],
+        "entries": ["en:word:family"],
+        "variants": [],
+        "sha256": "53247ecb6e4ba6c43833d45a277e3c9982e6914d4412e9e3bab8a8c39bf466df",
+        "frames": 14129
+    },
+    {
+        "path": "audio/0b6e4a6d8248f09d574399c831585c2095a1f19e1ba3fcad6f5cdb00105c8e68.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "mother",
+        "phonemes": "ˈmʌðə",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈmʌðə\">mother</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "mother",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈmʌðə/"]
+            }
+        ],
+        "entries": ["en:word:mother"],
+        "variants": [],
+        "sha256": "5f119e08ad41850df477af5bf68eb18b3c7934b5a17ba8d0350837bb57bf17e6",
+        "frames": 10622
     }
 ]

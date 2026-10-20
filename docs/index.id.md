@@ -1,6 +1,10 @@
 # Belajar Bahasa Inggris
 
-Belajar Bahasa Inggris menyediakan graf pembelajaran berversi, pengayaan kamus Inggris, panduan huruf cetak asli dan sepuluh dek awal. Cognis mengelola antarmuka belajar serta seluruh data pengguna.
+Belajar Bahasa Inggris menyediakan graf pembelajaran berversi, pengayaan kamus Inggris, panduan huruf cetak asli dan dek awal. Cognis mengelola antarmuka belajar serta seluruh data pengguna.
+
+## Konten dalam paket
+
+Paket menyediakan panduan menulis, kosakata bertema, contoh tertaut, ilustrasi, dan dek awal. Konten serta inventaris media dalam paket menjadi sumber acuan ketersediaan.
 
 ## Contoh Penggunaan
 
@@ -20,7 +24,7 @@ Rute konfigurasi GET, PUT, dan DELETE khusus administrator hanya didaftarkan saa
 
 Paket konten menyediakan huruf kecil dan besar, kombinasi ejaan, kosakata, struktur kalimat, dan definisi terlokalisasi. Definisi memakai awalan host `studyenglish:definitions`; teks marketplace memakai `module.study.language.en.*`. Metadata modul dan konten tercantum pada manifes masing-masing.
 
-Referensi ejaan dan kalimat berurutan menunjuk ke rekaman nyata. Kartu infleksi tersembunyi menjadi sasaran literal validasi kalimat; formulir interaktif memakai 37 paradigma deklaratif verba, kopula dan adjektiva, termasuk bentuk tidak beraturan dan IPA. IPA adalah notasi bunyi, bukan referensi ke huruf yang tidak sesuai. Awal kalimat kapital mempertahankan teks asli. Partikel negasi, preposisi, konjungsi dan tanda baca tidak dapat diedit. Hubungan definisi dibatasi sepuluh.
+Referensi ejaan dan kalimat berurutan menunjuk ke rekaman nyata. Kartu infleksi tersembunyi menjadi sasaran literal validasi kalimat; formulir interaktif memakai paradigma deklaratif verba, kopula dan adjektiva, termasuk bentuk tidak beraturan dan IPA. IPA adalah notasi bunyi, bukan referensi ke huruf yang tidak sesuai. Awal kalimat kapital mempertahankan teks asli. Partikel negasi, preposisi, konjungsi dan tanda baca tidak dapat diedit. Hubungan definisi dibatasi sepuluh.
 
 Kontrak formulir menetapkan bidang tulisan, karusel huruf untuk kosakata, karusel kata/partikel untuk kalimat dan karusel struktur kalimat. Host mengelola validasi, resolusi UUID, spasi, impor, batas dan notifikasi. Alfabet mempertahankan tujuh kolom dengan huruf kapital sebagai anak huruf kecil. Hanya huruf atomik memakai pratinjau minimal.
 
@@ -42,9 +46,9 @@ Jalankan `npm install`, `npm run manifest:hashes`, `npm test`, `npm run lint`, `
 
 ## Dek Awal Diperluas
 
-Bahasa Inggris menyediakan sepuluh dek awal. Huruf kapital, gabungan ejaan dan adjektiva sehari-hari melengkapi empat dek lama. Kunci stabil, nama lokal dan urutan alfabet lengkap divalidasi.
+Bahasa Inggris menyediakan dek awal. Huruf kapital, gabungan ejaan dan adjektiva sehari-hari melengkapi dek lama. Kunci stabil, nama lokal dan urutan alfabet lengkap divalidasi.
 
-Skema menyediakan satu pilihan filter kata sifat dan mempertahankan identitas konten yang stabil. ctx adalah tulang punggung aplikasi; Cognis memiliki alur tindakan, data pengguna, dan cache kamus.
+Skema menyediakan pilihan filter kata sifat dan mempertahankan identitas konten yang stabil. ctx adalah tulang punggung aplikasi; Cognis memiliki alur tindakan, data pengguna, dan cache kamus.
 
 ## Halaman Bahasa Bersama
 
@@ -70,11 +74,11 @@ Rute konfigurasi GET, PUT, dan DELETE khusus administrator hanya didaftarkan saa
 
 ## Jaga ketepatan jenis kata dan bentuk jamak
 
-Kamus Gratis mengembalikan saran terpisah per jenis kata dengan definisi, tag, dan paradigma terkurasi yang sesuai saja. Kueri dengan apostrof atau tanda hubung ditolak karena graf alfabet saat ini tidak dapat merepresentasikan ejaannya. Respons dibatasi satu juta byte saat dialirkan dan langsung dibatalkan jika terlalu besar. Pengenal alur publik `study-language-en:bootstrap-registration` tetap dipertahankan. Pembentukan jamak berlaku pada `book` tunggal, bukan `books` yang sudah jamak; `houses` memakai `/haʊzɪz/`. Sepuluh dek awal terlokalisasi didokumentasikan.
+Kamus Gratis mengembalikan saran terpisah per jenis kata dengan definisi, tag, dan paradigma terkurasi yang sesuai saja. Kueri dengan apostrof atau tanda hubung ditolak karena graf alfabet saat ini tidak dapat merepresentasikan ejaannya. Respons dibatasi satu juta byte saat dialirkan dan langsung dibatalkan jika terlalu besar. Pengenal alur publik `study-language-en:bootstrap-registration` tetap dipertahankan. Pembentukan jamak berlaku pada `book` tunggal, bukan `books` yang sudah jamak; `houses` memakai `/haʊzɪz/`. Dek awal terlokalisasi didokumentasikan.
 
 ## Ucapan dan rekaman
 
-Paket menyertakan rekaman WAV terverifikasi untuk setiap kartu terkurasi yang bersuara, karakter, partikel, serta seluruh transformasi skema yang dapat dicapai, termasuk bentuk jamak dan rantai perubahan verba. `gJx1vCzNCD1EQHT212Ls` adalah suara yang ditetapkan untuk bahasa ini. `data/audio/recordings.json` mencatat permintaan, suara, model, pengaturan, jalur transformasi, dan checksum; kredensial serta alat pembuatan tidak disertakan.
+Berkas WAV bawaan diperiksa checksum, format, dan integritas PCM-nya; pemeriksaan dengan mendengarkan dicatat terpisah dan dapat belum terverifikasi. `data/audio/recordings.json` mencantumkan rekaman dan gabungan audio yang tersedia. `data/audio/unavailable.json` secara jelas mencantumkan kartu tanpa audio bawaan; rekaman yang belum ada bukan URL pemutaran. Suara yang ditetapkan adalah `gJx1vCzNCD1EQHT212Ls`. Kredensial dan alat pembuatan luring tidak disertakan.
 
 Kalimat memakai sampel PCM yang persis sama dengan rekaman kata dan partikel penyusunnya secara berurutan, termasuk transformasi yang dipilih. Karena itu, suara dan pelafalan dalam berkas kalimat sama dengan pemutaran tiap kata. Kalimat baru memakai komposisi host; varian yang rekamannya tidak tersedia tidak boleh diganti dengan pelafalan bentuk dasar. Rekaman mencakup paket terkurasi, bukan semua entri kamus yang dimuat sesuai kebutuhan atau seluruh kalimat buatan pengguna.
 
@@ -85,6 +89,8 @@ Berkas memakai PCM mono 24 kHz 16 bit dengan puncak terbatas dan keluaran yang d
 Setiap lapisan menyediakan bidang gambar referensi opsional di editor dan tampilan detail host. Kosakata menggunakan ilustrasi asli buatan AI dengan gaya pensil warna dan cat air yang dibuat melalui pembuatan gambar OpenAI; tidak ada foto pihak ketiga. `data/library/assets/images/catalog.json` mencatat asal pembuatan dan potongan, pemetaan kartu, serta checksum; `data/library/assets/images/LICENSE.md` menjelaskan lisensi karya. Administrator dapat mengunggah gambar referensi tambahan melalui Cognis.
 
 ## Inventaris Rekaman
+
+`data/audio/recordings.json` memakai format inventaris 2 dengan bahasa, suara, model, pengaturan pemrosesan, jumlah, dan jalur indeks tujuan beserta hash. Berkas `data/audio/indexes/` mencantumkan pecahan inventaris ber-hash dalam `data/audio/inventories/`, dikelompokkan untuk karakter, kosakata, transformasi, kalimat langsung, dan komposisi kalimat. Indeks utama dan indeks tujuan tetap di bawah 400 baris; pecahan rekaman maksimal 800 baris. Pemuat memeriksa kedua tingkat, jumlah, jalur yang diizinkan, kecocokan tujuan dan jenis, serta jalur duplikat sebelum mendaftarkan pemutaran. Objek rekaman, byte audio, dan prioritas pencarian dipertahankan.
 
 Pemutaran kalimat paket memakai PCM yang disusun persis dari klip penyusun, termasuk transformasi terpilih. Rekaman seluruh kalimat yang dihasilkan terpisah tetap diinventarisasi dengan asal suara dan permintaan asli, tetapi tidak menimpa rekaman komposisi. Kalimat baru tetap memakai komposisi dan cache milik host.
 

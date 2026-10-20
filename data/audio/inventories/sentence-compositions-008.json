@@ -1,0 +1,758 @@
+[
+    {
+        "path": "audio/1cbfab2eee6109bba6eaecbd59b9464c712cd83bd943c56adde69811cbf5b6f1.wav",
+        "entryId": "en:sentence:directions-location-south",
+        "label": "The airport is in the south.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/18259f109cece97ae9b0362e1cb218133c94d27e120584863ae830f05e75beae.wav",
+                "entryId": "en:word:travel-airport"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/12bbf92a5a37b70108d9418e85dc8750e35cf3a70fa000814adb015471e4a275.wav",
+                "entryId": "en:word:directions-south"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/18259f109cece97ae9b0362e1cb218133c94d27e120584863ae830f05e75beae.wav",
+                "entryId": "en:word:travel-airport",
+                "startFrame": 12710,
+                "frameCount": 22137
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 37007,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in",
+                "startFrame": 49554,
+                "frameCount": 7315
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 59029,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/12bbf92a5a37b70108d9418e85dc8750e35cf3a70fa000814adb015471e4a275.wav",
+                "entryId": "en:word:directions-south",
+                "startFrame": 69339,
+                "frameCount": 21022
+            }
+        ],
+        "sha256": "1cbfab2eee6109bba6eaecbd59b9464c712cd83bd943c56adde69811cbf5b6f1",
+        "frames": 102121,
+        "input": {
+            "language": "en",
+            "label": "The airport is in the south.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact direction-noun and existing constituent PCM; English copula is retained as its selected third-person form."
+        }
+    },
+    {
+        "path": "audio/3aff34237404848374385d51a83296d85835c366deea838e3ea88cd19ee64a9d.wav",
+        "entryId": "en:sentence:weather-example-sun",
+        "label": "I see the sun.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/9b7843aec097ccb2e88f205448cd59c4d13b573f9b025bfeea72a95a0c467851.wav",
+                "entryId": "en:word:see"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/721eebd0549f9cddc2b9f28812ff2810a329069ea9941108817200fb1b5b45e2.wav",
+                "entryId": "en:word:weather-sun"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/9b7843aec097ccb2e88f205448cd59c4d13b573f9b025bfeea72a95a0c467851.wav",
+                "entryId": "en:word:see",
+                "startFrame": 11067,
+                "frameCount": 11091
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 24318,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/721eebd0549f9cddc2b9f28812ff2810a329069ea9941108817200fb1b5b45e2.wav",
+                "entryId": "en:word:weather-sun",
+                "startFrame": 34628,
+                "frameCount": 18793
+            }
+        ],
+        "sha256": "3aff34237404848374385d51a83296d85835c366deea838e3ea88cd19ee64a9d",
+        "frames": 65181,
+        "input": {
+            "language": "en",
+            "label": "I see the sun.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact weather vocabulary and existing constituent PCM; English clouds uses the explicitly recorded plural /klaʊdz/."
+        }
+    },
+    {
+        "path": "audio/ded72a81bc11b441924089d4cf58f31704c41ae3543a33710bdc7c6eb4fd35b0.wav",
+        "entryId": "en:sentence:weather-example-snow",
+        "label": "I like snow.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/74e2b131c64da10695ba0b619e9a463dc2035c39a6de44f718afc3a7054689db.wav",
+                "entryId": "en:word:like"
+            },
+            {
+                "path": "audio/b5402130d53b97e483a26d111aad02fe645c40f3ca4f12805db72ed798897e3a.wav",
+                "entryId": "en:word:weather-snow"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/74e2b131c64da10695ba0b619e9a463dc2035c39a6de44f718afc3a7054689db.wav",
+                "entryId": "en:word:like",
+                "startFrame": 11067,
+                "frameCount": 13914
+            },
+            {
+                "path": "audio/b5402130d53b97e483a26d111aad02fe645c40f3ca4f12805db72ed798897e3a.wav",
+                "entryId": "en:word:weather-snow",
+                "startFrame": 27141,
+                "frameCount": 21022
+            }
+        ],
+        "sha256": "ded72a81bc11b441924089d4cf58f31704c41ae3543a33710bdc7c6eb4fd35b0",
+        "frames": 59923,
+        "input": {
+            "language": "en",
+            "label": "I like snow.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact weather vocabulary and existing constituent PCM; English clouds uses the explicitly recorded plural /klaʊdz/."
+        }
+    },
+    {
+        "path": "audio/a6940b9b7615bd9f90ccc20f83bfbd9fe76036d001c20c3e5fb00070c829b3fe.wav",
+        "entryId": "en:sentence:weather-example-wind",
+        "label": "I like the wind.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/74e2b131c64da10695ba0b619e9a463dc2035c39a6de44f718afc3a7054689db.wav",
+                "entryId": "en:word:like"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/542c89686a20fa93535164840ee4a0ba526a8993b4e225a85a1ec4184359bb78.wav",
+                "entryId": "en:word:weather-wind"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/74e2b131c64da10695ba0b619e9a463dc2035c39a6de44f718afc3a7054689db.wav",
+                "entryId": "en:word:like",
+                "startFrame": 11067,
+                "frameCount": 13914
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 27141,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/542c89686a20fa93535164840ee4a0ba526a8993b4e225a85a1ec4184359bb78.wav",
+                "entryId": "en:word:weather-wind",
+                "startFrame": 37451,
+                "frameCount": 22137
+            }
+        ],
+        "sha256": "a6940b9b7615bd9f90ccc20f83bfbd9fe76036d001c20c3e5fb00070c829b3fe",
+        "frames": 71348,
+        "input": {
+            "language": "en",
+            "label": "I like the wind.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact weather vocabulary and existing constituent PCM; English clouds uses the explicitly recorded plural /klaʊdz/."
+        }
+    },
+    {
+        "path": "audio/846236e02563cce25867136394c523fbd2bd34744d7158435df5309d73f2a111.wav",
+        "entryId": "en:sentence:weather-example-cloud",
+        "label": "I see clouds.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/9b7843aec097ccb2e88f205448cd59c4d13b573f9b025bfeea72a95a0c467851.wav",
+                "entryId": "en:word:see"
+            },
+            {
+                "path": "audio/f6ecb2fa5d3dbd561a272879576a9e9d2f2ccd721b4459532b52e34741dbec34.wav",
+                "entryId": "en:word:form-weather-clouds"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/9b7843aec097ccb2e88f205448cd59c4d13b573f9b025bfeea72a95a0c467851.wav",
+                "entryId": "en:word:see",
+                "startFrame": 11067,
+                "frameCount": 11091
+            },
+            {
+                "path": "audio/f6ecb2fa5d3dbd561a272879576a9e9d2f2ccd721b4459532b52e34741dbec34.wav",
+                "entryId": "en:word:form-weather-clouds",
+                "startFrame": 24318,
+                "frameCount": 24366
+            }
+        ],
+        "sha256": "846236e02563cce25867136394c523fbd2bd34744d7158435df5309d73f2a111",
+        "frames": 60444,
+        "input": {
+            "language": "en",
+            "label": "I see clouds.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact weather vocabulary and existing constituent PCM; English clouds uses the explicitly recorded plural /klaʊdz/."
+        }
+    },
+    {
+        "path": "audio/a0b2f420b442b64a8cb16a171bfac918fb4cba25b405c3087ffd860d4bf5a581.wav",
+        "entryId": "en:sentence:clothing-example-shirt",
+        "label": "I buy a shirt.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+                "entryId": "en:word:travel-buy"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/1dcc58ee3a2dce873b01b597e4820c285eba988cdc8570159cf30389a4e6f065.wav",
+                "entryId": "en:word:clothing-shirt"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+                "entryId": "en:word:travel-buy",
+                "startFrame": 11067,
+                "frameCount": 19907
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 33134,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/1dcc58ee3a2dce873b01b597e4820c285eba988cdc8570159cf30389a4e6f065.wav",
+                "entryId": "en:word:clothing-shirt",
+                "startFrame": 47834,
+                "frameCount": 18793
+            }
+        ],
+        "sha256": "a0b2f420b442b64a8cb16a171bfac918fb4cba25b405c3087ffd860d4bf5a581",
+        "frames": 78387,
+        "input": {
+            "language": "en",
+            "label": "I buy a shirt.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact clothing and existing constituent PCM, including selected English likes and plural socks."
+        }
+    },
+    {
+        "path": "audio/5c4ceee81bf78a66b8f933e959130550ef6e18db84afb5538499ad290c8d59e0.wav",
+        "entryId": "en:sentence:clothing-example-dress",
+        "label": "She likes the dress.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/c36a98159cd3599e0e3a4bcf704c2133e3a204f208b02467eaf2d409ad208da6.wav",
+                "entryId": "en:word:form-english-like-third-person"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/fbc5452b8350acb7b99d28bcd1d2d468addb024891ef8ae82f9072ca09d4b42b.wav",
+                "entryId": "en:word:clothing-dress"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/c36a98159cd3599e0e3a4bcf704c2133e3a204f208b02467eaf2d409ad208da6.wav",
+                "entryId": "en:word:form-english-like-third-person",
+                "startFrame": 14932,
+                "frameCount": 13186
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 30278,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/fbc5452b8350acb7b99d28bcd1d2d468addb024891ef8ae82f9072ca09d4b42b.wav",
+                "entryId": "en:word:clothing-dress",
+                "startFrame": 40588,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "5c4ceee81bf78a66b8f933e959130550ef6e18db84afb5538499ad290c8d59e0",
+        "frames": 72255,
+        "input": {
+            "language": "en",
+            "label": "She likes the dress.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact clothing and existing constituent PCM, including selected English likes and plural socks."
+        }
+    },
+    {
+        "path": "audio/a12c964bcaa94248fc4fcc00c36e177360f8a85f6ee047c4754b340b6bf7f827.wav",
+        "entryId": "en:sentence:clothing-example-sock",
+        "label": "We need socks.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need"
+            },
+            {
+                "path": "audio/aba9e1351f05adb48d1d2c909c1787f1293ee5dadcd04219843bb8914fdb75aa.wav",
+                "entryId": "en:word:form-clothing-socks"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need",
+                "startFrame": 22112,
+                "frameCount": 9927
+            },
+            {
+                "path": "audio/aba9e1351f05adb48d1d2c909c1787f1293ee5dadcd04219843bb8914fdb75aa.wav",
+                "entryId": "en:word:form-clothing-socks",
+                "startFrame": 34199,
+                "frameCount": 24366
+            }
+        ],
+        "sha256": "a12c964bcaa94248fc4fcc00c36e177360f8a85f6ee047c4754b340b6bf7f827",
+        "frames": 70325,
+        "input": {
+            "language": "en",
+            "label": "We need socks.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact clothing and existing constituent PCM, including selected English likes and plural socks."
+        }
+    },
+    {
+        "path": "audio/b26080bf7f8302fbed377f41950e064c9ac37641acd74695fcd0d363dc181a2b.wav",
+        "entryId": "en:sentence:clothing-example-skirt",
+        "label": "They buy a skirt.",
+        "parts": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they"
+            },
+            {
+                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+                "entryId": "en:word:travel-buy"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/8b1d66eb13eb98a2ae5ed643e2b85c3a76c85359c9f7d42d06bfb43399da9191.wav",
+                "entryId": "en:word:clothing-skirt"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they",
+                "startFrame": 2400,
+                "frameCount": 9803
+            },
+            {
+                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+                "entryId": "en:word:travel-buy",
+                "startFrame": 14363,
+                "frameCount": 19907
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 36430,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/8b1d66eb13eb98a2ae5ed643e2b85c3a76c85359c9f7d42d06bfb43399da9191.wav",
+                "entryId": "en:word:clothing-skirt",
+                "startFrame": 51130,
+                "frameCount": 22137
+            }
+        ],
+        "sha256": "b26080bf7f8302fbed377f41950e064c9ac37641acd74695fcd0d363dc181a2b",
+        "frames": 85027,
+        "input": {
+            "language": "en",
+            "label": "They buy a skirt.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact clothing and existing constituent PCM, including selected English likes and plural socks."
+        }
+    },
+    {
+        "path": "audio/41b664a0b92d8b3d6f740615ef0a0892a8e20ad25ad8c5e050f983c8238dd836.wav",
+        "entryId": "en:sentence:tableware-example-cup",
+        "label": "The cup is on the table.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/9c21b7cb1296db1d1b7b6362264c6c920ed2880db7d61579978f787ad369b05d.wav",
+                "entryId": "en:word:tableware-cup"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/b16819d83e2bb0a994694ccb6feeb9a4e38f2a5662dc139ecd88628a19d9dca4.wav",
+                "entryId": "en:particle:on"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/66fd65aedde46bfd761073cd0450d585bb6476048fa04edb6f8791a99ce426c4.wav",
+                "entryId": "en:word:table"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/9c21b7cb1296db1d1b7b6362264c6c920ed2880db7d61579978f787ad369b05d.wav",
+                "entryId": "en:word:tableware-cup",
+                "startFrame": 12710,
+                "frameCount": 17678
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 32548,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/b16819d83e2bb0a994694ccb6feeb9a4e38f2a5662dc139ecd88628a19d9dca4.wav",
+                "entryId": "en:particle:on",
+                "startFrame": 45095,
+                "frameCount": 8465
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 55720,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/66fd65aedde46bfd761073cd0450d585bb6476048fa04edb6f8791a99ce426c4.wav",
+                "entryId": "en:word:table",
+                "startFrame": 66030,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "41b664a0b92d8b3d6f740615ef0a0892a8e20ad25ad8c5e050f983c8238dd836",
+        "frames": 97697,
+        "input": {
+            "language": "en",
+            "label": "The cup is on the table.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact tableware and existing constituent PCM, including selected English is, spoons and forks."
+        }
+    },
+    {
+        "path": "audio/b18fe68a34d8c6e378b3654bcaaae853ccb3e1c1c46581f3c6006154796dcefb.wav",
+        "entryId": "en:sentence:tableware-example-plate",
+        "label": "I need a plate.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/fc3ecd7d1abfbc340f59297766bb1e85f8652d4f943c5c47a92443b289dda215.wav",
+                "entryId": "en:word:tableware-plate"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need",
+                "startFrame": 11067,
+                "frameCount": 9927
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 23154,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/fc3ecd7d1abfbc340f59297766bb1e85f8652d4f943c5c47a92443b289dda215.wav",
+                "entryId": "en:word:tableware-plate",
+                "startFrame": 37854,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "b18fe68a34d8c6e378b3654bcaaae853ccb3e1c1c46581f3c6006154796dcefb",
+        "frames": 69521,
+        "input": {
+            "language": "en",
+            "label": "I need a plate.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact tableware and existing constituent PCM, including selected English is, spoons and forks."
+        }
+    },
+    {
+        "path": "audio/0988f4428049275661701162a8b5275b3d926c307df7f8321e16c5f17ffbc880.wav",
+        "entryId": "en:sentence:tableware-example-spoon",
+        "label": "We need spoons.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need"
+            },
+            {
+                "path": "audio/88c48c2cbedaa2f072bdb8a940b6be0eea815cefca54708b6a6231578a540663.wav",
+                "entryId": "en:word:form-tableware-spoons"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need",
+                "startFrame": 22112,
+                "frameCount": 9927
+            },
+            {
+                "path": "audio/88c48c2cbedaa2f072bdb8a940b6be0eea815cefca54708b6a6231578a540663.wav",
+                "entryId": "en:word:form-tableware-spoons",
+                "startFrame": 34199,
+                "frameCount": 26595
+            }
+        ],
+        "sha256": "0988f4428049275661701162a8b5275b3d926c307df7f8321e16c5f17ffbc880",
+        "frames": 72554,
+        "input": {
+            "language": "en",
+            "label": "We need spoons.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact tableware and existing constituent PCM, including selected English is, spoons and forks."
+        }
+    }
+]

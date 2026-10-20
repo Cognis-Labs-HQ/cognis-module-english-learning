@@ -1,0 +1,168 @@
+[
+    {
+        "id": "en:sentence:width-example-narrow-door",
+        "label": "The door is narrow.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/e7393559404378c3ce541a6fbed8104616c55f5c7d3041b1e0c47ec80d6ca768.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:door",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:width-narrow",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:width-example-narrow-door",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:width-example-wider-table",
+        "label": "I need a wider table.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/3e0b0b889bf7d8ad08a053a04640de1be8dc5ae8384e29450860617f77159572.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:need",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:form-width-wide-comparative",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:table",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:width-example-wider-table",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:width-example-wide-room",
+        "label": "The room is wide.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/54facf2002b3b10d399c94062fbf8e0fc11774320343ea60ddeabe31b40cce40.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:room",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:width-wide",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:width-example-wide-room",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:width-example-widest-table",
+        "label": "The widest table is here.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/2dee75fb0b896bd6a09a70d9829755277b0df960ef7115b8d9d7a8b5945df682.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-width-wide-superlative",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:table",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:here",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:width-example-widest-table",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

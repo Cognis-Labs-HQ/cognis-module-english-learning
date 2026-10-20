@@ -1,50 +1,21 @@
 [
     {
-        "path": "audio/bd04024b02ccfb1acb267613f4cb81cac9a887a044d4b7ab4f3da08e75c2a97c.wav",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "text": "by",
-        "request": {
-            "text": "by.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
+        "path": "audio/0c99e0ab61bee151bc8433024278e69e846626de56889e935345eaf88ba329e2.wav",
+        "text": "onion",
         "inputs": [
             {
                 "language": "en",
-                "label": "by",
-                "semanticRole": "particle",
-                "readings": []
-            }
-        ],
-        "entries": ["en:particle:by"],
-        "variants": [],
-        "sha256": "3dd0f67bd0117ce6f67c83a3d63958541f0c64f080e6a4f4d120b3cdcd226fe2",
-        "frames": 11602
-    },
-    {
-        "path": "audio/66fd65aedde46bfd761073cd0450d585bb6476048fa04edb6f8791a99ce426c4.wav",
-        "text": "table",
-        "inputs": [
-            {
-                "language": "en",
-                "label": "table",
+                "label": "onion",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/ˈteɪbəl/"]
+                "readings": ["/ˈʌnjən/"]
             }
         ],
-        "entries": ["en:word:table"],
+        "entries": ["en:word:onion"],
         "variants": [],
-        "phonemes": "ˈteɪbəl",
+        "phonemes": "ˈʌnjən",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈteɪbəl\">table</phoneme>.",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈʌnjən\">onion</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -55,26 +26,26 @@
                 "speed": 0.9
             }
         },
-        "sha256": "deeab90a0c87948208b022c62f699eef2d319f018fe8ea1d37ae5d6991bdeddc",
+        "sha256": "cf13ac279b6bc49dc10d103c1c8978d66eda27c5109874e9f4645229cad07141",
         "frames": 19907
     },
     {
-        "path": "audio/82aa54979a99171da309b32e9e169c762861233b3c19f5cd53781a43a9f546cf.wav",
-        "text": "chair",
+        "path": "audio/cdb4b3caa825a4a9ba5364529c12ee656acfa28ff08d5a8f7e16a1c604ebfc83.wav",
+        "text": "cucumber",
         "inputs": [
             {
                 "language": "en",
-                "label": "chair",
+                "label": "cucumber",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/tʃeə/"]
+                "readings": ["/ˈkjuːkʌmbə/"]
             }
         ],
-        "entries": ["en:word:chair"],
+        "entries": ["en:word:cucumber"],
         "variants": [],
-        "phonemes": "tʃeə",
+        "phonemes": "ˈkjuːkʌmbə",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"tʃeə\">chair</phoneme>.",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈkjuːkʌmbə\">cucumber</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -85,266 +56,26 @@
                 "speed": 0.9
             }
         },
-        "sha256": "af47af456dd6ad1319777e96cb6f7c424c9350a0c6f0b5fb725ac0377c35a45d",
-        "frames": 36626
-    },
-    {
-        "path": "audio/942edbfa0f09e0e78d268effc09c987de3152d14fd78f1c5dfb5455ebd76d752.wav",
-        "text": "bed",
-        "inputs": [
-            {
-                "language": "en",
-                "label": "bed",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/bed/"]
-            }
-        ],
-        "entries": ["en:word:bed"],
-        "variants": [],
-        "phonemes": "bed",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"bed\">bed</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "sha256": "b7f39f98115e2a75b18b47d532b9b2a4e10ad78e389b06c3e548dd51e08359ce",
-        "frames": 18793
-    },
-    {
-        "path": "audio/73013127fed0ea0a484238e0a4ba76df65fdb9996877d6dd180f519f856585fe.wav",
-        "text": "bag",
-        "inputs": [
-            {
-                "language": "en",
-                "label": "bag",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/bæɡ/"]
-            }
-        ],
-        "entries": ["en:word:bag"],
-        "variants": [],
-        "phonemes": "bæɡ",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"bæɡ\">bag</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "sha256": "1055930069b119a78e3802774c1b33f976adb6bc0b3bbd51fa53d4363ce8c8ba",
-        "frames": 21022
-    },
-    {
-        "path": "audio/e8a057b5472f52f4d8b461bca83fc2fc680177dd5bcd990e3543a939ddd58e3a.wav",
-        "text": "shoe",
-        "inputs": [
-            {
-                "language": "en",
-                "label": "shoe",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ʃuː/"]
-            }
-        ],
-        "entries": ["en:word:shoe"],
-        "variants": [],
-        "phonemes": "ʃuː",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"ʃuː\">shoe</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "sha256": "963ca19b629ace4861aa34e741ed29357fe377bba99167b5ed71972c668b998d",
-        "frames": 19907
-    },
-    {
-        "path": "audio/81e21c7cdea8da154afb04e8a9f4fcb42bbb628d22fbfb1ccddec36599fc92fe.wav",
-        "text": "hat",
-        "inputs": [
-            {
-                "language": "en",
-                "label": "hat",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/hæt/"]
-            }
-        ],
-        "entries": ["en:word:hat"],
-        "variants": [],
-        "phonemes": "hæt",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"hæt\">hat</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "sha256": "2a64d8ac865151310245e24945d622b435b879de37285990abd1036bd41253d4",
-        "frames": 21022
-    },
-    {
-        "path": "audio/e72db60db99f01ff27735a2ec347691e8fe769d672a7b0e94f3352ec0344e584.wav",
-        "text": "coat",
-        "inputs": [
-            {
-                "language": "en",
-                "label": "coat",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/kəʊt/"]
-            }
-        ],
-        "entries": ["en:word:coat"],
-        "variants": [],
-        "phonemes": "kəʊt",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"kəʊt\">coat</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "sha256": "1390d5a3ceaab16ed72c3786556c0146d610b6f0741786711fd623d476471cec",
-        "frames": 28824
-    },
-    {
-        "path": "audio/e5b442edb628e9fed0cb699a3ab7c8a979d4e2d94b229d8f6598a36d6daf90ea.wav",
-        "text": "key",
-        "inputs": [
-            {
-                "language": "en",
-                "label": "key",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/kiː/"]
-            }
-        ],
-        "entries": ["en:word:key"],
-        "variants": [],
-        "phonemes": "kiː",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"kiː\">key</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "sha256": "6150a42452e42179616298a5aebe62e53eb4dfb010b9a20756e12a5eb9c9a256",
-        "frames": 18793
-    },
-    {
-        "path": "audio/117a67fda04ed77d3be09804cfb4ecafd1ad565ae850710d715b8b09b91eaef3.wav",
-        "text": "phone",
-        "inputs": [
-            {
-                "language": "en",
-                "label": "phone",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/fəʊn/"]
-            }
-        ],
-        "entries": ["en:word:phone"],
-        "variants": [],
-        "phonemes": "fəʊn",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"fəʊn\">phone</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "sha256": "bde7026acddf748282b5ee74e5988c6cc79945f16a637a50627ca0154608dd37",
-        "frames": 19907
-    },
-    {
-        "path": "audio/2ff4bb8a92f69e0175bcaf1bc5c1b5df69e978c8aa17b41889a74f346647cdb9.wav",
-        "text": "computer",
-        "inputs": [
-            {
-                "language": "en",
-                "label": "computer",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/kəmˈpjuːtə/"]
-            }
-        ],
-        "entries": ["en:word:computer"],
-        "variants": [],
-        "phonemes": "kəmˈpjuːtə",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"kəmˈpjuːtə\">computer</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "sha256": "3980620daef3561cadd4a3e275962e216d09cc119d65b6bf72994756a9375409",
+        "sha256": "eb8bffa72a8de6b8a69ccf4d0a60a21b40e2c9d007843ed1b393fd49f4c16d1c",
         "frames": 25480
     },
     {
-        "path": "audio/2d81a63a2db834c1bcd3925af71a9adafec14a9661599e6df6a2502cd860fc31.wav",
-        "text": "clock",
+        "path": "audio/005804606b17e2c7f4ead52c8c6161e032830c31bd4f14379f5eac739a5c3ac6.wav",
+        "text": "soup",
         "inputs": [
             {
                 "language": "en",
-                "label": "clock",
+                "label": "soup",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/klɒk/"]
+                "readings": ["/suːp/"]
             }
         ],
-        "entries": ["en:word:clock"],
+        "entries": ["en:word:soup"],
         "variants": [],
-        "phonemes": "klɒk",
+        "phonemes": "suːp",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"klɒk\">clock</phoneme>.",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"suːp\">soup</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -355,86 +86,26 @@
                 "speed": 0.9
             }
         },
-        "sha256": "00cd8d61c3f9ce2485e125a09ea64eacd32c702fe9bfefaf9e7cfbc7bb826e72",
-        "frames": 22137
-    },
-    {
-        "path": "audio/7d3f7ae8c4cbbe998ac7f6dc9af2c86dcc6b8acaa765905ed0fdb63ba39a8c43.wav",
-        "text": "umbrella",
-        "inputs": [
-            {
-                "language": "en",
-                "label": "umbrella",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ʌmˈbrelə/"]
-            }
-        ],
-        "entries": ["en:word:umbrella"],
-        "variants": [],
-        "phonemes": "ʌmˈbrelə",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"ʌmˈbrelə\">umbrella</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "sha256": "41b72fe4cfacd8d894f2770074187c8ce1ff66fbe844311cc1e142087203a3dc",
-        "frames": 24366
-    },
-    {
-        "path": "audio/a0089b8d73a68610ca909fc672122d0a78287c0673e01856c64b8185eb7d48f6.wav",
-        "text": "egg",
-        "inputs": [
-            {
-                "language": "en",
-                "label": "egg",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/eɡ/"]
-            }
-        ],
-        "entries": ["en:word:egg"],
-        "variants": [],
-        "phonemes": "eɡ",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"eɡ\">egg</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "sha256": "142bb42f2081f1df6a8f830b5c210400d19ba4b01314ddeaade3dda657683c45",
+        "sha256": "9f88fa8374f1ea0b4da030815c94c56eac1ad0cfebe9145c04fea3d72853c37d",
         "frames": 17678
     },
     {
-        "path": "audio/2f1aff6b9fc48808c7ea17e0f18661f9f72669d3cbe8ece8f3a1bafd65482800.wav",
-        "text": "rice",
+        "path": "audio/a86713471e75629ccacd84683c93c4106d78ea3c07211f09626e81b65b99b3cc.wav",
+        "text": "cheese",
         "inputs": [
             {
                 "language": "en",
-                "label": "rice",
+                "label": "cheese",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/raɪs/"]
+                "readings": ["/tʃiːz/"]
             }
         ],
-        "entries": ["en:word:rice"],
+        "entries": ["en:word:cheese"],
         "variants": [],
-        "phonemes": "raɪs",
+        "phonemes": "tʃiːz",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"raɪs\">rice</phoneme>.",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"tʃiːz\">cheese</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -445,26 +116,26 @@
                 "speed": 0.9
             }
         },
-        "sha256": "9c8dde0d18946fcf44b2e27758d0a06b73edb7790cab2210780b69f6f5020564",
-        "frames": 23251
+        "sha256": "f02d21e24705fbfe92e0909432606dddb680c248c8124896c28a0743f8ba6c58",
+        "frames": 37740
     },
     {
-        "path": "audio/0d1ad26c416bdf867ef0b29cc1cb86b5c264c6f21d76c46ee8e22f0bce97a5cc.wav",
-        "text": "banana",
+        "path": "audio/b220ebd7fed905ea68de4341f2f7990e0576ff2e2b078e7a2c27abc48be64a53.wav",
+        "text": "meat",
         "inputs": [
             {
                 "language": "en",
-                "label": "banana",
+                "label": "meat",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/bəˈnɑːnə/"]
+                "readings": ["/miːt/"]
             }
         ],
-        "entries": ["en:word:banana"],
+        "entries": ["en:word:meat"],
         "variants": [],
-        "phonemes": "bəˈnɑːnə",
+        "phonemes": "miːt",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"bəˈnɑːnə\">banana</phoneme>.",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"miːt\">meat</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -475,26 +146,26 @@
                 "speed": 0.9
             }
         },
-        "sha256": "53f1438fd761f1ee67f7bd3848567fea1b46ff966afb3897306de8d095c7387c",
-        "frames": 23251
+        "sha256": "852eaa4b54356648caa9b66b19375c5edac6d25846794aa447fc2521772bd01c",
+        "frames": 17678
     },
     {
-        "path": "audio/43ca8e085bb6626363c7d1724d01f1e82d796893835cc887f5d40e222c8501e3.wav",
-        "text": "orange",
+        "path": "audio/ccd89bbfa7ae3e84e46f690dd69890dcbacd21f38893d189dec926e2e7da1562.wav",
+        "text": "chicken",
         "inputs": [
             {
                 "language": "en",
-                "label": "orange",
+                "label": "chicken",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/ˈɒrɪndʒ/"]
+                "readings": ["/ˈtʃɪkɪn/"]
             }
         ],
-        "entries": ["en:word:orange"],
+        "entries": ["en:word:chicken"],
         "variants": [],
-        "phonemes": "ˈɒrɪndʒ",
+        "phonemes": "ˈtʃɪkɪn",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈɒrɪndʒ\">orange</phoneme>.",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈtʃɪkɪn\">chicken</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -505,26 +176,26 @@
                 "speed": 0.9
             }
         },
-        "sha256": "fc899c49404d84607c667e9e04dda960af382df7037900b48928edc105607049",
-        "frames": 24366
+        "sha256": "e47d23103d9cc9a03deb3eaa58523e7f64b382fe3e37e17c62bb847ff5e151ac",
+        "frames": 39970
     },
     {
-        "path": "audio/4371ecba2f2a8025f5075dfa765d10387c05c7339ec01415eab340fc1d0d1e87.wav",
-        "text": "grape",
+        "path": "audio/5de6cf016d5a3c09044112b082891a6b33c6898aeaecc4322f4833fe31a727d6.wav",
+        "text": "beef",
         "inputs": [
             {
                 "language": "en",
-                "label": "grape",
+                "label": "beef",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/ɡreɪp/"]
+                "readings": ["/biːf/"]
             }
         ],
-        "entries": ["en:word:grape"],
+        "entries": ["en:word:beef"],
         "variants": [],
-        "phonemes": "ɡreɪp",
+        "phonemes": "biːf",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"ɡreɪp\">grape</phoneme>.",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"biːf\">beef</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -535,26 +206,26 @@
                 "speed": 0.9
             }
         },
-        "sha256": "f0361bd663412f27938302518972f80e8984d097f3e97630b3bfad8419b08909",
+        "sha256": "12c7134e25b970101f6075b4ef005dc5459aab8abe70dc4b6b4553000c81e039",
         "frames": 19907
     },
     {
-        "path": "audio/e8fc211628b4f4510ba307f8d5d267ee2f272fd7c7ccff645e1cbaa70928af31.wav",
-        "text": "strawberry",
+        "path": "audio/1bc577f8231c03383cac2bd5cb4e2f36586c0477ab5beddd174aba98c053330a.wav",
+        "text": "butter",
         "inputs": [
             {
                 "language": "en",
-                "label": "strawberry",
+                "label": "butter",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/ˈstrɔːbəri/"]
+                "readings": ["/ˈbʌtə/"]
             }
         ],
-        "entries": ["en:word:strawberry"],
+        "entries": ["en:word:butter"],
         "variants": [],
-        "phonemes": "ˈstrɔːbəri",
+        "phonemes": "ˈbʌtə",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈstrɔːbəri\">strawberry</phoneme>.",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈbʌtə\">butter</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -565,56 +236,26 @@
                 "speed": 0.9
             }
         },
-        "sha256": "bfb8153ad139f0524c281ed55ad0fd9db3529a1924765b7411b07ead2921a642",
-        "frames": 25480
-    },
-    {
-        "path": "audio/499dab04d0dae7e0c7fc03be49c2e7d3ad81d4fd4fd7ae33c3ab7dd45caca43d.wav",
-        "text": "lemon",
-        "inputs": [
-            {
-                "language": "en",
-                "label": "lemon",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ˈlemən/"]
-            }
-        ],
-        "entries": ["en:word:lemon"],
-        "variants": [],
-        "phonemes": "ˈlemən",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈlemən\">lemon</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "sha256": "bdd30b4a1ecae12a675ab81f461209d785951c3159738a566acb073e88fc8994",
+        "sha256": "85c89edf8702f161f21ddf00fd809d1decbb2de5ed59dd6b5275027737dc6d41",
         "frames": 21022
     },
     {
-        "path": "audio/e84fc06564c992c4dcac2215fa3bde9e8b1e8005a45d847cd0976903ec6e32b1.wav",
-        "text": "carrot",
+        "path": "audio/0e17fa9a69eb1dd32b39db5a164cf1bff09c83ae80b18e3afe40cef44c8f9394.wav",
+        "text": "head",
         "inputs": [
             {
                 "language": "en",
-                "label": "carrot",
+                "label": "head",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/ˈkærət/"]
+                "readings": ["/hed/"]
             }
         ],
-        "entries": ["en:word:carrot"],
+        "entries": ["en:word:head"],
         "variants": [],
-        "phonemes": "ˈkærət",
+        "phonemes": "hed",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈkærət\">carrot</phoneme>.",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"hed\">head</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -625,26 +266,116 @@
                 "speed": 0.9
             }
         },
-        "sha256": "4f6c2ce395e196374b39ee5e492afd982aa1e0e8118bac72c98eaf9fe8868fde",
+        "sha256": "e1bd7bd591b0557b6e93583a3242a80a41cdc23eb1050ab23addf50147c2446e",
+        "frames": 18793
+    },
+    {
+        "path": "audio/7bbf0b6cc8b9064489c0dcfdc8c79e32733c354536a66d8a1ed4e3b5b698148f.wav",
+        "text": "face",
+        "inputs": [
+            {
+                "language": "en",
+                "label": "face",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/feɪs/"]
+            }
+        ],
+        "entries": ["en:word:face"],
+        "variants": [],
+        "phonemes": "feɪs",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"feɪs\">face</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "sha256": "e8e8171995b3df358cfe0d70486c57ed5bdb091ab90abd74c841b41275c5a816",
+        "frames": 22137
+    },
+    {
+        "path": "audio/509da8139fe7db3185e73547ef304bfe2d452558f7a25be0c5077767bd6f7519.wav",
+        "text": "eye",
+        "inputs": [
+            {
+                "language": "en",
+                "label": "eye",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/aɪ/"]
+            }
+        ],
+        "entries": ["en:word:eye"],
+        "variants": [],
+        "phonemes": "aɪ",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"aɪ\">eye</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "sha256": "eeb08321fee6430231ecb675642c00f5c2d85668ee55bf6ebe5952681961f0b0",
+        "frames": 15449
+    },
+    {
+        "path": "audio/5cd625d182e991815d733ef7f87c4d40096066688dae3fd0c40e56deaba4d665.wav",
+        "text": "ear",
+        "inputs": [
+            {
+                "language": "en",
+                "label": "ear",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ɪə/"]
+            }
+        ],
+        "entries": ["en:word:ear"],
+        "variants": [],
+        "phonemes": "ɪə",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ɪə\">ear</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "sha256": "3e1a4c14be612f574bcdaffaf0411169cbd64e8263b42a81aa0291a54d0b2cba",
         "frames": 23251
     },
     {
-        "path": "audio/348e98567f8989ba92f3eaf40bce97f01b00c7bca492f2fabc8a3c14c6ffcd4d.wav",
-        "text": "potato",
+        "path": "audio/e0b52258f8032f2598f1a0ce94250e559fcb0c0d2be52a805097ea2ea164f77a.wav",
+        "text": "mouth",
         "inputs": [
             {
                 "language": "en",
-                "label": "potato",
+                "label": "mouth",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/pəˈteɪtəʊ/"]
+                "readings": ["/maʊθ/"]
             }
         ],
-        "entries": ["en:word:potato"],
+        "entries": ["en:word:mouth"],
         "variants": [],
-        "phonemes": "pəˈteɪtəʊ",
+        "phonemes": "maʊθ",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"pəˈteɪtəʊ\">potato</phoneme>.",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"maʊθ\">mouth</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -655,26 +386,26 @@
                 "speed": 0.9
             }
         },
-        "sha256": "e2896f77ac4c16e85233ff22a3725789d387a2ab3e850a420341e3249dca68ef",
-        "frames": 24366
+        "sha256": "80023a6609522b1c1bd5cb983a764ab2b7ae8cddfb39874fd7962ad60c41595e",
+        "frames": 23251
     },
     {
-        "path": "audio/dfe6afc5ed0917343bc7ddd36671051a88e8930239fe6dc3f42d5a0dbcfc68fc.wav",
-        "text": "tomato",
+        "path": "audio/1cc61f6cb65ff6b5b0da84e93d786bf31951d37a37e600257b668746a8d31aae.wav",
+        "text": "hand",
         "inputs": [
             {
                 "language": "en",
-                "label": "tomato",
+                "label": "hand",
                 "semanticRole": "lexicalUnit",
-                "readings": ["/təˈmɑːtəʊ/"]
+                "readings": ["/hænd/"]
             }
         ],
-        "entries": ["en:word:tomato"],
+        "entries": ["en:word:hand"],
         "variants": [],
-        "phonemes": "təˈmɑːtəʊ",
+        "phonemes": "hænd",
         "voiceId": "gJx1vCzNCD1EQHT212Ls",
         "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"təˈmɑːtəʊ\">tomato</phoneme>.",
+            "text": "<phoneme alphabet=\"ipa\" ph=\"hænd\">hand</phoneme>.",
             "model_id": "eleven_turbo_v2",
             "seed": 42,
             "voice_settings": {
@@ -685,7 +416,373 @@
                 "speed": 0.9
             }
         },
-        "sha256": "cb60dfc66608b86bb059a70ccdd3ce10c77eeabff2ec3d370c60a21a7cdb3034",
-        "frames": 24366
+        "sha256": "3f2637a1190a23872f880356700cb936473c6295220beabe12af16b16418417b",
+        "frames": 21022
+    },
+    {
+        "path": "audio/01a676a4b22c4533116bc97587ee6a0ae4b1df9bc0dbb26d999db4fb91392fed.wav",
+        "text": "foot",
+        "inputs": [
+            {
+                "language": "en",
+                "label": "foot",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/fʊt/"]
+            }
+        ],
+        "entries": ["en:word:foot"],
+        "variants": [],
+        "phonemes": "fʊt",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"fʊt\">foot</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "sha256": "f144b86b738666d05355520343f373c2bb10979502ef32c17dbf246f19f8bf03",
+        "frames": 19907
+    },
+    {
+        "path": "audio/354a427ed47efc4778c92fb60116dc41b939c76cf3547e5b688aae3ddaee541b.wav",
+        "text": "arm",
+        "inputs": [
+            {
+                "language": "en",
+                "label": "arm",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ɑːm/"]
+            }
+        ],
+        "entries": ["en:word:arm"],
+        "variants": [],
+        "phonemes": "ɑːm",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ɑːm\">arm</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "sha256": "3d7d1d96e9e9228ebfe187eef83032f8d53ca42a4f38e94b79ae3b8e75914460",
+        "frames": 16564
+    },
+    {
+        "path": "audio/045a073ae248df724acf146817734867826e27a6d3818ac4969cec01352d6cf0.wav",
+        "text": "tooth",
+        "inputs": [
+            {
+                "language": "en",
+                "label": "tooth",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/tuːθ/"]
+            }
+        ],
+        "entries": ["en:word:tooth"],
+        "variants": [],
+        "phonemes": "tuːθ",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"tuːθ\">tooth</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "sha256": "275a9cfbe1d835abb99b81057310ab9a84e17ab1e92cce032588c44e7604ebae",
+        "frames": 21022
+    },
+    {
+        "path": "audio/03e95062852559089b85c7addfccf428a64fbe1427271ed139b62db9cd20a491.wav",
+        "text": "finger",
+        "inputs": [
+            {
+                "language": "en",
+                "label": "finger",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈfɪŋɡə/"]
+            }
+        ],
+        "entries": ["en:word:finger"],
+        "variants": [],
+        "phonemes": "ˈfɪŋɡə",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈfɪŋɡə\">finger</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "sha256": "d64674a7bc92002145d390cccd2b023bef580b3201e3ee207000031ff4717d1a",
+        "frames": 22137
+    },
+    {
+        "path": "audio/35c38fb998fdedd583855480619c24ac7861f55d490ea20eed92914efdd9100e.wav",
+        "text": "neck",
+        "inputs": [
+            {
+                "language": "en",
+                "label": "neck",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/nek/"]
+            }
+        ],
+        "entries": ["en:word:neck"],
+        "variants": [],
+        "phonemes": "nek",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"nek\">neck</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "sha256": "b3b99d247c70ba0445e68cc7501da95604ed0043ce48d15de173a8786428ec02",
+        "frames": 18793
+    },
+    {
+        "path": "audio/f35884b2ca34ed6916cf2dae0e74817c94d323f877359f0a14070da8df9fc760.wav",
+        "text": "back",
+        "inputs": [
+            {
+                "language": "en",
+                "label": "back",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/bæk/"]
+            }
+        ],
+        "entries": ["en:word:back"],
+        "variants": [],
+        "phonemes": "bæk",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"bæk\">back</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "sha256": "f515879e88553fbf65c8e6645950efff6da64d70b750e291cce9868fdf56d18b",
+        "frames": 21022
+    },
+    {
+        "path": "audio/e1147f534883eafe9db2590f9b07553bf8dfd4f47737b86d1c40bc4ed9268e1c.wav",
+        "text": "stomach",
+        "inputs": [
+            {
+                "language": "en",
+                "label": "stomach",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈstʌmək/"]
+            }
+        ],
+        "entries": ["en:word:stomach"],
+        "variants": [],
+        "phonemes": "ˈstʌmək",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈstʌmək\">stomach</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "sha256": "a40ec46905c8efbfe64711fae0a1d9dcea0f7a2faea2f2f4a61fe8f7e97e7dc3",
+        "frames": 25480
+    },
+    {
+        "path": "audio/42c7efd2d7a0d6361c4850d67d4c7ccd81042536b488d67e86221c69697b331e.wav",
+        "text": "shoulder",
+        "inputs": [
+            {
+                "language": "en",
+                "label": "shoulder",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈʃəʊldə/"]
+            }
+        ],
+        "entries": ["en:word:shoulder"],
+        "variants": [],
+        "phonemes": "ˈʃəʊldə",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈʃəʊldə\">shoulder</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "sha256": "65c2d56357027c35a977c97c0d2c250990b3bf9e56467b4ea6a691fcbc2b997f",
+        "frames": 22137
+    },
+    {
+        "path": "audio/eaefadb75a3c9f807dee3bdb814a7fcb58a601ad5ed319f271bad7b18a868712.wav",
+        "text": "knee",
+        "inputs": [
+            {
+                "language": "en",
+                "label": "knee",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/niː/"]
+            }
+        ],
+        "entries": ["en:word:knee"],
+        "variants": [],
+        "phonemes": "niː",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"niː\">knee</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "sha256": "2797031e585403f1d690a4c4a2b33350500a99707df784cae389dd202134b530",
+        "frames": 17678
+    },
+    {
+        "path": "audio/b8496eb95498845147cc0033109f63e38aa5a1cf26eb7eeb1428f6c863d25d1b.wav",
+        "text": "skin",
+        "inputs": [
+            {
+                "language": "en",
+                "label": "skin",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/skɪn/"]
+            }
+        ],
+        "entries": ["en:word:skin"],
+        "variants": [],
+        "phonemes": "skɪn",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"skɪn\">skin</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "sha256": "9fed3356fee0487af053a00af97784448eebdfb60ee9578fbdf35fedb0342860",
+        "frames": 22137
+    },
+    {
+        "path": "audio/602a5b18f35940ca7a99e287c3ccf5f588e16d278143c5e873d911838d9cc187.wav",
+        "text": "bowl",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"bəʊl\">bowl</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "bowl",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/bəʊl/"]
+            }
+        ],
+        "entries": ["en:word:kitchen-bowl"],
+        "variants": [],
+        "sha256": "602a5b18f35940ca7a99e287c3ccf5f588e16d278143c5e873d911838d9cc187",
+        "frames": 27709,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "e4dfa2c847f1e6cd7a5721a46c28123db4b85ed4abb49a2328e41dc113e9f0a2"
+        }
+    },
+    {
+        "path": "audio/2d449ca80614e881c90713d92800b4a5f98a25832815f02d384b58b1f105b1ad.wav",
+        "text": "knife",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"naɪf\">knife</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "knife",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/naɪf/"]
+            }
+        ],
+        "entries": ["en:word:kitchen-knife"],
+        "variants": [],
+        "sha256": "2d449ca80614e881c90713d92800b4a5f98a25832815f02d384b58b1f105b1ad",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "1632310509ce2389bfe14151b7bfe7e4002dbb3f81271e2af083589631f9d8ec"
+        }
     }
 ]

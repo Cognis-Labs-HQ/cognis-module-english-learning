@@ -1,0 +1,97 @@
+[
+    {
+        "id": "en:word:exchange-give",
+        "label": "give",
+        "class": "lexical:verb",
+        "fields": {
+            "pronunciation": ["/ɡɪv/"],
+            "part_of_speech": "verb",
+            "reference_images": [
+                "images/a798ea21c24228681487477c7e0608126a5a308e25356f876fd47f6ac730d31a.jpg"
+            ],
+            "audio": "audio/7aaa681c34581cd7a2e7811b586a1a6e4d92beda0aabc2a582f28cd49a770fd5.wav"
+        },
+        "tags": ["verb", "exchange-form-give"],
+        "references": [
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:v-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:exchange-give",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:exchange-receive",
+        "label": "receive",
+        "class": "lexical:verb",
+        "fields": {
+            "pronunciation": ["/rɪˈsiːv/"],
+            "part_of_speech": "verb",
+            "reference_images": [
+                "images/a09d1b1edd1a33bd400695745055d479e7e88862b0097e55f93f0da535126249.jpg"
+            ],
+            "audio": "audio/b437287b62aa9ff62ed37bf3e693d5f46c055322c921da4b7841fc5bc4683f1a.wav"
+        },
+        "tags": ["verb", "exchange-form-receive"],
+        "references": [
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:c-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:v-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:exchange-receive",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

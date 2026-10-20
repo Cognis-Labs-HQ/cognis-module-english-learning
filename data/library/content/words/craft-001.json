@@ -1,0 +1,122 @@
+[
+    {
+        "id": "en:word:craft-cut",
+        "label": "cut",
+        "class": "lexical:verb",
+        "fields": {
+            "pronunciation": ["/kʌt/"],
+            "part_of_speech": "verb",
+            "reference_images": [
+                "images/311dc02178d3ee887684e534bd0ff5e0c714a895bf26d63d48073600af4b399b.jpg"
+            ],
+            "audio": "audio/5abaae46dee3f75c72e9ebd501b7b3312ad13bf3864c6ff25088eaa50282138f.wav"
+        },
+        "tags": ["verb", "craft-form-cut"],
+        "references": [
+            {
+                "entryId": "en:char:c-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:craft-cut",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:craft-fold",
+        "label": "fold",
+        "class": "lexical:verb",
+        "fields": {
+            "pronunciation": ["/fəʊld/"],
+            "part_of_speech": "verb",
+            "reference_images": [
+                "images/8236e8d5033f08da7e907c22f3ed139bc7335392d106cc42c3fb2b0b1146c787.jpg"
+            ],
+            "audio": "audio/a34d7e310214261a3e0e8802cb6c1cb040376e1080eb027c6c00b87de3c5a9d8.wav"
+        },
+        "tags": ["verb", "craft-form-fold"],
+        "references": [
+            {
+                "entryId": "en:char:f-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:craft-fold",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:craft-paper",
+        "label": "paper",
+        "class": "lexical:noun",
+        "fields": {
+            "pronunciation": ["/ˈpeɪpə/"],
+            "part_of_speech": "noun",
+            "reference_images": [
+                "images/d3b8de585a8ea41cbee6f7a0d8998e2905d8251cd4dd90c331e245e6a174b613.jpg"
+            ],
+            "audio": "audio/a97e56ebd7e67a06e7614145cbdd1b7e3559efaca77b9a265ce8b0a9b7895fe7.wav"
+        },
+        "tags": ["noun", "craft"],
+        "references": [
+            {
+                "entryId": "en:char:p-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:p-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:craft-paper",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

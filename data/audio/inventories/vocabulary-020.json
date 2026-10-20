@@ -1,0 +1,765 @@
+[
+    {
+        "path": "audio/eebae08a77837b6fbadb08fd42460757cfedcc2478b8849bd2dba4fb328c10cf.wav",
+        "text": "Good evening",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˌɡʊd ˈiːvnɪŋ\">Good evening</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "Good evening",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˌɡʊd ˈiːvnɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:greetings-evening"],
+        "variants": [],
+        "sha256": "eebae08a77837b6fbadb08fd42460757cfedcc2478b8849bd2dba4fb328c10cf",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "296c057f9279b158cdd5889b6ba7a0243551346aa4b0ce9d5ca214da505c835f"
+        }
+    },
+    {
+        "path": "audio/371a807e99822eb47bdccc1fac3f751e4d65990f3cb816fcc38d92a9ca2bb764.wav",
+        "text": "Good night",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˌɡʊd ˈnaɪt\">Good night</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "Good night",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˌɡʊd ˈnaɪt/"]
+            }
+        ],
+        "entries": ["en:word:greetings-night"],
+        "variants": [],
+        "sha256": "371a807e99822eb47bdccc1fac3f751e4d65990f3cb816fcc38d92a9ca2bb764",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "7ac3916d5c415584a557ed179dec30d52c06ae2a0a55f1e83425ee5ad0478fc1"
+        }
+    },
+    {
+        "path": "audio/11d0aa4993adbf04935c800d21f7895d31be66a7182ed24321ef86a7fadcd4e3.wav",
+        "text": "See you",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈsiː juː\">See you</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "See you",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈsiː juː/"]
+            }
+        ],
+        "entries": ["en:word:greetings-later"],
+        "variants": [],
+        "sha256": "11d0aa4993adbf04935c800d21f7895d31be66a7182ed24321ef86a7fadcd4e3",
+        "frames": 18793,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "26be7bb8d29439f2d18f57f8bdf47601e98dbef3056ff2dde2aae617c6f1b11c"
+        }
+    },
+    {
+        "path": "audio/5fbea61f28718a3d1dc1a9cdb7c519c73729b95695b4b9f90200c86c215b113e.wav",
+        "text": "newspaper",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈnjuːzpeɪpə\">newspaper</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "newspaper",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈnjuːzpeɪpə/"]
+            }
+        ],
+        "entries": ["en:word:reading-time-newspaper"],
+        "variants": [],
+        "sha256": "5fbea61f28718a3d1dc1a9cdb7c519c73729b95695b4b9f90200c86c215b113e",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "b747cd9a55a79bb0bb0ee40abfc4340b1edfa84952aa671ebb7b991195292842"
+        }
+    },
+    {
+        "path": "audio/48977aae8612cf56bddeb1377250bb15f66c1a450a38efd07d5f482c5020a88a.wav",
+        "text": "understand",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˌʌndəˈstænd\">understand</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "understand",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˌʌndəˈstænd/"]
+            }
+        ],
+        "entries": ["en:word:comprehension-understand"],
+        "variants": [],
+        "sha256": "48977aae8612cf56bddeb1377250bb15f66c1a450a38efd07d5f482c5020a88a",
+        "frames": 29939,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "09e2eb5f0bfcd2fee3d68726fea61ffe8b7e77bf9196a7b0f5f882fae0c9b35b"
+        }
+    },
+    {
+        "path": "audio/0a9182f221114b6d4dbaa4e1c3ef6d1a264cb13f77fef36b47a14e04096c420a.wav",
+        "text": "understands",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˌʌndəˈstændz\">understands</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "understands",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˌʌndəˈstændz/"]
+            }
+        ],
+        "entries": ["en:word:form-comprehension-understand-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:comprehension-understand",
+                "setId": "comprehension-understand-forms",
+                "path": ["third-person"]
+            }
+        ],
+        "sha256": "0a9182f221114b6d4dbaa4e1c3ef6d1a264cb13f77fef36b47a14e04096c420a",
+        "frames": 29939,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "3ffbd2c3274e7519846ae301b68b8fa9f63ddce53e05e58f5c72d64831526993"
+        }
+    },
+    {
+        "path": "audio/0a7bad6dcac6d4626fe0c9a643f77d028b3e9496049278e315437a5bd41175d0.wav",
+        "text": "understood",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˌʌndəˈstʊd\">understood</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "understood",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˌʌndəˈstʊd/"]
+            }
+        ],
+        "entries": ["en:word:form-comprehension-understand-past"],
+        "variants": [
+            {
+                "entryId": "en:word:comprehension-understand",
+                "setId": "comprehension-understand-forms",
+                "path": ["past"]
+            },
+            {
+                "entryId": "en:word:comprehension-understand",
+                "setId": "comprehension-understand-forms",
+                "path": ["past-participle"]
+            }
+        ],
+        "sha256": "0a7bad6dcac6d4626fe0c9a643f77d028b3e9496049278e315437a5bd41175d0",
+        "frames": 26595,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "dd7f5f449ae572062ad613dd6bdcc784f79f8e652366d7bce1f9b1c8d4d40b15"
+        }
+    },
+    {
+        "path": "audio/9ca6eff2b07c737696478972dda5253c379b3cb2f26ac818430f573c21114449.wav",
+        "text": "understanding",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˌʌndəˈstændɪŋ\">understanding</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "understanding",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˌʌndəˈstændɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-comprehension-understand-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:comprehension-understand",
+                "setId": "comprehension-understand-forms",
+                "path": ["present-participle"]
+            }
+        ],
+        "sha256": "9ca6eff2b07c737696478972dda5253c379b3cb2f26ac818430f573c21114449",
+        "frames": 28824,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "f5c5734f2b32b0ca8a8486addec4492701ba17f4ce6782f997c5ec0212eda3a6"
+        }
+    },
+    {
+        "path": "audio/37f0527840ebcd7b9ccbf90010f150323387995a2568e3151d56c8cbc847b072.wav",
+        "text": "wallet",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈwɒlɪt\">wallet</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "wallet",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈwɒlɪt/"]
+            }
+        ],
+        "entries": ["en:word:belongings-wallet"],
+        "variants": [],
+        "sha256": "37f0527840ebcd7b9ccbf90010f150323387995a2568e3151d56c8cbc847b072",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "868c1485cf11c5dd488b676b6ec1122e303ce92ffe711b96cc7178210557f7f5"
+        }
+    },
+    {
+        "path": "audio/ad534989cc7616a0a28fab600b7f81b42009a2ae304b319b4d424d5be6ca2108.wav",
+        "text": "camera",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈkæmrə\">camera</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "camera",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈkæmrə/"]
+            }
+        ],
+        "entries": ["en:word:belongings-camera"],
+        "variants": [],
+        "sha256": "ad534989cc7616a0a28fab600b7f81b42009a2ae304b319b4d424d5be6ca2108",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "b12af29fdd05db866134a17e0614af8a1a7aecbceb4857d6a7b17011569a4a3b"
+        }
+    },
+    {
+        "path": "audio/b6da6a63eebad0d2ceb607a58c21af556a67551c90f85c86cc15763915d72373.wav",
+        "text": "glasses",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈɡlɑːsɪz\">glasses</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "glasses",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈɡlɑːsɪz/"]
+            }
+        ],
+        "entries": ["en:word:belongings-glasses"],
+        "variants": [],
+        "sha256": "b6da6a63eebad0d2ceb607a58c21af556a67551c90f85c86cc15763915d72373",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "0cd9488325b3485deb92492a70b1f365dde39aab0764c0f279373a2990ca9544"
+        }
+    },
+    {
+        "path": "audio/b414513ac19ef2ee318ea14d75c5070e422eff3b1d41737711549125de3b0fbd.wav",
+        "text": "watch",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɒtʃ\">watch</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "watch",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɒtʃ/"]
+            }
+        ],
+        "entries": ["en:word:belongings-watch"],
+        "variants": [],
+        "sha256": "b414513ac19ef2ee318ea14d75c5070e422eff3b1d41737711549125de3b0fbd",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "8321ae299aa0676f04d23b2f0db20fd85ddae4b15e412312694e2e22168b3d56"
+        }
+    },
+    {
+        "path": "audio/7aaa681c34581cd7a2e7811b586a1a6e4d92beda0aabc2a582f28cd49a770fd5.wav",
+        "text": "give",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ɡɪv\">give</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "give",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ɡɪv/"]
+            }
+        ],
+        "entries": ["en:word:exchange-give"],
+        "variants": [],
+        "sha256": "7aaa681c34581cd7a2e7811b586a1a6e4d92beda0aabc2a582f28cd49a770fd5",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "09a4f03052381b299985535d806f2efc1fbc727c6369a63280b08da671cb2e6a"
+        }
+    },
+    {
+        "path": "audio/b437287b62aa9ff62ed37bf3e693d5f46c055322c921da4b7841fc5bc4683f1a.wav",
+        "text": "receive",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"rɪˈsiːv\">receive</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "receive",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/rɪˈsiːv/"]
+            }
+        ],
+        "entries": ["en:word:exchange-receive"],
+        "variants": [],
+        "sha256": "b437287b62aa9ff62ed37bf3e693d5f46c055322c921da4b7841fc5bc4683f1a",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "ee527043bb99f5962a372367c58a83b9409966a69f20cc98647f3ed9aec15e07"
+        }
+    },
+    {
+        "path": "audio/7adc1ae15c06293ebf3ac08f56c344cac7893069e20396eb93e86ac2e05f5106.wav",
+        "text": "gives",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ɡɪvz\">gives</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "gives",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ɡɪvz/"]
+            }
+        ],
+        "entries": ["en:word:form-exchange-give-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:exchange-give",
+                "setId": "exchange-give-forms",
+                "path": ["third-person"]
+            }
+        ],
+        "sha256": "7adc1ae15c06293ebf3ac08f56c344cac7893069e20396eb93e86ac2e05f5106",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "77875aaeba3cb41498156c7a263fe16c4b150f152f37582dbb5e079682e7b548"
+        }
+    },
+    {
+        "path": "audio/cda55fbce58d54030780a5820e48f5dcebb11784c38ec2884237956afdce2791.wav",
+        "text": "gave",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ɡeɪv\">gave</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "gave",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ɡeɪv/"]
+            }
+        ],
+        "entries": ["en:word:form-exchange-give-past"],
+        "variants": [
+            {
+                "entryId": "en:word:exchange-give",
+                "setId": "exchange-give-forms",
+                "path": ["past"]
+            }
+        ],
+        "sha256": "cda55fbce58d54030780a5820e48f5dcebb11784c38ec2884237956afdce2791",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "5b46025b4e16f32c45549963bec26ad1485667759133f00a69913d7c0ea709f5"
+        }
+    },
+    {
+        "path": "audio/d782eb1399c2fd63e2438c6cffc23e23c01a8ebfe5032fc36e9516984fcb92c2.wav",
+        "text": "giving",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈɡɪvɪŋ\">giving</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "giving",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈɡɪvɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-exchange-give-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:exchange-give",
+                "setId": "exchange-give-forms",
+                "path": ["present-participle"]
+            }
+        ],
+        "sha256": "d782eb1399c2fd63e2438c6cffc23e23c01a8ebfe5032fc36e9516984fcb92c2",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "86a135c5643b26b20b0d96b2e1730df1255c731cab4b1b2e140ecbd1f835e91d"
+        }
+    },
+    {
+        "path": "audio/fc41b5c96b8572f18f9123177e4af5e6d5cfe38ecc85a1b986026aa43dfb7fe3.wav",
+        "text": "given",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈɡɪvn\">given</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "given",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈɡɪvn/"]
+            }
+        ],
+        "entries": ["en:word:form-exchange-give-past-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:exchange-give",
+                "setId": "exchange-give-forms",
+                "path": ["past-participle"]
+            }
+        ],
+        "sha256": "fc41b5c96b8572f18f9123177e4af5e6d5cfe38ecc85a1b986026aa43dfb7fe3",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "090b8d3daa48441b778eb041bc8b9cf1ca7dbb49052bba559d5dae1c36175a9f"
+        }
+    },
+    {
+        "path": "audio/340d1967f029fc75c208f588141b81117b310c8b06edc1acd2de7d88484813c1.wav",
+        "text": "receives",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"rɪˈsiːvz\">receives</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "receives",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/rɪˈsiːvz/"]
+            }
+        ],
+        "entries": ["en:word:form-exchange-receive-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:exchange-receive",
+                "setId": "exchange-receive-forms",
+                "path": ["third-person"]
+            }
+        ],
+        "sha256": "340d1967f029fc75c208f588141b81117b310c8b06edc1acd2de7d88484813c1",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "ab285d268961a3784b498bb500c5e2270e411a8ecd6a0581831dfae853a071e1"
+        }
+    },
+    {
+        "path": "audio/2f8336bfa16be402ad3e135f3a78a26c537cc751b3e279ae04fa9c69ac4ba668.wav",
+        "text": "received",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"rɪˈsiːvd\">received</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "received",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/rɪˈsiːvd/"]
+            }
+        ],
+        "entries": ["en:word:form-exchange-receive-past"],
+        "variants": [
+            {
+                "entryId": "en:word:exchange-receive",
+                "setId": "exchange-receive-forms",
+                "path": ["past"]
+            },
+            {
+                "entryId": "en:word:exchange-receive",
+                "setId": "exchange-receive-forms",
+                "path": ["past-participle"]
+            }
+        ],
+        "sha256": "2f8336bfa16be402ad3e135f3a78a26c537cc751b3e279ae04fa9c69ac4ba668",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "e2d0eec9af29628e24ba8261c2b6024337cf28f2143ebc3765a9c7764d658669"
+        }
+    },
+    {
+        "path": "audio/778d83817c598f259240a6ec453b7729571e9fb4849668c7bcfb0f2b42aa2442.wav",
+        "text": "receiving",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"rɪˈsiːvɪŋ\">receiving</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "receiving",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/rɪˈsiːvɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-exchange-receive-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:exchange-receive",
+                "setId": "exchange-receive-forms",
+                "path": ["present-participle"]
+            }
+        ],
+        "sha256": "778d83817c598f259240a6ec453b7729571e9fb4849668c7bcfb0f2b42aa2442",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "1d273ebb09eb9202b5c4cccf91a2fe2c6b6189a3cfacb4f794986817e1d187e2"
+        }
+    }
+]

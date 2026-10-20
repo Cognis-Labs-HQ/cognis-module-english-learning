@@ -1,0 +1,158 @@
+[
+    {
+        "id": "en:sentence:actions-example-jump",
+        "label": "We jumped in the garden.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/1ed74b08303d15cc542a1f46b6f495a5f003afd014e75af6970bbf25e7e28050.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-actions-jump-past",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:rooms-garden",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:actions-example-jump",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:actions-example-swim",
+        "label": "They are swimming.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/f8d0ea33da3941159620b1bcf50bde3fb3aa9752d240a22aea468228b79d6edc.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-they",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-be-are",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-actions-swim-present-participle",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:actions-example-swim",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:actions-example-laugh",
+        "label": "I laugh with my friend.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/ae9b67046e3e0de8734d14d09db581bead309023bcdc6bd138871120709b9473.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:actions-laugh",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:with",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:my",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:friend",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:actions-example-laugh",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:actions-example-cry",
+        "label": "The child cries.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/e16fdf91b316092a16e5dc770b228710cbbc3d17e39ab1974e5f41f4ffddeb17.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:child",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-actions-cry-third-person",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:actions-example-cry",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

@@ -1,0 +1,158 @@
+[
+    {
+        "path": "audio/319c6433272a1d147af6efed9738203939bc313b403728ba1a33046c8718852a.wav",
+        "text": "brighter",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈbraɪtə\">brighter</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "brighter",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈbraɪtə/"]
+            }
+        ],
+        "entries": ["en:word:form-light-level-bright-comparative"],
+        "variants": [
+            {
+                "entryId": "en:word:light-level-bright",
+                "setId": "light-level-bright-forms",
+                "path": ["comparative"]
+            }
+        ],
+        "sha256": "319c6433272a1d147af6efed9738203939bc313b403728ba1a33046c8718852a",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "5e5c68a6f15bfa206efdf50a90338968c35761985a69104998d2b7c2cc918b20"
+        }
+    },
+    {
+        "path": "audio/95d2b5c1df8b4568e2fb6fef905de578730eb91e39bddda4e8999472855fbc96.wav",
+        "text": "brightest",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈbraɪtɪst\">brightest</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "brightest",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈbraɪtɪst/"]
+            }
+        ],
+        "entries": ["en:word:form-light-level-bright-superlative"],
+        "variants": [
+            {
+                "entryId": "en:word:light-level-bright",
+                "setId": "light-level-bright-forms",
+                "path": ["superlative"]
+            }
+        ],
+        "sha256": "95d2b5c1df8b4568e2fb6fef905de578730eb91e39bddda4e8999472855fbc96",
+        "frames": 28824,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "4f7189b370e39c5e5391d4344b28a0b307ae189aa3a59405f644bf4821ef556b"
+        }
+    },
+    {
+        "path": "audio/ac2871bfdb580e69825f3a121a18232a87cafc315cc6f1bcbcbcb7154d2cb258.wav",
+        "text": "darker",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈdɑːkə\">darker</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "darker",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈdɑːkə/"]
+            }
+        ],
+        "entries": ["en:word:form-light-level-dark-comparative"],
+        "variants": [
+            {
+                "entryId": "en:word:light-level-dark",
+                "setId": "light-level-dark-forms",
+                "path": ["comparative"]
+            }
+        ],
+        "sha256": "ac2871bfdb580e69825f3a121a18232a87cafc315cc6f1bcbcbcb7154d2cb258",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "2aff160f5929e14337c6697105d2e199d12efd16d2b33ecfdfe9eb237d105c14"
+        }
+    },
+    {
+        "path": "audio/635644a266da31f3e9f9144cf43d7bd641c41024285946e8a5a276bbc6cf10ca.wav",
+        "text": "darkest",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈdɑːkɪst\">darkest</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "darkest",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈdɑːkɪst/"]
+            }
+        ],
+        "entries": ["en:word:form-light-level-dark-superlative"],
+        "variants": [
+            {
+                "entryId": "en:word:light-level-dark",
+                "setId": "light-level-dark-forms",
+                "path": ["superlative"]
+            }
+        ],
+        "sha256": "635644a266da31f3e9f9144cf43d7bd641c41024285946e8a5a276bbc6cf10ca",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "753ef022a190f3a6cd50a8081209854fbf2db72a27e2c823919a5773a409a40c"
+        }
+    }
+]

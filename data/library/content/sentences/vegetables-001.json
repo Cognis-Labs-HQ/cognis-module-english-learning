@@ -1,0 +1,158 @@
+[
+    {
+        "id": "en:sentence:vegetables-example-cabbage",
+        "label": "We buy a cabbage.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/d85cca3c5ddfd58b34fcc8e4e82fff806e9a0b1547d835481af37cbd8ff91fb0.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:travel-buy",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:vegetables-cabbage",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:vegetables-example-cabbage",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:vegetables-example-mushroom",
+        "label": "I cook mushrooms with rice.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/0c4e65efc909989d26bab9a6b3c76139bbc7de0a898692ac812171760891223b.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:household-cook",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-vegetables-mushrooms",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:with",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:rice",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:vegetables-example-mushroom",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:vegetables-example-spinach",
+        "label": "She likes spinach.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/62e6e1a3e8ccc64598cb78fa4efee18c8ae9821eaec9bcb0d862a35de718631f.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-like-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:vegetables-spinach",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:vegetables-example-spinach",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:vegetables-example-lettuce",
+        "label": "The lettuce is green.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/38d089ea8e5ec19be38c055926b307598e1247dabe5805c1c5e467d3d215c511.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:vegetables-lettuce",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:colors-green",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:vegetables-example-lettuce",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

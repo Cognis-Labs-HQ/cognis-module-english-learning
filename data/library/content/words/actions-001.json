@@ -1,0 +1,162 @@
+[
+    {
+        "id": "en:word:actions-jump",
+        "label": "jump",
+        "class": "lexical:verb",
+        "fields": {
+            "pronunciation": ["/dʒʌmp/"],
+            "part_of_speech": "verb",
+            "reference_images": [
+                "images/60997d57fd07582a3ee19899ca2b47ae4c911e7e9d02f302c3a491a8918a69c3.jpg"
+            ],
+            "audio": "audio/c6a4f02a5881f353901552b9c4d20ffefae79fe7641b9605885d6e972276e481.wav"
+        },
+        "tags": ["verb", "actions", "actions-form-jump"],
+        "references": [
+            {
+                "entryId": "en:char:j-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:m-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:p-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:actions-jump",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:actions-swim",
+        "label": "swim",
+        "class": "lexical:verb",
+        "fields": {
+            "pronunciation": ["/swɪm/"],
+            "part_of_speech": "verb",
+            "reference_images": [
+                "images/4fe4edec5c3cae6def4f7c594653688a45cabf4a52958f49a2d1f575bd30a71b.jpg"
+            ],
+            "audio": "audio/84088360bfd4be82b2f925caa2d7b6044b8384c0f1855795f514b2b7004c5316.wav"
+        },
+        "tags": ["verb", "actions", "actions-form-swim"],
+        "references": [
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:w-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:m-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:actions-swim",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:actions-laugh",
+        "label": "laugh",
+        "class": "lexical:verb",
+        "fields": {
+            "pronunciation": ["/lɑːf/"],
+            "part_of_speech": "verb",
+            "reference_images": [
+                "images/19daed019a4f9b59421410c23d6dae449c9c44078a70f617e83122e4c231c6ae.jpg"
+            ],
+            "audio": "audio/610c6c1978441330a1b636f72a2ddf887ee7f2cf5dc6ac3793da0c00d4989804.wav"
+        },
+        "tags": ["verb", "actions", "actions-form-laugh"],
+        "references": [
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:actions-laugh",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:actions-cry",
+        "label": "cry",
+        "class": "lexical:verb",
+        "fields": {
+            "pronunciation": ["/kraɪ/"],
+            "part_of_speech": "verb",
+            "reference_images": [
+                "images/d7c259601b97b4f572f00fc5e48646244d0bb820d9bb97cbc281ad0efc88318f.jpg"
+            ],
+            "audio": "audio/e02b80ab50222cd8b98159f0cd533e048bf977803a123ad32326ecacc852953c.wav"
+        },
+        "tags": ["verb", "actions", "actions-form-cry"],
+        "references": [
+            {
+                "entryId": "en:char:c-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:y-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:actions-cry",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

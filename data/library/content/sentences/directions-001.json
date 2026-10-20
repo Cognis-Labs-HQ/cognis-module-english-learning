@@ -1,0 +1,198 @@
+[
+    {
+        "id": "en:sentence:directions-location-left",
+        "label": "The school is on the left.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/695986b8d54a4745dafe05c16cc22f6f44b63508f3fe32e73de983b3b4c1eee8.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:school",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:on",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:directions-left",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:directions-location-left",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:directions-location-right",
+        "label": "The park is on the right.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/eecca883b72ff39ee696360a648795517c7bc8bf95f72f27e6914d4849dc246f.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:park",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:on",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:directions-right",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:directions-location-right",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:directions-location-north",
+        "label": "The city is in the north.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/782dcc7eba6f94f8e4ada6f83e445f166113a0075921c0b4b0005c1a233a8fb7.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:city",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:directions-north",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:directions-location-north",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:directions-location-south",
+        "label": "The airport is in the south.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/1cbfab2eee6109bba6eaecbd59b9464c712cd83bd943c56adde69811cbf5b6f1.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:travel-airport",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:directions-south",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:directions-location-south",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

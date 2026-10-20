@@ -1,0 +1,158 @@
+[
+    {
+        "path": "audio/95e02f9a722c44c53752d218e7eb1ae05c287b51758e7c1ce3b9b8203c972414.wav",
+        "text": "deeper",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈdiːpə\">deeper</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "deeper",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈdiːpə/"]
+            }
+        ],
+        "entries": ["en:word:form-depth-deep-comparative"],
+        "variants": [
+            {
+                "entryId": "en:word:depth-deep",
+                "setId": "depth-deep-forms",
+                "path": ["comparative"]
+            }
+        ],
+        "sha256": "95e02f9a722c44c53752d218e7eb1ae05c287b51758e7c1ce3b9b8203c972414",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "52b92224372b8e5d7072393552e23cd03cac1aabebaf6f90bae6463292d9f061"
+        }
+    },
+    {
+        "path": "audio/cb4d3a94c08002ec97e55a899d463986741dfe2fe2e66e30a11083e66e3885f0.wav",
+        "text": "deepest",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈdiːpɪst\">deepest</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "deepest",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈdiːpɪst/"]
+            }
+        ],
+        "entries": ["en:word:form-depth-deep-superlative"],
+        "variants": [
+            {
+                "entryId": "en:word:depth-deep",
+                "setId": "depth-deep-forms",
+                "path": ["superlative"]
+            }
+        ],
+        "sha256": "cb4d3a94c08002ec97e55a899d463986741dfe2fe2e66e30a11083e66e3885f0",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "c543661e474c199d99b7b0c0d42d87020377161e8b77f9d47e61b469e4a48778"
+        }
+    },
+    {
+        "path": "audio/e0a43cc3dae8d1c85bafe4044b7cec4cdf3c33c09edb15d1283887b2bdd03f99.wav",
+        "text": "shallower",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈʃæləʊə\">shallower</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "shallower",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈʃæləʊə/"]
+            }
+        ],
+        "entries": ["en:word:form-depth-shallow-comparative"],
+        "variants": [
+            {
+                "entryId": "en:word:depth-shallow",
+                "setId": "depth-shallow-forms",
+                "path": ["comparative"]
+            }
+        ],
+        "sha256": "e0a43cc3dae8d1c85bafe4044b7cec4cdf3c33c09edb15d1283887b2bdd03f99",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "410aee368991191ec92659680510fdec3045901764d69b173c32cbc2edebe6b7"
+        }
+    },
+    {
+        "path": "audio/34b456a8d9a7fde201c8ac80622c66c00af2d8a271f2b8a3a5048cdc4cf5a1e4.wav",
+        "text": "shallowest",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈʃæləʊɪst\">shallowest</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "shallowest",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈʃæləʊɪst/"]
+            }
+        ],
+        "entries": ["en:word:form-depth-shallow-superlative"],
+        "variants": [
+            {
+                "entryId": "en:word:depth-shallow",
+                "setId": "depth-shallow-forms",
+                "path": ["superlative"]
+            }
+        ],
+        "sha256": "34b456a8d9a7fde201c8ac80622c66c00af2d8a271f2b8a3a5048cdc4cf5a1e4",
+        "frames": 27709,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "603299c48d9b34d5dda8288dc428a82e20a7f126c2ef4987bbc51fe93b35156a"
+        }
+    }
+]

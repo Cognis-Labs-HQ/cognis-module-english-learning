@@ -1,0 +1,778 @@
+[
+    {
+        "path": "audio/5bd7997c526e3c5a8d3d9be328d312937abd9a114a12781d400620dda7d0d461.wav",
+        "entryId": "en:sentence:tableware-example-fork",
+        "label": "They have forks.",
+        "parts": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they"
+            },
+            {
+                "path": "audio/d4255166c4544afe249fa6b9d94b7c269dfe26aca8cd05c12b894525d7eaed7d.wav",
+                "entryId": "en:word:have"
+            },
+            {
+                "path": "audio/80e0e347e3742b9908d81590dff5e039a7066be39240fff169a916f68249117a.wav",
+                "entryId": "en:word:form-tableware-forks"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they",
+                "startFrame": 2400,
+                "frameCount": 9803
+            },
+            {
+                "path": "audio/d4255166c4544afe249fa6b9d94b7c269dfe26aca8cd05c12b894525d7eaed7d.wav",
+                "entryId": "en:word:have",
+                "startFrame": 14363,
+                "frameCount": 11117
+            },
+            {
+                "path": "audio/80e0e347e3742b9908d81590dff5e039a7066be39240fff169a916f68249117a.wav",
+                "entryId": "en:word:form-tableware-forks",
+                "startFrame": 27640,
+                "frameCount": 22137
+            }
+        ],
+        "sha256": "5bd7997c526e3c5a8d3d9be328d312937abd9a114a12781d400620dda7d0d461",
+        "frames": 61537,
+        "input": {
+            "language": "en",
+            "label": "They have forks.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact tableware and existing constituent PCM, including selected English is, spoons and forks."
+        }
+    },
+    {
+        "path": "audio/04dfc91a10061e6406cd45578464d3d8b5cc1d11a5f5ec9934b664df1b31e1fa.wav",
+        "entryId": "en:sentence:transport-example-airplane",
+        "label": "I see two airplanes.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/9b7843aec097ccb2e88f205448cd59c4d13b573f9b025bfeea72a95a0c467851.wav",
+                "entryId": "en:word:see"
+            },
+            {
+                "path": "audio/51b8f14fcdf9707ee8add50602f5ecabd4c6dd2396cb8901e8641d4c5371680d.wav",
+                "entryId": "en:word:two"
+            },
+            {
+                "path": "audio/1dd6ac4ee65261bedbce46afd691a6dbe27f959bb83e63bdc4682347461eef49.wav",
+                "entryId": "en:word:form-transport-airplanes"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/9b7843aec097ccb2e88f205448cd59c4d13b573f9b025bfeea72a95a0c467851.wav",
+                "entryId": "en:word:see",
+                "startFrame": 11067,
+                "frameCount": 11091
+            },
+            {
+                "path": "audio/51b8f14fcdf9707ee8add50602f5ecabd4c6dd2396cb8901e8641d4c5371680d.wav",
+                "entryId": "en:word:two",
+                "startFrame": 24318,
+                "frameCount": 9510
+            },
+            {
+                "path": "audio/1dd6ac4ee65261bedbce46afd691a6dbe27f959bb83e63bdc4682347461eef49.wav",
+                "entryId": "en:word:form-transport-airplanes",
+                "startFrame": 35988,
+                "frameCount": 27709
+            }
+        ],
+        "sha256": "04dfc91a10061e6406cd45578464d3d8b5cc1d11a5f5ec9934b664df1b31e1fa",
+        "frames": 75457,
+        "input": {
+            "language": "en",
+            "label": "I see two airplanes.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact transport constituent PCM, including the English plural airplanes."
+        }
+    },
+    {
+        "path": "audio/5dd69de1c8d8ac069fb9c5faa45e153f94c3c6de25da238323b41ecc78ef8821.wav",
+        "entryId": "en:sentence:transport-example-boat",
+        "label": "We go by boat.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/42b81828f68c66abecf181e027005a9e134f7f4c0618553235928583db3f3fe4.wav",
+                "entryId": "en:word:go"
+            },
+            {
+                "path": "audio/bd04024b02ccfb1acb267613f4cb81cac9a887a044d4b7ab4f3da08e75c2a97c.wav",
+                "entryId": "en:particle:by"
+            },
+            {
+                "path": "audio/56763e975ead494533c40dc59395a126c381b0d8184ff7867d09b09508139a7c.wav",
+                "entryId": "en:word:transport-boat"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/42b81828f68c66abecf181e027005a9e134f7f4c0618553235928583db3f3fe4.wav",
+                "entryId": "en:word:go",
+                "startFrame": 22112,
+                "frameCount": 11545
+            },
+            {
+                "path": "audio/bd04024b02ccfb1acb267613f4cb81cac9a887a044d4b7ab4f3da08e75c2a97c.wav",
+                "entryId": "en:particle:by",
+                "startFrame": 35817,
+                "frameCount": 11602
+            },
+            {
+                "path": "audio/56763e975ead494533c40dc59395a126c381b0d8184ff7867d09b09508139a7c.wav",
+                "entryId": "en:word:transport-boat",
+                "startFrame": 49579,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "5dd69de1c8d8ac069fb9c5faa45e153f94c3c6de25da238323b41ecc78ef8821",
+        "frames": 81246,
+        "input": {
+            "language": "en",
+            "label": "We go by boat.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact transport constituent PCM, including the English plural airplanes."
+        }
+    },
+    {
+        "path": "audio/ef32a8663dfd8c00710d8b8abb386630b80cd2054e086785bcc6f14f1be50b35.wav",
+        "entryId": "en:sentence:transport-example-taxi",
+        "label": "I need a taxi.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/a7d7005bcbc32153422b6ab2ffd54abdf7bf764abe8279e70f55aaf5c647b625.wav",
+                "entryId": "en:word:transport-taxi"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need",
+                "startFrame": 11067,
+                "frameCount": 9927
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 23154,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/a7d7005bcbc32153422b6ab2ffd54abdf7bf764abe8279e70f55aaf5c647b625.wav",
+                "entryId": "en:word:transport-taxi",
+                "startFrame": 37854,
+                "frameCount": 22137
+            }
+        ],
+        "sha256": "ef32a8663dfd8c00710d8b8abb386630b80cd2054e086785bcc6f14f1be50b35",
+        "frames": 71751,
+        "input": {
+            "language": "en",
+            "label": "I need a taxi.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact transport constituent PCM, including the English plural airplanes."
+        }
+    },
+    {
+        "path": "audio/1b445e0f0240a4c1ba39d2e3f7ac0379f725480784840c49f7d3422803fa9448.wav",
+        "entryId": "en:sentence:transport-example-motorcycle",
+        "label": "She has a motorcycle.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/bda924c2c4116df9e3bfe3599856e66a2305d8fd57fc299ded5eec1d595f99c6.wav",
+                "entryId": "en:word:form-english-have-third-person"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/d46d47fe1e942d929c92f9aedacc00c3b95d8ed6150bd53cdaa2d7ac45cdba73.wav",
+                "entryId": "en:word:transport-motorcycle"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/bda924c2c4116df9e3bfe3599856e66a2305d8fd57fc299ded5eec1d595f99c6.wav",
+                "entryId": "en:word:form-english-have-third-person",
+                "startFrame": 14932,
+                "frameCount": 9951
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 27043,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/d46d47fe1e942d929c92f9aedacc00c3b95d8ed6150bd53cdaa2d7ac45cdba73.wav",
+                "entryId": "en:word:transport-motorcycle",
+                "startFrame": 41743,
+                "frameCount": 28824
+            }
+        ],
+        "sha256": "1b445e0f0240a4c1ba39d2e3f7ac0379f725480784840c49f7d3422803fa9448",
+        "frames": 82327,
+        "input": {
+            "language": "en",
+            "label": "She has a motorcycle.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact transport constituent PCM, including the English plural airplanes."
+        }
+    },
+    {
+        "path": "audio/5906c58530e2957097dedfe5fcba6277d9edfe768325898bc80d5d7b63e26c72.wav",
+        "entryId": "en:sentence:household-example-wash",
+        "label": "I wash my face.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/f871f020b3de15eef5914b6e3de3d22cbd60473330c2bdfa30976783eb09b34a.wav",
+                "entryId": "en:word:household-wash"
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my"
+            },
+            {
+                "path": "audio/7bbf0b6cc8b9064489c0dcfdc8c79e32733c354536a66d8a1ed4e3b5b698148f.wav",
+                "entryId": "en:word:face"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/f871f020b3de15eef5914b6e3de3d22cbd60473330c2bdfa30976783eb09b34a.wav",
+                "entryId": "en:word:household-wash",
+                "startFrame": 11067,
+                "frameCount": 22137
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my",
+                "startFrame": 35364,
+                "frameCount": 9522
+            },
+            {
+                "path": "audio/7bbf0b6cc8b9064489c0dcfdc8c79e32733c354536a66d8a1ed4e3b5b698148f.wav",
+                "entryId": "en:word:face",
+                "startFrame": 47046,
+                "frameCount": 22137
+            }
+        ],
+        "sha256": "5906c58530e2957097dedfe5fcba6277d9edfe768325898bc80d5d7b63e26c72",
+        "frames": 80943,
+        "input": {
+            "language": "en",
+            "label": "I wash my face.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact household-action constituent PCM, including English cooked and cleaning and Japanese あらいます, りょうりしました and かわかした."
+        }
+    },
+    {
+        "path": "audio/f7f3ed783ebac1cc1f30736e137e80c08f5a38496a9d064d6b901b23a976b53d.wav",
+        "entryId": "en:sentence:household-example-cook",
+        "label": "She cooked rice yesterday.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/4b501e2a74dc5162ad599b2cafbb011650893e95db7032fdab9bcf4854607b96.wav",
+                "entryId": "en:word:form-household-cook-past"
+            },
+            {
+                "path": "audio/2f1aff6b9fc48808c7ea17e0f18661f9f72669d3cbe8ece8f3a1bafd65482800.wav",
+                "entryId": "en:word:rice"
+            },
+            {
+                "path": "audio/a7f5ee6d4e49bcb471661ca5714f13c543a543da7ee4602f2d51fb065b761b9c.wav",
+                "entryId": "en:word:time-yesterday"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/4b501e2a74dc5162ad599b2cafbb011650893e95db7032fdab9bcf4854607b96.wav",
+                "entryId": "en:word:form-household-cook-past",
+                "startFrame": 14932,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/2f1aff6b9fc48808c7ea17e0f18661f9f72669d3cbe8ece8f3a1bafd65482800.wav",
+                "entryId": "en:word:rice",
+                "startFrame": 38114,
+                "frameCount": 23251
+            },
+            {
+                "path": "audio/a7f5ee6d4e49bcb471661ca5714f13c543a543da7ee4602f2d51fb065b761b9c.wav",
+                "entryId": "en:word:time-yesterday",
+                "startFrame": 63525,
+                "frameCount": 23251
+            }
+        ],
+        "sha256": "f7f3ed783ebac1cc1f30736e137e80c08f5a38496a9d064d6b901b23a976b53d",
+        "frames": 98536,
+        "input": {
+            "language": "en",
+            "label": "She cooked rice yesterday.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact household-action constituent PCM, including English cooked and cleaning and Japanese あらいます, りょうりしました and かわかした."
+        }
+    },
+    {
+        "path": "audio/4dd5987bb288a3f730525ed073defbcc99cb7fb8275e3c4c7f652981048174fa.wav",
+        "entryId": "en:sentence:household-example-clean",
+        "label": "We are cleaning the room.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
+                "entryId": "en:word:form-english-be-are"
+            },
+            {
+                "path": "audio/3f454d88d4e331a09c78888ee6f9331091fadb5dfff4f089e4f4f1fe611f6d21.wav",
+                "entryId": "en:word:form-household-clean-present-participle"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/99dfb2260e1504e5c3b5ac99b58686489b21c659aa542edb52fb67b86c0f534d.wav",
+                "entryId": "en:word:room"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
+                "entryId": "en:word:form-english-be-are",
+                "startFrame": 22112,
+                "frameCount": 5418
+            },
+            {
+                "path": "audio/3f454d88d4e331a09c78888ee6f9331091fadb5dfff4f089e4f4f1fe611f6d21.wav",
+                "entryId": "en:word:form-household-clean-present-participle",
+                "startFrame": 29690,
+                "frameCount": 22137
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 53987,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/99dfb2260e1504e5c3b5ac99b58686489b21c659aa542edb52fb67b86c0f534d.wav",
+                "entryId": "en:word:room",
+                "startFrame": 64297,
+                "frameCount": 9190
+            }
+        ],
+        "sha256": "4dd5987bb288a3f730525ed073defbcc99cb7fb8275e3c4c7f652981048174fa",
+        "frames": 85247,
+        "input": {
+            "language": "en",
+            "label": "We are cleaning the room.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact household-action constituent PCM, including English cooked and cleaning and Japanese あらいます, りょうりしました and かわかした."
+        }
+    },
+    {
+        "path": "audio/09bd7945bdab5044497abf273f013964009d75de91773c87ca9a4e5973faa3eb.wav",
+        "entryId": "en:sentence:household-example-dry",
+        "label": "They dry the plates.",
+        "parts": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they"
+            },
+            {
+                "path": "audio/885b5f5bfc288f3d11a87e369cb0f48818ae2ccc5c90e78ab42a4f03b0036de6.wav",
+                "entryId": "en:word:household-dry"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/9dc7d8bb03561421cd31a9481c1826300984d533eec85b6bc2f98ab79a7c4504.wav",
+                "entryId": "en:word:form-tableware-plates"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they",
+                "startFrame": 2400,
+                "frameCount": 9803
+            },
+            {
+                "path": "audio/885b5f5bfc288f3d11a87e369cb0f48818ae2ccc5c90e78ab42a4f03b0036de6.wav",
+                "entryId": "en:word:household-dry",
+                "startFrame": 14363,
+                "frameCount": 19907
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 36430,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/9dc7d8bb03561421cd31a9481c1826300984d533eec85b6bc2f98ab79a7c4504.wav",
+                "entryId": "en:word:form-tableware-plates",
+                "startFrame": 46740,
+                "frameCount": 23251
+            }
+        ],
+        "sha256": "09bd7945bdab5044497abf273f013964009d75de91773c87ca9a4e5973faa3eb",
+        "frames": 81751,
+        "input": {
+            "language": "en",
+            "label": "They dry the plates.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact household-action constituent PCM, including English cooked and cleaning and Japanese あらいます, りょうりしました and かわかした."
+        }
+    },
+    {
+        "path": "audio/7bbb14b8a819a059b8f5b93da32f433805f9f3c7e5b38c4beeabb1090b54b31c.wav",
+        "entryId": "en:sentence:daily-needs-1",
+        "label": "I need water.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need"
+            },
+            {
+                "path": "audio/de43a97fbedea7909d8f9b9ca31da43c5bd95debf2a1c3f89a02f2f0996bee27.wav",
+                "entryId": "en:word:water"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need",
+                "startFrame": 11067,
+                "frameCount": 9927
+            },
+            {
+                "path": "audio/de43a97fbedea7909d8f9b9ca31da43c5bd95debf2a1c3f89a02f2f0996bee27.wav",
+                "entryId": "en:word:water",
+                "startFrame": 23154,
+                "frameCount": 13834
+            }
+        ],
+        "sha256": "7bbb14b8a819a059b8f5b93da32f433805f9f3c7e5b38c4beeabb1090b54b31c",
+        "frames": 48748,
+        "input": {
+            "language": "en",
+            "label": "I need water.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM, without synthesis or new external requests."
+        }
+    },
+    {
+        "path": "audio/c580dbb1e46006648e4ffb6876cff5637b2cdfba5749cb091c1b2f9df04afda0.wav",
+        "entryId": "en:sentence:daily-needs-2",
+        "label": "We need a spoon and a fork.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/5f9a3e905778bf89257f37ae9c5a042caef40f3963ac78fdceb0455248b17e77.wav",
+                "entryId": "en:word:tableware-spoon"
+            },
+            {
+                "path": "audio/c17bea5cede4ef7cefc56eda7f4c62d72e4eb6756b6cf1f5dc17cfb9f91f338a.wav",
+                "entryId": "en:particle:and"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/3ae57b1ee1ad50c3f7332cd673152ab4265fb5077877184121609195c234baf2.wav",
+                "entryId": "en:word:tableware-fork"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need",
+                "startFrame": 22112,
+                "frameCount": 9927
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 34199,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/5f9a3e905778bf89257f37ae9c5a042caef40f3963ac78fdceb0455248b17e77.wav",
+                "entryId": "en:word:tableware-spoon",
+                "startFrame": 48899,
+                "frameCount": 23251
+            },
+            {
+                "path": "audio/c17bea5cede4ef7cefc56eda7f4c62d72e4eb6756b6cf1f5dc17cfb9f91f338a.wav",
+                "entryId": "en:particle:and",
+                "startFrame": 74310,
+                "frameCount": 11433
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 87903,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/3ae57b1ee1ad50c3f7332cd673152ab4265fb5077877184121609195c234baf2.wav",
+                "entryId": "en:word:tableware-fork",
+                "startFrame": 102603,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "c580dbb1e46006648e4ffb6876cff5637b2cdfba5749cb091c1b2f9df04afda0",
+        "frames": 134270,
+        "input": {
+            "language": "en",
+            "label": "We need a spoon and a fork.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM, without synthesis or new external requests."
+        }
+    },
+    {
+        "path": "audio/97fc1f65331729ab88aa3a90e5c859374e3d17ec9a842cdb47d0c310c6f8d818.wav",
+        "entryId": "en:sentence:daily-needs-3",
+        "label": "The key is here.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/e5b442edb628e9fed0cb699a3ab7c8a979d4e2d94b229d8f6598a36d6daf90ea.wav",
+                "entryId": "en:word:key"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
+                "entryId": "en:word:here"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/e5b442edb628e9fed0cb699a3ab7c8a979d4e2d94b229d8f6598a36d6daf90ea.wav",
+                "entryId": "en:word:key",
+                "startFrame": 12710,
+                "frameCount": 18793
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 33663,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
+                "entryId": "en:word:here",
+                "startFrame": 46210,
+                "frameCount": 11241
+            }
+        ],
+        "sha256": "97fc1f65331729ab88aa3a90e5c859374e3d17ec9a842cdb47d0c310c6f8d818",
+        "frames": 69211,
+        "input": {
+            "language": "en",
+            "label": "The key is here.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM, without synthesis or new external requests."
+        }
+    }
+]

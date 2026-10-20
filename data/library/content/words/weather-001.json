@@ -1,0 +1,162 @@
+[
+    {
+        "id": "en:word:weather-sun",
+        "label": "sun",
+        "class": "lexical:noun",
+        "fields": {
+            "pronunciation": ["/sʌn/"],
+            "part_of_speech": "noun",
+            "reference_images": [
+                "images/c46243639e3392058a0cd5348ac9ae23c593ca1f550bca8544925b7864ef2bc7.jpg"
+            ],
+            "audio": "audio/721eebd0549f9cddc2b9f28812ff2810a329069ea9941108817200fb1b5b45e2.wav"
+        },
+        "tags": ["noun", "weather"],
+        "references": [
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:weather-sun",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:weather-snow",
+        "label": "snow",
+        "class": "lexical:noun",
+        "fields": {
+            "pronunciation": ["/snəʊ/"],
+            "part_of_speech": "noun",
+            "reference_images": [
+                "images/a4f25437845ec5a1ca7d5898494b87979ca272204ee24c795f8fe26b369031e6.jpg"
+            ],
+            "audio": "audio/b5402130d53b97e483a26d111aad02fe645c40f3ca4f12805db72ed798897e3a.wav"
+        },
+        "tags": ["noun", "weather"],
+        "references": [
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:w-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:weather-snow",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:weather-wind",
+        "label": "wind",
+        "class": "lexical:noun",
+        "fields": {
+            "pronunciation": ["/wɪnd/"],
+            "part_of_speech": "noun",
+            "reference_images": [
+                "images/f84749a218df3db4d4b080160da7203aa9deb366c90fb57b414677fdf38bb0fd.jpg"
+            ],
+            "audio": "audio/542c89686a20fa93535164840ee4a0ba526a8993b4e225a85a1ec4184359bb78.wav"
+        },
+        "tags": ["noun", "weather"],
+        "references": [
+            {
+                "entryId": "en:char:w-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:weather-wind",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:weather-cloud",
+        "label": "cloud",
+        "class": "lexical:noun",
+        "fields": {
+            "pronunciation": ["/klaʊd/"],
+            "part_of_speech": "noun",
+            "reference_images": [
+                "images/61f06a9fc4566c79f12031437a1e2dccbd1d7eb3fa3803a481c1d9c323fb8f47.jpg"
+            ],
+            "audio": "audio/d8444c84472077cc1f9bd206c5f9375ad3030c6d286aff8f3288e7690ba58398.wav"
+        },
+        "tags": ["noun", "weather", "plural", "plural-cloud"],
+        "references": [
+            {
+                "entryId": "en:char:c-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:weather-cloud",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

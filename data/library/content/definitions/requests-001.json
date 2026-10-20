@@ -1,0 +1,62 @@
+[
+    {
+        "id": "en:definition:requests-yes",
+        "label": "Yes",
+        "class": "definition",
+        "hidden": true,
+        "fields": {
+            "string_key": "studyenglish:definitions:requests.yes",
+            "translations": {
+                "en": "yes",
+                "de": "ja",
+                "id": "ya",
+                "ja": "はい"
+            }
+        }
+    },
+    {
+        "id": "en:definition:requests-no",
+        "label": "No",
+        "class": "definition",
+        "hidden": true,
+        "fields": {
+            "string_key": "studyenglish:definitions:requests.no",
+            "translations": {
+                "en": "no",
+                "de": "nein",
+                "id": "tidak",
+                "ja": "いいえ"
+            }
+        }
+    },
+    {
+        "id": "en:definition:requests-please",
+        "label": "Please",
+        "class": "definition",
+        "hidden": true,
+        "fields": {
+            "string_key": "studyenglish:definitions:requests.please",
+            "translations": {
+                "en": "please (polite request)",
+                "de": "bitte",
+                "id": "tolong; silakan",
+                "ja": "お願いします"
+            }
+        }
+    },
+    {
+        "id": "en:definition:requests-repeat",
+        "label": "Pardon",
+        "class": "definition",
+        "hidden": true,
+        "fields": {
+            "string_key": "studyenglish:definitions:requests.repeat",
+            "translations": {
+                "en": "pardon? (request to repeat)",
+                "de": "wie bitte?",
+                "id": "maaf, bisa diulang?",
+                "ja": "もう一度言ってください（聞き返し）"
+            }
+        }
+    }
+]

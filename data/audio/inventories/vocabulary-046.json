@@ -1,0 +1,68 @@
+[
+    {
+        "path": "audio/0ebcd39087d27f0b45b89441af4022006d250d853212f794e980da03a38d0dc0.wav",
+        "text": "museum",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"mjuˈziːəm\">museum</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "museum",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/mjuˈziːəm/"]
+            }
+        ],
+        "entries": ["en:word:outings-museum"],
+        "variants": [],
+        "sha256": "0ebcd39087d27f0b45b89441af4022006d250d853212f794e980da03a38d0dc0",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "f600719041cda60fb16f6fc1ff2da70c57236898576dc7903b9c243a4163f578"
+        }
+    },
+    {
+        "path": "audio/50fa14a757a67251164680ca05c0babf6c88f7fcdc09e8600d9d7de72b32c15a.wav",
+        "text": "zoo",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"zuː\">zoo</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "zoo",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/zuː/"]
+            }
+        ],
+        "entries": ["en:word:outings-zoo"],
+        "variants": [],
+        "sha256": "50fa14a757a67251164680ca05c0babf6c88f7fcdc09e8600d9d7de72b32c15a",
+        "frames": 18793,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "6400aa308caae2dc3ba5f47abcd57fa011dbecab7cac46dc9d7acbb66392fec6"
+        }
+    }
+]

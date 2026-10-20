@@ -1,0 +1,292 @@
+[
+    {
+        "path": "audio/77c9f6cc0f148d6f2e804485c22f94453e2d2810cd138e6982a504c746c82f9e.wav",
+        "entryId": "en:sentence:posture-example-sit-chair",
+        "label": "I sit on the chair.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/2c05936cf28dfa0f988e05c2a5f0eb3b13b400670b121e8b51b7187bd1fd2159.wav",
+                "entryId": "en:word:posture-sit"
+            },
+            {
+                "path": "audio/b16819d83e2bb0a994694ccb6feeb9a4e38f2a5662dc139ecd88628a19d9dca4.wav",
+                "entryId": "en:particle:on"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/82aa54979a99171da309b32e9e169c762861233b3c19f5cd53781a43a9f546cf.wav",
+                "entryId": "en:word:chair"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/2c05936cf28dfa0f988e05c2a5f0eb3b13b400670b121e8b51b7187bd1fd2159.wav",
+                "entryId": "en:word:posture-sit",
+                "startFrame": 11067,
+                "frameCount": 18793
+            },
+            {
+                "path": "audio/b16819d83e2bb0a994694ccb6feeb9a4e38f2a5662dc139ecd88628a19d9dca4.wav",
+                "entryId": "en:particle:on",
+                "startFrame": 32020,
+                "frameCount": 8465
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 42645,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/82aa54979a99171da309b32e9e169c762861233b3c19f5cd53781a43a9f546cf.wav",
+                "entryId": "en:word:chair",
+                "startFrame": 52955,
+                "frameCount": 36626
+            }
+        ],
+        "sha256": "77c9f6cc0f148d6f2e804485c22f94453e2d2810cd138e6982a504c746c82f9e",
+        "frames": 101341,
+        "input": {
+            "language": "en",
+            "label": "I sit on the chair.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/484cd916fcf1d2f1fd06f388dda093b94ac65de4e97539743f51b88bac9f2d3f.wav",
+        "entryId": "en:sentence:posture-example-sat-yesterday",
+        "label": "She sat here yesterday.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/ecf4351511d34148f55f440a3d1e9c80135e6d68a76a54ab21fb3e1f6280ab25.wav",
+                "entryId": "en:word:form-posture-sit-past"
+            },
+            {
+                "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
+                "entryId": "en:word:here"
+            },
+            {
+                "path": "audio/a7f5ee6d4e49bcb471661ca5714f13c543a543da7ee4602f2d51fb065b761b9c.wav",
+                "entryId": "en:word:time-yesterday"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/ecf4351511d34148f55f440a3d1e9c80135e6d68a76a54ab21fb3e1f6280ab25.wav",
+                "entryId": "en:word:form-posture-sit-past",
+                "startFrame": 14932,
+                "frameCount": 19907
+            },
+            {
+                "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
+                "entryId": "en:word:here",
+                "startFrame": 36999,
+                "frameCount": 11241
+            },
+            {
+                "path": "audio/a7f5ee6d4e49bcb471661ca5714f13c543a543da7ee4602f2d51fb065b761b9c.wav",
+                "entryId": "en:word:time-yesterday",
+                "startFrame": 50400,
+                "frameCount": 23251
+            }
+        ],
+        "sha256": "484cd916fcf1d2f1fd06f388dda093b94ac65de4e97539743f51b88bac9f2d3f",
+        "frames": 85411,
+        "input": {
+            "language": "en",
+            "label": "She sat here yesterday.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/47e7328ac602284a4dcf0bb1239d96396e0d645cfbb29ac5c9cadba93fe785a9.wav",
+        "entryId": "en:sentence:posture-example-stand-station",
+        "label": "They stand at the station.",
+        "parts": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they"
+            },
+            {
+                "path": "audio/62d948e6ef980c99c37ef2473a5f4d80d4086f1acd7aa1667e97c1781e1ba016.wav",
+                "entryId": "en:word:posture-stand"
+            },
+            {
+                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
+                "entryId": "en:particle:at"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/3fb2aebfb3234140e80aad57cdfff1963c62d329f2109f447636dafb983bd4ac.wav",
+                "entryId": "en:word:travel-station"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they",
+                "startFrame": 2400,
+                "frameCount": 9803
+            },
+            {
+                "path": "audio/62d948e6ef980c99c37ef2473a5f4d80d4086f1acd7aa1667e97c1781e1ba016.wav",
+                "entryId": "en:word:posture-stand",
+                "startFrame": 14363,
+                "frameCount": 22137
+            },
+            {
+                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
+                "entryId": "en:particle:at",
+                "startFrame": 38660,
+                "frameCount": 9361
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 50181,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/3fb2aebfb3234140e80aad57cdfff1963c62d329f2109f447636dafb983bd4ac.wav",
+                "entryId": "en:word:travel-station",
+                "startFrame": 60491,
+                "frameCount": 25480
+            }
+        ],
+        "sha256": "47e7328ac602284a4dcf0bb1239d96396e0d645cfbb29ac5c9cadba93fe785a9",
+        "frames": 97731,
+        "input": {
+            "language": "en",
+            "label": "They stand at the station.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/7088f868cb388ee65e61ec871d27608e71c54831650e176d8e1e2559bbe29019.wav",
+        "entryId": "en:sentence:posture-example-stood-door",
+        "label": "He stood by the door.",
+        "parts": [
+            {
+                "path": "audio/6479e690a54602e0b1c5a5bbe4418239c707d393fdde6754b827fac5d2eb56c9.wav",
+                "entryId": "en:word:capital-he"
+            },
+            {
+                "path": "audio/8a9124a1401d2e8e81b08baa01b3d8ff800e8e26dd734720dc419d1f0d98a65e.wav",
+                "entryId": "en:word:form-posture-stand-past"
+            },
+            {
+                "path": "audio/bd04024b02ccfb1acb267613f4cb81cac9a887a044d4b7ab4f3da08e75c2a97c.wav",
+                "entryId": "en:particle:by"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/6670fd21613e90e70f6c6deff51d944e17cd41e6ae5ccae2f938fe420a950e2e.wav",
+                "entryId": "en:word:door"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/6479e690a54602e0b1c5a5bbe4418239c707d393fdde6754b827fac5d2eb56c9.wav",
+                "entryId": "en:word:capital-he",
+                "startFrame": 2400,
+                "frameCount": 10803
+            },
+            {
+                "path": "audio/8a9124a1401d2e8e81b08baa01b3d8ff800e8e26dd734720dc419d1f0d98a65e.wav",
+                "entryId": "en:word:form-posture-stand-past",
+                "startFrame": 15363,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/bd04024b02ccfb1acb267613f4cb81cac9a887a044d4b7ab4f3da08e75c2a97c.wav",
+                "entryId": "en:particle:by",
+                "startFrame": 38545,
+                "frameCount": 11602
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 52307,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/6670fd21613e90e70f6c6deff51d944e17cd41e6ae5ccae2f938fe420a950e2e.wav",
+                "entryId": "en:word:door",
+                "startFrame": 62617,
+                "frameCount": 20891
+            }
+        ],
+        "sha256": "7088f868cb388ee65e61ec871d27608e71c54831650e176d8e1e2559bbe29019",
+        "frames": 95268,
+        "input": {
+            "language": "en",
+            "label": "He stood by the door.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    }
+]

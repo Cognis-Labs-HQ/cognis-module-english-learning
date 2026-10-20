@@ -1,0 +1,208 @@
+[
+    {
+        "id": "en:sentence:exchange-example-gave-book",
+        "label": "I gave my friend a book.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/4f7edc8430b8dc4f77274c5679cacbb1bdd6e74c91fe994157551da451acbe05.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-exchange-give-past",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:my",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:friend",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:book",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:exchange-example-gave-book",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:exchange-example-gives-apple",
+        "label": "She gives the child an apple.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/2f9025f13bb9ae85414bb909175061b037c973c97217a0aa9fe09d34576e7a40.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-exchange-give-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:child",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:an",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:apple",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:exchange-example-gives-apple",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:exchange-example-received-camera",
+        "label": "I received a camera from my father.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/c0f69ef230eaf4d23195af069b97cd2d9de6d93a856304064f1a4c909be1e88c.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-exchange-receive-past",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:belongings-camera",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:from",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:my",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:word:father",
+                "relation": "words",
+                "position": 6
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 7
+            },
+            {
+                "entryId": "en:definition:exchange-example-received-camera",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:exchange-example-morning-news",
+        "label": "We receive the newspaper in the morning.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/d1f05813a7ddd0dcab26e8eccbe1bab2464164aa4137c7c429df2ffad762dadf.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:exchange-receive",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:reading-time-newspaper",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:word:morning",
+                "relation": "words",
+                "position": 6
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 7
+            },
+            {
+                "entryId": "en:definition:exchange-example-morning-news",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

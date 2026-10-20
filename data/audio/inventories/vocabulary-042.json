@@ -1,0 +1,68 @@
+[
+    {
+        "path": "audio/374ac7761def3d3f62fcf80b95f0c8954870096455ecdba6bf44791b5f5cbf89.wav",
+        "text": "hard",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"hɑːd\">hard</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "hard",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/hɑːd/"]
+            }
+        ],
+        "entries": ["en:word:material-feel-hard"],
+        "variants": [],
+        "sha256": "374ac7761def3d3f62fcf80b95f0c8954870096455ecdba6bf44791b5f5cbf89",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "2b9246cac6a47cc87ef70bb054dbd0ffce5ef32ca479afbcbd753cbe096c60c0"
+        }
+    },
+    {
+        "path": "audio/fea771c0af5686a3fcca0c8cb99c0830ac39172e085e3c4bbdafc7e82a04d81b.wav",
+        "text": "soft",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"sɒft\">soft</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "soft",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/sɒft/"]
+            }
+        ],
+        "entries": ["en:word:material-feel-soft"],
+        "variants": [],
+        "sha256": "fea771c0af5686a3fcca0c8cb99c0830ac39172e085e3c4bbdafc7e82a04d81b",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "a61d90e43eedfd2024c560bc4b374dad49c3311a8ebdbb7cd68d5fbaa166a5b0"
+        }
+    }
+]

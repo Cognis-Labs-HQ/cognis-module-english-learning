@@ -1,0 +1,126 @@
+[
+    {
+        "id": "en:word:form-correspondence-letters",
+        "label": "letters",
+        "class": "lexical:noun",
+        "fields": {
+            "pronunciation": ["/ˈletəz/"],
+            "part_of_speech": "noun",
+            "audio": "audio/ab91d7ce32f11c8dba578609a36033bb25d0313e8ed126dffe4dc359ff43233f.wav"
+        },
+        "tags": ["noun", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:correspondence-letter",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:correspondence-letter",
+                "relation": "inflected-from"
+            }
+        ],
+        "hidden": true
+    },
+    {
+        "id": "en:word:form-correspondence-postcards",
+        "label": "postcards",
+        "class": "lexical:noun",
+        "fields": {
+            "pronunciation": ["/ˈpəʊstkɑːdz/"],
+            "part_of_speech": "noun",
+            "audio": "audio/c3c142a0bee507a7114aa63f13185f445b878a26a1dacf9b52e5102f1f7cb6f5.wav"
+        },
+        "tags": ["noun", "inflected"],
+        "references": [
+            {
+                "entryId": "en:char:p-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:c-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 6
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 7
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 8
+            },
+            {
+                "entryId": "en:definition:correspondence-postcard",
+                "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:correspondence-postcard",
+                "relation": "inflected-from"
+            }
+        ],
+        "hidden": true
+    }
+]

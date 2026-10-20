@@ -1,0 +1,178 @@
+[
+    {
+        "id": "en:sentence:length-example-ruler-length",
+        "label": "The ruler is long.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/90ae0aa497c0cfe3bf68c6405adcf628be63cc8464cb3e75c735ae92dcf332f0.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:school-ruler",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:length-long",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:length-example-ruler-length",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:length-example-pencil-need",
+        "label": "I need a short pencil.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/83d76d566bd4e001221de9739032b89703497a718f36f20aa0b4449c1a242fc6.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:need",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:length-short",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:school-pencil",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:length-example-pencil-need",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:length-example-skirt-comparison",
+        "label": "This skirt is shorter.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/5f71157b9213dfca75e92e317b79500941b43a11f4dbb619fd8c249bdbd0256b.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-this",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:clothing-skirt",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:form-length-short-comparative",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:length-example-skirt-comparison",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:length-example-longest-location",
+        "label": "The longest ruler is in the box.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/c0448658ea4c14311b0dfcd095625083c616e111a619fecfe77dbce9e81eaabd.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-length-long-superlative",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:school-ruler",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:word:containers-box",
+                "relation": "words",
+                "position": 6
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 7
+            },
+            {
+                "entryId": "en:definition:length-example-longest-location",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

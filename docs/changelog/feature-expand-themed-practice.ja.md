@@ -1,0 +1,357 @@
+# テーマ別の練習
+
+**機能ブランチ:** `feature-expand-themed-practice`
+
+## 継続して使えるコンテンツ説明
+
+各言語のREADME、統合ガイド、このブランチの変更履歴から、特定時点の収録件数とインベントリ表を取り除き、学習内容の説明に置き換えます。技術上の制限、形式の契約、コミットの来歴は維持します。ドキュメントの回帰テストは収録件数の固定記載を拒否し、拡充するパックの件数を静的文書に転記させません。
+
+## ローカライズとコンテンツ説明の整合性
+
+モジュールの接頭辞とレコードIDを維持し、定義キーの末尾を小文字・ピリオド区切りに統一しました。4言語のリソースを同期し、全定義の参照先を確認して、重複キーと不正なキーを拒否します。READMEと統合ガイドには収録件数ではなく学習内容を説明し、2階層の録音インベントリを統一して説明します。未収録一覧に依存せず、全ての再生対象カードと選択された活用形に同梱音声を必須とします。
+
+## 語彙の規約を復元
+
+追加した「使い方と例」フィールドと説明文を削除し、品詞タグと非表示の活用形に欠けていた基本形へのリンクを復元します。拡張前のスキーマ、フィールド、表示、デッキ、および不正な変更を検出する回帰テストを追加します。カードIDとすべての音声・画像データは変更しません。
+
+## 文脈に沿った練習
+
+食べ物と飲み物、過去の出来事、進行中の動作、場所と移動の初期デッキを追加。既存の例文と、それらに結び付いた意味や文法形式を集中的に練習できます。
+
+## より明確なイラスト
+
+曖昧さや切り抜きの不備があったを差し替えます。動詞pleaseの意味を正しく表し、隣の画像の混入を除去。完結した場面で程度・結果・追加の意味を明確にします。
+
+## 文脈に沿った使い方
+
+各言語の説明と例で、冠詞の選択、対比、条件、絵が示す語義を明確にします。新しく確認した傘の場面で、in caseが表す事前の備えを示します。
+
+## 旅行の語彙
+
+旅行に役立つ語彙に、確認済みの画像と活用形、構成語を関連付けた例文、各言語対応の練習デッキを追加します。旅行の新しい音声は同梱していません。
+
+## 食事の練習
+
+既存の語彙と構成語の音声をそのまま使い、食事に関する多様な例文と練習デッキを追加します。合成した音声は技術的な整合性を確認していますが、聴取による検証は行っていません。
+
+## 毎日の行動
+
+既存の語彙と構成語の音声を使い、時間・場所・同行者・方向を扱う日常の例文と練習デッキを追加します。
+
+## 買い物の表現
+
+選択・必要な物・描写・購入を扱う買い物の例文と練習デッキを追加します。正確な構成語の音声がすべてある場合だけ結合し、不足する音声は明示します。
+
+## 旅行の音声
+
+指定された音声で許可済みの旅行語彙と活用形を生成し、元のPCMとリクエスト情報を保存します。旅行例文と未収録の買い物例文は正確な構成語の音声から結合します。契約情報の取得にはuser_read権限がありませんが、音声合成は成功しました。試聴による確認は未実施と明示します。
+
+## 次の語彙を準備
+
+初級の時を表す新しい語彙について、読み、翻訳された意味、文脈を示す例文、デッキ案を準備します。個別の挿絵を生成して目視確認するまで、実行時の教材には含めません。
+
+## 確認済みメディア付きの時の語彙
+
+明日・昨日・もうすぐ・あとでを表す語彙に、目視確認した挿絵、指定音声による録音、完全な読み、文脈を示す例文、語彙デッキを追加します。カレンダーの日付、一分後の到着表示、順序のある行動場面で時の意味を明確にします。試聴確認は未実施です。
+
+## 基本の色と好み
+
+赤・青・緑・黄色を色の名詞として追加し、それぞれに目視確認済みの挿絵、指定音声の録音、完全な読み、翻訳された用例を付けます。各言語の好みを表す例文は、英語の三人称単数形likesを含め、正確な構成語のPCMを再利用します。語彙と例文をまとめたデッキで練習できます。日本語の説明では色の名詞と形容詞の形を区別します。
+
+## 天気の語彙
+
+天気を表す名詞に、挿絵、各言語の意味、発音の説明、練習デッキを追加。両モジュールの元画像と最終画像を目視確認し、日本語の風の場面にあった矛盾を修正。録音の正確なリクエストと元PCMを保存。聴取確認は未実施。
+
+## 文脈で学ぶ方向
+
+左、右、北、南に場所の例文と練習デッキを追加。各元画像と最終画像の視点、方位、表記を確認。構成語の音声をそのまま再利用し、提供元の使用記録を保存。聴取確認は未実施。
+
+## 天気の例文と名詞の数
+
+構成語のPCMをそのまま使う天気の例文を追加。英語のcloudに複数形cloudsと確認済みの発音表記/klaʊdz/、専用録音を追加。日本語では自然な助詞と文脈による名詞の数を保持。聴取確認は未実施。
+
+## 季節と活動
+
+季節の名詞に挿絵、活動の例文、混合練習デッキを追加。季節としてのspringとautumn/fallの用法を説明し、温帯の季節の絵を世界共通の気候規則と区別。確認済みのかなの読みと構成語の音声を保持。聴取確認は未実施。
+
+## 身近な服
+
+シャツ、ワンピース、靴下、スカートに、英語の複数形、各モジュールの例文、服のデッキを追加。元画像と最終画像をすべて確認し、小さいかなと長音を保持して構成語の音声をそのまま連結。同じカード・活用形の検索キーに異なる録音が対応することを防ぐ回帰テストを追加。聴取確認は未実施。
+
+## 身近な食器
+
+カップ、皿、スプーン、フォークに、英語の複数形、各モジュールの例文、食器のデッキを追加。元画像と最終画像、小さいかな、長音を確認し、構成語のPCMと録音の来歴を保持。複数形テストで綴り、IPA、音声生成リクエスト、活用形との対応を検証。聴取確認は未実施。
+
+## 町の施設
+
+図書館、病院、スーパー、レストランに、確認済みの意味、英語の複数形、テーマ別デッキを追加。多様な例文で読書、仕事、場所の質問、移動予定、買い物、外食を扱う。元画像と最終画像、辞書の語義と読みを確認し、構成語の音声をそのまま保持。聴取確認は未実施。
+
+## 家事と身の回りの動作
+
+洗う、料理する、掃除する、乾かすに、各モジュール確認済み動作イラスト、語義・自他の説明、家事デッキを追加。英語活用形を録音で共有し、日本語活用形を追加して、活用と音声の対応をテスト。多様な例文で構成語音声をそのまま使用。英語では現在・過去・進行形を扱い、日本語ではホストのインポートとの互換性のため基本形を使用。活用形は変形練習で引き続き利用可能。聴取確認は未実施。
+
+## 日々の用事
+
+各モジュールに例文とデッキを追加し、水、食器、場所、買い物の予定、料理、身の回りの動作を練習。新たな生成依頼や画像を追加せず、既存の構成語音声をそのまま再利用。日本語の助詞と英語の冠詞を文脈に沿って確認。聴取確認は未実施。
+
+## 身の回りの用品
+
+石けん、タオル、歯ブラシ、歯磨き粉に各モジュール確認済み画像、正確な単語音声、英語の複数形音声、例文を追加。多言語の注記で可算・不可算の用法と日本語の読みを説明。画像数の推移と現在の日本語インポート制約を記録し、既存の全例文と活用音声を保持。聴取確認は未実施。
+
+## いろいろな乗り物
+
+飛行機、ボート、タクシー、オートバイに各モジュール確認済み画像、英語の複数形、自然な例文、乗り物デッキを追加。英語の地域差、日本語の長音、小型船の意味、和製語オートバイを説明。指定音声と構成語の音声をそのまま使用。既存の全例文と活用音声を保持。聴取確認は未実施。
+
+## 学用品
+
+鉛筆、ペン、ノート、定規に各モジュール確認済み画像、英語の複数形、自然な例文、学用品デッキを追加。語義、小書き仮名、長音を確認。既存の全例文と活用音声を保持。聴取確認は未実施。
+
+## 学校での一日
+
+各モジュールに個別に作成した文脈付き例文と専用デッキを追加し、既存の構成語音声をそのまま使用。意味、文体、助詞の役割、読み、四言語の訳を確認。以前の全例文と活用音声を保持。新しい画像や外部生成リクエストはなし。聴取確認は未実施。
+
+## レストランで
+
+各モジュールに個別に作成した文脈付き例文と専用デッキを追加し、既存の構成語音声をそのまま使用。意味、文体、助詞の役割、読み、四言語の訳を確認。以前の全例文と活用音声を保持。新しい画像や外部生成リクエストはなし。聴取確認は未実施。
+
+## いろいろな動物
+
+ウサギ、馬、牛、豚に各モジュール確認済み画像、英語の複数形、自然な例文、動物デッキを追加。雌牛を指す cow と雌雄を問わないうしを区別し、horses の追加音節と日本語入力を確認。指定音声と構成語音声をそのまま使用。既存の全例文と活用形を保持。聴取確認は未実施。
+
+## 家の家具と小物
+
+ソファ、ランプ、鏡、枕に各モジュール確認済み画像、英語の複数形、自然な例文、家具と小物のデッキを追加。ソファの小書きァ、照明としてのランプ、かがみの濁音が、寝具としての枕を確認。指定音声と構成語音声をそのまま使用。既存の全例文と活用形を保持。聴取確認は未実施。
+
+## いろいろな果物
+
+桃、梨、スイカ、パイナップルに各モジュール確認済み画像、英語の複数形、自然な例文、果物デッキを追加。洋梨と和梨の絵、丸ごとの可算用法と食材の不可算用法を区別し、peaches の追加音節とパイナップルの小書きッを保持。基本語、例文、収録済み活用形、総レコード数を分けた累積一覧と回帰テストを追加。聴取確認は未実施。
+
+## 台所の道具
+
+両モジュールにボウル、ナイフ、鍋、フライパンと確認済み画像を追加。英語の複数形、例文、デッキを収録。発音しない k、不規則な knives、ボウル・深い鍋・浅いフライパンの違いを説明。選択した形の構成要素PCMをそのまま使用し、累積集計を更新。聴取確認は未実施。
+
+## いろいろな野菜
+
+両モジュールにキャベツ、きのこ、ほうれん草、レタスと確認済み画像を追加。英語の複数形、多様な例文、デッキを収録。食材と株の可算性を区別し、ほうれんそうの長音とキャベツの小書きャを保持。Spinach の初級用複数形は付けない。累積集計を更新し、従来の例文を保持。聴取確認は未実施。
+
+## 部屋と庭
+
+寝室, 浴室, 台所, 庭と各モジュール確認済み画像、英語の複数形、個別に作成した例文、デッキを追加。読みと各言語の意味の違いを確認し、構成要素のPCMと従来の例文を保持して累積語彙集計を更新。聴取確認は未実施。
+
+## 身近な自然
+
+木, 森, 葉っぱ, 石と各モジュール確認済み画像、英語の複数形、個別に作成した例文、デッキを追加。読みと各言語の意味の違いを確認し、構成要素のPCMと従来の例文を保持して累積語彙集計を更新。聴取確認は未実施。
+
+## 家の設備
+
+冷蔵庫, オーブン, 流し, シャワーと各モジュール確認済み画像、英語の複数形、個別に作成した例文、デッキを追加。読みと各言語の意味の違いを確認し、構成要素のPCMと従来の例文を保持して累積語彙集計を更新。聴取確認は未実施。
+
+## 日常の動作
+
+跳ぶ、泳ぐ、笑う、泣くを確認済み画像と自然な例文とともに追加。英語活用対応と日本語活用形を用意し、swim の不規則活用や日本語の音便を扱う。構成語の音声、出典、従来の内容を保持。聴取確認は未実施。
+
+## 重さと難しさ
+
+重い、軽い、易しい、難しいを文脈のある画像と語義説明とともに追加。英語の比較・最上級活用形と日本語のイ形容詞活用形を用意。形容詞述語と動作の名詞化を例文で扱う。学習範囲の監査と累積集計を更新。聴取確認は未実施。
+
+## 頻度と反復
+
+よく、ときどき、たいてい、またを文脈画像と独立した例文で追加。画像が数値的頻度を定義しないことを明記。構成音声と出典を保持し、聴取確認は未実施。
+
+## 読み書きと休息
+
+読む、書く、話す、寝るを活用音声とともに追加。英語は既存語彙を新しい練習で再利用。書く場所、会話相手、寝るの文脈による意味を説明。従来の内容と正確な音声を保持し、聴取確認は未実施。
+
+## 日常のやり取り
+
+昼間のあいさつ、丁寧な感謝、呼びかけ、別れを文脈画像と待遇の説明付きで追加。英語は一対一対応を強制しない独立した会話練習を追加。こんにちはの発音わを正しくリンクし、出典を保持。聴取確認は未実施。
+
+## 応答と聞き返し
+
+肯定・否定の応答、丁寧な依頼、繰り返しの依頼を追加。英語の依頼表現Pleaseを喜ばせるという動詞から区別。日本語の応答、長音、文脈依存の対応を説明。原画像と最終JPEGを確認し、構成音声と証拠を保持。聴取確認は未実施。
+
+## 予定を立てる
+
+今後の活動・到着・待ち合わせ・切符を扱う例文と練習デッキを追加します。文脈に応じた時間の意味と言語固有の構文を保ち、追加の音声生成料金なしで既存の構成語音声を正確に結合します。
+
+## 学習の習慣
+
+筆記具・読書・語学・授業での聞き取り・質問を扱う例文を個別に作成し、練習デッキを追加します。語彙や挿絵を重複追加せず、既存の正確な単語音声を再利用します。
+
+## 出会いと別れの挨拶
+
+朝と夜の挨拶、就寝時の言葉、親しい相手への別れの言葉を追加。こんばんはの表記はと発音わを区別し、待遇を四言語で説明。短い定型句は自然な使用例付きの語彙カードとして扱います。
+
+## 時間帯と読書
+
+日本語のあさ・よる・ほん・しんぶんと英語のnewspaperを追加し、既存の英語名詞は再利用。各言語に読書の例文を追加。構造が曖昧な本の画像を整合した閉じた本に差し替え、不採用の記録は実行時コンテンツの外に保持します。
+
+## 理解を確かめる
+
+understandとわかるを追加し、英語活用形・日本語活用形に音声を対応。英語の不規則形understoodを保ち、日本語の状態を表す意味に可能形を機械的に付けません。英語二例と日本語の基本形一例を追加。ホストのインポーターが基本形ラベルを比較するため、日本語の活用形を選択した二例は実行時コンテンツに含めず、正確な音声と確認記録を下書きとして保持。新規の原画像と最終JPEGを目視確認し、音声の聴取確認は未実施です。
+
+## 身の回りの持ち物
+
+財布・カメラ・眼鏡・腕時計を、翻訳した意味、用法の説明、各言語例文とともに追加。英語glassesの複数扱いと日本語うでどけいの読みを説明。原画像と最終JPEGをずつ目視確認し、時刻の目盛りが欠けた時計の案を差し替えて不採用の根拠を保存。指定音声と日本語の原文入力を維持し、音声の聴取確認は未実施です。
+
+## 出かける準備
+
+持ち物、旅行書類、場所、予定を扱う例文を各言語ずつ個別に作成。既存の語彙と構成要素のPCMをそのまま再利用し、語彙を重複させません。日本語の丁寧な理解確認に関する例文案は引き続き保留し、ホストのコードは変更しません。
+
+## 物のやり取り
+
+give/receiveとあげる/もらうを追加し、各言語に目視確認した画像と個別に作成した例文を用意。主語の役割、受け手を示すに、出所を示すから、贈与と持ち上げる意味の違いを説明。英語活用形・日本語活用形に音声を対応させ、gave/given、もらわない、小さいっを含む形を正確に保持。構成要素のPCMと日本語の原文入力を維持。画像と用法説明では青い服の人物を主語として示し、音声の聴取確認は未実施です。保留中の丁寧な理解確認に関する例文案は変更しません。
+
+## 容器の語彙と練習
+
+瓶・箱・かご・封筒に、各言語の意味と用法、目視確認済みの挿絵、例文を追加。封筒の読みでは長母音を保持。音声は指定の声と構成語の正確なPCMを使用し、記録済みの例外に従って聴取検証は未実施。
+
+## 文房具の語彙と練習
+
+消しゴム・はさみ・テープ・ホチキスに目視確認済みの挿絵と例文を追加。用法説明と例文の参照関係では、英語scissorsの複数扱い、tapeの不可算用法、テープの長母音、選択したホチキスの表記を保持。受け取りの例文では先生を受領元として維持。構成語の正確な音声は技術検証済みで、記録済みの例外に従って聴取検証は未実施。
+
+## 姿勢を表す動詞と検証付き音声索引
+
+sit・standと英語の不規則活用、日本語の五段活用、目視確認済みの挿絵、例文を追加。用法では姿勢を取る動作と継続状態を区別します。ハッシュ付き用途別索引により、既存のファイルサイズ制限を維持して内容を拡張できます。記録済みの例外に従い、聴取検証は未実施です。
+
+## 家での日常動作
+
+食器洗い・読書・テーブルで座ること・持ち物を扱う例文を個別に作成。日本語では友達にスープをあげる表現と、箱の中の鍵の場所も練習します。既存の語彙と構成語の正確な録音を再利用し、新しい挿絵や音声提供者へのリクエストは不要です。
+
+## 文脈で学ぶ野生動物
+
+きつね・くま・さる・ぞうに、生息場所・動き・観察・大きさを扱う異なる例文と専用の学習デッキを追加しました。すべての原画と最終JPEGを目視で確認し、種類の一例であること、名詞の語義、ぞうの長母音に関する説明と意味を四言語で用意しました。音声一覧の拡張前後で既存の全入力に対する音声選択をバイト単位で比較します。新しい音声は試聴未確認と明記します。
+
+## 文脈で学ぶ押す・引く
+
+押す・引くと、英語の規則活用、日本語のサ行・カ行五段活用、目視確認済みの動作の挿絵、異なる例文を追加しました。例文は依頼・過去・進行中の動作・様態・対比・後の動作を扱います。各言語に専用デッキを追加し、構成語の音声と出典資料を保持します。試聴は未確認です。
+
+## 長さの説明と比較
+
+長い・短いと、英語の比較級・最上級の音声、日本語のイ形容詞の活用、目視確認済みの長さの比較図を追加しました。異なる例文で、説明・必要または購入する物・比較や程度・場所を扱います。用法では長さと身長を区別し、longer・longestの子音を明示します。構成語の録音と四言語の意味には追跡可能な資料を残し、試聴は未確認とします。
+
+## 謝罪と歓迎の表現
+
+Sorry・Welcomeと、ごめんなさい・ようこそを、目視確認済みの場面と各言語短い例文とともに追加しました。歓迎の挨拶と感謝への返答を区別し、日本語の謝罪例の親しい調子を説明します。読みはんとようの長母音を省かず保持します。文音声は構成語の録音をそのまま使い、試聴は未確認です。
+
+## 材料を切る・折る
+
+cut・foldとその英語・日本語の活用音声、修正して目視確認した動作の挿絵、異なる例文を追加しました。英語には材料名詞paperも加え、日本語では既存の紙のカードを再利用します。五段動詞の切ると一段動詞の着る、紙を折る用法と他の意味を区別します。同形のcutは保存済み音声を再利用します。出典資料と不採用の画像を保持し、試聴は未確認とします。
+
+## 食材の準備と天気の会話
+
+既存の語彙と保存済みの構成語音声をそのまま使い、個別に確認した例文と練習デッキを追加しました。食材の準備では洗う・切る・材料の列挙・じゃがいもの場所を、天気では雨・傘・描写・季節の好みを扱います。英語はcutsの正確な活用音声を再利用し、日本語は完全な読みと助詞の発音を保持します。新語・新しい挿絵・音声提供元への新規リクエストは計上していません。出典と各文音声の検証記録を保持し、試聴は未確認です。
+
+## 幅と空間の広さ
+
+wide・narrowとひろい・せまいを、目視確認した橋の挿絵と各言語例文とともに追加しました。英語はwider/widest・narrower/narrowest、日本語は連用形・否定形・過去形を収録し、小さいっを含む完全な読みを保持します。幅や空間の余裕を長さと区別します。構成語の正確な音声、元画像、PCMと出典を保持し、試聴は未確認です。
+
+## なかとそと
+
+英語の副詞inside/outsideと日本語の場所名詞なか/そとを、目視確認した容器の場面と各言語例文とともに追加しました。日本語例では基準となる場所を結ぶの、いる/あるによる存在場所のに、活動場所のでを区別します。中の意図しないちゅう読みを避けるため、かなを音声入力に使います。元画像、指定音声のPCM、正確な文音声合成を保持し、試聴は未確認です。
+
+## 深さ
+
+deep・shallowとふかい・あさいを、目視確認した容器の挿絵と各言語例文とともに追加しました。英語の比較級・最上級、日本語の連用形・否定形・過去形の正確なPCMを使用します。辞書資料、元画像と音声の技術検証を保持し、試聴は未確認です。
+
+## 明るさ
+
+bright・darkとあかるい・くらいを、目視確認した部屋の挿絵と各言語例文とともに追加しました。照明の明暗を色・知性・性格の意味と区別します。英語の比較級・最上級と日本語の連用形・否定形・過去形に対応する正確な音声を保持します。出典、元画像とPCMを保持し、試聴は未確認です。
+
+## マフラーと手袋
+
+scarf/gloveとマフラー/てぶくろを、確認済み画像と各言語例文とともに追加しました。scarves/glovesには正確な複数形音声を使用します。防寒具と消音器を区別し、日本語の単複とミトンを含む意味範囲を説明します。出典、元画像とPCMを保持し、試聴は未確認です。
+
+## 硬い材質・柔らかい材質
+
+hard/softとかたい/やわらかいを、圧力の効果を確認できる画像と各言語例文とともに追加しました。材質の硬さ・柔らかさを難しさ・音量・性格と区別します。比較級・最上級とイ形容詞活用は正確な音声と完全な語幹を保持します。出典、元画像とPCMを保持し、試聴は未確認です。
+
+## ボールとラケット
+
+ball/racketとボール/ラケットを、確認済みの用具画像と各言語例文とともに追加しました。スポーツの意味を選び、ボールとボウルを区別し、長音と小さいっを保持します。英語例文は正確な複数形音声を使用し、日本語例文は授受も練習します。出典、元画像とPCMを保持し、試聴は未確認です。
+
+## 博物館と動物園へのお出かけ
+
+museum/zooとはくぶつかん/どうぶつえんを、確認済みの施設画像と各言語多様な例文とともに追加しました。博物館の意味範囲を説明し、完全な読みを保持します。museums/zoosの正確な音声を収録し、目的地・見学・友達を待つ場面を練習します。出典、元画像とPCMを保持し、試聴は未確認です。
+
+## 手紙と葉書
+
+letter/postcardとてがみ/はがきを、確認済み画像、例文、正確な英語複数形とともに追加しました。手紙とアルファベットの文字を区別し、がの濁音を保持します。出典、元画像、構成要素の正確なPCMを保存します。試聴は未確認です。
+
+## 送る・運ぶ
+
+send/carryとおくる/はこぶを、確認済み画像、例文、正確な活用音声の対応とともに追加しました。sentとcarriedは過去形・過去分詞で音声を共有し、日本語は小さいっとんだ・んでを区別します。封筒の不正確な元画像を却下して修正し、証拠を保存しました。例文PCMは構成要素と完全に一致します。試聴は未確認です。
+
+## 文脈の中で送る・運ぶ
+
+既存の「送る・運ぶ」デッキを各言語で拡充しました。新しい例文で過去・進行中の動作、受取人、出所、並列、同行者、目的地を練習します。既存ID・名前・カード順を保持し、デッキや画像は増やしません。承認済み音声の構成要素PCMを正確に再利用し、生成費用はありません。試聴は未確認です。
+
+## 既存のコンテンツ構成を使用
+
+補助的なauthoringツリー、準備用仕様、元データと却下済みメディア、確認レポート、監査専用テストデータを削除しました。語彙・定義・例文はdata/library/content、配布メディアはdata/library/assets、録音一覧はdata/audio、デッキはdata/starter-decks.jsonに保持します。通常のテストで公開コンテンツを直接検証します。実行時データとIDを維持し、コンテンツの追加やパーサー変更は含みません。
+
+## コミット
+
+- [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)
+- [bfa6bd2](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/bfa6bd2c5843d78eca42c4c45ad82b211b20e6ca)
+- [8d3c8b7](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/8d3c8b7012066655f315992d085de7b67d8b7f87)
+- [8110de7](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/8110de7d0f036602b01c5e4e5785dcf1f9fe69a4)
+- [25a5ff9](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/25a5ff9fb66ef36981c2f37b60e7e84776048be7)
+- [914c4c7](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/914c4c7299f9b93800af2a2dfc5ec92c91ec31e0)
+- [580a2c1](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/580a2c103e95c9acda0234292232488c26f9f43f)
+- [e9994bc](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e9994bcd8aa12658e3128e051e0d06964b8c7263)
+- [4421e1f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4421e1f9701de6067aa2877b0481587f3e9a0c49)
+- [46bce52](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/46bce529a032af6f69ac36abed44cd1df125bbd0)
+- [cb19b51](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/cb19b51cfc72a76fa2e57914926f8f4d733ced70)
+- [c8d9420](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c8d94200941224cf07ba46c6a2da97356a1e08d4)
+- [e32a504](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e32a5047f6c746d7c4bad085ebce4629bd8727ef)
+- [3721b7b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/3721b7b3522a3b831437c78240dc93154dff053b)
+- [1d340f0](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/1d340f0ad72490348f939d4eadfdb983d2f1c627)
+- [6a918c0](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/6a918c0667eef24e6774e31b7d5d7c6b27ca1b0a)
+- [70ed0cf](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/70ed0cff589ecec7ed8cab7156b2d2f6725b2bdf)
+- [edb1cc4](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/edb1cc4f0891bc118d5738cba5d49ba874fa22f3)
+- [99be008](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/99be008c6b43bfa65d786c56e7dd2ab89254f99f)
+- [2a51fed](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/2a51fed76c7635d9a2d7f4307de3a663654a7886)
+- [410c4ee](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/410c4eec12af472c4888b6bfd547d7b7e141ffe5)
+- [968e3a4](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/968e3a432effec3ec79ee8e7fbf8f2d9e84bf7a4)
+- [5db099d](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/5db099dce6dabe38d67236876c0a779244c278ed)
+- [da5a951](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/da5a951ae6993651a3f4915118aed4420c2819a3)
+- [ab0a139](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ab0a139f6adf0849e781c9e0bc3cb9f9f941bc9a)
+- [4655154](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4655154a9d7c9d5b4c7d279d8a9a41ce180f8643)
+- [6a068e8](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/6a068e89a4798723cb45c3370ada0bc0102a5962)
+- [756608f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/756608fc8dd94e25db0ef0ed5f7ef2ced44c3b0e)
+- [264dce3](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/264dce3662b49b0512dce5898a28d222f47ded65)
+- [c73c793](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c73c79346419bac633ca9065b2fd470e2a6fcb4f)
+- [02e31a4](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/02e31a49b3404ecf07459e42159597c1002c1d20)
+- [eae72da](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/eae72dadbc44fd5eca72cfe057f76621a9fbd56f)
+- [c48d567](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c48d567e9eb5b498d55d8e5108cef70042fde71f)
+- [0532720](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/05327205218ceaa841654c25e12e9839458eb178)
+- [ce14718](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ce1471826a99de7d84e76b02728f66455caabb68)
+- [4ea6a4d](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4ea6a4df05e41f01c257d780c8a55989224f949f)
+- [aad1b2f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/aad1b2f8a57338c6b41b859280065eabf02dbaae)
+- [7c1ddc0](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/7c1ddc03a9434878525d436158125ad00e4833c1)
+- [be07f8c](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/be07f8c4da311370b107b9a2b4ae8df59fe0035e)
+- [153095b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/153095b5e89cd6433ab2f9090af47a8e3bdba9bb)
+- [c2d529a](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c2d529acc46d5597f878683739cf9a9aaad92bae)
+- [c77a174](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/c77a174a29d77c3fb6e0305df449b5e2a56ceae9)
+- [bd4e7fe](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/bd4e7feaccb472ac120ff0dc7f6c8994197a232e)
+- [040731f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/040731f87a09c7aaed71270afb818c4377f2cb67)
+- [e595ba6](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e595ba6b94e5ad46fe411cb69b82006dd0115f39)
+- [cca9bf2](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/cca9bf2c67e0b21a7146b280f4bc8247416627b1)
+- [419382d](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/419382d034a049c9c4c741359d0b6a5c44791ead)
+- [e35d759](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e35d7592bd04585e36320e0d02e80d509eaee08a)
+- [3fa46c3](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/3fa46c3075e6b962f0a26de858861f3f3e92578f)
+- [d3d78b6](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d3d78b677eb258c39c4d75c53eb31d84b68d8a28)
+- [5b3cf38](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/5b3cf384ebc2a7d1ea3a871f8be5a41139a85123)
+- [1d47855](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/1d47855d5915cd2862f94a2341d77084e3b24c65)
+- [721a348](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/721a348f02811df6c662dedf44ca3eae49371c9e)
+- [aab0ac0](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/aab0ac0409e5ea9aeb7a02ebe6633659763fef6e)
+- [4a70526](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4a70526826fef05b753e6ed32a9ee7140a2dc1af)
+- [7a7e580](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/7a7e58098c44678d3997ef21c9c2d13fcf444ba4)
+- [922a1b1](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/922a1b1741516ff7b49fde682e1d59d97021ef16)
+- [ef5b409](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef5b4093cd120a913ee22799c7ee01ac878291f8)
+- [4b6475c](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/4b6475c65d861a08a1b7dcd794488d83cc38d29b)
+- [b8c9290](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b8c9290f80f1499ebbaff6cffcbe869248759113)
+- [89ab48f](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/89ab48f446e07b559b6c7002c2414c4aa1092732)
+- [2634325](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/2634325ef7a63732fbdd50ff10be11c95f6d09aa)
+- [a920644](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a920644715353fd1aded29d7b1c673ea0bb57d1a)

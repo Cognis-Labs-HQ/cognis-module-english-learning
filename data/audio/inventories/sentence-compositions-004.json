@@ -8,9 +8,7 @@
                 "path": "audio/84b0876de630bf70f513e6ccacd62c5a2f5a94b4d981c82103c3f9521b8f9db3.wav",
                 "entryId": "en:word:capital-hello"
             },
-            {
-                "pauseMs": 200
-            },
+            { "pauseMs": 200 },
             {
                 "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
                 "entryId": "en:word:my"
@@ -19,9 +17,7 @@
                 "path": "audio/cd6f1f4eaf8a91a02e40d8200bc074b3105c2af729a3689741b8ef53b827ae19.wav",
                 "entryId": "en:word:friend"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -74,9 +70,7 @@
                 "path": "audio/506059686dff97e5826d6c7d0342a330e93101bdb4754969be1ba987189e0439.wav",
                 "entryId": "en:word:coffee"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -139,9 +133,7 @@
                 "path": "audio/71b5610f18ae99c4f6ec6bdfe244664b731bff3eb54237936ae395216a0cbf77.wav",
                 "entryId": "en:word:bread"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -202,9 +194,7 @@
                 "path": "audio/53612525976e57e096c89cf49ffcc1be60d2ab04136168922486a85043d6b84b.wav",
                 "entryId": "en:word:tea"
             },
-            {
-                "pauseMs": 200
-            },
+            { "pauseMs": 200 },
             {
                 "path": "audio/4e8c2ce7338ce931f912a77e615eb97a668409c8a034fd0bcf47e16bc30805ea.wav",
                 "entryId": "en:particle:but"
@@ -217,9 +207,7 @@
                 "path": "audio/506059686dff97e5826d6c7d0342a330e93101bdb4754969be1ba987189e0439.wav",
                 "entryId": "en:word:coffee"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -306,9 +294,7 @@
                 "path": "audio/cd6f1f4eaf8a91a02e40d8200bc074b3105c2af729a3689741b8ef53b827ae19.wav",
                 "entryId": "en:word:friend"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -391,9 +377,7 @@
                 "path": "audio/14d68a09a8297086fa155a85edc4f772381aea10cb553b8a4988f9e9dc7eeaad.wav",
                 "entryId": "en:word:run"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -641,6 +625,165 @@
             "label": "You have a mouth.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
+        }
+    },
+    {
+        "path": "audio/dc1395e71a936e3773e6c1109928acb3c8f027807b23d153ffc21d7fd648acc9.wav",
+        "entryId": "en:sentence:mealtime-eat-cheese",
+        "label": "I eat cheese.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
+                "entryId": "en:word:eat"
+            },
+            {
+                "path": "audio/a86713471e75629ccacd84683c93c4106d78ea3c07211f09626e81b65b99b3cc.wav",
+                "entryId": "en:word:cheese"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
+                "entryId": "en:word:eat",
+                "startFrame": 11067,
+                "frameCount": 10258
+            },
+            {
+                "path": "audio/a86713471e75629ccacd84683c93c4106d78ea3c07211f09626e81b65b99b3cc.wav",
+                "entryId": "en:word:cheese",
+                "startFrame": 23485,
+                "frameCount": 37740
+            }
+        ],
+        "sha256": "dc1395e71a936e3773e6c1109928acb3c8f027807b23d153ffc21d7fd648acc9",
+        "frames": 72985,
+        "input": {
+            "language": "en",
+            "label": "I eat cheese.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM; no external synthesis."
+        }
+    },
+    {
+        "path": "audio/0f99f12874889f0db06475f28e43dd28772a9a44549df2081de8dfadc56a943f.wav",
+        "entryId": "en:sentence:mealtime-like-soup",
+        "label": "She likes soup.",
+        "parts": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she"
+            },
+            {
+                "path": "audio/c36a98159cd3599e0e3a4bcf704c2133e3a204f208b02467eaf2d409ad208da6.wav",
+                "entryId": "en:word:form-english-like-third-person"
+            },
+            {
+                "path": "audio/005804606b17e2c7f4ead52c8c6161e032830c31bd4f14379f5eac739a5c3ac6.wav",
+                "entryId": "en:word:soup"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
+                "entryId": "en:word:capital-she",
+                "startFrame": 2400,
+                "frameCount": 10372
+            },
+            {
+                "path": "audio/c36a98159cd3599e0e3a4bcf704c2133e3a204f208b02467eaf2d409ad208da6.wav",
+                "entryId": "en:word:form-english-like-third-person",
+                "startFrame": 14932,
+                "frameCount": 13186
+            },
+            {
+                "path": "audio/005804606b17e2c7f4ead52c8c6161e032830c31bd4f14379f5eac739a5c3ac6.wav",
+                "entryId": "en:word:soup",
+                "startFrame": 30278,
+                "frameCount": 17678
+            }
+        ],
+        "sha256": "0f99f12874889f0db06475f28e43dd28772a9a44549df2081de8dfadc56a943f",
+        "frames": 59716,
+        "input": {
+            "language": "en",
+            "label": "She likes soup.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM; no external synthesis."
+        }
+    },
+    {
+        "path": "audio/2825c93985f68e9aa7b1717dbde46663ea73e26e0f35c1b53407b42cd40e8450.wav",
+        "entryId": "en:sentence:mealtime-have-butter",
+        "label": "We have butter.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/d4255166c4544afe249fa6b9d94b7c269dfe26aca8cd05c12b894525d7eaed7d.wav",
+                "entryId": "en:word:have"
+            },
+            {
+                "path": "audio/1bc577f8231c03383cac2bd5cb4e2f36586c0477ab5beddd174aba98c053330a.wav",
+                "entryId": "en:word:butter"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/d4255166c4544afe249fa6b9d94b7c269dfe26aca8cd05c12b894525d7eaed7d.wav",
+                "entryId": "en:word:have",
+                "startFrame": 22112,
+                "frameCount": 11117
+            },
+            {
+                "path": "audio/1bc577f8231c03383cac2bd5cb4e2f36586c0477ab5beddd174aba98c053330a.wav",
+                "entryId": "en:word:butter",
+                "startFrame": 35389,
+                "frameCount": 21022
+            }
+        ],
+        "sha256": "2825c93985f68e9aa7b1717dbde46663ea73e26e0f35c1b53407b42cd40e8450",
+        "frames": 68171,
+        "input": {
+            "language": "en",
+            "label": "We have butter.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM; no external synthesis."
         }
     }
 ]

@@ -1,0 +1,208 @@
+[
+    {
+        "id": "en:sentence:reading-time-example-morning-news",
+        "label": "I read the newspaper in the morning.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/999270497ae0209e9ed476c2d6cc755f73ecdd1cecc1e890f318a072a661010c.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:read",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:reading-time-newspaper",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:word:morning",
+                "relation": "words",
+                "position": 6
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 7
+            },
+            {
+                "entryId": "en:definition:reading-time-example-morning-news",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:reading-time-example-night-book",
+        "label": "She reads a book at night.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/4c2688cc90c0789534e8588087cf2f19fe8ff12aa0691cc855f9941d0b3dde28.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-read-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:book",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:at",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:night",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:reading-time-example-night-book",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:reading-time-example-news-table",
+        "label": "The newspaper is on the table.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/aba7f56acdb425c631390eaf696dd5b61f30c465a88280987c8ea337306197f3.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:reading-time-newspaper",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:on",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:table",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:reading-time-example-news-table",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:reading-time-example-buy-news",
+        "label": "I buy a newspaper at the station.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/3775558cd15de3771619146def7e9247d371bb95ebc47e937b11bcba209e7c23.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:travel-buy",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:reading-time-newspaper",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:at",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:word:travel-station",
+                "relation": "words",
+                "position": 6
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 7
+            },
+            {
+                "entryId": "en:definition:reading-time-example-buy-news",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

@@ -1,0 +1,158 @@
+[
+    {
+        "path": "audio/316a22af3d8dd8bd195b3878c986c07abfd5eb109afae94296f5bb64207d346b.wav",
+        "text": "longer",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈlɒŋɡə\">longer</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "longer",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈlɒŋɡə/"]
+            }
+        ],
+        "entries": ["en:word:form-length-long-comparative"],
+        "variants": [
+            {
+                "entryId": "en:word:length-long",
+                "setId": "length-long-forms",
+                "path": ["comparative"]
+            }
+        ],
+        "sha256": "316a22af3d8dd8bd195b3878c986c07abfd5eb109afae94296f5bb64207d346b",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "3c577dd535554b98590040463e8fe6a6d130c4e49b7576d5314ea05b1177c21b"
+        }
+    },
+    {
+        "path": "audio/242262cfe3a78df72d773dfa6630711f5dfe64bfa7ff721a0e4b711ac644d512.wav",
+        "text": "longest",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈlɒŋɡɪst\">longest</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "longest",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈlɒŋɡɪst/"]
+            }
+        ],
+        "entries": ["en:word:form-length-long-superlative"],
+        "variants": [
+            {
+                "entryId": "en:word:length-long",
+                "setId": "length-long-forms",
+                "path": ["superlative"]
+            }
+        ],
+        "sha256": "242262cfe3a78df72d773dfa6630711f5dfe64bfa7ff721a0e4b711ac644d512",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "ac589cba277f2a79eb808a4fbfd7aae03413ac755122057a4d4ebee03e4b9e6b"
+        }
+    },
+    {
+        "path": "audio/f219db0877d219f8b424d1aa88b73da567aa5d7e57dcde8f0d038b29cbf8a715.wav",
+        "text": "shorter",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈʃɔːtə\">shorter</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "shorter",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈʃɔːtə/"]
+            }
+        ],
+        "entries": ["en:word:form-length-short-comparative"],
+        "variants": [
+            {
+                "entryId": "en:word:length-short",
+                "setId": "length-short-forms",
+                "path": ["comparative"]
+            }
+        ],
+        "sha256": "f219db0877d219f8b424d1aa88b73da567aa5d7e57dcde8f0d038b29cbf8a715",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "31bb71942aa176d38fa8d552d88c2620868645f954202c2501646db746ecc330"
+        }
+    },
+    {
+        "path": "audio/efa15e53506cdde6d285336677a4e835fb99dc832b72e8b86a5e828f7292cf0b.wav",
+        "text": "shortest",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈʃɔːtɪst\">shortest</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "shortest",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈʃɔːtɪst/"]
+            }
+        ],
+        "entries": ["en:word:form-length-short-superlative"],
+        "variants": [
+            {
+                "entryId": "en:word:length-short",
+                "setId": "length-short-forms",
+                "path": ["superlative"]
+            }
+        ],
+        "sha256": "efa15e53506cdde6d285336677a4e835fb99dc832b72e8b86a5e828f7292cf0b",
+        "frames": 27709,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "e8376b4e1f8b6fae0140474c8352054fce8ab770de0f932c9785aef4de49becb"
+        }
+    }
+]

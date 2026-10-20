@@ -1,0 +1,82 @@
+[
+    {
+        "id": "en:word:posture-sit",
+        "label": "sit",
+        "class": "lexical:verb",
+        "fields": {
+            "pronunciation": ["/sɪt/"],
+            "part_of_speech": "verb",
+            "reference_images": [
+                "images/503bc80bc6f1fcc45ff0cca7a50c3cda1f2d256be9e7a0f30665ed143bfa8c5c.jpg"
+            ],
+            "audio": "audio/2c05936cf28dfa0f988e05c2a5f0eb3b13b400670b121e8b51b7187bd1fd2159.wav"
+        },
+        "tags": ["verb", "posture-form-sit"],
+        "references": [
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:posture-sit",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:posture-stand",
+        "label": "stand",
+        "class": "lexical:verb",
+        "fields": {
+            "pronunciation": ["/stænd/"],
+            "part_of_speech": "verb",
+            "reference_images": [
+                "images/4578f58c55449a60794e7924148afba151ad23e8c1b30c87fbfe7e124fde2692.jpg"
+            ],
+            "audio": "audio/62d948e6ef980c99c37ef2473a5f4d80d4086f1acd7aa1667e97c1781e1ba016.wav"
+        },
+        "tags": ["verb", "posture-form-stand"],
+        "references": [
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:posture-stand",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

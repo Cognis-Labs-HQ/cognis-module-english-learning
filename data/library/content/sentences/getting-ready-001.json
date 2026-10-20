@@ -1,0 +1,188 @@
+[
+    {
+        "id": "en:sentence:getting-ready-example-passport-need",
+        "label": "I need my passport.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/3bdff5d6ba28220ace81cb80482d0e6f7ff4d13029d7f3aaa9e0ffaffafddf8a.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:need",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:my",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:travel-passport",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:getting-ready-example-passport-need",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:getting-ready-example-ticket-here",
+        "label": "The ticket is here.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/75dbb231bfad8652f40f8af18b0742b8ba3c56ebd699af1e68d9c51e6ca80d57.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:travel-ticket",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:here",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:getting-ready-example-ticket-here",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:getting-ready-example-camera-map",
+        "label": "I take my camera and my map.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/ad47be98810a27c7c434358ac421974f79b783e387e94ec8d29444d5bcbf4b86.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:take",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:my",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:belongings-camera",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:and",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:my",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:word:travel-map",
+                "relation": "words",
+                "position": 6
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 7
+            },
+            {
+                "entryId": "en:definition:getting-ready-example-camera-map",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:getting-ready-example-key-phone",
+        "label": "I have my key and my phone.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/4dd1066dcec93adc7fffa8a6e7e684a46370a9d96da032cc2edf5e85037cf8c8.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:have",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:my",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:key",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:and",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:my",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:word:phone",
+                "relation": "words",
+                "position": 6
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 7
+            },
+            {
+                "entryId": "en:definition:getting-ready-example-key-phone",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

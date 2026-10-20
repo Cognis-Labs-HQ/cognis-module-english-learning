@@ -1,0 +1,87 @@
+[
+    {
+        "id": "en:word:outings-museum",
+        "label": "museum",
+        "class": "lexical:noun",
+        "fields": {
+            "pronunciation": ["/mjuˈziːəm/"],
+            "part_of_speech": "noun",
+            "reference_images": [
+                "images/b4fa3b4e6bd6266e3502de0f53268ff77042c88924bfa0a8613285054d1acc75.jpg"
+            ],
+            "audio": "audio/0ebcd39087d27f0b45b89441af4022006d250d853212f794e980da03a38d0dc0.wav"
+        },
+        "tags": ["noun", "outings", "plural", "plural-museum"],
+        "references": [
+            {
+                "entryId": "en:char:m-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:m-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:outings-museum",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:outings-zoo",
+        "label": "zoo",
+        "class": "lexical:noun",
+        "fields": {
+            "pronunciation": ["/zuː/"],
+            "part_of_speech": "noun",
+            "reference_images": [
+                "images/0165db9d5fd1065cc95469fdc33f931c4bcebc068b1705e6bc0156f9a1eb5228.jpg"
+            ],
+            "audio": "audio/50fa14a757a67251164680ca05c0babf6c88f7fcdc09e8600d9d7de72b32c15a.wav"
+        },
+        "tags": ["noun", "outings", "plural", "plural-zoo"],
+        "references": [
+            {
+                "entryId": "en:char:z-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:outings-zoo",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

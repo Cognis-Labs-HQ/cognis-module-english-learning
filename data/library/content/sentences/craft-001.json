@@ -1,0 +1,163 @@
+[
+    {
+        "id": "en:sentence:craft-example-cut-paper",
+        "label": "I cut the paper.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/55b05a6f5e2b08e862c7cfe25525b06a461a5d53a9872b3187124f8a9bb00c33.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:craft-cut",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:craft-paper",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:craft-example-cut-paper",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:craft-example-fold-paper",
+        "label": "She folds the paper.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/cf7bbba1f874ab3efa5aaa83bbc473d5b92ca08b0c212d69296dd6c4728944f9.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-craft-fold-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:craft-paper",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:craft-example-fold-paper",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:craft-example-cutting-bread",
+        "label": "We are cutting the bread.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/42ef8eca49a13e42e6eb795b758ecf73e07fee20817ce12a6a2d1d08876243f0.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-be-are",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-craft-cut-present-participle",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:bread",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:craft-example-cutting-bread",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:craft-example-folded-map",
+        "label": "I folded the map.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/ebbc909196a6e99d82febddefd8e2497fcd93aef5e3871e9b8c35f09fbf6460a.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-craft-fold-past",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:travel-map",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:craft-example-folded-map",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

@@ -1,0 +1,762 @@
+[
+    {
+        "path": "audio/932f8fed64618193eb5777dc98973f7a6081a36e70d51f7fd5249611757e1e1b.wav",
+        "entryId": "en:sentence:places-example-restaurant",
+        "label": "They eat at the restaurant.",
+        "parts": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they"
+            },
+            {
+                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
+                "entryId": "en:word:eat"
+            },
+            {
+                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
+                "entryId": "en:particle:at"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/bb02ea13233036ee8def9eca37d90344641079b5c1939a05a0d1e67006579d52.wav",
+                "entryId": "en:word:places-restaurant"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/2988f7ee5884a942494f593439df8ba2c118b58e08ad52247d91c2f538ea20fd.wav",
+                "entryId": "en:word:capital-they",
+                "startFrame": 2400,
+                "frameCount": 9803
+            },
+            {
+                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
+                "entryId": "en:word:eat",
+                "startFrame": 14363,
+                "frameCount": 10258
+            },
+            {
+                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
+                "entryId": "en:particle:at",
+                "startFrame": 26781,
+                "frameCount": 9361
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 38302,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/bb02ea13233036ee8def9eca37d90344641079b5c1939a05a0d1e67006579d52.wav",
+                "entryId": "en:word:places-restaurant",
+                "startFrame": 48612,
+                "frameCount": 23251
+            }
+        ],
+        "sha256": "932f8fed64618193eb5777dc98973f7a6081a36e70d51f7fd5249611757e1e1b",
+        "frames": 83623,
+        "input": {
+            "language": "en",
+            "label": "They eat at the restaurant.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact place-noun and existing constituent PCM, including selected English third-person works."
+        }
+    },
+    {
+        "path": "audio/6766e3c62171325c24202591bbb18ade16cff631795e0d1dd13883f235954d4e.wav",
+        "entryId": "en:sentence:classroom-1",
+        "label": "I study English at school.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/3d98346f8f54020f1798453da7ecce34ff7d7664a64fada2c7c0ab26609138f4.wav",
+                "entryId": "en:word:study"
+            },
+            {
+                "path": "audio/f0bcb581f921e4885369caaa14ef8b658f494c2df87673ea2b22776fcf933db0.wav",
+                "entryId": "en:word:english"
+            },
+            {
+                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
+                "entryId": "en:particle:at"
+            },
+            {
+                "path": "audio/51bd627382d00740b5650b5a76f4e181feee90c3f1dbd10156966342c249553a.wav",
+                "entryId": "en:word:school"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/3d98346f8f54020f1798453da7ecce34ff7d7664a64fada2c7c0ab26609138f4.wav",
+                "entryId": "en:word:study",
+                "startFrame": 11067,
+                "frameCount": 15132
+            },
+            {
+                "path": "audio/f0bcb581f921e4885369caaa14ef8b658f494c2df87673ea2b22776fcf933db0.wav",
+                "entryId": "en:word:english",
+                "startFrame": 28359,
+                "frameCount": 16343
+            },
+            {
+                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
+                "entryId": "en:particle:at",
+                "startFrame": 46862,
+                "frameCount": 9361
+            },
+            {
+                "path": "audio/51bd627382d00740b5650b5a76f4e181feee90c3f1dbd10156966342c249553a.wav",
+                "entryId": "en:word:school",
+                "startFrame": 58383,
+                "frameCount": 13929
+            }
+        ],
+        "sha256": "6766e3c62171325c24202591bbb18ade16cff631795e0d1dd13883f235954d4e",
+        "frames": 84072,
+        "input": {
+            "language": "en",
+            "label": "I study English at school.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM, without synthesis or new external requests."
+        }
+    },
+    {
+        "path": "audio/ef4b6a42fab21cfae5d55f1ee72f74b148393c4e92c57fa74ecd634c471e90fd.wav",
+        "entryId": "en:sentence:classroom-2",
+        "label": "I have a question.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/d4255166c4544afe249fa6b9d94b7c269dfe26aca8cd05c12b894525d7eaed7d.wav",
+                "entryId": "en:word:have"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/35fad243608fc2d83692114a144def5d5db9497e3e2aa8c70cf9718d64777a85.wav",
+                "entryId": "en:word:question"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/d4255166c4544afe249fa6b9d94b7c269dfe26aca8cd05c12b894525d7eaed7d.wav",
+                "entryId": "en:word:have",
+                "startFrame": 11067,
+                "frameCount": 11117
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 24344,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/35fad243608fc2d83692114a144def5d5db9497e3e2aa8c70cf9718d64777a85.wav",
+                "entryId": "en:word:question",
+                "startFrame": 39044,
+                "frameCount": 13824
+            }
+        ],
+        "sha256": "ef4b6a42fab21cfae5d55f1ee72f74b148393c4e92c57fa74ecd634c471e90fd",
+        "frames": 64628,
+        "input": {
+            "language": "en",
+            "label": "I have a question.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM, without synthesis or new external requests."
+        }
+    },
+    {
+        "path": "audio/f1876947c24f957a9809af9c1fdfd447df5b41ad620873fb928f024ecb9422ac.wav",
+        "entryId": "en:sentence:classroom-3",
+        "label": "The teacher has a book.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/c286e951ed70b2957ed3a653bd770640c0a715281f6734cafbb1e58ef6a2c771.wav",
+                "entryId": "en:word:teacher"
+            },
+            {
+                "path": "audio/bda924c2c4116df9e3bfe3599856e66a2305d8fd57fc299ded5eec1d595f99c6.wav",
+                "entryId": "en:word:form-english-have-third-person"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/8cc861c3afd001379e8aeaf2dfbca4a8d1a8822e4b0b61d2131e46e39ca9fc72.wav",
+                "entryId": "en:word:book"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/c286e951ed70b2957ed3a653bd770640c0a715281f6734cafbb1e58ef6a2c771.wav",
+                "entryId": "en:word:teacher",
+                "startFrame": 12710,
+                "frameCount": 12796
+            },
+            {
+                "path": "audio/bda924c2c4116df9e3bfe3599856e66a2305d8fd57fc299ded5eec1d595f99c6.wav",
+                "entryId": "en:word:form-english-have-third-person",
+                "startFrame": 27666,
+                "frameCount": 9951
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 39777,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/8cc861c3afd001379e8aeaf2dfbca4a8d1a8822e4b0b61d2131e46e39ca9fc72.wav",
+                "entryId": "en:word:book",
+                "startFrame": 54477,
+                "frameCount": 10706
+            }
+        ],
+        "sha256": "f1876947c24f957a9809af9c1fdfd447df5b41ad620873fb928f024ecb9422ac",
+        "frames": 76943,
+        "input": {
+            "language": "en",
+            "label": "The teacher has a book.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM, without synthesis or new external requests."
+        }
+    },
+    {
+        "path": "audio/39c81dc931718601d663094b74095ea44762c20b96ceece10de90d89d91171d6.wav",
+        "entryId": "en:sentence:classroom-4",
+        "label": "We read and write at school.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "entryId": "en:word:read"
+            },
+            {
+                "path": "audio/c17bea5cede4ef7cefc56eda7f4c62d72e4eb6756b6cf1f5dc17cfb9f91f338a.wav",
+                "entryId": "en:particle:and"
+            },
+            {
+                "path": "audio/16a2d1eaaa889296b2f83e59f3b322f25fe44467632933ef9771f2c00ea68bbb.wav",
+                "entryId": "en:word:write"
+            },
+            {
+                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
+                "entryId": "en:particle:at"
+            },
+            {
+                "path": "audio/51bd627382d00740b5650b5a76f4e181feee90c3f1dbd10156966342c249553a.wav",
+                "entryId": "en:word:school"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "entryId": "en:word:read",
+                "startFrame": 22112,
+                "frameCount": 11133
+            },
+            {
+                "path": "audio/c17bea5cede4ef7cefc56eda7f4c62d72e4eb6756b6cf1f5dc17cfb9f91f338a.wav",
+                "entryId": "en:particle:and",
+                "startFrame": 35405,
+                "frameCount": 11433
+            },
+            {
+                "path": "audio/16a2d1eaaa889296b2f83e59f3b322f25fe44467632933ef9771f2c00ea68bbb.wav",
+                "entryId": "en:word:write",
+                "startFrame": 48998,
+                "frameCount": 13293
+            },
+            {
+                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
+                "entryId": "en:particle:at",
+                "startFrame": 64451,
+                "frameCount": 9361
+            },
+            {
+                "path": "audio/51bd627382d00740b5650b5a76f4e181feee90c3f1dbd10156966342c249553a.wav",
+                "entryId": "en:word:school",
+                "startFrame": 75972,
+                "frameCount": 13929
+            }
+        ],
+        "sha256": "39c81dc931718601d663094b74095ea44762c20b96ceece10de90d89d91171d6",
+        "frames": 101661,
+        "input": {
+            "language": "en",
+            "label": "We read and write at school.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM, without synthesis or new external requests."
+        }
+    },
+    {
+        "path": "audio/d1d579e2d9a7f824773a9fb209f0d1c8fe32ef751a80235d0f177215f6061c6c.wav",
+        "entryId": "en:sentence:classroom-5",
+        "label": "I need a pencil and a notebook.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/923a4d859a8d86b5a088328f9b634e5f7f6073802146cca458afd5f2e5f4f9dc.wav",
+                "entryId": "en:word:school-pencil"
+            },
+            {
+                "path": "audio/c17bea5cede4ef7cefc56eda7f4c62d72e4eb6756b6cf1f5dc17cfb9f91f338a.wav",
+                "entryId": "en:particle:and"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/8b649cd68a079a305723da3969afb56419915cda9327fa283d2d7678672b0329.wav",
+                "entryId": "en:word:school-notebook"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need",
+                "startFrame": 11067,
+                "frameCount": 9927
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 23154,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/923a4d859a8d86b5a088328f9b634e5f7f6073802146cca458afd5f2e5f4f9dc.wav",
+                "entryId": "en:word:school-pencil",
+                "startFrame": 37854,
+                "frameCount": 23251
+            },
+            {
+                "path": "audio/c17bea5cede4ef7cefc56eda7f4c62d72e4eb6756b6cf1f5dc17cfb9f91f338a.wav",
+                "entryId": "en:particle:and",
+                "startFrame": 63265,
+                "frameCount": 11433
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 76858,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/8b649cd68a079a305723da3969afb56419915cda9327fa283d2d7678672b0329.wav",
+                "entryId": "en:word:school-notebook",
+                "startFrame": 91558,
+                "frameCount": 24366
+            }
+        ],
+        "sha256": "d1d579e2d9a7f824773a9fb209f0d1c8fe32ef751a80235d0f177215f6061c6c",
+        "frames": 127684,
+        "input": {
+            "language": "en",
+            "label": "I need a pencil and a notebook.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM, without synthesis or new external requests."
+        }
+    },
+    {
+        "path": "audio/c739c9f67da3a6991a51f11524149361c0806db9048f41e49abc5b86a8eb28a6.wav",
+        "entryId": "en:sentence:classroom-6",
+        "label": "I go to school with my friend.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/42b81828f68c66abecf181e027005a9e134f7f4c0618553235928583db3f3fe4.wav",
+                "entryId": "en:word:go"
+            },
+            {
+                "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
+                "entryId": "en:particle:to"
+            },
+            {
+                "path": "audio/51bd627382d00740b5650b5a76f4e181feee90c3f1dbd10156966342c249553a.wav",
+                "entryId": "en:word:school"
+            },
+            {
+                "path": "audio/6d2d3881b88f3c382ad83e70da941112308ecd8ffb35358a71c8c38c099170d6.wav",
+                "entryId": "en:particle:with"
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my"
+            },
+            {
+                "path": "audio/cd6f1f4eaf8a91a02e40d8200bc074b3105c2af729a3689741b8ef53b827ae19.wav",
+                "entryId": "en:word:friend"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/42b81828f68c66abecf181e027005a9e134f7f4c0618553235928583db3f3fe4.wav",
+                "entryId": "en:word:go",
+                "startFrame": 11067,
+                "frameCount": 11545
+            },
+            {
+                "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
+                "entryId": "en:particle:to",
+                "startFrame": 24772,
+                "frameCount": 7478
+            },
+            {
+                "path": "audio/51bd627382d00740b5650b5a76f4e181feee90c3f1dbd10156966342c249553a.wav",
+                "entryId": "en:word:school",
+                "startFrame": 34410,
+                "frameCount": 13929
+            },
+            {
+                "path": "audio/6d2d3881b88f3c382ad83e70da941112308ecd8ffb35358a71c8c38c099170d6.wav",
+                "entryId": "en:particle:with",
+                "startFrame": 50499,
+                "frameCount": 12362
+            },
+            {
+                "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
+                "entryId": "en:word:my",
+                "startFrame": 65021,
+                "frameCount": 9522
+            },
+            {
+                "path": "audio/cd6f1f4eaf8a91a02e40d8200bc074b3105c2af729a3689741b8ef53b827ae19.wav",
+                "entryId": "en:word:friend",
+                "startFrame": 76703,
+                "frameCount": 12778
+            }
+        ],
+        "sha256": "c739c9f67da3a6991a51f11524149361c0806db9048f41e49abc5b86a8eb28a6",
+        "frames": 101241,
+        "input": {
+            "language": "en",
+            "label": "I go to school with my friend.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM, without synthesis or new external requests."
+        }
+    },
+    {
+        "path": "audio/cbeefd00f0688cb1aa0389722662b4b4a237e0f6551f7afef8332507cec0dfec.wav",
+        "entryId": "en:sentence:restaurant-1",
+        "label": "I want soup and bread.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/64ba083ec87a85a2794c293b25059a4e3c21294016fdb68e582ab0fb098eeda7.wav",
+                "entryId": "en:word:want"
+            },
+            {
+                "path": "audio/005804606b17e2c7f4ead52c8c6161e032830c31bd4f14379f5eac739a5c3ac6.wav",
+                "entryId": "en:word:soup"
+            },
+            {
+                "path": "audio/c17bea5cede4ef7cefc56eda7f4c62d72e4eb6756b6cf1f5dc17cfb9f91f338a.wav",
+                "entryId": "en:particle:and"
+            },
+            {
+                "path": "audio/71b5610f18ae99c4f6ec6bdfe244664b731bff3eb54237936ae395216a0cbf77.wav",
+                "entryId": "en:word:bread"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/64ba083ec87a85a2794c293b25059a4e3c21294016fdb68e582ab0fb098eeda7.wav",
+                "entryId": "en:word:want",
+                "startFrame": 11067,
+                "frameCount": 13990
+            },
+            {
+                "path": "audio/005804606b17e2c7f4ead52c8c6161e032830c31bd4f14379f5eac739a5c3ac6.wav",
+                "entryId": "en:word:soup",
+                "startFrame": 27217,
+                "frameCount": 17678
+            },
+            {
+                "path": "audio/c17bea5cede4ef7cefc56eda7f4c62d72e4eb6756b6cf1f5dc17cfb9f91f338a.wav",
+                "entryId": "en:particle:and",
+                "startFrame": 47055,
+                "frameCount": 11433
+            },
+            {
+                "path": "audio/71b5610f18ae99c4f6ec6bdfe244664b731bff3eb54237936ae395216a0cbf77.wav",
+                "entryId": "en:word:bread",
+                "startFrame": 60648,
+                "frameCount": 8104
+            }
+        ],
+        "sha256": "cbeefd00f0688cb1aa0389722662b4b4a237e0f6551f7afef8332507cec0dfec",
+        "frames": 80512,
+        "input": {
+            "language": "en",
+            "label": "I want soup and bread.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM, without synthesis or new external requests."
+        }
+    },
+    {
+        "path": "audio/906d4928ab61ca2f420d4da2bfc7874cbadf7e137c2eae949a23ed2a9859da8e.wav",
+        "entryId": "en:sentence:restaurant-2",
+        "label": "We eat rice with fish.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
+                "entryId": "en:word:eat"
+            },
+            {
+                "path": "audio/2f1aff6b9fc48808c7ea17e0f18661f9f72669d3cbe8ece8f3a1bafd65482800.wav",
+                "entryId": "en:word:rice"
+            },
+            {
+                "path": "audio/6d2d3881b88f3c382ad83e70da941112308ecd8ffb35358a71c8c38c099170d6.wav",
+                "entryId": "en:particle:with"
+            },
+            {
+                "path": "audio/1360536e96014d08faa30ed773379bf44e61f13af3c5cee15923479849359a4f.wav",
+                "entryId": "en:word:fish"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/e54a6e25981d50106e9caabf36e886ebadd728d69a772779111015a171ab24a3.wav",
+                "entryId": "en:word:eat",
+                "startFrame": 22112,
+                "frameCount": 10258
+            },
+            {
+                "path": "audio/2f1aff6b9fc48808c7ea17e0f18661f9f72669d3cbe8ece8f3a1bafd65482800.wav",
+                "entryId": "en:word:rice",
+                "startFrame": 34530,
+                "frameCount": 23251
+            },
+            {
+                "path": "audio/6d2d3881b88f3c382ad83e70da941112308ecd8ffb35358a71c8c38c099170d6.wav",
+                "entryId": "en:particle:with",
+                "startFrame": 59941,
+                "frameCount": 12362
+            },
+            {
+                "path": "audio/1360536e96014d08faa30ed773379bf44e61f13af3c5cee15923479849359a4f.wav",
+                "entryId": "en:word:fish",
+                "startFrame": 74463,
+                "frameCount": 21022
+            }
+        ],
+        "sha256": "906d4928ab61ca2f420d4da2bfc7874cbadf7e137c2eae949a23ed2a9859da8e",
+        "frames": 107245,
+        "input": {
+            "language": "en",
+            "label": "We eat rice with fish.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM, without synthesis or new external requests."
+        }
+    },
+    {
+        "path": "audio/4b5c5c6da065e3fb6b21ccca0fa35aa6c7f515c1861226c8509385fea7f05c96.wav",
+        "entryId": "en:sentence:restaurant-3",
+        "label": "The soup is hot.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/005804606b17e2c7f4ead52c8c6161e032830c31bd4f14379f5eac739a5c3ac6.wav",
+                "entryId": "en:word:soup"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/437a80cf008c1a34ee57e35047f6f986a4bab34697e4305c73d1ee25c57aa34b.wav",
+                "entryId": "en:word:hot"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/005804606b17e2c7f4ead52c8c6161e032830c31bd4f14379f5eac739a5c3ac6.wav",
+                "entryId": "en:word:soup",
+                "startFrame": 12710,
+                "frameCount": 17678
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 32548,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/437a80cf008c1a34ee57e35047f6f986a4bab34697e4305c73d1ee25c57aa34b.wav",
+                "entryId": "en:word:hot",
+                "startFrame": 45095,
+                "frameCount": 12926
+            }
+        ],
+        "sha256": "4b5c5c6da065e3fb6b21ccca0fa35aa6c7f515c1861226c8509385fea7f05c96",
+        "frames": 69781,
+        "input": {
+            "language": "en",
+            "label": "The soup is hot.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM, without synthesis or new external requests."
+        }
+    }
+]

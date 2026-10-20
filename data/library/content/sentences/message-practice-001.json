@@ -1,0 +1,218 @@
+[
+    {
+        "id": "en:sentence:message-practice-example-sent-yesterday",
+        "label": "I sent you a letter yesterday.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/885a82631e24aa4d037d5cc667bb15ed74c9b91039f92634a6c297a4d67ef5b1.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-delivery-send-past",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:you",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:correspondence-letter",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:time-yesterday",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:message-practice-example-sent-yesterday",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:message-practice-example-sending-now",
+        "label": "He is sending a postcard now.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/ffe6ff0b94e88747b493d20714a4ce0617a8faf0a4e4a427d7f6c6062a67b9a9.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-he",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-delivery-send-present-participle",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:correspondence-postcard",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:now",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:message-practice-example-sending-now",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:message-practice-example-carry-to-car",
+        "label": "We are carrying the heavy box to the car.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/03d56bc2596f4638ae6cb4945c7059402905a16c286c0341a6f4a36e71af4879.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-be-are",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-delivery-carry-present-participle",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:qualities-heavy",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:containers-box",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:to",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 7
+            },
+            {
+                "entryId": "en:word:car",
+                "relation": "words",
+                "position": 8
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 9
+            },
+            {
+                "entryId": "en:definition:message-practice-example-carry-to-car",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:message-practice-example-received-from-friend",
+        "label": "She received a letter from a friend.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/5a651f5ce3a82ad55e57321ef32a9176f49188bd5ec5fdcbfafc263305444b8d.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-exchange-receive-past",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:correspondence-letter",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:from",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:word:friend",
+                "relation": "words",
+                "position": 6
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 7
+            },
+            {
+                "entryId": "en:definition:message-practice-example-received-from-friend",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

@@ -1,0 +1,168 @@
+[
+    {
+        "id": "en:sentence:depth-example-deep-bowl",
+        "label": "The bowl is deep.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/0f97141472b0c94df6fb1e1358575e224bf1e17b2bd7773e3c8c44cd0563e785.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:kitchen-bowl",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:depth-deep",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:depth-example-deep-bowl",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:depth-example-shallower-pan",
+        "label": "I need a shallower pan.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/9e61920a2bdb80c10e60d87740ec7bd275ddbb5978b7bf223c1decd55b685e71.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:need",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:form-depth-shallow-comparative",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:kitchen-pan",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:depth-example-shallower-pan",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:depth-example-deepest-pot",
+        "label": "The deepest pot is here.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/5ab98bf4ae9042f2682bce2aa261c13508a13f3322113a44802493d5eb7e27d5.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-depth-deep-superlative",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:kitchen-pot",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:here",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:depth-example-deepest-pot",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:depth-example-shallow-water",
+        "label": "The water is shallow.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/8da32e91c3709fb0bfdd84740dca4c63158f5104794112c6a9bca9ab332f4942.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:water",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:depth-shallow",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:depth-example-shallow-water",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

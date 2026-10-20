@@ -1,0 +1,82 @@
+[
+    {
+        "id": "en:word:force-push",
+        "label": "push",
+        "class": "lexical:verb",
+        "fields": {
+            "pronunciation": ["/pʊʃ/"],
+            "part_of_speech": "verb",
+            "reference_images": [
+                "images/afd33f1958029132e310fdb75075a103ea66ade7b7948c0584e35cb5c48680b8.jpg"
+            ],
+            "audio": "audio/50e529586d3a640a3845c6f9eb05038ba726702914cf810c64afc816c97ac29a.wav"
+        },
+        "tags": ["verb", "force-form-push"],
+        "references": [
+            {
+                "entryId": "en:char:p-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:force-push",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:force-pull",
+        "label": "pull",
+        "class": "lexical:verb",
+        "fields": {
+            "pronunciation": ["/pʊl/"],
+            "part_of_speech": "verb",
+            "reference_images": [
+                "images/c430c7c06c798f3798973f553f4a03dbf228f5af87ee0197a5488dae82d451c1.jpg"
+            ],
+            "audio": "audio/81afe748f67c9d64d4900570481fbcf5c55d438f29ac20119e6d92b2f17ce390.wav"
+        },
+        "tags": ["verb", "force-form-pull"],
+        "references": [
+            {
+                "entryId": "en:char:p-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:force-pull",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

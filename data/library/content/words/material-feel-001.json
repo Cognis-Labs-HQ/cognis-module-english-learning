@@ -1,0 +1,82 @@
+[
+    {
+        "id": "en:word:material-feel-hard",
+        "label": "hard",
+        "class": "lexical:adjective",
+        "fields": {
+            "pronunciation": ["/hɑːd/"],
+            "part_of_speech": "adjective",
+            "reference_images": [
+                "images/748acac28c2e38d25c492c02143386354f0a9480052fa65912d1aedb32db570d.jpg"
+            ],
+            "audio": "audio/374ac7761def3d3f62fcf80b95f0c8954870096455ecdba6bf44791b5f5cbf89.wav"
+        },
+        "tags": ["adjective", "material-feel-form-hard"],
+        "references": [
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:material-feel-hard",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:material-feel-soft",
+        "label": "soft",
+        "class": "lexical:adjective",
+        "fields": {
+            "pronunciation": ["/sɒft/"],
+            "part_of_speech": "adjective",
+            "reference_images": [
+                "images/52fdf1d0b53e0976eb67ac6475b25bcc889ed60aacfb994ff0e82f263a48b35b.jpg"
+            ],
+            "audio": "audio/fea771c0af5686a3fcca0c8cb99c0830ac39172e085e3c4bbdafc7e82a04d81b.wav"
+        },
+        "tags": ["adjective", "material-feel-form-soft"],
+        "references": [
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:f-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:material-feel-soft",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

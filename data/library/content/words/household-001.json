@@ -1,0 +1,162 @@
+[
+    {
+        "id": "en:word:household-wash",
+        "label": "wash",
+        "class": "lexical:verb",
+        "fields": {
+            "pronunciation": ["/wɒʃ/"],
+            "part_of_speech": "verb",
+            "reference_images": [
+                "images/2c13a896e9a5cca5052060aae69846f63a9dcfe415119d674cfb525383a3bbbf.jpg"
+            ],
+            "audio": "audio/f871f020b3de15eef5914b6e3de3d22cbd60473330c2bdfa30976783eb09b34a.wav"
+        },
+        "tags": ["verb", "household", "household-form-wash"],
+        "references": [
+            {
+                "entryId": "en:char:w-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:household-wash",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:household-cook",
+        "label": "cook",
+        "class": "lexical:verb",
+        "fields": {
+            "pronunciation": ["/kʊk/"],
+            "part_of_speech": "verb",
+            "reference_images": [
+                "images/619da7297a0fe6797a50b3f454ea794160e0f7715602a8e70ca06b557d8801de.jpg"
+            ],
+            "audio": "audio/873d3ddc7f14042c8425ac23c85457ea9c6ec3a2061cdb616fc7dd81d01c32f3.wav"
+        },
+        "tags": ["verb", "household", "household-form-cook"],
+        "references": [
+            {
+                "entryId": "en:char:c-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:k-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:household-cook",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:household-clean",
+        "label": "clean",
+        "class": "lexical:verb",
+        "fields": {
+            "pronunciation": ["/kliːn/"],
+            "part_of_speech": "verb",
+            "reference_images": [
+                "images/a1c65edb8cc6430d0a89eb9b8fffa923c9c89c7fa10eccb0a92d15afe68ecba3.jpg"
+            ],
+            "audio": "audio/54d7756b9e9d1fe760270f8a5618a4cf1b26c9dcea15fec6bb9acfacc9ac6e53.wav"
+        },
+        "tags": ["verb", "household", "household-form-clean"],
+        "references": [
+            {
+                "entryId": "en:char:c-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:household-clean",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:household-dry",
+        "label": "dry",
+        "class": "lexical:verb",
+        "fields": {
+            "pronunciation": ["/draɪ/"],
+            "part_of_speech": "verb",
+            "reference_images": [
+                "images/f68087d5cec59944b65f0a520047278f34fe76750526b420650e648241477ce1.jpg"
+            ],
+            "audio": "audio/885b5f5bfc288f3d11a87e369cb0f48818ae2ccc5c90e78ab42a4f03b0036de6.wav"
+        },
+        "tags": ["verb", "household", "household-form-dry"],
+        "references": [
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:y-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:definition:household-dry",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

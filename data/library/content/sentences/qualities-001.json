@@ -1,0 +1,158 @@
+[
+    {
+        "id": "en:sentence:qualities-example-heavy",
+        "label": "The bag is heavy.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/e668351211a1a421501a3caf1b38830f99d2e6578d966b01a6d225050aa1e21c.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:bag",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:qualities-heavy",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:qualities-example-heavy",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:qualities-example-light",
+        "label": "This coat is light.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/f53decca063c18f62d0f2c176ebe6e8cfad541e27932648dd00e93ec1eeee5a4.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-this",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:coat",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:qualities-light",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:qualities-example-light",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:qualities-example-easy",
+        "label": "This question is easy.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/29e0dfc24d66b9669073ecdc52f47e1a15722ac1d176fb1d70dea9ce7ffa1937.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-this",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:question",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:qualities-easy",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:qualities-example-easy",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:qualities-example-difficult",
+        "label": "The question is difficult.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/edd1d4bd11f306f5b750a0377362dae756c7c3a4b52bbc374af3a336c1c0101f.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:question",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:qualities-difficult",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:qualities-example-difficult",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

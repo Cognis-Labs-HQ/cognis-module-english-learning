@@ -1,0 +1,107 @@
+[
+    {
+        "id": "en:word:location-inside",
+        "label": "inside",
+        "class": "lexical:adverb",
+        "fields": {
+            "pronunciation": ["/ˌɪnˈsaɪd/"],
+            "part_of_speech": "adverb",
+            "reference_images": [
+                "images/f2bc196cc4d669b867569bf6ecf7cd288bf41969533a93483b230e4e1c1c3b58.jpg"
+            ],
+            "audio": "audio/98782f42d170453fb36b9f099aa18d8b008b7cf767815da60012a078c453f916.wav"
+        },
+        "tags": ["adverb", "location"],
+        "references": [
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:location-inside",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:location-outside",
+        "label": "outside",
+        "class": "lexical:adverb",
+        "fields": {
+            "pronunciation": ["/ˌaʊtˈsaɪd/"],
+            "part_of_speech": "adverb",
+            "reference_images": [
+                "images/8cfea9734d3ba4a687b7c19a788d610b3f3483a9cec43ff190f0955eff9a4ece.jpg"
+            ],
+            "audio": "audio/9918753f234d27ca21beedfc5d18c482a99354379a64960f1c8c212c9ca1ed62.wav"
+        },
+        "tags": ["adverb", "location"],
+        "references": [
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:u-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:location-outside",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

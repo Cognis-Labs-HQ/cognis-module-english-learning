@@ -1,0 +1,168 @@
+[
+    {
+        "id": "en:sentence:seasons-activity-spring",
+        "label": "I walk in spring.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/41ddec868cdecba2fc318cd5e75b7323edcf2790d11a06b0a0a6f1cc6a9b3be6.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:walk",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:seasons-spring",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:seasons-activity-spring",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:seasons-activity-summer",
+        "label": "We drink water in summer.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/39e7fc39ffe8b03e8546137c5c189c86d4eff3a2898028a4ce477d92d7220fc7.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:drink",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:water",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:seasons-summer",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:seasons-activity-summer",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:seasons-activity-autumn",
+        "label": "They read in autumn.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/3fe8592c215ed3b6781fee10b9a3d2573b9b6b7b4c6dd7bec32ceebda7f034eb.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-they",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:read",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:seasons-autumn",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:seasons-activity-autumn",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:seasons-activity-winter",
+        "label": "I drink tea in winter.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/715bed3d794deed5a7d1de1a87d6a1afcb5b5d35db4a33975bdf3ac45c14c0ca.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:drink",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:tea",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:seasons-winter",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:seasons-activity-winter",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

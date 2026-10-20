@@ -1,0 +1,773 @@
+[
+    {
+        "path": "audio/598c34dccf9451efd9dc49009fc053b773d604c53b8457363561d195ee67d39a.wav",
+        "text": "fridge",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"frɪdʒ\">fridge</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "fridge",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/frɪdʒ/"]
+            }
+        ],
+        "entries": ["en:word:fixtures-fridge"],
+        "variants": [],
+        "sha256": "598c34dccf9451efd9dc49009fc053b773d604c53b8457363561d195ee67d39a",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "2cf8aa2419c88d43a8762d8407512fa4866d1396d40d433c292baa52509e4f5c"
+        }
+    },
+    {
+        "path": "audio/262399df4b1b214164f6b4139ce2a9bce21e811387231fa9c1a828852b2d49c6.wav",
+        "text": "oven",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈʌvn\">oven</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "oven",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈʌvn/"]
+            }
+        ],
+        "entries": ["en:word:fixtures-oven"],
+        "variants": [],
+        "sha256": "262399df4b1b214164f6b4139ce2a9bce21e811387231fa9c1a828852b2d49c6",
+        "frames": 27709,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "757e56b9a052b9275390c33dbd172d55041fa63df17ee99fae876661549ee15f"
+        }
+    },
+    {
+        "path": "audio/6991089f64d9c43a2230866a24ca2b76d5c4c4799c63666515730eb189b13361.wav",
+        "text": "sink",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"sɪŋk\">sink</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "sink",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/sɪŋk/"]
+            }
+        ],
+        "entries": ["en:word:fixtures-sink"],
+        "variants": [],
+        "sha256": "6991089f64d9c43a2230866a24ca2b76d5c4c4799c63666515730eb189b13361",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "b23e13ffe951c94ed5e2fbcfaa0b338f3c8fd506e91b94ab49f44ab1f26fe74c"
+        }
+    },
+    {
+        "path": "audio/16bff6f07343b7a4096b42f648710f63dfe2ed2add86ce9753b74760296bd7d4.wav",
+        "text": "shower",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈʃaʊə\">shower</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "shower",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈʃaʊə/"]
+            }
+        ],
+        "entries": ["en:word:fixtures-shower"],
+        "variants": [],
+        "sha256": "16bff6f07343b7a4096b42f648710f63dfe2ed2add86ce9753b74760296bd7d4",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "07a7bc9681ec01a2c6689a3188021d396f0e68915c28592b3b8f5225fc0a71e7"
+        }
+    },
+    {
+        "path": "audio/0b53978a0037c16b8efb3f8e6ed003e9cb71b7657fbe6e462c095d1877f7e67d.wav",
+        "text": "fridges",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"frɪdʒɪz\">fridges</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "fridges",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/frɪdʒɪz/"]
+            }
+        ],
+        "entries": ["en:word:form-fixtures-fridges"],
+        "variants": [
+            {
+                "entryId": "en:word:fixtures-fridge",
+                "setId": "noun-fridge",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "0b53978a0037c16b8efb3f8e6ed003e9cb71b7657fbe6e462c095d1877f7e67d",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "e7218cde492cb03e21092f734ec1ee0e3eae3289784cba1e8f4704935bfdfb89"
+        }
+    },
+    {
+        "path": "audio/b22d3f3f93362b8fffced77effb30787d4aac08d27a0e0e24de32033721703d9.wav",
+        "text": "ovens",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈʌvnz\">ovens</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "ovens",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈʌvnz/"]
+            }
+        ],
+        "entries": ["en:word:form-fixtures-ovens"],
+        "variants": [
+            {
+                "entryId": "en:word:fixtures-oven",
+                "setId": "noun-oven",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "b22d3f3f93362b8fffced77effb30787d4aac08d27a0e0e24de32033721703d9",
+        "frames": 29939,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "c24cdc82800edd4f39285a380a7ccae393f4bedd59cfdad399a9e3cec96da9df"
+        }
+    },
+    {
+        "path": "audio/83079fa1674fd7c11e17e44fe39c3ce4c71c0bb23358475e2e56b3680af41c0f.wav",
+        "text": "sinks",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"sɪŋks\">sinks</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "sinks",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/sɪŋks/"]
+            }
+        ],
+        "entries": ["en:word:form-fixtures-sinks"],
+        "variants": [
+            {
+                "entryId": "en:word:fixtures-sink",
+                "setId": "noun-sink",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "83079fa1674fd7c11e17e44fe39c3ce4c71c0bb23358475e2e56b3680af41c0f",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "b8b8a4657147b489113da6d10b9f1cd4771f75dbccef1bfaa88d090a943c6aa3"
+        }
+    },
+    {
+        "path": "audio/96afadba2562ecd3d7b4b2030c3a1ad062760436b4703a34cc438d5ca94e412f.wav",
+        "text": "showers",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈʃaʊəz\">showers</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "showers",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈʃaʊəz/"]
+            }
+        ],
+        "entries": ["en:word:form-fixtures-showers"],
+        "variants": [
+            {
+                "entryId": "en:word:fixtures-shower",
+                "setId": "noun-shower",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "96afadba2562ecd3d7b4b2030c3a1ad062760436b4703a34cc438d5ca94e412f",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "dd6fd6050cb857ebfdf6d3e52830cae6aabe36ba20cbb40684c5ce3cc095200f"
+        }
+    },
+    {
+        "path": "audio/ad8bfb1f3b67a85cc45bb87b4ab12af0b2edf642e974e2cc25bdfba2cc8b48cd.wav",
+        "text": "jumps",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"dʒʌmps\">jumps</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "jumps",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/dʒʌmps/"]
+            }
+        ],
+        "entries": ["en:word:form-actions-jump-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:actions-jump",
+                "setId": "actions-jump-forms",
+                "path": ["third-person"]
+            }
+        ],
+        "sha256": "ad8bfb1f3b67a85cc45bb87b4ab12af0b2edf642e974e2cc25bdfba2cc8b48cd",
+        "frames": 42199,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "9011aa55d3035fbf8e869c869b2d05e4a619d60368b929f3b50989cc8baa0982"
+        }
+    },
+    {
+        "path": "audio/1c8ef88eaa66ab38c9542d84334e918565ded96bbb3e2540a7dd82c240ff4c04.wav",
+        "text": "jumped",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"dʒʌmpt\">jumped</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "jumped",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/dʒʌmpt/"]
+            }
+        ],
+        "entries": ["en:word:form-actions-jump-past"],
+        "variants": [
+            {
+                "entryId": "en:word:actions-jump",
+                "setId": "actions-jump-forms",
+                "path": ["past"]
+            },
+            {
+                "entryId": "en:word:actions-jump",
+                "setId": "actions-jump-forms",
+                "path": ["past-participle"]
+            }
+        ],
+        "sha256": "1c8ef88eaa66ab38c9542d84334e918565ded96bbb3e2540a7dd82c240ff4c04",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "e359ef664029a38a59240ab415b02f6c3fbc98de383e3a72628b43e459c82071"
+        }
+    },
+    {
+        "path": "audio/397829c4e7f3caeda23d5399fd7b0c0c65f20404595c534735e19d8f97f19a39.wav",
+        "text": "jumping",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈdʒʌmpɪŋ\">jumping</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "jumping",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈdʒʌmpɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-actions-jump-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:actions-jump",
+                "setId": "actions-jump-forms",
+                "path": ["present-participle"]
+            }
+        ],
+        "sha256": "397829c4e7f3caeda23d5399fd7b0c0c65f20404595c534735e19d8f97f19a39",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "b1e52bb4bfd14c36673a7131bedc92eb49026d6e2fcef6e45f63694f8c1c7537"
+        }
+    },
+    {
+        "path": "audio/3045156a1902a62b31d8a9fa9b1b48953d036d3c4902d1d8b0937eb6bf9a3121.wav",
+        "text": "swims",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"swɪmz\">swims</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "swims",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/swɪmz/"]
+            }
+        ],
+        "entries": ["en:word:form-actions-swim-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:actions-swim",
+                "setId": "actions-swim-forms",
+                "path": ["third-person"]
+            }
+        ],
+        "sha256": "3045156a1902a62b31d8a9fa9b1b48953d036d3c4902d1d8b0937eb6bf9a3121",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "44bfd06d4a96aed2adbd7ab28a82991cbd7dcba0ae7f737e9a95d669e97856ee"
+        }
+    },
+    {
+        "path": "audio/feec5d6a31e58b037e5a8d032faff5ecae443a12300dd32f6d91c003b15d7db7.wav",
+        "text": "swam",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"swæm\">swam</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "swam",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/swæm/"]
+            }
+        ],
+        "entries": ["en:word:form-actions-swim-past"],
+        "variants": [
+            {
+                "entryId": "en:word:actions-swim",
+                "setId": "actions-swim-forms",
+                "path": ["past"]
+            }
+        ],
+        "sha256": "feec5d6a31e58b037e5a8d032faff5ecae443a12300dd32f6d91c003b15d7db7",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "639e21911a4993e153ebfdacb7e88acd4219b67bf4420dd95e8b1a83e05d8387"
+        }
+    },
+    {
+        "path": "audio/3af6d60a6cb9f5e600958e0652fca56326f5867a06fb57528a7cae803733c288.wav",
+        "text": "swimming",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈswɪmɪŋ\">swimming</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "swimming",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈswɪmɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-actions-swim-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:actions-swim",
+                "setId": "actions-swim-forms",
+                "path": ["present-participle"]
+            }
+        ],
+        "sha256": "3af6d60a6cb9f5e600958e0652fca56326f5867a06fb57528a7cae803733c288",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "8a01abd06817b3c35e5f6d17744b59d6d761e60ba541430de32acddc6abd3b65"
+        }
+    },
+    {
+        "path": "audio/9529cb8915107d1bd2ab4bb1248b29518093e2ef3e54aa6be5fb1deab3b2a6b8.wav",
+        "text": "swum",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"swʌm\">swum</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "swum",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/swʌm/"]
+            }
+        ],
+        "entries": ["en:word:form-actions-swim-past-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:actions-swim",
+                "setId": "actions-swim-forms",
+                "path": ["past-participle"]
+            }
+        ],
+        "sha256": "9529cb8915107d1bd2ab4bb1248b29518093e2ef3e54aa6be5fb1deab3b2a6b8",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "dcb878d749ed4cce42bc85043ce8115aa83692e7e3e9660b3b4840ab50a6d4ab"
+        }
+    },
+    {
+        "path": "audio/9a3e814297f3fae6ecddc3be228a3427fa2a4975fc77a1c0d5b1203d556ccc9c.wav",
+        "text": "laughs",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"lɑːfs\">laughs</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "laughs",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/lɑːfs/"]
+            }
+        ],
+        "entries": ["en:word:form-actions-laugh-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:actions-laugh",
+                "setId": "actions-laugh-forms",
+                "path": ["third-person"]
+            }
+        ],
+        "sha256": "9a3e814297f3fae6ecddc3be228a3427fa2a4975fc77a1c0d5b1203d556ccc9c",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "8a8f724ebdd1ba5105088a09f774498e60c210d094f089670effbe3f81483986"
+        }
+    },
+    {
+        "path": "audio/87815ffbbf190b449480e65f1e06b1c8385fb9c888f9088fd66aef2460634e18.wav",
+        "text": "laughed",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"lɑːft\">laughed</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "laughed",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/lɑːft/"]
+            }
+        ],
+        "entries": ["en:word:form-actions-laugh-past"],
+        "variants": [
+            {
+                "entryId": "en:word:actions-laugh",
+                "setId": "actions-laugh-forms",
+                "path": ["past"]
+            },
+            {
+                "entryId": "en:word:actions-laugh",
+                "setId": "actions-laugh-forms",
+                "path": ["past-participle"]
+            }
+        ],
+        "sha256": "87815ffbbf190b449480e65f1e06b1c8385fb9c888f9088fd66aef2460634e18",
+        "frames": 74521,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "f6be4742e76ecd0f4b0251f5b1c5019bd831613c817f897561c89d02c9b78abe"
+        }
+    },
+    {
+        "path": "audio/4be99430a862bba35870ac8c1b458ba1a8a827dd2fc313decfe6b0567411ddc5.wav",
+        "text": "laughing",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈlɑːfɪŋ\">laughing</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "laughing",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈlɑːfɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-actions-laugh-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:actions-laugh",
+                "setId": "actions-laugh-forms",
+                "path": ["present-participle"]
+            }
+        ],
+        "sha256": "4be99430a862bba35870ac8c1b458ba1a8a827dd2fc313decfe6b0567411ddc5",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "ba29698f12d9cca700d5676f6c5de98c392e6a0ee7f8263d71199c1158f297e4"
+        }
+    },
+    {
+        "path": "audio/11a51838e3552eef5739af43e422ab0bec1b74ed28dcdf393535ab7c85f15633.wav",
+        "text": "cries",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"kraɪz\">cries</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "cries",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/kraɪz/"]
+            }
+        ],
+        "entries": ["en:word:form-actions-cry-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:actions-cry",
+                "setId": "actions-cry-forms",
+                "path": ["third-person"]
+            }
+        ],
+        "sha256": "11a51838e3552eef5739af43e422ab0bec1b74ed28dcdf393535ab7c85f15633",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "3396749370c59224ab0aa24e99c2a9d0c16dee2e378bc501cfd9008081f030bf"
+        }
+    },
+    {
+        "path": "audio/0d98c79d330c542bc8aa01138a04582ff86b65d091b8a8327f2cdd5bc491e4b7.wav",
+        "text": "cried",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"kraɪd\">cried</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "cried",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/kraɪd/"]
+            }
+        ],
+        "entries": ["en:word:form-actions-cry-past"],
+        "variants": [
+            {
+                "entryId": "en:word:actions-cry",
+                "setId": "actions-cry-forms",
+                "path": ["past"]
+            },
+            {
+                "entryId": "en:word:actions-cry",
+                "setId": "actions-cry-forms",
+                "path": ["past-participle"]
+            }
+        ],
+        "sha256": "0d98c79d330c542bc8aa01138a04582ff86b65d091b8a8327f2cdd5bc491e4b7",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "b119343a31e1ca899d136d90ec26a5a250a025260cb7c8f7e36223da1cd5304c"
+        }
+    }
+]

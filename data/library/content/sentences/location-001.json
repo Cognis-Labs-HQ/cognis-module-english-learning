@@ -1,0 +1,143 @@
+[
+    {
+        "id": "en:sentence:location-example-cat-inside",
+        "label": "The cat is inside.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/28f6e13303e36adda2123e18dba1b4637723bc6b32cb84554a57935ba224b292.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:cat",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:location-inside",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:location-example-cat-inside",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:location-example-wait-outside",
+        "label": "Please wait outside.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/8dfb5903b9f514aa1221d62eff9f0ef7a8f571317d6ef87d4b459ce933f3d36e.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:requests-please",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:travel-wait",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:location-outside",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:location-example-wait-outside",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:location-example-eat-outside",
+        "label": "We eat outside.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/a1b8868e70f59e7765eb83ceadb3ac52b64ee1c3c89dfaff82511ba4ae91b48b.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:eat",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:location-outside",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:location-example-eat-outside",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:location-example-read-inside",
+        "label": "I read inside.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/01a8df2ad61d9a1a0699be4b1b00efd6392e05b20b4b9a4b5563048e41eb73d2.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:read",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:location-inside",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:location-example-read-inside",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

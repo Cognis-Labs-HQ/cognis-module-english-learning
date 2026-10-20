@@ -1,0 +1,246 @@
+[
+    {
+        "id": "en:sentence:daily-morning-reading",
+        "label": "I read in the morning.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/0c3d7a8ba0a087826a2aef54e95014c5dd0dcba21ace255200a2ed1b69b55acd.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:read",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:morning",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:daily-morning-reading",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:daily-eat-home",
+        "label": "We eat at home.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/056666425da2fc9f864db5c2fc6e6ff86bbe89dab0a8eaca0fa37998381b692f.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:eat",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:at",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:home",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:daily-eat-home",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:daily-work-city",
+        "label": "They work in the city.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/f1a13a3feab51bdfb96eebb9e964b1e0deedd36d4ff4ae7880e5bc4b5c893419.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-they",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:work",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:city",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:daily-work-city",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:daily-walk-park",
+        "label": "She walks to the park.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/8674062fce3859ab475f0db5d654cf302eb08584064ec1219669aa74167e9757.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-walk-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:to",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:park",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:daily-walk-park",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:daily-sleep-night",
+        "label": "I sleep at night.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/6cf4f1fd8b0b317b1f37ad427677fa8185eace8b72b6c6580f916c69228f2b66.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:sleep",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:at",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:night",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:daily-sleep-night",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:daily-drink-water",
+        "label": "He drinks water.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/bbc1c12018067ecf20bed891d4fda62fff95366f0e1344a48ee8abe7a284239c.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-he",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-drink-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:water",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:daily-drink-water",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

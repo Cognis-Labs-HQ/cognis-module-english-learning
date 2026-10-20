@@ -1,0 +1,292 @@
+[
+    {
+        "path": "audio/af4046af7627d5b1cb436f8d3f430e569e1f3c73ad2a210ed1da3f7f1b5bc71a.wav",
+        "entryId": "en:sentence:light-level-example-bright-room",
+        "label": "The room is bright.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/99dfb2260e1504e5c3b5ac99b58686489b21c659aa542edb52fb67b86c0f534d.wav",
+                "entryId": "en:word:room"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/63db6fffe3e9516895b27b1f24795b100c4582f569c8be4c0de6190e53159f97.wav",
+                "entryId": "en:word:light-level-bright"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/99dfb2260e1504e5c3b5ac99b58686489b21c659aa542edb52fb67b86c0f534d.wav",
+                "entryId": "en:word:room",
+                "startFrame": 12710,
+                "frameCount": 9190
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 24060,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/63db6fffe3e9516895b27b1f24795b100c4582f569c8be4c0de6190e53159f97.wav",
+                "entryId": "en:word:light-level-bright",
+                "startFrame": 36607,
+                "frameCount": 18793
+            }
+        ],
+        "sha256": "af4046af7627d5b1cb436f8d3f430e569e1f3c73ad2a210ed1da3f7f1b5bc71a",
+        "frames": 67160,
+        "input": {
+            "language": "en",
+            "label": "The room is bright.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/650eaad2b9d68f538289e4a0e1d2c2210aaed6433e2cc2dcdacfff9fa770118e.wav",
+        "entryId": "en:sentence:light-level-example-brighter-lamp",
+        "label": "I need a brighter lamp.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need"
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a"
+            },
+            {
+                "path": "audio/319c6433272a1d147af6efed9738203939bc313b403728ba1a33046c8718852a.wav",
+                "entryId": "en:word:form-light-level-bright-comparative"
+            },
+            {
+                "path": "audio/541169ca08dca8ccbf90c6ca1ed3f072188b4782590e89ccdc86c0eb2d02fd9b.wav",
+                "entryId": "en:word:furnishings-lamp"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need",
+                "startFrame": 11067,
+                "frameCount": 9927
+            },
+            {
+                "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
+                "entryId": "en:word:a",
+                "startFrame": 23154,
+                "frameCount": 12540
+            },
+            {
+                "path": "audio/319c6433272a1d147af6efed9738203939bc313b403728ba1a33046c8718852a.wav",
+                "entryId": "en:word:form-light-level-bright-comparative",
+                "startFrame": 37854,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/541169ca08dca8ccbf90c6ca1ed3f072188b4782590e89ccdc86c0eb2d02fd9b.wav",
+                "entryId": "en:word:furnishings-lamp",
+                "startFrame": 61036,
+                "frameCount": 73406
+            }
+        ],
+        "sha256": "650eaad2b9d68f538289e4a0e1d2c2210aaed6433e2cc2dcdacfff9fa770118e",
+        "frames": 146202,
+        "input": {
+            "language": "en",
+            "label": "I need a brighter lamp.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/70d740950447d7da220fe514f5a0580aaff5bfe34822267c760914d7558fabd2.wav",
+        "entryId": "en:sentence:light-level-example-dark-kitchen",
+        "label": "The kitchen is dark.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/95ac49fdba60834da3b233b25d732e45079690bbd8bf24b8f5cbccbabf5dc64a.wav",
+                "entryId": "en:word:rooms-kitchen"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/f0b687d6269bfd6c57f9f14750b235156345fec2c94f8bf9eab847f24a013a8e.wav",
+                "entryId": "en:word:light-level-dark"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/95ac49fdba60834da3b233b25d732e45079690bbd8bf24b8f5cbccbabf5dc64a.wav",
+                "entryId": "en:word:rooms-kitchen",
+                "startFrame": 12710,
+                "frameCount": 22137
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 37007,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/f0b687d6269bfd6c57f9f14750b235156345fec2c94f8bf9eab847f24a013a8e.wav",
+                "entryId": "en:word:light-level-dark",
+                "startFrame": 49554,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "70d740950447d7da220fe514f5a0580aaff5bfe34822267c760914d7558fabd2",
+        "frames": 81221,
+        "input": {
+            "language": "en",
+            "label": "The kitchen is dark.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/0bab9794443f0ddb913c31aedb47720e4ec561678731d7bd6d91d38615544823.wav",
+        "entryId": "en:sentence:light-level-example-brightest-reading",
+        "label": "I read in the brightest room.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "entryId": "en:word:read"
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/95d2b5c1df8b4568e2fb6fef905de578730eb91e39bddda4e8999472855fbc96.wav",
+                "entryId": "en:word:form-light-level-bright-superlative"
+            },
+            {
+                "path": "audio/99dfb2260e1504e5c3b5ac99b58686489b21c659aa542edb52fb67b86c0f534d.wav",
+                "entryId": "en:word:room"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "entryId": "en:word:read",
+                "startFrame": 11067,
+                "frameCount": 11133
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in",
+                "startFrame": 24360,
+                "frameCount": 7315
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 33835,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/95d2b5c1df8b4568e2fb6fef905de578730eb91e39bddda4e8999472855fbc96.wav",
+                "entryId": "en:word:form-light-level-bright-superlative",
+                "startFrame": 44145,
+                "frameCount": 28824
+            },
+            {
+                "path": "audio/99dfb2260e1504e5c3b5ac99b58686489b21c659aa542edb52fb67b86c0f534d.wav",
+                "entryId": "en:word:room",
+                "startFrame": 75129,
+                "frameCount": 9190
+            }
+        ],
+        "sha256": "0bab9794443f0ddb913c31aedb47720e4ec561678731d7bd6d91d38615544823",
+        "frames": 96079,
+        "input": {
+            "language": "en",
+            "label": "I read in the brightest room.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    }
+]

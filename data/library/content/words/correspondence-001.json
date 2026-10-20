@@ -1,0 +1,112 @@
+[
+    {
+        "id": "en:word:correspondence-letter",
+        "label": "letter",
+        "class": "lexical:noun",
+        "fields": {
+            "pronunciation": ["/ˈletə/"],
+            "part_of_speech": "noun",
+            "reference_images": [
+                "images/81f8cc78def002a38814b567f78547526ab3629153d168d6bbdc74dc01adae27.jpg"
+            ],
+            "audio": "audio/318cdcbcbd4c4b122acdb41704812e66960383c8e0a56489fd9dc11efd04d9fe.wav"
+        },
+        "tags": ["noun", "correspondence", "plural", "plural-letter"],
+        "references": [
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:correspondence-letter",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:correspondence-postcard",
+        "label": "postcard",
+        "class": "lexical:noun",
+        "fields": {
+            "pronunciation": ["/ˈpəʊstkɑːd/"],
+            "part_of_speech": "noun",
+            "reference_images": [
+                "images/fe684a0cecd535b95b194481218332551ad0be81a9bf1dc3fb84151fe7d7f0aa.jpg"
+            ],
+            "audio": "audio/14b5bd88fb4dac4a235dc7e5996f715c7aedb45249a7e9b821169163e592a911.wav"
+        },
+        "tags": ["noun", "correspondence", "plural", "plural-postcard"],
+        "references": [
+            {
+                "entryId": "en:char:p-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:c-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 6
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 7
+            },
+            {
+                "entryId": "en:definition:correspondence-postcard",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

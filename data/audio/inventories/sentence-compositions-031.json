@@ -1,0 +1,272 @@
+[
+    {
+        "path": "audio/184e89a9a405c6a7e06103523d1f726a93392adb5b060a035b3ecf59a2c76274.wav",
+        "entryId": "en:sentence:weather-talk-example-need-umbrella",
+        "label": "I need an umbrella.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need"
+            },
+            {
+                "path": "audio/dcae49349faaea394b80ec40846b30fe80d5b79ab19b0c5b96b75458d1d5d18f.wav",
+                "entryId": "en:word:an"
+            },
+            {
+                "path": "audio/7d3f7ae8c4cbbe998ac7f6dc9af2c86dcc6b8acaa765905ed0fdb63ba39a8c43.wav",
+                "entryId": "en:word:umbrella"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/1eea4d77ff84b17b52e93b757b78e8db62db7fa2f2ef2d3e72ebfbebab2d44fd.wav",
+                "entryId": "en:word:need",
+                "startFrame": 11067,
+                "frameCount": 9927
+            },
+            {
+                "path": "audio/dcae49349faaea394b80ec40846b30fe80d5b79ab19b0c5b96b75458d1d5d18f.wav",
+                "entryId": "en:word:an",
+                "startFrame": 23154,
+                "frameCount": 9462
+            },
+            {
+                "path": "audio/7d3f7ae8c4cbbe998ac7f6dc9af2c86dcc6b8acaa765905ed0fdb63ba39a8c43.wav",
+                "entryId": "en:word:umbrella",
+                "startFrame": 34776,
+                "frameCount": 24366
+            }
+        ],
+        "sha256": "184e89a9a405c6a7e06103523d1f726a93392adb5b060a035b3ecf59a2c76274",
+        "frames": 70902,
+        "input": {
+            "language": "en",
+            "label": "I need an umbrella.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/485be194f4924ea234b3c474fdedb19ed8bca09c3b54a08b0541f52f9f15e124.wav",
+        "entryId": "en:sentence:weather-talk-example-cold-wind",
+        "label": "The wind is cold.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/542c89686a20fa93535164840ee4a0ba526a8993b4e225a85a1ec4184359bb78.wav",
+                "entryId": "en:word:weather-wind"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is"
+            },
+            {
+                "path": "audio/1dc2d508944f9d8b4a8f624b3cb630b6d14841bdfa4a045d56e77ad7aa8d9d55.wav",
+                "entryId": "en:word:cold"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/542c89686a20fa93535164840ee4a0ba526a8993b4e225a85a1ec4184359bb78.wav",
+                "entryId": "en:word:weather-wind",
+                "startFrame": 12710,
+                "frameCount": 22137
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:form-english-be-is",
+                "startFrame": 37007,
+                "frameCount": 10387
+            },
+            {
+                "path": "audio/1dc2d508944f9d8b4a8f624b3cb630b6d14841bdfa4a045d56e77ad7aa8d9d55.wav",
+                "entryId": "en:word:cold",
+                "startFrame": 49554,
+                "frameCount": 23381
+            }
+        ],
+        "sha256": "485be194f4924ea234b3c474fdedb19ed8bca09c3b54a08b0541f52f9f15e124",
+        "frames": 84695,
+        "input": {
+            "language": "en",
+            "label": "The wind is cold.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/8a1a49746cf4740ba7ced5d852be8d1ee2098688df2f633ada7d40957eceed68.wav",
+        "entryId": "en:sentence:weather-talk-example-winter-snow",
+        "label": "We see snow in winter.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/9b7843aec097ccb2e88f205448cd59c4d13b573f9b025bfeea72a95a0c467851.wav",
+                "entryId": "en:word:see"
+            },
+            {
+                "path": "audio/b5402130d53b97e483a26d111aad02fe645c40f3ca4f12805db72ed798897e3a.wav",
+                "entryId": "en:word:weather-snow"
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in"
+            },
+            {
+                "path": "audio/3c12cd571e992637a1a3bc543337436f2d1730bfa8748083d6abccfcf27bb4aa.wav",
+                "entryId": "en:word:seasons-winter"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/9b7843aec097ccb2e88f205448cd59c4d13b573f9b025bfeea72a95a0c467851.wav",
+                "entryId": "en:word:see",
+                "startFrame": 22112,
+                "frameCount": 11091
+            },
+            {
+                "path": "audio/b5402130d53b97e483a26d111aad02fe645c40f3ca4f12805db72ed798897e3a.wav",
+                "entryId": "en:word:weather-snow",
+                "startFrame": 35363,
+                "frameCount": 21022
+            },
+            {
+                "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
+                "entryId": "en:particle:in",
+                "startFrame": 58545,
+                "frameCount": 7315
+            },
+            {
+                "path": "audio/3c12cd571e992637a1a3bc543337436f2d1730bfa8748083d6abccfcf27bb4aa.wav",
+                "entryId": "en:word:seasons-winter",
+                "startFrame": 68020,
+                "frameCount": 19907
+            }
+        ],
+        "sha256": "8a1a49746cf4740ba7ced5d852be8d1ee2098688df2f633ada7d40957eceed68",
+        "frames": 99687,
+        "input": {
+            "language": "en",
+            "label": "We see snow in winter.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    },
+    {
+        "path": "audio/5cb1b51c96ab97aaf7a6848986be87e58fe3b927d1bf5a8b136f6a09bd84f32c.wav",
+        "entryId": "en:sentence:weather-talk-example-like-sun",
+        "label": "I like the sun.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/74e2b131c64da10695ba0b619e9a463dc2035c39a6de44f718afc3a7054689db.wav",
+                "entryId": "en:word:like"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/721eebd0549f9cddc2b9f28812ff2810a329069ea9941108817200fb1b5b45e2.wav",
+                "entryId": "en:word:weather-sun"
+            },
+            {
+                "pauseMs": 400
+            }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/74e2b131c64da10695ba0b619e9a463dc2035c39a6de44f718afc3a7054689db.wav",
+                "entryId": "en:word:like",
+                "startFrame": 11067,
+                "frameCount": 13914
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 27141,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/721eebd0549f9cddc2b9f28812ff2810a329069ea9941108817200fb1b5b45e2.wav",
+                "entryId": "en:word:weather-sun",
+                "startFrame": 37451,
+                "frameCount": 18793
+            }
+        ],
+        "sha256": "5cb1b51c96ab97aaf7a6848986be87e58fe3b927d1bf5a8b136f6a09bd84f32c",
+        "frames": 68004,
+        "input": {
+            "language": "en",
+            "label": "I like the sun.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact constituent PCM with explicit selected transformations."
+        }
+    }
+]

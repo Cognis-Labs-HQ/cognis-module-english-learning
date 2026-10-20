@@ -1,0 +1,158 @@
+[
+    {
+        "path": "audio/3dab65cdb5b05d2fee27e52e873edc0508ecbc475fd82ba958c8caedb279dc72.wav",
+        "text": "wider",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈwaɪdə\">wider</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "wider",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈwaɪdə/"]
+            }
+        ],
+        "entries": ["en:word:form-width-wide-comparative"],
+        "variants": [
+            {
+                "entryId": "en:word:width-wide",
+                "setId": "width-wide-forms",
+                "path": ["comparative"]
+            }
+        ],
+        "sha256": "3dab65cdb5b05d2fee27e52e873edc0508ecbc475fd82ba958c8caedb279dc72",
+        "frames": 21022,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "2133e9b14307603ef257cab54b5281e6ef78d20e9ecf2c76e8154da21b86aa03"
+        }
+    },
+    {
+        "path": "audio/d26c93d419a88e278c8ae07e89b5818c59a155b1e53d23c86b537ce7c986f5c3.wav",
+        "text": "widest",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈwaɪdɪst\">widest</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "widest",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈwaɪdɪst/"]
+            }
+        ],
+        "entries": ["en:word:form-width-wide-superlative"],
+        "variants": [
+            {
+                "entryId": "en:word:width-wide",
+                "setId": "width-wide-forms",
+                "path": ["superlative"]
+            }
+        ],
+        "sha256": "d26c93d419a88e278c8ae07e89b5818c59a155b1e53d23c86b537ce7c986f5c3",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "e65759c6a8e131ebbf38904eed4354952a2ca7a1b8ef384530d0c51c4842077f"
+        }
+    },
+    {
+        "path": "audio/15ae08e8cf5faf09b92724ecdb12c946f8e97654883066eef40552a0f73dab29.wav",
+        "text": "narrower",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈnærəʊə\">narrower</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "narrower",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈnærəʊə/"]
+            }
+        ],
+        "entries": ["en:word:form-width-narrow-comparative"],
+        "variants": [
+            {
+                "entryId": "en:word:width-narrow",
+                "setId": "width-narrow-forms",
+                "path": ["comparative"]
+            }
+        ],
+        "sha256": "15ae08e8cf5faf09b92724ecdb12c946f8e97654883066eef40552a0f73dab29",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "0a506d25c01cd3963b0fdc0d653aad58c9e4e0725c9e8d6b1edcf8198f2c79bc"
+        }
+    },
+    {
+        "path": "audio/faab19619b5b9dceea8653d6d8f0c74a0d1f133382c4988c2b8ed4233b7f3120.wav",
+        "text": "narrowest",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈnærəʊɪst\">narrowest</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "narrowest",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈnærəʊɪst/"]
+            }
+        ],
+        "entries": ["en:word:form-width-narrow-superlative"],
+        "variants": [
+            {
+                "entryId": "en:word:width-narrow",
+                "setId": "width-narrow-forms",
+                "path": ["superlative"]
+            }
+        ],
+        "sha256": "faab19619b5b9dceea8653d6d8f0c74a0d1f133382c4988c2b8ed4233b7f3120",
+        "frames": 26595,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "659ef6a410076a5f97a224a033fd2e9dd46121641565cc3d7405929162f5290f"
+        }
+    }
+]

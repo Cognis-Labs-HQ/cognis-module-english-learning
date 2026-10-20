@@ -1,0 +1,794 @@
+[
+    {
+        "path": "audio/fbc5452b8350acb7b99d28bcd1d2d468addb024891ef8ae82f9072ca09d4b42b.wav",
+        "text": "dress",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "dress",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "dress",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/dres/"]
+            }
+        ],
+        "entries": ["en:word:clothing-dress"],
+        "variants": [],
+        "sha256": "fbc5452b8350acb7b99d28bcd1d2d468addb024891ef8ae82f9072ca09d4b42b",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "d95d31b59805d447dffc0286d6ddd20c3b19b0610b372772b3da2a7ee5d9ef9b"
+        }
+    },
+    {
+        "path": "audio/30cc16b5b3c49487e473ecd1876ff775abc753d6706c102baed5f80e1b6aa18f.wav",
+        "text": "sock",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "sock",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "sock",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/sɒk/"]
+            }
+        ],
+        "entries": ["en:word:clothing-sock"],
+        "variants": [],
+        "sha256": "30cc16b5b3c49487e473ecd1876ff775abc753d6706c102baed5f80e1b6aa18f",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "23f600274b46164dc32db9be02470a282453f07ed0008c2541a5ed20ad226dc0"
+        }
+    },
+    {
+        "path": "audio/8b1d66eb13eb98a2ae5ed643e2b85c3a76c85359c9f7d42d06bfb43399da9191.wav",
+        "text": "skirt",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "skirt",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "skirt",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/skɜːt/"]
+            }
+        ],
+        "entries": ["en:word:clothing-skirt"],
+        "variants": [],
+        "sha256": "8b1d66eb13eb98a2ae5ed643e2b85c3a76c85359c9f7d42d06bfb43399da9191",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "e0a4e9d02c1e7cc6ce7aea187bfccc144b6b0b5828a79c734f673646be671259"
+        }
+    },
+    {
+        "path": "audio/d08a786a90f2d48d33d3a38b1e420a8b1eb48f327803464685f0b17b9576824d.wav",
+        "text": "shirts",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ʃɜːts\">shirts</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "shirts",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ʃɜːts/"]
+            }
+        ],
+        "entries": ["en:word:form-clothing-shirts"],
+        "variants": [
+            {
+                "entryId": "en:word:clothing-shirt",
+                "setId": "noun-shirt",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "d08a786a90f2d48d33d3a38b1e420a8b1eb48f327803464685f0b17b9576824d",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "a958584352c6bd05a2b192cdc3b25bb7f8e879012b14b449c2ff672a01ce0631"
+        }
+    },
+    {
+        "path": "audio/f3dc31c95afbbe212206398c7705ed39f9c6d2b870700417b87de967ab0818cf.wav",
+        "text": "dresses",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈdresɪz\">dresses</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "dresses",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈdresɪz/"]
+            }
+        ],
+        "entries": ["en:word:form-clothing-dresses"],
+        "variants": [
+            {
+                "entryId": "en:word:clothing-dress",
+                "setId": "noun-dress",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "f3dc31c95afbbe212206398c7705ed39f9c6d2b870700417b87de967ab0818cf",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "15268ec903202581c5b2943e56a4afa86505a29902f877e5c9754eb16a8a84e8"
+        }
+    },
+    {
+        "path": "audio/aba9e1351f05adb48d1d2c909c1787f1293ee5dadcd04219843bb8914fdb75aa.wav",
+        "text": "socks",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"sɒks\">socks</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "socks",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/sɒks/"]
+            }
+        ],
+        "entries": ["en:word:form-clothing-socks"],
+        "variants": [
+            {
+                "entryId": "en:word:clothing-sock",
+                "setId": "noun-sock",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "aba9e1351f05adb48d1d2c909c1787f1293ee5dadcd04219843bb8914fdb75aa",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "87505492361eea31cb73f8be0131f2b906e3f15bc4be4f7159c84323634bc533"
+        }
+    },
+    {
+        "path": "audio/d424e787dafa88b963fe33eaf446e66c9068ffa451db6f8224ca39bb8e1ae0d2.wav",
+        "text": "skirts",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"skɜːts\">skirts</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "skirts",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/skɜːts/"]
+            }
+        ],
+        "entries": ["en:word:form-clothing-skirts"],
+        "variants": [
+            {
+                "entryId": "en:word:clothing-skirt",
+                "setId": "noun-skirt",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "d424e787dafa88b963fe33eaf446e66c9068ffa451db6f8224ca39bb8e1ae0d2",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "319ff9bb26ca5a7a472a1bca08cec07b41866e695215a51db40df21e7a22d6d0"
+        }
+    },
+    {
+        "path": "audio/9c21b7cb1296db1d1b7b6362264c6c920ed2880db7d61579978f787ad369b05d.wav",
+        "text": "cup",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "cup",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "cup",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/kʌp/"]
+            }
+        ],
+        "entries": ["en:word:tableware-cup"],
+        "variants": [],
+        "sha256": "9c21b7cb1296db1d1b7b6362264c6c920ed2880db7d61579978f787ad369b05d",
+        "frames": 17678,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "2c1c234ac61f3e11b9433309675ea8fbb57738220bb0cc8a049921facaa8aac1"
+        }
+    },
+    {
+        "path": "audio/fc3ecd7d1abfbc340f59297766bb1e85f8652d4f943c5c47a92443b289dda215.wav",
+        "text": "plate",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "plate",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "plate",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/pleɪt/"]
+            }
+        ],
+        "entries": ["en:word:tableware-plate"],
+        "variants": [],
+        "sha256": "fc3ecd7d1abfbc340f59297766bb1e85f8652d4f943c5c47a92443b289dda215",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "f0f172678c0928192046035e875d47abe98a6144c0aadb2c3364aecb2badd741"
+        }
+    },
+    {
+        "path": "audio/5f9a3e905778bf89257f37ae9c5a042caef40f3963ac78fdceb0455248b17e77.wav",
+        "text": "spoon",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "spoon",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "spoon",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/spuːn/"]
+            }
+        ],
+        "entries": ["en:word:tableware-spoon"],
+        "variants": [],
+        "sha256": "5f9a3e905778bf89257f37ae9c5a042caef40f3963ac78fdceb0455248b17e77",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "c1c40a9736aac8007f7232e385ee5cc484a33b6bb9f8ea5da4cad3cdbb11d5b7"
+        }
+    },
+    {
+        "path": "audio/3ae57b1ee1ad50c3f7332cd673152ab4265fb5077877184121609195c234baf2.wav",
+        "text": "fork",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "fork",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "fork",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/fɔːk/"]
+            }
+        ],
+        "entries": ["en:word:tableware-fork"],
+        "variants": [],
+        "sha256": "3ae57b1ee1ad50c3f7332cd673152ab4265fb5077877184121609195c234baf2",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "438309cdd3b9eb09dfd5a32901189c2db9727bce8ad99431b709fa6670c45fa3"
+        }
+    },
+    {
+        "path": "audio/82be98bdbe6d9ca3472edd2e8257cee6031024b84822ab8dc01d385e38c24213.wav",
+        "text": "cups",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"kʌps\">cups</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "cups",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/kʌps/"]
+            }
+        ],
+        "entries": ["en:word:form-tableware-cups"],
+        "variants": [
+            {
+                "entryId": "en:word:tableware-cup",
+                "setId": "noun-cup",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "82be98bdbe6d9ca3472edd2e8257cee6031024b84822ab8dc01d385e38c24213",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "602c55e407ad458603e817296d62626fa981aa1abab307be3471409958e557da"
+        }
+    },
+    {
+        "path": "audio/9dc7d8bb03561421cd31a9481c1826300984d533eec85b6bc2f98ab79a7c4504.wav",
+        "text": "plates",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"pleɪts\">plates</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "plates",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/pleɪts/"]
+            }
+        ],
+        "entries": ["en:word:form-tableware-plates"],
+        "variants": [
+            {
+                "entryId": "en:word:tableware-plate",
+                "setId": "noun-plate",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "9dc7d8bb03561421cd31a9481c1826300984d533eec85b6bc2f98ab79a7c4504",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "37a78832a9665d41b71bec4e0fadefb41a6fba3fb860f455e836c8a3a8271d89"
+        }
+    },
+    {
+        "path": "audio/88c48c2cbedaa2f072bdb8a940b6be0eea815cefca54708b6a6231578a540663.wav",
+        "text": "spoons",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"spuːnz\">spoons</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "spoons",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/spuːnz/"]
+            }
+        ],
+        "entries": ["en:word:form-tableware-spoons"],
+        "variants": [
+            {
+                "entryId": "en:word:tableware-spoon",
+                "setId": "noun-spoon",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "88c48c2cbedaa2f072bdb8a940b6be0eea815cefca54708b6a6231578a540663",
+        "frames": 26595,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "e41000d57c48f9bf3fe227bd06b8b0cd4f7d8d22b21ce6838b247f0c9c60405d"
+        }
+    },
+    {
+        "path": "audio/80e0e347e3742b9908d81590dff5e039a7066be39240fff169a916f68249117a.wav",
+        "text": "forks",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"fɔːks\">forks</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "forks",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/fɔːks/"]
+            }
+        ],
+        "entries": ["en:word:form-tableware-forks"],
+        "variants": [
+            {
+                "entryId": "en:word:tableware-fork",
+                "setId": "noun-fork",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "80e0e347e3742b9908d81590dff5e039a7066be39240fff169a916f68249117a",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "27d1eb274c607ea817f0f7c0c50002fc3f76117df96a4e0ae39c79cf05e4d6a2"
+        }
+    },
+    {
+        "path": "audio/9572e372989b5c731c9f77f0370494110dfb2b2df0dbcd1043df6e56f81fe2ad.wav",
+        "text": "library",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "library",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "library",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈlaɪbrəri/"]
+            }
+        ],
+        "entries": ["en:word:places-library"],
+        "variants": [],
+        "sha256": "9572e372989b5c731c9f77f0370494110dfb2b2df0dbcd1043df6e56f81fe2ad",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "d52f5ca741e4284587ed17ba9fec69fb4bb435112d82f83344b547b0d4142363"
+        }
+    },
+    {
+        "path": "audio/2bfa6419ef6336ced8fa0fc8c760aefe94fda710d1fac8f7b9e37074cf77599a.wav",
+        "text": "hospital",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "hospital",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "hospital",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈhɒspɪtəl/"]
+            }
+        ],
+        "entries": ["en:word:places-hospital"],
+        "variants": [],
+        "sha256": "2bfa6419ef6336ced8fa0fc8c760aefe94fda710d1fac8f7b9e37074cf77599a",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "dd0436198978d74316879caf2194c6f998732ea205bbb60cf8522e370fff0aa3"
+        }
+    },
+    {
+        "path": "audio/578eaa7c2d92a0ee7eb8ddbe36c8f4fc9df41588cc286435751ad234cfb4f5c7.wav",
+        "text": "supermarket",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "supermarket",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "supermarket",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈsuːpəmɑːkɪt/"]
+            }
+        ],
+        "entries": ["en:word:places-supermarket"],
+        "variants": [],
+        "sha256": "578eaa7c2d92a0ee7eb8ddbe36c8f4fc9df41588cc286435751ad234cfb4f5c7",
+        "frames": 26595,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "9bd9b9d0f97b5ba86fccf5397b309855576e064fb9bd627b7b91c317fa8b5bd7"
+        }
+    },
+    {
+        "path": "audio/bb02ea13233036ee8def9eca37d90344641079b5c1939a05a0d1e67006579d52.wav",
+        "text": "restaurant",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "restaurant",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "restaurant",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈrestrɒnt/"]
+            }
+        ],
+        "entries": ["en:word:places-restaurant"],
+        "variants": [],
+        "sha256": "bb02ea13233036ee8def9eca37d90344641079b5c1939a05a0d1e67006579d52",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "1a58192d2ab2958df48430ee2334cb64d32aadbc0bdef0356e2ef2328b932811"
+        }
+    },
+    {
+        "path": "audio/fb658fed55d29002b1c4115e8c73fcc964ab1bcb65d21cda7f1df28b02e7ab3b.wav",
+        "text": "libraries",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈlaɪbrəriz\">libraries</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "libraries",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈlaɪbrəriz/"]
+            }
+        ],
+        "entries": ["en:word:form-places-libraries"],
+        "variants": [
+            {
+                "entryId": "en:word:places-library",
+                "setId": "noun-library",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "fb658fed55d29002b1c4115e8c73fcc964ab1bcb65d21cda7f1df28b02e7ab3b",
+        "frames": 27709,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "14a04f05c575e61922806fa8f186713879697d5e1208e902871f13c5f549b946"
+        }
+    },
+    {
+        "path": "audio/56cfbbb32b48aeac610b2cdfe151b5c3f620b3be93770e3237f40aa3fdf74cee.wav",
+        "text": "hospitals",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈhɒspɪtəlz\">hospitals</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "hospitals",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈhɒspɪtəlz/"]
+            }
+        ],
+        "entries": ["en:word:form-places-hospitals"],
+        "variants": [
+            {
+                "entryId": "en:word:places-hospital",
+                "setId": "noun-hospital",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "56cfbbb32b48aeac610b2cdfe151b5c3f620b3be93770e3237f40aa3fdf74cee",
+        "frames": 27709,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "4e06d226e133c61ed1cfa7d523e3602220658301dbc952e30da38b9c4cc395f3"
+        }
+    },
+    {
+        "path": "audio/7e26f9a78018e6172a0fdfa1e99c2ca6081b6224adf9153ab8a1ab056eb7bbb3.wav",
+        "text": "supermarkets",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈsuːpəmɑːkɪts\">supermarkets</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "supermarkets",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈsuːpəmɑːkɪts/"]
+            }
+        ],
+        "entries": ["en:word:form-places-supermarkets"],
+        "variants": [
+            {
+                "entryId": "en:word:places-supermarket",
+                "setId": "noun-supermarket",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "7e26f9a78018e6172a0fdfa1e99c2ca6081b6224adf9153ab8a1ab056eb7bbb3",
+        "frames": 35511,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "40d055e155213e3df949d173be0ebdb7288e5ce527e9450cbd0ec4a0fe393848"
+        }
+    }
+]

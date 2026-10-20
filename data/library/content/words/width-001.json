@@ -1,0 +1,92 @@
+[
+    {
+        "id": "en:word:width-wide",
+        "label": "wide",
+        "class": "lexical:adjective",
+        "fields": {
+            "pronunciation": ["/waɪd/"],
+            "part_of_speech": "adjective",
+            "reference_images": [
+                "images/94744632c43ee205a4ea12c9446cd6bae83b525be1298c181b30b972ec46dd27.jpg"
+            ],
+            "audio": "audio/fff9987c5755510025201a7749fd451b6a394552a84852db98abd98afddfae38.wav"
+        },
+        "tags": ["adjective", "width-form-wide"],
+        "references": [
+            {
+                "entryId": "en:char:w-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:e-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:width-wide",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:width-narrow",
+        "label": "narrow",
+        "class": "lexical:adjective",
+        "fields": {
+            "pronunciation": ["/ˈnærəʊ/"],
+            "part_of_speech": "adjective",
+            "reference_images": [
+                "images/8c4a1cce799c35a5f56bdf245ee811b3c33d92c0f3c2320a04cca8eec53a3d34.jpg"
+            ],
+            "audio": "audio/58436497437530217f8784ef41057469323e7ec0e40216402a9927a822dece6c.wav"
+        },
+        "tags": ["adjective", "width-form-narrow"],
+        "references": [
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:w-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:width-narrow",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

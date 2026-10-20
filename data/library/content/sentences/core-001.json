@@ -1,0 +1,158 @@
+[
+    {
+        "id": "en:sentence:core-example-read",
+        "label": "I read in the library.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/46cd37bd5f9c338f1138189b668680ff1ebe6aaa1ef74c0333a2ba773c45ee19.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:read",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:places-library",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:core-example-read",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:core-example-write",
+        "label": "I write with a pen.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/a5586d46a9e011a433d32247ff3b0118c2eb51ea4975e2f5402d1ea05b37b1ec.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:write",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:particle:with",
+                "relation": "particles",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:school-pen",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:core-example-write",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:core-example-speak",
+        "label": "They speak English.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/2306b5698db25977cfc3284bf1c70a0eca0c1db276ce3790e60ac2a92fa99ac4.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-they",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:speak",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:english",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:core-example-speak",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:core-example-sleep",
+        "label": "The child sleeps.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/7a737114f4058649c2553360427b4db5a19c3186d64fe53c2ec35988d0c916d6.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:child",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-sleep-third-person",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:core-example-sleep",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

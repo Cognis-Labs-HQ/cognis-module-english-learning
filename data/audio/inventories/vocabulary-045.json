@@ -1,0 +1,80 @@
+[
+    {
+        "path": "audio/bd9b3db33e8c7ea7d8e89ab1114c379e39996612965d624602098fe929f44e00.wav",
+        "text": "balls",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"bɔːlz\">balls</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "balls",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/bɔːlz/"]
+            }
+        ],
+        "entries": ["en:word:form-recreation-balls"],
+        "variants": [
+            {
+                "entryId": "en:word:recreation-ball",
+                "setId": "recreation-ball-forms",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "bd9b3db33e8c7ea7d8e89ab1114c379e39996612965d624602098fe929f44e00",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "4ca79fd3eab260d3fc63d5afa644233ae60ddfe7aa5cb63c23d0f0a1471f7fd9"
+        }
+    },
+    {
+        "path": "audio/cd1547296fa0d9b2dfd50ecf4c9c2716ecfbfd886caf2cf15c65164c59b98613.wav",
+        "text": "rackets",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈrækɪts\">rackets</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "rackets",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈrækɪts/"]
+            }
+        ],
+        "entries": ["en:word:form-recreation-rackets"],
+        "variants": [
+            {
+                "entryId": "en:word:recreation-racket",
+                "setId": "recreation-racket-forms",
+                "path": ["plural"]
+            }
+        ],
+        "sha256": "cd1547296fa0d9b2dfd50ecf4c9c2716ecfbfd886caf2cf15c65164c59b98613",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "ac8a3912eda4ab7940db56bfc5878d1608bc78f1ece550ccba75151c13c4c665"
+        }
+    }
+]

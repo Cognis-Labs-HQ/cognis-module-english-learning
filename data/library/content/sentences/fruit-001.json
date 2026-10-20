@@ -1,0 +1,158 @@
+[
+    {
+        "id": "en:sentence:fruit-example-peach",
+        "label": "We buy two peaches.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/c1cdc3a4391f7025695c8a07efaa41a7454b88644b9bb47d6d467618bc8c406e.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:travel-buy",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:two",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:form-fruit-peaches",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:fruit-example-peach",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:fruit-example-pear",
+        "label": "The pear is green.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/5b56de1a51c4e72f62f1ec6735134014a92e2e70faa7494d56077cbbb9a2c6c0.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:fruit-pear",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:colors-green",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:fruit-example-pear",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:fruit-example-watermelon",
+        "label": "I eat watermelon in summer.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/3b562b004304ba4765c58f35f8429bd91226774691cd9bc1424094003536aa0a.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:eat",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:fruit-watermelon",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:seasons-summer",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:fruit-example-watermelon",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:fruit-example-pineapple",
+        "label": "She likes pineapple.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/e0d22d72025686528025c492f079dad5907303de1cd163609cb93c6d69c276e9.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-like-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:fruit-pineapple",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:fruit-example-pineapple",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

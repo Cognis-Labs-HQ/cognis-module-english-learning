@@ -1,0 +1,246 @@
+[
+    {
+        "id": "en:sentence:shopping-want-small-bag",
+        "label": "I want a small bag.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/a622e0ab62267fa58696a2c9054709f5d02b51ec1b760dc0801d5a5bec6f71a3.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:want",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:small",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:bag",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:shopping-want-small-bag",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:shopping-need-new-phone",
+        "label": "She needs a new phone.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/195e3c83d457c492a27b14d46bdb0245a6d7dd049439479d9f82818f82235e4f.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-need-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:new",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:phone",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:shopping-need-new-phone",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:shopping-buy-food",
+        "label": "We buy food.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/41bd92e37fbbf47267103bd48b42aa009165ffbb8f2b42177300857727cfe456.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-we",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:travel-buy",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:food",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:shopping-buy-food",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:shopping-big-coat",
+        "label": "The coat is big.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/01995d1b12ce3f50aeefecc2c72d4fc9d665825785f0be4b10f95730c04f25d2.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:coat",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:big",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:shopping-big-coat",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:shopping-like-hat",
+        "label": "I like this hat.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/5ed96e07d9a0b23370444f7dc9da25e5723d87c4938dbfd62228554e6c3f9e69.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:like",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:this",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:hat",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:shopping-like-hat",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:shopping-have-new-computer",
+        "label": "You have a new computer.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/ca024b6be53ec67a2ff124830944f64539e9a5efd88fab7c42ee2010cf7b4854.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-you",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:have",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:new",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:computer",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:shopping-have-new-computer",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

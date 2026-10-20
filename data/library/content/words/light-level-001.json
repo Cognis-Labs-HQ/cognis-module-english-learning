@@ -1,0 +1,92 @@
+[
+    {
+        "id": "en:word:light-level-bright",
+        "label": "bright",
+        "class": "lexical:adjective",
+        "fields": {
+            "pronunciation": ["/braɪt/"],
+            "part_of_speech": "adjective",
+            "reference_images": [
+                "images/cd175f7e8a70a3c02fa7a736ef64b96b40f618ae9640fde043c8053009bf9dd1.jpg"
+            ],
+            "audio": "audio/63db6fffe3e9516895b27b1f24795b100c4582f569c8be4c0de6190e53159f97.wav"
+        },
+        "tags": ["adjective", "light-level-form-bright"],
+        "references": [
+            {
+                "entryId": "en:char:b-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:i-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:light-level-bright",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:light-level-dark",
+        "label": "dark",
+        "class": "lexical:adjective",
+        "fields": {
+            "pronunciation": ["/dɑːk/"],
+            "part_of_speech": "adjective",
+            "reference_images": [
+                "images/9e036c8e0a4c07adba152614d22253e693ac1e23eda8342d170cdaca9900177c.jpg"
+            ],
+            "audio": "audio/f0b687d6269bfd6c57f9f14750b235156345fec2c94f8bf9eab847f24a013a8e.wav"
+        },
+        "tags": ["adjective", "light-level-form-dark"],
+        "references": [
+            {
+                "entryId": "en:char:d-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:a-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:k-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:light-level-dark",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

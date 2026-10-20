@@ -1,0 +1,87 @@
+[
+    {
+        "id": "en:word:length-long",
+        "label": "long",
+        "class": "lexical:adjective",
+        "fields": {
+            "pronunciation": ["/lɒŋ/"],
+            "part_of_speech": "adjective",
+            "reference_images": [
+                "images/47731828c646df7d46a5643b552f7e41cd085471fe0805ffef43810d9fb28cc1.jpg"
+            ],
+            "audio": "audio/33d425d2918799b116e629dcbfd04a96a6b49b7913a1782ebde1c259fb4dd39b.wav"
+        },
+        "tags": ["adjective", "length-form-long"],
+        "references": [
+            {
+                "entryId": "en:char:l-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:n-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:g-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:length-long",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:word:length-short",
+        "label": "short",
+        "class": "lexical:adjective",
+        "fields": {
+            "pronunciation": ["/ʃɔːt/"],
+            "part_of_speech": "adjective",
+            "reference_images": [
+                "images/2ba32d972bc242b0b1cbccf990e9bab3f10b23934882fddc3906f7fdd2d1bacc.jpg"
+            ],
+            "audio": "audio/774f5a698a8e150b56239658b4ef76672287c22ad3c058d45057b50ebefa71b4.wav"
+        },
+        "tags": ["adjective", "length-form-short"],
+        "references": [
+            {
+                "entryId": "en:char:s-lowercase",
+                "relation": "spelling",
+                "position": 0
+            },
+            {
+                "entryId": "en:char:h-lowercase",
+                "relation": "spelling",
+                "position": 1
+            },
+            {
+                "entryId": "en:char:o-lowercase",
+                "relation": "spelling",
+                "position": 2
+            },
+            {
+                "entryId": "en:char:r-lowercase",
+                "relation": "spelling",
+                "position": 3
+            },
+            {
+                "entryId": "en:char:t-lowercase",
+                "relation": "spelling",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:length-short",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

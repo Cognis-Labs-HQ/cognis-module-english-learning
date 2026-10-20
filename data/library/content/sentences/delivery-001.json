@@ -1,0 +1,158 @@
+[
+    {
+        "id": "en:sentence:delivery-example-send-letter",
+        "label": "I send a letter.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/ea8bc116ddcc23e4a6920058e03bbc1f09e147612e0006fb88761df707088e25.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:delivery-send",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:correspondence-letter",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:delivery-example-send-letter",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:delivery-example-sends-postcards",
+        "label": "She sends postcards.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/3b47dbbdc53868ca046b8ebc1d1deed98dc8c3a534e79e4337d88f04eb382c8b.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-she",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-delivery-send-third-person",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-correspondence-postcards",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:definition:delivery-example-sends-postcards",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:delivery-example-carried-box",
+        "label": "He carried the box.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/141546163db02d922ee11fa9c544de7a51fcf644abc8df0da0103632d55bd84b.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-he",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-delivery-carry-past",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:containers-box",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:delivery-example-carried-box",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:delivery-example-carrying-bag",
+        "label": "I am carrying the bag.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/718c91a53cd49f71673882fda68d5fb6bf9f2ac62f25c569baaf5ecb890100c5.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:form-english-be-am",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-delivery-carry-present-participle",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:bag",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 5
+            },
+            {
+                "entryId": "en:definition:delivery-example-carrying-bag",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

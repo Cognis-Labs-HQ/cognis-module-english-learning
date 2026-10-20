@@ -1,0 +1,246 @@
+[
+    {
+        "path": "audio/3e0b78f819ac77f550b5596926fe7419f932522336dc9bca846774d764dd1d17.wav",
+        "text": "sends",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"sendz\">sends</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "sends",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/sendz/"]
+            }
+        ],
+        "entries": ["en:word:form-delivery-send-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:delivery-send",
+                "setId": "delivery-send-forms",
+                "path": ["third-person"]
+            }
+        ],
+        "sha256": "3e0b78f819ac77f550b5596926fe7419f932522336dc9bca846774d764dd1d17",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "abf9ee768859c701a7701826149a76aa8293660b43b2140afb42e1e3371a3824"
+        }
+    },
+    {
+        "path": "audio/81fcb156612068074c8fb934d14d8a91579dbe4c568d081fd3150aeece449e94.wav",
+        "text": "sent",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"sent\">sent</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "sent",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/sent/"]
+            }
+        ],
+        "entries": ["en:word:form-delivery-send-past"],
+        "variants": [
+            {
+                "entryId": "en:word:delivery-send",
+                "setId": "delivery-send-forms",
+                "path": ["past"]
+            },
+            {
+                "entryId": "en:word:delivery-send",
+                "setId": "delivery-send-forms",
+                "path": ["past-participle"]
+            }
+        ],
+        "sha256": "81fcb156612068074c8fb934d14d8a91579dbe4c568d081fd3150aeece449e94",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "60c85ae763e2df67396ef6e5ff06119180b5314085a7ab367ab16ecc1a5fce50"
+        }
+    },
+    {
+        "path": "audio/2aa6ede134c4c2cee771d5b0ef34740781e250b5b01c0d1485a80517604c3877.wav",
+        "text": "sending",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈsendɪŋ\">sending</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "sending",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈsendɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-delivery-send-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:delivery-send",
+                "setId": "delivery-send-forms",
+                "path": ["present-participle"]
+            }
+        ],
+        "sha256": "2aa6ede134c4c2cee771d5b0ef34740781e250b5b01c0d1485a80517604c3877",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "fb0ad119e55bfbcbaf905e84cdc205a585b8595e23e1a347deed437df933e9b0"
+        }
+    },
+    {
+        "path": "audio/84a273b9d221472d6ff39963ed25ccb6d9fdbb8a829117cf6a95ce85625b5c1e.wav",
+        "text": "carries",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈkæriz\">carries</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "carries",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈkæriz/"]
+            }
+        ],
+        "entries": ["en:word:form-delivery-carry-third-person"],
+        "variants": [
+            {
+                "entryId": "en:word:delivery-carry",
+                "setId": "delivery-carry-forms",
+                "path": ["third-person"]
+            }
+        ],
+        "sha256": "84a273b9d221472d6ff39963ed25ccb6d9fdbb8a829117cf6a95ce85625b5c1e",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "8e4bb7f9813163d700279b1b526fd8d50a6027af2171c84709ee5dcbff3134cd"
+        }
+    },
+    {
+        "path": "audio/e04d6f706b4ab2346c5221173858ed4a46b02ccc8c456e3c736c6773026914e4.wav",
+        "text": "carried",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈkærid\">carried</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "carried",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈkærid/"]
+            }
+        ],
+        "entries": ["en:word:form-delivery-carry-past"],
+        "variants": [
+            {
+                "entryId": "en:word:delivery-carry",
+                "setId": "delivery-carry-forms",
+                "path": ["past"]
+            },
+            {
+                "entryId": "en:word:delivery-carry",
+                "setId": "delivery-carry-forms",
+                "path": ["past-participle"]
+            }
+        ],
+        "sha256": "e04d6f706b4ab2346c5221173858ed4a46b02ccc8c456e3c736c6773026914e4",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "efee77dd808fe81e9799ae4db6858f35a264b609ab14e239ac2f7a46d62f4ae4"
+        }
+    },
+    {
+        "path": "audio/d89adcba2abd712672a23b1b19024ccd9fdd7aaac0a2e058b24d9144d3001aa8.wav",
+        "text": "carrying",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈkæriɪŋ\">carrying</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "carrying",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈkæriɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:form-delivery-carry-present-participle"],
+        "variants": [
+            {
+                "entryId": "en:word:delivery-carry",
+                "setId": "delivery-carry-forms",
+                "path": ["present-participle"]
+            }
+        ],
+        "sha256": "d89adcba2abd712672a23b1b19024ccd9fdd7aaac0a2e058b24d9144d3001aa8",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "cca2af589a7672a67d8a80f0d130258bc55961bf98ef0e9a07b0606d274456c2"
+        }
+    }
+]

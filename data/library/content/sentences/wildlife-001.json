@@ -1,0 +1,168 @@
+[
+    {
+        "id": "en:sentence:wildlife-example-fox-movement",
+        "label": "The fox runs quickly.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/77fbad5343774db0debfd3a239f3fc69923ad3c98c5d682e22d9dbffa212eb12.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:wildlife-fox",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-run-third-person",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:quickly",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:wildlife-example-fox-movement",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:wildlife-example-bear-habitat",
+        "label": "The bear is in the forest.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/78271ee3c236ecdec0746f7e8f23b6e92b959b03d597c97d19c9ccf243acdd44.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:wildlife-bear",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:particle:in",
+                "relation": "particles",
+                "position": 3
+            },
+            {
+                "entryId": "en:word:the",
+                "relation": "words",
+                "position": 4
+            },
+            {
+                "entryId": "en:word:nature-forest",
+                "relation": "words",
+                "position": 5
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 6
+            },
+            {
+                "entryId": "en:definition:wildlife-example-bear-habitat",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:wildlife-example-monkey-observation",
+        "label": "I see a monkey.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/8f298e1f6a3a299262ff375358f98159a747b8fd8144df335d82f0b0c241e14f.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:i",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:see",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:a",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:wildlife-monkey",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:wildlife-example-monkey-observation",
+                "relation": "definitions"
+            }
+        ]
+    },
+    {
+        "id": "en:sentence:wildlife-example-elephant-size",
+        "label": "The elephant is big.",
+        "class": "composite",
+        "fields": {
+            "audio": "audio/74ea351909f3ad36ab7094b26dd76850e96950216dbbd73d4ee6a6c202c47de9.wav"
+        },
+        "references": [
+            {
+                "entryId": "en:word:capital-the",
+                "relation": "words",
+                "position": 0
+            },
+            {
+                "entryId": "en:word:wildlife-elephant",
+                "relation": "words",
+                "position": 1
+            },
+            {
+                "entryId": "en:word:form-english-be-is",
+                "relation": "words",
+                "position": 2
+            },
+            {
+                "entryId": "en:word:big",
+                "relation": "words",
+                "position": 3
+            },
+            {
+                "entryId": "en:particle:period",
+                "relation": "particles",
+                "position": 4
+            },
+            {
+                "entryId": "en:definition:wildlife-example-elephant-size",
+                "relation": "definitions"
+            }
+        ]
+    }
+]

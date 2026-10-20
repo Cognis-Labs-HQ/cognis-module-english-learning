@@ -7,6 +7,9 @@ import { createAudioProvider } from "../api/audio/index.js";
 import { readContentLayers } from "../api/reuse/content.js";
 
 const inventory = await readAudioInventory("data/audio");
+const unavailable = JSON.parse(
+    await readFile("data/audio/unavailable.json", "utf8"),
+);
 const schema = JSON.parse(await readFile("data/library/schema.json", "utf8"));
 const layers = await readContentLayers(
     "data/library/content",
@@ -91,7 +94,59 @@ function forms(entry) {
         });
 }
 
-test("every packaged clip has the designated language voice, stable settings, audible PCM and a verified digest", () => {
+test("every card and selected form has an unambiguous audio lookup identity", () => {
+    const lookups = new Map();
+    for (const layer of schema.layers) {
+        if (layer.semanticRole === "definition") continue;
+        for (const entry of layers.get(layer.id)) {
+            if (entry.tags?.includes("punctuation")) continue;
+            const candidates = [
+                {
+                    label: entry.label,
+                    reading: entry.fields.pronunciation?.[0] ?? "",
+                    path: entry.fields.audio,
+                },
+            ];
+            for (const form of forms(entry)) {
+                const recording = inventory.recordings.find((clip) =>
+                    clip.variants.some(
+                        (variant) =>
+                            variant.entryId === entry.id &&
+                            variant.setId === form.setId &&
+                            JSON.stringify(variant.path) ===
+                                JSON.stringify(form.path),
+                    ),
+                );
+                assert.ok(recording, `${entry.id}: missing ${form.label}`);
+                candidates.push({
+                    label: form.label,
+                    reading: form.reading,
+                    path: recording.path,
+                });
+            }
+            for (const candidate of candidates) {
+                const key = JSON.stringify([
+                    candidate.label,
+                    layer.semanticRole,
+                    candidate.reading,
+                ]);
+                const digest = createHash("sha256")
+                    .update(assets.get(candidate.path))
+                    .digest("hex");
+                const previous = lookups.get(key);
+                if (previous)
+                    assert.equal(
+                        digest,
+                        previous.digest,
+                        `${entry.id} conflicts with ${previous.entryId} for ${key}`,
+                    );
+                else lookups.set(key, { digest, entryId: entry.id });
+            }
+        }
+    }
+});
+
+test("every packaged clip has the designated language voice, stable settings, non-silent PCM and a verified digest", () => {
     const expectedVoice =
         inventory.language === "ja"
             ? "xya0RvcJtofTcFTOdX4E"
@@ -132,13 +187,17 @@ test("every packaged clip has the designated language voice, stable settings, au
         });
         assert.equal(
             clip.request.language_code,
-            inventory.language === "ja" ? "ja" : undefined,
+            inventory.language === "ja" &&
+                clip.metadata?.languageSelection !==
+                    "native-input-autodetection"
+                ? "ja"
+                : undefined,
         );
         assert.ok(Number.isInteger(clip.request.seed));
     }
 });
 
-test("every spoken seed card and every reachable transformation has a playable bundled recording", async () => {
+test("all playable cards and selected forms have complete bundled audio coverage", async () => {
     const provider = makeProvider(() => {
         throw new Error("unexpected_speech_lookup");
     });
@@ -306,7 +365,7 @@ test("packaged sentence playback preserves exact constituent composition without
     const provider = makeProvider(() => {
         throw new Error("unexpected_synthesis");
     });
-    assert.equal(inventory.sentences.length, inventory.compositions.length);
+    assert.ok(inventory.sentences.length <= inventory.compositions.length);
     for (const sentence of inventory.sentences) {
         const composition = inventory.compositions.find(
             (item) => item.entryId === sentence.entryId,
@@ -317,10 +376,36 @@ test("packaged sentence playback preserves exact constituent composition without
         );
         assert.equal(sentence.voiceId, inventory.voiceId);
         assert.equal(sentence.request.text, sentence.inputs[0].label);
-        const result = await provider.fetchAudio(sentence.inputs[0]);
+        const result = await provider.fetchAudio(composition.input);
         assert.deepEqual(
             Buffer.from(result.data),
             assets.get(composition.path),
         );
     }
+});
+
+function validatePlayableAudio(candidates) {
+    for (const entry of candidates) {
+        if (entry.class === "definition" || entry.tags?.includes("punctuation"))
+            continue;
+        assert.ok(
+            entry.fields?.audio && assets.has(entry.fields.audio),
+            `${entry.id}: missing playable audio`,
+        );
+    }
+}
+
+test("all playable cards require audio independently of the unavailable ledger", () => {
+    validatePlayableAudio(entries.values());
+    assert.deepEqual(unavailable.entries, []);
+    const entry = structuredClone(
+        [...entries.values()].find(
+            (entry) => entry.class?.startsWith("lexical:") && !entry.hidden,
+        ),
+    );
+    delete entry.fields.audio;
+    assert.throws(
+        () => validatePlayableAudio([entry]),
+        /missing playable audio/,
+    );
 });

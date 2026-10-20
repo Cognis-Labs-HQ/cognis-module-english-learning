@@ -1,6 +1,10 @@
 # English Study
 
-English Study supplies a versioned learning graph, English dictionary enrichment, original print-letter writing guides and ten starter decks. Cognis owns the learning UI and all user data.
+English Study supplies a versioned learning graph, English dictionary enrichment, original print-letter writing guides and starter decks. Cognis owns the learning UI and all user data.
+
+## Packaged content
+
+The pack provides writing guides, themed vocabulary, linked examples, illustrations and starter decks. The packaged content and media inventories are the source of truth for availability.
 
 ## Usage Examples
 
@@ -20,7 +24,7 @@ Administrator-only GET, PUT and DELETE configuration routes are registered only 
 
 The content pack supplies lowercase and uppercase alphabet cards, spelling combinations, vocabulary, sentence structures and localized definitions. Definition records use the host’s `studyenglish:definitions` prefix; marketplace strings use `module.study.language.en.*`. Module and content metadata are declared in their manifests.
 
-Ordered spelling and sentence references resolve to actual records. Hidden inflection cards provide literal targets for seeded sentence validation; interactive forms use 37 declarative verb, copula and adjective paradigms, including irregular forms and their IPA. IPA readings remain speech notation rather than being linked to unrelated alphabet glyphs. Capitalized sentence starters preserve actual sentence text. Grammar particles include negation, prepositions, conjunctions and punctuation, and are non-editable. Definition relationships have a maximum of ten.
+Ordered spelling and sentence references resolve to actual records. Hidden inflection cards provide literal targets for seeded sentence validation; interactive forms use declarative verb, copula and adjective paradigms, including irregular forms and their IPA. IPA readings remain speech notation rather than being linked to unrelated alphabet glyphs. Capitalized sentence starters preserve actual sentence text. Grammar particles include negation, prepositions, conjunctions and punctuation, and are non-editable. Definition relationships have a maximum of ten.
 
 The form contracts declare alphabet/composite writing fields, vocabulary spelling carousels, sentence word/particle carousels and a sentence-structure carousel. The host controls form validation, UUID resolution, literal spacing, imports, limits and user notifications. The alphabet retains its seven-column chart and uppercase child variants. Only atomic letters request minimal previews.
 
@@ -42,7 +46,7 @@ Run `npm install`, `npm run manifest:hashes`, `npm test`, `npm run lint`, `npm r
 
 ## Expanded Starter Decks
 
-English supplies ten localized starter decks covering alphabet, uppercase letters, spelling combinations, vocabulary, verbs, adjectives, sentences, everyday objects, food and body vocabulary. Stable keys and complete alphabet ordering are validated against `data/starter-decks.json`.
+English supplies localized starter decks covering alphabet, uppercase letters, spelling combinations, vocabulary, verbs, adjectives, sentences, everyday objects, food and body vocabulary. Stable keys and complete alphabet ordering are validated against `data/starter-decks.json`.
 
 The schema offers one adjective filter option and retains stable content identities. ctx is the application backbone; Cognis owns action flows, user data and dictionary caching.
 
@@ -70,11 +74,11 @@ Administrator-only GET, PUT and DELETE configuration routes are registered only 
 
 ## Keep dictionary senses and plural forms correct
 
-Free Dictionary returns separate suggestions per part of speech, with only matching definitions, tags, and curated paradigms. Queries containing apostrophes or hyphens are rejected because the current alphabet graph cannot represent those spellings. Response bodies are limited to one million streamed bytes and cancelled immediately when oversized. The published `study-language-en:bootstrap-registration` flow identifier remains unchanged. Plural derivation stays on singular `book`, not already-plural `books`; `houses` uses `/haʊzɪz/`. Ten localized starter decks are documented.
+Free Dictionary returns separate suggestions per part of speech, with only matching definitions, tags, and curated paradigms. Queries containing apostrophes or hyphens are rejected because the current alphabet graph cannot represent those spellings. Response bodies are limited to one million streamed bytes and cancelled immediately when oversized. The published `study-language-en:bootstrap-registration` flow identifier remains unchanged. Plural derivation stays on singular `book`, not already-plural `books`; `houses` uses `/haʊzɪz/`. Localized starter decks are documented.
 
 ## Speech and recordings
 
-The pack includes verified WAV recordings for every spoken curated card, character, particle and reachable schema transformation, including plurals and chained verb forms. `gJx1vCzNCD1EQHT212Ls` is the designated voice for this language. `data/audio/recordings.json` records each request, voice, model, settings, transformation path and file checksum; credentials and generation tools are not packaged.
+Bundled WAV files receive checksum, format and PCM integrity checks; listening review is recorded separately and may be unverified. `data/audio/recordings.json` lists available recordings and compositions. `data/audio/unavailable.json` explicitly lists cards without bundled audio; missing recordings are not playback URLs. The designated voice is `gJx1vCzNCD1EQHT212Ls`. Credentials and offline generation tools are not packaged.
 
 Sentences reuse the exact PCM samples of their ordered word and particle recordings, including selected transformations. The bundled sentence files therefore preserve the same voice and pronunciation as individual playback. New sentences use host composition; a missing variant must never substitute its base-form pronunciation. Recordings cover the curated pack, not every lazy dictionary entry or possible user-authored sentence.
 
@@ -86,7 +90,7 @@ Every layer exposes the optional reference-image field in the host editor and de
 
 ## Recording Inventories
 
-`data/audio/recordings.json` is a compact manifest with language, voice, model, shared processing settings, totals and integrity-checked inventory paths. Purpose-grouped files under `data/audio/inventories/` separately describe characters, vocabulary, transformations, direct sentences and precomposed sentence recordings. Each file stays below 800 lines and retains exact requests, per-clip voice provenance, transformation paths and audio checksums. Bootstrap verifies every inventory checksum and count before registering playback; the recording bytes and lookup precedence are unchanged.
+`data/audio/recordings.json` uses inventory format 2 with language, voice, model, processing settings, totals and hashed purpose-index paths. Files under `data/audio/indexes/` list the hashed shards under `data/audio/inventories/`, grouped into characters, vocabulary, transformations, direct sentences and sentence compositions. Root and purpose indexes stay below 400 lines; recording shards stay at or below 800 lines. The loader verifies both levels, counts, allowed paths, purpose/kind agreement and duplicate paths before registering playback. Recording objects, audio bytes and lookup precedence are preserved.
 
 ## Explicit catalog normalization and sentence composition inventories
 
