@@ -1,15 +1,10 @@
 # English Study
 
-English Study supplies a versioned learning graph, English dictionary enrichment, original print-letter writing guides and 77 starter decks. Cognis owns the learning UI and all user data.
+English Study supplies a versioned learning graph, English dictionary enrichment, original print-letter writing guides and starter decks. Cognis owns the learning UI and all user data.
 
 ## Packaged content
 
-| Category                 | Count |
-| ------------------------ | ----- |
-| Starter decks            | 77    |
-| Visible vocabulary cards | 355   |
-| Sentences                | 309   |
-| Vocabulary illustrations | 355   |
+The pack provides writing guides, themed vocabulary, linked examples, illustrations and starter decks. The packaged content and media inventories are the source of truth for availability.
 
 ## Usage Examples
 
@@ -29,7 +24,7 @@ Administrator-only GET, PUT and DELETE configuration routes are registered only 
 
 The content pack supplies lowercase and uppercase alphabet cards, spelling combinations, vocabulary, sentence structures and localized definitions. Definition records use the host’s `studyenglish:definitions` prefix; marketplace strings use `module.study.language.en.*`. Module and content metadata are declared in their manifests.
 
-Ordered spelling and sentence references resolve to actual records. Hidden inflection cards provide literal targets for seeded sentence validation; interactive forms use 37 declarative verb, copula and adjective paradigms, including irregular forms and their IPA. IPA readings remain speech notation rather than being linked to unrelated alphabet glyphs. Capitalized sentence starters preserve actual sentence text. Grammar particles include negation, prepositions, conjunctions and punctuation, and are non-editable. Definition relationships have a maximum of ten.
+Ordered spelling and sentence references resolve to actual records. Hidden inflection cards provide literal targets for seeded sentence validation; interactive forms use declarative verb, copula and adjective paradigms, including irregular forms and their IPA. IPA readings remain speech notation rather than being linked to unrelated alphabet glyphs. Capitalized sentence starters preserve actual sentence text. Grammar particles include negation, prepositions, conjunctions and punctuation, and are non-editable. Definition relationships have a maximum of ten.
 
 The form contracts declare alphabet/composite writing fields, vocabulary spelling carousels, sentence word/particle carousels and a sentence-structure carousel. The host controls form validation, UUID resolution, literal spacing, imports, limits and user notifications. The alphabet retains its seven-column chart and uppercase child variants. Only atomic letters request minimal previews.
 
@@ -51,7 +46,7 @@ Run `npm install`, `npm run manifest:hashes`, `npm test`, `npm run lint`, `npm r
 
 ## Expanded Starter Decks
 
-English supplies 77 localized starter decks covering alphabet, uppercase letters, spelling combinations, vocabulary, verbs, adjectives, sentences, everyday objects, food and body vocabulary. Stable keys and complete alphabet ordering are validated against `data/starter-decks.json`.
+English supplies localized starter decks covering alphabet, uppercase letters, spelling combinations, vocabulary, verbs, adjectives, sentences, everyday objects, food and body vocabulary. Stable keys and complete alphabet ordering are validated against `data/starter-decks.json`.
 
 The schema offers one adjective filter option and retains stable content identities. ctx is the application backbone; Cognis owns action flows, user data and dictionary caching.
 
@@ -79,7 +74,7 @@ Administrator-only GET, PUT and DELETE configuration routes are registered only 
 
 ## Keep dictionary senses and plural forms correct
 
-Free Dictionary returns separate suggestions per part of speech, with only matching definitions, tags, and curated paradigms. Queries containing apostrophes or hyphens are rejected because the current alphabet graph cannot represent those spellings. Response bodies are limited to one million streamed bytes and cancelled immediately when oversized. The published `study-language-en:bootstrap-registration` flow identifier remains unchanged. Plural derivation stays on singular `book`, not already-plural `books`; `houses` uses `/haʊzɪz/`. 77 localized starter decks are documented.
+Free Dictionary returns separate suggestions per part of speech, with only matching definitions, tags, and curated paradigms. Queries containing apostrophes or hyphens are rejected because the current alphabet graph cannot represent those spellings. Response bodies are limited to one million streamed bytes and cancelled immediately when oversized. The published `study-language-en:bootstrap-registration` flow identifier remains unchanged. Plural derivation stays on singular `book`, not already-plural `books`; `houses` uses `/haʊzɪz/`. Localized starter decks are documented.
 
 ## Speech and recordings
 

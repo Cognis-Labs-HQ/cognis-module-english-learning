@@ -6,19 +6,14 @@ Englische Lerninhalte und Anbieterintegration für Cognis Study.
 
 ## Enthaltene Lerninhalte
 
-| Kategorie               | Anzahl |
-| ----------------------- | ------ |
-| Startdecks              | 77     |
-| Sichtbare Vokabelkarten | 355    |
-| Sätze                   | 309    |
-| Vokabelillustrationen   | 355    |
+Das Paket bietet Schreibvorlagen, thematischen Wortschatz, verknüpfte Beispiele, Illustrationen und Startdecks. Die paketierten Inhalte und Medienverzeichnisse sind maßgeblich für die Verfügbarkeit.
 
 ## Funktionen
 
-- 52 Buchstabenkarten und 17 Verbindungen mit eigenen JSON-Schreibvorlagen; 355 Anfängerwörter, 21 Grammatik-/Satzzeichenkarten und 309 verknüpfte Sätze.
+- Buchstaben- und Verbindungskarten bieten eigene JSON-Schreibvorlagen; Vokabel-, Grammatik- und Satzzeichenkarten sind mit Beispielsätzen verknüpft.
 - Kuratierte Verb-, Kopula- und Adjektivparadigmen mit unregelmäßigen Formen und IPA; verborgene Karten erhalten vollständige Satzgraphen.
 - Suchbares freies Wörterbuch mit begrenzten Definitionen und Lesungen, verborgenen Quellenangaben und hostverwaltetem Cache.
-- 77 lokalisierte Startdecks verwenden Cognis-Lernkarten, Favoriten und Freigaben.
+- lokalisierte Startdecks verwenden Cognis-Lernkarten, Favoriten und Freigaben.
 
 ## Installation
 
@@ -53,11 +48,11 @@ Erzeugte Dateien enthalten Mono-PCM mit 24 kHz und 16 Bit, begrenzten Spitzenwer
 
 ## Vokabelillustrationen
 
-Jede mitgelieferte Vokabelkarte besitzt jetzt eine eigene generierte Illustration im Buntstift- und Aquarellstil (355 Karten). Konkrete Gegenstände, Handlungen und Kontextbilder für abstrakte Begriffe erscheinen in der vorhandenen Kartendetailgalerie und Bildvorschau. Die bisherigen Quellfotos wurden ersetzt. Der [Bildkatalog](data/library/assets/images/catalog.json) dokumentiert Erzeugungsquelle, Stil, Bildausschnitte, Prüfsummen und Kartenzuordnungen; die [Bildlizenz](data/library/assets/images/LICENSE.md) beschreibt die mitgelieferten Illustrationen. Bilder werden lokal geladen, eigene Benutzerbilder bleiben bei Anbieter-Neuladevorgängen durch den Host erhalten.
+Vokabelkarten verwenden generierte Illustrationen im Buntstift- und Aquarellstil. Konkrete Gegenstände, Handlungen und Kontextbilder für abstrakte Begriffe erscheinen in der vorhandenen Kartendetailgalerie und Bildvorschau. Die bisherigen Quellfotos wurden ersetzt. Der [Bildkatalog](data/library/assets/images/catalog.json) dokumentiert Erzeugungsquelle, Stil, Bildausschnitte, Prüfsummen und Kartenzuordnungen; die [Bildlizenz](data/library/assets/images/LICENSE.md) beschreibt die mitgelieferten Illustrationen. Bilder werden lokal geladen, eigene Benutzerbilder bleiben bei Anbieter-Neuladevorgängen durch den Host erhalten.
 
 ## Haushaltsvokabular
 
-Fünfzehn Alltagsnomen ergänzen Möbel, Kleidung, Gegenstände und Lebensmittel mit Bedeutungen in vier Sprachen, Ausspracheverknüpfungen, eigenen Aufnahmen und einem Stapel für Alltagsgegenstände. Zählbare englische Nomen enthalten aufgenommene Pluraltransformationen, einschließlich des unveränderten Plurals fish; rice bleibt ein Stoffname. Japanische Anfängerschreibweisen verknüpfen vollständige Lesungen mit einzelnen Kana, einschließlich des Langvokalzeichens ー in テーブル und コート.
+Alltagsnomen ergänzen Möbel, Kleidung, Gegenstände und Lebensmittel mit Bedeutungen in vier Sprachen, Ausspracheverknüpfungen, eigenen Aufnahmen und einem Stapel für Alltagsgegenstände. Zählbare englische Nomen enthalten aufgenommene Pluraltransformationen, einschließlich des unveränderten Plurals fish; rice bleibt ein Stoffname. Japanische Anfängerschreibweisen verknüpfen vollständige Lesungen mit einzelnen Kana, einschließlich des Langvokalzeichens ー in テーブル und コート.
 
 ## Lebensmittel und Körperteile
 

@@ -6,19 +6,14 @@ Konten belajar bahasa Inggris dan integrasi penyedia untuk Cognis Study.
 
 ## Konten dalam paket
 
-| Kategori                     | Jumlah |
-| ---------------------------- | ------ |
-| Dek awal                     | 77     |
-| Kartu kosakata yang terlihat | 355    |
-| Kalimat                      | 309    |
-| Ilustrasi kosakata           | 355    |
+Paket menyediakan panduan menulis, kosakata bertema, contoh tertaut, ilustrasi, dan dek awal. Konten serta inventaris media dalam paket menjadi sumber acuan ketersediaan.
 
 ## Fitur
 
-- 52 kartu huruf dan 17 gabungan dengan panduan tulisan JSON asli; 355 kata pemula, 21 kartu tata bahasa/tanda baca dan 309 kalimat tertaut.
+- Kartu huruf dan gabungan huruf memiliki panduan tulisan JSON; kartu kosakata, tata bahasa, dan tanda baca terhubung dengan kalimat kontekstual.
 - Paradigma verba, kopula dan adjektiva terkurasi beserta bentuk tidak beraturan dan IPA; kartu pendukung tersembunyi mempertahankan graf kalimat lengkap.
 - Kamus Gratis yang dapat dicari, batas definisi/pelafalan, atribusi tersembunyi dan cache milik host.
-- 77 dek awal terlokalisasi memakai kartu kilas, favorit dan berbagi Cognis.
+- dek awal terlokalisasi memakai kartu kilas, favorit dan berbagi Cognis.
 
 ## Pemasangan
 
@@ -53,11 +48,11 @@ Berkas memakai PCM mono 24 kHz 16 bit dengan puncak terbatas dan keluaran yang d
 
 ## Ilustrasi Kosakata
 
-Setiap kartu kosakata bawaan kini memiliki ilustrasi tersendiri yang dihasilkan dengan gaya pensil warna dan cat air (355 kartu). Benda konkret, tindakan, dan adegan kontekstual untuk konsep abstrak ditampilkan melalui galeri detail kartu dan popup gambar yang sudah ada. Foto sumber lama telah diganti. [Katalog gambar](data/library/assets/images/catalog.json) mencatat sumber pembuatan, gaya, asal potongan, checksum, dan pemetaan kartu; [lisensi gambar](data/library/assets/images/LICENSE.md) menjelaskan karya bawaan. Gambar dimuat secara lokal, dan host mempertahankan gambar khusus pengguna saat penyedia dimuat ulang.
+Kartu kosakata menggunakan ilustrasi yang dihasilkan dengan gaya pensil warna dan cat air. Benda konkret, tindakan, dan adegan kontekstual untuk konsep abstrak ditampilkan melalui galeri detail kartu dan popup gambar yang sudah ada. Foto sumber lama telah diganti. [Katalog gambar](data/library/assets/images/catalog.json) mencatat sumber pembuatan, gaya, asal potongan, checksum, dan pemetaan kartu; [lisensi gambar](data/library/assets/images/LICENSE.md) menjelaskan karya bawaan. Gambar dimuat secara lokal, dan host mempertahankan gambar khusus pengguna saat penyedia dimuat ulang.
 
 ## Kosakata Rumah Tangga
 
-Lima belas nomina sehari-hari mencakup furnitur, pakaian, benda, dan makanan, dilengkapi makna dalam empat bahasa, tautan pelafalan, rekaman khusus, serta dek Benda Sehari-hari. Nomina bahasa Inggris yang dapat dihitung menyertakan transformasi jamak dengan rekaman, termasuk fish yang tidak berubah; rice tetap nomina tak terhitung. Ejaan Jepang untuk pemula menautkan bacaan lengkap ke kana atomik, termasuk tanda vokal panjang ー dalam テーブル dan コート.
+Nomina sehari-hari mencakup furnitur, pakaian, benda, dan makanan, dilengkapi makna dalam empat bahasa, tautan pelafalan, rekaman khusus, serta dek Benda Sehari-hari. Nomina bahasa Inggris yang dapat dihitung menyertakan transformasi jamak dengan rekaman, termasuk fish yang tidak berubah; rice tetap nomina tak terhitung. Ejaan Jepang untuk pemula menautkan bacaan lengkap ke kana atomik, termasuk tanda vokal panjang ー dalam テーブル dan コート.
 
 ## Kosakata Makanan dan Tubuh
 

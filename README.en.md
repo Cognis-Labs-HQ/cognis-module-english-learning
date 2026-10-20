@@ -6,19 +6,14 @@ English learning content and provider integration for Cognis Study.
 
 ## Packaged content
 
-| Category                 | Count |
-| ------------------------ | ----- |
-| Starter decks            | 77    |
-| Visible vocabulary cards | 355   |
-| Sentences                | 309   |
-| Vocabulary illustrations | 355   |
+The pack provides writing guides, themed vocabulary, linked examples, illustrations and starter decks. The packaged content and media inventories are the source of truth for availability.
 
 ## Features
 
-- 52 alphabet cards and 17 letter combinations with original JSON writing guides; 355 vocabulary cards, 21 grammar/punctuation cards and 309 linked sentences.
+- Alphabet and letter-combination cards include original JSON writing guides; vocabulary, grammar and punctuation cards link to contextual sentences.
 - Curated verb, copula and adjective paradigms with irregular forms and IPA; hidden supporting forms preserve complete sentence graphs.
 - Searchable Free Dictionary lookup, bounded definitions/readings, hidden attribution and host-owned caching.
-- 77 localized starter decks use Cognis flashcards, favourites and sharing.
+- localized starter decks use Cognis flashcards, favourites and sharing.
 
 ## Installation
 
@@ -53,11 +48,11 @@ Generated files use 24 kHz mono 16-bit PCM with bounded peaks and verified non-s
 
 ## Vocabulary Illustrations
 
-Every shipped vocabulary card now has its own generated colored-pencil and watercolor illustration (355 cards). Concrete objects, actions and contextual scenes for abstract concepts use the existing card-detail gallery and full-image popup. The old source photographs have been replaced. [The image catalog](data/library/assets/images/catalog.json) records generation source, style, crop provenance, checksums and card assignments; [image licensing](data/library/assets/images/LICENSE.md) describes the bundled artwork. Images load locally, and the host preserves custom user images during provider reloads.
+Vocabulary cards use generated colored-pencil and watercolor illustrations. Concrete objects, actions and contextual scenes for abstract concepts use the existing card-detail gallery and full-image popup. The old source photographs have been replaced. [The image catalog](data/library/assets/images/catalog.json) records generation source, style, crop provenance, checksums and card assignments; [image licensing](data/library/assets/images/LICENSE.md) describes the bundled artwork. Images load locally, and the host preserves custom user images during provider reloads.
 
 ## Household Vocabulary
 
-Fifteen everyday nouns cover furniture, clothing, objects and food, with four-language meanings, pronunciation links, dedicated recordings and a Household Essentials deck. English countable nouns include recorded plural transformations, including unchanged plural fish; rice remains a mass noun. Japanese beginner spellings link complete readings to atomic kana, including the long-vowel mark ー used in テーブル and コート.
+Everyday nouns cover furniture, clothing, objects and food, with four-language meanings, pronunciation links, dedicated recordings and a Household Essentials deck. English countable nouns include recorded plural transformations, including unchanged plural fish; rice remains a mass noun. Japanese beginner spellings link complete readings to atomic kana, including the long-vowel mark ー used in テーブル and コート.
 
 ## Food and Body Vocabulary
 
