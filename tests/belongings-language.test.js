@@ -17,15 +17,6 @@ test("eyewear retains plural agreement and wristwatch retains its noun sense", (
             ({ entryId }) => entryId === "en:word:form-english-be-are",
         ),
     );
-    const review = read("authoring/reviews/belongings-sentences.json").find(
-        ({ entryId }) => entryId === example.id,
-    );
-    assert.equal(review.fullScaleSamples, 0);
-    assert.ok(
-        review.sourceAudioEvidence.every(
-            ({ voiceId }) => voiceId === "gJx1vCzNCD1EQHT212Ls",
-        ),
-    );
     assert.equal(
         words.find(({ label }) => label === "watch").class,
         "lexical:noun",

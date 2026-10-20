@@ -274,6 +274,10 @@ Menambahkan send/carry dan おくる/はこぶ dengan empat gambar yang diperiks
 
 Memperluas dek Mengirim dan Membawa yang ada dari enam menjadi sepuluh kartu per bahasa. Delapan contoh baru melatih tindakan lampau dan berlangsung, penerima, sumber, koordinasi, teman dan tujuan. ID, nama dan urutan kartu lama dipertahankan; tanpa dek atau gambar baru. Audio memakai ulang PCM unsur dengan suara yang disetujui tanpa biaya generasi. Pendengaran belum diperiksa.
 
+## Gunakan struktur konten yang ada
+
+Menghapus direktori authoring tambahan, spesifikasi tahap persiapan, media sumber dan yang ditolak, laporan pemeriksaan serta data uji khusus audit. Kosakata, definisi dan kalimat tetap langsung di data/library/content; media terbit di data/library/assets, inventaris rekaman di data/audio dan dek di data/starter-decks.json. Pengujian biasa memvalidasi konten terbit secara langsung. Data runtime dan ID dipertahankan; tanpa perluasan konten atau perubahan parser.
+
 ## Komit
 
 - [ef3e331](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ef3e33138eebdd29889b8e428bbf3cd51d622d80)
