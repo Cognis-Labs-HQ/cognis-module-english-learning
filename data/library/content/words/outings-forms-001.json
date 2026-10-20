@@ -8,7 +8,7 @@
             "part_of_speech": "noun",
             "audio": "audio/257348d65fe58434649f51400f399a69db7bf52deb1a2986181b4dc8c1bb5fb9.wav"
         },
-        "tags": ["noun"],
+        "tags": ["noun", "inflected"],
         "references": [
             {
                 "entryId": "en:char:m-lowercase",
@@ -48,6 +48,10 @@
             {
                 "entryId": "en:definition:outings-museum",
                 "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:outings-museum",
+                "relation": "inflected-from"
             }
         ],
         "hidden": true
@@ -61,7 +65,7 @@
             "part_of_speech": "noun",
             "audio": "audio/0869eb904bad5abf448b765c7c3743f96cea4ac5848e4af43ca776223de66973.wav"
         },
-        "tags": ["noun"],
+        "tags": ["noun", "inflected"],
         "references": [
             {
                 "entryId": "en:char:z-lowercase",
@@ -86,6 +90,10 @@
             {
                 "entryId": "en:definition:outings-zoo",
                 "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:outings-zoo",
+                "relation": "inflected-from"
             }
         ],
         "hidden": true

@@ -9,7 +9,7 @@ const examples = read("data/library/content/sentences/belongings-001.json");
 test("eyewear retains plural agreement and wristwatch retains its noun sense", () => {
     const glasses = words.find(({ label }) => label === "glasses");
     assert.equal(glasses.class, "lexical:noun");
-    assert.match(glasses.fields.usage_notes.en, /plural agreement/);
+    assert.equal(glasses.fields.part_of_speech, "noun");
     const example = examples.find(({ label }) => label.includes("glasses"));
     assert.equal(example.label, "The glasses are on the table.");
     assert.ok(

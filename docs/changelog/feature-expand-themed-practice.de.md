@@ -2,6 +2,10 @@
 
 **Feature-Zweig:** `feature-expand-themed-practice`
 
+## Wortschatzkonventionen wiederherstellen
+
+Das hinzugefügte Feld Verwendung und Beispiele samt Absätzen entfernen. Wortart-Tags und 149 fehlende Verknüpfungen ausgeblendeter Flexionsformen zur Grundform wiederherstellen. Prüfungen des ursprünglichen Schemas, der Felder, Sichtbarkeit und Stapel sowie negative Regressionstests ergänzen. Karten-IDs und sämtliche Audio- und Bilddateien bleiben unverändert.
+
 ## Im Zusammenhang üben
 
 Vier Startstapel zu Essen und Trinken, vergangenen Ereignissen, laufenden Handlungen sowie Orten und Bewegung ergänzen das Angebot. Sie ermöglichen gezieltes Üben mit 23 vorhandenen Sätzen und ihren verknüpften Bedeutungen und grammatischen Formen.

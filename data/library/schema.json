@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 59,
+    "version": 60,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -711,26 +711,6 @@
                     },
                     "input": {
                         "control": "imageFiles"
-                    }
-                },
-                {
-                    "id": "usage_notes",
-                    "metadata": {
-                        "labels": {
-                            "de": "Verwendung und Beispiele",
-                            "en": "Usage and Examples",
-                            "id": "Penggunaan dan Contoh",
-                            "ja": "使い方と例"
-                        }
-                    },
-                    "type": "localizedText",
-                    "required": false,
-                    "detail": {
-                        "renderer": "text",
-                        "order": 8
-                    },
-                    "input": {
-                        "control": "localizedText"
                     }
                 }
             ],

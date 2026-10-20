@@ -8,7 +8,7 @@
             "part_of_speech": "noun",
             "audio": "audio/0b53978a0037c16b8efb3f8e6ed003e9cb71b7657fbe6e462c095d1877f7e67d.wav"
         },
-        "tags": ["noun"],
+        "tags": ["noun", "inflected"],
         "references": [
             {
                 "entryId": "en:char:f-lowercase",
@@ -48,6 +48,10 @@
             {
                 "entryId": "en:definition:fixtures-fridge",
                 "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:fixtures-fridge",
+                "relation": "inflected-from"
             }
         ],
         "hidden": true
@@ -61,7 +65,7 @@
             "part_of_speech": "noun",
             "audio": "audio/b22d3f3f93362b8fffced77effb30787d4aac08d27a0e0e24de32033721703d9.wav"
         },
-        "tags": ["noun"],
+        "tags": ["noun", "inflected"],
         "references": [
             {
                 "entryId": "en:char:o-lowercase",
@@ -91,6 +95,10 @@
             {
                 "entryId": "en:definition:fixtures-oven",
                 "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:fixtures-oven",
+                "relation": "inflected-from"
             }
         ],
         "hidden": true
@@ -104,7 +112,7 @@
             "part_of_speech": "noun",
             "audio": "audio/83079fa1674fd7c11e17e44fe39c3ce4c71c0bb23358475e2e56b3680af41c0f.wav"
         },
-        "tags": ["noun"],
+        "tags": ["noun", "inflected"],
         "references": [
             {
                 "entryId": "en:char:s-lowercase",
@@ -134,6 +142,10 @@
             {
                 "entryId": "en:definition:fixtures-sink",
                 "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:fixtures-sink",
+                "relation": "inflected-from"
             }
         ],
         "hidden": true
@@ -147,7 +159,7 @@
             "part_of_speech": "noun",
             "audio": "audio/96afadba2562ecd3d7b4b2030c3a1ad062760436b4703a34cc438d5ca94e412f.wav"
         },
-        "tags": ["noun"],
+        "tags": ["noun", "inflected"],
         "references": [
             {
                 "entryId": "en:char:s-lowercase",
@@ -187,6 +199,10 @@
             {
                 "entryId": "en:definition:fixtures-shower",
                 "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:fixtures-shower",
+                "relation": "inflected-from"
             }
         ],
         "hidden": true

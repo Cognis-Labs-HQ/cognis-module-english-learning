@@ -8,7 +8,7 @@
             "part_of_speech": "noun",
             "audio": "audio/fb658fed55d29002b1c4115e8c73fcc964ab1bcb65d21cda7f1df28b02e7ab3b.wav"
         },
-        "tags": ["noun"],
+        "tags": ["noun", "inflected"],
         "references": [
             {
                 "entryId": "en:char:l-lowercase",
@@ -58,6 +58,10 @@
             {
                 "entryId": "en:definition:places-library",
                 "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:places-library",
+                "relation": "inflected-from"
             }
         ],
         "hidden": true
@@ -71,7 +75,7 @@
             "part_of_speech": "noun",
             "audio": "audio/56cfbbb32b48aeac610b2cdfe151b5c3f620b3be93770e3237f40aa3fdf74cee.wav"
         },
-        "tags": ["noun"],
+        "tags": ["noun", "inflected"],
         "references": [
             {
                 "entryId": "en:char:h-lowercase",
@@ -121,6 +125,10 @@
             {
                 "entryId": "en:definition:places-hospital",
                 "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:places-hospital",
+                "relation": "inflected-from"
             }
         ],
         "hidden": true
@@ -134,7 +142,7 @@
             "part_of_speech": "noun",
             "audio": "audio/7e26f9a78018e6172a0fdfa1e99c2ca6081b6224adf9153ab8a1ab056eb7bbb3.wav"
         },
-        "tags": ["noun"],
+        "tags": ["noun", "inflected"],
         "references": [
             {
                 "entryId": "en:char:s-lowercase",
@@ -199,6 +207,10 @@
             {
                 "entryId": "en:definition:places-supermarket",
                 "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:places-supermarket",
+                "relation": "inflected-from"
             }
         ],
         "hidden": true
@@ -212,7 +224,7 @@
             "part_of_speech": "noun",
             "audio": "audio/1f4cc0f47cfdfdaf4471fdbef2af13284398a917d3d7bbffbe62146efeda7d3c.wav"
         },
-        "tags": ["noun"],
+        "tags": ["noun", "inflected"],
         "references": [
             {
                 "entryId": "en:char:r-lowercase",
@@ -272,6 +284,10 @@
             {
                 "entryId": "en:definition:places-restaurant",
                 "relation": "definitions"
+            },
+            {
+                "entryId": "en:word:places-restaurant",
+                "relation": "inflected-from"
             }
         ],
         "hidden": true

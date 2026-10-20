@@ -2,6 +2,10 @@
 
 **Cabang Fitur:** `feature-expand-themed-practice`
 
+## Memulihkan konvensi kosakata
+
+Menghapus kolom Penggunaan dan Contoh beserta paragraf tambahannya. Memulihkan tag kelas kata dan 149 tautan bentuk dasar yang hilang pada bentuk infleksi tersembunyi. Menambahkan pemeriksaan skema sebelum perluasan, kolom, visibilitas, dek, serta uji regresi negatif. ID kartu dan seluruh berkas audio serta gambar tetap sama.
+
 ## Berlatih dalam konteks
 
 Tambahkan empat dek awal tentang makanan dan minuman, peristiwa lampau, kegiatan yang sedang berlangsung, serta tempat dan pergerakan. Dek ini menyediakan latihan terarah dengan 23 kalimat yang sudah ada beserta makna dan bentuk tata bahasanya.

@@ -2,6 +2,10 @@
 
 **Feature Branch:** `feature-expand-themed-practice`
 
+## Restore vocabulary conventions
+
+Remove the added Usage and Examples field and its paragraphs. Restore lexical tags and 149 missing base-form links on hidden inflections. Add pre-expansion schema, field, visibility, deck and negative regression checks. Card IDs and all audio and image bytes remain unchanged.
+
 ## Practice in context
 
 Add four starter decks for food and drink, past events, actions in progress, and places and movement. They provide focused practice with 23 existing sentences and their linked meanings and grammatical forms.
