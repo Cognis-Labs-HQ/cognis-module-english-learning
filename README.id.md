@@ -4,12 +4,21 @@
 
 Konten belajar bahasa Inggris dan integrasi penyedia untuk Cognis Study.
 
+## Konten dalam paket
+
+| Kategori                     | Jumlah |
+| ---------------------------- | ------ |
+| Dek awal                     | 77     |
+| Kartu kosakata yang terlihat | 355    |
+| Kalimat                      | 309    |
+| Ilustrasi kosakata           | 355    |
+
 ## Fitur
 
-- 52 kartu huruf dan 17 gabungan dengan panduan tulisan JSON asli; 192 kata pemula, 21 kartu tata bahasa/tanda baca dan 49 kalimat tertaut.
-- 37 paradigma verba, kopula dan adjektiva terkurasi beserta bentuk tidak beraturan dan IPA; kartu pendukung tersembunyi mempertahankan graf kalimat lengkap.
+- 52 kartu huruf dan 17 gabungan dengan panduan tulisan JSON asli; 355 kata pemula, 21 kartu tata bahasa/tanda baca dan 309 kalimat tertaut.
+- Paradigma verba, kopula dan adjektiva terkurasi beserta bentuk tidak beraturan dan IPA; kartu pendukung tersembunyi mempertahankan graf kalimat lengkap.
 - Kamus Gratis yang dapat dicari, batas definisi/pelafalan, atribusi tersembunyi dan cache milik host.
-- Sepuluh dek awal terlokalisasi memakai kartu kilas, favorit dan berbagi Cognis.
+- 77 dek awal terlokalisasi memakai kartu kilas, favorit dan berbagi Cognis.
 
 ## Pemasangan
 
@@ -44,7 +53,7 @@ Berkas memakai PCM mono 24 kHz 16 bit dengan puncak terbatas dan keluaran yang d
 
 ## Ilustrasi Kosakata
 
-Setiap kartu kosakata bawaan kini memiliki ilustrasi tersendiri yang dihasilkan dengan gaya pensil warna dan cat air (192 kartu). Benda konkret, tindakan, dan adegan kontekstual untuk konsep abstrak ditampilkan melalui galeri detail kartu dan popup gambar yang sudah ada. Foto sumber lama telah diganti. [Katalog gambar](data/library/assets/images/catalog.json) mencatat sumber pembuatan, gaya, asal potongan, checksum, dan pemetaan kartu; [lisensi gambar](data/library/assets/images/LICENSE.md) menjelaskan karya bawaan. Gambar dimuat secara lokal, dan host mempertahankan gambar khusus pengguna saat penyedia dimuat ulang.
+Setiap kartu kosakata bawaan kini memiliki ilustrasi tersendiri yang dihasilkan dengan gaya pensil warna dan cat air (355 kartu). Benda konkret, tindakan, dan adegan kontekstual untuk konsep abstrak ditampilkan melalui galeri detail kartu dan popup gambar yang sudah ada. Foto sumber lama telah diganti. [Katalog gambar](data/library/assets/images/catalog.json) mencatat sumber pembuatan, gaya, asal potongan, checksum, dan pemetaan kartu; [lisensi gambar](data/library/assets/images/LICENSE.md) menjelaskan karya bawaan. Gambar dimuat secara lokal, dan host mempertahankan gambar khusus pengguna saat penyedia dimuat ulang.
 
 ## Kosakata Rumah Tangga
 
@@ -56,7 +65,7 @@ Pemutaran kalimat paket memakai PCM yang disusun persis dari klip penyusun, term
 
 ## Inventaris Rekaman
 
-Pemutaran kalimat paket memakai PCM yang disusun persis dari klip penyusun, termasuk transformasi terpilih. Rekaman seluruh kalimat yang dihasilkan terpisah tetap diinventarisasi dengan asal suara dan permintaan asli, tetapi tidak menimpa rekaman komposisi. Kalimat baru tetap memakai komposisi dan cache milik host.
+`data/audio/recordings.json` memakai format inventaris 2 dengan bahasa, suara, model, pengaturan pemrosesan, jumlah, dan jalur indeks tujuan beserta hash. Berkas `data/audio/indexes/` mencantumkan pecahan inventaris ber-hash dalam `data/audio/inventories/`, dikelompokkan untuk karakter, kosakata, transformasi, kalimat langsung, dan komposisi kalimat. Indeks utama dan indeks tujuan tetap di bawah 400 baris; pecahan rekaman maksimal 800 baris. Pemuat memeriksa kedua tingkat, jumlah, jalur yang diizinkan, kecocokan tujuan dan jenis, serta jalur duplikat sebelum mendaftarkan pemutaran. Objek rekaman, byte audio, dan prioritas pencarian dipertahankan.
 
 ## Normalisasi katalog eksplisit dan inventaris komposisi kalimat
 

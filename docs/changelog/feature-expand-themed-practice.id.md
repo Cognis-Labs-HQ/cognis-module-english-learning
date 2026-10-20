@@ -2,6 +2,10 @@
 
 **Cabang Fitur:** `feature-expand-themed-practice`
 
+## Lokalisasi dan jumlah konten yang konsisten
+
+Akhiran kunci definisi memakai huruf kecil dengan pemisah titik, tanpa mengubah awalan modul dan ID rekaman. Keempat berkas bahasa tetap selaras, setiap referensi definisi terselesaikan, dan kunci duplikat atau tidak valid ditolak. README dan panduan integrasi mencantumkan jumlah dek, kosakata, kalimat, dan ilustrasi yang sebenarnya serta menjelaskan inventaris rekaman dua tingkat secara konsisten. Setiap kartu yang dapat diputar dan bentuk terpilih wajib memiliki audio dalam paket, terlepas dari daftar rekaman yang belum tersedia.
+
 ## Memulihkan konvensi kosakata
 
 Menghapus kolom Penggunaan dan Contoh beserta paragraf tambahannya. Memulihkan tag kelas kata dan 149 tautan bentuk dasar yang hilang pada bentuk infleksi tersembunyi. Menambahkan pemeriksaan skema sebelum perluasan, kolom, visibilitas, dek, serta uji regresi negatif. ID kartu dan seluruh berkas audio serta gambar tetap sama.

@@ -2,6 +2,10 @@
 
 **Feature-Zweig:** `feature-expand-themed-practice`
 
+## Einheitliche Lokalisierung und veröffentlichte Inhaltszahlen
+
+Definitionsschlüssel verwenden kleingeschriebene, durch Punkte getrennte Endungen; Modulpräfixe und Datensatz-IDs bleiben unverändert. Alle vier Sprachdateien werden synchron gehalten, jeder Definitionsverweis wird aufgelöst und doppelte oder ungültige Schlüssel werden abgewiesen. README und Integrationsanleitung nennen die tatsächlichen Zahlen für Decks, Vokabeln, Sätze und Illustrationen und beschreiben das zweistufige Aufnahmeverzeichnis einheitlich. Jede abspielbare Karte und gewählte Form benötigt eine gebündelte Aufnahme, unabhängig von der Liste fehlender Aufnahmen.
+
 ## Wortschatzkonventionen wiederherstellen
 
 Das hinzugefügte Feld Verwendung und Beispiele samt Absätzen entfernen. Wortart-Tags und 149 fehlende Verknüpfungen ausgeblendeter Flexionsformen zur Grundform wiederherstellen. Prüfungen des ursprünglichen Schemas, der Felder, Sichtbarkeit und Stapel sowie negative Regressionstests ergänzen. Karten-IDs und sämtliche Audio- und Bilddateien bleiben unverändert.

@@ -2,6 +2,10 @@
 
 **Feature Branch:** `feature-expand-themed-practice`
 
+## Consistent localization and published content counts
+
+Use lowercase, period-delimited definition-key suffixes with unchanged module prefixes and record IDs. Keep all four locale bundles synchronized, resolve every definition reference, and reject duplicate or malformed keys. Document actual deck, vocabulary, sentence and illustration counts in both the README and integration guide, and describe the two-level recording inventory consistently. Require bundled audio for every playable card and selected form independently of the unavailable ledger.
+
 ## Restore vocabulary conventions
 
 Remove the added Usage and Examples field and its paragraphs. Restore lexical tags and 149 missing base-form links on hidden inflections. Add pre-expansion schema, field, visibility, deck and negative regression checks. Card IDs and all audio and image bytes remain unchanged.

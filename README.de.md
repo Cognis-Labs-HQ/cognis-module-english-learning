@@ -4,12 +4,21 @@
 
 Englische Lerninhalte und Anbieterintegration für Cognis Study.
 
+## Enthaltene Lerninhalte
+
+| Kategorie               | Anzahl |
+| ----------------------- | ------ |
+| Startdecks              | 77     |
+| Sichtbare Vokabelkarten | 355    |
+| Sätze                   | 309    |
+| Vokabelillustrationen   | 355    |
+
 ## Funktionen
 
-- 52 Buchstabenkarten und 17 Verbindungen mit eigenen JSON-Schreibvorlagen; 192 Anfängerwörter, 21 Grammatik-/Satzzeichenkarten und 49 verknüpfte Sätze.
-- 37 kuratierte Verb-, Kopula- und Adjektivparadigmen mit unregelmäßigen Formen und IPA; verborgene Karten erhalten vollständige Satzgraphen.
+- 52 Buchstabenkarten und 17 Verbindungen mit eigenen JSON-Schreibvorlagen; 355 Anfängerwörter, 21 Grammatik-/Satzzeichenkarten und 309 verknüpfte Sätze.
+- Kuratierte Verb-, Kopula- und Adjektivparadigmen mit unregelmäßigen Formen und IPA; verborgene Karten erhalten vollständige Satzgraphen.
 - Suchbares freies Wörterbuch mit begrenzten Definitionen und Lesungen, verborgenen Quellenangaben und hostverwaltetem Cache.
-- Zehn lokalisierte Startdecks verwenden Cognis-Lernkarten, Favoriten und Freigaben.
+- 77 lokalisierte Startdecks verwenden Cognis-Lernkarten, Favoriten und Freigaben.
 
 ## Installation
 
@@ -44,7 +53,7 @@ Erzeugte Dateien enthalten Mono-PCM mit 24 kHz und 16 Bit, begrenzten Spitzenwer
 
 ## Vokabelillustrationen
 
-Jede mitgelieferte Vokabelkarte besitzt jetzt eine eigene generierte Illustration im Buntstift- und Aquarellstil (192 Karten). Konkrete Gegenstände, Handlungen und Kontextbilder für abstrakte Begriffe erscheinen in der vorhandenen Kartendetailgalerie und Bildvorschau. Die bisherigen Quellfotos wurden ersetzt. Der [Bildkatalog](data/library/assets/images/catalog.json) dokumentiert Erzeugungsquelle, Stil, Bildausschnitte, Prüfsummen und Kartenzuordnungen; die [Bildlizenz](data/library/assets/images/LICENSE.md) beschreibt die mitgelieferten Illustrationen. Bilder werden lokal geladen, eigene Benutzerbilder bleiben bei Anbieter-Neuladevorgängen durch den Host erhalten.
+Jede mitgelieferte Vokabelkarte besitzt jetzt eine eigene generierte Illustration im Buntstift- und Aquarellstil (355 Karten). Konkrete Gegenstände, Handlungen und Kontextbilder für abstrakte Begriffe erscheinen in der vorhandenen Kartendetailgalerie und Bildvorschau. Die bisherigen Quellfotos wurden ersetzt. Der [Bildkatalog](data/library/assets/images/catalog.json) dokumentiert Erzeugungsquelle, Stil, Bildausschnitte, Prüfsummen und Kartenzuordnungen; die [Bildlizenz](data/library/assets/images/LICENSE.md) beschreibt die mitgelieferten Illustrationen. Bilder werden lokal geladen, eigene Benutzerbilder bleiben bei Anbieter-Neuladevorgängen durch den Host erhalten.
 
 ## Haushaltsvokabular
 
@@ -56,7 +65,7 @@ Vorbereitete Sätze verwenden exakt zusammengesetzte PCM-Daten einschließlich g
 
 ## Aufnahmeverzeichnisse
 
-`data/audio/recordings.json` ist ein kompaktes Manifest mit Sprache, Stimme, Modell, gemeinsamen Verarbeitungseinstellungen, Gesamtzahlen und geprüften Inventarpfaden. Dateien unter `data/audio/inventories/` beschreiben getrennt Zeichen, Vokabeln, Transformationen, direkte Sätze und zusammengesetzte Ersatzaufnahmen. Jede Datei bleibt unter 800 Zeilen und enthält die genauen Anforderungen, Stimmenherkunft, Transformationspfade und Audio-Prüfsummen. Bootstrap prüft vor der Wiedergaberegistrierung jede Prüfsumme und Anzahl; Audiodaten und Suchpriorität bleiben unverändert.
+`data/audio/recordings.json` verwendet Inventarformat 2 mit Sprache, Stimme, Modell, Verarbeitungseinstellungen, Gesamtzahlen und geprüften Zweckindexpfaden. Dateien unter `data/audio/indexes/` verweisen mit Prüfsummen auf die Dateien unter `data/audio/inventories/`, getrennt nach Zeichen, Vokabeln, Transformationen, direkten Sätzen und Satzkompositionen. Haupt- und Zweckindizes bleiben unter 400 Zeilen, Aufnahmedateien bei höchstens 800 Zeilen. Vor der Wiedergaberegistrierung prüft der Lader beide Ebenen, Anzahlen, erlaubte Pfade, Zweckzuordnung und doppelte Pfade. Aufnahmeobjekte, Audiodaten und Suchpriorität bleiben erhalten.
 
 ## Explizite Katalognormalisierung und Satzkompositionen
 

@@ -4,12 +4,21 @@
 
 English learning content and provider integration for Cognis Study.
 
+## Packaged content
+
+| Category                 | Count |
+| ------------------------ | ----- |
+| Starter decks            | 77    |
+| Visible vocabulary cards | 355   |
+| Sentences                | 309   |
+| Vocabulary illustrations | 355   |
+
 ## Features
 
-- 52 alphabet cards and 17 letter combinations with original JSON writing guides; 192 vocabulary cards, 21 grammar/punctuation cards and 49 linked sentences.
-- 37 curated verb, copula and adjective paradigms with irregular forms and IPA; hidden supporting forms preserve complete sentence graphs.
+- 52 alphabet cards and 17 letter combinations with original JSON writing guides; 355 vocabulary cards, 21 grammar/punctuation cards and 309 linked sentences.
+- Curated verb, copula and adjective paradigms with irregular forms and IPA; hidden supporting forms preserve complete sentence graphs.
 - Searchable Free Dictionary lookup, bounded definitions/readings, hidden attribution and host-owned caching.
-- Ten localized starter decks use Cognis flashcards, favourites and sharing.
+- 77 localized starter decks use Cognis flashcards, favourites and sharing.
 
 ## Installation
 
@@ -44,7 +53,7 @@ Generated files use 24 kHz mono 16-bit PCM with bounded peaks and verified non-s
 
 ## Vocabulary Illustrations
 
-Every shipped vocabulary card now has its own generated colored-pencil and watercolor illustration (192 cards). Concrete objects, actions and contextual scenes for abstract concepts use the existing card-detail gallery and full-image popup. The old source photographs have been replaced. [The image catalog](data/library/assets/images/catalog.json) records generation source, style, crop provenance, checksums and card assignments; [image licensing](data/library/assets/images/LICENSE.md) describes the bundled artwork. Images load locally, and the host preserves custom user images during provider reloads.
+Every shipped vocabulary card now has its own generated colored-pencil and watercolor illustration (355 cards). Concrete objects, actions and contextual scenes for abstract concepts use the existing card-detail gallery and full-image popup. The old source photographs have been replaced. [The image catalog](data/library/assets/images/catalog.json) records generation source, style, crop provenance, checksums and card assignments; [image licensing](data/library/assets/images/LICENSE.md) describes the bundled artwork. Images load locally, and the host preserves custom user images during provider reloads.
 
 ## Household Vocabulary
 
@@ -56,7 +65,7 @@ Packaged sentence playback uses exact constituent-composed PCM, including select
 
 ## Recording Inventories
 
-`data/audio/recordings.json` is a compact manifest with language, voice, model, shared processing settings, totals and integrity-checked inventory paths. Purpose-grouped files under `data/audio/inventories/` separately describe characters, vocabulary, transformations, direct sentences and precomposed sentence recordings. Each file stays below 800 lines and retains exact requests, per-clip voice provenance, transformation paths and audio checksums. Bootstrap verifies every inventory checksum and count before registering playback; the recording bytes and lookup precedence are unchanged.
+`data/audio/recordings.json` uses inventory format 2 with language, voice, model, processing settings, totals and hashed purpose-index paths. Files under `data/audio/indexes/` list the hashed shards under `data/audio/inventories/`, grouped into characters, vocabulary, transformations, direct sentences and sentence compositions. Root and purpose indexes stay below 400 lines; recording shards stay at or below 800 lines. The loader verifies both levels, counts, allowed paths, purpose/kind agreement and duplicate paths before registering playback. Recording objects, audio bytes and lookup precedence are preserved.
 
 ## Explicit catalog normalization and sentence composition inventories
 

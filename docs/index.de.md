@@ -1,6 +1,15 @@
 # Englisch lernen
 
-Englisch lernen liefert einen versionierten Lerngraphen, englische Wörterbuchergänzungen, eigene Druckschrift-Vorlagen und zehn Startdecks. Cognis verwaltet die Lernoberfläche und sämtliche Nutzerdaten.
+Englisch lernen liefert einen versionierten Lerngraphen, englische Wörterbuchergänzungen, eigene Druckschrift-Vorlagen und 77 Startdecks. Cognis verwaltet die Lernoberfläche und sämtliche Nutzerdaten.
+
+## Enthaltene Lerninhalte
+
+| Kategorie               | Anzahl |
+| ----------------------- | ------ |
+| Startdecks              | 77     |
+| Sichtbare Vokabelkarten | 355    |
+| Sätze                   | 309    |
+| Vokabelillustrationen   | 355    |
 
 ## Nutzungsbeispiele
 
@@ -42,7 +51,7 @@ Führen Sie `npm install`, `npm run manifest:hashes`, `npm test`, `npm run lint`
 
 ## Erweiterte Startdecks
 
-Englisch liefert zehn Startdecks. Großbuchstaben, Buchstabenverbindungen und Alltagsadjektive ergänzen die vier bestehenden Stapel. Stabile Schlüssel, übersetzte Namen und vollständige Alphabetreihen werden geprüft.
+Englisch liefert 77 Startdecks. Großbuchstaben, Buchstabenverbindungen und Alltagsadjektive ergänzen die vier bestehenden Stapel. Stabile Schlüssel, übersetzte Namen und vollständige Alphabetreihen werden geprüft.
 
 Das Schema bietet eine Adjektivfilteroption und erhält stabile Inhaltsidentitäten. ctx ist das Anwendungsrückgrat; Cognis verwaltet Aktionsabläufe, Nutzerdaten und Wörterbuchcaches.
 
@@ -70,7 +79,7 @@ Die Konfigurationsrouten GET, PUT und DELETE für Administratoren werden nur bei
 
 ## Wortarten und Pluralformen korrekt halten
 
-Free Dictionary liefert getrennte Vorschläge je Wortart mit ausschließlich passenden Definitionen, Tags und kuratierten Flexionsmustern. Anfragen mit Apostroph oder Bindestrich werden abgelehnt, da der aktuelle Alphabetgraph diese Schreibweisen nicht abbildet. Antworten sind auf eine Million gestreamte Bytes begrenzt und werden bei Überschreitung sofort abgebrochen. Die veröffentlichte Ablaufkennung `study-language-en:bootstrap-registration` bleibt erhalten. Die Pluralbildung bleibt beim Singular `book`, nicht beim bereits pluralen `books`; `houses` verwendet `/haʊzɪz/`. Zehn lokalisierte Startdecks sind dokumentiert.
+Free Dictionary liefert getrennte Vorschläge je Wortart mit ausschließlich passenden Definitionen, Tags und kuratierten Flexionsmustern. Anfragen mit Apostroph oder Bindestrich werden abgelehnt, da der aktuelle Alphabetgraph diese Schreibweisen nicht abbildet. Antworten sind auf eine Million gestreamte Bytes begrenzt und werden bei Überschreitung sofort abgebrochen. Die veröffentlichte Ablaufkennung `study-language-en:bootstrap-registration` bleibt erhalten. Die Pluralbildung bleibt beim Singular `book`, nicht beim bereits pluralen `books`; `houses` verwendet `/haʊzɪz/`. 77 lokalisierte Startdecks sind dokumentiert.
 
 ## Sprache und Aufnahmen
 
