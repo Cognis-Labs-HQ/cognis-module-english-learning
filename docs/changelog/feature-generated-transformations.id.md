@@ -13,3 +13,4 @@ Rekaman bawaan mempertahankan suara yang ditentukan dan audio tepat setiap penyu
 ## Komit
 
 - [58369ddb](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/58369ddb55a1b12162a37567e3027f4b1cf6b83c)
+- [8aecdc0a](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/8aecdc0a5c0f0d2315b2947a5315fb3545a8c20b)
