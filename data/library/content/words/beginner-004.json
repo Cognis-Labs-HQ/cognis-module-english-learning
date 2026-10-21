@@ -11,7 +11,7 @@
             ]
         },
         "class": "lexical:verb",
-        "tags": ["verb", "beginner", "paradigm-listen"],
+        "tags": ["verb", "beginner", "transform:verb"],
         "references": [
             {
                 "entryId": "en:char:l-lowercase",
@@ -61,7 +61,7 @@
             ]
         },
         "class": "lexical:verb",
-        "tags": ["verb", "beginner", "paradigm-help"],
+        "tags": ["verb", "beginner", "transform:verb"],
         "references": [
             {
                 "entryId": "en:char:h-lowercase",
@@ -101,7 +101,7 @@
             ]
         },
         "class": "lexical:verb",
-        "tags": ["verb", "beginner", "paradigm-open"],
+        "tags": ["verb", "beginner", "transform:verb"],
         "references": [
             {
                 "entryId": "en:char:o-lowercase",
@@ -141,7 +141,7 @@
             ]
         },
         "class": "lexical:verb",
-        "tags": ["verb", "beginner", "paradigm-close"],
+        "tags": ["verb", "beginner", "transform:verb"],
         "references": [
             {
                 "entryId": "en:char:c-lowercase",
@@ -182,11 +182,12 @@
             "pronunciation": ["/bʊk/"],
             "audio": "audio/8cc861c3afd001379e8aeaf2dfbca4a8d1a8822e4b0b61d2131e46e39ca9fc72.wav",
             "reference_images": [
-                "images/ba6aa7533485ef5327c574210dcabcb7cbb22d58d7be8eceab9130f527bee16b.jpg"
+                "images/ba6aa7533485ef5327c574210dcabcb7cbb22d58d7be8eceab9130f527bee16b.jpg",
+                "images/f69f0b6966274d3a204ea6ec7593629e769ab84d7a671619e2694faabdca8402.jpg"
             ]
         },
         "class": "lexical:noun",
-        "tags": ["noun", "beginner", "plural-book", "plural"],
+        "tags": ["noun", "beginner", "transform:plural"],
         "references": [
             {
                 "entryId": "en:char:b-lowercase",
@@ -441,7 +442,7 @@
             ]
         },
         "class": "lexical:noun",
-        "tags": ["noun", "beginner", "plural-apple", "plural"],
+        "tags": ["noun", "beginner", "transform:plural"],
         "references": [
             {
                 "entryId": "en:char:a-lowercase",

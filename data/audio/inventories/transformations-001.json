@@ -24,13 +24,15 @@
                 "readings": ["/æm/"]
             }
         ],
-        "entries": ["en:word:form-english-be-am"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:be",
-                "setId": "english-be",
+                "setId": "english-copula",
                 "path": ["am"],
-                "state": "am"
+                "state": "am",
+                "label": "am",
+                "reading": "/æm/"
             }
         ],
         "sha256": "3d23551a5ce79696ae6780187ce4a85d3bdb6758a7eb2c645b8cbd8f72898339",
@@ -61,13 +63,15 @@
                 "readings": ["/ɪz/"]
             }
         ],
-        "entries": ["en:word:form-english-be-is"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:be",
-                "setId": "english-be",
+                "setId": "english-copula",
                 "path": ["is"],
-                "state": "is"
+                "state": "is",
+                "label": "is",
+                "reading": "/ɪz/"
             }
         ],
         "sha256": "e521d56931b4975be26f17cc1858977d79529c9ce861e5d2130c99b3a2da5eae",
@@ -98,13 +102,15 @@
                 "readings": ["/ɑː/"]
             }
         ],
-        "entries": ["en:word:form-english-be-are"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:be",
-                "setId": "english-be",
+                "setId": "english-copula",
                 "path": ["are"],
-                "state": "are"
+                "state": "are",
+                "label": "are",
+                "reading": "/ɑː/"
             }
         ],
         "sha256": "8fa0284b461341fac4b1d80928b186830a51c01be990f1b445da6fc5f804b42f",
@@ -135,13 +141,15 @@
                 "readings": ["/wɒz/"]
             }
         ],
-        "entries": ["en:word:form-english-be-was"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:be",
-                "setId": "english-be",
+                "setId": "english-copula",
                 "path": ["was"],
-                "state": "was"
+                "state": "was",
+                "label": "was",
+                "reading": "/wɒz/"
             }
         ],
         "sha256": "435c75f685c9f3187cbca92b7ddbf470dc97c138aa6b04755b85231896065fc4",
@@ -172,13 +180,15 @@
                 "readings": ["/wɜː/"]
             }
         ],
-        "entries": ["en:word:form-english-be-were"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:be",
-                "setId": "english-be",
+                "setId": "english-copula",
                 "path": ["were"],
-                "state": "were"
+                "state": "were",
+                "label": "were",
+                "reading": "/wɜː/"
             }
         ],
         "rejectedSilentAttempts": 1,
@@ -210,13 +220,15 @@
                 "readings": ["/ˈbiːɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-be-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:be",
-                "setId": "english-be",
+                "setId": "english-copula",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "being",
+                "reading": "/ˈbiːɪŋ/"
             }
         ],
         "sha256": "7f9d1f3070b2c04e0f05e54594fe9deadbfe58e6640e68f948a543ed9638352c",
@@ -247,13 +259,15 @@
                 "readings": ["/biːn/"]
             }
         ],
-        "entries": ["en:word:form-english-be-past-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:be",
-                "setId": "english-be",
+                "setId": "english-copula",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "been",
+                "reading": "/biːn/"
             }
         ],
         "sha256": "a63a4cd94fc29b374c558df05977e1b5b6abf3c4bd0898d72d7233ad1e195a3b",
@@ -284,13 +298,15 @@
                 "readings": ["/hæz/"]
             }
         ],
-        "entries": ["en:word:form-english-have-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:have",
-                "setId": "english-have",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "has",
+                "reading": "/hæz/"
             }
         ],
         "sha256": "2b9f745912e83a7413cea2ee42274869c5fd2a247e6e8ea31447e547b8ceb36b",
@@ -321,22 +337,23 @@
                 "readings": ["/hæd/"]
             }
         ],
-        "entries": [
-            "en:word:form-english-have-past",
-            "en:word:form-english-have-past-participle"
-        ],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:have",
-                "setId": "english-have",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "had",
+                "reading": "/hæd/"
             },
             {
                 "entryId": "en:word:have",
-                "setId": "english-have",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "had",
+                "reading": "/hæd/"
             }
         ],
         "sha256": "e1b6ccd812bee27a04c444d56f5470d06db17d7a5f57f4574b6044bf6d6b63d6",
@@ -367,13 +384,15 @@
                 "readings": ["/ˈhævɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-have-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:have",
-                "setId": "english-have",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "having",
+                "reading": "/ˈhævɪŋ/"
             }
         ],
         "sha256": "2b1c48a5f3d37b6d6f38ec83600cd9492e1902087d6840be52e4ead3e2ff2f4d",
@@ -404,13 +423,15 @@
                 "readings": ["/ɡəʊz/"]
             }
         ],
-        "entries": ["en:word:form-english-go-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:go",
-                "setId": "english-go",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "goes",
+                "reading": "/ɡəʊz/"
             }
         ],
         "sha256": "1ec2b7feca46709c47659b8333e12d3634301b8f9dd35cb9561c666db8606a73",
@@ -441,13 +462,15 @@
                 "readings": ["/went/"]
             }
         ],
-        "entries": ["en:word:form-english-go-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:go",
-                "setId": "english-go",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "went",
+                "reading": "/went/"
             }
         ],
         "sha256": "99e98057da86eb01c970e15283ecd9a6a1a0934b606108975d67f11acf2c76e4",
@@ -478,13 +501,15 @@
                 "readings": ["/ˈɡəʊɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-go-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:go",
-                "setId": "english-go",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "going",
+                "reading": "/ˈɡəʊɪŋ/"
             }
         ],
         "sha256": "31ec4b5be1e85f961951b2f851dbb0d2ebf3dfd6b20bbb2e6f14efb8f8f90b79",
@@ -515,13 +540,15 @@
                 "readings": ["/ɡɒn/"]
             }
         ],
-        "entries": ["en:word:form-english-go-past-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:go",
-                "setId": "english-go",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "gone",
+                "reading": "/ɡɒn/"
             }
         ],
         "sha256": "c5f43e9fffd9fc8684711effb52e2cb76c4af4e906be7dda59f9969437263bab",
@@ -556,9 +583,11 @@
         "variants": [
             {
                 "entryId": "en:word:come",
-                "setId": "english-come",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "come",
+                "reading": "/kʌm/"
             }
         ],
         "sha256": "3360c34f71129336e37712d3f0145633ce0b2530e83643b3dbce88789c9b9587",
@@ -589,13 +618,15 @@
                 "readings": ["/kʌmz/"]
             }
         ],
-        "entries": ["en:word:form-english-come-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:come",
-                "setId": "english-come",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "comes",
+                "reading": "/kʌmz/"
             }
         ],
         "sha256": "34dd82e65fa87f445746481def2398e0ccdbea846634dec4c1e497f3cfb4d451",
@@ -626,13 +657,15 @@
                 "readings": ["/keɪm/"]
             }
         ],
-        "entries": ["en:word:form-english-come-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:come",
-                "setId": "english-come",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "came",
+                "reading": "/keɪm/"
             }
         ],
         "sha256": "cb70db82d6d48058a35df5e0a040a9788c59cd20598616bce4d8fed57bea8884",
@@ -663,13 +696,15 @@
                 "readings": ["/ˈkʌmɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-come-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:come",
-                "setId": "english-come",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "coming",
+                "reading": "/ˈkʌmɪŋ/"
             }
         ],
         "sha256": "9952842617b8ed848aa028cb6034a3cc8c37beb3c07da2f9792e0d6a0bd48f00",

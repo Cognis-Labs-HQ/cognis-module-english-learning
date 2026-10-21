@@ -1,0 +1,67 @@
+[
+    {
+        "path": "audio/97fc1f65331729ab88aa3a90e5c859374e3d17ec9a842cdb47d0c310c6f8d818.wav",
+        "entryId": "en:sentence:daily-needs-3",
+        "label": "The key is here.",
+        "parts": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the"
+            },
+            {
+                "path": "audio/e5b442edb628e9fed0cb699a3ab7c8a979d4e2d94b229d8f6598a36d6daf90ea.wav",
+                "entryId": "en:word:key"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
+            },
+            {
+                "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
+                "entryId": "en:word:here"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
+                "entryId": "en:word:capital-the",
+                "startFrame": 2400,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/e5b442edb628e9fed0cb699a3ab7c8a979d4e2d94b229d8f6598a36d6daf90ea.wav",
+                "entryId": "en:word:key",
+                "startFrame": 12710,
+                "frameCount": 18793
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:be",
+                "startFrame": 33663,
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
+            },
+            {
+                "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
+                "entryId": "en:word:here",
+                "startFrame": 46210,
+                "frameCount": 11241
+            }
+        ],
+        "sha256": "97fc1f65331729ab88aa3a90e5c859374e3d17ec9a842cdb47d0c310c6f8d818",
+        "frames": 69211,
+        "input": {
+            "language": "en",
+            "label": "The key is here.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM, without synthesis or new external requests."
+        }
+    }
+]

@@ -14,7 +14,8 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/437a80cf008c1a34ee57e35047f6f986a4bab34697e4305c73d1ee25c57aa34b.wav",
@@ -38,9 +39,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 42579,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/437a80cf008c1a34ee57e35047f6f986a4bab34697e4305c73d1ee25c57aa34b.wav",
@@ -239,7 +241,8 @@
             },
             {
                 "path": "audio/1c8ef88eaa66ab38c9542d84334e918565ded96bbb3e2540a7dd82c240ff4c04.wav",
-                "entryId": "en:word:form-actions-jump-past"
+                "entryId": "en:word:actions-jump",
+                "transformation": { "setId": "english-verb", "path": ["past"] }
             },
             {
                 "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
@@ -265,9 +268,10 @@
             },
             {
                 "path": "audio/1c8ef88eaa66ab38c9542d84334e918565ded96bbb3e2540a7dd82c240ff4c04.wav",
-                "entryId": "en:word:form-actions-jump-past",
+                "entryId": "en:word:actions-jump",
                 "startFrame": 22112,
-                "frameCount": 24366
+                "frameCount": 24366,
+                "transformation": { "setId": "english-verb", "path": ["past"] }
             },
             {
                 "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
@@ -312,11 +316,16 @@
             },
             {
                 "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
-                "entryId": "en:word:form-english-be-are"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["are"] }
             },
             {
                 "path": "audio/3af6d60a6cb9f5e600958e0652fca56326f5867a06fb57528a7cae803733c288.wav",
-                "entryId": "en:word:form-actions-swim-present-participle"
+                "entryId": "en:word:actions-swim",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["present-participle"]
+                }
             },
             { "pauseMs": 400 }
         ],
@@ -330,15 +339,20 @@
             },
             {
                 "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
-                "entryId": "en:word:form-english-be-are",
+                "entryId": "en:word:be",
                 "startFrame": 14363,
-                "frameCount": 5418
+                "frameCount": 5418,
+                "transformation": { "setId": "english-copula", "path": ["are"] }
             },
             {
                 "path": "audio/3af6d60a6cb9f5e600958e0652fca56326f5867a06fb57528a7cae803733c288.wav",
-                "entryId": "en:word:form-actions-swim-present-participle",
+                "entryId": "en:word:actions-swim",
                 "startFrame": 21941,
-                "frameCount": 21022
+                "frameCount": 21022,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["present-participle"]
+                }
             }
         ],
         "sha256": "f8d0ea33da3941159620b1bcf50bde3fb3aa9752d240a22aea468228b79d6edc",
@@ -442,7 +456,11 @@
             },
             {
                 "path": "audio/11a51838e3552eef5739af43e422ab0bec1b74ed28dcdf393535ab7c85f15633.wav",
-                "entryId": "en:word:form-actions-cry-third-person"
+                "entryId": "en:word:actions-cry",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             { "pauseMs": 400 }
         ],
@@ -462,9 +480,13 @@
             },
             {
                 "path": "audio/11a51838e3552eef5739af43e422ab0bec1b74ed28dcdf393535ab7c85f15633.wav",
-                "entryId": "en:word:form-actions-cry-third-person",
+                "entryId": "en:word:actions-cry",
                 "startFrame": 45616,
-                "frameCount": 22137
+                "frameCount": 22137,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             }
         ],
         "sha256": "e16fdf91b316092a16e5dc770b228710cbbc3d17e39ab1974e5f41f4ffddeb17",
@@ -578,7 +600,11 @@
             },
             {
                 "path": "audio/27bbcd89bf897061f6263cf5b1e741dc880e77a37b84a26648e086541bf6975d.wav",
-                "entryId": "en:word:form-care-towels"
+                "entryId": "en:word:care-towel",
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             { "pauseMs": 400 }
         ],
@@ -598,9 +624,13 @@
             },
             {
                 "path": "audio/27bbcd89bf897061f6263cf5b1e741dc880e77a37b84a26648e086541bf6975d.wav",
-                "entryId": "en:word:form-care-towels",
+                "entryId": "en:word:care-towel",
                 "startFrame": 34199,
-                "frameCount": 29939
+                "frameCount": 29939,
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             }
         ],
         "sha256": "d2c5e7171b667c8a4cb36b4436d4e7fa0decd37654d8bb94b4dcf7bf592d7244",
@@ -627,7 +657,11 @@
             },
             {
                 "path": "audio/bda924c2c4116df9e3bfe3599856e66a2305d8fd57fc299ded5eec1d595f99c6.wav",
-                "entryId": "en:word:form-english-have-third-person"
+                "entryId": "en:word:have",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
@@ -653,9 +687,13 @@
             },
             {
                 "path": "audio/bda924c2c4116df9e3bfe3599856e66a2305d8fd57fc299ded5eec1d595f99c6.wav",
-                "entryId": "en:word:form-english-have-third-person",
+                "entryId": "en:word:have",
                 "startFrame": 14932,
-                "frameCount": 9951
+                "frameCount": 9951,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
@@ -681,89 +719,6 @@
         "input": {
             "language": "en",
             "label": "She has a new toothbrush.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact personal-care constituent PCM, including the English plural towels."
-        }
-    },
-    {
-        "path": "audio/e467b63d0cdb21fad9400f4ea4b7edc0cdaeeba6d6509a6a95136c66790a0943.wav",
-        "entryId": "en:sentence:care-example-toothpaste",
-        "label": "I buy toothpaste at the supermarket.",
-        "parts": [
-            {
-                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
-                "entryId": "en:word:i"
-            },
-            {
-                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
-                "entryId": "en:word:travel-buy"
-            },
-            {
-                "path": "audio/2a7df9a454b151405b2fe20f3053b323c0b7707fee9973e11f34cf5b1b438288.wav",
-                "entryId": "en:word:care-toothpaste"
-            },
-            {
-                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
-                "entryId": "en:particle:at"
-            },
-            {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the"
-            },
-            {
-                "path": "audio/578eaa7c2d92a0ee7eb8ddbe36c8f4fc9df41588cc286435751ad234cfb4f5c7.wav",
-                "entryId": "en:word:places-supermarket"
-            },
-            { "pauseMs": 400 }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
-                "entryId": "en:word:i",
-                "startFrame": 2400,
-                "frameCount": 6507
-            },
-            {
-                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
-                "entryId": "en:word:travel-buy",
-                "startFrame": 11067,
-                "frameCount": 19907
-            },
-            {
-                "path": "audio/2a7df9a454b151405b2fe20f3053b323c0b7707fee9973e11f34cf5b1b438288.wav",
-                "entryId": "en:word:care-toothpaste",
-                "startFrame": 33134,
-                "frameCount": 27709
-            },
-            {
-                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
-                "entryId": "en:particle:at",
-                "startFrame": 63003,
-                "frameCount": 9361
-            },
-            {
-                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
-                "entryId": "en:word:the",
-                "startFrame": 74524,
-                "frameCount": 8150
-            },
-            {
-                "path": "audio/578eaa7c2d92a0ee7eb8ddbe36c8f4fc9df41588cc286435751ad234cfb4f5c7.wav",
-                "entryId": "en:word:places-supermarket",
-                "startFrame": 84834,
-                "frameCount": 26595
-            }
-        ],
-        "sha256": "e467b63d0cdb21fad9400f4ea4b7edc0cdaeeba6d6509a6a95136c66790a0943",
-        "frames": 123189,
-        "input": {
-            "language": "en",
-            "label": "I buy toothpaste at the supermarket.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
         },

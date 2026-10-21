@@ -24,13 +24,15 @@
                 "readings": ["/iːts/"]
             }
         ],
-        "entries": ["en:word:form-english-eat-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:eat",
-                "setId": "english-eat",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "eats",
+                "reading": "/iːts/"
             }
         ],
         "sha256": "b76bd97acefb87fe5f093699a4acaf23be0022265533f3884109cebabb24b2ce",
@@ -61,13 +63,15 @@
                 "readings": ["/et/"]
             }
         ],
-        "entries": ["en:word:form-english-eat-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:eat",
-                "setId": "english-eat",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "ate",
+                "reading": "/et/"
             }
         ],
         "sha256": "50b4804222379c2c8d3685a707b39554df83282bc1e49bc772ff976aa8c70730",
@@ -98,13 +102,15 @@
                 "readings": ["/ˈiːtɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-eat-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:eat",
-                "setId": "english-eat",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "eating",
+                "reading": "/ˈiːtɪŋ/"
             }
         ],
         "sha256": "a3a1784a9873e39ad4ac376484b843210f372945978b8c2837a0c5d853b04f29",
@@ -135,13 +141,15 @@
                 "readings": ["/ˈiːtən/"]
             }
         ],
-        "entries": ["en:word:form-english-eat-past-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:eat",
-                "setId": "english-eat",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "eaten",
+                "reading": "/ˈiːtən/"
             }
         ],
         "sha256": "b06fc6fa09c90ded68df2263e9ac15254d51db7295603a811410daf8e8c0d114",
@@ -172,13 +180,15 @@
                 "readings": ["/drɪŋks/"]
             }
         ],
-        "entries": ["en:word:form-english-drink-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:drink",
-                "setId": "english-drink",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "drinks",
+                "reading": "/drɪŋks/"
             }
         ],
         "sha256": "9b194e78b4ece645eac89c81214acb3583920e673ad87df544e3155990cfa479",
@@ -209,13 +219,15 @@
                 "readings": ["/dræŋk/"]
             }
         ],
-        "entries": ["en:word:form-english-drink-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:drink",
-                "setId": "english-drink",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "drank",
+                "reading": "/dræŋk/"
             }
         ],
         "sha256": "629a2542b13d2fee43345a52c8d044c2b0a157fe04e48fbbd578f717ae17464c",
@@ -246,13 +258,15 @@
                 "readings": ["/ˈdrɪŋkɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-drink-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:drink",
-                "setId": "english-drink",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "drinking",
+                "reading": "/ˈdrɪŋkɪŋ/"
             }
         ],
         "sha256": "671ce02b8d1be8d98c68b91dfd1c74577be01ca689f7f9cb5fecdbbd673c2819",
@@ -283,13 +297,15 @@
                 "readings": ["/drʌŋk/"]
             }
         ],
-        "entries": ["en:word:form-english-drink-past-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:drink",
-                "setId": "english-drink",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "drunk",
+                "reading": "/drʌŋk/"
             }
         ],
         "sha256": "4dd228763878452b109523fa97600de3e0e407fef76409c201db233b70c2fad8",
@@ -320,13 +336,15 @@
                 "readings": ["/riːdz/"]
             }
         ],
-        "entries": ["en:word:form-english-read-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:read",
-                "setId": "english-read",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "reads",
+                "reading": "/riːdz/"
             }
         ],
         "sha256": "9a8ec0286384642188689957d366a78066721c1afaa62b0775f67dd83f98b93b",
@@ -361,15 +379,19 @@
         "variants": [
             {
                 "entryId": "en:word:read",
-                "setId": "english-read",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "read",
+                "reading": "/red/"
             },
             {
                 "entryId": "en:word:read",
-                "setId": "english-read",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "read",
+                "reading": "/red/"
             }
         ],
         "sha256": "ace33d8c31aa2355018062db6d8bb9dabf4848461786a2bf21069827fcb86f6a",
@@ -400,13 +422,15 @@
                 "readings": ["/ˈriːdɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-read-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:read",
-                "setId": "english-read",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "reading",
+                "reading": "/ˈriːdɪŋ/"
             }
         ],
         "sha256": "333cf9bba07c57bf8fa8c17abde088a2e84f133479ec1b467ff1325afbb954d1",
@@ -437,13 +461,15 @@
                 "readings": ["/raɪts/"]
             }
         ],
-        "entries": ["en:word:form-english-write-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:write",
-                "setId": "english-write",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "writes",
+                "reading": "/raɪts/"
             }
         ],
         "sha256": "5718d621598ec6041578efc4a35256f000550e1ddb2125641edf15d4c1b738d6",
@@ -474,13 +500,15 @@
                 "readings": ["/rəʊt/"]
             }
         ],
-        "entries": ["en:word:form-english-write-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:write",
-                "setId": "english-write",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "wrote",
+                "reading": "/rəʊt/"
             }
         ],
         "sha256": "9d84996b4a443baad083f89566b6ab6065046dff561b19828472bfb59c2d6e0e",
@@ -511,13 +539,15 @@
                 "readings": ["/ˈraɪtɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-write-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:write",
-                "setId": "english-write",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "writing",
+                "reading": "/ˈraɪtɪŋ/"
             }
         ],
         "sha256": "4b69d9a8fc76cdd4e083ecacf6fb90fb5fe188d37e6f6ea6215c1a50f23eda67",
@@ -548,13 +578,15 @@
                 "readings": ["/ˈrɪtən/"]
             }
         ],
-        "entries": ["en:word:form-english-write-past-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:write",
-                "setId": "english-write",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "written",
+                "reading": "/ˈrɪtən/"
             }
         ],
         "sha256": "8aec34b536ed886e96b9615e6234052e8b180b76f05facec9be973902e1b7258",
@@ -585,13 +617,15 @@
                 "readings": ["/siːz/"]
             }
         ],
-        "entries": ["en:word:form-english-see-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:see",
-                "setId": "english-see",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "sees",
+                "reading": "/siːz/"
             }
         ],
         "sha256": "bdc3889b7a7a119f59b86d76fb33590a90cec336927ff8918f4a070c6d12cab1",
@@ -622,13 +656,15 @@
                 "readings": ["/sɔː/"]
             }
         ],
-        "entries": ["en:word:form-english-see-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:see",
-                "setId": "english-see",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "saw",
+                "reading": "/sɔː/"
             }
         ],
         "sha256": "280f8df6baf8ed296c96e0c352660728601927adb196a6c3fa43e077ae222b18",
@@ -659,13 +695,15 @@
                 "readings": ["/ˈsiːɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-see-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:see",
-                "setId": "english-see",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "seeing",
+                "reading": "/ˈsiːɪŋ/"
             }
         ],
         "sha256": "338eb778c710839cd1b4c26d08a12efdf6c7131e571aef6dda46f6d3a4caadbc",

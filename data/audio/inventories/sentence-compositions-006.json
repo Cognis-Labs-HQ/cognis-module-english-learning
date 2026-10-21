@@ -199,7 +199,8 @@
             },
             {
                 "path": "audio/053666a90a57631a71a99a6f4e0b05f3cddd33d891447a1828f89e507f017172.wav",
-                "entryId": "en:word:travel-buy-past"
+                "entryId": "en:word:travel-buy",
+                "transformation": { "setId": "english-verb", "path": ["past"] }
             },
             {
                 "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
@@ -221,9 +222,10 @@
             },
             {
                 "path": "audio/053666a90a57631a71a99a6f4e0b05f3cddd33d891447a1828f89e507f017172.wav",
-                "entryId": "en:word:travel-buy-past",
+                "entryId": "en:word:travel-buy",
                 "startFrame": 11067,
-                "frameCount": 18793
+                "frameCount": 18793,
+                "transformation": { "setId": "english-verb", "path": ["past"] }
             },
             {
                 "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
@@ -262,7 +264,8 @@
             },
             {
                 "path": "audio/b32e6ec0c93a4f7edce364ece2f625d8a835fa19be1dac115f909bf9b3af6451.wav",
-                "entryId": "en:word:travel-arrive-past"
+                "entryId": "en:word:travel-arrive",
+                "transformation": { "setId": "english-verb", "path": ["past"] }
             },
             {
                 "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
@@ -288,9 +291,10 @@
             },
             {
                 "path": "audio/b32e6ec0c93a4f7edce364ece2f625d8a835fa19be1dac115f909bf9b3af6451.wav",
-                "entryId": "en:word:travel-arrive-past",
+                "entryId": "en:word:travel-arrive",
                 "startFrame": 22112,
-                "frameCount": 23251
+                "frameCount": 23251,
+                "transformation": { "setId": "english-verb", "path": ["past"] }
             },
             {
                 "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
@@ -485,7 +489,8 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
@@ -509,9 +514,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 39236,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
@@ -548,7 +554,8 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/8961cebd2cb22387c25879c12ff0c1490f5027478180e805fe8e46c6c2f2a49b.wav",
@@ -572,9 +579,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 39236,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/8961cebd2cb22387c25879c12ff0c1490f5027478180e805fe8e46c6c2f2a49b.wav",
@@ -607,7 +615,11 @@
             },
             {
                 "path": "audio/8b9e604e5d8aca23b6a316f955e0d8de408425c0b1bf191ab91daa67560c4552.wav",
-                "entryId": "en:word:form-english-go-third-person"
+                "entryId": "en:word:go",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
@@ -637,9 +649,13 @@
             },
             {
                 "path": "audio/8b9e604e5d8aca23b6a316f955e0d8de408425c0b1bf191ab91daa67560c4552.wav",
-                "entryId": "en:word:form-english-go-third-person",
+                "entryId": "en:word:go",
                 "startFrame": 14932,
-                "frameCount": 13282
+                "frameCount": 13282,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",

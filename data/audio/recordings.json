@@ -19,11 +19,7 @@
         "clipPaddingMs": 20
     },
     "inventoryVersion": 2,
-    "counts": {
-        "recordings": 779,
-        "compositions": 309,
-        "sentences": 49
-    },
+    "counts": { "recordings": 906, "compositions": 309, "sentences": 49 },
     "inventoryIndexes": [
         {
             "path": "indexes/characters-001.json",
@@ -31,19 +27,9 @@
             "sha256": "0ac3f07276a6ab84446b1d3c08927f7eca397f1dc885affa1973c3fd2482a070"
         },
         {
-            "path": "indexes/vocabulary-001.json",
-            "count": 45,
-            "sha256": "8b69d0d2e7743b46a0f0f784e280f630c8d2bbbee8407fcd046b579ea4380600"
-        },
-        {
-            "path": "indexes/vocabulary-002.json",
-            "count": 6,
-            "sha256": "63d380921b25952c4d420f8660538413076c8218babf7c7e1d804c4a6c4a500e"
-        },
-        {
             "path": "indexes/transformations-001.json",
-            "count": 11,
-            "sha256": "db04217f78d65486bac080a5b6010297fee0778cbe5321025d5eb7bc3b7f25d9"
+            "count": 19,
+            "sha256": "3c7287f9c4858f46ac1f34739d4bc2a86fc2662726eac955f4ffef17ca55d238"
         },
         {
             "path": "indexes/sentences-001.json",
@@ -51,9 +37,19 @@
             "sha256": "098febacd77547cab03c359913c616e7e5824cbd9042593c3e152c19fae5e90c"
         },
         {
+            "path": "indexes/vocabulary-001.json",
+            "count": 50,
+            "sha256": "bbc9132080b3babeceee63538eae28016de390a9e394ba1d29eed583896a99e6"
+        },
+        {
+            "path": "indexes/vocabulary-002.json",
+            "count": 11,
+            "sha256": "14dc52c9125dc41f5484b9e2222bac5139bc09ac7a2ff542077bf06bb10e9753"
+        },
+        {
             "path": "indexes/sentence-compositions-001.json",
-            "count": 42,
-            "sha256": "98cd6ac6375e95f80e245760920024b2282be03f8f952396c4001b274d509b33"
+            "count": 50,
+            "sha256": "88109c54f8d8b73c8cc2a20cbc0872655768bef6b2581164d0bf9d73a895518c"
         }
     ]
 }

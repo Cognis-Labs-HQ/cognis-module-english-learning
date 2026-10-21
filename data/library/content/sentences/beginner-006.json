@@ -146,9 +146,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["is"]
+                }
             },
             {
                 "entryId": "en:word:happy",
@@ -166,9 +170,13 @@
                 "position": 4
             },
             {
-                "entryId": "en:word:form-english-have-third-person",
+                "entryId": "en:word:have",
                 "relation": "words",
-                "position": 5
+                "position": 5,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "entryId": "en:word:a",

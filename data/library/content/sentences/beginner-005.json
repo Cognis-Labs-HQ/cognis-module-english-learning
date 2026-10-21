@@ -9,9 +9,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-english-go-past",
+                "entryId": "en:word:go",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["past"]
+                }
             },
             {
                 "entryId": "en:word:home",
@@ -43,9 +47,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-english-be-were",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["were"]
+                }
             },
             {
                 "entryId": "en:word:happy",
@@ -77,14 +85,22 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-english-be-am",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["am"]
+                }
             },
             {
-                "entryId": "en:word:form-english-read-present-participle",
+                "entryId": "en:word:read",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["present-participle"]
+                }
             },
             {
                 "entryId": "en:word:a",
@@ -121,14 +137,22 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["is"]
+                }
             },
             {
-                "entryId": "en:word:form-english-drink-present-participle",
+                "entryId": "en:word:drink",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["present-participle"]
+                }
             },
             {
                 "entryId": "en:word:tea",
@@ -160,14 +184,22 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["is"]
+                }
             },
             {
-                "entryId": "en:word:form-english-learn-present-participle",
+                "entryId": "en:word:learn",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["present-participle"]
+                }
             },
             {
                 "entryId": "en:word:english",
@@ -204,14 +236,22 @@
                 "position": 1
             },
             {
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["is"]
+                }
             },
             {
-                "entryId": "en:word:form-english-big-comparative",
+                "entryId": "en:word:big",
                 "relation": "words",
-                "position": 3
+                "position": 3,
+                "transformation": {
+                    "setId": "english-adjective",
+                    "path": ["comparative"]
+                }
             },
             {
                 "entryId": "en:particle:period",
@@ -238,9 +278,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["is"]
+                }
             },
             {
                 "entryId": "en:word:the",
@@ -248,9 +292,13 @@
                 "position": 2
             },
             {
-                "entryId": "en:word:form-english-good-superlative",
+                "entryId": "en:word:good",
                 "relation": "words",
-                "position": 3
+                "position": 3,
+                "transformation": {
+                    "setId": "english-adjective",
+                    "path": ["superlative"]
+                }
             },
             {
                 "entryId": "en:word:book",

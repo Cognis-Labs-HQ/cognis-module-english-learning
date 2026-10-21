@@ -11,7 +11,7 @@
             ]
         },
         "class": "lexical:noun",
-        "tags": ["noun", "beginner", "plural-night", "plural"],
+        "tags": ["noun", "beginner", "transform:plural"],
         "references": [
             {
                 "entryId": "en:char:n-lowercase",
@@ -56,7 +56,7 @@
             ]
         },
         "class": "lexical:noun",
-        "tags": ["noun", "beginner", "plural-morning", "plural"],
+        "tags": ["noun", "beginner", "transform:plural"],
         "references": [
             {
                 "entryId": "en:char:m-lowercase",
@@ -111,7 +111,7 @@
             ]
         },
         "class": "lexical:noun",
-        "tags": ["noun", "beginner", "plural-name", "plural"],
+        "tags": ["noun", "beginner", "transform:plural"],
         "references": [
             {
                 "entryId": "en:char:n-lowercase",
@@ -206,7 +206,7 @@
             ]
         },
         "class": "lexical:noun",
-        "tags": ["noun", "beginner", "plural-language", "plural"],
+        "tags": ["noun", "beginner", "transform:plural"],
         "references": [
             {
                 "entryId": "en:char:l-lowercase",
@@ -311,7 +311,7 @@
             ]
         },
         "class": "lexical:noun",
-        "tags": ["noun", "beginner", "plural-question", "plural"],
+        "tags": ["noun", "beginner", "transform:plural"],
         "references": [
             {
                 "entryId": "en:char:q-lowercase",
@@ -371,7 +371,7 @@
             ]
         },
         "class": "lexical:noun",
-        "tags": ["noun", "beginner", "plural-answer", "plural"],
+        "tags": ["noun", "beginner", "transform:plural"],
         "references": [
             {
                 "entryId": "en:char:a-lowercase",
@@ -421,7 +421,7 @@
             ]
         },
         "class": "lexical:adjective",
-        "tags": ["adjective", "beginner", "paradigm-big"],
+        "tags": ["adjective", "beginner", "transform:adjective"],
         "references": [
             {
                 "entryId": "en:char:b-lowercase",
@@ -456,7 +456,7 @@
             ]
         },
         "class": "lexical:adjective",
-        "tags": ["adjective", "beginner", "paradigm-small"],
+        "tags": ["adjective", "beginner", "transform:adjective"],
         "references": [
             {
                 "entryId": "en:char:s-lowercase",
@@ -501,7 +501,12 @@
             ]
         },
         "class": "lexical:adjective",
-        "tags": ["adjective", "beginner", "paradigm-good"],
+        "tags": [
+            "adjective",
+            "beginner",
+            "transform:adjective",
+            "transform:manner-adverb"
+        ],
         "references": [
             {
                 "entryId": "en:char:g-lowercase",
@@ -541,7 +546,12 @@
             ]
         },
         "class": "lexical:adjective",
-        "tags": ["adjective", "beginner", "paradigm-bad"],
+        "tags": [
+            "adjective",
+            "beginner",
+            "transform:adjective",
+            "transform:manner-adverb"
+        ],
         "references": [
             {
                 "entryId": "en:char:b-lowercase",

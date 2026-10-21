@@ -18,9 +18,13 @@
                 "position": 1
             },
             {
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["is"]
+                }
             },
             {
                 "entryId": "en:particle:on",
@@ -106,9 +110,13 @@
                 "position": 1
             },
             {
-                "entryId": "en:word:form-tableware-spoons",
+                "entryId": "en:word:tableware-spoon",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             {
                 "entryId": "en:particle:period",
@@ -140,9 +148,13 @@
                 "position": 1
             },
             {
-                "entryId": "en:word:form-tableware-forks",
+                "entryId": "en:word:tableware-fork",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             {
                 "entryId": "en:particle:period",

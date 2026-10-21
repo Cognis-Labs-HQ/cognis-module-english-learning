@@ -1,0 +1,35 @@
+[
+    {
+        "path": "audio/6f54ecef86b26ff64715eac16ec988e9d1ac8b5a05d1572e6d763fe503371389.wav",
+        "text": "Good morning",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˌɡʊd ˈmɔːnɪŋ\">Good morning</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "Good morning",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˌɡʊd ˈmɔːnɪŋ/"]
+            }
+        ],
+        "entries": ["en:word:greetings-morning"],
+        "variants": [],
+        "sha256": "6f54ecef86b26ff64715eac16ec988e9d1ac8b5a05d1572e6d763fe503371389",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "35d2e55b5d77fa39c434f43d373ddcef427ef92b206ec7802e6cb86030269039"
+        }
+    }
+]

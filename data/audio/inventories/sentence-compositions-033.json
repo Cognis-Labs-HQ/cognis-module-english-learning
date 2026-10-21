@@ -14,15 +14,14 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/98782f42d170453fb36b9f099aa18d8b008b7cf767815da60012a078c453f916.wav",
                 "entryId": "en:word:location-inside"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -40,9 +39,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 22940,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/98782f42d170453fb36b9f099aa18d8b008b7cf767815da60012a078c453f916.wav",
@@ -81,9 +81,7 @@
                 "path": "audio/9918753f234d27ca21beedfc5d18c482a99354379a64960f1c8c212c9ca1ed62.wav",
                 "entryId": "en:word:location-outside"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -136,9 +134,7 @@
                 "path": "audio/9918753f234d27ca21beedfc5d18c482a99354379a64960f1c8c212c9ca1ed62.wav",
                 "entryId": "en:word:location-outside"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -191,9 +187,7 @@
                 "path": "audio/98782f42d170453fb36b9f099aa18d8b008b7cf767815da60012a078c453f916.wav",
                 "entryId": "en:word:location-inside"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [

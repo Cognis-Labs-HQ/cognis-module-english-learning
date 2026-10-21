@@ -14,15 +14,14 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/374ac7761def3d3f62fcf80b95f0c8954870096455ecdba6bf44791b5f5cbf89.wav",
                 "entryId": "en:word:material-feel-hard"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -40,9 +39,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 45923,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/374ac7761def3d3f62fcf80b95f0c8954870096455ecdba6bf44791b5f5cbf89.wav",
@@ -83,15 +83,17 @@
             },
             {
                 "path": "audio/4437d58d58155666194740e38c6c59b440cba3434ba099aa651f490c5d08f646.wav",
-                "entryId": "en:word:form-material-feel-soft-comparative"
+                "entryId": "en:word:material-feel-soft",
+                "transformation": {
+                    "setId": "english-adjective",
+                    "path": ["comparative"]
+                }
             },
             {
                 "path": "audio/573119eeb3bde5d7225b1aebd7362f910c51cd66901bfe4b576671a7877231e5.wav",
                 "entryId": "en:word:furnishings-pillow"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -115,9 +117,13 @@
             },
             {
                 "path": "audio/4437d58d58155666194740e38c6c59b440cba3434ba099aa651f490c5d08f646.wav",
-                "entryId": "en:word:form-material-feel-soft-comparative",
+                "entryId": "en:word:material-feel-soft",
                 "startFrame": 37854,
-                "frameCount": 22137
+                "frameCount": 22137,
+                "transformation": {
+                    "setId": "english-adjective",
+                    "path": ["comparative"]
+                }
             },
             {
                 "path": "audio/573119eeb3bde5d7225b1aebd7362f910c51cd66901bfe4b576671a7877231e5.wav",
@@ -150,7 +156,11 @@
             },
             {
                 "path": "audio/54f44ab948b604a064c0dfc0207fd106d6716fdf7aebdd0cfb7411c2a4bd174d.wav",
-                "entryId": "en:word:form-material-feel-soft-superlative"
+                "entryId": "en:word:material-feel-soft",
+                "transformation": {
+                    "setId": "english-adjective",
+                    "path": ["superlative"]
+                }
             },
             {
                 "path": "audio/4bb572b42a656ce0c965de7d8cf8b7d38a4e1b3d3381e3d4504b9b8d831e8b69.wav",
@@ -158,15 +168,14 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
                 "entryId": "en:word:here"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -178,9 +187,13 @@
             },
             {
                 "path": "audio/54f44ab948b604a064c0dfc0207fd106d6716fdf7aebdd0cfb7411c2a4bd174d.wav",
-                "entryId": "en:word:form-material-feel-soft-superlative",
+                "entryId": "en:word:material-feel-soft",
                 "startFrame": 12710,
-                "frameCount": 26595
+                "frameCount": 26595,
+                "transformation": {
+                    "setId": "english-adjective",
+                    "path": ["superlative"]
+                }
             },
             {
                 "path": "audio/4bb572b42a656ce0c965de7d8cf8b7d38a4e1b3d3381e3d4504b9b8d831e8b69.wav",
@@ -190,9 +203,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 67991,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
@@ -229,15 +243,14 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/374ac7761def3d3f62fcf80b95f0c8954870096455ecdba6bf44791b5f5cbf89.wav",
                 "entryId": "en:word:material-feel-hard"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -255,9 +268,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 22974,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/374ac7761def3d3f62fcf80b95f0c8954870096455ecdba6bf44791b5f5cbf89.wav",

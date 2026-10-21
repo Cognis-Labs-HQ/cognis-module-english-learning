@@ -24,13 +24,15 @@
                 "readings": ["/helps/"]
             }
         ],
-        "entries": ["en:word:form-english-help-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:help",
-                "setId": "english-help",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "helps",
+                "reading": "/helps/"
             }
         ],
         "sha256": "5f8600961aaf7be2359e0ed56faf93db6c9e92933dad425e34b3a68dabeb593c",
@@ -61,22 +63,23 @@
                 "readings": ["/helpt/"]
             }
         ],
-        "entries": [
-            "en:word:form-english-help-past",
-            "en:word:form-english-help-past-participle"
-        ],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:help",
-                "setId": "english-help",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "helped",
+                "reading": "/helpt/"
             },
             {
                 "entryId": "en:word:help",
-                "setId": "english-help",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "helped",
+                "reading": "/helpt/"
             }
         ],
         "sha256": "3a25f063d004bde4cd254c8fb2e40cfe954e93490efbb4392826db01b0ced9cd",
@@ -107,13 +110,15 @@
                 "readings": ["/ˈhelpɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-help-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:help",
-                "setId": "english-help",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "helping",
+                "reading": "/ˈhelpɪŋ/"
             }
         ],
         "sha256": "c22baeb30095a95e04a3c70124f25808c85d5c2420ef24a4b7d3f53b7871d435",
@@ -144,13 +149,15 @@
                 "readings": ["/ˈəʊpənz/"]
             }
         ],
-        "entries": ["en:word:form-english-open-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:open",
-                "setId": "english-open",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "opens",
+                "reading": "/ˈəʊpənz/"
             }
         ],
         "sha256": "b56ae1edb6b42c1b1e069ab3bf9dfcef4cdc73e25d1a4ea6e01a240ae2ecc783",
@@ -181,22 +188,23 @@
                 "readings": ["/ˈəʊpənd/"]
             }
         ],
-        "entries": [
-            "en:word:form-english-open-past",
-            "en:word:form-english-open-past-participle"
-        ],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:open",
-                "setId": "english-open",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "opened",
+                "reading": "/ˈəʊpənd/"
             },
             {
                 "entryId": "en:word:open",
-                "setId": "english-open",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "opened",
+                "reading": "/ˈəʊpənd/"
             }
         ],
         "sha256": "5e80a5964b4486d6b4315ed0e28a2239d0816c76e0d1b7d12e9d9057fc34d5e9",
@@ -227,13 +235,15 @@
                 "readings": ["/ˈəʊpənɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-open-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:open",
-                "setId": "english-open",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "opening",
+                "reading": "/ˈəʊpənɪŋ/"
             }
         ],
         "sha256": "02f3fcc6dfe6412192b7d3e0d30855fcf713de486bde251bc0f6b88d152905e1",
@@ -264,13 +274,15 @@
                 "readings": ["/ˈkləʊzɪz/"]
             }
         ],
-        "entries": ["en:word:form-english-close-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:close",
-                "setId": "english-close",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "closes",
+                "reading": "/ˈkləʊzɪz/"
             }
         ],
         "sha256": "0131cec6fc37bac312b99511c5208cd0c60d7a038300690d7c4974f6d491b018",
@@ -301,22 +313,23 @@
                 "readings": ["/kləʊzd/"]
             }
         ],
-        "entries": [
-            "en:word:form-english-close-past",
-            "en:word:form-english-close-past-participle"
-        ],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:close",
-                "setId": "english-close",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "closed",
+                "reading": "/kləʊzd/"
             },
             {
                 "entryId": "en:word:close",
-                "setId": "english-close",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "closed",
+                "reading": "/kləʊzd/"
             }
         ],
         "sha256": "c3362e68b866540eec8c466e86991e59d3c857729654e37e54c3da5600e70952",
@@ -347,13 +360,15 @@
                 "readings": ["/ˈkləʊzɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-close-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:close",
-                "setId": "english-close",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "closing",
+                "reading": "/ˈkləʊzɪŋ/"
             }
         ],
         "sha256": "9b513840613fea04152f75e49286e5efa571f44ae0ebbb5993314d0119ecdb5e",
@@ -384,13 +399,15 @@
                 "readings": ["/bʊks/"]
             }
         ],
-        "entries": ["en:word:books"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:book",
-                "setId": "noun-book",
+                "setId": "english-noun",
                 "path": ["plural"],
-                "state": "plural"
+                "state": "plural",
+                "label": "books",
+                "reading": "/bʊks/"
             }
         ],
         "sha256": "18577691886202bc2ee5a21ba4761fb145a52d935140907c7c6c279b0aff6e23",
@@ -425,9 +442,11 @@
         "variants": [
             {
                 "entryId": "en:word:apple",
-                "setId": "noun-apple",
+                "setId": "english-noun",
                 "path": ["plural"],
-                "state": "plural"
+                "state": "plural",
+                "label": "apples",
+                "reading": "/ˈæpəlz/"
             }
         ],
         "sha256": "00290fac3523932a3e45cf6af0a51935159c2a12bb05a3de1eb42124840826ec",
@@ -462,9 +481,11 @@
         "variants": [
             {
                 "entryId": "en:word:dog",
-                "setId": "noun-dog",
+                "setId": "english-noun",
                 "path": ["plural"],
-                "state": "plural"
+                "state": "plural",
+                "label": "dogs",
+                "reading": "/dɒɡz/"
             }
         ],
         "sha256": "3a34fafd4fa4216dd73d1e3ff045d76a00aee03d87bf80d5532c29724d04785b",
@@ -499,9 +520,11 @@
         "variants": [
             {
                 "entryId": "en:word:cat",
-                "setId": "noun-cat",
+                "setId": "english-noun",
                 "path": ["plural"],
-                "state": "plural"
+                "state": "plural",
+                "label": "cats",
+                "reading": "/kæts/"
             }
         ],
         "sha256": "03d70a9dc49b9ef03832fe0876b11494805eb1d1e2b4d3bec3c59f6b5890de0f",
@@ -536,9 +559,11 @@
         "variants": [
             {
                 "entryId": "en:word:bird",
-                "setId": "noun-bird",
+                "setId": "english-noun",
                 "path": ["plural"],
-                "state": "plural"
+                "state": "plural",
+                "label": "birds",
+                "reading": "/bɜːdz/"
             }
         ],
         "sha256": "3ad2b383106cd76040656e4cbd374cce15a365ec6234e89b491b1cea1c95618f",
@@ -573,9 +598,11 @@
         "variants": [
             {
                 "entryId": "en:word:house",
-                "setId": "noun-house",
+                "setId": "english-noun",
                 "path": ["plural"],
-                "state": "plural"
+                "state": "plural",
+                "label": "houses",
+                "reading": "/haʊzɪz/"
             }
         ],
         "sha256": "6dd023ecc021bb34abe1291d78d75a118d50fdf1225adab370d6f9d489d56eba",
@@ -610,9 +637,11 @@
         "variants": [
             {
                 "entryId": "en:word:home",
-                "setId": "noun-home",
+                "setId": "english-noun",
                 "path": ["plural"],
-                "state": "plural"
+                "state": "plural",
+                "label": "homes",
+                "reading": "/həʊmz/"
             }
         ],
         "sha256": "57b430c9b60004448e21643ae359ab1e4f10fbc187078a7319cc915e64092bfd",
@@ -647,9 +676,11 @@
         "variants": [
             {
                 "entryId": "en:word:room",
-                "setId": "noun-room",
+                "setId": "english-noun",
                 "path": ["plural"],
-                "state": "plural"
+                "state": "plural",
+                "label": "rooms",
+                "reading": "/ruːmz/"
             }
         ],
         "sha256": "9156758f3caeeb4ef4b43bb1671da8094db3c74945a75c77e251712b3337363c",
@@ -684,9 +715,11 @@
         "variants": [
             {
                 "entryId": "en:word:door",
-                "setId": "noun-door",
+                "setId": "english-noun",
                 "path": ["plural"],
-                "state": "plural"
+                "state": "plural",
+                "label": "doors",
+                "reading": "/dɔːz/"
             }
         ],
         "sha256": "d0b363eb8206fdc96c0adab7a768e1e79d53d31d7e164f47712d22195f0dd76e",

@@ -79,18 +79,6 @@ const originalWordShards = new Set([
     "household-1.json",
     "household-2.json",
     "household-3.json",
-    "inflected-001.json",
-    "inflected-002.json",
-    "inflected-003.json",
-    "inflected-004.json",
-    "inflected-005.json",
-    "inflected-006.json",
-    "inflected-007.json",
-    "inflected-008.json",
-    "inflected-009.json",
-    "inflected-010.json",
-    "inflected-011.json",
-    "inflected-012.json",
     "sentence-structures-001.json",
     "sentence-structures-002.json",
     "sentence-structures-003.json",
@@ -155,32 +143,22 @@ function validateVocabulary(record, catalog = byId) {
         ),
         `${record.id}: missing definition`,
     );
-    if (record.id.includes(":form-") || record.tags?.includes("inflected")) {
-        assert.equal(
-            record.hidden,
-            true,
-            `${record.id}: form must remain hidden`,
-        );
+    assert.notEqual(
+        record.hidden,
+        true,
+        `${record.id}: lexical word must remain visible`,
+    );
+    for (const flag of record.tags.filter((tag) =>
+        tag.startsWith("transform:"),
+    ))
         assert.ok(
-            record.tags.includes("inflected"),
-            `${record.id}: missing inflected tag`,
+            schema.transformSets.some(
+                (set) =>
+                    set.flag === flag &&
+                    set.matchTags.every((tag) => record.tags.includes(tag)),
+            ),
+            `${record.id}: unresolved transform flag`,
         );
-        const parents = record.references.filter(
-            ({ relation }) => relation === "inflected-from",
-        );
-        assert.equal(parents.length, 1, `${record.id}: missing base form`);
-        const parent = catalog.get(parents[0].entryId);
-        assert.ok(
-            parent && !parent.hidden && parent.class === record.class,
-            `${record.id}: invalid base form`,
-        );
-    } else {
-        assert.notEqual(
-            record.hidden,
-            true,
-            `${record.id}: lexical word must remain visible`,
-        );
-    }
 }
 
 test("schema and card fields retain the pre-expansion contract", () => {
@@ -204,7 +182,7 @@ test("schema contract rejects added usage fields even when declared", () => {
     );
 });
 
-test("expanded vocabulary preserves lexical roles, definitions and form parents", () => {
+test("expanded vocabulary preserves base lexical roles, definitions and grammatical families", () => {
     for (const word of vocabulary) validateVocabulary(word);
 });
 
@@ -234,17 +212,13 @@ test("every expanded visible word remains selectable in a starter deck", () => {
     }
 });
 
-test("hidden inflections reject the original missing-parent and missing-tag defects", () => {
-    const form = structuredClone(
-        vocabulary.find(({ id }) => id === "en:word:form-animals-rabbits"),
+test("base lexical sources reject unsupported grammatical declarations", () => {
+    const source = structuredClone(
+        vocabulary.find(({ tags }) => tags.includes("verb")),
     );
-    form.references = form.references.filter(
-        ({ relation }) => relation !== "inflected-from",
+    source.tags.push("transform:unsupported");
+    assert.throws(
+        () => validateVocabulary(source),
+        /unresolved transform flag/,
     );
-    assert.throws(() => validateVocabulary(form), /missing base form/);
-    const untagged = structuredClone(
-        vocabulary.find(({ id }) => id === "en:word:form-animals-rabbits"),
-    );
-    untagged.tags = untagged.tags.filter((tag) => tag !== "inflected");
-    assert.throws(() => validateVocabulary(untagged), /missing inflected tag/);
 });

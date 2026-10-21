@@ -1,0 +1,686 @@
+[
+    {
+        "path": "audio/cc493b80d8f0578079e8712a741afdcc605e6054f8c97ad4df750b40211f4403.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "want to live",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɒnt tə lɪv\">want to live</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "want to live",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɒnt tə lɪv/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:live",
+                "setId": "english-verb",
+                "path": ["desire"],
+                "state": "desire",
+                "label": "want to live",
+                "reading": "/wɒnt tə lɪv/"
+            }
+        ],
+        "sha256": "cc493b80d8f0578079e8712a741afdcc605e6054f8c97ad4df750b40211f4403",
+        "frames": 28824
+    },
+    {
+        "path": "audio/476320249589c4367cf0fd3ca3c01be3ffa18f173db6d3a46dbf1852fdb77705.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "wanted to close",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɒntɪd tə kləʊz\">wanted to close</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "wanted to close",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɒntɪd tə kləʊz/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:close",
+                "setId": "english-verb",
+                "path": ["desire", "desire-past"],
+                "state": "desire-past",
+                "label": "wanted to close",
+                "reading": "/wɒntɪd tə kləʊz/"
+            }
+        ],
+        "sha256": "476320249589c4367cf0fd3ca3c01be3ffa18f173db6d3a46dbf1852fdb77705",
+        "frames": 35511
+    },
+    {
+        "path": "audio/97f2269a9d294ac44187c2b98d036c85136223b4b39db72476344d4eee661de2.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "heavily",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈhevɪli\">heavily</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "heavily",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈhevɪli/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:qualities-heavy",
+                "setId": "english-manner-adverb",
+                "path": ["adverb"],
+                "state": "adverb",
+                "label": "heavily",
+                "reading": "/ˈhevɪli/"
+            }
+        ],
+        "sha256": "97f2269a9d294ac44187c2b98d036c85136223b4b39db72476344d4eee661de2",
+        "frames": 23251
+    },
+    {
+        "path": "audio/ac2250b13da9557cf55639e60c556ade2241bad157239b902dda700eaffa6811.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "wanted to fold",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɒntɪd tə fəʊld\">wanted to fold</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "wanted to fold",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɒntɪd tə fəʊld/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:craft-fold",
+                "setId": "english-verb",
+                "path": ["desire", "desire-past"],
+                "state": "desire-past",
+                "label": "wanted to fold",
+                "reading": "/wɒntɪd tə fəʊld/"
+            }
+        ],
+        "sha256": "ac2250b13da9557cf55639e60c556ade2241bad157239b902dda700eaffa6811",
+        "frames": 35511
+    },
+    {
+        "path": "audio/076e153150c795d071dc315e214b3acf5c9fc3fd069e9937931bb68784575934.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "want to understand",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɒnt tə ˌʌndəˈstænd\">want to understand</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "want to understand",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɒnt tə ˌʌndəˈstænd/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:comprehension-understand",
+                "setId": "english-verb",
+                "path": ["desire"],
+                "state": "desire",
+                "label": "want to understand",
+                "reading": "/wɒnt tə ˌʌndəˈstænd/"
+            }
+        ],
+        "sha256": "076e153150c795d071dc315e214b3acf5c9fc3fd069e9937931bb68784575934",
+        "frames": 38855
+    },
+    {
+        "path": "audio/2dc43ab8ba8963ac353e8df6c209b01cb715971a9fa79e8a2b8a26e117cc41b6.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "wanted to live",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɒntɪd tə lɪv\">wanted to live</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "wanted to live",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɒntɪd tə lɪv/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:live",
+                "setId": "english-verb",
+                "path": ["desire", "desire-past"],
+                "state": "desire-past",
+                "label": "wanted to live",
+                "reading": "/wɒntɪd tə lɪv/"
+            }
+        ],
+        "sha256": "2dc43ab8ba8963ac353e8df6c209b01cb715971a9fa79e8a2b8a26e117cc41b6",
+        "frames": 29939
+    },
+    {
+        "path": "audio/e06cbf4a295d36738dd07273b974ee4fdeb82d27f5ff13740a9926f9ae18bbff.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "wanted to take",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɒntɪd tə teɪk\">wanted to take</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "wanted to take",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɒntɪd tə teɪk/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:take",
+                "setId": "english-verb",
+                "path": ["desire", "desire-past"],
+                "state": "desire-past",
+                "label": "wanted to take",
+                "reading": "/wɒntɪd tə teɪk/"
+            }
+        ],
+        "sha256": "e06cbf4a295d36738dd07273b974ee4fdeb82d27f5ff13740a9926f9ae18bbff",
+        "frames": 33282
+    },
+    {
+        "path": "audio/6378d2877c1fc0c94ed79076325b38052c2dced1963712d9d8b03a217a45048a.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "want to sleep",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɒnt tə sliːp\">want to sleep</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "want to sleep",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɒnt tə sliːp/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:sleep",
+                "setId": "english-verb",
+                "path": ["desire"],
+                "state": "desire",
+                "label": "want to sleep",
+                "reading": "/wɒnt tə sliːp/"
+            }
+        ],
+        "sha256": "6378d2877c1fc0c94ed79076325b38052c2dced1963712d9d8b03a217a45048a",
+        "frames": 29939
+    },
+    {
+        "path": "audio/8e5164dd0a5341ef4c02a37308a550b98946fdca6acfc39ae27e076677ad032f.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "want to wash",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɒnt tə wɒʃ\">want to wash</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "want to wash",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɒnt tə wɒʃ/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:household-wash",
+                "setId": "english-verb",
+                "path": ["desire"],
+                "state": "desire",
+                "label": "want to wash",
+                "reading": "/wɒnt tə wɒʃ/"
+            }
+        ],
+        "sha256": "8e5164dd0a5341ef4c02a37308a550b98946fdca6acfc39ae27e076677ad032f",
+        "frames": 31053
+    },
+    {
+        "path": "audio/f3f215ad867a87889081696d3227439c8ab457a5b5f08350b598850f727d7f54.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "want to jump",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɒnt tə dʒʌmp\">want to jump</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "want to jump",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɒnt tə dʒʌmp/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:actions-jump",
+                "setId": "english-verb",
+                "path": ["desire"],
+                "state": "desire",
+                "label": "want to jump",
+                "reading": "/wɒnt tə dʒʌmp/"
+            }
+        ],
+        "sha256": "f3f215ad867a87889081696d3227439c8ab457a5b5f08350b598850f727d7f54",
+        "frames": 31053
+    },
+    {
+        "path": "audio/67e8afac0c4448e55df7eae1b12cd739497955b54b782db92449c84b9cfd004f.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "want to eat",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɒnt tə iːt\">want to eat</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "want to eat",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɒnt tə iːt/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:eat",
+                "setId": "english-verb",
+                "path": ["desire"],
+                "state": "desire",
+                "label": "want to eat",
+                "reading": "/wɒnt tə iːt/"
+            }
+        ],
+        "sha256": "67e8afac0c4448e55df7eae1b12cd739497955b54b782db92449c84b9cfd004f",
+        "frames": 26595
+    },
+    {
+        "path": "audio/a7f7cecfc78204efff3db7bf61f71bc406dc577b441a5643161da931dd9f160c.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "deeply",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"diːpli\">deeply</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "deeply",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/diːpli/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:depth-deep",
+                "setId": "english-manner-adverb",
+                "path": ["adverb"],
+                "state": "adverb",
+                "label": "deeply",
+                "reading": "/diːpli/"
+            }
+        ],
+        "sha256": "a7f7cecfc78204efff3db7bf61f71bc406dc577b441a5643161da931dd9f160c",
+        "frames": 23251
+    },
+    {
+        "path": "audio/8a84376edd16edb3dcbd89424ef5d5a93d8ee34526a872d483ad86be9e994ba7.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "wanted to eat",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɒntɪd tə iːt\">wanted to eat</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "wanted to eat",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɒntɪd tə iːt/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:eat",
+                "setId": "english-verb",
+                "path": ["desire", "desire-past"],
+                "state": "desire-past",
+                "label": "wanted to eat",
+                "reading": "/wɒntɪd tə iːt/"
+            }
+        ],
+        "sha256": "8a84376edd16edb3dcbd89424ef5d5a93d8ee34526a872d483ad86be9e994ba7",
+        "frames": 31053
+    },
+    {
+        "path": "audio/20bfc8e43e38d8b60112dbbdc5e22d0678bdfe53cd2091eda9252f401a9cd2fb.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "want to have",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɒnt tə hæv\">want to have</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "want to have",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɒnt tə hæv/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:have",
+                "setId": "english-verb",
+                "path": ["desire"],
+                "state": "desire",
+                "label": "want to have",
+                "reading": "/wɒnt tə hæv/"
+            }
+        ],
+        "sha256": "20bfc8e43e38d8b60112dbbdc5e22d0678bdfe53cd2091eda9252f401a9cd2fb",
+        "frames": 28824
+    },
+    {
+        "path": "audio/5bd268bbfd5f425672e4b5a29a26efd9eaccc6c7cd056bfb9cc347ee28556139.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "shallowly",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈʃæləʊli\">shallowly</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "shallowly",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈʃæləʊli/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:depth-shallow",
+                "setId": "english-manner-adverb",
+                "path": ["adverb"],
+                "state": "adverb",
+                "label": "shallowly",
+                "reading": "/ˈʃæləʊli/"
+            }
+        ],
+        "sha256": "5bd268bbfd5f425672e4b5a29a26efd9eaccc6c7cd056bfb9cc347ee28556139",
+        "frames": 25480
+    },
+    {
+        "path": "audio/d108ff38898cb81f124c50c9c2b6449bf76dd953e3cd61b2cf902983c6f4ba4f.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "want to stand",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɒnt tə stænd\">want to stand</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "want to stand",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɒnt tə stænd/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:posture-stand",
+                "setId": "english-verb",
+                "path": ["desire"],
+                "state": "desire",
+                "label": "want to stand",
+                "reading": "/wɒnt tə stænd/"
+            }
+        ],
+        "sha256": "d108ff38898cb81f124c50c9c2b6449bf76dd953e3cd61b2cf902983c6f4ba4f",
+        "frames": 29939
+    },
+    {
+        "path": "audio/546b97c6cc2cbffdbee59b5c295df31ff53edbd2b82dc2c83cc02f70a63a76b1.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "wanted to go",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"wɒntɪd tə ɡəʊ\">wanted to go</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "wanted to go",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/wɒntɪd tə ɡəʊ/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:go",
+                "setId": "english-verb",
+                "path": ["desire", "desire-past"],
+                "state": "desire-past",
+                "label": "wanted to go",
+                "reading": "/wɒntɪd tə ɡəʊ/"
+            }
+        ],
+        "sha256": "546b97c6cc2cbffdbee59b5c295df31ff53edbd2b82dc2c83cc02f70a63a76b1",
+        "frames": 31053
+    },
+    {
+        "path": "audio/58cee31c1fad5506fe0719edc89378dcdabdb03d96b6519905d3dd5cb5f909a6.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "difficultly",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈdɪfɪkəltli\">difficultly</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "difficultly",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈdɪfɪkəltli/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:qualities-difficult",
+                "setId": "english-manner-adverb",
+                "path": ["adverb"],
+                "state": "adverb",
+                "label": "difficultly",
+                "reading": "/ˈdɪfɪkəltli/"
+            }
+        ],
+        "sha256": "58cee31c1fad5506fe0719edc89378dcdabdb03d96b6519905d3dd5cb5f909a6",
+        "frames": 28824
+    }
+]

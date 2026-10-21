@@ -81,7 +81,12 @@
             ]
         },
         "class": "lexical:adjective",
-        "tags": ["adjective", "beginner", "paradigm-happy"],
+        "tags": [
+            "adjective",
+            "beginner",
+            "transform:adjective",
+            "transform:manner-adverb"
+        ],
         "references": [
             {
                 "entryId": "en:char:h-lowercase",
@@ -316,7 +321,12 @@
             ]
         },
         "class": "lexical:adjective",
-        "tags": ["adjective", "beginner", "paradigm-beautiful"],
+        "tags": [
+            "adjective",
+            "beginner",
+            "transform:adjective",
+            "transform:manner-adverb"
+        ],
         "references": [
             {
                 "entryId": "en:char:b-lowercase",

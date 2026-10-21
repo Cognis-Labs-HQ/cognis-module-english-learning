@@ -10,7 +10,8 @@
             },
             {
                 "path": "audio/81fcb156612068074c8fb934d14d8a91579dbe4c568d081fd3150aeece449e94.wav",
-                "entryId": "en:word:form-delivery-send-past"
+                "entryId": "en:word:delivery-send",
+                "transformation": { "setId": "english-verb", "path": ["past"] }
             },
             {
                 "path": "audio/eb086382ae703d891387e252285d567900018c6683c2e11bf35646a7a6efc228.wav",
@@ -28,9 +29,7 @@
                 "path": "audio/a7f5ee6d4e49bcb471661ca5714f13c543a543da7ee4602f2d51fb065b761b9c.wav",
                 "entryId": "en:word:time-yesterday"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -42,9 +41,10 @@
             },
             {
                 "path": "audio/81fcb156612068074c8fb934d14d8a91579dbe4c568d081fd3150aeece449e94.wav",
-                "entryId": "en:word:form-delivery-send-past",
+                "entryId": "en:word:delivery-send",
                 "startFrame": 11067,
-                "frameCount": 22137
+                "frameCount": 22137,
+                "transformation": { "setId": "english-verb", "path": ["past"] }
             },
             {
                 "path": "audio/eb086382ae703d891387e252285d567900018c6683c2e11bf35646a7a6efc228.wav",
@@ -95,11 +95,16 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/2aa6ede134c4c2cee771d5b0ef34740781e250b5b01c0d1485a80517604c3877.wav",
-                "entryId": "en:word:form-delivery-send-present-participle"
+                "entryId": "en:word:delivery-send",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["present-participle"]
+                }
             },
             {
                 "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
@@ -113,9 +118,7 @@
                 "path": "audio/fa03a6956ae11d3ac821e7c4cdb2792e7eab98c633a5bc1e9ac5ec5a00648da1.wav",
                 "entryId": "en:word:now"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -127,15 +130,20 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 15363,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/2aa6ede134c4c2cee771d5b0ef34740781e250b5b01c0d1485a80517604c3877.wav",
-                "entryId": "en:word:form-delivery-send-present-participle",
+                "entryId": "en:word:delivery-send",
                 "startFrame": 27910,
-                "frameCount": 22137
+                "frameCount": 22137,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["present-participle"]
+                }
             },
             {
                 "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
@@ -180,11 +188,16 @@
             },
             {
                 "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
-                "entryId": "en:word:form-english-be-are"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["are"] }
             },
             {
                 "path": "audio/d89adcba2abd712672a23b1b19024ccd9fdd7aaac0a2e058b24d9144d3001aa8.wav",
-                "entryId": "en:word:form-delivery-carry-present-participle"
+                "entryId": "en:word:delivery-carry",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["present-participle"]
+                }
             },
             {
                 "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
@@ -210,9 +223,7 @@
                 "path": "audio/c67436ac88dd2ae8e25f3a9aed1eabfb8f5ee9f0820e7d248d9f65e41630b548.wav",
                 "entryId": "en:word:car"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -224,15 +235,20 @@
             },
             {
                 "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
-                "entryId": "en:word:form-english-be-are",
+                "entryId": "en:word:be",
                 "startFrame": 22112,
-                "frameCount": 5418
+                "frameCount": 5418,
+                "transformation": { "setId": "english-copula", "path": ["are"] }
             },
             {
                 "path": "audio/d89adcba2abd712672a23b1b19024ccd9fdd7aaac0a2e058b24d9144d3001aa8.wav",
-                "entryId": "en:word:form-delivery-carry-present-participle",
+                "entryId": "en:word:delivery-carry",
                 "startFrame": 29690,
-                "frameCount": 24366
+                "frameCount": 24366,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["present-participle"]
+                }
             },
             {
                 "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
@@ -295,7 +311,8 @@
             },
             {
                 "path": "audio/2f8336bfa16be402ad3e135f3a78a26c537cc751b3e279ae04fa9c69ac4ba668.wav",
-                "entryId": "en:word:form-exchange-receive-past"
+                "entryId": "en:word:exchange-receive",
+                "transformation": { "setId": "english-verb", "path": ["past"] }
             },
             {
                 "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
@@ -317,9 +334,7 @@
                 "path": "audio/cd6f1f4eaf8a91a02e40d8200bc074b3105c2af729a3689741b8ef53b827ae19.wav",
                 "entryId": "en:word:friend"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -331,9 +346,10 @@
             },
             {
                 "path": "audio/2f8336bfa16be402ad3e135f3a78a26c537cc751b3e279ae04fa9c69ac4ba668.wav",
-                "entryId": "en:word:form-exchange-receive-past",
+                "entryId": "en:word:exchange-receive",
                 "startFrame": 14932,
-                "frameCount": 24366
+                "frameCount": 24366,
+                "transformation": { "setId": "english-verb", "path": ["past"] }
             },
             {
                 "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",

@@ -81,9 +81,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-english-like-third-person",
+                "entryId": "en:word:like",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "entryId": "en:word:colors-green",

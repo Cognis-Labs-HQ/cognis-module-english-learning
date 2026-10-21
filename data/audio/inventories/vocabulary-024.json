@@ -23,12 +23,15 @@
                 "readings": ["/sɪts/"]
             }
         ],
-        "entries": ["en:word:form-posture-sit-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:posture-sit",
-                "setId": "posture-sit-forms",
-                "path": ["third-person"]
+                "setId": "english-verb",
+                "path": ["third-person"],
+                "label": "sits",
+                "reading": "/sɪts/",
+                "state": "third-person"
             }
         ],
         "sha256": "380f99835ea91ee74af9dcb62b7fb86e026540ca2b2847b68be948569c2ca55d",
@@ -62,17 +65,23 @@
                 "readings": ["/sæt/"]
             }
         ],
-        "entries": ["en:word:form-posture-sit-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:posture-sit",
-                "setId": "posture-sit-forms",
-                "path": ["past"]
+                "setId": "english-verb",
+                "path": ["past"],
+                "label": "sat",
+                "reading": "/sæt/",
+                "state": "past"
             },
             {
                 "entryId": "en:word:posture-sit",
-                "setId": "posture-sit-forms",
-                "path": ["past-participle"]
+                "setId": "english-verb",
+                "path": ["past-participle"],
+                "label": "sat",
+                "reading": "/sæt/",
+                "state": "past-participle"
             }
         ],
         "sha256": "ecf4351511d34148f55f440a3d1e9c80135e6d68a76a54ab21fb3e1f6280ab25",
@@ -106,12 +115,15 @@
                 "readings": ["/ˈsɪtɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-posture-sit-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:posture-sit",
-                "setId": "posture-sit-forms",
-                "path": ["present-participle"]
+                "setId": "english-verb",
+                "path": ["present-participle"],
+                "label": "sitting",
+                "reading": "/ˈsɪtɪŋ/",
+                "state": "present-participle"
             }
         ],
         "sha256": "8d06042b280bfd7fcf58a8cd7c27d75cfd3e14c684d346cf99345edeadc2cad1",
@@ -145,12 +157,15 @@
                 "readings": ["/stændz/"]
             }
         ],
-        "entries": ["en:word:form-posture-stand-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:posture-stand",
-                "setId": "posture-stand-forms",
-                "path": ["third-person"]
+                "setId": "english-verb",
+                "path": ["third-person"],
+                "label": "stands",
+                "reading": "/stændz/",
+                "state": "third-person"
             }
         ],
         "sha256": "e0f25bcfaa4f2c3cc4e8b173960a2465eb2b667689822eadf5902764d5b522b8",
@@ -184,17 +199,23 @@
                 "readings": ["/stʊd/"]
             }
         ],
-        "entries": ["en:word:form-posture-stand-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:posture-stand",
-                "setId": "posture-stand-forms",
-                "path": ["past"]
+                "setId": "english-verb",
+                "path": ["past"],
+                "label": "stood",
+                "reading": "/stʊd/",
+                "state": "past"
             },
             {
                 "entryId": "en:word:posture-stand",
-                "setId": "posture-stand-forms",
-                "path": ["past-participle"]
+                "setId": "english-verb",
+                "path": ["past-participle"],
+                "label": "stood",
+                "reading": "/stʊd/",
+                "state": "past-participle"
             }
         ],
         "sha256": "8a9124a1401d2e8e81b08baa01b3d8ff800e8e26dd734720dc419d1f0d98a65e",
@@ -228,12 +249,15 @@
                 "readings": ["/ˈstændɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-posture-stand-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:posture-stand",
-                "setId": "posture-stand-forms",
-                "path": ["present-participle"]
+                "setId": "english-verb",
+                "path": ["present-participle"],
+                "label": "standing",
+                "reading": "/ˈstændɪŋ/",
+                "state": "present-participle"
             }
         ],
         "sha256": "ab19ec51349c761e609ed87ba3e21fc2c9dae7dbe5d9835a5526110e272fb3d6",

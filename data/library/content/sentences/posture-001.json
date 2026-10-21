@@ -57,9 +57,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-posture-sit-past",
+                "entryId": "en:word:posture-sit",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["past"]
+                }
             },
             {
                 "entryId": "en:word:here",
@@ -140,9 +144,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-posture-stand-past",
+                "entryId": "en:word:posture-stand",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["past"]
+                }
             },
             {
                 "entryId": "en:particle:by",

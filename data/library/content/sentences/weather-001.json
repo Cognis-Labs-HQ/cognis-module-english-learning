@@ -130,9 +130,13 @@
                 "position": 1
             },
             {
-                "entryId": "en:word:form-weather-clouds",
+                "entryId": "en:word:weather-cloud",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             {
                 "entryId": "en:particle:period",

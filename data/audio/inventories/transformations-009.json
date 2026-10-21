@@ -24,13 +24,15 @@
                 "readings": ["/ˈpliːzɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-please-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:please",
-                "setId": "english-please",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "pleasing",
+                "reading": "/ˈpliːzɪŋ/"
             }
         ],
         "sha256": "ea493f6931df8624c71ccf7ce1e5c400959851203a476592308947b777bd6137",
@@ -61,13 +63,15 @@
                 "readings": ["/dʌz/"]
             }
         ],
-        "entries": ["en:word:form-english-do-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:do",
-                "setId": "english-do",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "does",
+                "reading": "/dʌz/"
             }
         ],
         "sha256": "64d8a56a0e1d9851c9942fef2fc64377edb52eaa6e644423bac506bcb62c0911",
@@ -98,13 +102,15 @@
                 "readings": ["/dɪd/"]
             }
         ],
-        "entries": ["en:word:form-english-do-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:do",
-                "setId": "english-do",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "did",
+                "reading": "/dɪd/"
             }
         ],
         "sha256": "d78b298e229ec397ea90280f8f44e901e7ddf674005e8dce480da0dde9e97ee3",
@@ -135,13 +141,15 @@
                 "readings": ["/ˈduːɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-do-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:do",
-                "setId": "english-do",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "doing",
+                "reading": "/ˈduːɪŋ/"
             }
         ],
         "sha256": "9e4cee2ae9c66432952a28087fe56b8547faa756520d8138046ebd86758d095d",
@@ -172,13 +180,15 @@
                 "readings": ["/dʌn/"]
             }
         ],
-        "entries": ["en:word:form-english-do-past-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:do",
-                "setId": "english-do",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "done",
+                "reading": "/dʌn/"
             }
         ],
         "sha256": "7a5a54853e5a10f8e79d6abe1b9f28d76c8b3db0cdd1dd612b03a173e6b327ae",
@@ -213,9 +223,11 @@
         "variants": [
             {
                 "entryId": "en:word:run",
-                "setId": "english-run",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "run",
+                "reading": "/rʌn/"
             }
         ],
         "sha256": "964a8ec1172ce0a9e21471f0f1097325970b89f63739b50939eda3b86e5805e9",
@@ -246,13 +258,15 @@
                 "readings": ["/rʌnz/"]
             }
         ],
-        "entries": ["en:word:form-english-run-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:run",
-                "setId": "english-run",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "runs",
+                "reading": "/rʌnz/"
             }
         ],
         "sha256": "11ef4c0527d982fbc94e178b01ee43dde26f305f6e660c6459a1fc6bd5ba096b",
@@ -283,13 +297,15 @@
                 "readings": ["/ræn/"]
             }
         ],
-        "entries": ["en:word:form-english-run-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:run",
-                "setId": "english-run",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "ran",
+                "reading": "/ræn/"
             }
         ],
         "sha256": "b9303f0e7e03b7dbee94f825702655af9624dc10eb5ec7dfd4b1811cd2763804",
@@ -320,13 +336,15 @@
                 "readings": ["/ˈrʌnɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-run-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:run",
-                "setId": "english-run",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "running",
+                "reading": "/ˈrʌnɪŋ/"
             }
         ],
         "sha256": "5549bb9c09b959409bbc5aaa20883292d759f929d09fd161aaad0a52d38c562a",
@@ -347,8 +365,11 @@
         "variants": [
             {
                 "entryId": "en:word:table",
-                "setId": "noun-table",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "tables",
+                "reading": "/ˈteɪbəlz/",
+                "state": "plural"
             }
         ],
         "phonemes": "ˈteɪbəlz",
@@ -383,8 +404,11 @@
         "variants": [
             {
                 "entryId": "en:word:chair",
-                "setId": "noun-chair",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "chairs",
+                "reading": "/tʃeəz/",
+                "state": "plural"
             }
         ],
         "phonemes": "tʃeəz",
@@ -419,8 +443,11 @@
         "variants": [
             {
                 "entryId": "en:word:bed",
-                "setId": "noun-bed",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "beds",
+                "reading": "/bedz/",
+                "state": "plural"
             }
         ],
         "phonemes": "bedz",
@@ -455,8 +482,11 @@
         "variants": [
             {
                 "entryId": "en:word:bag",
-                "setId": "noun-bag",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "bags",
+                "reading": "/bæɡz/",
+                "state": "plural"
             }
         ],
         "phonemes": "bæɡz",
@@ -491,8 +521,11 @@
         "variants": [
             {
                 "entryId": "en:word:shoe",
-                "setId": "noun-shoe",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "shoes",
+                "reading": "/ʃuːz/",
+                "state": "plural"
             }
         ],
         "phonemes": "ʃuːz",
@@ -527,8 +560,11 @@
         "variants": [
             {
                 "entryId": "en:word:hat",
-                "setId": "noun-hat",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "hats",
+                "reading": "/hæts/",
+                "state": "plural"
             }
         ],
         "phonemes": "hæts",
@@ -563,8 +599,11 @@
         "variants": [
             {
                 "entryId": "en:word:coat",
-                "setId": "noun-coat",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "coats",
+                "reading": "/kəʊts/",
+                "state": "plural"
             }
         ],
         "phonemes": "kəʊts",
@@ -599,8 +638,11 @@
         "variants": [
             {
                 "entryId": "en:word:key",
-                "setId": "noun-key",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "keys",
+                "reading": "/kiːz/",
+                "state": "plural"
             }
         ],
         "phonemes": "kiːz",
@@ -635,8 +677,11 @@
         "variants": [
             {
                 "entryId": "en:word:phone",
-                "setId": "noun-phone",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "phones",
+                "reading": "/fəʊnz/",
+                "state": "plural"
             }
         ],
         "phonemes": "fəʊnz",
@@ -671,8 +716,11 @@
         "variants": [
             {
                 "entryId": "en:word:computer",
-                "setId": "noun-computer",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "computers",
+                "reading": "/kəmˈpjuːtəz/",
+                "state": "plural"
             }
         ],
         "phonemes": "kəmˈpjuːtəz",

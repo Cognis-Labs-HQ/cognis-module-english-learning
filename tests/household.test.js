@@ -66,12 +66,12 @@ test("household deck publishes fifteen fully illustrated, localized and recorded
 test("household number forms and Japanese long vowels retain playable exact-form readings", () => {
     if (schema.language === "en") {
         assert.equal(
-            schema.transformSets.some(({ id }) => id === "noun-rice"),
+            entries.get("en:word:rice").tags.includes("transform:plural"),
             false,
         );
         for (const slug of slugs.filter((slug) => slug !== "rice")) {
             const set = schema.transformSets.find(
-                ({ id }) => id === `noun-${slug}`,
+                ({ flag }) => flag === "transform:plural",
             );
             assert.ok(set, slug);
             assert.ok(
@@ -87,8 +87,8 @@ test("household number forms and Japanese long vowels retain playable exact-form
             );
         }
         assert.equal(
-            schema.transformSets.find(({ id }) => id === "noun-fish").rules[0]
-                .append,
+            schema.transformSets.find(({ flag }) => flag === "transform:plural")
+                .rules[0].forms.fish.append,
             "fish",
         );
         return;

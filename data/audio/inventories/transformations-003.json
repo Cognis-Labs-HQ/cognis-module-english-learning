@@ -24,13 +24,15 @@
                 "readings": ["/siːn/"]
             }
         ],
-        "entries": ["en:word:form-english-see-past-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:see",
-                "setId": "english-see",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "seen",
+                "reading": "/siːn/"
             }
         ],
         "sha256": "d23341479902db058b5f7d4ca0435fcf81366b0f225b0770be24b1683465de8e",
@@ -61,13 +63,15 @@
                 "readings": ["/sez/"]
             }
         ],
-        "entries": ["en:word:form-english-say-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:say",
-                "setId": "english-say",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "says",
+                "reading": "/sez/"
             }
         ],
         "sha256": "cd48e6e7e68feb2aeb2217bc05eade3774d896e1ecc9207da4083bf451600349",
@@ -98,22 +102,23 @@
                 "readings": ["/sed/"]
             }
         ],
-        "entries": [
-            "en:word:form-english-say-past",
-            "en:word:form-english-say-past-participle"
-        ],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:say",
-                "setId": "english-say",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "said",
+                "reading": "/sed/"
             },
             {
                 "entryId": "en:word:say",
-                "setId": "english-say",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "said",
+                "reading": "/sed/"
             }
         ],
         "sha256": "b1ade5b678b73282ed02ddef66a60933ab0993456dfb2d9a8c669d193c8e9577",
@@ -144,13 +149,15 @@
                 "readings": ["/ˈseɪɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-say-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:say",
-                "setId": "english-say",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "saying",
+                "reading": "/ˈseɪɪŋ/"
             }
         ],
         "sha256": "fb68837a3cb228f8f31a1814e7fe91e7e02b38400f7ac622906ee6172940846f",
@@ -181,13 +188,15 @@
                 "readings": ["/meɪks/"]
             }
         ],
-        "entries": ["en:word:form-english-make-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:make",
-                "setId": "english-make",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "makes",
+                "reading": "/meɪks/"
             }
         ],
         "sha256": "f414310b1a303b1545052eddadb932bdfaa181a01f688f22ca83f93e0d09f81e",
@@ -218,22 +227,23 @@
                 "readings": ["/meɪd/"]
             }
         ],
-        "entries": [
-            "en:word:form-english-make-past",
-            "en:word:form-english-make-past-participle"
-        ],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:make",
-                "setId": "english-make",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "made",
+                "reading": "/meɪd/"
             },
             {
                 "entryId": "en:word:make",
-                "setId": "english-make",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "made",
+                "reading": "/meɪd/"
             }
         ],
         "sha256": "b7420b426f41e17baaf69b552b283ef26086fd25b5dae87007a5f9ba712f1b58",
@@ -264,13 +274,15 @@
                 "readings": ["/ˈmeɪkɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-make-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:make",
-                "setId": "english-make",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "making",
+                "reading": "/ˈmeɪkɪŋ/"
             }
         ],
         "sha256": "d1a0ba70dc2596a61b6136d59c2edec34737df604e7e0a28617acc16f395b2d4",
@@ -301,13 +313,15 @@
                 "readings": ["/teɪks/"]
             }
         ],
-        "entries": ["en:word:form-english-take-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:take",
-                "setId": "english-take",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "takes",
+                "reading": "/teɪks/"
             }
         ],
         "sha256": "7afd1c9ed6efad2081d4ad0d5619ba5d1400cbbf8eaa2a0c5e85dfe8a63f1c4d",
@@ -338,13 +352,15 @@
                 "readings": ["/tʊk/"]
             }
         ],
-        "entries": ["en:word:form-english-take-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:take",
-                "setId": "english-take",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "took",
+                "reading": "/tʊk/"
             }
         ],
         "sha256": "1937d4afa0c908585c368ace796c4c93038f90796d3f686aa19fc4f7da46d28d",
@@ -375,13 +391,15 @@
                 "readings": ["/ˈteɪkɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-take-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:take",
-                "setId": "english-take",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "taking",
+                "reading": "/ˈteɪkɪŋ/"
             }
         ],
         "sha256": "4cfa779a365fa7d3795908f122e0262f2be67bd3f7de368f9996288f17070a06",
@@ -412,13 +430,15 @@
                 "readings": ["/ˈteɪkən/"]
             }
         ],
-        "entries": ["en:word:form-english-take-past-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:take",
-                "setId": "english-take",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "taken",
+                "reading": "/ˈteɪkən/"
             }
         ],
         "sha256": "27f7e9fc818d9f381f3354914f9297e74da8e40932aa71bf9cf3455f79b5cf98",
@@ -449,13 +469,15 @@
                 "readings": ["/ɡets/"]
             }
         ],
-        "entries": ["en:word:form-english-get-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:get",
-                "setId": "english-get",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "gets",
+                "reading": "/ɡets/"
             }
         ],
         "sha256": "5de64a7b4543e0e8c1c25ab1080126c6029969c87c16172bdc0135c398f63776",
@@ -486,22 +508,23 @@
                 "readings": ["/ɡɒt/"]
             }
         ],
-        "entries": [
-            "en:word:form-english-get-past",
-            "en:word:form-english-get-past-participle"
-        ],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:get",
-                "setId": "english-get",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "got",
+                "reading": "/ɡɒt/"
             },
             {
                 "entryId": "en:word:get",
-                "setId": "english-get",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "got",
+                "reading": "/ɡɒt/"
             }
         ],
         "sha256": "35843dcd4fa721c9928bc8f55fbc91ba15cd156aafbbed9d643f73f1b3b409fb",
@@ -532,13 +555,15 @@
                 "readings": ["/ˈɡetɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-get-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:get",
-                "setId": "english-get",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "getting",
+                "reading": "/ˈɡetɪŋ/"
             }
         ],
         "sha256": "25e38f2f03910c8bef12f40f05a69e0cb2e3c8da93b2bf746c06a0e35dbd3266",
@@ -569,13 +594,15 @@
                 "readings": ["/wɔːks/"]
             }
         ],
-        "entries": ["en:word:form-english-walk-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:walk",
-                "setId": "english-walk",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "walks",
+                "reading": "/wɔːks/"
             }
         ],
         "sha256": "aca8905b1e9a8923f754e001fac6e1fa80a74ef241547fd6ce151e1568bfb3b6",
@@ -606,22 +633,23 @@
                 "readings": ["/wɔːkt/"]
             }
         ],
-        "entries": [
-            "en:word:form-english-walk-past",
-            "en:word:form-english-walk-past-participle"
-        ],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:walk",
-                "setId": "english-walk",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "walked",
+                "reading": "/wɔːkt/"
             },
             {
                 "entryId": "en:word:walk",
-                "setId": "english-walk",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "walked",
+                "reading": "/wɔːkt/"
             }
         ],
         "sha256": "9df7ec970c88470d686e4eeb44fdbc3e18ab7a12f17985036f16675e2f93ac43",
@@ -652,13 +680,15 @@
                 "readings": ["/ˈwɔːkɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-walk-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:walk",
-                "setId": "english-walk",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "walking",
+                "reading": "/ˈwɔːkɪŋ/"
             }
         ],
         "sha256": "efb4e8893846fba616dce870da2428b109788bf8cc65a1e868851b7c8baa7006",

@@ -28,9 +28,11 @@
         "variants": [
             {
                 "entryId": "en:word:name",
-                "setId": "noun-name",
+                "setId": "english-noun",
                 "path": ["plural"],
-                "state": "plural"
+                "state": "plural",
+                "label": "names",
+                "reading": "/neɪmz/"
             }
         ],
         "sha256": "8cc025a3f224b379ecf363c8f7b6ae64e4dd6595e7741d520098c24ef81e4af7",
@@ -65,9 +67,11 @@
         "variants": [
             {
                 "entryId": "en:word:language",
-                "setId": "noun-language",
+                "setId": "english-noun",
                 "path": ["plural"],
-                "state": "plural"
+                "state": "plural",
+                "label": "languages",
+                "reading": "/ˈlæŋɡwɪdʒɪz/"
             }
         ],
         "sha256": "1f079286b455ebcfaabe4a3adfd77f77c0bc040f0822df8c4b173a37bd8387b6",
@@ -102,9 +106,11 @@
         "variants": [
             {
                 "entryId": "en:word:question",
-                "setId": "noun-question",
+                "setId": "english-noun",
                 "path": ["plural"],
-                "state": "plural"
+                "state": "plural",
+                "label": "questions",
+                "reading": "/ˈkwestʃənz/"
             }
         ],
         "sha256": "7e18e6c6356142c370b096dbdb75355bc867e9f8e1057623c1de74741acb86ec",
@@ -139,9 +145,11 @@
         "variants": [
             {
                 "entryId": "en:word:answer",
-                "setId": "noun-answer",
+                "setId": "english-noun",
                 "path": ["plural"],
-                "state": "plural"
+                "state": "plural",
+                "label": "answers",
+                "reading": "/ˈɑːnsəz/"
             }
         ],
         "sha256": "566664fe86e3dc2a273ac88a9b4c8e3570300318b7aaf509bb31b32bf781ee92",
@@ -172,13 +180,15 @@
                 "readings": ["/ˈbɪɡə/"]
             }
         ],
-        "entries": ["en:word:form-english-big-comparative"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:big",
-                "setId": "english-big",
+                "setId": "english-adjective",
                 "path": ["comparative"],
-                "state": "comparative"
+                "state": "comparative",
+                "label": "bigger",
+                "reading": "/ˈbɪɡə/"
             }
         ],
         "sha256": "e4c05b3dbd5236afdebb9367ba6ec792bcdbc63a97b9a1d94606cf8f8de81def",
@@ -209,13 +219,15 @@
                 "readings": ["/ˈbɪɡɪst/"]
             }
         ],
-        "entries": ["en:word:form-english-big-superlative"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:big",
-                "setId": "english-big",
+                "setId": "english-adjective",
                 "path": ["superlative"],
-                "state": "superlative"
+                "state": "superlative",
+                "label": "biggest",
+                "reading": "/ˈbɪɡɪst/"
             }
         ],
         "sha256": "c012d0bf152310663619e3ba3f18294f433058455df20c70e4649225931cfff7",
@@ -246,13 +258,15 @@
                 "readings": ["/ˈsmɔːlə/"]
             }
         ],
-        "entries": ["en:word:form-english-small-comparative"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:small",
-                "setId": "english-small",
+                "setId": "english-adjective",
                 "path": ["comparative"],
-                "state": "comparative"
+                "state": "comparative",
+                "label": "smaller",
+                "reading": "/ˈsmɔːlə/"
             }
         ],
         "sha256": "e82427afece8c23ef8c3bc0dae37219828bf6e58bae55d323787dedc90f5acf2",
@@ -283,13 +297,15 @@
                 "readings": ["/ˈsmɔːlɪst/"]
             }
         ],
-        "entries": ["en:word:form-english-small-superlative"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:small",
-                "setId": "english-small",
+                "setId": "english-adjective",
                 "path": ["superlative"],
-                "state": "superlative"
+                "state": "superlative",
+                "label": "smallest",
+                "reading": "/ˈsmɔːlɪst/"
             }
         ],
         "sha256": "a2b57ee5f2e92b1cd7bf56f35ada2ee34dbedbd047dafdd4a8313381f061dd93",
@@ -320,13 +336,15 @@
                 "readings": ["/ˈbetə/"]
             }
         ],
-        "entries": ["en:word:form-english-good-comparative"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:good",
-                "setId": "english-good",
+                "setId": "english-adjective",
                 "path": ["comparative"],
-                "state": "comparative"
+                "state": "comparative",
+                "label": "better",
+                "reading": "/ˈbetə/"
             }
         ],
         "sha256": "4229bc910a91c0f55fc714e82d3d1ed90b729fa4f3340e89e6acf242468fdaf9",
@@ -357,13 +375,15 @@
                 "readings": ["/best/"]
             }
         ],
-        "entries": ["en:word:form-english-good-superlative"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:good",
-                "setId": "english-good",
+                "setId": "english-adjective",
                 "path": ["superlative"],
-                "state": "superlative"
+                "state": "superlative",
+                "label": "best",
+                "reading": "/best/"
             }
         ],
         "sha256": "3add3e279ef45c3f0b99c19492cd8ae36fc8cae5c94293ab377b207f260900ab",
@@ -394,13 +414,15 @@
                 "readings": ["/wɜːs/"]
             }
         ],
-        "entries": ["en:word:form-english-bad-comparative"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:bad",
-                "setId": "english-bad",
+                "setId": "english-adjective",
                 "path": ["comparative"],
-                "state": "comparative"
+                "state": "comparative",
+                "label": "worse",
+                "reading": "/wɜːs/"
             }
         ],
         "sha256": "e87dbb13cded454096e6ad2fad477b919dbc84030755cf7850a3ec8121f82fd1",
@@ -431,13 +453,15 @@
                 "readings": ["/wɜːst/"]
             }
         ],
-        "entries": ["en:word:form-english-bad-superlative"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:bad",
-                "setId": "english-bad",
+                "setId": "english-adjective",
                 "path": ["superlative"],
-                "state": "superlative"
+                "state": "superlative",
+                "label": "worst",
+                "reading": "/wɜːst/"
             }
         ],
         "sha256": "f04d40a6ffcd805595391c5600e59cedd02794f3af9e53765d8cf71adcd0ddaf",
@@ -468,13 +492,15 @@
                 "readings": ["/ˈhæpiə/"]
             }
         ],
-        "entries": ["en:word:form-english-happy-comparative"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:happy",
-                "setId": "english-happy",
+                "setId": "english-adjective",
                 "path": ["comparative"],
-                "state": "comparative"
+                "state": "comparative",
+                "label": "happier",
+                "reading": "/ˈhæpiə/"
             }
         ],
         "sha256": "a6dfa4ae5d7231feb7ddb17e6eb57a02e43746c46e8ef2fd45ebb49de76f91b4",
@@ -505,13 +531,15 @@
                 "readings": ["/ˈhæpiɪst/"]
             }
         ],
-        "entries": ["en:word:form-english-happy-superlative"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:happy",
-                "setId": "english-happy",
+                "setId": "english-adjective",
                 "path": ["superlative"],
-                "state": "superlative"
+                "state": "superlative",
+                "label": "happiest",
+                "reading": "/ˈhæpiɪst/"
             }
         ],
         "sha256": "8efe929cb9186909f53fc5ae4c07984acea154e96c0afad527926d0f7d09d165",
@@ -542,13 +570,15 @@
                 "readings": ["/mɔː ˈbjuːtɪfəl/"]
             }
         ],
-        "entries": ["en:word:form-english-beautiful-comparative"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:beautiful",
-                "setId": "english-beautiful",
+                "setId": "english-adjective",
                 "path": ["comparative"],
-                "state": "comparative"
+                "state": "comparative",
+                "label": "more beautiful",
+                "reading": "/mɔː ˈbjuːtɪfəl/"
             }
         ],
         "sha256": "5cf65d0df8fc2265e67b0a675e54a5761526ab30c4c4a3a51b28a37a5f85fe46",
@@ -579,13 +609,15 @@
                 "readings": ["/məʊst ˈbjuːtɪfəl/"]
             }
         ],
-        "entries": ["en:word:form-english-beautiful-superlative"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:beautiful",
-                "setId": "english-beautiful",
+                "setId": "english-adjective",
                 "path": ["superlative"],
-                "state": "superlative"
+                "state": "superlative",
+                "label": "most beautiful",
+                "reading": "/məʊst ˈbjuːtɪfəl/"
             }
         ],
         "sha256": "f44df9f9b7e5a1f78647c9526f1ba177fd807a4ccf60c2b87727852b2f8c4d02",
@@ -616,13 +648,15 @@
                 "readings": ["/ˈpliːzɪz/"]
             }
         ],
-        "entries": ["en:word:form-english-please-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:please",
-                "setId": "english-please",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "pleases",
+                "reading": "/ˈpliːzɪz/"
             }
         ],
         "sha256": "2f333527084615b72b1ad3e9c6b467e5182108929f7448fabcb0d822c247543f",
@@ -653,22 +687,23 @@
                 "readings": ["/pliːzd/"]
             }
         ],
-        "entries": [
-            "en:word:form-english-please-past",
-            "en:word:form-english-please-past-participle"
-        ],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:please",
-                "setId": "english-please",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "pleased",
+                "reading": "/pliːzd/"
             },
             {
                 "entryId": "en:word:please",
-                "setId": "english-please",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "pleased",
+                "reading": "/pliːzd/"
             }
         ],
         "sha256": "8179be7325dd88ed7532e3164b0e32347d210880e8b14ce9a2a15024dd7ee23b",

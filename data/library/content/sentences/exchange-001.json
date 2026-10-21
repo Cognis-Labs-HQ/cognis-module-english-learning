@@ -13,9 +13,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-exchange-give-past",
+                "entryId": "en:word:exchange-give",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["past"]
+                }
             },
             {
                 "entryId": "en:word:my",
@@ -62,9 +66,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-exchange-give-third-person",
+                "entryId": "en:word:exchange-give",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "entryId": "en:word:the",
@@ -111,9 +119,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-exchange-receive-past",
+                "entryId": "en:word:exchange-receive",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["past"]
+                }
             },
             {
                 "entryId": "en:word:a",

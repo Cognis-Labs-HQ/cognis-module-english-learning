@@ -23,12 +23,15 @@
                 "readings": ["/ˈrestrɒnts/"]
             }
         ],
-        "entries": ["en:word:form-places-restaurants"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:places-restaurant",
-                "setId": "noun-restaurant",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "restaurants",
+                "reading": "/ˈrestrɒnts/",
+                "state": "plural"
             }
         ],
         "sha256": "1f4cc0f47cfdfdaf4471fdbef2af13284398a917d3d7bbffbe62146efeda7d3c",
@@ -326,12 +329,15 @@
                 "readings": ["/ˈtaʊəlz/"]
             }
         ],
-        "entries": ["en:word:form-care-towels"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:care-towel",
-                "setId": "noun-towel",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "towels",
+                "reading": "/ˈtaʊəlz/",
+                "state": "plural"
             }
         ],
         "sha256": "27bbcd89bf897061f6263cf5b1e741dc880e77a37b84a26648e086541bf6975d",
@@ -365,12 +371,15 @@
                 "readings": ["/ˈtuːθbrʌʃɪz/"]
             }
         ],
-        "entries": ["en:word:form-care-toothbrushes"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:care-toothbrush",
-                "setId": "noun-toothbrush",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "toothbrushes",
+                "reading": "/ˈtuːθbrʌʃɪz/",
+                "state": "plural"
             }
         ],
         "sha256": "026c49758774bc97da8ef931b1971bd40e8a01176b62a24a103c960bae1814fb",
@@ -404,12 +413,15 @@
                 "readings": ["/ˈwɒʃɪz/"]
             }
         ],
-        "entries": ["en:word:form-household-wash-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:household-wash",
-                "setId": "household-wash-forms",
-                "path": ["third-person"]
+                "setId": "english-verb",
+                "path": ["third-person"],
+                "label": "washes",
+                "reading": "/ˈwɒʃɪz/",
+                "state": "third-person"
             }
         ],
         "sha256": "0366a71ea8cd278ce98f1dce2ad95e6da1f6c55b605b81a0535cf3af8551a468",
@@ -443,17 +455,23 @@
                 "readings": ["/wɒʃt/"]
             }
         ],
-        "entries": ["en:word:form-household-wash-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:household-wash",
-                "setId": "household-wash-forms",
-                "path": ["past"]
+                "setId": "english-verb",
+                "path": ["past"],
+                "label": "washed",
+                "reading": "/wɒʃt/",
+                "state": "past"
             },
             {
                 "entryId": "en:word:household-wash",
-                "setId": "household-wash-forms",
-                "path": ["past-participle"]
+                "setId": "english-verb",
+                "path": ["past-participle"],
+                "label": "washed",
+                "reading": "/wɒʃt/",
+                "state": "past-participle"
             }
         ],
         "sha256": "6c48791bf1b0b6b608bf75fb69a3fd42d04473d607c201a6e0d38138096d5680",
@@ -487,12 +505,15 @@
                 "readings": ["/ˈwɒʃɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-household-wash-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:household-wash",
-                "setId": "household-wash-forms",
-                "path": ["present-participle"]
+                "setId": "english-verb",
+                "path": ["present-participle"],
+                "label": "washing",
+                "reading": "/ˈwɒʃɪŋ/",
+                "state": "present-participle"
             }
         ],
         "sha256": "b252e4261d996d384dbcade475386e3f85f11d69c985d45591d0b3f8049a30e6",
@@ -526,12 +547,15 @@
                 "readings": ["/kʊks/"]
             }
         ],
-        "entries": ["en:word:form-household-cook-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:household-cook",
-                "setId": "household-cook-forms",
-                "path": ["third-person"]
+                "setId": "english-verb",
+                "path": ["third-person"],
+                "label": "cooks",
+                "reading": "/kʊks/",
+                "state": "third-person"
             }
         ],
         "sha256": "e8e8627c615b63bf37f084f4f312317128412a0a62763cb2d1b1c18060f3ce29",
@@ -565,17 +589,23 @@
                 "readings": ["/kʊkt/"]
             }
         ],
-        "entries": ["en:word:form-household-cook-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:household-cook",
-                "setId": "household-cook-forms",
-                "path": ["past"]
+                "setId": "english-verb",
+                "path": ["past"],
+                "label": "cooked",
+                "reading": "/kʊkt/",
+                "state": "past"
             },
             {
                 "entryId": "en:word:household-cook",
-                "setId": "household-cook-forms",
-                "path": ["past-participle"]
+                "setId": "english-verb",
+                "path": ["past-participle"],
+                "label": "cooked",
+                "reading": "/kʊkt/",
+                "state": "past-participle"
             }
         ],
         "sha256": "4b501e2a74dc5162ad599b2cafbb011650893e95db7032fdab9bcf4854607b96",
@@ -609,12 +639,15 @@
                 "readings": ["/ˈkʊkɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-household-cook-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:household-cook",
-                "setId": "household-cook-forms",
-                "path": ["present-participle"]
+                "setId": "english-verb",
+                "path": ["present-participle"],
+                "label": "cooking",
+                "reading": "/ˈkʊkɪŋ/",
+                "state": "present-participle"
             }
         ],
         "sha256": "b9b1172ffc19f58cd727702b24e3e081b1ae537d4e9c27e6c9c0936405023ce3",
@@ -648,12 +681,15 @@
                 "readings": ["/kliːnz/"]
             }
         ],
-        "entries": ["en:word:form-household-clean-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:household-clean",
-                "setId": "household-clean-forms",
-                "path": ["third-person"]
+                "setId": "english-verb",
+                "path": ["third-person"],
+                "label": "cleans",
+                "reading": "/kliːnz/",
+                "state": "third-person"
             }
         ],
         "sha256": "83d3d86e5d5479667f937c640916d9ab8f042745c4f239343af5213f32fb906d",
@@ -687,17 +723,23 @@
                 "readings": ["/kliːnd/"]
             }
         ],
-        "entries": ["en:word:form-household-clean-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:household-clean",
-                "setId": "household-clean-forms",
-                "path": ["past"]
+                "setId": "english-verb",
+                "path": ["past"],
+                "label": "cleaned",
+                "reading": "/kliːnd/",
+                "state": "past"
             },
             {
                 "entryId": "en:word:household-clean",
-                "setId": "household-clean-forms",
-                "path": ["past-participle"]
+                "setId": "english-verb",
+                "path": ["past-participle"],
+                "label": "cleaned",
+                "reading": "/kliːnd/",
+                "state": "past-participle"
             }
         ],
         "sha256": "c47d959a3f13df71f8e111f0bd8211f817ec86d2419ce3d9ebeac47c6106d58c",
@@ -705,84 +747,6 @@
         "metadata": {
             "listening": "unverified-not-performed",
             "sourcePcmSha256": "2af31388abb8e174e9c3ae79dcf6f5b54eba80155816c75e0b12f907ed2a00eb"
-        }
-    },
-    {
-        "path": "audio/3f454d88d4e331a09c78888ee6f9331091fadb5dfff4f089e4f4f1fe611f6d21.wav",
-        "text": "cleaning",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈkliːnɪŋ\">cleaning</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "cleaning",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ˈkliːnɪŋ/"]
-            }
-        ],
-        "entries": ["en:word:form-household-clean-present-participle"],
-        "variants": [
-            {
-                "entryId": "en:word:household-clean",
-                "setId": "household-clean-forms",
-                "path": ["present-participle"]
-            }
-        ],
-        "sha256": "3f454d88d4e331a09c78888ee6f9331091fadb5dfff4f089e4f4f1fe611f6d21",
-        "frames": 22137,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "ed2b46404c8aa636ab667761f391acc1c390dd0f6b8ccbc76915d703bd429c4b"
-        }
-    },
-    {
-        "path": "audio/dd93b48d03146a78db6ed65646cb4df1d1c40bf5d8b59b10643339c6fa94570a.wav",
-        "text": "dries",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"draɪz\">dries</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "dries",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/draɪz/"]
-            }
-        ],
-        "entries": ["en:word:form-household-dry-third-person"],
-        "variants": [
-            {
-                "entryId": "en:word:household-dry",
-                "setId": "household-dry-forms",
-                "path": ["third-person"]
-            }
-        ],
-        "sha256": "dd93b48d03146a78db6ed65646cb4df1d1c40bf5d8b59b10643339c6fa94570a",
-        "frames": 23251,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "b6d5917b3068f622e87987ebd0355271bbbc6ab663aaa198f49a633967bf6df8"
         }
     }
 ]

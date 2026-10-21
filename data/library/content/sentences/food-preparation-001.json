@@ -52,9 +52,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-craft-cut-third-person",
+                "entryId": "en:word:craft-cut",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "entryId": "en:word:the",
@@ -140,9 +144,13 @@
                 "position": 1
             },
             {
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["is"]
+                }
             },
             {
                 "entryId": "en:word:colors-green",

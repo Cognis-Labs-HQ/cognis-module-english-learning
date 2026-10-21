@@ -127,8 +127,11 @@
         "variants": [
             {
                 "entryId": "en:word:travel-map",
-                "setId": "travel-map-forms",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "maps",
+                "reading": "/mæps/",
+                "state": "plural"
             }
         ],
         "sha256": "b8cf373244b6f2e87955521adb94e99d7c3307838f188b8829beb2f4775350ff",
@@ -201,8 +204,11 @@
         "variants": [
             {
                 "entryId": "en:word:travel-passport",
-                "setId": "travel-passport-forms",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "passports",
+                "reading": "/ˈpɑːspɔːts/",
+                "state": "plural"
             }
         ],
         "sha256": "add8beb7b759d09c894561548913d7ab2febcc2091ea7f72e856432d2cf045c8",
@@ -275,8 +281,11 @@
         "variants": [
             {
                 "entryId": "en:word:travel-platform",
-                "setId": "travel-platform-forms",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "platforms",
+                "reading": "/ˈplætfɔːmz/",
+                "state": "plural"
             }
         ],
         "sha256": "d60d0f9a6644f9e51c5b66f00c57d0befc19a76dd24b79335ddafd750836cc06",
@@ -349,8 +358,11 @@
         "variants": [
             {
                 "entryId": "en:word:travel-station",
-                "setId": "travel-station-forms",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "stations",
+                "reading": "/ˈsteɪʃənz/",
+                "state": "plural"
             }
         ],
         "sha256": "06a4c360a9ad66e2540d182da1e4e0f05de76c6d97ff5058701c6d7bdb8d532b",
@@ -423,8 +435,11 @@
         "variants": [
             {
                 "entryId": "en:word:travel-buy",
-                "setId": "travel-buy-forms",
-                "path": ["third-person"]
+                "setId": "english-verb",
+                "path": ["third-person"],
+                "label": "buys",
+                "reading": "/baɪz/",
+                "state": "third-person"
             }
         ],
         "sha256": "e7497ddf844d024ec2178b7d27f5fede4aa2f7da412af576c9f6c1f0388f2539",
@@ -459,17 +474,23 @@
                 "readings": ["/bɔːt/"]
             }
         ],
-        "entries": ["en:word:travel-buy-past", "en:word:travel-buy-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:travel-buy",
-                "setId": "travel-buy-forms",
-                "path": ["past"]
+                "setId": "english-verb",
+                "path": ["past"],
+                "label": "bought",
+                "reading": "/bɔːt/",
+                "state": "past"
             },
             {
                 "entryId": "en:word:travel-buy",
-                "setId": "travel-buy-forms",
-                "path": ["past-participle"]
+                "setId": "english-verb",
+                "path": ["past-participle"],
+                "label": "bought",
+                "reading": "/bɔːt/",
+                "state": "past-participle"
             }
         ],
         "sha256": "053666a90a57631a71a99a6f4e0b05f3cddd33d891447a1828f89e507f017172",
@@ -508,8 +529,11 @@
         "variants": [
             {
                 "entryId": "en:word:travel-buy",
-                "setId": "travel-buy-forms",
-                "path": ["present-participle"]
+                "setId": "english-verb",
+                "path": ["present-participle"],
+                "label": "buying",
+                "reading": "/ˈbaɪɪŋ/",
+                "state": "present-participle"
             }
         ],
         "sha256": "ac0a84211cbb621a8d212ea618beda506557b635563c3bc2757aef6a50c038c6",
@@ -582,8 +606,11 @@
         "variants": [
             {
                 "entryId": "en:word:travel-depart",
-                "setId": "travel-depart-forms",
-                "path": ["third-person"]
+                "setId": "english-verb",
+                "path": ["third-person"],
+                "label": "departs",
+                "reading": "/dɪˈpɑːts/",
+                "state": "third-person"
             }
         ],
         "sha256": "4d7b088f996bb31cc40cb33fe16964ac4ca05c62e236a6607dc17d8142d941df",
@@ -622,13 +649,19 @@
         "variants": [
             {
                 "entryId": "en:word:travel-depart",
-                "setId": "travel-depart-forms",
-                "path": ["past"]
+                "setId": "english-verb",
+                "path": ["past"],
+                "label": "departed",
+                "reading": "/dɪˈpɑːtɪd/",
+                "state": "past"
             },
             {
                 "entryId": "en:word:travel-depart",
-                "setId": "travel-depart-forms",
-                "path": ["past-participle"]
+                "setId": "english-verb",
+                "path": ["past-participle"],
+                "label": "departed",
+                "reading": "/dɪˈpɑːtɪd/",
+                "state": "past-participle"
             }
         ],
         "sha256": "f1354781f53e1d305970947787645ec1ee17529ccde8019c237e9e4bad9ffb15",
@@ -667,8 +700,11 @@
         "variants": [
             {
                 "entryId": "en:word:travel-depart",
-                "setId": "travel-depart-forms",
-                "path": ["present-participle"]
+                "setId": "english-verb",
+                "path": ["present-participle"],
+                "label": "departing",
+                "reading": "/dɪˈpɑːtɪŋ/",
+                "state": "present-participle"
             }
         ],
         "sha256": "b2db6dc99442160a1aaecee35482fa58857551ac726ed40e309c9e7e7d903894",
@@ -711,80 +747,6 @@
             "listening": "unverified-not-performed",
             "languageSelection": "native-input-autodetection",
             "sourcePcmSha256": "3e14d993e11aa1a8d3f15ebd8ce7b0159198eb87dd2bafd6e213958a800b8c00"
-        }
-    },
-    {
-        "path": "audio/24d397f0a3fac11132e42b0b9dc24d9be66eba14ac2033d28f1be7a1bacaf289.wav",
-        "text": "suitcases",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "suitcases",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "suitcases",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ˈsuːtkeɪsɪz/"]
-            }
-        ],
-        "entries": [],
-        "variants": [
-            {
-                "entryId": "en:word:travel-suitcase",
-                "setId": "travel-suitcase-forms",
-                "path": ["plural"]
-            }
-        ],
-        "sha256": "24d397f0a3fac11132e42b0b9dc24d9be66eba14ac2033d28f1be7a1bacaf289",
-        "frames": 28824,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "languageSelection": "native-input-autodetection",
-            "sourcePcmSha256": "227ef9ab9013d45ecd47dec055d233834d5a58f2ccd5d203f44c06468b4cef91"
-        }
-    },
-    {
-        "path": "audio/13addf06063eb86d2ee6b006d3f40adb45533e296ac2df787f4b7504d72dc4b5.wav",
-        "text": "ticket",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "ticket",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "ticket",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/ˈtɪkɪt/"]
-            }
-        ],
-        "entries": ["en:word:travel-ticket"],
-        "variants": [],
-        "sha256": "13addf06063eb86d2ee6b006d3f40adb45533e296ac2df787f4b7504d72dc4b5",
-        "frames": 19907,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "languageSelection": "native-input-autodetection",
-            "sourcePcmSha256": "6056396ab88930078ddc25991d4ab942a47a5d1b52334d088f4c342728f99de3"
         }
     }
 ]

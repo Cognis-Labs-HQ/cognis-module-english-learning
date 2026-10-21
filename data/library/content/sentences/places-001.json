@@ -57,9 +57,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-english-work-third-person",
+                "entryId": "en:word:work",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "entryId": "en:particle:at",

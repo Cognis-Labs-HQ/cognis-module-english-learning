@@ -57,14 +57,22 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-recreation-rackets",
+                "entryId": "en:word:recreation-racket",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             {
-                "entryId": "en:word:form-english-be-are",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["are"]
+                }
             },
             {
                 "entryId": "en:particle:in",
@@ -150,14 +158,22 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-recreation-balls",
+                "entryId": "en:word:recreation-ball",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             {
-                "entryId": "en:word:form-english-be-are",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["are"]
+                }
             },
             {
                 "entryId": "en:word:small",

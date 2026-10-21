@@ -1,0 +1,45 @@
+[
+    {
+        "path": "audio/36437efd4b901d75a2e0adfbd2938acb2c6c545d987eafa2d02adfcd787f2dc9.wav",
+        "text": "arriving",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "arriving",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "arriving",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/əˈraɪvɪŋ/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:travel-arrive",
+                "setId": "english-verb",
+                "path": ["present-participle"],
+                "label": "arriving",
+                "reading": "/əˈraɪvɪŋ/",
+                "state": "present-participle"
+            }
+        ],
+        "sha256": "36437efd4b901d75a2e0adfbd2938acb2c6c545d987eafa2d02adfcd787f2dc9",
+        "frames": 24366,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "da3f61549e169120cf290c9c56d974fd97ba6adaa459d5a0858f513b36a506dd"
+        }
+    }
+]

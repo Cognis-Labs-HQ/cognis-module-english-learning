@@ -24,13 +24,15 @@
                 "readings": ["/wɜːks/"]
             }
         ],
-        "entries": ["en:word:form-english-work-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:work",
-                "setId": "english-work",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "works",
+                "reading": "/wɜːks/"
             }
         ],
         "sha256": "1302ba37c9abe7c7737af1f138111460e69e5e0faf1da7d8033a3c4a23ec8b43",
@@ -61,22 +63,23 @@
                 "readings": ["/wɜːkt/"]
             }
         ],
-        "entries": [
-            "en:word:form-english-work-past",
-            "en:word:form-english-work-past-participle"
-        ],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:work",
-                "setId": "english-work",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "worked",
+                "reading": "/wɜːkt/"
             },
             {
                 "entryId": "en:word:work",
-                "setId": "english-work",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "worked",
+                "reading": "/wɜːkt/"
             }
         ],
         "sha256": "9e50a19602cd7b9f3a765eb2be0804feb1465c27c44cb8ff690c459d202a086b",
@@ -107,13 +110,15 @@
                 "readings": ["/ˈwɜːkɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-work-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:work",
-                "setId": "english-work",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "working",
+                "reading": "/ˈwɜːkɪŋ/"
             }
         ],
         "sha256": "b238c687de2b905d51eb42d757bd3566d254ae90a73a32bd51b72e350e7c8f79",
@@ -144,13 +149,15 @@
                 "readings": ["/pleɪz/"]
             }
         ],
-        "entries": ["en:word:form-english-play-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:play",
-                "setId": "english-play",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "plays",
+                "reading": "/pleɪz/"
             }
         ],
         "sha256": "b5c7843449bfbe7ce992dc6b14dfc854034a2e22da63c728dd73a00c26a610f5",
@@ -181,22 +188,23 @@
                 "readings": ["/pleɪd/"]
             }
         ],
-        "entries": [
-            "en:word:form-english-play-past",
-            "en:word:form-english-play-past-participle"
-        ],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:play",
-                "setId": "english-play",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "played",
+                "reading": "/pleɪd/"
             },
             {
                 "entryId": "en:word:play",
-                "setId": "english-play",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "played",
+                "reading": "/pleɪd/"
             }
         ],
         "sha256": "b7b004716182d7ba524f1498bd3b55d859e886553f9ee6d6258e0a071266ce69",
@@ -227,13 +235,15 @@
                 "readings": ["/ˈpleɪɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-play-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:play",
-                "setId": "english-play",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "playing",
+                "reading": "/ˈpleɪɪŋ/"
             }
         ],
         "sha256": "7764afecbfec8f3edfb92dc35a58192fc3fe953894ab3a884def8735eaf58876",
@@ -264,13 +274,15 @@
                 "readings": ["/lɜːnz/"]
             }
         ],
-        "entries": ["en:word:form-english-learn-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:learn",
-                "setId": "english-learn",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "learns",
+                "reading": "/lɜːnz/"
             }
         ],
         "sha256": "77ec00afab05ace09b86bacbbf0a9019218148c0451498249de4c998afd26dd6",
@@ -301,22 +313,23 @@
                 "readings": ["/lɜːnd/"]
             }
         ],
-        "entries": [
-            "en:word:form-english-learn-past",
-            "en:word:form-english-learn-past-participle"
-        ],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:learn",
-                "setId": "english-learn",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "learned",
+                "reading": "/lɜːnd/"
             },
             {
                 "entryId": "en:word:learn",
-                "setId": "english-learn",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "learned",
+                "reading": "/lɜːnd/"
             }
         ],
         "sha256": "f909285e17bc66baaf29e9056fb72dd5b1c1618a08e0488e66e6bdef603d9777",
@@ -347,13 +360,15 @@
                 "readings": ["/ˈlɜːnɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-learn-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:learn",
-                "setId": "english-learn",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "learning",
+                "reading": "/ˈlɜːnɪŋ/"
             }
         ],
         "sha256": "0ea3580838e5667adf03f5e1c0bdbe00a00b7f3ccadbe09f47e7aaba1e0243ef",
@@ -384,13 +399,15 @@
                 "readings": ["/wɒnts/"]
             }
         ],
-        "entries": ["en:word:form-english-want-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:want",
-                "setId": "english-want",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "wants",
+                "reading": "/wɒnts/"
             }
         ],
         "sha256": "e8e694cb9b3857b9be19fad5e3b83dcaf0d9692f1d6d05e95b95bcdeeb9272fc",
@@ -421,22 +438,23 @@
                 "readings": ["/ˈwɒntɪd/"]
             }
         ],
-        "entries": [
-            "en:word:form-english-want-past",
-            "en:word:form-english-want-past-participle"
-        ],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:want",
-                "setId": "english-want",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "wanted",
+                "reading": "/ˈwɒntɪd/"
             },
             {
                 "entryId": "en:word:want",
-                "setId": "english-want",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "wanted",
+                "reading": "/ˈwɒntɪd/"
             }
         ],
         "sha256": "295511753f8d7b1e8020a6cd55c06dcf16f59b2df4f9b3d9676920f6ef5ec36e",
@@ -467,13 +485,15 @@
                 "readings": ["/ˈwɒntɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-want-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:want",
-                "setId": "english-want",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "wanting",
+                "reading": "/ˈwɒntɪŋ/"
             }
         ],
         "sha256": "73c32b20152fe19054d805d553d5e0b5a5d14a35856b06cfc89fbaedf9fbd248",
@@ -504,13 +524,15 @@
                 "readings": ["/laɪks/"]
             }
         ],
-        "entries": ["en:word:form-english-like-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:like",
-                "setId": "english-like",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "likes",
+                "reading": "/laɪks/"
             }
         ],
         "sha256": "6356ac29c16bc08eeb678a778d662c368daad2c902430ea95402e3d2d7f6e8ab",
@@ -541,22 +563,23 @@
                 "readings": ["/laɪkt/"]
             }
         ],
-        "entries": [
-            "en:word:form-english-like-past",
-            "en:word:form-english-like-past-participle"
-        ],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:like",
-                "setId": "english-like",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "liked",
+                "reading": "/laɪkt/"
             },
             {
                 "entryId": "en:word:like",
-                "setId": "english-like",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "liked",
+                "reading": "/laɪkt/"
             }
         ],
         "sha256": "4ac1ebe0c18b680ee9306220992e35502b90ae3b78b4c8211d7b173c53a70bb6",
@@ -587,13 +610,15 @@
                 "readings": ["/ˈlaɪkɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-english-like-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:like",
-                "setId": "english-like",
+                "setId": "english-verb",
                 "path": ["present-participle"],
-                "state": "present-participle"
+                "state": "present-participle",
+                "label": "liking",
+                "reading": "/ˈlaɪkɪŋ/"
             }
         ],
         "sha256": "a3f9f014a6ceef00e23a52a496d172641ae109b2b6c182574eafdc1df086700c",
@@ -624,13 +649,15 @@
                 "readings": ["/niːdz/"]
             }
         ],
-        "entries": ["en:word:form-english-need-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:need",
-                "setId": "english-need",
+                "setId": "english-verb",
                 "path": ["third-person"],
-                "state": "third-person"
+                "state": "third-person",
+                "label": "needs",
+                "reading": "/niːdz/"
             }
         ],
         "sha256": "f79427c79151421cb5d9d2b11d2e4c999bd31e073dfa12e0f20f2e9c5bff83a4",
@@ -661,22 +688,23 @@
                 "readings": ["/ˈniːdɪd/"]
             }
         ],
-        "entries": [
-            "en:word:form-english-need-past",
-            "en:word:form-english-need-past-participle"
-        ],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:need",
-                "setId": "english-need",
+                "setId": "english-verb",
                 "path": ["past"],
-                "state": "past"
+                "state": "past",
+                "label": "needed",
+                "reading": "/ˈniːdɪd/"
             },
             {
                 "entryId": "en:word:need",
-                "setId": "english-need",
+                "setId": "english-verb",
                 "path": ["past-participle"],
-                "state": "past-participle"
+                "state": "past-participle",
+                "label": "needed",
+                "reading": "/ˈniːdɪd/"
             }
         ],
         "sha256": "bfb1b5cff4db16cff5de7159cb6915e24f981748ffd305932ae8ac63e2937e95",

@@ -20,9 +20,7 @@
                 "path": "audio/10703bad0a3eae4370c7e8255c0e077054f9470eff2d7a85ae2ee8935031865c.wav",
                 "entryId": "en:word:containers-box"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -75,7 +73,8 @@
             },
             {
                 "path": "audio/65c5021d171e057994d370ba0bcf9d8ea1bbbaf43c2fd54088858907c1ce3695.wav",
-                "entryId": "en:word:form-force-pull-past"
+                "entryId": "en:word:force-pull",
+                "transformation": { "setId": "english-verb", "path": ["past"] }
             },
             {
                 "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
@@ -85,9 +84,7 @@
                 "path": "audio/82aa54979a99171da309b32e9e169c762861233b3c19f5cd53781a43a9f546cf.wav",
                 "entryId": "en:word:chair"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -99,9 +96,10 @@
             },
             {
                 "path": "audio/65c5021d171e057994d370ba0bcf9d8ea1bbbaf43c2fd54088858907c1ce3695.wav",
-                "entryId": "en:word:form-force-pull-past",
+                "entryId": "en:word:force-pull",
                 "startFrame": 14932,
-                "frameCount": 22137
+                "frameCount": 22137,
+                "transformation": { "setId": "english-verb", "path": ["past"] }
             },
             {
                 "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
@@ -150,9 +148,7 @@
                 "path": "audio/6670fd21613e90e70f6c6deff51d944e17cd41e6ae5ccae2f938fe420a950e2e.wav",
                 "entryId": "en:word:door"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -205,11 +201,16 @@
             },
             {
                 "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
-                "entryId": "en:word:form-english-be-are"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["are"] }
             },
             {
                 "path": "audio/763c9be1875509001aaa3bc1d15648bc9d3672be05001ff5ca4b7d282a6d3a16.wav",
-                "entryId": "en:word:form-force-pull-present-participle"
+                "entryId": "en:word:force-pull",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["present-participle"]
+                }
             },
             {
                 "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
@@ -219,9 +220,7 @@
                 "path": "audio/66fd65aedde46bfd761073cd0450d585bb6476048fa04edb6f8791a99ce426c4.wav",
                 "entryId": "en:word:table"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -233,15 +232,20 @@
             },
             {
                 "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
-                "entryId": "en:word:form-english-be-are",
+                "entryId": "en:word:be",
                 "startFrame": 22112,
-                "frameCount": 5418
+                "frameCount": 5418,
+                "transformation": { "setId": "english-copula", "path": ["are"] }
             },
             {
                 "path": "audio/763c9be1875509001aaa3bc1d15648bc9d3672be05001ff5ca4b7d282a6d3a16.wav",
-                "entryId": "en:word:form-force-pull-present-participle",
+                "entryId": "en:word:force-pull",
                 "startFrame": 29690,
-                "frameCount": 21022
+                "frameCount": 21022,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["present-participle"]
+                }
             },
             {
                 "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",

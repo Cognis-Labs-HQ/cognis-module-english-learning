@@ -20,9 +20,7 @@
                 "path": "audio/e84fc06564c992c4dcac2215fa3bde9e8b1e8005a45d847cd0976903ec6e32b1.wav",
                 "entryId": "en:word:carrot"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -75,7 +73,11 @@
             },
             {
                 "path": "audio/3984eecf2b14008f209fb549273bb6a576920d7064feb58c52089a10ca8c3c7b.wav",
-                "entryId": "en:word:form-craft-cut-third-person"
+                "entryId": "en:word:craft-cut",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
@@ -85,9 +87,7 @@
                 "path": "audio/0c99e0ab61bee151bc8433024278e69e846626de56889e935345eaf88ba329e2.wav",
                 "entryId": "en:word:onion"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -99,9 +99,13 @@
             },
             {
                 "path": "audio/3984eecf2b14008f209fb549273bb6a576920d7064feb58c52089a10ca8c3c7b.wav",
-                "entryId": "en:word:form-craft-cut-third-person",
+                "entryId": "en:word:craft-cut",
                 "startFrame": 14932,
-                "frameCount": 23251
+                "frameCount": 23251,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
@@ -154,9 +158,7 @@
                 "path": "audio/2f1aff6b9fc48808c7ea17e0f18661f9f72669d3cbe8ece8f3a1bafd65482800.wav",
                 "entryId": "en:word:rice"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -219,15 +221,14 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/db96542c1374b239273b03531b9960ca6d5d7eaf0fac9bbb879a2f0f4f55a4f5.wav",
                 "entryId": "en:word:colors-green"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -245,9 +246,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 40350,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/db96542c1374b239273b03531b9960ca6d5d7eaf0fac9bbb879a2f0f4f55a4f5.wav",

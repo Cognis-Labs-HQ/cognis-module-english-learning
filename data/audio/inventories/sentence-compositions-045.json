@@ -1,0 +1,55 @@
+[
+    {
+        "path": "audio/2825c93985f68e9aa7b1717dbde46663ea73e26e0f35c1b53407b42cd40e8450.wav",
+        "entryId": "en:sentence:mealtime-have-butter",
+        "label": "We have butter.",
+        "parts": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we"
+            },
+            {
+                "path": "audio/d4255166c4544afe249fa6b9d94b7c269dfe26aca8cd05c12b894525d7eaed7d.wav",
+                "entryId": "en:word:have"
+            },
+            {
+                "path": "audio/1bc577f8231c03383cac2bd5cb4e2f36586c0477ab5beddd174aba98c053330a.wav",
+                "entryId": "en:word:butter"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/f8e68b66a48bd50aa94db1bbd2d7259503dd48bb8b7789a095237d5739b6bd06.wav",
+                "entryId": "en:word:capital-we",
+                "startFrame": 2400,
+                "frameCount": 17552
+            },
+            {
+                "path": "audio/d4255166c4544afe249fa6b9d94b7c269dfe26aca8cd05c12b894525d7eaed7d.wav",
+                "entryId": "en:word:have",
+                "startFrame": 22112,
+                "frameCount": 11117
+            },
+            {
+                "path": "audio/1bc577f8231c03383cac2bd5cb4e2f36586c0477ab5beddd174aba98c053330a.wav",
+                "entryId": "en:word:butter",
+                "startFrame": 35389,
+                "frameCount": 21022
+            }
+        ],
+        "sha256": "2825c93985f68e9aa7b1717dbde46663ea73e26e0f35c1b53407b42cd40e8450",
+        "frames": 68171,
+        "input": {
+            "language": "en",
+            "label": "We have butter.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact existing constituent PCM; no external synthesis."
+        }
+    }
+]

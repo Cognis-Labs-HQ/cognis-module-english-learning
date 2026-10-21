@@ -24,6 +24,7 @@ function context(failure) {
         hooks: [],
     };
     const provider = {
+        transformationModel: "generated",
         registerLookupProvider(value) {
             calls.providers.push(value);
             return () => calls.removed.push(value.id);
@@ -270,6 +271,7 @@ for (const activationFails of [false, true]) {
                     if (id === "study:audio:provider")
                         return { registerProvider: register };
                     return {
+                        transformationModel: "generated",
                         registerLookupProvider: register,
                         async deleteContentPack() {},
                         async ingestContentPack() {
@@ -301,3 +303,28 @@ for (const activationFails of [false, true]) {
 function uninstallModule(ctx, options) {
     return uninstallLanguageModule(withConfiguration(ctx), options);
 }
+
+test("activation rejects a provider that does not enforce generated transformations", async () => {
+    await assert.rejects(
+        bootstrapModule({
+            capabilities: {
+                require(id) {
+                    assert.equal(id, "study:library:provider");
+                    return {
+                        transformationModel: "materialized",
+                        ingestContentPack() {
+                            assert.fail("Must reject before ingestion");
+                        },
+                        deleteContentPack() {
+                            assert.fail("Must not delete");
+                        },
+                        registerLookupProvider() {
+                            assert.fail("Must not register");
+                        },
+                    };
+                },
+            },
+        }),
+        /Invalid Study Library provider capability/,
+    );
+});

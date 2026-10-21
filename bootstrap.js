@@ -96,6 +96,7 @@ export async function uninstallModule(ctx, { deleteContent }) {
 export async function bootstrapModule(ctx) {
     const library = ctx.capabilities.require("study:library:provider");
     if (
+        library?.transformationModel !== "generated" ||
         ![
             "ingestContentPack",
             "registerLookupProvider",

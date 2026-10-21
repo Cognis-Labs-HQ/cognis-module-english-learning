@@ -61,8 +61,11 @@
         "variants": [
             {
                 "entryId": "en:word:travel-bicycle",
-                "setId": "travel-bicycle-forms",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "bicycles",
+                "reading": "/ˈbaɪsɪkəlz/",
+                "state": "plural"
             }
         ],
         "sha256": "2e323870147020ce253e1413fe4535015922d0428efc219f5f3f724363b48026",
@@ -229,12 +232,15 @@
                 "readings": ["/ˈbedruːmz/"]
             }
         ],
-        "entries": ["en:word:form-rooms-bedrooms"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:rooms-bedroom",
-                "setId": "noun-bedroom",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "bedrooms",
+                "reading": "/ˈbedruːmz/",
+                "state": "plural"
             }
         ],
         "sha256": "b934388fafb8a997455237641358207c9248cfcbea4f6058ac20c846f3288af3",
@@ -268,12 +274,15 @@
                 "readings": ["/ˈbɑːθruːmz/"]
             }
         ],
-        "entries": ["en:word:form-rooms-bathrooms"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:rooms-bathroom",
-                "setId": "noun-bathroom",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "bathrooms",
+                "reading": "/ˈbɑːθruːmz/",
+                "state": "plural"
             }
         ],
         "sha256": "2a14c8d646ed870857e2ea420663b035bd0b1eba3f22524fc00f57f4cd187d1c",
@@ -307,12 +316,15 @@
                 "readings": ["/ˈkɪtʃɪnz/"]
             }
         ],
-        "entries": ["en:word:form-rooms-kitchens"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:rooms-kitchen",
-                "setId": "noun-kitchen",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "kitchens",
+                "reading": "/ˈkɪtʃɪnz/",
+                "state": "plural"
             }
         ],
         "sha256": "9b847b2602df019832fb108bca416af1e1ac6dfaf675b19df40707eaffda4768",
@@ -346,12 +358,15 @@
                 "readings": ["/ˈɡɑːdnz/"]
             }
         ],
-        "entries": ["en:word:form-rooms-gardens"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:rooms-garden",
-                "setId": "noun-garden",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "gardens",
+                "reading": "/ˈɡɑːdnz/",
+                "state": "plural"
             }
         ],
         "sha256": "658d5de85a2ac978008703a4811c44f807dd760435559bd60014dd9fe84839a4",
@@ -517,12 +532,15 @@
                 "readings": ["/triːz/"]
             }
         ],
-        "entries": ["en:word:form-nature-trees"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:nature-tree",
-                "setId": "noun-tree",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "trees",
+                "reading": "/triːz/",
+                "state": "plural"
             }
         ],
         "sha256": "a43e68939a148753428494510bdc0e8b61bd6e5b76145739308a16fb9a4c5e47",
@@ -556,12 +574,15 @@
                 "readings": ["/ˈfɒrɪsts/"]
             }
         ],
-        "entries": ["en:word:form-nature-forests"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:nature-forest",
-                "setId": "noun-forest",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "forests",
+                "reading": "/ˈfɒrɪsts/",
+                "state": "plural"
             }
         ],
         "sha256": "233954c7cb88b050a1e2c08b2a70b51883bdcfc82fe366b8a2bb055e05b80f26",
@@ -595,12 +616,15 @@
                 "readings": ["/liːvz/"]
             }
         ],
-        "entries": ["en:word:form-nature-leaves"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:nature-leaf",
-                "setId": "noun-leaf",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "leaves",
+                "reading": "/liːvz/",
+                "state": "plural"
             }
         ],
         "sha256": "3eb992e14fc9c498909883b5ad4a6854210087f322589711c7d48c604b5faeb3",
@@ -634,12 +658,15 @@
                 "readings": ["/stəʊnz/"]
             }
         ],
-        "entries": ["en:word:form-nature-stones"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:nature-stone",
-                "setId": "noun-stone",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "stones",
+                "reading": "/stəʊnz/",
+                "state": "plural"
             }
         ],
         "sha256": "5836a94438e41c05ebef87dce2ec474ac44021a846fd4beab778217cdb4255d3",
@@ -746,39 +773,6 @@
         "metadata": {
             "listening": "unverified-not-performed",
             "sourcePcmSha256": "a6678012c4bebfe6378eb1d5a5028d1dbe35724d491a4bbd0c290eaaffb57507"
-        }
-    },
-    {
-        "path": "audio/e02b80ab50222cd8b98159f0cd533e048bf977803a123ad32326ecacc852953c.wav",
-        "text": "cry",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"kraɪ\">cry</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "cry",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/kraɪ/"]
-            }
-        ],
-        "entries": ["en:word:actions-cry"],
-        "variants": [],
-        "sha256": "e02b80ab50222cd8b98159f0cd533e048bf977803a123ad32326ecacc852953c",
-        "frames": 19907,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "499069ebdf1061b3a1b1912c25d3204fbbc468b54c2f1a36789040d78b289944"
         }
     }
 ]

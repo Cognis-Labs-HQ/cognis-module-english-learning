@@ -20,9 +20,7 @@
                 "path": "audio/318cdcbcbd4c4b122acdb41704812e66960383c8e0a56489fd9dc11efd04d9fe.wav",
                 "entryId": "en:word:correspondence-letter"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -75,15 +73,21 @@
             },
             {
                 "path": "audio/3e0b78f819ac77f550b5596926fe7419f932522336dc9bca846774d764dd1d17.wav",
-                "entryId": "en:word:form-delivery-send-third-person"
+                "entryId": "en:word:delivery-send",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/c3c142a0bee507a7114aa63f13185f445b878a26a1dacf9b52e5102f1f7cb6f5.wav",
-                "entryId": "en:word:form-correspondence-postcards"
+                "entryId": "en:word:correspondence-postcard",
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -95,15 +99,23 @@
             },
             {
                 "path": "audio/3e0b78f819ac77f550b5596926fe7419f932522336dc9bca846774d764dd1d17.wav",
-                "entryId": "en:word:form-delivery-send-third-person",
+                "entryId": "en:word:delivery-send",
                 "startFrame": 14932,
-                "frameCount": 23251
+                "frameCount": 23251,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/c3c142a0bee507a7114aa63f13185f445b878a26a1dacf9b52e5102f1f7cb6f5.wav",
-                "entryId": "en:word:form-correspondence-postcards",
+                "entryId": "en:word:correspondence-postcard",
                 "startFrame": 40343,
-                "frameCount": 29939
+                "frameCount": 29939,
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             }
         ],
         "sha256": "3b47dbbdc53868ca046b8ebc1d1deed98dc8c3a534e79e4337d88f04eb382c8b",
@@ -130,7 +142,8 @@
             },
             {
                 "path": "audio/e04d6f706b4ab2346c5221173858ed4a46b02ccc8c456e3c736c6773026914e4.wav",
-                "entryId": "en:word:form-delivery-carry-past"
+                "entryId": "en:word:delivery-carry",
+                "transformation": { "setId": "english-verb", "path": ["past"] }
             },
             {
                 "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
@@ -140,9 +153,7 @@
                 "path": "audio/10703bad0a3eae4370c7e8255c0e077054f9470eff2d7a85ae2ee8935031865c.wav",
                 "entryId": "en:word:containers-box"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -154,9 +165,10 @@
             },
             {
                 "path": "audio/e04d6f706b4ab2346c5221173858ed4a46b02ccc8c456e3c736c6773026914e4.wav",
-                "entryId": "en:word:form-delivery-carry-past",
+                "entryId": "en:word:delivery-carry",
                 "startFrame": 15363,
-                "frameCount": 22137
+                "frameCount": 22137,
+                "transformation": { "setId": "english-verb", "path": ["past"] }
             },
             {
                 "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
@@ -195,11 +207,16 @@
             },
             {
                 "path": "audio/487088dd8be1b2ac3af870c58e10ddfb75d35e254b1221160654d062f9db7a73.wav",
-                "entryId": "en:word:form-english-be-am"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["am"] }
             },
             {
                 "path": "audio/d89adcba2abd712672a23b1b19024ccd9fdd7aaac0a2e058b24d9144d3001aa8.wav",
-                "entryId": "en:word:form-delivery-carry-present-participle"
+                "entryId": "en:word:delivery-carry",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["present-participle"]
+                }
             },
             {
                 "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
@@ -209,9 +226,7 @@
                 "path": "audio/73013127fed0ea0a484238e0a4ba76df65fdb9996877d6dd180f519f856585fe.wav",
                 "entryId": "en:word:bag"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -223,15 +238,20 @@
             },
             {
                 "path": "audio/487088dd8be1b2ac3af870c58e10ddfb75d35e254b1221160654d062f9db7a73.wav",
-                "entryId": "en:word:form-english-be-am",
+                "entryId": "en:word:be",
                 "startFrame": 11067,
-                "frameCount": 13320
+                "frameCount": 13320,
+                "transformation": { "setId": "english-copula", "path": ["am"] }
             },
             {
                 "path": "audio/d89adcba2abd712672a23b1b19024ccd9fdd7aaac0a2e058b24d9144d3001aa8.wav",
-                "entryId": "en:word:form-delivery-carry-present-participle",
+                "entryId": "en:word:delivery-carry",
                 "startFrame": 26547,
-                "frameCount": 24366
+                "frameCount": 24366,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["present-participle"]
+                }
             },
             {
                 "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",

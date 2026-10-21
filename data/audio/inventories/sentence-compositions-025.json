@@ -14,15 +14,17 @@
             },
             {
                 "path": "audio/2d36c6a17531372e69b77f18041bc09a202bfc3e7bcbed209e44c6edb64f404f.wav",
-                "entryId": "en:word:form-english-run-third-person"
+                "entryId": "en:word:run",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/b928785fc26d53e97122fd9ed9936acfbb309046e746cc1ddbf8f509778af427.wav",
                 "entryId": "en:word:quickly"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -40,9 +42,13 @@
             },
             {
                 "path": "audio/2d36c6a17531372e69b77f18041bc09a202bfc3e7bcbed209e44c6edb64f404f.wav",
-                "entryId": "en:word:form-english-run-third-person",
+                "entryId": "en:word:run",
                 "startFrame": 37007,
-                "frameCount": 16947
+                "frameCount": 16947,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/b928785fc26d53e97122fd9ed9936acfbb309046e746cc1ddbf8f509778af427.wav",
@@ -79,7 +85,8 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
@@ -93,9 +100,7 @@
                 "path": "audio/4ae4ba0ad52b3142f2c746a723768898a860d7dde6ea68db59b6ad7a376b2153.wav",
                 "entryId": "en:word:nature-forest"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -113,9 +118,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 34777,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
@@ -170,9 +176,7 @@
                 "path": "audio/e7bd1f933e15565cb17cdb02f58723216ac692e6467bb1b40863c22e6bd8c805.wav",
                 "entryId": "en:word:wildlife-monkey"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -229,15 +233,14 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/2b24cc481581375416e015341c1c564cc12532b6bc70557143f32367c7d60efa.wav",
                 "entryId": "en:word:big"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -255,9 +258,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 39236,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/2b24cc481581375416e015341c1c564cc12532b6bc70557143f32367c7d60efa.wav",

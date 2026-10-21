@@ -10,7 +10,8 @@
             },
             {
                 "path": "audio/487088dd8be1b2ac3af870c58e10ddfb75d35e254b1221160654d062f9db7a73.wav",
-                "entryId": "en:word:form-english-be-am"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["am"] }
             },
             {
                 "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
@@ -32,9 +33,10 @@
             },
             {
                 "path": "audio/487088dd8be1b2ac3af870c58e10ddfb75d35e254b1221160654d062f9db7a73.wav",
-                "entryId": "en:word:form-english-be-am",
+                "entryId": "en:word:be",
                 "startFrame": 11067,
-                "frameCount": 13320
+                "frameCount": 13320,
+                "transformation": { "setId": "english-copula", "path": ["am"] }
             },
             {
                 "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
@@ -69,7 +71,8 @@
             },
             {
                 "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
-                "entryId": "en:word:form-english-be-are"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["are"] }
             },
             {
                 "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
@@ -91,9 +94,10 @@
             },
             {
                 "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
-                "entryId": "en:word:form-english-be-are",
+                "entryId": "en:word:be",
                 "startFrame": 14190,
-                "frameCount": 5418
+                "frameCount": 5418,
+                "transformation": { "setId": "english-copula", "path": ["are"] }
             },
             {
                 "path": "audio/6575e587f972f63415848644e36ff2cd3aba37cd48459a45af757a4c4df2aa46.wav",
@@ -128,7 +132,8 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
@@ -150,9 +155,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 14932,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
@@ -187,7 +193,11 @@
             },
             {
                 "path": "audio/bda924c2c4116df9e3bfe3599856e66a2305d8fd57fc299ded5eec1d595f99c6.wav",
-                "entryId": "en:word:form-english-have-third-person"
+                "entryId": "en:word:have",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
@@ -209,9 +219,13 @@
             },
             {
                 "path": "audio/bda924c2c4116df9e3bfe3599856e66a2305d8fd57fc299ded5eec1d595f99c6.wav",
-                "entryId": "en:word:form-english-have-third-person",
+                "entryId": "en:word:have",
                 "startFrame": 15363,
-                "frameCount": 9951
+                "frameCount": 9951,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
@@ -407,7 +421,8 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/de7a4bdecea3025be9ba5d3c667402f47cc1b671aca28db38ab59239fb3d54ca.wav",
@@ -431,9 +446,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 22940,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/de7a4bdecea3025be9ba5d3c667402f47cc1b671aca28db38ab59239fb3d54ca.wav",
@@ -466,7 +482,8 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/2b24cc481581375416e015341c1c564cc12532b6bc70557143f32367c7d60efa.wav",
@@ -490,9 +507,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 28588,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/2b24cc481581375416e015341c1c564cc12532b6bc70557143f32367c7d60efa.wav",
@@ -639,7 +657,11 @@
             },
             {
                 "path": "audio/5bc6c73d388441c4b3ccdf9abbea2cb6943c2fcacea43b6ca964ea7a4e8a03cf.wav",
-                "entryId": "en:word:form-english-read-third-person"
+                "entryId": "en:word:read",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
@@ -661,9 +683,13 @@
             },
             {
                 "path": "audio/5bc6c73d388441c4b3ccdf9abbea2cb6943c2fcacea43b6ca964ea7a4e8a03cf.wav",
-                "entryId": "en:word:form-english-read-third-person",
+                "entryId": "en:word:read",
                 "startFrame": 14932,
-                "frameCount": 13546
+                "frameCount": 13546,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
@@ -698,7 +724,11 @@
             },
             {
                 "path": "audio/6fe4eea49f2031d3b6afeada0a1dedbbe0f562f3a187fbc50fdb32c877c17ef6.wav",
-                "entryId": "en:word:form-english-walk-third-person"
+                "entryId": "en:word:walk",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
@@ -720,9 +750,13 @@
             },
             {
                 "path": "audio/6fe4eea49f2031d3b6afeada0a1dedbbe0f562f3a187fbc50fdb32c877c17ef6.wav",
-                "entryId": "en:word:form-english-walk-third-person",
+                "entryId": "en:word:walk",
                 "startFrame": 15363,
-                "frameCount": 14426
+                "frameCount": 14426,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",

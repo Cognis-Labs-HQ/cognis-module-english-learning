@@ -1,0 +1,52 @@
+[
+    {
+        "path": "audio/0d98c79d330c542bc8aa01138a04582ff86b65d091b8a8327f2cdd5bc491e4b7.wav",
+        "text": "cried",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"kraɪd\">cried</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "cried",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/kraɪd/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:actions-cry",
+                "setId": "english-verb",
+                "path": ["past"],
+                "label": "cried",
+                "reading": "/kraɪd/",
+                "state": "past"
+            },
+            {
+                "entryId": "en:word:actions-cry",
+                "setId": "english-verb",
+                "path": ["past-participle"],
+                "label": "cried",
+                "reading": "/kraɪd/",
+                "state": "past-participle"
+            }
+        ],
+        "sha256": "0d98c79d330c542bc8aa01138a04582ff86b65d091b8a8327f2cdd5bc491e4b7",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "b119343a31e1ca899d136d90ec26a5a250a025260cb7c8f7e36223da1cd5304c"
+        }
+    }
+]

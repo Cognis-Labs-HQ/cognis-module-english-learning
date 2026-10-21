@@ -27,8 +27,11 @@
         "variants": [
             {
                 "entryId": "en:word:travel-ticket",
-                "setId": "travel-ticket-forms",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "tickets",
+                "reading": "/ˈtɪkɪts/",
+                "state": "plural"
             }
         ],
         "sha256": "523659aaaa20c22b467768c3fa466372b56e4b9080201ee459297746e3439b5f",
@@ -101,8 +104,11 @@
         "variants": [
             {
                 "entryId": "en:word:travel-wait",
-                "setId": "travel-wait-forms",
-                "path": ["third-person"]
+                "setId": "english-verb",
+                "path": ["third-person"],
+                "label": "waits",
+                "reading": "/weɪts/",
+                "state": "third-person"
             }
         ],
         "sha256": "761a2639d1aebc3187678326386237b9ec6941c67ca05545396fa45964b9c8cb",
@@ -141,13 +147,19 @@
         "variants": [
             {
                 "entryId": "en:word:travel-wait",
-                "setId": "travel-wait-forms",
-                "path": ["past"]
+                "setId": "english-verb",
+                "path": ["past"],
+                "label": "waited",
+                "reading": "/ˈweɪtɪd/",
+                "state": "past"
             },
             {
                 "entryId": "en:word:travel-wait",
-                "setId": "travel-wait-forms",
-                "path": ["past-participle"]
+                "setId": "english-verb",
+                "path": ["past-participle"],
+                "label": "waited",
+                "reading": "/ˈweɪtɪd/",
+                "state": "past-participle"
             }
         ],
         "sha256": "4425962f369efd3a8f42b52a665d8985b51a93f95479a6cce3d38b748b9657dc",
@@ -186,8 +198,11 @@
         "variants": [
             {
                 "entryId": "en:word:travel-wait",
-                "setId": "travel-wait-forms",
-                "path": ["present-participle"]
+                "setId": "english-verb",
+                "path": ["present-participle"],
+                "label": "waiting",
+                "reading": "/ˈweɪtɪŋ/",
+                "state": "present-participle"
             }
         ],
         "sha256": "d3fc403bcea5fc5ebab8358f71f015a38334d0ddcc9a25a393d34072b7d9c72d",

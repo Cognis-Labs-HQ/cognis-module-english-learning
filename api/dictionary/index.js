@@ -95,8 +95,12 @@ export function dictionarySuggestion(record, native, query, selectedPart) {
     ].slice(0, 10);
     const partOfSpeech =
         native?.fields?.part_of_speech ?? [...parts][0] ?? "noun";
-    // Only curated paradigms have authoritative inflections and matching IPA.
-    const tags = [...new Set([...(native?.tags ?? []), ...parts])];
+    const transformFlag = ["verb", "adjective", "copula"].includes(partOfSpeech)
+        ? [`transform:${partOfSpeech}`]
+        : [];
+    const tags = [
+        ...new Set([...(native?.tags ?? []), ...parts, ...transformFlag]),
+    ];
     return {
         label: native?.label ?? record.word,
         class: native?.class ?? `lexical:${partOfSpeech}`,

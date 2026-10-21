@@ -302,7 +302,11 @@
             },
             {
                 "path": "audio/bda924c2c4116df9e3bfe3599856e66a2305d8fd57fc299ded5eec1d595f99c6.wav",
-                "entryId": "en:word:form-english-have-third-person"
+                "entryId": "en:word:have",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/51b8f14fcdf9707ee8add50602f5ecabd4c6dd2396cb8901e8641d4c5371680d.wav",
@@ -310,7 +314,11 @@
             },
             {
                 "path": "audio/ef891f7c07a79c9a34a30cc01c95b2fa0e3c08b56956937d877aaac84e4d6266.wav",
-                "entryId": "en:word:form-school-pens"
+                "entryId": "en:word:school-pen",
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             { "pauseMs": 400 }
         ],
@@ -324,9 +332,13 @@
             },
             {
                 "path": "audio/bda924c2c4116df9e3bfe3599856e66a2305d8fd57fc299ded5eec1d595f99c6.wav",
-                "entryId": "en:word:form-english-have-third-person",
+                "entryId": "en:word:have",
                 "startFrame": 14932,
-                "frameCount": 9951
+                "frameCount": 9951,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/51b8f14fcdf9707ee8add50602f5ecabd4c6dd2396cb8901e8641d4c5371680d.wav",
@@ -336,9 +348,13 @@
             },
             {
                 "path": "audio/ef891f7c07a79c9a34a30cc01c95b2fa0e3c08b56956937d877aaac84e4d6266.wav",
-                "entryId": "en:word:form-school-pens",
+                "entryId": "en:word:school-pen",
                 "startFrame": 38713,
-                "frameCount": 23251
+                "frameCount": 23251,
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             }
         ],
         "sha256": "56d0a02c2d50edde17df9ef5db01df50a4ba6dd478b2539e5a043cdde5078cd5",
@@ -442,7 +458,8 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/b16819d83e2bb0a994694ccb6feeb9a4e38f2a5662dc139ecd88628a19d9dca4.wav",
@@ -474,9 +491,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 37007,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/b16819d83e2bb0a994694ccb6feeb9a4e38f2a5662dc139ecd88628a19d9dca4.wav",
@@ -594,7 +612,11 @@
             },
             {
                 "path": "audio/686c0db59021dbcd956d845fbd5cf488d0e2cb85d948fc611c6e4303fc88e829.wav",
-                "entryId": "en:word:form-english-work-third-person"
+                "entryId": "en:word:work",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
@@ -620,9 +642,13 @@
             },
             {
                 "path": "audio/686c0db59021dbcd956d845fbd5cf488d0e2cb85d948fc611c6e4303fc88e829.wav",
-                "entryId": "en:word:form-english-work-third-person",
+                "entryId": "en:word:work",
                 "startFrame": 14932,
-                "frameCount": 14441
+                "frameCount": 14441,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",

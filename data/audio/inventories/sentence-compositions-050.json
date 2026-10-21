@@ -1,0 +1,85 @@
+[
+    {
+        "path": "audio/e467b63d0cdb21fad9400f4ea4b7edc0cdaeeba6d6509a6a95136c66790a0943.wav",
+        "entryId": "en:sentence:care-example-toothpaste",
+        "label": "I buy toothpaste at the supermarket.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+                "entryId": "en:word:travel-buy"
+            },
+            {
+                "path": "audio/2a7df9a454b151405b2fe20f3053b323c0b7707fee9973e11f34cf5b1b438288.wav",
+                "entryId": "en:word:care-toothpaste"
+            },
+            {
+                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
+                "entryId": "en:particle:at"
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/578eaa7c2d92a0ee7eb8ddbe36c8f4fc9df41588cc286435751ad234cfb4f5c7.wav",
+                "entryId": "en:word:places-supermarket"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/dea6c722fd3f03e6d8028998e546b1a33d80cc581e49f09851119f751da820fa.wav",
+                "entryId": "en:word:travel-buy",
+                "startFrame": 11067,
+                "frameCount": 19907
+            },
+            {
+                "path": "audio/2a7df9a454b151405b2fe20f3053b323c0b7707fee9973e11f34cf5b1b438288.wav",
+                "entryId": "en:word:care-toothpaste",
+                "startFrame": 33134,
+                "frameCount": 27709
+            },
+            {
+                "path": "audio/256f5ebf481dced1abde899bd33650fc16e666191086408369654609ea7706fc.wav",
+                "entryId": "en:particle:at",
+                "startFrame": 63003,
+                "frameCount": 9361
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 74524,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/578eaa7c2d92a0ee7eb8ddbe36c8f4fc9df41588cc286435751ad234cfb4f5c7.wav",
+                "entryId": "en:word:places-supermarket",
+                "startFrame": 84834,
+                "frameCount": 26595
+            }
+        ],
+        "sha256": "e467b63d0cdb21fad9400f4ea4b7edc0cdaeeba6d6509a6a95136c66790a0943",
+        "frames": 123189,
+        "input": {
+            "language": "en",
+            "label": "I buy toothpaste at the supermarket.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        },
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "construction": "Exact personal-care constituent PCM, including the English plural towels."
+        }
+    }
+]

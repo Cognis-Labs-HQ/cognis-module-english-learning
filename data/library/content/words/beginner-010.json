@@ -326,7 +326,7 @@
             ]
         },
         "class": "lexical:adverb",
-        "tags": ["adverb", "beginner"],
+        "tags": ["adverb", "beginner", "transform:adverb"],
         "references": [
             {
                 "entryId": "en:char:q-lowercase",
@@ -381,7 +381,7 @@
             ]
         },
         "class": "lexical:adverb",
-        "tags": ["adverb", "beginner"],
+        "tags": ["adverb", "beginner", "transform:adverb"],
         "references": [
             {
                 "entryId": "en:char:s-lowercase",
@@ -455,51 +455,6 @@
             },
             {
                 "entryId": "en:definition:word:very",
-                "relation": "definitions"
-            }
-        ]
-    },
-    {
-        "id": "en:word:books",
-        "label": "books",
-        "fields": {
-            "part_of_speech": "noun",
-            "pronunciation": ["/bʊks/"],
-            "audio": "audio/755a89a5a281d6964d8ece210f14eefca78746020c7314e81c4455674378e5b0.wav",
-            "reference_images": [
-                "images/f69f0b6966274d3a204ea6ec7593629e769ab84d7a671619e2694faabdca8402.jpg"
-            ]
-        },
-        "tags": ["noun", "beginner"],
-        "class": "lexical:noun",
-        "references": [
-            {
-                "entryId": "en:char:b-lowercase",
-                "relation": "spelling",
-                "position": 0
-            },
-            {
-                "entryId": "en:char:o-lowercase",
-                "relation": "spelling",
-                "position": 1
-            },
-            {
-                "entryId": "en:char:o-lowercase",
-                "relation": "spelling",
-                "position": 2
-            },
-            {
-                "entryId": "en:char:k-lowercase",
-                "relation": "spelling",
-                "position": 3
-            },
-            {
-                "entryId": "en:char:s-lowercase",
-                "relation": "spelling",
-                "position": 4
-            },
-            {
-                "entryId": "en:definition:word:books",
                 "relation": "definitions"
             }
         ]

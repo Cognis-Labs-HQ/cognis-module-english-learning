@@ -1,3 +1,4 @@
+import { readFileSync } from "node:fs";
 import assert from "node:assert/strict";
 import test from "node:test";
 import { createDictionaryProvider } from "../dictionary/index.js";
@@ -73,7 +74,7 @@ test("remote lookup keeps curated irregular paradigms and primary IPA, and bound
         new Set(result.fields.pronunciation).size,
         result.fields.pronunciation.length,
     );
-    assert.ok(result.tags.includes("paradigm-run"));
+    assert.ok(result.tags.includes("transform:verb"));
     assert.deepEqual(
         result.references
             .filter(({ relation }) => relation === "spelling")
@@ -82,13 +83,25 @@ test("remote lookup keeps curated irregular paradigms and primary IPA, and bound
     );
 });
 
-test("new vocabulary resolves existing alphabet links without inventing irregular inflections", async () => {
+test("new vocabulary resolves alphabet links and declares the shared grammatical family", async () => {
     const provider = dictionary(
         async () => new Response(JSON.stringify([dictionaryRecord("sing")])),
     );
     const [result] = await provider.lookup({ schema, layer, label: "sing" });
     assert.equal(result.class, "lexical:verb");
-    assert.deepEqual(result.tags, ["verb"]);
+    assert.deepEqual(result.tags, ["verb", "transform:verb"]);
+    const grammar = JSON.parse(
+        readFileSync("data/library/schema.json", "utf8"),
+    ).transformSets.find(({ flag }) => flag === "transform:verb");
+    assert.equal(
+        grammar.rules.find(({ id }) => id === "past").forms.sing.append,
+        "sang",
+    );
+    assert.equal(
+        grammar.rules.find(({ id }) => id === "past-participle").forms.sing
+            .pronunciation.append,
+        "/sʌŋ/",
+    );
     assert.equal(result.references.length, 4);
     assert.deepEqual(
         result.references.map(({ position }) => position),

@@ -322,7 +322,11 @@
             },
             {
                 "path": "audio/5bc6c73d388441c4b3ccdf9abbea2cb6943c2fcacea43b6ca964ea7a4e8a03cf.wav",
-                "entryId": "en:word:form-english-read-third-person"
+                "entryId": "en:word:read",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/2b74222ac22ab764968a4ea170457de805e525ea92c037da57ab21e8fc8e29e8.wav",
@@ -340,9 +344,13 @@
             },
             {
                 "path": "audio/5bc6c73d388441c4b3ccdf9abbea2cb6943c2fcacea43b6ca964ea7a4e8a03cf.wav",
-                "entryId": "en:word:form-english-read-third-person",
+                "entryId": "en:word:read",
                 "startFrame": 14932,
-                "frameCount": 13546
+                "frameCount": 13546,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/2b74222ac22ab764968a4ea170457de805e525ea92c037da57ab21e8fc8e29e8.wav",
@@ -452,7 +460,8 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/1f0e9e75cec1b9ebf8e9982bfc802b2039c4be24125e30956f407c7f9a47b756.wav",
@@ -476,9 +485,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 29484,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/1f0e9e75cec1b9ebf8e9982bfc802b2039c4be24125e30956f407c7f9a47b756.wav",

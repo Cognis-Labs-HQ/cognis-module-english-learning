@@ -67,7 +67,8 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/de7a4bdecea3025be9ba5d3c667402f47cc1b671aca28db38ab59239fb3d54ca.wav",
@@ -91,9 +92,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 39236,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/de7a4bdecea3025be9ba5d3c667402f47cc1b671aca28db38ab59239fb3d54ca.wav",
@@ -388,7 +390,11 @@
             },
             {
                 "path": "audio/6fe4eea49f2031d3b6afeada0a1dedbbe0f562f3a187fbc50fdb32c877c17ef6.wav",
-                "entryId": "en:word:form-english-walk-third-person"
+                "entryId": "en:word:walk",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
@@ -414,9 +420,13 @@
             },
             {
                 "path": "audio/6fe4eea49f2031d3b6afeada0a1dedbbe0f562f3a187fbc50fdb32c877c17ef6.wav",
-                "entryId": "en:word:form-english-walk-third-person",
+                "entryId": "en:word:walk",
                 "startFrame": 14932,
-                "frameCount": 14426
+                "frameCount": 14426,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/67134bba3db0d0eeb1335f4002e6556b47bc2600e2b8910996d64c1b35887876.wav",
@@ -524,7 +534,11 @@
             },
             {
                 "path": "audio/3eca6e67d85d977e599fed0c9ab6a484f51a46dec8d7a561f2c2ace25e9cc1c5.wav",
-                "entryId": "en:word:form-english-drink-third-person"
+                "entryId": "en:word:drink",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/de43a97fbedea7909d8f9b9ca31da43c5bd95debf2a1c3f89a02f2f0996bee27.wav",
@@ -542,9 +556,13 @@
             },
             {
                 "path": "audio/3eca6e67d85d977e599fed0c9ab6a484f51a46dec8d7a561f2c2ace25e9cc1c5.wav",
-                "entryId": "en:word:form-english-drink-third-person",
+                "entryId": "en:word:drink",
                 "startFrame": 15363,
-                "frameCount": 13170
+                "frameCount": 13170,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/de43a97fbedea7909d8f9b9ca31da43c5bd95debf2a1c3f89a02f2f0996bee27.wav",
@@ -650,7 +668,11 @@
             },
             {
                 "path": "audio/f0481cffb8d824527026fdff7aa234c9d6168eac83dcbaaafe98ff2695159c5f.wav",
-                "entryId": "en:word:form-english-need-third-person"
+                "entryId": "en:word:need",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
@@ -676,9 +698,13 @@
             },
             {
                 "path": "audio/f0481cffb8d824527026fdff7aa234c9d6168eac83dcbaaafe98ff2695159c5f.wav",
-                "entryId": "en:word:form-english-need-third-person",
+                "entryId": "en:word:need",
                 "startFrame": 14932,
-                "frameCount": 15655
+                "frameCount": 15655,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/626132d06b90e4791e02543f36c7218864e584c191b249c1536c22e457835280.wav",
@@ -704,69 +730,6 @@
         "input": {
             "language": "en",
             "label": "She needs a new phone.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact existing constituent PCM; no external synthesis."
-        }
-    },
-    {
-        "path": "audio/01995d1b12ce3f50aeefecc2c72d4fc9d665825785f0be4b10f95730c04f25d2.wav",
-        "entryId": "en:sentence:shopping-big-coat",
-        "label": "The coat is big.",
-        "parts": [
-            {
-                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
-                "entryId": "en:word:capital-the"
-            },
-            {
-                "path": "audio/e72db60db99f01ff27735a2ec347691e8fe769d672a7b0e94f3352ec0344e584.wav",
-                "entryId": "en:word:coat"
-            },
-            {
-                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
-            },
-            {
-                "path": "audio/2b24cc481581375416e015341c1c564cc12532b6bc70557143f32367c7d60efa.wav",
-                "entryId": "en:word:big"
-            },
-            { "pauseMs": 400 }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/b56fac9b452c6f285ed057e13661d59ac7d7cde373dc3f02ad24e6e6fd8ffdfb.wav",
-                "entryId": "en:word:capital-the",
-                "startFrame": 2400,
-                "frameCount": 8150
-            },
-            {
-                "path": "audio/e72db60db99f01ff27735a2ec347691e8fe769d672a7b0e94f3352ec0344e584.wav",
-                "entryId": "en:word:coat",
-                "startFrame": 12710,
-                "frameCount": 28824
-            },
-            {
-                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
-                "startFrame": 43694,
-                "frameCount": 10387
-            },
-            {
-                "path": "audio/2b24cc481581375416e015341c1c564cc12532b6bc70557143f32367c7d60efa.wav",
-                "entryId": "en:word:big",
-                "startFrame": 56241,
-                "frameCount": 11582
-            }
-        ],
-        "sha256": "01995d1b12ce3f50aeefecc2c72d4fc9d665825785f0be4b10f95730c04f25d2",
-        "frames": 79583,
-        "input": {
-            "language": "en",
-            "label": "The coat is big.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
         },

@@ -23,9 +23,13 @@
                 "position": 2
             },
             {
-                "entryId": "en:word:form-english-be-am",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 3
+                "position": 3,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["am"]
+                }
             },
             {
                 "entryId": "en:word:a",
@@ -72,9 +76,13 @@
                 "position": 2
             },
             {
-                "entryId": "en:word:form-english-be-am",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 3
+                "position": 3,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["am"]
+                }
             },
             {
                 "entryId": "en:word:a",

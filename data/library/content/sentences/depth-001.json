@@ -18,9 +18,13 @@
                 "position": 1
             },
             {
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["is"]
+                }
             },
             {
                 "entryId": "en:word:depth-deep",
@@ -62,9 +66,13 @@
                 "position": 2
             },
             {
-                "entryId": "en:word:form-depth-shallow-comparative",
+                "entryId": "en:word:depth-shallow",
                 "relation": "words",
-                "position": 3
+                "position": 3,
+                "transformation": {
+                    "setId": "english-adjective",
+                    "path": ["comparative"]
+                }
             },
             {
                 "entryId": "en:word:kitchen-pan",
@@ -96,9 +104,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-depth-deep-superlative",
+                "entryId": "en:word:depth-deep",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-adjective",
+                    "path": ["superlative"]
+                }
             },
             {
                 "entryId": "en:word:kitchen-pot",
@@ -106,9 +118,13 @@
                 "position": 2
             },
             {
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 3
+                "position": 3,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["is"]
+                }
             },
             {
                 "entryId": "en:word:here",
@@ -145,9 +161,13 @@
                 "position": 1
             },
             {
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["is"]
+                }
             },
             {
                 "entryId": "en:word:depth-shallow",

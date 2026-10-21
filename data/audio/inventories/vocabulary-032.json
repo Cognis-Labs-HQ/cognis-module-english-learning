@@ -23,12 +23,15 @@
                 "readings": ["/kʌts/"]
             }
         ],
-        "entries": ["en:word:form-craft-cut-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:craft-cut",
-                "setId": "craft-cut-forms",
-                "path": ["third-person"]
+                "setId": "english-verb",
+                "path": ["third-person"],
+                "label": "cuts",
+                "reading": "/kʌts/",
+                "state": "third-person"
             }
         ],
         "sha256": "3984eecf2b14008f209fb549273bb6a576920d7064feb58c52089a10ca8c3c7b",
@@ -62,12 +65,15 @@
                 "readings": ["/ˈkʌtɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-craft-cut-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:craft-cut",
-                "setId": "craft-cut-forms",
-                "path": ["present-participle"]
+                "setId": "english-verb",
+                "path": ["present-participle"],
+                "label": "cutting",
+                "reading": "/ˈkʌtɪŋ/",
+                "state": "present-participle"
             }
         ],
         "sha256": "6e89a7b2bc46f4a9886d5137f67f479c59a1b280d1c0c04de2d941f03e3ea5ca",
@@ -101,12 +107,15 @@
                 "readings": ["/fəʊldz/"]
             }
         ],
-        "entries": ["en:word:form-craft-fold-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:craft-fold",
-                "setId": "craft-fold-forms",
-                "path": ["third-person"]
+                "setId": "english-verb",
+                "path": ["third-person"],
+                "label": "folds",
+                "reading": "/fəʊldz/",
+                "state": "third-person"
             }
         ],
         "sha256": "5ed06cbe8db02c3a07f004535498b4a4c036fd3cb96c7944efa9b85a4b8fa85f",
@@ -140,17 +149,23 @@
                 "readings": ["/ˈfəʊldɪd/"]
             }
         ],
-        "entries": ["en:word:form-craft-fold-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:craft-fold",
-                "setId": "craft-fold-forms",
-                "path": ["past"]
+                "setId": "english-verb",
+                "path": ["past"],
+                "label": "folded",
+                "reading": "/ˈfəʊldɪd/",
+                "state": "past"
             },
             {
                 "entryId": "en:word:craft-fold",
-                "setId": "craft-fold-forms",
-                "path": ["past-participle"]
+                "setId": "english-verb",
+                "path": ["past-participle"],
+                "label": "folded",
+                "reading": "/ˈfəʊldɪd/",
+                "state": "past-participle"
             }
         ],
         "sha256": "447ef771ef65112be6486d0b852d05d85693c8658afc37dda1eea718660338c9",
@@ -184,12 +199,15 @@
                 "readings": ["/ˈfəʊldɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-craft-fold-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:craft-fold",
-                "setId": "craft-fold-forms",
-                "path": ["present-participle"]
+                "setId": "english-verb",
+                "path": ["present-participle"],
+                "label": "folding",
+                "reading": "/ˈfəʊldɪŋ/",
+                "state": "present-participle"
             }
         ],
         "sha256": "17c9a3eb2234e4e378fb42e38d5560ea02e672d233714328af3d8dc4729109a4",

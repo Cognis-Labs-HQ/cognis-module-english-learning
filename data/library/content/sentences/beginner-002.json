@@ -14,9 +14,13 @@
                 "position": 1
             },
             {
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["is"]
+                }
             },
             {
                 "entryId": "en:word:big",
@@ -126,9 +130,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-english-read-third-person",
+                "entryId": "en:word:read",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "entryId": "en:word:a",
@@ -165,9 +173,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-english-walk-third-person",
+                "entryId": "en:word:walk",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "entryId": "en:particle:to",

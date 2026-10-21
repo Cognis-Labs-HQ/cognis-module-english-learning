@@ -32,9 +32,7 @@
                 "path": "audio/fc3ecd7d1abfbc340f59297766bb1e85f8652d4f943c5c47a92443b289dda215.wav",
                 "entryId": "en:word:tableware-plate"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -105,7 +103,11 @@
             },
             {
                 "path": "audio/5bc6c73d388441c4b3ccdf9abbea2cb6943c2fcacea43b6ca964ea7a4e8a03cf.wav",
-                "entryId": "en:word:form-english-read-third-person"
+                "entryId": "en:word:read",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
@@ -127,9 +129,7 @@
                 "path": "audio/95ac49fdba60834da3b233b25d732e45079690bbd8bf24b8f5cbccbabf5dc64a.wav",
                 "entryId": "en:word:rooms-kitchen"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -141,9 +141,13 @@
             },
             {
                 "path": "audio/5bc6c73d388441c4b3ccdf9abbea2cb6943c2fcacea43b6ca964ea7a4e8a03cf.wav",
-                "entryId": "en:word:form-english-read-third-person",
+                "entryId": "en:word:read",
                 "startFrame": 14932,
-                "frameCount": 13546
+                "frameCount": 13546,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
@@ -214,9 +218,7 @@
                 "path": "audio/66fd65aedde46bfd761073cd0450d585bb6476048fa04edb6f8791a99ce426c4.wav",
                 "entryId": "en:word:table"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -285,9 +287,7 @@
                 "path": "audio/b6da6a63eebad0d2ceb607a58c21af556a67551c90f85c86cc15763915d72373.wav",
                 "entryId": "en:word:belongings-glasses"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [

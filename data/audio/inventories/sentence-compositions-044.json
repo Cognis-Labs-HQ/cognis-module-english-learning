@@ -1,0 +1,81 @@
+[
+    {
+        "path": "audio/7a14b286374901aefcad5945b6498dabb0e38a592a745bebf5371fa5b78daab8.wav",
+        "entryId": "en:sentence:this-is-the-best-book",
+        "label": "This is the best book.",
+        "parts": [
+            {
+                "path": "audio/8f1a8820f4f39a725ae1e72a595127faccdf533771641521b849d3c94a6e3acd.wav",
+                "entryId": "en:word:capital-this"
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the"
+            },
+            {
+                "path": "audio/b307b16a7fdb53dfeaecf05d27b87b8811f661ec9bc544e75b574c147d68631d.wav",
+                "entryId": "en:word:good",
+                "transformation": {
+                    "setId": "english-adjective",
+                    "path": ["superlative"]
+                }
+            },
+            {
+                "path": "audio/8cc861c3afd001379e8aeaf2dfbca4a8d1a8822e4b0b61d2131e46e39ca9fc72.wav",
+                "entryId": "en:word:book"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/8f1a8820f4f39a725ae1e72a595127faccdf533771641521b849d3c94a6e3acd.wav",
+                "entryId": "en:word:capital-this",
+                "startFrame": 2400,
+                "frameCount": 12058
+            },
+            {
+                "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
+                "entryId": "en:word:be",
+                "startFrame": 16618,
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
+            },
+            {
+                "path": "audio/bd93a704a05ed1854d5d244fc44f5fc16852bba96c617c530a47bb7f0610d6ff.wav",
+                "entryId": "en:word:the",
+                "startFrame": 29165,
+                "frameCount": 8150
+            },
+            {
+                "path": "audio/b307b16a7fdb53dfeaecf05d27b87b8811f661ec9bc544e75b574c147d68631d.wav",
+                "entryId": "en:word:good",
+                "startFrame": 39475,
+                "frameCount": 12063,
+                "transformation": {
+                    "setId": "english-adjective",
+                    "path": ["superlative"]
+                }
+            },
+            {
+                "path": "audio/8cc861c3afd001379e8aeaf2dfbca4a8d1a8822e4b0b61d2131e46e39ca9fc72.wav",
+                "entryId": "en:word:book",
+                "startFrame": 53698,
+                "frameCount": 10706
+            }
+        ],
+        "sha256": "501dc7b19128e0a8d88d0027dafe3d55429bb4f82cfbc6a2f480fa6ec0644d92",
+        "frames": 76404,
+        "input": {
+            "language": "en",
+            "label": "This is the best book.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    }
+]

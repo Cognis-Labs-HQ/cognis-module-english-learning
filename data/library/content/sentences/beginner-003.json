@@ -14,9 +14,13 @@
                 "position": 1
             },
             {
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["is"]
+                }
             },
             {
                 "entryId": "en:word:cold",
@@ -48,9 +52,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["is"]
+                }
             },
             {
                 "entryId": "en:word:a",
@@ -102,9 +110,13 @@
                 "position": 2
             },
             {
-                "entryId": "en:word:books",
+                "entryId": "en:word:book",
                 "relation": "words",
-                "position": 3
+                "position": 3,
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             {
                 "entryId": "en:particle:period",
@@ -131,9 +143,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-english-speak-third-person",
+                "entryId": "en:word:speak",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "entryId": "en:word:english",
@@ -165,9 +181,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-english-work-third-person",
+                "entryId": "en:word:work",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "entryId": "en:particle:at",
@@ -204,9 +224,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-english-be-am",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["am"]
+                }
             },
             {
                 "entryId": "en:word:happy",
@@ -238,9 +262,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-english-be-are",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["are"]
+                }
             },
             {
                 "entryId": "en:word:here",
@@ -272,9 +300,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-english-be-are",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["are"]
+                }
             },
             {
                 "entryId": "en:word:there",

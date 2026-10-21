@@ -18,9 +18,13 @@
                 "position": 1
             },
             {
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["is"]
+                }
             },
             {
                 "entryId": "en:word:light-level-bright",
@@ -62,9 +66,13 @@
                 "position": 2
             },
             {
-                "entryId": "en:word:form-light-level-bright-comparative",
+                "entryId": "en:word:light-level-bright",
                 "relation": "words",
-                "position": 3
+                "position": 3,
+                "transformation": {
+                    "setId": "english-adjective",
+                    "path": ["comparative"]
+                }
             },
             {
                 "entryId": "en:word:furnishings-lamp",
@@ -101,9 +109,13 @@
                 "position": 1
             },
             {
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["is"]
+                }
             },
             {
                 "entryId": "en:word:light-level-dark",
@@ -150,9 +162,13 @@
                 "position": 3
             },
             {
-                "entryId": "en:word:form-light-level-bright-superlative",
+                "entryId": "en:word:light-level-bright",
                 "relation": "words",
-                "position": 4
+                "position": 4,
+                "transformation": {
+                    "setId": "english-adjective",
+                    "path": ["superlative"]
+                }
             },
             {
                 "entryId": "en:word:room",
