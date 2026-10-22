@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 63,
+    "version": 64,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -159,6 +159,19 @@
                     "pronunciation",
                     "audio",
                     "stroke_pattern"
+                ],
+                "tags": [
+                    {
+                        "value": "common",
+                        "metadata": {
+                            "labels": {
+                                "de": "Häufig",
+                                "en": "Common",
+                                "id": "Umum",
+                                "ja": "よく使う"
+                            }
+                        }
+                    }
                 ]
             },
             "relationships": [
@@ -331,7 +344,20 @@
                 }
             ],
             "detail": {
-                "fieldOrder": ["pronunciation", "audio", "stroke_pattern"]
+                "fieldOrder": ["pronunciation", "audio", "stroke_pattern"],
+                "tags": [
+                    {
+                        "value": "common",
+                        "metadata": {
+                            "labels": {
+                                "de": "Häufig",
+                                "en": "Common",
+                                "id": "Umum",
+                                "ja": "よく使う"
+                            }
+                        }
+                    }
+                ]
             },
             "relationships": [
                 {
@@ -474,7 +500,20 @@
             ],
             "detail": {
                 "titleField": "translations",
-                "fieldOrder": ["translations", "string_key"]
+                "fieldOrder": ["translations", "string_key"],
+                "tags": [
+                    {
+                        "value": "common",
+                        "metadata": {
+                            "labels": {
+                                "de": "Häufig",
+                                "en": "Common",
+                                "id": "Umum",
+                                "ja": "よく使う"
+                            }
+                        }
+                    }
+                ]
             },
             "interestVeins": ["language:english"],
             "navigationSlug": "definitions"
@@ -508,7 +547,8 @@
                         "order": 1,
                         "group": "part-of-speech",
                         "exclusive": true,
-                        "required": false
+                        "required": false,
+                        "autoSelectSingle": false
                     },
                     "input": {
                         "control": "singleSelect",
@@ -764,7 +804,20 @@
                 }
             ],
             "detail": {
-                "fieldOrder": ["part_of_speech", "pronunciation"]
+                "fieldOrder": ["part_of_speech", "pronunciation"],
+                "tags": [
+                    {
+                        "value": "common",
+                        "metadata": {
+                            "labels": {
+                                "de": "Häufig",
+                                "en": "Common",
+                                "id": "Umum",
+                                "ja": "よく使う"
+                            }
+                        }
+                    }
+                ]
             },
             "activityCompatibility": ["study:recognition", "study:production"],
             "interestVeins": ["language:english"],
@@ -1002,7 +1055,20 @@
                 }
             ],
             "detail": {
-                "fieldOrder": ["function"]
+                "fieldOrder": ["function"],
+                "tags": [
+                    {
+                        "value": "common",
+                        "metadata": {
+                            "labels": {
+                                "de": "Häufig",
+                                "en": "Common",
+                                "id": "Umum",
+                                "ja": "よく使う"
+                            }
+                        }
+                    }
+                ]
             },
             "activityCompatibility": ["study:recognition", "study:grammar"],
             "interestVeins": ["language:english"],
@@ -1164,7 +1230,22 @@
                         "control": "imageFiles"
                     }
                 }
-            ]
+            ],
+            "detail": {
+                "tags": [
+                    {
+                        "value": "common",
+                        "metadata": {
+                            "labels": {
+                                "de": "Häufig",
+                                "en": "Common",
+                                "id": "Umum",
+                                "ja": "よく使う"
+                            }
+                        }
+                    }
+                ]
+            }
         }
     ],
     "transformSets": [

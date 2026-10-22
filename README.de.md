@@ -77,3 +77,7 @@ Die Deinstallation löscht gespeicherte Stimmeneinstellungen unabhängig vom Erh
 Der Wortschatz zeigt anfangs alle Wortarten. Der optionale Wortartfilter kann gewählt oder aufgehoben werden; eine Auswahl von Substantiven ist nicht mehr erforderlich. Composer-Wortschatz bleibt in Cognis regulär durchsuchbarer lexikalischer Inhalt.
 
 Satzstruktur-Karussells deklarieren ausdrücklich `excludeFromBrowse: false`, damit ihre lexikalischen Wörter auch im Wortschatz erscheinen. Reine Satzzeichen-Karussells bleiben ausgeschlossen. Tests prüfen alle Wortschatzreferenzen der Sätze, ausgeblendete Aussprache-Aliase und optionale Filter.
+
+## Lernmerkmale gezielt anzeigen
+
+Englische Karten zeigen lokalisierte, aussagekräftige Metadaten statt interner Transformations- und Formtags. Wortartoptionen und Filter verwenden übersetzte Beschriftungen und die Anbieterreihenfolge. Optionale Filter starten auch bei nur einem Wert ohne Auswahl; gespeicherte Tags und erzeugte Transformationen bleiben erhalten.

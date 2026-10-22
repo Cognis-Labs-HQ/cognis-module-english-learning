@@ -77,3 +77,7 @@ Uninstall clears stored voice configuration independently of content retention. 
 Vocabulary starts with every part of speech visible. The optional Part of Speech filter can be selected or cleared; it no longer requires a noun selection. Composer vocabulary stays ordinary lexical content in Cognis browsing.
 
 Sentence-structure carousels explicitly declare `excludeFromBrowse: false`, so their lexical words also appear in Vocabulary. Punctuation-only carousels remain excluded. Tests cover every sentence vocabulary reference, hidden pronunciation aliases and optional filter coverage.
+
+## Curate learner-facing tags
+
+English card pills now expose localized, meaningful metadata instead of internal transformation and form tags. Part-of-speech options and filters use their localized labels and provider order. Optional filters start unselected, including when only one value is present; authored tags and generated transformations remain intact.

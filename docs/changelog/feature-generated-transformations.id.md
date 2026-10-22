@@ -18,6 +18,10 @@ Filter penjelajahan Kelas Kata kini opsional tanpa nomina sebagai nilai bawaan, 
 
 Carousel struktur kalimat secara eksplisit mendeklarasikan `excludeFromBrowse: false` agar kata leksikalnya juga muncul dalam Kosakata. Carousel khusus tanda baca tetap dikecualikan. Pengujian mencakup semua referensi kosakata kalimat, alias pelafalan tersembunyi, dan cakupan filter opsional.
 
+## Kurasi tag untuk pembelajaran
+
+Pil kartu bahasa Inggris menampilkan metadata bermakna yang dilokalisasi, bukan tag transformasi dan bentuk internal. Pilihan kelas kata serta filter memakai label terlokalisasi dan urutan penyedia. Filter opsional mulai tanpa pilihan, termasuk ketika hanya ada satu nilai; tag yang ditulis dan transformasi yang dihasilkan tetap dipertahankan.
+
 ## Komit
 
 - [58369ddb](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/58369ddb55a1b12162a37567e3027f4b1cf6b83c)

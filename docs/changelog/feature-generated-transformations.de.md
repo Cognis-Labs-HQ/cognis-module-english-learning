@@ -18,6 +18,10 @@ Der Wortartfilter ist nun optional und hat keinen Substantiv-Standard, damit Ver
 
 Satzstruktur-Karussells deklarieren ausdrücklich `excludeFromBrowse: false`, damit ihre lexikalischen Wörter auch im Wortschatz erscheinen. Reine Satzzeichen-Karussells bleiben ausgeschlossen. Tests prüfen alle Wortschatzreferenzen der Sätze, ausgeblendete Aussprache-Aliase und optionale Filter.
 
+## Lernmerkmale gezielt anzeigen
+
+Englische Karten zeigen lokalisierte, aussagekräftige Metadaten statt interner Transformations- und Formtags. Wortartoptionen und Filter verwenden übersetzte Beschriftungen und die Anbieterreihenfolge. Optionale Filter starten auch bei nur einem Wert ohne Auswahl; gespeicherte Tags und erzeugte Transformationen bleiben erhalten.
+
 ## Commits
 
 - [58369ddb](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/58369ddb55a1b12162a37567e3027f4b1cf6b83c)
