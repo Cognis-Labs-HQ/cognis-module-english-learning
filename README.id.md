@@ -81,3 +81,7 @@ Carousel struktur kalimat secara eksplisit mendeklarasikan `excludeFromBrowse: f
 ## Kurasi tag untuk pembelajaran
 
 Pil kartu bahasa Inggris menampilkan metadata bermakna yang dilokalisasi, bukan tag transformasi dan bentuk internal. Pilihan kelas kata serta filter memakai label terlokalisasi dan urutan penyedia. Filter opsional mulai tanpa pilihan, termasuk ketika hanya ada satu nilai; tag yang ditulis dan transformasi yang dihasilkan tetap dipertahankan.
+
+## Profil kesulitan generik
+
+Kedua modul Study memakai bidang kanonis `difficulty_level`. Normalisasi dan uji kontrak yang identik membaca `data/library/difficulty.json`; label, urutan pilihan, pemetaan tag sumber, nilai dasar, serta persyaratan transformasi merupakan data. Bahasa Jepang menampilkan JLPT N5–N1; bahasa Inggris memakai kategori pemula/menengah/lanjutan yang sudah ada. Nilai tidak dikenal tetap tidak terklasifikasi. Host memberi peringkat pada bidang yang dideklarasikan tanpa aturan khusus bahasa atau nama bidang alternatif.

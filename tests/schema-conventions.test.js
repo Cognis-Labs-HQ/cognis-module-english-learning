@@ -16,6 +16,7 @@ const fieldContract = {
         reference_images: "imageList",
     },
     composites: {
+        difficulty_level: "string",
         pronunciation: "stringList",
         audio: "audio",
         stroke_pattern: "strokePattern",
@@ -27,6 +28,7 @@ const fieldContract = {
         reference_images: "imageList",
     },
     words: {
+        difficulty_level: "string",
         part_of_speech: "string",
         pronunciation: "stringList",
         dictionary_data: "string",
@@ -34,11 +36,13 @@ const fieldContract = {
         reference_images: "imageList",
     },
     particles: {
+        difficulty_level: "string",
         function: "string",
         audio: "audio",
         reference_images: "imageList",
     },
     sentences: {
+        difficulty_level: "string",
         audio: "audio",
         reference_images: "imageList",
     },
@@ -47,14 +51,14 @@ const fieldPresentationDigests = {
     alphabet:
         "0ad4a1f2f69eb225ef57231888fb9709a216ad8d85c93fe3418ea2b0704b9c9a",
     composites:
-        "4a24990b8c668dab43c7f800107ec6e8f7b6d72c0db485ff86322f0a5d29f05f",
+        "d15f7376b8790a798211e2558b0d5bbb5a8616b11231ad458a8b8d36fcfaf3b0",
     definitions:
         "0caee6b71afdd0870cd73d256482d6c402868185f633d037e06a0bd471ba4842",
-    words: "33156bbc88996dd4cfb4027ee908d0958fdb7f20d24a795f026bce94dce1a0aa",
+    words: "acde628b0406958cd4ed057474d60040637de246a24a763fb88c87d5d26ae46f",
     particles:
-        "56be113b2035811c9e07dcd3a90946c1a343fd51e2d2e2631aa200d9b457d651",
+        "6aaee553dd08767dc8c5f1e2d6029cdb191e3a8006edae3f8b2ce74f9ceac6af",
     sentences:
-        "9d1786f3056a06c7cd72515df9fd5e8aab1be876ecb2f1681685712f5f56a7a7",
+        "ade67ea8bde684dee240dea365e27bf21386b16caec7daeea0e9afe4963e4322",
 };
 const originalWordShards = new Set([
     "beginner-001.json",

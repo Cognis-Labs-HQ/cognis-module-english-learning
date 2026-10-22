@@ -22,6 +22,10 @@ Satzstruktur-Karussells deklarieren ausdrücklich `excludeFromBrowse: false`, da
 
 Englische Karten zeigen lokalisierte, aussagekräftige Metadaten statt interner Transformations- und Formtags. Wortartoptionen und Filter verwenden übersetzte Beschriftungen und die Anbieterreihenfolge. Optionale Filter starten auch bei nur einem Wert ohne Auswahl; gespeicherte Tags und erzeugte Transformationen bleiben erhalten.
 
+## Generische Schwierigkeitsprofile
+
+Beide Study-Module verwenden das kanonische Feld `difficulty_level`. Identische Normalisierung und Vertragstests lesen `data/library/difficulty.json`; Beschriftungen, geordnete Optionen, Quelltag-Zuordnungen, Grundstufen und Transformationsanforderungen sind Daten. Japanisch zeigt JLPT N5–N1, Englisch verwendet die bestehenden Kategorien Anfänger/Mittelstufe/Fortgeschritten. Unbekannte Werte bleiben unklassifiziert. Der Host ordnet deklarierte Felder ohne sprachspezifische Regeln oder alternative Feldnamen ein.
+
 ## Commits
 
 - [58369ddb](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/58369ddb55a1b12162a37567e3027f4b1cf6b83c)

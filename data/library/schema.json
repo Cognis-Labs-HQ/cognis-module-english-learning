@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 64,
+    "version": 65,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -340,6 +340,65 @@
                     },
                     "input": {
                         "control": "imageFiles"
+                    }
+                },
+                {
+                    "id": "difficulty_level",
+                    "metadata": {
+                        "labels": {
+                            "de": "Schwierigkeitsgrad",
+                            "en": "Difficulty level",
+                            "id": "Tingkat kesulitan",
+                            "ja": "難易度"
+                        }
+                    },
+                    "type": "string",
+                    "input": {
+                        "control": "singleSelect",
+                        "options": [
+                            {
+                                "value": "beginner",
+                                "metadata": {
+                                    "labels": {
+                                        "de": "Anfänger",
+                                        "en": "Beginner",
+                                        "id": "Pemula",
+                                        "ja": "初級"
+                                    }
+                                }
+                            },
+                            {
+                                "value": "intermediate",
+                                "metadata": {
+                                    "labels": {
+                                        "de": "Mittelstufe",
+                                        "en": "Intermediate",
+                                        "id": "Menengah",
+                                        "ja": "中級"
+                                    }
+                                }
+                            },
+                            {
+                                "value": "advanced",
+                                "metadata": {
+                                    "labels": {
+                                        "de": "Fortgeschritten",
+                                        "en": "Advanced",
+                                        "id": "Lanjutan",
+                                        "ja": "上級"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "detail": {
+                        "renderer": "badge",
+                        "order": 2,
+                        "group": "difficulty-level",
+                        "exclusive": false,
+                        "required": false,
+                        "filterable": true,
+                        "autoSelectSingle": false
                     }
                 }
             ],
@@ -751,6 +810,65 @@
                     "input": {
                         "control": "imageFiles"
                     }
+                },
+                {
+                    "id": "difficulty_level",
+                    "metadata": {
+                        "labels": {
+                            "de": "Schwierigkeitsgrad",
+                            "en": "Difficulty level",
+                            "id": "Tingkat kesulitan",
+                            "ja": "難易度"
+                        }
+                    },
+                    "type": "string",
+                    "input": {
+                        "control": "singleSelect",
+                        "options": [
+                            {
+                                "value": "beginner",
+                                "metadata": {
+                                    "labels": {
+                                        "de": "Anfänger",
+                                        "en": "Beginner",
+                                        "id": "Pemula",
+                                        "ja": "初級"
+                                    }
+                                }
+                            },
+                            {
+                                "value": "intermediate",
+                                "metadata": {
+                                    "labels": {
+                                        "de": "Mittelstufe",
+                                        "en": "Intermediate",
+                                        "id": "Menengah",
+                                        "ja": "中級"
+                                    }
+                                }
+                            },
+                            {
+                                "value": "advanced",
+                                "metadata": {
+                                    "labels": {
+                                        "de": "Fortgeschritten",
+                                        "en": "Advanced",
+                                        "id": "Lanjutan",
+                                        "ja": "上級"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "detail": {
+                        "renderer": "badge",
+                        "order": 2,
+                        "group": "difficulty-level",
+                        "exclusive": false,
+                        "required": false,
+                        "filterable": true,
+                        "autoSelectSingle": false
+                    }
                 }
             ],
             "relationships": [
@@ -1034,6 +1152,65 @@
                     "input": {
                         "control": "imageFiles"
                     }
+                },
+                {
+                    "id": "difficulty_level",
+                    "metadata": {
+                        "labels": {
+                            "de": "Schwierigkeitsgrad",
+                            "en": "Difficulty level",
+                            "id": "Tingkat kesulitan",
+                            "ja": "難易度"
+                        }
+                    },
+                    "type": "string",
+                    "input": {
+                        "control": "singleSelect",
+                        "options": [
+                            {
+                                "value": "beginner",
+                                "metadata": {
+                                    "labels": {
+                                        "de": "Anfänger",
+                                        "en": "Beginner",
+                                        "id": "Pemula",
+                                        "ja": "初級"
+                                    }
+                                }
+                            },
+                            {
+                                "value": "intermediate",
+                                "metadata": {
+                                    "labels": {
+                                        "de": "Mittelstufe",
+                                        "en": "Intermediate",
+                                        "id": "Menengah",
+                                        "ja": "中級"
+                                    }
+                                }
+                            },
+                            {
+                                "value": "advanced",
+                                "metadata": {
+                                    "labels": {
+                                        "de": "Fortgeschritten",
+                                        "en": "Advanced",
+                                        "id": "Lanjutan",
+                                        "ja": "上級"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "detail": {
+                        "renderer": "badge",
+                        "order": 2,
+                        "group": "difficulty-level",
+                        "exclusive": false,
+                        "required": false,
+                        "filterable": true,
+                        "autoSelectSingle": false
+                    }
                 }
             ],
             "relationships": [
@@ -1228,6 +1405,88 @@
                     },
                     "input": {
                         "control": "imageFiles"
+                    }
+                },
+                {
+                    "id": "difficulty_level",
+                    "metadata": {
+                        "labels": {
+                            "de": "Geschätzter Schwierigkeitsgrad",
+                            "en": "Estimated difficulty level",
+                            "id": "Perkiraan tingkat kesulitan",
+                            "ja": "難易度の目安"
+                        }
+                    },
+                    "type": "string",
+                    "input": {
+                        "control": "singleSelect",
+                        "options": [
+                            {
+                                "value": "beginner",
+                                "metadata": {
+                                    "labels": {
+                                        "de": "Anfänger",
+                                        "en": "Beginner",
+                                        "id": "Pemula",
+                                        "ja": "初級"
+                                    }
+                                }
+                            },
+                            {
+                                "value": "intermediate",
+                                "metadata": {
+                                    "labels": {
+                                        "de": "Mittelstufe",
+                                        "en": "Intermediate",
+                                        "id": "Menengah",
+                                        "ja": "中級"
+                                    }
+                                }
+                            },
+                            {
+                                "value": "advanced",
+                                "metadata": {
+                                    "labels": {
+                                        "de": "Fortgeschritten",
+                                        "en": "Advanced",
+                                        "id": "Lanjutan",
+                                        "ja": "上級"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "detail": {
+                        "renderer": "badge",
+                        "order": 2,
+                        "group": "difficulty-level",
+                        "exclusive": false,
+                        "required": false,
+                        "filterable": true,
+                        "autoSelectSingle": false
+                    },
+                    "derivation": {
+                        "kind": "rankedReferences",
+                        "relationships": ["words", "particles"],
+                        "values": ["beginner", "intermediate", "advanced"],
+                        "requireAll": true,
+                        "transformationValues": {
+                            "third-person": "beginner",
+                            "past": "beginner",
+                            "present-participle": "beginner",
+                            "past-participle": "intermediate",
+                            "desire": "beginner",
+                            "desire-past": "intermediate",
+                            "am": "beginner",
+                            "is": "beginner",
+                            "are": "beginner",
+                            "was": "beginner",
+                            "were": "beginner",
+                            "plural": "beginner",
+                            "comparative": "beginner",
+                            "superlative": "beginner",
+                            "adverb": "beginner"
+                        }
                     }
                 }
             ],

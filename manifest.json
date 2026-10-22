@@ -2,7 +2,7 @@
     "id": "study-language-en",
     "uuid": "b1adc29f-9d54-5785-9bea-2ce76f1981e4",
     "name": "module.study.language.en.name",
-    "version": "2.1.0",
+    "version": "3.0.0",
     "class": "extension",
     "privileged": true,
     "coreApiVersion": "v1",
@@ -82,19 +82,19 @@
         },
         {
             "path": "README.de.md",
-            "sha256": "d805ea30614534b23863ca5e6664e8c421df1941c8921e7ef3161ff5d64a90e6"
+            "sha256": "c6bc5a83e01d3bc68068debee335f32a2ba72aada4ba47502147dcfc07b568b9"
         },
         {
             "path": "README.en.md",
-            "sha256": "0e385a084df9f98b169cf03300b51fe3241e31041016e49de66d9eac59c5e7f0"
+            "sha256": "017292739b119405296f3d959c3c87ed82702570fae900cefc3489c8411c2dcd"
         },
         {
             "path": "README.id.md",
-            "sha256": "4a1cbdcf8cebc44e33aa3fda45902ad8f8559f6eeb0661aa795e2f7c370a81bd"
+            "sha256": "2bcc24260b3a3feea009c6db191f458b4d04f4f514e9c2f2343f171bc59e1511"
         },
         {
             "path": "README.ja.md",
-            "sha256": "f4d1b15d503d647a70ef50a6317337d6b87d767922a7c3d190d6df803a41bd7c"
+            "sha256": "f43bbcc0642fa6115afdf9ad5d021a53ff9c0f194845cbdf4e8edc6593d7d2c2"
         },
         {
             "path": "api/audio/index.js",
@@ -118,7 +118,7 @@
         },
         {
             "path": "api/dictionary/index.js",
-            "sha256": "9ab16ec925999e17ab9dd1408ef9ff5a98ba14c449be93872feb40d59d49a337"
+            "sha256": "04838da2af88855eb1eaaa2e2671c1de7e6bddcfa489361f5847df074c7da569"
         },
         {
             "path": "api/dictionary/reference-records.js",
@@ -143,6 +143,10 @@
         {
             "path": "api/reuse/content.js",
             "sha256": "90a0394e209f568a97d2957afe398e763a5cb97198ca04fbe3dab263855d12e5"
+        },
+        {
+            "path": "api/reuse/difficulty.js",
+            "sha256": "243a3b67db07fe307a3f96eac91f67bbe013112ebd8f9dcebed2f72bfd7988c8"
         },
         {
             "path": "api/reuse/response.js",
@@ -7270,11 +7274,11 @@
         },
         {
             "path": "data/library/content/composites/common.json",
-            "sha256": "d5b78281d180d8b095d8ab0d8e6aaf2102ba85e2a7db37a8215091a561415677"
+            "sha256": "3fc1bdecccb6e4b264e6db69ca67bfb99d73f1fa54ba9b94aa4e59f008f6c928"
         },
         {
             "path": "data/library/content/composites/vowels.json",
-            "sha256": "452a00b76cc7672a380b8c97bff2adb0063d8a24d0a03ffd54bc84645e46cbba"
+            "sha256": "910993573788d8a61632a620eddbec57abb15fe004479f8a42c0e8a80bc6949d"
         },
         {
             "path": "data/library/content/definitions/actions-001.json",
@@ -7790,7 +7794,7 @@
         },
         {
             "path": "data/library/content/particles/common.json",
-            "sha256": "946cbb59c76809a740daac1d587cb35bd5ff437cf90e3ad32a6973bf39d29b70"
+            "sha256": "2a4b3bf406e7ab63cb713c4b2640e7eaad144b4d97e38ecd6e0ca013d37419ac"
         },
         {
             "path": "data/library/content/sentences/actions-001.json",
@@ -8082,43 +8086,43 @@
         },
         {
             "path": "data/library/content/words/beginner-001.json",
-            "sha256": "079250ae273bc93a4d98fb94b678276af928eddb86ce52544f66fd22afa7540a"
+            "sha256": "5d1c5f9a98d541c73b2ef82743c58d858770c2cb3bcf94f81f0de1fca012a20a"
         },
         {
             "path": "data/library/content/words/beginner-002.json",
-            "sha256": "2d6e8adc007a617cac4a6087e5805e460bcb515178045cbf5ac4ae710ce01957"
+            "sha256": "2676d9b961f2508daf2983f8d4fd8bde0663e1925b0ebf64839be99580b5975d"
         },
         {
             "path": "data/library/content/words/beginner-003.json",
-            "sha256": "07fe0a88bee035a74aa1b39fe0a163d0efe4621048c50259e94d9e1d0ba7f25d"
+            "sha256": "a4467173eca5b4b93c8beb57bc57b9c5ef9c81263b5a4fc044f6fff037853104"
         },
         {
             "path": "data/library/content/words/beginner-004.json",
-            "sha256": "18b3f89b72840480ba6950f08c460a70def029d011c6b6f30108cba2f138cbe3"
+            "sha256": "1943c49104a8e16d9946e244151b7501787f45e13baedb4e548d8c9a3016244f"
         },
         {
             "path": "data/library/content/words/beginner-005.json",
-            "sha256": "b5ba124ae5f2101e65ce1a5df521ffe851c2eb2362f34559f4a10a265d8fbbac"
+            "sha256": "d68bf62650b460b61924ac20f178f73de44f9a9f40d2292833d0f175da8c0780"
         },
         {
             "path": "data/library/content/words/beginner-006.json",
-            "sha256": "85b182232108e1d73611fcd2817ad23d8c1d284381862232474544c3759fd531"
+            "sha256": "b524f0f971f7a27c4537894309f66e5fea36f186a9c86c507cae6c7a0030a9ef"
         },
         {
             "path": "data/library/content/words/beginner-007.json",
-            "sha256": "8f1813c949e28e8d74d8be988e20cdf2f9ff209a9d10e2033a38868087ae994b"
+            "sha256": "f2339478c788a367efe690c3b0ba49ebbdb0b6c64149090def6b820172647369"
         },
         {
             "path": "data/library/content/words/beginner-008.json",
-            "sha256": "d4ff43a1a5c7ec7e418f557ae93a12ab49c96d82e21d66f763de5b5b293f42c4"
+            "sha256": "627e55f4c4028ac2129926a5a91bfc386be0fcc87b6258a88dc24b263d5a2d15"
         },
         {
             "path": "data/library/content/words/beginner-009.json",
-            "sha256": "b083cf7992fe506923c4e47f884ddab12740ab03625b304cddad38dcf8f58a04"
+            "sha256": "a12a154505931c5258cb2e8b64528fc79ef59bd79c1b8843edcf4ade95bbe666"
         },
         {
             "path": "data/library/content/words/beginner-010.json",
-            "sha256": "10bb221ea637c0169724a254c71f0f09ca4e9e006af8e9b03b4a1d330c44c739"
+            "sha256": "eada99f1e677c785b8e725e482490580e05d14bc258762ef7a24e59e166c4386"
         },
         {
             "path": "data/library/content/words/belongings-001.json",
@@ -8126,7 +8130,7 @@
         },
         {
             "path": "data/library/content/words/capitalized-001.json",
-            "sha256": "1182dcc67e7a0143c4cc10eba49701822b02f7e9e6e2ad293ee2bded39393dc4"
+            "sha256": "370066bcdbd52b2bd9a74e8ac81116d6320ef2fda8ae46be7e76783a1855152c"
         },
         {
             "path": "data/library/content/words/care-001.json",
@@ -8142,7 +8146,7 @@
         },
         {
             "path": "data/library/content/words/common.json",
-            "sha256": "17346e76bb1d9cefda9ee1c03020c39ed4d8b71590b8f2492c7495d773f2b921"
+            "sha256": "d7f6f8c9fe227dee09ffb263b4f0f0d891af6dcd679588c4687b826ea3bcb934"
         },
         {
             "path": "data/library/content/words/comprehension-001.json",
@@ -8186,31 +8190,31 @@
         },
         {
             "path": "data/library/content/words/foodbody-1.json",
-            "sha256": "d06f04b01117103cf82b671d1301ce26432b414bda08d2cc84ba166327d30040"
+            "sha256": "9bcff398738c2872ad84b64c761461511763d9b908fec56c0cf9de16ab399e0f"
         },
         {
             "path": "data/library/content/words/foodbody-2.json",
-            "sha256": "efe48d65ac7b148457c3cfec05f8f9c1830369e9f306bbaad6de593c5c20581f"
+            "sha256": "6ff4a85da0db4300e3e3401e41969845178261d38e2f7975b08e0a86d7b288b0"
         },
         {
             "path": "data/library/content/words/foodbody-3.json",
-            "sha256": "76c11faa4bcd39104810d8bf0c258b58848501e039b8bb20f22d2379f7bb4d06"
+            "sha256": "de03ec76b555fc854fffa048dc1055e24ec88ec09dfcc1856434b2bd97ed5e58"
         },
         {
             "path": "data/library/content/words/foodbody-4.json",
-            "sha256": "17435da7724a52c3f649b7dab4c85a0d14560476229d48147d84c26424b183a4"
+            "sha256": "1ac71a047cdc6f3b86430878b20bcec50e6eed0a149ad3ede8ea965f661143ee"
         },
         {
             "path": "data/library/content/words/foodbody-5.json",
-            "sha256": "89329d158ccc60f200a8a67a0c1a7bd7dc3ad9da19742a919a516e202f673f92"
+            "sha256": "dfe1f1f198900ae58f634d346aa25a0582a70ca69acc9b2b1a54d469be6d1963"
         },
         {
             "path": "data/library/content/words/foodbody-6.json",
-            "sha256": "212931e1cb1d58e6848f887605ab2ba6cb852f20a8954430632e8b13d51f929f"
+            "sha256": "2a76e8d06700839b6624fbeac118cc6f6bf279e673308e0b0f8130c313f34372"
         },
         {
             "path": "data/library/content/words/foodbody-7.json",
-            "sha256": "97d76124fe21870b864c7f51a4f39b5c297292663583147c851bf4cd441a97bb"
+            "sha256": "135111ef36b35344695947726418c542d4ed2cb4f596338b882a111326f9c390"
         },
         {
             "path": "data/library/content/words/force-001.json",
@@ -8238,15 +8242,15 @@
         },
         {
             "path": "data/library/content/words/household-1.json",
-            "sha256": "56bdbd2d2295ad242ec3f861e8255cbcca400401d85df1db0a64d80800647f25"
+            "sha256": "0f021827fa3dd165598ae055531cf5e8acee26937783aa8fd9bdf38b2a484627"
         },
         {
             "path": "data/library/content/words/household-2.json",
-            "sha256": "d7ef8dde542ed90daca33ac5e7d701d389fc5dbfb9c7401f1a0ef02f9cbc7f95"
+            "sha256": "cd3e8f71a40fbef114cd26c3f6f667ae36d03d5f8f918c240736f4661e1e9338"
         },
         {
             "path": "data/library/content/words/household-3.json",
-            "sha256": "63a4eabe4c70c9f6cf4f7c4613e1642cff3d36cc78134021ab8be7a6e3c7e5c6"
+            "sha256": "2df77b23f268e9fe6483e1e1227040509c2e4194098891445d2b9b14f5ccdfe5"
         },
         {
             "path": "data/library/content/words/kitchen-001.json",
@@ -8377,12 +8381,16 @@
             "sha256": "12c89cc9c47065ac7950bbade8d318ffe1a8a6e91f7a326dd392e6e2367d4b99"
         },
         {
+            "path": "data/library/difficulty.json",
+            "sha256": "05a322078ad6e3b3f10e6ce08bed8f509a6aba72d3f3d82e61adb80d549f6c66"
+        },
+        {
             "path": "data/library/manifest.json",
-            "sha256": "943d5b311b52734a38af07175473acb188b8614541476ca8dde701512ef5df3d"
+            "sha256": "93cd36a39aeb3f207b218519cc0b808d14038c408721e93f9c265bccd3af7d67"
         },
         {
             "path": "data/library/schema.json",
-            "sha256": "cac6eddcd18157e51440b4559cacbe8bea27e0084321755c8e970ce2df39de00"
+            "sha256": "89202270c4dc33faa99c416ec35a3465317dc9bd35513a3d58b98a7ce853e1ae"
         },
         {
             "path": "data/reference/00.json.gz",
@@ -9454,11 +9462,11 @@
         },
         {
             "path": "package-lock.json",
-            "sha256": "a1ee22d772c297eb0e7cd63ffb4caddaa65534aaaee81c2f684203545e710d48"
+            "sha256": "3fe24849bfc0e6a9b924c657b52e13caf0d9e21455341dd777a8222e0b3c7049"
         },
         {
             "path": "package.json",
-            "sha256": "b819d985285027888a53ac9ad87bd3e0fff2b8d210dbcd8e9ddd3b835a35d25b"
+            "sha256": "1defea88abefa4aae25eeaf08176a215bc55f0b2d3a4f80b10d85efe2785676b"
         },
         {
             "path": "routes.json",
@@ -9510,7 +9518,7 @@
         },
         {
             "path": "tests/content-pack.test.js",
-            "sha256": "48104e21d22e2c7c4121a1979b5f7fc2c1f42ad039c844bd0f5a4710d70f115a"
+            "sha256": "fde162f152917c13b8364471581e52a52a3e4d41f0f669b956ed248f41912a6b"
         },
         {
             "path": "tests/correspondence-form-audio.test.js",
@@ -9531,6 +9539,10 @@
         {
             "path": "tests/depth-form-audio.test.js",
             "sha256": "22adc4d2fd34c0e70bcb4021ad5c2fa3466a1aa80cc92dcef3e47224f12cae28"
+        },
+        {
+            "path": "tests/difficulty.test.js",
+            "sha256": "670d1a983242e0a8c704f0f71d46009fdc93ca5de96ae9725ba0d76ac5958a9c"
         },
         {
             "path": "tests/documentation-convention.test.js",
@@ -9626,7 +9638,7 @@
         },
         {
             "path": "tests/schema-conventions.test.js",
-            "sha256": "b8ef012938585e15befb48cbac48b03117f7c11d8a992b36dba8fcec73d5727a"
+            "sha256": "33ff4eb8f3b107965020316603501c91905e28b247b341806f8905c16e84f00f"
         },
         {
             "path": "tests/structural-compliance.test.js",

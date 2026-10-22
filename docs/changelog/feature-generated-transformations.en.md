@@ -22,6 +22,10 @@ Sentence-structure carousels explicitly declare `excludeFromBrowse: false`, so t
 
 English card pills now expose localized, meaningful metadata instead of internal transformation and form tags. Part-of-speech options and filters use their localized labels and provider order. Optional filters start unselected, including when only one value is present; authored tags and generated transformations remain intact.
 
+## Generic difficulty profiles
+
+Both Study modules use the canonical `difficulty_level` field. Their identical normalizer and contract tests read `data/library/difficulty.json`; labels, ordered options, source tag mappings, basic-layer defaults and transformation requirements are data. Japanese presents JLPT N5–N1; English uses its existing beginner/intermediate/advanced categories. Unknown values remain unclassified. The host ranks declared fields without language-specific rules or alternate field names.
+
 ## Commits
 
 - [58369ddb](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/58369ddb55a1b12162a37567e3027f4b1cf6b83c)

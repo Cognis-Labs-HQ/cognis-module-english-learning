@@ -1,0 +1,80 @@
+{
+    "metadata": {
+        "labels": {
+            "de": "Schwierigkeitsgrad",
+            "en": "Difficulty level",
+            "id": "Tingkat kesulitan",
+            "ja": "難易度"
+        }
+    },
+    "estimatedMetadata": {
+        "labels": {
+            "de": "Geschätzter Schwierigkeitsgrad",
+            "en": "Estimated difficulty level",
+            "id": "Perkiraan tingkat kesulitan",
+            "ja": "難易度の目安"
+        }
+    },
+    "options": [
+        {
+            "value": "beginner",
+            "metadata": {
+                "labels": {
+                    "de": "Anfänger",
+                    "en": "Beginner",
+                    "id": "Pemula",
+                    "ja": "初級"
+                }
+            }
+        },
+        {
+            "value": "intermediate",
+            "metadata": {
+                "labels": {
+                    "de": "Mittelstufe",
+                    "en": "Intermediate",
+                    "id": "Menengah",
+                    "ja": "中級"
+                }
+            }
+        },
+        {
+            "value": "advanced",
+            "metadata": {
+                "labels": {
+                    "de": "Fortgeschritten",
+                    "en": "Advanced",
+                    "id": "Lanjutan",
+                    "ja": "上級"
+                }
+            }
+        }
+    ],
+    "sourceField": "tags",
+    "sourceTags": {
+        "beginner": "beginner",
+        "intermediate": "intermediate",
+        "advanced": "advanced"
+    },
+    "defaults": {
+        "particle": "beginner",
+        "compoundWritingUnit": "beginner"
+    },
+    "transformationValues": {
+        "third-person": "beginner",
+        "past": "beginner",
+        "present-participle": "beginner",
+        "past-participle": "intermediate",
+        "desire": "beginner",
+        "desire-past": "intermediate",
+        "am": "beginner",
+        "is": "beginner",
+        "are": "beginner",
+        "was": "beginner",
+        "were": "beginner",
+        "plural": "beginner",
+        "comparative": "beginner",
+        "superlative": "beginner",
+        "adverb": "beginner"
+    }
+}

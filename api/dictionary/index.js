@@ -1,3 +1,4 @@
+import { difficultyLevel } from "../reuse/difficulty.js";
 import { addSpellingReferences } from "./spelling.js";
 import { requestDictionary } from "./request.js";
 import { readContentLayers } from "../reuse/content.js";
@@ -101,11 +102,13 @@ export function dictionarySuggestion(record, native, query, selectedPart) {
     const tags = [
         ...new Set([...(native?.tags ?? []), ...parts, ...transformFlag]),
     ];
+    const difficulty = difficultyLevel(record, native);
     return {
         label: native?.label ?? record.word,
         class: native?.class ?? `lexical:${partOfSpeech}`,
         tags,
         fields: {
+            ...(difficulty ? { difficulty_level: difficulty } : {}),
             part_of_speech: partOfSpeech,
             dictionary_data: JSON.stringify({
                 provider: PROVIDER_ID,
@@ -178,7 +181,7 @@ export function createDictionaryProvider({
     return Object.freeze({
         id: PROVIDER_ID,
         capabilities: ["dictionary"],
-        fields: ["pronunciation", "part_of_speech"],
+        fields: ["pronunciation", "part_of_speech", "difficulty_level"],
         searchable: true,
         cacheRevision,
         metadata: {
