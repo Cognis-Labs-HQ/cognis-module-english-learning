@@ -33,3 +33,5 @@
 - [d26a0f0c](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d26a0f0cdbdbf56720cc244bdf2f44cfeb7452bc)
 - [a4f284f7](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a4f284f71438edf5c3e6b67fc1018cdcdf4782d1)
 - [ae9407b6](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ae9407b684ff6ca0083f7a8b502243f600487c88)
+
+実装参照: [`fb16ed21797dafcafea82cddb2d0870a88b31c40`](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/fb16ed21797dafcafea82cddb2d0870a88b31c40).
