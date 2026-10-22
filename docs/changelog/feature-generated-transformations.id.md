@@ -10,6 +10,10 @@ Keluarga gramatikal bahasa Inggris kini menghasilkan bentuk jamak, verba, adjekt
 
 Rekaman bawaan mempertahankan suara yang ditentukan dan audio tepat setiap penyusun kalimat. Klip tambahan mencakup bentuk berantai dan adverbia baru. Pengujian cakupan mewajibkan media yang sesuai untuk setiap aturan aktif dan jalur pilihan. Ejaan turunan tetap kompatibel dengan resolver pola goresan host.
 
+## Tampilkan semua kelas kata
+
+Filter penjelajahan Kelas Kata kini opsional tanpa nomina sebagai nilai bawaan, sehingga verba, pronomina, adjektiva, dan kata lain dalam kalimat tetap dapat ditemukan. Penyuntingan kartu tetap mewajibkan nilai Kelas Kata.
+
 ## Komit
 
 - [58369ddb](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/58369ddb55a1b12162a37567e3027f4b1cf6b83c)

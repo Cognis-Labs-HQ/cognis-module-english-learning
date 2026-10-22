@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 61,
+    "version": 62,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -508,8 +508,7 @@
                         "order": 1,
                         "group": "part-of-speech",
                         "exclusive": true,
-                        "required": true,
-                        "defaultTag": "noun"
+                        "required": false
                     },
                     "input": {
                         "control": "singleSelect",

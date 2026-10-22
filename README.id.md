@@ -73,3 +73,5 @@ Nama berkas dan ID ilustrasi memakai digest SHA-256, sedangkan pengenal lembar s
 ## Tinjauan Akhir dan Akses Bahasa Nonaktif
 
 Pencopotan menghapus konfigurasi suara tanpa bergantung pada retensi konten. Penonaktifan menghapus rute modul, UI statis, dan registrasi penyedia; konfigurasi bertahan saat dinonaktifkan atau dimulai ulang dan hanya dilayani ketika aktif. Cognis membatasi skema, kartu, dan media tersimpan menurut penyedia bahasa aktif serta memulihkan akses saat diaktifkan kembali. Hasil referensi menggabungkan identitas sumber setara sambil mempertahankan rekaman sumber, urutan bacaan, dan makna. Kalimat paket mengutamakan PCM komposisi persis dari klip penyusun, sebelum rekaman langsung yang disimpan terpisah. Permintaan suara memvalidasi teks bahasa ternormalisasi dengan batas panjang; KanjiVG membatalkan isi respons gagal dan menerima tanda vokal panjang.
+
+Kosakata pada awalnya menampilkan semua kelas kata. Filter Kelas Kata bersifat opsional dan dapat dipilih atau dikosongkan; pemilihan nomina tidak lagi diwajibkan. Kosakata penyusun tetap menjadi konten leksikal biasa dalam penjelajahan Cognis.

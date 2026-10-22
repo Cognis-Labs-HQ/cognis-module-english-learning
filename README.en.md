@@ -73,3 +73,5 @@ Illustration filenames and IDs use their SHA-256 digest, and source-sheet identi
 ## Final Review and Disabled-Language Access
 
 Uninstall clears stored voice configuration independently of content retention. Disable removes module routes, static UI and provider registrations; configuration persists across disable/restart and is served only while enabled. Cognis gates retained schemas, cards and media by the live language provider, restoring access on re-enable. Reference results merge equivalent source identities while preserving source records, ordered readings and meanings. Packaged sentences use exact constituent-composed PCM before separately retained direct recordings. Speech requests validate normalized, bounded language text; KanjiVG cancels rejected response bodies and accepts prolonged sound marks.
+
+Vocabulary starts with every part of speech visible. The optional Part of Speech filter can be selected or cleared; it no longer requires a noun selection. Composer vocabulary stays ordinary lexical content in Cognis browsing.

@@ -10,6 +10,10 @@ English grammatical families now generate plural, verb, adjective, manner-adverb
 
 Packaged recordings retain their designated voice and exact sentence constituent audio. Additional clips cover the new chained and adverb forms. Coverage tests require every enabled rule and selected path to have matching media. Generated spelling remains compatible with the host writing-pattern resolver.
 
+## Show every vocabulary class
+
+Made the Part of Speech browse filter optional without a noun default, so sentences’ verbs, pronouns, adjectives and other words remain discoverable. Card editing still requires a Part of Speech value.
+
 ## Commits
 
 - [58369ddb](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/58369ddb55a1b12162a37567e3027f4b1cf6b83c)

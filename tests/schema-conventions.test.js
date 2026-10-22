@@ -5,7 +5,7 @@ import test from "node:test";
 
 const read = (path) => JSON.parse(readFileSync(path, "utf8"));
 const schema = read("data/library/schema.json");
-// Field contract from the pre-expansion schema, cf4b862a4b065eac9d60d98e911c2518723cf793.
+// Published card fields and their reviewed input and presentation settings.
 const fieldContract = {
     alphabet: {
         symbol: "string",
@@ -43,14 +43,14 @@ const fieldContract = {
         reference_images: "imageList",
     },
 };
-const originalFieldDigests = {
+const fieldPresentationDigests = {
     alphabet:
         "0ad4a1f2f69eb225ef57231888fb9709a216ad8d85c93fe3418ea2b0704b9c9a",
     composites:
         "4a24990b8c668dab43c7f800107ec6e8f7b6d72c0db485ff86322f0a5d29f05f",
     definitions:
         "0caee6b71afdd0870cd73d256482d6c402868185f633d037e06a0bd471ba4842",
-    words: "b79ffa04ee99dc94e2a38f729a7f3ca2210ebe2c7f812d5f42417958f0d3645a",
+    words: "428642ffd090aed0a4612f961cd23d58d9f780d297c60acfac08723ce3b4ac4c",
     particles:
         "56be113b2035811c9e07dcd3a90946c1a343fd51e2d2e2631aa200d9b457d651",
     sentences:
@@ -118,8 +118,8 @@ function validateFields(candidateSchema, candidates) {
             createHash("sha256")
                 .update(JSON.stringify(layer.fields))
                 .digest("hex"),
-            originalFieldDigests[layer.id],
-            `${layer.id}: original field presentation changed`,
+            fieldPresentationDigests[layer.id],
+            `${layer.id}: field presentation contract changed`,
         );
     }
     for (const record of candidates) {
@@ -161,7 +161,7 @@ function validateVocabulary(record, catalog = byId) {
         );
 }
 
-test("schema and card fields retain the pre-expansion contract", () => {
+test("schema and card fields follow the published contract", () => {
     validateFields(schema, records);
 });
 
@@ -221,4 +221,12 @@ test("base lexical sources reject unsupported grammatical declarations", () => {
         () => validateVocabulary(source),
         /unresolved transform flag/,
     );
+});
+
+test("Vocabulary classification can be cleared without weakening card input requirements", () => {
+    const words = schema.layers.find(({ id }) => id === "words");
+    const field = words.fields.find(({ id }) => id === "part_of_speech");
+    assert.equal(field.required, true);
+    assert.equal(field.detail.required, false);
+    assert.equal(field.detail.exclusive, true);
 });
