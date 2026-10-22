@@ -14,6 +14,10 @@ Gebündelte Aufnahmen behalten die festgelegte Stimme und das genaue Audio der S
 
 Der Wortartfilter ist nun optional und hat keinen Substantiv-Standard, damit Verben, Pronomen, Adjektive und andere Wörter aus Sätzen auffindbar bleiben. Beim Bearbeiten einer Karte ist die Wortart weiterhin erforderlich.
 
+## Satzwortschatz auffindbar halten
+
+Satzstruktur-Karussells deklarieren ausdrücklich `excludeFromBrowse: false`, damit ihre lexikalischen Wörter auch im Wortschatz erscheinen. Reine Satzzeichen-Karussells bleiben ausgeschlossen. Tests prüfen alle Wortschatzreferenzen der Sätze, ausgeblendete Aussprache-Aliase und optionale Filter.
+
 ## Commits
 
 - [58369ddb](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/58369ddb55a1b12162a37567e3027f4b1cf6b83c)

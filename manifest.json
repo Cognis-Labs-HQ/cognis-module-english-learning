@@ -2,7 +2,7 @@
     "id": "study-language-en",
     "uuid": "b1adc29f-9d54-5785-9bea-2ce76f1981e4",
     "name": "module.study.language.en.name",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "class": "extension",
     "privileged": true,
     "coreApiVersion": "v1",
@@ -82,19 +82,19 @@
         },
         {
             "path": "README.de.md",
-            "sha256": "03ad34449eaf2db35f457a8b4cb3cf5972fc750e55015c3fb9059f093e08ab11"
+            "sha256": "6f73c815a520c2a3c70a70e22f44793ab9b36287e531448b936c0e75ec0e4088"
         },
         {
             "path": "README.en.md",
-            "sha256": "ca023569f366cb58c25f3065f6c8c667523b0185683dc5e3cd1d4d3dae8b50df"
+            "sha256": "5d7744c787bc8fba1b06c786b1dcb5a0960aa1ea18dd5b6da1a0f8b6f7a807e8"
         },
         {
             "path": "README.id.md",
-            "sha256": "46871c89a5841717133c8a7ab011e8065d68675a72a6c522b531ca2e092c85ee"
+            "sha256": "f0c2189cc6038abee6ab2f5f2013d3871c03c3771a71dee090dfb58ba74ca7a2"
         },
         {
             "path": "README.ja.md",
-            "sha256": "20d4d5a04fe6e46f645f285dd77de7475fc62443bd327ba81a302dd28e5c8188"
+            "sha256": "15e2640dd7ee35203a68977cf184e854d3872369ee90875724bc1ece8e25db43"
         },
         {
             "path": "api/audio/index.js",
@@ -8378,11 +8378,11 @@
         },
         {
             "path": "data/library/manifest.json",
-            "sha256": "8435193ff332fcfc4ef031fdb8655def661607d4c226f63ad4d2c4639d146e83"
+            "sha256": "d2ae77277af3faa29ef53da487d1448eb4fd89d9a64157d6f95392b479d5d35b"
         },
         {
             "path": "data/library/schema.json",
-            "sha256": "9aa4f2d834e3efb1c248d1c3214b2dcafbd3745b0d8ac79d6ae45f7ae8d91de3"
+            "sha256": "15d1f0f93074ab4450429ba36df44efe945a3b8350b673bb8e59fe5129fafa41"
         },
         {
             "path": "data/reference/00.json.gz",
@@ -9454,11 +9454,11 @@
         },
         {
             "path": "package-lock.json",
-            "sha256": "8ed1bf04a029793d4e79c1042d65e53e5358d7424a1698c08f7e033fb31dd0a8"
+            "sha256": "b57099bbcdf0a00662c3fff0eb2584f17fc90c7510f07f373881a30a029414c1"
         },
         {
             "path": "package.json",
-            "sha256": "763dac3be946621a5152eaf3037a1ed1f3918c2aafc24233267a0a6fe2ec3301"
+            "sha256": "0d57edcdee14973c01e90559295910d7e3dc5f2194b18dc6e429f87148d20808"
         },
         {
             "path": "routes.json",
@@ -9510,7 +9510,7 @@
         },
         {
             "path": "tests/content-pack.test.js",
-            "sha256": "3f95847d6b7b20e42cdf24be3d33ca91d0c23bfbaafa46432e10b9ba084179d9"
+            "sha256": "270b3b39b958c21e14185534934cea283249b8e53c36f7cbdda16008f62cf7b9"
         },
         {
             "path": "tests/correspondence-form-audio.test.js",
@@ -9626,7 +9626,7 @@
         },
         {
             "path": "tests/schema-conventions.test.js",
-            "sha256": "22b4dbb9bb9c908de12aab10596c637e7bb75559605a6f6211a6389d6d4df2fb"
+            "sha256": "0db60db3761f2743921f5f92710a59f82cd1e892455acebc92a841261f1f1ad0"
         },
         {
             "path": "tests/structural-compliance.test.js",
@@ -9639,6 +9639,10 @@
         {
             "path": "tests/vegetable-review.test.js",
             "sha256": "740c9ee500011c59522d20d8a760ce28f30d8e4f77e323fb2217a17c9dff600c"
+        },
+        {
+            "path": "tests/vocabulary-visibility.test.js",
+            "sha256": "46974407f84891a2fc80a921dae9e7b1552358ce2e73e774d581c55a829f3c89"
         },
         {
             "path": "tests/warm-accessories-form-audio.test.js",

@@ -14,6 +14,10 @@ Rekaman bawaan mempertahankan suara yang ditentukan dan audio tepat setiap penyu
 
 Filter penjelajahan Kelas Kata kini opsional tanpa nomina sebagai nilai bawaan, sehingga verba, pronomina, adjektiva, dan kata lain dalam kalimat tetap dapat ditemukan. Penyuntingan kartu tetap mewajibkan nilai Kelas Kata.
 
+## Pastikan kosakata kalimat tetap dapat ditemukan
+
+Carousel struktur kalimat secara eksplisit mendeklarasikan `excludeFromBrowse: false` agar kata leksikalnya juga muncul dalam Kosakata. Carousel khusus tanda baca tetap dikecualikan. Pengujian mencakup semua referensi kosakata kalimat, alias pelafalan tersembunyi, dan cakupan filter opsional.
+
 ## Komit
 
 - [58369ddb](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/58369ddb55a1b12162a37567e3027f4b1cf6b83c)

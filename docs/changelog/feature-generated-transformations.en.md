@@ -14,6 +14,10 @@ Packaged recordings retain their designated voice and exact sentence constituent
 
 Made the Part of Speech browse filter optional without a noun default, so sentences’ verbs, pronouns, adjectives and other words remain discoverable. Card editing still requires a Part of Speech value.
 
+## Keep sentence vocabulary discoverable
+
+Sentence-structure carousels explicitly declare `excludeFromBrowse: false`, so their lexical words also appear in Vocabulary. Punctuation-only carousels remain excluded. Tests cover every sentence vocabulary reference, hidden pronunciation aliases and optional filter coverage.
+
 ## Commits
 
 - [58369ddb](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/58369ddb55a1b12162a37567e3027f4b1cf6b83c)

@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 62,
+    "version": 63,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -1104,7 +1104,8 @@
                             }
                         },
                         "relationship": "words",
-                        "tag": "sentence-structure"
+                        "tag": "sentence-structure",
+                        "excludeFromBrowse": false
                     },
                     {
                         "id": "punctuation",
@@ -1117,7 +1118,8 @@
                             }
                         },
                         "relationship": "particles",
-                        "tag": "punctuation"
+                        "tag": "punctuation",
+                        "excludeFromBrowse": true
                     }
                 ]
             },
