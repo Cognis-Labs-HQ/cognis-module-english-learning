@@ -37,3 +37,5 @@ Beide Study-Module verwenden das kanonische Feld `difficulty_level`. Identische 
 Implementierungsnachweis: [`fb16ed21797dafcafea82cddb2d0870a88b31c40`](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/fb16ed21797dafcafea82cddb2d0870a88b31c40).
 
 Eigene vollständige Satzaufnahmen haben bei Kartenwiedergabe und Anbietersuche Vorrang. Exakt aus Einzelaufnahmen zusammengesetzte Aufnahmen bleiben für Sätze ohne eigene Aufnahme verfügbar, einschließlich gewählter grammatischer Formen. Fehlende Formen werden nie durch Grundformen ersetzt. Neue Sätze verwenden weiterhin die vom Host verwaltete Komposition und Zwischenspeicherung.
+
+Implementierungsnachweis: [`19bb9d8eb20350566381f89ed7655269ff9da700`](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/19bb9d8eb20350566381f89ed7655269ff9da700).

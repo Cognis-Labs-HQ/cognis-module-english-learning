@@ -37,3 +37,5 @@ Kedua modul Study memakai bidang kanonis `difficulty_level`. Normalisasi dan uji
 Referensi implementasi: [`fb16ed21797dafcafea82cddb2d0870a88b31c40`](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/fb16ed21797dafcafea82cddb2d0870a88b31c40).
 
 Rekaman khusus seluruh kalimat diprioritaskan pada pemutaran kartu dan pencarian penyedia. Rekaman yang disusun dari klip penyusun tetap tersedia untuk kalimat tanpa rekaman khusus, termasuk bentuk tata bahasa terpilih; bentuk yang hilang tidak diganti klip bentuk dasar. Kalimat baru tetap memakai komposisi dan cache milik host.
+
+Referensi implementasi: [`19bb9d8eb20350566381f89ed7655269ff9da700`](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/19bb9d8eb20350566381f89ed7655269ff9da700).
