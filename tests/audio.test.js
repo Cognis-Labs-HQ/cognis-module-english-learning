@@ -322,7 +322,7 @@ test("unbundled lexical synthesis uses only this language and its designated def
     assert.equal(requests.length, 1);
 });
 
-test("packaged sentence playback preserves exact constituent composition without runtime synthesis", async () => {
+test("dedicated sentence recordings take priority in card playback and provider lookups", async () => {
     const provider = makeProvider(() => {
         throw new Error("unexpected_synthesis");
     });
@@ -331,17 +331,11 @@ test("packaged sentence playback preserves exact constituent composition without
         const composition = inventory.compositions.find(
             (item) => item.entryId === sentence.entryId,
         );
-        assert.equal(
-            entries.get(sentence.entryId).fields.audio,
-            composition.path,
-        );
+        assert.equal(entries.get(sentence.entryId).fields.audio, sentence.path);
         assert.equal(sentence.voiceId, inventory.voiceId);
         assert.equal(sentence.request.text, sentence.inputs[0].label);
         const result = await provider.fetchAudio(composition.input);
-        assert.deepEqual(
-            Buffer.from(result.data),
-            assets.get(composition.path),
-        );
+        assert.deepEqual(Buffer.from(result.data), assets.get(sentence.path));
     }
 });
 
