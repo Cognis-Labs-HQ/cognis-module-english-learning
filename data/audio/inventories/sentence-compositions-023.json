@@ -24,9 +24,7 @@
                 "path": "audio/82aa54979a99171da309b32e9e169c762861233b3c19f5cd53781a43a9f546cf.wav",
                 "entryId": "en:word:chair"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -85,7 +83,8 @@
             },
             {
                 "path": "audio/ecf4351511d34148f55f440a3d1e9c80135e6d68a76a54ab21fb3e1f6280ab25.wav",
-                "entryId": "en:word:form-posture-sit-past"
+                "entryId": "en:word:posture-sit",
+                "transformation": { "setId": "english-verb", "path": ["past"] }
             },
             {
                 "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
@@ -95,9 +94,7 @@
                 "path": "audio/a7f5ee6d4e49bcb471661ca5714f13c543a543da7ee4602f2d51fb065b761b9c.wav",
                 "entryId": "en:word:time-yesterday"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -109,9 +106,10 @@
             },
             {
                 "path": "audio/ecf4351511d34148f55f440a3d1e9c80135e6d68a76a54ab21fb3e1f6280ab25.wav",
-                "entryId": "en:word:form-posture-sit-past",
+                "entryId": "en:word:posture-sit",
                 "startFrame": 14932,
-                "frameCount": 19907
+                "frameCount": 19907,
+                "transformation": { "setId": "english-verb", "path": ["past"] }
             },
             {
                 "path": "audio/c2bae759ef0474b6c9a35f79b88964c215098015d1272b40be87d28dee99b794.wav",
@@ -164,9 +162,7 @@
                 "path": "audio/3fb2aebfb3234140e80aad57cdfff1963c62d329f2109f447636dafb983bd4ac.wav",
                 "entryId": "en:word:travel-station"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -225,7 +221,8 @@
             },
             {
                 "path": "audio/8a9124a1401d2e8e81b08baa01b3d8ff800e8e26dd734720dc419d1f0d98a65e.wav",
-                "entryId": "en:word:form-posture-stand-past"
+                "entryId": "en:word:posture-stand",
+                "transformation": { "setId": "english-verb", "path": ["past"] }
             },
             {
                 "path": "audio/bd04024b02ccfb1acb267613f4cb81cac9a887a044d4b7ab4f3da08e75c2a97c.wav",
@@ -239,9 +236,7 @@
                 "path": "audio/6670fd21613e90e70f6c6deff51d944e17cd41e6ae5ccae2f938fe420a950e2e.wav",
                 "entryId": "en:word:door"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -253,9 +248,10 @@
             },
             {
                 "path": "audio/8a9124a1401d2e8e81b08baa01b3d8ff800e8e26dd734720dc419d1f0d98a65e.wav",
-                "entryId": "en:word:form-posture-stand-past",
+                "entryId": "en:word:posture-stand",
                 "startFrame": 15363,
-                "frameCount": 21022
+                "frameCount": 21022,
+                "transformation": { "setId": "english-verb", "path": ["past"] }
             },
             {
                 "path": "audio/bd04024b02ccfb1acb267613f4cb81cac9a887a044d4b7ab4f3da08e75c2a97c.wav",

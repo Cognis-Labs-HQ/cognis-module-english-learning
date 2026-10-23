@@ -1,0 +1,79 @@
+[
+    {
+        "path": "audio/24d397f0a3fac11132e42b0b9dc24d9be66eba14ac2033d28f1be7a1bacaf289.wav",
+        "text": "suitcases",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "suitcases",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "suitcases",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈsuːtkeɪsɪz/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:travel-suitcase",
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "suitcases",
+                "reading": "/ˈsuːtkeɪsɪz/",
+                "state": "plural"
+            }
+        ],
+        "sha256": "24d397f0a3fac11132e42b0b9dc24d9be66eba14ac2033d28f1be7a1bacaf289",
+        "frames": 28824,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "227ef9ab9013d45ecd47dec055d233834d5a58f2ccd5d203f44c06468b4cef91"
+        }
+    },
+    {
+        "path": "audio/13addf06063eb86d2ee6b006d3f40adb45533e296ac2df787f4b7504d72dc4b5.wav",
+        "text": "ticket",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "ticket",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "ticket",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈtɪkɪt/"]
+            }
+        ],
+        "entries": ["en:word:travel-ticket"],
+        "variants": [],
+        "sha256": "13addf06063eb86d2ee6b006d3f40adb45533e296ac2df787f4b7504d72dc4b5",
+        "frames": 19907,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "languageSelection": "native-input-autodetection",
+            "sourcePcmSha256": "6056396ab88930078ddc25991d4ab942a47a5d1b52334d088f4c342728f99de3"
+        }
+    }
+]

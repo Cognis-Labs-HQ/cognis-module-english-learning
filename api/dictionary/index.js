@@ -1,3 +1,4 @@
+import { difficultyLevel } from "../reuse/difficulty.js";
 import { addSpellingReferences } from "./spelling.js";
 import { requestDictionary } from "./request.js";
 import { readContentLayers } from "../reuse/content.js";
@@ -95,13 +96,19 @@ export function dictionarySuggestion(record, native, query, selectedPart) {
     ].slice(0, 10);
     const partOfSpeech =
         native?.fields?.part_of_speech ?? [...parts][0] ?? "noun";
-    // Only curated paradigms have authoritative inflections and matching IPA.
-    const tags = [...new Set([...(native?.tags ?? []), ...parts])];
+    const transformFlag = ["verb", "adjective", "copula"].includes(partOfSpeech)
+        ? [`transform:${partOfSpeech}`]
+        : [];
+    const tags = [
+        ...new Set([...(native?.tags ?? []), ...parts, ...transformFlag]),
+    ];
+    const difficulty = difficultyLevel(record, native);
     return {
         label: native?.label ?? record.word,
         class: native?.class ?? `lexical:${partOfSpeech}`,
         tags,
         fields: {
+            ...(difficulty ? { difficulty_level: difficulty } : {}),
             part_of_speech: partOfSpeech,
             dictionary_data: JSON.stringify({
                 provider: PROVIDER_ID,
@@ -174,7 +181,7 @@ export function createDictionaryProvider({
     return Object.freeze({
         id: PROVIDER_ID,
         capabilities: ["dictionary"],
-        fields: ["pronunciation", "part_of_speech"],
+        fields: ["pronunciation", "part_of_speech", "difficulty_level"],
         searchable: true,
         cacheRevision,
         metadata: {

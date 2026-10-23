@@ -1,0 +1,86 @@
+[
+    {
+        "path": "audio/3f454d88d4e331a09c78888ee6f9331091fadb5dfff4f089e4f4f1fe611f6d21.wav",
+        "text": "cleaning",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈkliːnɪŋ\">cleaning</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "cleaning",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈkliːnɪŋ/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:household-clean",
+                "setId": "english-verb",
+                "path": ["present-participle"],
+                "label": "cleaning",
+                "reading": "/ˈkliːnɪŋ/",
+                "state": "present-participle"
+            }
+        ],
+        "sha256": "3f454d88d4e331a09c78888ee6f9331091fadb5dfff4f089e4f4f1fe611f6d21",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "ed2b46404c8aa636ab667761f391acc1c390dd0f6b8ccbc76915d703bd429c4b"
+        }
+    },
+    {
+        "path": "audio/dd93b48d03146a78db6ed65646cb4df1d1c40bf5d8b59b10643339c6fa94570a.wav",
+        "text": "dries",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"draɪz\">dries</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "dries",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/draɪz/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:household-dry",
+                "setId": "english-verb",
+                "path": ["third-person"],
+                "label": "dries",
+                "reading": "/draɪz/",
+                "state": "third-person"
+            }
+        ],
+        "sha256": "dd93b48d03146a78db6ed65646cb4df1d1c40bf5d8b59b10643339c6fa94570a",
+        "frames": 23251,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "b6d5917b3068f622e87987ebd0355271bbbc6ab663aaa198f49a633967bf6df8"
+        }
+    }
+]

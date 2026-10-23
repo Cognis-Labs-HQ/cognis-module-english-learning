@@ -23,12 +23,15 @@
                 "readings": ["/naɪvz/"]
             }
         ],
-        "entries": ["en:word:form-kitchen-knives"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:kitchen-knife",
-                "setId": "noun-knife",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "knives",
+                "reading": "/naɪvz/",
+                "state": "plural"
             }
         ],
         "sha256": "944156d896da93e5e83b504ac2584c47b02870ef252c1fe9470bc2253fd668a6",
@@ -62,12 +65,15 @@
                 "readings": ["/pɒts/"]
             }
         ],
-        "entries": ["en:word:form-kitchen-pots"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:kitchen-pot",
-                "setId": "noun-pot",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "pots",
+                "reading": "/pɒts/",
+                "state": "plural"
             }
         ],
         "sha256": "a15557514e0616c127d98e13d68532c9275ea44b2835fb1c20f9b42608b4c3cb",
@@ -101,12 +107,15 @@
                 "readings": ["/pænz/"]
             }
         ],
-        "entries": ["en:word:form-kitchen-pans"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:kitchen-pan",
-                "setId": "noun-pan",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "pans",
+                "reading": "/pænz/",
+                "state": "plural"
             }
         ],
         "sha256": "ea047841c80221f6fc785184715d6c500c516c9fbf5135cd2c662c2edb9b94fe",
@@ -140,12 +149,15 @@
                 "readings": ["/klaʊdz/"]
             }
         ],
-        "entries": ["en:word:form-weather-clouds"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:weather-cloud",
-                "setId": "noun-cloud",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "clouds",
+                "reading": "/klaʊdz/",
+                "state": "plural"
             }
         ],
         "sha256": "f6ecb2fa5d3dbd561a272879576a9e9d2f2ccd721b4459532b52e34741dbec34",
@@ -311,12 +323,15 @@
                 "readings": ["/ˈkæbɪdʒɪz/"]
             }
         ],
-        "entries": ["en:word:form-vegetables-cabbages"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:vegetables-cabbage",
-                "setId": "noun-cabbage",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "cabbages",
+                "reading": "/ˈkæbɪdʒɪz/",
+                "state": "plural"
             }
         ],
         "sha256": "35ced83b34e92a6cb71fd2f68b4cb327814a94f57d1e15cdc7705b5ca2231d50",
@@ -350,12 +365,15 @@
                 "readings": ["/ˈmʌʃrʊmz/"]
             }
         ],
-        "entries": ["en:word:form-vegetables-mushrooms"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:vegetables-mushroom",
-                "setId": "noun-mushroom",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "mushrooms",
+                "reading": "/ˈmʌʃrʊmz/",
+                "state": "plural"
             }
         ],
         "sha256": "e11a797571a3a0f5d2caf192770d70fe960450a2c2457f7ac0d46985a02d0bd2",
@@ -389,12 +407,15 @@
                 "readings": ["/ˈletɪsɪz/"]
             }
         ],
-        "entries": ["en:word:form-vegetables-lettuces"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:vegetables-lettuce",
-                "setId": "noun-lettuce",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "lettuces",
+                "reading": "/ˈletɪsɪz/",
+                "state": "plural"
             }
         ],
         "sha256": "c7912aaf39c6a765c189a25a890b51f9f0bd447fc1a49558879814c8c9287b0a",
@@ -598,8 +619,11 @@
         "variants": [
             {
                 "entryId": "en:word:travel-airport",
-                "setId": "travel-airport-forms",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "airports",
+                "reading": "/ˈeəpɔːts/",
+                "state": "plural"
             }
         ],
         "sha256": "e15667184030107caa87c780b5d53f8f3ca8c82b3a015193bd1ba07b6ba96d7a",
@@ -672,8 +696,11 @@
         "variants": [
             {
                 "entryId": "en:word:travel-arrive",
-                "setId": "travel-arrive-forms",
-                "path": ["third-person"]
+                "setId": "english-verb",
+                "path": ["third-person"],
+                "label": "arrives",
+                "reading": "/əˈraɪvz/",
+                "state": "third-person"
             }
         ],
         "sha256": "5cee6fc3d930068b619c0cb074ad63e8702935165cc4764ec9607b3b93a3aa3d",
@@ -708,17 +735,23 @@
                 "readings": ["/əˈraɪvd/"]
             }
         ],
-        "entries": ["en:word:travel-arrive-past", "en:word:travel-arrive-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:travel-arrive",
-                "setId": "travel-arrive-forms",
-                "path": ["past"]
+                "setId": "english-verb",
+                "path": ["past"],
+                "label": "arrived",
+                "reading": "/əˈraɪvd/",
+                "state": "past"
             },
             {
                 "entryId": "en:word:travel-arrive",
-                "setId": "travel-arrive-forms",
-                "path": ["past-participle"]
+                "setId": "english-verb",
+                "path": ["past-participle"],
+                "label": "arrived",
+                "reading": "/əˈraɪvd/",
+                "state": "past-participle"
             }
         ],
         "sha256": "b32e6ec0c93a4f7edce364ece2f625d8a835fa19be1dac115f909bf9b3af6451",
@@ -727,46 +760,6 @@
             "listening": "unverified-not-performed",
             "languageSelection": "native-input-autodetection",
             "sourcePcmSha256": "9433b12f9d2741d549b7f8cd58a1f6713856b731d97fd1a8a1ff8ffeb70f8cc7"
-        }
-    },
-    {
-        "path": "audio/36437efd4b901d75a2e0adfbd2938acb2c6c545d987eafa2d02adfcd787f2dc9.wav",
-        "text": "arriving",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "arriving",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "arriving",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/əˈraɪvɪŋ/"]
-            }
-        ],
-        "entries": [],
-        "variants": [
-            {
-                "entryId": "en:word:travel-arrive",
-                "setId": "travel-arrive-forms",
-                "path": ["present-participle"]
-            }
-        ],
-        "sha256": "36437efd4b901d75a2e0adfbd2938acb2c6c545d987eafa2d02adfcd787f2dc9",
-        "frames": 24366,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "languageSelection": "native-input-autodetection",
-            "sourcePcmSha256": "da3f61549e169120cf290c9c56d974fd97ba6adaa459d5a0858f513b36a506dd"
         }
     }
 ]

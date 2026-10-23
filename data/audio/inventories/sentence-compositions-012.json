@@ -273,7 +273,8 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/de7a4bdecea3025be9ba5d3c667402f47cc1b671aca28db38ab59239fb3d54ca.wav",
@@ -297,9 +298,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 35892,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/de7a4bdecea3025be9ba5d3c667402f47cc1b671aca28db38ab59239fb3d54ca.wav",
@@ -340,7 +342,11 @@
             },
             {
                 "path": "audio/8c6daf825cbb034b8adf7735cecf0af417126022423dbbb069f60de8c0bcde39.wav",
-                "entryId": "en:word:form-animals-horses"
+                "entryId": "en:word:animals-horse",
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             { "pauseMs": 400 }
         ],
@@ -366,9 +372,13 @@
             },
             {
                 "path": "audio/8c6daf825cbb034b8adf7735cecf0af417126022423dbbb069f60de8c0bcde39.wav",
-                "entryId": "en:word:form-animals-horses",
+                "entryId": "en:word:animals-horse",
                 "startFrame": 35988,
-                "frameCount": 25480
+                "frameCount": 25480,
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             }
         ],
         "sha256": "de1234d198a3e9dea23c9bfe9d03a279558208d18d1d6d06ec02480d67d88f14",
@@ -399,7 +409,11 @@
             },
             {
                 "path": "audio/3eca6e67d85d977e599fed0c9ab6a484f51a46dec8d7a561f2c2ace25e9cc1c5.wav",
-                "entryId": "en:word:form-english-drink-third-person"
+                "entryId": "en:word:drink",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/de43a97fbedea7909d8f9b9ca31da43c5bd95debf2a1c3f89a02f2f0996bee27.wav",
@@ -423,9 +437,13 @@
             },
             {
                 "path": "audio/3eca6e67d85d977e599fed0c9ab6a484f51a46dec8d7a561f2c2ace25e9cc1c5.wav",
-                "entryId": "en:word:form-english-drink-third-person",
+                "entryId": "en:word:drink",
                 "startFrame": 43694,
-                "frameCount": 13170
+                "frameCount": 13170,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/de43a97fbedea7909d8f9b9ca31da43c5bd95debf2a1c3f89a02f2f0996bee27.wav",
@@ -462,7 +480,11 @@
             },
             {
                 "path": "audio/c8c7a1a2802324c6e6e60309019ce7073f0e9665e27c37be688dceb40e34cd17.wav",
-                "entryId": "en:word:form-english-eat-third-person"
+                "entryId": "en:word:eat",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/6da033542f95bc3306b9d9a4dd284aed21bec2f19ff8980447ab6e40dce3cd96.wav",
@@ -486,9 +508,13 @@
             },
             {
                 "path": "audio/c8c7a1a2802324c6e6e60309019ce7073f0e9665e27c37be688dceb40e34cd17.wav",
-                "entryId": "en:word:form-english-eat-third-person",
+                "entryId": "en:word:eat",
                 "startFrame": 34777,
-                "frameCount": 11794
+                "frameCount": 11794,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/6da033542f95bc3306b9d9a4dd284aed21bec2f19ff8980447ab6e40dce3cd96.wav",
@@ -529,7 +555,11 @@
             },
             {
                 "path": "audio/f8d5804e7d7d92568c1517aae37cd478dcfb98ceeca8c3cd7441032afd4d51fa.wav",
-                "entryId": "en:word:form-fruit-peaches"
+                "entryId": "en:word:fruit-peach",
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             { "pauseMs": 400 }
         ],
@@ -555,9 +585,13 @@
             },
             {
                 "path": "audio/f8d5804e7d7d92568c1517aae37cd478dcfb98ceeca8c3cd7441032afd4d51fa.wav",
-                "entryId": "en:word:form-fruit-peaches",
+                "entryId": "en:word:fruit-peach",
                 "startFrame": 55849,
-                "frameCount": 25480
+                "frameCount": 25480,
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             }
         ],
         "sha256": "c1cdc3a4391f7025695c8a07efaa41a7454b88644b9bb47d6d467618bc8c406e",
@@ -588,7 +622,8 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/db96542c1374b239273b03531b9960ca6d5d7eaf0fac9bbb879a2f0f4f55a4f5.wav",
@@ -612,9 +647,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 34777,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/db96542c1374b239273b03531b9960ca6d5d7eaf0fac9bbb879a2f0f4f55a4f5.wav",
@@ -701,59 +737,6 @@
         "input": {
             "language": "en",
             "label": "I eat watermelon in summer.",
-            "semanticRole": "orderedLexicalSequence",
-            "readings": []
-        },
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "construction": "Exact fruit constituent PCM, including the English plural peaches with its extra syllable."
-        }
-    },
-    {
-        "path": "audio/e0d22d72025686528025c492f079dad5907303de1cd163609cb93c6d69c276e9.wav",
-        "entryId": "en:sentence:fruit-example-pineapple",
-        "label": "She likes pineapple.",
-        "parts": [
-            {
-                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
-                "entryId": "en:word:capital-she"
-            },
-            {
-                "path": "audio/c36a98159cd3599e0e3a4bcf704c2133e3a204f208b02467eaf2d409ad208da6.wav",
-                "entryId": "en:word:form-english-like-third-person"
-            },
-            {
-                "path": "audio/c9664a7eae119618c696133181404f698286048db0d5686208c3b0c933446364.wav",
-                "entryId": "en:word:fruit-pineapple"
-            },
-            { "pauseMs": 400 }
-        ],
-        "gapMs": 90,
-        "segments": [
-            {
-                "path": "audio/ea28001d177054e6cebb6e41fc9de4d1e32dd9af941f91b3897293fc7d4c201a.wav",
-                "entryId": "en:word:capital-she",
-                "startFrame": 2400,
-                "frameCount": 10372
-            },
-            {
-                "path": "audio/c36a98159cd3599e0e3a4bcf704c2133e3a204f208b02467eaf2d409ad208da6.wav",
-                "entryId": "en:word:form-english-like-third-person",
-                "startFrame": 14932,
-                "frameCount": 13186
-            },
-            {
-                "path": "audio/c9664a7eae119618c696133181404f698286048db0d5686208c3b0c933446364.wav",
-                "entryId": "en:word:fruit-pineapple",
-                "startFrame": 30278,
-                "frameCount": 24366
-            }
-        ],
-        "sha256": "e0d22d72025686528025c492f079dad5907303de1cd163609cb93c6d69c276e9",
-        "frames": 66404,
-        "input": {
-            "language": "en",
-            "label": "She likes pineapple.",
             "semanticRole": "orderedLexicalSequence",
             "readings": []
         },

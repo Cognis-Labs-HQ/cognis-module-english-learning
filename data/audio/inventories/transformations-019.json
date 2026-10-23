@@ -1,0 +1,230 @@
+[
+    {
+        "path": "audio/950237ebf7aacf839491cd0907b169c57c5cfb1f48f20ccbf0b3215f3921639d.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "more often",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"mɔː ˈɒfn\">more often</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "more often",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/mɔː ˈɒfn/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:frequency-often",
+                "setId": "english-adverb",
+                "path": ["comparative"],
+                "state": "comparative",
+                "label": "more often",
+                "reading": "/mɔː ˈɒfn/"
+            }
+        ],
+        "sha256": "950237ebf7aacf839491cd0907b169c57c5cfb1f48f20ccbf0b3215f3921639d",
+        "frames": 32168
+    },
+    {
+        "path": "audio/216df8df3e4fa94565f483b8162c2af70d0388d07c70d8c30c8628ef158c3cf7.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "most often",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"məʊst ˈɒfn\">most often</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "most often",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/məʊst ˈɒfn/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:frequency-often",
+                "setId": "english-adverb",
+                "path": ["superlative"],
+                "state": "superlative",
+                "label": "most often",
+                "reading": "/məʊst ˈɒfn/"
+            }
+        ],
+        "sha256": "216df8df3e4fa94565f483b8162c2af70d0388d07c70d8c30c8628ef158c3cf7",
+        "frames": 25480
+    },
+    {
+        "path": "audio/9f9656006809fe5f5c138c0044f3aed156919f62e82b9066e5a8f19f49bab2b3.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "most quickly",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"məʊst ˈkwɪkli\">most quickly</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "most quickly",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/məʊst ˈkwɪkli/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:quickly",
+                "setId": "english-adverb",
+                "path": ["superlative"],
+                "state": "superlative",
+                "label": "most quickly",
+                "reading": "/məʊst ˈkwɪkli/"
+            }
+        ],
+        "sha256": "9f9656006809fe5f5c138c0044f3aed156919f62e82b9066e5a8f19f49bab2b3",
+        "frames": 27709
+    },
+    {
+        "path": "audio/e7e276ff693a075c6f549fc1d944f853d6289c0043aff8d8367543d37a5ebadf.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "more slowly",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"mɔː ˈsləʊli\">more slowly</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "more slowly",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/mɔː ˈsləʊli/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:slowly",
+                "setId": "english-adverb",
+                "path": ["comparative"],
+                "state": "comparative",
+                "label": "more slowly",
+                "reading": "/mɔː ˈsləʊli/"
+            }
+        ],
+        "sha256": "e7e276ff693a075c6f549fc1d944f853d6289c0043aff8d8367543d37a5ebadf",
+        "frames": 28824
+    },
+    {
+        "path": "audio/24bf8468a340b9a9207c8e312ef87bec37eaafa0ca19e99159d4f90c42b636f8.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "most slowly",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"məʊst ˈsləʊli\">most slowly</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "most slowly",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/məʊst ˈsləʊli/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:slowly",
+                "setId": "english-adverb",
+                "path": ["superlative"],
+                "state": "superlative",
+                "label": "most slowly",
+                "reading": "/məʊst ˈsləʊli/"
+            }
+        ],
+        "sha256": "24bf8468a340b9a9207c8e312ef87bec37eaafa0ca19e99159d4f90c42b636f8",
+        "frames": 31053
+    },
+    {
+        "path": "audio/65ffd27616d84228e04386c3c77a614e03bb6962ef36b8ccbdf4e77ad227055c.wav",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "text": "more quickly",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"mɔː ˈkwɪkli\">more quickly</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "more quickly",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/mɔː ˈkwɪkli/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:quickly",
+                "setId": "english-adverb",
+                "path": ["comparative"],
+                "state": "comparative",
+                "label": "more quickly",
+                "reading": "/mɔː ˈkwɪkli/"
+            }
+        ],
+        "sha256": "65ffd27616d84228e04386c3c77a614e03bb6962ef36b8ccbdf4e77ad227055c",
+        "frames": 26595
+    }
+]

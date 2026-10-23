@@ -54,8 +54,10 @@ test("new noun senses preserve mass food, irregular plurals and the Japanese foo
             const word = entries.get(`en:word:${slug}`);
             assert.ok(!word.tags.includes("plural"), slug);
             assert.equal(
-                schema.transformSets.some((set) =>
-                    set.matchTags.every((tag) => word.tags.includes(tag)),
+                schema.transformSets.some(
+                    (set) =>
+                        word.tags.includes(set.flag) &&
+                        set.matchTags.every((tag) => word.tags.includes(tag)),
                 ),
                 false,
                 slug,
@@ -68,8 +70,8 @@ test("new noun senses preserve mass food, irregular plurals and the Japanese foo
             ["mouth", "mouths", "/maʊðz/"],
         ]) {
             const rule = schema.transformSets.find(
-                ({ id }) => id === `noun-${slug}`,
-            ).rules[0];
+                ({ flag }) => flag === "transform:plural",
+            ).rules[0].forms[slug];
             assert.equal(rule.append, plural);
             assert.equal(rule.pronunciation.append, pronunciation);
         }

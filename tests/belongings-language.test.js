@@ -14,7 +14,10 @@ test("eyewear retains plural agreement and wristwatch retains its noun sense", (
     assert.equal(example.label, "The glasses are on the table.");
     assert.ok(
         example.references.some(
-            ({ entryId }) => entryId === "en:word:form-english-be-are",
+            ({ entryId, transformation }) =>
+                entryId === "en:word:be" &&
+                transformation?.setId === "english-copula" &&
+                transformation.path.join("/") === "are",
         ),
     );
     assert.equal(

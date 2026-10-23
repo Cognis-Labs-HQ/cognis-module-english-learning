@@ -1,0 +1,44 @@
+[
+    {
+        "path": "audio/c28dcbe9c035bd8c0b68b5989756769a423d85f3d2058d84ed086a20c53f93df.wav",
+        "text": "bowls",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"bəʊlz\">bowls</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "bowls",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/bəʊlz/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:kitchen-bowl",
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "bowls",
+                "reading": "/bəʊlz/",
+                "state": "plural"
+            }
+        ],
+        "sha256": "c28dcbe9c035bd8c0b68b5989756769a423d85f3d2058d84ed086a20c53f93df",
+        "frames": 22137,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "9f45626d9a1ddeffe8c04e4719564b2156d784875d5144f07d694de4ce97680a"
+        }
+    }
+]

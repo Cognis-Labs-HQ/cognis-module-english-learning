@@ -1,0 +1,44 @@
+[
+    {
+        "path": "audio/7e26f9a78018e6172a0fdfa1e99c2ca6081b6224adf9153ab8a1ab056eb7bbb3.wav",
+        "text": "supermarkets",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"ˈsuːpəmɑːkɪts\">supermarkets</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "supermarkets",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/ˈsuːpəmɑːkɪts/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:places-supermarket",
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "supermarkets",
+                "reading": "/ˈsuːpəmɑːkɪts/",
+                "state": "plural"
+            }
+        ],
+        "sha256": "7e26f9a78018e6172a0fdfa1e99c2ca6081b6224adf9153ab8a1ab056eb7bbb3",
+        "frames": 35511,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "40d055e155213e3df949d173be0ebdb7288e5ce527e9450cbd0ec4a0fe393848"
+        }
+    }
+]

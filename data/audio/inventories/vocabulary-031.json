@@ -27,13 +27,19 @@
         "variants": [
             {
                 "entryId": "en:word:craft-cut",
-                "setId": "craft-cut-forms",
-                "path": ["past"]
+                "setId": "english-verb",
+                "path": ["past"],
+                "label": "cut",
+                "reading": "/kʌt/",
+                "state": "past"
             },
             {
                 "entryId": "en:word:craft-cut",
-                "setId": "craft-cut-forms",
-                "path": ["past-participle"]
+                "setId": "english-verb",
+                "path": ["past-participle"],
+                "label": "cut",
+                "reading": "/kʌt/",
+                "state": "past-participle"
             }
         ],
         "sha256": "5abaae46dee3f75c72e9ebd501b7b3312ad13bf3864c6ff25088eaa50282138f",

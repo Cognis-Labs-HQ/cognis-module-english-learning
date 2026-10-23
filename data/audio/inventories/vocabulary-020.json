@@ -188,12 +188,15 @@
                 "readings": ["/ˌʌndəˈstændz/"]
             }
         ],
-        "entries": ["en:word:form-comprehension-understand-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:comprehension-understand",
-                "setId": "comprehension-understand-forms",
-                "path": ["third-person"]
+                "setId": "english-verb",
+                "path": ["third-person"],
+                "label": "understands",
+                "reading": "/ˌʌndəˈstændz/",
+                "state": "third-person"
             }
         ],
         "sha256": "0a9182f221114b6d4dbaa4e1c3ef6d1a264cb13f77fef36b47a14e04096c420a",
@@ -227,17 +230,23 @@
                 "readings": ["/ˌʌndəˈstʊd/"]
             }
         ],
-        "entries": ["en:word:form-comprehension-understand-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:comprehension-understand",
-                "setId": "comprehension-understand-forms",
-                "path": ["past"]
+                "setId": "english-verb",
+                "path": ["past"],
+                "label": "understood",
+                "reading": "/ˌʌndəˈstʊd/",
+                "state": "past"
             },
             {
                 "entryId": "en:word:comprehension-understand",
-                "setId": "comprehension-understand-forms",
-                "path": ["past-participle"]
+                "setId": "english-verb",
+                "path": ["past-participle"],
+                "label": "understood",
+                "reading": "/ˌʌndəˈstʊd/",
+                "state": "past-participle"
             }
         ],
         "sha256": "0a7bad6dcac6d4626fe0c9a643f77d028b3e9496049278e315437a5bd41175d0",
@@ -271,12 +280,15 @@
                 "readings": ["/ˌʌndəˈstændɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-comprehension-understand-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:comprehension-understand",
-                "setId": "comprehension-understand-forms",
-                "path": ["present-participle"]
+                "setId": "english-verb",
+                "path": ["present-participle"],
+                "label": "understanding",
+                "reading": "/ˌʌndəˈstændɪŋ/",
+                "state": "present-participle"
             }
         ],
         "sha256": "9ca6eff2b07c737696478972dda5253c379b3cb2f26ac818430f573c21114449",
@@ -508,12 +520,15 @@
                 "readings": ["/ɡɪvz/"]
             }
         ],
-        "entries": ["en:word:form-exchange-give-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:exchange-give",
-                "setId": "exchange-give-forms",
-                "path": ["third-person"]
+                "setId": "english-verb",
+                "path": ["third-person"],
+                "label": "gives",
+                "reading": "/ɡɪvz/",
+                "state": "third-person"
             }
         ],
         "sha256": "7adc1ae15c06293ebf3ac08f56c344cac7893069e20396eb93e86ac2e05f5106",
@@ -547,12 +562,15 @@
                 "readings": ["/ɡeɪv/"]
             }
         ],
-        "entries": ["en:word:form-exchange-give-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:exchange-give",
-                "setId": "exchange-give-forms",
-                "path": ["past"]
+                "setId": "english-verb",
+                "path": ["past"],
+                "label": "gave",
+                "reading": "/ɡeɪv/",
+                "state": "past"
             }
         ],
         "sha256": "cda55fbce58d54030780a5820e48f5dcebb11784c38ec2884237956afdce2791",
@@ -586,12 +604,15 @@
                 "readings": ["/ˈɡɪvɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-exchange-give-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:exchange-give",
-                "setId": "exchange-give-forms",
-                "path": ["present-participle"]
+                "setId": "english-verb",
+                "path": ["present-participle"],
+                "label": "giving",
+                "reading": "/ˈɡɪvɪŋ/",
+                "state": "present-participle"
             }
         ],
         "sha256": "d782eb1399c2fd63e2438c6cffc23e23c01a8ebfe5032fc36e9516984fcb92c2",
@@ -625,12 +646,15 @@
                 "readings": ["/ˈɡɪvn/"]
             }
         ],
-        "entries": ["en:word:form-exchange-give-past-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:exchange-give",
-                "setId": "exchange-give-forms",
-                "path": ["past-participle"]
+                "setId": "english-verb",
+                "path": ["past-participle"],
+                "label": "given",
+                "reading": "/ˈɡɪvn/",
+                "state": "past-participle"
             }
         ],
         "sha256": "fc41b5c96b8572f18f9123177e4af5e6d5cfe38ecc85a1b986026aa43dfb7fe3",
@@ -664,12 +688,15 @@
                 "readings": ["/rɪˈsiːvz/"]
             }
         ],
-        "entries": ["en:word:form-exchange-receive-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:exchange-receive",
-                "setId": "exchange-receive-forms",
-                "path": ["third-person"]
+                "setId": "english-verb",
+                "path": ["third-person"],
+                "label": "receives",
+                "reading": "/rɪˈsiːvz/",
+                "state": "third-person"
             }
         ],
         "sha256": "340d1967f029fc75c208f588141b81117b310c8b06edc1acd2de7d88484813c1",
@@ -703,17 +730,23 @@
                 "readings": ["/rɪˈsiːvd/"]
             }
         ],
-        "entries": ["en:word:form-exchange-receive-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:exchange-receive",
-                "setId": "exchange-receive-forms",
-                "path": ["past"]
+                "setId": "english-verb",
+                "path": ["past"],
+                "label": "received",
+                "reading": "/rɪˈsiːvd/",
+                "state": "past"
             },
             {
                 "entryId": "en:word:exchange-receive",
-                "setId": "exchange-receive-forms",
-                "path": ["past-participle"]
+                "setId": "english-verb",
+                "path": ["past-participle"],
+                "label": "received",
+                "reading": "/rɪˈsiːvd/",
+                "state": "past-participle"
             }
         ],
         "sha256": "2f8336bfa16be402ad3e135f3a78a26c537cc751b3e279ae04fa9c69ac4ba668",
@@ -721,45 +754,6 @@
         "metadata": {
             "listening": "unverified-not-performed",
             "sourcePcmSha256": "e2d0eec9af29628e24ba8261c2b6024337cf28f2143ebc3765a9c7764d658669"
-        }
-    },
-    {
-        "path": "audio/778d83817c598f259240a6ec453b7729571e9fb4849668c7bcfb0f2b42aa2442.wav",
-        "text": "receiving",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"rɪˈsiːvɪŋ\">receiving</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "receiving",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/rɪˈsiːvɪŋ/"]
-            }
-        ],
-        "entries": ["en:word:form-exchange-receive-present-participle"],
-        "variants": [
-            {
-                "entryId": "en:word:exchange-receive",
-                "setId": "exchange-receive-forms",
-                "path": ["present-participle"]
-            }
-        ],
-        "sha256": "778d83817c598f259240a6ec453b7729571e9fb4849668c7bcfb0f2b42aa2442",
-        "frames": 25480,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "1d273ebb09eb9202b5c4cccf91a2fe2c6b6189a3cfacb4f794986817e1d187e2"
         }
     }
 ]

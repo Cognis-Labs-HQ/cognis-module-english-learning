@@ -23,17 +23,23 @@
                 "readings": ["/draɪd/"]
             }
         ],
-        "entries": ["en:word:form-household-dry-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:household-dry",
-                "setId": "household-dry-forms",
-                "path": ["past"]
+                "setId": "english-verb",
+                "path": ["past"],
+                "label": "dried",
+                "reading": "/draɪd/",
+                "state": "past"
             },
             {
                 "entryId": "en:word:household-dry",
-                "setId": "household-dry-forms",
-                "path": ["past-participle"]
+                "setId": "english-verb",
+                "path": ["past-participle"],
+                "label": "dried",
+                "reading": "/draɪd/",
+                "state": "past-participle"
             }
         ],
         "sha256": "ca945bebbfede1e2744575aecad313602e366b024033bafd8d01052035d8c1f8",
@@ -67,12 +73,15 @@
                 "readings": ["/ˈdraɪɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-household-dry-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:household-dry",
-                "setId": "household-dry-forms",
-                "path": ["present-participle"]
+                "setId": "english-verb",
+                "path": ["present-participle"],
+                "label": "drying",
+                "reading": "/ˈdraɪɪŋ/",
+                "state": "present-participle"
             }
         ],
         "sha256": "062db57db01f8a47848da342001f63407ae469f873054914a968bedf3125b4eb",
@@ -238,12 +247,15 @@
                 "readings": ["/ˈeəpleɪnz/"]
             }
         ],
-        "entries": ["en:word:form-transport-airplanes"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:transport-airplane",
-                "setId": "noun-airplane",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "airplanes",
+                "reading": "/ˈeəpleɪnz/",
+                "state": "plural"
             }
         ],
         "sha256": "1dd6ac4ee65261bedbce46afd691a6dbe27f959bb83e63bdc4682347461eef49",
@@ -277,12 +289,15 @@
                 "readings": ["/bəʊts/"]
             }
         ],
-        "entries": ["en:word:form-transport-boats"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:transport-boat",
-                "setId": "noun-boat",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "boats",
+                "reading": "/bəʊts/",
+                "state": "plural"
             }
         ],
         "sha256": "437007c149a958ece1947d437089974ce2bf51774980fa655e4e4b86aecacf82",
@@ -316,12 +331,15 @@
                 "readings": ["/ˈtæksiz/"]
             }
         ],
-        "entries": ["en:word:form-transport-taxis"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:transport-taxi",
-                "setId": "noun-taxi",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "taxis",
+                "reading": "/ˈtæksiz/",
+                "state": "plural"
             }
         ],
         "sha256": "e7167f4cb872271f11811a2f1824d4f5148376fbeef8b3b7865550af29afd6d5",
@@ -355,12 +373,15 @@
                 "readings": ["/ˈməʊtəsaɪklz/"]
             }
         ],
-        "entries": ["en:word:form-transport-motorcycles"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:transport-motorcycle",
-                "setId": "noun-motorcycle",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "motorcycles",
+                "reading": "/ˈməʊtəsaɪklz/",
+                "state": "plural"
             }
         ],
         "sha256": "d7d1af6a999e0bb1545c909e968048d4ebc11ec8457aee64136d989f68496410",
@@ -526,12 +547,15 @@
                 "readings": ["/ˈpenslz/"]
             }
         ],
-        "entries": ["en:word:form-school-pencils"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:school-pencil",
-                "setId": "noun-pencil",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "pencils",
+                "reading": "/ˈpenslz/",
+                "state": "plural"
             }
         ],
         "sha256": "b0ef4e3d2d48822ea1ec35704b9ce62bbb22c914158e97f980bce43ca98e435c",
@@ -565,12 +589,15 @@
                 "readings": ["/penz/"]
             }
         ],
-        "entries": ["en:word:form-school-pens"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:school-pen",
-                "setId": "noun-pen",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "pens",
+                "reading": "/penz/",
+                "state": "plural"
             }
         ],
         "sha256": "ef891f7c07a79c9a34a30cc01c95b2fa0e3c08b56956937d877aaac84e4d6266",
@@ -604,12 +631,15 @@
                 "readings": ["/ˈnəʊtbʊks/"]
             }
         ],
-        "entries": ["en:word:form-school-notebooks"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:school-notebook",
-                "setId": "noun-notebook",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "notebooks",
+                "reading": "/ˈnəʊtbʊks/",
+                "state": "plural"
             }
         ],
         "sha256": "9b4ba1ff2bae6b8119005921b142601dbf86bde85c855f03811314f872aa77c2",
@@ -643,12 +673,15 @@
                 "readings": ["/ˈruːləz/"]
             }
         ],
-        "entries": ["en:word:form-school-rulers"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:school-ruler",
-                "setId": "noun-ruler",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "rulers",
+                "reading": "/ˈruːləz/",
+                "state": "plural"
             }
         ],
         "sha256": "ccff70ddbc5b106263d228cfb52cc95d2197da0ef14a198cbe06836df881761e",
@@ -722,72 +755,6 @@
         "metadata": {
             "listening": "unverified-not-performed",
             "sourcePcmSha256": "e52f700ac4d363de654be59a8f2663d9c18eeffc2cb86605ff4f333182b780d8"
-        }
-    },
-    {
-        "path": "audio/b69d412d0b6ddfb9c17ac2f90ea1b1953d2e653084a74efabb1483de7ece45fe.wav",
-        "text": "cow",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"kaʊ\">cow</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "cow",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/kaʊ/"]
-            }
-        ],
-        "entries": ["en:word:animals-cow"],
-        "variants": [],
-        "sha256": "b69d412d0b6ddfb9c17ac2f90ea1b1953d2e653084a74efabb1483de7ece45fe",
-        "frames": 28824,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "fdbf0eb2e025a46d2d54ebae773088304ee851b3bce4cdce5d687e38bb2b038f"
-        }
-    },
-    {
-        "path": "audio/6d576ed90ca9c022431d70c26d5c71e60eaa4171b24ceb2b9312c9fc6d90865c.wav",
-        "text": "pig",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"pɪɡ\">pig</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "pig",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/pɪɡ/"]
-            }
-        ],
-        "entries": ["en:word:animals-pig"],
-        "variants": [],
-        "sha256": "6d576ed90ca9c022431d70c26d5c71e60eaa4171b24ceb2b9312c9fc6d90865c",
-        "frames": 19907,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "42405ec9a8a62f812f72635d5c368148b2b06ce83969f027631be8bb0c3d055c"
         }
     }
 ]

@@ -40,58 +40,19 @@ const makeProvider = (speech = () => undefined) =>
     });
 
 function forms(entry) {
-    return schema.transformSets
-        .filter(
-            (set) =>
-                set.matchTags.every((tag) => entry.tags?.includes(tag)) &&
-                (!set.optInTag || entry.tags?.includes(set.optInTag)),
-        )
-        .flatMap((set) => {
-            const nodes = [
-                {
-                    state: set.baseState,
-                    label: entry.label,
-                    reading: entry.fields?.pronunciation?.[0] ?? entry.label,
-                    path: [],
-                },
-            ];
-            const seen = new Set([
-                JSON.stringify([set.baseState, entry.label]),
-            ]);
-            for (const node of nodes)
-                for (const rule of set.rules) {
-                    if (
-                        rule.fromState !== node.state ||
-                        !node.label.endsWith(rule.removeSuffix)
-                    )
-                        continue;
-                    const label =
-                        node.label.slice(
-                            0,
-                            node.label.length - rule.removeSuffix.length,
-                        ) + rule.append;
-                    const key = JSON.stringify([rule.toState, label]);
-                    if (seen.has(key)) continue;
-                    seen.add(key);
-                    const operation = rule.pronunciation;
-                    const reading =
-                        operation &&
-                        node.reading.endsWith(operation.removeSuffix)
-                            ? node.reading.slice(
-                                  0,
-                                  node.reading.length -
-                                      operation.removeSuffix.length,
-                              ) + operation.append
-                            : node.reading;
-                    nodes.push({
-                        state: rule.toState,
-                        label,
-                        reading,
-                        path: [...node.path, rule.id],
-                    });
-                }
-            return nodes.slice(1).map((node) => ({ ...node, setId: set.id }));
-        });
+    return inventory.recordings.flatMap((clip) =>
+        clip.variants
+            .filter(
+                (binding) =>
+                    binding.entryId === entry.id &&
+                    schema.transformSets.some(
+                        (set) =>
+                            set.id === binding.setId &&
+                            entry.tags?.includes(set.flag),
+                    ),
+            )
+            .map((binding) => ({ ...binding, clip })),
+    );
 }
 
 test("every card and selected form has an unambiguous audio lookup identity", () => {
@@ -361,7 +322,7 @@ test("unbundled lexical synthesis uses only this language and its designated def
     assert.equal(requests.length, 1);
 });
 
-test("packaged sentence playback preserves exact constituent composition without runtime synthesis", async () => {
+test("dedicated sentence recordings take priority in card playback and provider lookups", async () => {
     const provider = makeProvider(() => {
         throw new Error("unexpected_synthesis");
     });
@@ -370,17 +331,11 @@ test("packaged sentence playback preserves exact constituent composition without
         const composition = inventory.compositions.find(
             (item) => item.entryId === sentence.entryId,
         );
-        assert.equal(
-            entries.get(sentence.entryId).fields.audio,
-            composition.path,
-        );
+        assert.equal(entries.get(sentence.entryId).fields.audio, sentence.path);
         assert.equal(sentence.voiceId, inventory.voiceId);
         assert.equal(sentence.request.text, sentence.inputs[0].label);
         const result = await provider.fetchAudio(composition.input);
-        assert.deepEqual(
-            Buffer.from(result.data),
-            assets.get(composition.path),
-        );
+        assert.deepEqual(Buffer.from(result.data), assets.get(sentence.path));
     }
 });
 

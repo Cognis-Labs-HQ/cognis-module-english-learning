@@ -56,7 +56,7 @@ Language selection opens Cognis-owned Explore pages even when content providers 
 
 ## Alphabet, grammar and noun-number families
 
-The alphabet separates letter names from optional `letter_sounds` IPA details and has no filler cells. Punctuation has its own sentence-composer carousel. Clause and discourse structures include localized meanings and speech pronunciations. Reviewed countable noun families opt into Cognis plural transformations with `optInTag: plural`, including spelling and pronunciation changes. Mass nouns remain outside those families; forms derive from base cards rather than duplicate records.
+The alphabet separates letter names from optional `letter_sounds` IPA details and has no filler cells. Punctuation has its own sentence-composer carousel. Clause and discourse structures include localized meanings and speech pronunciations. Reviewed countable noun families opt into Cognis plural transformations with `flag: "transform:plural"`, including spelling and pronunciation changes. Mass nouns remain outside those families; forms derive from base cards rather than duplicate records.
 
 ### Contributor layout and host ownership
 
@@ -103,3 +103,11 @@ Illustration filenames and IDs use their SHA-256 digest, and source-sheet identi
 ## Final Review and Disabled-Language Access
 
 Uninstall clears stored voice configuration independently of content retention. Disable removes module routes, static UI and provider registrations; configuration persists across disable/restart and is served only while enabled. Cognis gates retained schemas, cards and media by the live language provider, restoring access on re-enable. Reference results merge equivalent source identities while preserving source records, ordered readings and meanings. Packaged sentences use exact constituent-composed PCM before separately retained direct recordings. Speech requests validate normalized, bounded language text; KanjiVG cancels rejected response bodies and accepts prolonged sound marks.
+
+## Generated Transformations
+
+Each transformation set declares a required `flag`, such as `transform:verb` or `transform:plural`, alongside its grammatical `matchTags`. Only flagged base cards activate that family. Unknown or unproductive flags fail validation. Forms are read-only views identified by the canonical base UUID and `{setId, path}`; they cannot be authored, imported or shipped as independent cards. Genuine lexical homographs with a different grammatical class remain valid.
+
+Detail views, sentence validation and audio use the same resolver. Generated views preserve reference images but clear base audio and stroke fields. Audio lookup uses the generated spelling and primary pronunciation; refreshing it does not modify the base card. Drawing composes the generated spelling from writing-unit patterns, preserving stroke groups and ignoring spaces. Provider recording tests require every enabled rule to have a path-bound clip. No materialized-card representation or compatibility aliases are supported.
+
+The public provider contract declares `transformationModel: "generated"`; both language modules require it before registering providers. Every rule in an enabled family must resolve for that source. Rules may declare `resultClass` when a form changes grammatical class, such as an adjective becoming an adverb. Explicit invalid references fail rather than substituting the root.

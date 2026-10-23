@@ -24,9 +24,7 @@
                 "path": "audio/0ebcd39087d27f0b45b89441af4022006d250d853212f794e980da03a38d0dc0.wav",
                 "entryId": "en:word:outings-museum"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -107,9 +105,7 @@
                 "path": "audio/50fa14a757a67251164680ca05c0babf6c88f7fcdc09e8600d9d7de72b32c15a.wav",
                 "entryId": "en:word:outings-zoo"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -180,11 +176,16 @@
             },
             {
                 "path": "audio/257348d65fe58434649f51400f399a69db7bf52deb1a2986181b4dc8c1bb5fb9.wav",
-                "entryId": "en:word:form-outings-museums"
+                "entryId": "en:word:outings-museum",
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             {
                 "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
-                "entryId": "en:word:form-english-be-are"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["are"] }
             },
             {
                 "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
@@ -198,9 +199,7 @@
                 "path": "audio/7afbcc23f3580d170fac475af0801dd017ff2f78f81ec0db3e27dd85ea2927ab.wav",
                 "entryId": "en:word:city"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -212,15 +211,20 @@
             },
             {
                 "path": "audio/257348d65fe58434649f51400f399a69db7bf52deb1a2986181b4dc8c1bb5fb9.wav",
-                "entryId": "en:word:form-outings-museums",
+                "entryId": "en:word:outings-museum",
                 "startFrame": 12710,
-                "frameCount": 25480
+                "frameCount": 25480,
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             {
                 "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
-                "entryId": "en:word:form-english-be-are",
+                "entryId": "en:word:be",
                 "startFrame": 40350,
-                "frameCount": 5418
+                "frameCount": 5418,
+                "transformation": { "setId": "english-copula", "path": ["are"] }
             },
             {
                 "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
@@ -269,11 +273,13 @@
             },
             {
                 "path": "audio/0869eb904bad5abf448b765c7c3743f96cea4ac5848e4af43ca776223de66973.wav",
-                "entryId": "en:word:form-outings-zoos"
+                "entryId": "en:word:outings-zoo",
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -291,9 +297,13 @@
             },
             {
                 "path": "audio/0869eb904bad5abf448b765c7c3743f96cea4ac5848e4af43ca776223de66973.wav",
-                "entryId": "en:word:form-outings-zoos",
+                "entryId": "en:word:outings-zoo",
                 "startFrame": 27141,
-                "frameCount": 19907
+                "frameCount": 19907,
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             }
         ],
         "sha256": "f0e1f139e644bff9bc5a965e06d56780f02293764dc9173ff8d6d394e8773996",

@@ -18,9 +18,13 @@
                 "position": 1
             },
             {
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["is"]
+                }
             },
             {
                 "entryId": "en:word:small",
@@ -62,9 +66,13 @@
                 "position": 2
             },
             {
-                "entryId": "en:word:form-animals-horses",
+                "entryId": "en:word:animals-horse",
                 "relation": "words",
-                "position": 3
+                "position": 3,
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             {
                 "entryId": "en:particle:period",
@@ -96,9 +104,13 @@
                 "position": 1
             },
             {
-                "entryId": "en:word:form-english-drink-third-person",
+                "entryId": "en:word:drink",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "entryId": "en:word:water",
@@ -135,9 +147,13 @@
                 "position": 1
             },
             {
-                "entryId": "en:word:form-english-eat-third-person",
+                "entryId": "en:word:eat",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "entryId": "en:word:food",

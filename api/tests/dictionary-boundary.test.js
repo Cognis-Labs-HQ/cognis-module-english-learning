@@ -37,8 +37,8 @@ test("dictionary meanings and curated paradigms remain scoped to each part of sp
         ),
         [["A written volume."], ["To reserve."]],
     );
-    assert.equal(results[0].tags.includes("plural-book"), true);
-    assert.equal(results[1].tags.includes("plural-book"), false);
+    assert.equal(results[0].tags.includes("transform:plural"), true);
+    assert.equal(results[1].tags.includes("transform:plural"), false);
     assert.equal(new Set(results.map(({ provenance }) => provenance)).size, 2);
     assert.ok(
         results.every(({ references }) =>

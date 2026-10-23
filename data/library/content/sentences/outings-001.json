@@ -111,14 +111,22 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-outings-museums",
+                "entryId": "en:word:outings-museum",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             {
-                "entryId": "en:word:form-english-be-are",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["are"]
+                }
             },
             {
                 "entryId": "en:particle:in",
@@ -165,9 +173,13 @@
                 "position": 1
             },
             {
-                "entryId": "en:word:form-outings-zoos",
+                "entryId": "en:word:outings-zoo",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             {
                 "entryId": "en:particle:period",

@@ -47,9 +47,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-comprehension-understand-past",
+                "entryId": "en:word:comprehension-understand",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["past"]
+                }
             },
             {
                 "entryId": "en:word:the",

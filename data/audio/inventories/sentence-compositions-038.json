@@ -24,9 +24,7 @@
                 "path": "audio/fd26af19e1fa53447a4637871b6c4648536e8654f35a9c03931238566b7007ab.wav",
                 "entryId": "en:word:recreation-ball"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -85,11 +83,16 @@
             },
             {
                 "path": "audio/cd1547296fa0d9b2dfd50ecf4c9c2716ecfbfd886caf2cf15c65164c59b98613.wav",
-                "entryId": "en:word:form-recreation-rackets"
+                "entryId": "en:word:recreation-racket",
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             {
                 "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
-                "entryId": "en:word:form-english-be-are"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["are"] }
             },
             {
                 "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
@@ -103,9 +106,7 @@
                 "path": "audio/10703bad0a3eae4370c7e8255c0e077054f9470eff2d7a85ae2ee8935031865c.wav",
                 "entryId": "en:word:containers-box"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -117,15 +118,20 @@
             },
             {
                 "path": "audio/cd1547296fa0d9b2dfd50ecf4c9c2716ecfbfd886caf2cf15c65164c59b98613.wav",
-                "entryId": "en:word:form-recreation-rackets",
+                "entryId": "en:word:recreation-racket",
                 "startFrame": 12710,
-                "frameCount": 25480
+                "frameCount": 25480,
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             {
                 "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
-                "entryId": "en:word:form-english-be-are",
+                "entryId": "en:word:be",
                 "startFrame": 40350,
-                "frameCount": 5418
+                "frameCount": 5418,
+                "transformation": { "setId": "english-copula", "path": ["are"] }
             },
             {
                 "path": "audio/172975528d4b446500ddded6493cea46e476c9f47a06751cc3f4d900b90238f7.wav",
@@ -184,9 +190,7 @@
                 "path": "audio/9595df06dba751d55efa6478bb1eace7492ea13ac367402ee54f35b0c24d23c4.wav",
                 "entryId": "en:word:recreation-racket"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -245,19 +249,22 @@
             },
             {
                 "path": "audio/bd9b3db33e8c7ea7d8e89ab1114c379e39996612965d624602098fe929f44e00.wav",
-                "entryId": "en:word:form-recreation-balls"
+                "entryId": "en:word:recreation-ball",
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             {
                 "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
-                "entryId": "en:word:form-english-be-are"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["are"] }
             },
             {
                 "path": "audio/de7a4bdecea3025be9ba5d3c667402f47cc1b671aca28db38ab59239fb3d54ca.wav",
                 "entryId": "en:word:small"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -269,15 +276,20 @@
             },
             {
                 "path": "audio/bd9b3db33e8c7ea7d8e89ab1114c379e39996612965d624602098fe929f44e00.wav",
-                "entryId": "en:word:form-recreation-balls",
+                "entryId": "en:word:recreation-ball",
                 "startFrame": 12710,
-                "frameCount": 23251
+                "frameCount": 23251,
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             {
                 "path": "audio/4ca0e6e2b186d805a480c92321a3280fd2c69e858b10249f842ba145c9b17eda.wav",
-                "entryId": "en:word:form-english-be-are",
+                "entryId": "en:word:be",
                 "startFrame": 38121,
-                "frameCount": 5418
+                "frameCount": 5418,
+                "transformation": { "setId": "english-copula", "path": ["are"] }
             },
             {
                 "path": "audio/de7a4bdecea3025be9ba5d3c667402f47cc1b671aca28db38ab59239fb3d54ca.wav",

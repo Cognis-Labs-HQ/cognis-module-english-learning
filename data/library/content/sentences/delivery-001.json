@@ -52,14 +52,22 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-delivery-send-third-person",
+                "entryId": "en:word:delivery-send",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
-                "entryId": "en:word:form-correspondence-postcards",
+                "entryId": "en:word:correspondence-postcard",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             {
                 "entryId": "en:particle:period",
@@ -86,9 +94,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-delivery-carry-past",
+                "entryId": "en:word:delivery-carry",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["past"]
+                }
             },
             {
                 "entryId": "en:word:the",
@@ -125,14 +137,22 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:form-english-be-am",
+                "entryId": "en:word:be",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-copula",
+                    "path": ["am"]
+                }
             },
             {
-                "entryId": "en:word:form-delivery-carry-present-participle",
+                "entryId": "en:word:delivery-carry",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["present-participle"]
+                }
             },
             {
                 "entryId": "en:word:the",

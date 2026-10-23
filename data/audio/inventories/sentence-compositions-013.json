@@ -87,7 +87,8 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/b16819d83e2bb0a994694ccb6feeb9a4e38f2a5662dc139ecd88628a19d9dca4.wav",
@@ -119,9 +120,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 88276,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/b16819d83e2bb0a994694ccb6feeb9a4e38f2a5662dc139ecd88628a19d9dca4.wav",
@@ -267,7 +269,11 @@
             },
             {
                 "path": "audio/63acd0be8dc8ec02afb883af78fac27701db364028205a9e891bcd793b1b0cd7.wav",
-                "entryId": "en:word:form-furnishings-pillows"
+                "entryId": "en:word:furnishings-pillow",
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             { "pauseMs": 400 }
         ],
@@ -293,9 +299,13 @@
             },
             {
                 "path": "audio/63acd0be8dc8ec02afb883af78fac27701db364028205a9e891bcd793b1b0cd7.wav",
-                "entryId": "en:word:form-furnishings-pillows",
+                "entryId": "en:word:furnishings-pillow",
                 "startFrame": 45869,
-                "frameCount": 23251
+                "frameCount": 23251,
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             }
         ],
         "sha256": "1cfab0e21c412b9fe26fcd4317a5084e6d91403eccd04b85653fc653ee74bf3e",
@@ -393,7 +403,11 @@
             },
             {
                 "path": "audio/944156d896da93e5e83b504ac2584c47b02870ef252c1fe9470bc2253fd668a6.wav",
-                "entryId": "en:word:form-kitchen-knives"
+                "entryId": "en:word:kitchen-knife",
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             },
             { "pauseMs": 400 }
         ],
@@ -419,9 +433,13 @@
             },
             {
                 "path": "audio/944156d896da93e5e83b504ac2584c47b02870ef252c1fe9470bc2253fd668a6.wav",
-                "entryId": "en:word:form-kitchen-knives",
+                "entryId": "en:word:kitchen-knife",
                 "startFrame": 45869,
-                "frameCount": 24366
+                "frameCount": 24366,
+                "transformation": {
+                    "setId": "english-noun",
+                    "path": ["plural"]
+                }
             }
         ],
         "sha256": "ed4e44fb50e1a363a6e15f881f1c8a1a5c83b5c1ece05b5e1cf355b25818e8ee",
@@ -452,7 +470,8 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/437a80cf008c1a34ee57e35047f6f986a4bab34697e4305c73d1ee25c57aa34b.wav",
@@ -476,9 +495,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 34777,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/437a80cf008c1a34ee57e35047f6f986a4bab34697e4305c73d1ee25c57aa34b.wav",
@@ -511,7 +531,11 @@
             },
             {
                 "path": "audio/e8e8627c615b63bf37f084f4f312317128412a0a62763cb2d1b1c18060f3ce29.wav",
-                "entryId": "en:word:form-household-cook-third-person"
+                "entryId": "en:word:household-cook",
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/1360536e96014d08faa30ed773379bf44e61f13af3c5cee15923479849359a4f.wav",
@@ -541,9 +565,13 @@
             },
             {
                 "path": "audio/e8e8627c615b63bf37f084f4f312317128412a0a62763cb2d1b1c18060f3ce29.wav",
-                "entryId": "en:word:form-household-cook-third-person",
+                "entryId": "en:word:household-cook",
                 "startFrame": 14932,
-                "frameCount": 21022
+                "frameCount": 21022,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "path": "audio/1360536e96014d08faa30ed773379bf44e61f13af3c5cee15923479849359a4f.wav",
@@ -598,7 +626,8 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/2b24cc481581375416e015341c1c564cc12532b6bc70557143f32367c7d60efa.wav",
@@ -622,9 +651,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 34777,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/2b24cc481581375416e015341c1c564cc12532b6bc70557143f32367c7d60efa.wav",

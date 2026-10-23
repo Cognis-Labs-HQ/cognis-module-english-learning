@@ -5,7 +5,7 @@ import test from "node:test";
 
 const read = (path) => JSON.parse(readFileSync(path, "utf8"));
 const schema = read("data/library/schema.json");
-// Field contract from the pre-expansion schema, cf4b862a4b065eac9d60d98e911c2518723cf793.
+// Published card fields and their reviewed input and presentation settings.
 const fieldContract = {
     alphabet: {
         symbol: "string",
@@ -16,6 +16,7 @@ const fieldContract = {
         reference_images: "imageList",
     },
     composites: {
+        difficulty_level: "string",
         pronunciation: "stringList",
         audio: "audio",
         stroke_pattern: "strokePattern",
@@ -27,6 +28,7 @@ const fieldContract = {
         reference_images: "imageList",
     },
     words: {
+        difficulty_level: "string",
         part_of_speech: "string",
         pronunciation: "stringList",
         dictionary_data: "string",
@@ -34,27 +36,29 @@ const fieldContract = {
         reference_images: "imageList",
     },
     particles: {
+        difficulty_level: "string",
         function: "string",
         audio: "audio",
         reference_images: "imageList",
     },
     sentences: {
+        difficulty_level: "string",
         audio: "audio",
         reference_images: "imageList",
     },
 };
-const originalFieldDigests = {
+const fieldPresentationDigests = {
     alphabet:
         "0ad4a1f2f69eb225ef57231888fb9709a216ad8d85c93fe3418ea2b0704b9c9a",
     composites:
-        "4a24990b8c668dab43c7f800107ec6e8f7b6d72c0db485ff86322f0a5d29f05f",
+        "d15f7376b8790a798211e2558b0d5bbb5a8616b11231ad458a8b8d36fcfaf3b0",
     definitions:
         "0caee6b71afdd0870cd73d256482d6c402868185f633d037e06a0bd471ba4842",
-    words: "b79ffa04ee99dc94e2a38f729a7f3ca2210ebe2c7f812d5f42417958f0d3645a",
+    words: "acde628b0406958cd4ed057474d60040637de246a24a763fb88c87d5d26ae46f",
     particles:
-        "56be113b2035811c9e07dcd3a90946c1a343fd51e2d2e2631aa200d9b457d651",
+        "6aaee553dd08767dc8c5f1e2d6029cdb191e3a8006edae3f8b2ce74f9ceac6af",
     sentences:
-        "9d1786f3056a06c7cd72515df9fd5e8aab1be876ecb2f1681685712f5f56a7a7",
+        "ade67ea8bde684dee240dea365e27bf21386b16caec7daeea0e9afe4963e4322",
 };
 const originalWordShards = new Set([
     "beginner-001.json",
@@ -79,18 +83,6 @@ const originalWordShards = new Set([
     "household-1.json",
     "household-2.json",
     "household-3.json",
-    "inflected-001.json",
-    "inflected-002.json",
-    "inflected-003.json",
-    "inflected-004.json",
-    "inflected-005.json",
-    "inflected-006.json",
-    "inflected-007.json",
-    "inflected-008.json",
-    "inflected-009.json",
-    "inflected-010.json",
-    "inflected-011.json",
-    "inflected-012.json",
     "sentence-structures-001.json",
     "sentence-structures-002.json",
     "sentence-structures-003.json",
@@ -130,8 +122,8 @@ function validateFields(candidateSchema, candidates) {
             createHash("sha256")
                 .update(JSON.stringify(layer.fields))
                 .digest("hex"),
-            originalFieldDigests[layer.id],
-            `${layer.id}: original field presentation changed`,
+            fieldPresentationDigests[layer.id],
+            `${layer.id}: field presentation contract changed`,
         );
     }
     for (const record of candidates) {
@@ -155,35 +147,25 @@ function validateVocabulary(record, catalog = byId) {
         ),
         `${record.id}: missing definition`,
     );
-    if (record.id.includes(":form-") || record.tags?.includes("inflected")) {
-        assert.equal(
-            record.hidden,
-            true,
-            `${record.id}: form must remain hidden`,
-        );
+    assert.notEqual(
+        record.hidden,
+        true,
+        `${record.id}: lexical word must remain visible`,
+    );
+    for (const flag of record.tags.filter((tag) =>
+        tag.startsWith("transform:"),
+    ))
         assert.ok(
-            record.tags.includes("inflected"),
-            `${record.id}: missing inflected tag`,
+            schema.transformSets.some(
+                (set) =>
+                    set.flag === flag &&
+                    set.matchTags.every((tag) => record.tags.includes(tag)),
+            ),
+            `${record.id}: unresolved transform flag`,
         );
-        const parents = record.references.filter(
-            ({ relation }) => relation === "inflected-from",
-        );
-        assert.equal(parents.length, 1, `${record.id}: missing base form`);
-        const parent = catalog.get(parents[0].entryId);
-        assert.ok(
-            parent && !parent.hidden && parent.class === record.class,
-            `${record.id}: invalid base form`,
-        );
-    } else {
-        assert.notEqual(
-            record.hidden,
-            true,
-            `${record.id}: lexical word must remain visible`,
-        );
-    }
 }
 
-test("schema and card fields retain the pre-expansion contract", () => {
+test("schema and card fields follow the published contract", () => {
     validateFields(schema, records);
 });
 
@@ -204,7 +186,7 @@ test("schema contract rejects added usage fields even when declared", () => {
     );
 });
 
-test("expanded vocabulary preserves lexical roles, definitions and form parents", () => {
+test("expanded vocabulary preserves base lexical roles, definitions and grammatical families", () => {
     for (const word of vocabulary) validateVocabulary(word);
 });
 
@@ -225,7 +207,9 @@ test("every expanded visible word remains selectable in a starter deck", () => {
     for (const word of vocabulary.filter(({ hidden }) => !hidden)) {
         assert.ok(covered.has(word.id), `${word.id}: no starter deck`);
         const excludedTags = schema.layers.flatMap((layer) =>
-            (layer.cardConstructor?.tag_carousels ?? []).map(({ tag }) => tag),
+            (layer.cardConstructor?.tag_carousels ?? [])
+                .filter(({ excludeFromBrowse }) => excludeFromBrowse)
+                .map(({ tag }) => tag),
         );
         assert.ok(
             !word.tags.some((tag) => excludedTags.includes(tag)),
@@ -234,17 +218,21 @@ test("every expanded visible word remains selectable in a starter deck", () => {
     }
 });
 
-test("hidden inflections reject the original missing-parent and missing-tag defects", () => {
-    const form = structuredClone(
-        vocabulary.find(({ id }) => id === "en:word:form-animals-rabbits"),
+test("base lexical sources reject unsupported grammatical declarations", () => {
+    const source = structuredClone(
+        vocabulary.find(({ tags }) => tags.includes("verb")),
     );
-    form.references = form.references.filter(
-        ({ relation }) => relation !== "inflected-from",
+    source.tags.push("transform:unsupported");
+    assert.throws(
+        () => validateVocabulary(source),
+        /unresolved transform flag/,
     );
-    assert.throws(() => validateVocabulary(form), /missing base form/);
-    const untagged = structuredClone(
-        vocabulary.find(({ id }) => id === "en:word:form-animals-rabbits"),
-    );
-    untagged.tags = untagged.tags.filter((tag) => tag !== "inflected");
-    assert.throws(() => validateVocabulary(untagged), /missing inflected tag/);
+});
+
+test("Vocabulary classification can be cleared without weakening card input requirements", () => {
+    const words = schema.layers.find(({ id }) => id === "words");
+    const field = words.fields.find(({ id }) => id === "part_of_speech");
+    assert.equal(field.required, true);
+    assert.equal(field.detail.required, false);
+    assert.equal(field.detail.exclusive, true);
 });

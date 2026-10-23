@@ -14,15 +14,14 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/63db6fffe3e9516895b27b1f24795b100c4582f569c8be4c0de6190e53159f97.wav",
                 "entryId": "en:word:light-level-bright"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -40,9 +39,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 24060,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/63db6fffe3e9516895b27b1f24795b100c4582f569c8be4c0de6190e53159f97.wav",
@@ -83,15 +83,17 @@
             },
             {
                 "path": "audio/319c6433272a1d147af6efed9738203939bc313b403728ba1a33046c8718852a.wav",
-                "entryId": "en:word:form-light-level-bright-comparative"
+                "entryId": "en:word:light-level-bright",
+                "transformation": {
+                    "setId": "english-adjective",
+                    "path": ["comparative"]
+                }
             },
             {
                 "path": "audio/541169ca08dca8ccbf90c6ca1ed3f072188b4782590e89ccdc86c0eb2d02fd9b.wav",
                 "entryId": "en:word:furnishings-lamp"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -115,9 +117,13 @@
             },
             {
                 "path": "audio/319c6433272a1d147af6efed9738203939bc313b403728ba1a33046c8718852a.wav",
-                "entryId": "en:word:form-light-level-bright-comparative",
+                "entryId": "en:word:light-level-bright",
                 "startFrame": 37854,
-                "frameCount": 21022
+                "frameCount": 21022,
+                "transformation": {
+                    "setId": "english-adjective",
+                    "path": ["comparative"]
+                }
             },
             {
                 "path": "audio/541169ca08dca8ccbf90c6ca1ed3f072188b4782590e89ccdc86c0eb2d02fd9b.wav",
@@ -154,15 +160,14 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is"
+                "entryId": "en:word:be",
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/f0b687d6269bfd6c57f9f14750b235156345fec2c94f8bf9eab847f24a013a8e.wav",
                 "entryId": "en:word:light-level-dark"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -180,9 +185,10 @@
             },
             {
                 "path": "audio/31df25f3449d552b8505d19fac53a6d4f60a1773d7f690a5e754e609a32e2f72.wav",
-                "entryId": "en:word:form-english-be-is",
+                "entryId": "en:word:be",
                 "startFrame": 37007,
-                "frameCount": 10387
+                "frameCount": 10387,
+                "transformation": { "setId": "english-copula", "path": ["is"] }
             },
             {
                 "path": "audio/f0b687d6269bfd6c57f9f14750b235156345fec2c94f8bf9eab847f24a013a8e.wav",
@@ -227,15 +233,17 @@
             },
             {
                 "path": "audio/95d2b5c1df8b4568e2fb6fef905de578730eb91e39bddda4e8999472855fbc96.wav",
-                "entryId": "en:word:form-light-level-bright-superlative"
+                "entryId": "en:word:light-level-bright",
+                "transformation": {
+                    "setId": "english-adjective",
+                    "path": ["superlative"]
+                }
             },
             {
                 "path": "audio/99dfb2260e1504e5c3b5ac99b58686489b21c659aa542edb52fb67b86c0f534d.wav",
                 "entryId": "en:word:room"
             },
-            {
-                "pauseMs": 400
-            }
+            { "pauseMs": 400 }
         ],
         "gapMs": 90,
         "segments": [
@@ -265,9 +273,13 @@
             },
             {
                 "path": "audio/95d2b5c1df8b4568e2fb6fef905de578730eb91e39bddda4e8999472855fbc96.wav",
-                "entryId": "en:word:form-light-level-bright-superlative",
+                "entryId": "en:word:light-level-bright",
                 "startFrame": 44145,
-                "frameCount": 28824
+                "frameCount": 28824,
+                "transformation": {
+                    "setId": "english-adjective",
+                    "path": ["superlative"]
+                }
             },
             {
                 "path": "audio/99dfb2260e1504e5c3b5ac99b58686489b21c659aa542edb52fb67b86c0f534d.wav",

@@ -13,9 +13,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:travel-buy-past",
+                "entryId": "en:word:travel-buy",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["past"]
+                }
             },
             {
                 "entryId": "en:word:a",
@@ -52,9 +56,13 @@
                 "position": 0
             },
             {
-                "entryId": "en:word:travel-arrive-past",
+                "entryId": "en:word:travel-arrive",
                 "relation": "words",
-                "position": 1
+                "position": 1,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["past"]
+                }
             },
             {
                 "entryId": "en:particle:at",

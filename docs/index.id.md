@@ -56,7 +56,7 @@ Pilihan bahasa membuka halaman Jelajahi milik Cognis meskipun penyedia konten ti
 
 ## Alfabet, tata bahasa, dan jumlah nomina
 
-Alfabet memisahkan nama huruf dari detail IPA opsional `letter_sounds` tanpa sel pengisi. Tanda baca memiliki carousel penyusunan kalimat sendiri. Struktur klausa dan wacana menyertakan makna serta pelafalan terlokalisasi. Keluarga nomina terhitung yang ditinjau memilih transformasi jamak Cognis melalui `optInTag: plural`, termasuk perubahan ejaan dan pelafalan. Nomina massa tidak termasuk; bentuk diturunkan dari kartu dasar, bukan entri duplikat.
+Alfabet memisahkan nama huruf dari detail IPA opsional `letter_sounds` tanpa sel pengisi. Tanda baca memiliki carousel penyusunan kalimat sendiri. Struktur klausa dan wacana menyertakan makna serta pelafalan terlokalisasi. Keluarga nomina terhitung yang ditinjau memilih transformasi jamak Cognis melalui `flag: "transform:plural"`, termasuk perubahan ejaan dan pelafalan. Nomina massa tidak termasuk; bentuk diturunkan dari kartu dasar, bukan entri duplikat.
 
 ### Struktur kontributor dan kepemilikan host
 
@@ -105,3 +105,11 @@ Nama berkas dan ID ilustrasi memakai digest SHA-256, sedangkan pengenal lembar s
 ## Tinjauan Akhir dan Akses Bahasa Nonaktif
 
 Pencopotan menghapus konfigurasi suara tanpa bergantung pada retensi konten. Penonaktifan menghapus rute modul, UI statis, dan registrasi penyedia; konfigurasi bertahan saat dinonaktifkan atau dimulai ulang dan hanya dilayani ketika aktif. Cognis membatasi skema, kartu, dan media tersimpan menurut penyedia bahasa aktif serta memulihkan akses saat diaktifkan kembali. Hasil referensi menggabungkan identitas sumber setara sambil mempertahankan rekaman sumber, urutan bacaan, dan makna. Kalimat paket mengutamakan PCM komposisi persis dari klip penyusun, sebelum rekaman langsung yang disimpan terpisah. Permintaan suara memvalidasi teks bahasa ternormalisasi dengan batas panjang; KanjiVG membatalkan isi respons gagal dan menerima tanda vokal panjang.
+
+## Transformasi yang Dihasilkan
+
+Setiap keluarga transformasi mendeklarasikan `flag` wajib, seperti `transform:verb` atau `transform:plural`, beserta `matchTags` gramatikalnya. Hanya kartu dasar dengan flag tersebut yang mengaktifkan keluarga. Flag yang tidak dikenal atau tidak produktif gagal divalidasi. Bentuk merupakan tampilan hanya-baca dengan UUID dasar kanonis dan `{setId, path}`; bentuk tidak boleh dibuat, diimpor, atau disertakan sebagai kartu mandiri. Homograf leksikal dengan kelas gramatikal berbeda tetap sah.
+
+Detail, validasi kalimat, dan audio menggunakan resolver yang sama. Tampilan turunan mempertahankan gambar referensi tetapi menghapus bidang audio dan goresan dasar. Pencarian audio menggunakan ejaan turunan dan pelafalan utama; regenerasinya tidak mengubah kartu dasar. Latihan menulis menyusun pola karakter menurut ejaan turunan, mempertahankan kelompok goresan, dan mengabaikan spasi. Pengujian rekaman mewajibkan klip berjalur untuk setiap aturan aktif. Representasi kartu bentuk tersimpan dan alias kompatibilitas tidak didukung.
+
+Kontrak penyedia publik mendeklarasikan `transformationModel: "generated"`; kedua modul bahasa mewajibkannya sebelum mendaftarkan penyedia. Setiap aturan keluarga aktif harus dapat diturunkan untuk sumber tersebut. Aturan dapat mendeklarasikan `resultClass` saat bentuk mengubah kelas gramatikal, misalnya adjektiva menjadi adverbia. Referensi eksplisit yang tidak valid ditolak alih-alih diganti bentuk dasar.

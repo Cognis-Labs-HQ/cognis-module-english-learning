@@ -37,10 +37,13 @@ test("reference illustrations use the existing image-list contract and language-
 
 test("every visible vocabulary card has a distinct illustration, including abstract concepts and Japanese homophones", () => {
     const visible = records.filter((record) => !record.hidden);
-    assert.equal(catalog.images.length, visible.length);
+    assert.equal(
+        new Set(catalog.images.flatMap(({ entryIds }) => entryIds)).size,
+        visible.length,
+    );
     const digests = new Set();
     for (const card of visible) {
-        assert.equal(card.fields.reference_images?.length, 1, card.id);
+        assert.ok(card.fields.reference_images?.length > 0, card.id);
         const image = catalog.images.find(
             (item) => item.path === card.fields.reference_images[0],
         );

@@ -23,12 +23,15 @@
                 "readings": ["/sendz/"]
             }
         ],
-        "entries": ["en:word:form-delivery-send-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:delivery-send",
-                "setId": "delivery-send-forms",
-                "path": ["third-person"]
+                "setId": "english-verb",
+                "path": ["third-person"],
+                "label": "sends",
+                "reading": "/sendz/",
+                "state": "third-person"
             }
         ],
         "sha256": "3e0b78f819ac77f550b5596926fe7419f932522336dc9bca846774d764dd1d17",
@@ -62,17 +65,23 @@
                 "readings": ["/sent/"]
             }
         ],
-        "entries": ["en:word:form-delivery-send-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:delivery-send",
-                "setId": "delivery-send-forms",
-                "path": ["past"]
+                "setId": "english-verb",
+                "path": ["past"],
+                "label": "sent",
+                "reading": "/sent/",
+                "state": "past"
             },
             {
                 "entryId": "en:word:delivery-send",
-                "setId": "delivery-send-forms",
-                "path": ["past-participle"]
+                "setId": "english-verb",
+                "path": ["past-participle"],
+                "label": "sent",
+                "reading": "/sent/",
+                "state": "past-participle"
             }
         ],
         "sha256": "81fcb156612068074c8fb934d14d8a91579dbe4c568d081fd3150aeece449e94",
@@ -106,12 +115,15 @@
                 "readings": ["/ˈsendɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-delivery-send-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:delivery-send",
-                "setId": "delivery-send-forms",
-                "path": ["present-participle"]
+                "setId": "english-verb",
+                "path": ["present-participle"],
+                "label": "sending",
+                "reading": "/ˈsendɪŋ/",
+                "state": "present-participle"
             }
         ],
         "sha256": "2aa6ede134c4c2cee771d5b0ef34740781e250b5b01c0d1485a80517604c3877",
@@ -145,12 +157,15 @@
                 "readings": ["/ˈkæriz/"]
             }
         ],
-        "entries": ["en:word:form-delivery-carry-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:delivery-carry",
-                "setId": "delivery-carry-forms",
-                "path": ["third-person"]
+                "setId": "english-verb",
+                "path": ["third-person"],
+                "label": "carries",
+                "reading": "/ˈkæriz/",
+                "state": "third-person"
             }
         ],
         "sha256": "84a273b9d221472d6ff39963ed25ccb6d9fdbb8a829117cf6a95ce85625b5c1e",
@@ -184,17 +199,23 @@
                 "readings": ["/ˈkærid/"]
             }
         ],
-        "entries": ["en:word:form-delivery-carry-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:delivery-carry",
-                "setId": "delivery-carry-forms",
-                "path": ["past"]
+                "setId": "english-verb",
+                "path": ["past"],
+                "label": "carried",
+                "reading": "/ˈkærid/",
+                "state": "past"
             },
             {
                 "entryId": "en:word:delivery-carry",
-                "setId": "delivery-carry-forms",
-                "path": ["past-participle"]
+                "setId": "english-verb",
+                "path": ["past-participle"],
+                "label": "carried",
+                "reading": "/ˈkærid/",
+                "state": "past-participle"
             }
         ],
         "sha256": "e04d6f706b4ab2346c5221173858ed4a46b02ccc8c456e3c736c6773026914e4",
@@ -228,12 +249,15 @@
                 "readings": ["/ˈkæriɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-delivery-carry-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:delivery-carry",
-                "setId": "delivery-carry-forms",
-                "path": ["present-participle"]
+                "setId": "english-verb",
+                "path": ["present-participle"],
+                "label": "carrying",
+                "reading": "/ˈkæriɪŋ/",
+                "state": "present-participle"
             }
         ],
         "sha256": "d89adcba2abd712672a23b1b19024ccd9fdd7aaac0a2e058b24d9144d3001aa8",

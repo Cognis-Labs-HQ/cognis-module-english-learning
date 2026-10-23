@@ -101,9 +101,13 @@
                 "position": 1
             },
             {
-                "entryId": "en:word:form-english-have-third-person",
+                "entryId": "en:word:have",
                 "relation": "words",
-                "position": 2
+                "position": 2,
+                "transformation": {
+                    "setId": "english-verb",
+                    "path": ["third-person"]
+                }
             },
             {
                 "entryId": "en:word:a",

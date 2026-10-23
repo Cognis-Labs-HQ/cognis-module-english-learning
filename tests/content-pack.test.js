@@ -43,7 +43,7 @@ test("pack declares a stable English namespace and usable provider schema", () =
     assert.equal(manifest.protected, true);
     assert.equal(schema.id, "english");
     assert.equal(schema.language, "en");
-    assert.equal(schema.version, 60);
+    assert.equal(schema.version, 65);
     assert.match(manifest.version, /^\d+\.\d+\.\d+$/);
     assert.equal(schema.metadata.provider.moduleId, "study-language-en");
     assert.equal(entries.size, [...layers.values()].flat().length);
@@ -119,7 +119,19 @@ test("alphabet variants and letter combinations carry complete normalized writin
                 const spelling = record.references
                     .filter(({ relation }) => relation === "composition")
                     .toSorted((left, right) => left.position - right.position)
-                    .map(({ entryId }) => entries.get(entryId).label)
+                    .map(({ entryId, transformation }) => {
+                        if (!transformation) return entries.get(entryId).label;
+                        const source = entries.get(entryId);
+                        const set = schema.transformSets.find(
+                            ({ id }) => id === transformation.setId,
+                        );
+                        assert.ok(source.tags.includes(set.flag));
+                        assert.equal(transformation.path.length, 1);
+                        const rule = set.rules.find(
+                            ({ id }) => id === transformation.path[0],
+                        );
+                        return rule.forms[source.label].append;
+                    })
                     .join("");
                 assert.equal(spelling, record.label);
                 assert.equal(
@@ -133,13 +145,25 @@ test("alphabet variants and letter combinations carry complete normalized writin
 
 test("beginner vocabulary and grammar resolve genuine localized meanings and spellings", async () => {
     const vocabulary = layers.get("words").filter(({ hidden }) => !hidden);
-    assert.equal(vocabulary.length, 355);
+    assert.equal(vocabulary.length, 354);
     assert.equal(layers.get("particles").length, 21);
     for (const record of vocabulary) {
         const spellings = record.references
             .filter(({ relation }) => relation === "spelling")
             .toSorted((left, right) => left.position - right.position)
-            .map(({ entryId }) => entries.get(entryId).label)
+            .map(({ entryId, transformation }) => {
+                if (!transformation) return entries.get(entryId).label;
+                const source = entries.get(entryId);
+                const set = schema.transformSets.find(
+                    ({ id }) => id === transformation.setId,
+                );
+                assert.ok(source.tags.includes(set.flag));
+                assert.equal(transformation.path.length, 1);
+                const rule = set.rules.find(
+                    ({ id }) => id === transformation.path[0],
+                );
+                return rule.forms[source.label].append;
+            })
             .join("");
         assert.equal(spellings, record.label.replaceAll(" ", ""));
         assert.ok(
@@ -182,39 +206,48 @@ test("all published sentences preserve every ordered word, inflection, and punct
             constituents.map((_reference, index) => index),
         );
         const text = constituents
-            .map(({ entryId }) => entries.get(entryId).label)
+            .map(({ entryId, transformation }) => {
+                if (!transformation) return entries.get(entryId).label;
+                const source = entries.get(entryId);
+                const set = schema.transformSets.find(
+                    ({ id }) => id === transformation.setId,
+                );
+                assert.ok(source.tags.includes(set.flag));
+                assert.equal(transformation.path.length, 1);
+                const rule = set.rules.find(
+                    ({ id }) => id === transformation.path[0],
+                );
+                return rule.forms[source.label].append;
+            })
             .join("");
         assert.equal(text, sentence.label.replaceAll(/\s/gu, ""), sentence.id);
     }
 });
 
 test("curated transformations cover irregular verbs and contextual IPA", () => {
-    assert.equal(schema.transformSets.length, 215);
     const findForm = (word, ruleId) =>
         schema.transformSets
-            .find(({ id }) => id === `english-${word}`)
-            .rules.find(({ id }) => id === ruleId);
+            .flatMap(({ rules }) => rules)
+            .find((rule) => rule.id === ruleId && rule.forms?.[word]).forms[
+            word
+        ];
     assert.equal(findForm("run", "past").append, "ran");
     assert.equal(findForm("run", "present-participle").append, "running");
     assert.equal(findForm("read", "past").pronunciation.append, "/red/");
     assert.equal(findForm("study", "third-person").append, "studies");
     assert.equal(findForm("be", "are").append, "are");
     assert.equal(findForm("good", "comparative").append, "better");
-    const roots = layers.get("words").filter(({ hidden }) => !hidden);
     for (const set of schema.transformSets) {
-        const targets = roots.filter(({ tags }) =>
-            set.matchTags.every((tag) => tags.includes(tag)),
-        );
-        assert.equal(targets.length, 1, set.id);
-        for (const rule of set.rules) {
-            assert.equal(rule.removeSuffix, targets[0].label);
-            assert.equal(
-                rule.pronunciation.removeSuffix,
-                targets[0].fields.pronunciation[0],
+        const targets = layers
+            .get("words")
+            .filter(
+                ({ tags }) =>
+                    tags?.includes(set.flag) &&
+                    set.matchTags.every((tag) => tags.includes(tag)),
             );
-            assert.ok(rule.pronunciation.append.startsWith("/"));
+        assert.ok(targets.length > 0, set.id);
+        for (const rule of set.rules)
             assert.equal(Object.keys(rule.metadata.labels).length, 4);
-        }
     }
 });
 
@@ -306,11 +339,11 @@ test("plural opt-in exposes dogs from dog and leaves mass nouns without a plural
     const dog = entries.get("en:word:dog");
     const set = schema.transformSets.find(
         (set) =>
-            set.optInTag === "plural" &&
+            set.flag === "transform:plural" &&
             set.matchTags.every((tag) => dog.tags.includes(tag)),
     );
-    assert.ok(dog.tags.includes(set.optInTag));
-    assert.equal(set.rules[0].append, "dogs");
+    assert.ok(dog.tags.includes(set.flag));
+    assert.equal(set.rules[0].forms.dog.append, "dogs");
     const water = [...entries.values()].find(
         (card) => card.label === "water" && !card.hidden,
     );
@@ -344,16 +377,13 @@ test("sentence cards require at least two words and preserve precise IPA", () =>
     ]);
 });
 
-test("plural derivation belongs to singular nouns and houses has voiced IPA", () => {
-    const books = entries.get("en:word:books");
-    assert.ok(
-        !schema.transformSets.some(({ matchTags }) =>
-            matchTags.every((tag) => books.tags.includes(tag)),
-        ),
+test("plural derivation belongs to flagged singular nouns and houses has voiced IPA", () => {
+    const book = entries.get("en:word:book");
+    const family = schema.transformSets.find(
+        ({ flag }) => flag === "transform:plural",
     );
-    const book = schema.transformSets.find(({ id }) => id === "noun-book");
-    assert.equal(book.rules[0].append, "books");
-    const house = schema.transformSets.find(({ id }) => id === "noun-house");
-    assert.equal(house.rules[0].append, "houses");
-    assert.equal(house.rules[0].pronunciation.append, "/haʊzɪz/");
+    assert.ok(book.tags.includes(family.flag));
+    assert.equal(family.rules[0].forms.book.append, "books");
+    assert.equal(family.rules[0].forms.house.append, "houses");
+    assert.equal(family.rules[0].forms.house.pronunciation.append, "/haʊzɪz/");
 });

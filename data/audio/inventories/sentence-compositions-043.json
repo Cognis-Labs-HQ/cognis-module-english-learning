@@ -1,0 +1,61 @@
+[
+    {
+        "path": "audio/aca14c0dca8591dda3f226254908e78cc206e3929031feae5e9cb07801869ccf.wav",
+        "entryId": "en:sentence:i-read-and-write",
+        "label": "I read and write.",
+        "parts": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i"
+            },
+            {
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "entryId": "en:word:read"
+            },
+            {
+                "path": "audio/c17bea5cede4ef7cefc56eda7f4c62d72e4eb6756b6cf1f5dc17cfb9f91f338a.wav",
+                "entryId": "en:particle:and"
+            },
+            {
+                "path": "audio/16a2d1eaaa889296b2f83e59f3b322f25fe44467632933ef9771f2c00ea68bbb.wav",
+                "entryId": "en:word:write"
+            },
+            { "pauseMs": 400 }
+        ],
+        "gapMs": 90,
+        "segments": [
+            {
+                "path": "audio/a47783c1d424bee104a5e1641271b564b16ff547fa9ee20be2af7e878a7571cc.wav",
+                "entryId": "en:word:i",
+                "startFrame": 2400,
+                "frameCount": 6507
+            },
+            {
+                "path": "audio/b5cbe79c65aa2681e2e2036e2eb9c00679e6d5d25a8e90433bada50d6ded491b.wav",
+                "entryId": "en:word:read",
+                "startFrame": 11067,
+                "frameCount": 11133
+            },
+            {
+                "path": "audio/c17bea5cede4ef7cefc56eda7f4c62d72e4eb6756b6cf1f5dc17cfb9f91f338a.wav",
+                "entryId": "en:particle:and",
+                "startFrame": 24360,
+                "frameCount": 11433
+            },
+            {
+                "path": "audio/16a2d1eaaa889296b2f83e59f3b322f25fe44467632933ef9771f2c00ea68bbb.wav",
+                "entryId": "en:word:write",
+                "startFrame": 37953,
+                "frameCount": 13293
+            }
+        ],
+        "sha256": "4b3558240f4b98a323e22476fb1a287023325a821e9024b1c45ac538b31669fd",
+        "frames": 63246,
+        "input": {
+            "language": "en",
+            "label": "I read and write.",
+            "semanticRole": "orderedLexicalSequence",
+            "readings": []
+        }
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "path": "audio/778d83817c598f259240a6ec453b7729571e9fb4849668c7bcfb0f2b42aa2442.wav",
+        "text": "receiving",
+        "voiceId": "gJx1vCzNCD1EQHT212Ls",
+        "request": {
+            "text": "<phoneme alphabet=\"ipa\" ph=\"rɪˈsiːvɪŋ\">receiving</phoneme>.",
+            "model_id": "eleven_turbo_v2",
+            "seed": 42,
+            "voice_settings": {
+                "stability": 0.75,
+                "similarity_boost": 0.85,
+                "style": 0,
+                "use_speaker_boost": true,
+                "speed": 0.9
+            }
+        },
+        "inputs": [
+            {
+                "language": "en",
+                "label": "receiving",
+                "semanticRole": "lexicalUnit",
+                "readings": ["/rɪˈsiːvɪŋ/"]
+            }
+        ],
+        "entries": [],
+        "variants": [
+            {
+                "entryId": "en:word:exchange-receive",
+                "setId": "english-verb",
+                "path": ["present-participle"],
+                "label": "receiving",
+                "reading": "/rɪˈsiːvɪŋ/",
+                "state": "present-participle"
+            }
+        ],
+        "sha256": "778d83817c598f259240a6ec453b7729571e9fb4849668c7bcfb0f2b42aa2442",
+        "frames": 25480,
+        "metadata": {
+            "listening": "unverified-not-performed",
+            "sourcePcmSha256": "1d273ebb09eb9202b5c4cccf91a2fe2c6b6189a3cfacb4f794986817e1d187e2"
+        }
+    }
+]

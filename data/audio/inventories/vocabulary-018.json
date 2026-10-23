@@ -155,12 +155,15 @@
                 "readings": ["/frɪdʒɪz/"]
             }
         ],
-        "entries": ["en:word:form-fixtures-fridges"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:fixtures-fridge",
-                "setId": "noun-fridge",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "fridges",
+                "reading": "/frɪdʒɪz/",
+                "state": "plural"
             }
         ],
         "sha256": "0b53978a0037c16b8efb3f8e6ed003e9cb71b7657fbe6e462c095d1877f7e67d",
@@ -194,12 +197,15 @@
                 "readings": ["/ˈʌvnz/"]
             }
         ],
-        "entries": ["en:word:form-fixtures-ovens"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:fixtures-oven",
-                "setId": "noun-oven",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "ovens",
+                "reading": "/ˈʌvnz/",
+                "state": "plural"
             }
         ],
         "sha256": "b22d3f3f93362b8fffced77effb30787d4aac08d27a0e0e24de32033721703d9",
@@ -233,12 +239,15 @@
                 "readings": ["/sɪŋks/"]
             }
         ],
-        "entries": ["en:word:form-fixtures-sinks"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:fixtures-sink",
-                "setId": "noun-sink",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "sinks",
+                "reading": "/sɪŋks/",
+                "state": "plural"
             }
         ],
         "sha256": "83079fa1674fd7c11e17e44fe39c3ce4c71c0bb23358475e2e56b3680af41c0f",
@@ -272,12 +281,15 @@
                 "readings": ["/ˈʃaʊəz/"]
             }
         ],
-        "entries": ["en:word:form-fixtures-showers"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:fixtures-shower",
-                "setId": "noun-shower",
-                "path": ["plural"]
+                "setId": "english-noun",
+                "path": ["plural"],
+                "label": "showers",
+                "reading": "/ˈʃaʊəz/",
+                "state": "plural"
             }
         ],
         "sha256": "96afadba2562ecd3d7b4b2030c3a1ad062760436b4703a34cc438d5ca94e412f",
@@ -311,12 +323,15 @@
                 "readings": ["/dʒʌmps/"]
             }
         ],
-        "entries": ["en:word:form-actions-jump-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:actions-jump",
-                "setId": "actions-jump-forms",
-                "path": ["third-person"]
+                "setId": "english-verb",
+                "path": ["third-person"],
+                "label": "jumps",
+                "reading": "/dʒʌmps/",
+                "state": "third-person"
             }
         ],
         "sha256": "ad8bfb1f3b67a85cc45bb87b4ab12af0b2edf642e974e2cc25bdfba2cc8b48cd",
@@ -350,17 +365,23 @@
                 "readings": ["/dʒʌmpt/"]
             }
         ],
-        "entries": ["en:word:form-actions-jump-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:actions-jump",
-                "setId": "actions-jump-forms",
-                "path": ["past"]
+                "setId": "english-verb",
+                "path": ["past"],
+                "label": "jumped",
+                "reading": "/dʒʌmpt/",
+                "state": "past"
             },
             {
                 "entryId": "en:word:actions-jump",
-                "setId": "actions-jump-forms",
-                "path": ["past-participle"]
+                "setId": "english-verb",
+                "path": ["past-participle"],
+                "label": "jumped",
+                "reading": "/dʒʌmpt/",
+                "state": "past-participle"
             }
         ],
         "sha256": "1c8ef88eaa66ab38c9542d84334e918565ded96bbb3e2540a7dd82c240ff4c04",
@@ -394,12 +415,15 @@
                 "readings": ["/ˈdʒʌmpɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-actions-jump-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:actions-jump",
-                "setId": "actions-jump-forms",
-                "path": ["present-participle"]
+                "setId": "english-verb",
+                "path": ["present-participle"],
+                "label": "jumping",
+                "reading": "/ˈdʒʌmpɪŋ/",
+                "state": "present-participle"
             }
         ],
         "sha256": "397829c4e7f3caeda23d5399fd7b0c0c65f20404595c534735e19d8f97f19a39",
@@ -433,12 +457,15 @@
                 "readings": ["/swɪmz/"]
             }
         ],
-        "entries": ["en:word:form-actions-swim-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:actions-swim",
-                "setId": "actions-swim-forms",
-                "path": ["third-person"]
+                "setId": "english-verb",
+                "path": ["third-person"],
+                "label": "swims",
+                "reading": "/swɪmz/",
+                "state": "third-person"
             }
         ],
         "sha256": "3045156a1902a62b31d8a9fa9b1b48953d036d3c4902d1d8b0937eb6bf9a3121",
@@ -472,12 +499,15 @@
                 "readings": ["/swæm/"]
             }
         ],
-        "entries": ["en:word:form-actions-swim-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:actions-swim",
-                "setId": "actions-swim-forms",
-                "path": ["past"]
+                "setId": "english-verb",
+                "path": ["past"],
+                "label": "swam",
+                "reading": "/swæm/",
+                "state": "past"
             }
         ],
         "sha256": "feec5d6a31e58b037e5a8d032faff5ecae443a12300dd32f6d91c003b15d7db7",
@@ -511,12 +541,15 @@
                 "readings": ["/ˈswɪmɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-actions-swim-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:actions-swim",
-                "setId": "actions-swim-forms",
-                "path": ["present-participle"]
+                "setId": "english-verb",
+                "path": ["present-participle"],
+                "label": "swimming",
+                "reading": "/ˈswɪmɪŋ/",
+                "state": "present-participle"
             }
         ],
         "sha256": "3af6d60a6cb9f5e600958e0652fca56326f5867a06fb57528a7cae803733c288",
@@ -550,12 +583,15 @@
                 "readings": ["/swʌm/"]
             }
         ],
-        "entries": ["en:word:form-actions-swim-past-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:actions-swim",
-                "setId": "actions-swim-forms",
-                "path": ["past-participle"]
+                "setId": "english-verb",
+                "path": ["past-participle"],
+                "label": "swum",
+                "reading": "/swʌm/",
+                "state": "past-participle"
             }
         ],
         "sha256": "9529cb8915107d1bd2ab4bb1248b29518093e2ef3e54aa6be5fb1deab3b2a6b8",
@@ -589,12 +625,15 @@
                 "readings": ["/lɑːfs/"]
             }
         ],
-        "entries": ["en:word:form-actions-laugh-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:actions-laugh",
-                "setId": "actions-laugh-forms",
-                "path": ["third-person"]
+                "setId": "english-verb",
+                "path": ["third-person"],
+                "label": "laughs",
+                "reading": "/lɑːfs/",
+                "state": "third-person"
             }
         ],
         "sha256": "9a3e814297f3fae6ecddc3be228a3427fa2a4975fc77a1c0d5b1203d556ccc9c",
@@ -628,17 +667,23 @@
                 "readings": ["/lɑːft/"]
             }
         ],
-        "entries": ["en:word:form-actions-laugh-past"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:actions-laugh",
-                "setId": "actions-laugh-forms",
-                "path": ["past"]
+                "setId": "english-verb",
+                "path": ["past"],
+                "label": "laughed",
+                "reading": "/lɑːft/",
+                "state": "past"
             },
             {
                 "entryId": "en:word:actions-laugh",
-                "setId": "actions-laugh-forms",
-                "path": ["past-participle"]
+                "setId": "english-verb",
+                "path": ["past-participle"],
+                "label": "laughed",
+                "reading": "/lɑːft/",
+                "state": "past-participle"
             }
         ],
         "sha256": "87815ffbbf190b449480e65f1e06b1c8385fb9c888f9088fd66aef2460634e18",
@@ -672,12 +717,15 @@
                 "readings": ["/ˈlɑːfɪŋ/"]
             }
         ],
-        "entries": ["en:word:form-actions-laugh-present-participle"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:actions-laugh",
-                "setId": "actions-laugh-forms",
-                "path": ["present-participle"]
+                "setId": "english-verb",
+                "path": ["present-participle"],
+                "label": "laughing",
+                "reading": "/ˈlɑːfɪŋ/",
+                "state": "present-participle"
             }
         ],
         "sha256": "4be99430a862bba35870ac8c1b458ba1a8a827dd2fc313decfe6b0567411ddc5",
@@ -711,12 +759,15 @@
                 "readings": ["/kraɪz/"]
             }
         ],
-        "entries": ["en:word:form-actions-cry-third-person"],
+        "entries": [],
         "variants": [
             {
                 "entryId": "en:word:actions-cry",
-                "setId": "actions-cry-forms",
-                "path": ["third-person"]
+                "setId": "english-verb",
+                "path": ["third-person"],
+                "label": "cries",
+                "reading": "/kraɪz/",
+                "state": "third-person"
             }
         ],
         "sha256": "11a51838e3552eef5739af43e422ab0bec1b74ed28dcdf393535ab7c85f15633",
@@ -724,50 +775,6 @@
         "metadata": {
             "listening": "unverified-not-performed",
             "sourcePcmSha256": "3396749370c59224ab0aa24e99c2a9d0c16dee2e378bc501cfd9008081f030bf"
-        }
-    },
-    {
-        "path": "audio/0d98c79d330c542bc8aa01138a04582ff86b65d091b8a8327f2cdd5bc491e4b7.wav",
-        "text": "cried",
-        "voiceId": "gJx1vCzNCD1EQHT212Ls",
-        "request": {
-            "text": "<phoneme alphabet=\"ipa\" ph=\"kraɪd\">cried</phoneme>.",
-            "model_id": "eleven_turbo_v2",
-            "seed": 42,
-            "voice_settings": {
-                "stability": 0.75,
-                "similarity_boost": 0.85,
-                "style": 0,
-                "use_speaker_boost": true,
-                "speed": 0.9
-            }
-        },
-        "inputs": [
-            {
-                "language": "en",
-                "label": "cried",
-                "semanticRole": "lexicalUnit",
-                "readings": ["/kraɪd/"]
-            }
-        ],
-        "entries": ["en:word:form-actions-cry-past"],
-        "variants": [
-            {
-                "entryId": "en:word:actions-cry",
-                "setId": "actions-cry-forms",
-                "path": ["past"]
-            },
-            {
-                "entryId": "en:word:actions-cry",
-                "setId": "actions-cry-forms",
-                "path": ["past-participle"]
-            }
-        ],
-        "sha256": "0d98c79d330c542bc8aa01138a04582ff86b65d091b8a8327f2cdd5bc491e4b7",
-        "frames": 19907,
-        "metadata": {
-            "listening": "unverified-not-performed",
-            "sourcePcmSha256": "b119343a31e1ca899d136d90ec26a5a250a025260cb7c8f7e36223da1cd5304c"
         }
     }
 ]
