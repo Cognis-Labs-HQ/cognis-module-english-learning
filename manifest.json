@@ -2,7 +2,7 @@
     "id": "study-language-en",
     "uuid": "b1adc29f-9d54-5785-9bea-2ce76f1981e4",
     "name": "module.study.language.en.name",
-    "version": "3.0.1",
+    "version": "3.0.2",
     "class": "extension",
     "privileged": true,
     "coreApiVersion": "v1",
@@ -8386,11 +8386,11 @@
         },
         {
             "path": "data/library/manifest.json",
-            "sha256": "b70bf5c5b7546820b3bc1468859b30957c672ddcfd745bd4b95d16bf84e38d99"
+            "sha256": "1df3d39a20bf8142f9521a098391dab77cd551935472ef3d7144f4c4a54620a5"
         },
         {
             "path": "data/library/schema.json",
-            "sha256": "89202270c4dc33faa99c416ec35a3465317dc9bd35513a3d58b98a7ce853e1ae"
+            "sha256": "4c61b7d3890abc34dc01fd505e490dbca15e4cfd7505ee45171d06f6b47c0a31"
         },
         {
             "path": "data/reference/00.json.gz",
@@ -9446,27 +9446,27 @@
         },
         {
             "path": "docs/index.de.md",
-            "sha256": "9b2d8236c3a15b1017e02e99e5f34206d6a3e1c44dc85c60042cbe1d87848d39"
+            "sha256": "4a5f1429e8d39afb51c48fdea03fe0740aa9aeb2cb5c540a2986c98109fdd14f"
         },
         {
             "path": "docs/index.en.md",
-            "sha256": "90aa63cbdfcb322ecf27de8f2e6f6832e2a982bdaaf4596c3b8bbeeba5fa0cf9"
+            "sha256": "cf0ff8fa9a34eae205243342d4dc5193d73e4344f17b3dfff2ad1fa8926ad034"
         },
         {
             "path": "docs/index.id.md",
-            "sha256": "a5cc37d3207cec8a7812fc1ba073ee3a3522a07d47f5df0214cb1b66df4fc802"
+            "sha256": "58d1dbd888b0a444a33e2b66fb7314df54bb24cb9124cbd52063ac446d80c73c"
         },
         {
             "path": "docs/index.ja.md",
-            "sha256": "9de64caa4d0139be507dde07f091f15fa8365eb9890baa4b018f05a08896b50d"
+            "sha256": "8c08fe2f7a0acf9a96652fd75d5e8a855a8ced077da6b687352b2ff8d64aa957"
         },
         {
             "path": "package-lock.json",
-            "sha256": "93a9ae541d770fc8324c66fb2afaa8f413052bed65301048c75099c544d58dfe"
+            "sha256": "88a54211c44a1d198dd7131a0f7202c62b64fec80821257f512803e7f41fb0c1"
         },
         {
             "path": "package.json",
-            "sha256": "b83a0038d3ba2acda6aac04776754e474c77799b0b323d3697fb1e8c5517750f"
+            "sha256": "a70233e4add659206b20d56fd1179abe6b17113012ff6840a860ea17fddeffcd"
         },
         {
             "path": "routes.json",
@@ -9518,7 +9518,7 @@
         },
         {
             "path": "tests/content-pack.test.js",
-            "sha256": "fde162f152917c13b8364471581e52a52a3e4d41f0f669b956ed248f41912a6b"
+            "sha256": "6b11c084b07f962ee8568e50cad0b0f5d3d52918358be057ef9c4506af0dde78"
         },
         {
             "path": "tests/correspondence-form-audio.test.js",
@@ -9591,6 +9591,10 @@
         {
             "path": "tests/noun-form-audio.test.js",
             "sha256": "1754abe051e932b473351dcc8eada07fae073760842400e16fa22f4524dfd640"
+        },
+        {
+            "path": "tests/offline.test.js",
+            "sha256": "b6f8d707663c344cea60941133b9a66b04e465c0a6dc08e7d2fbb182c1e50956"
         },
         {
             "path": "tests/outings-form-audio.test.js",
