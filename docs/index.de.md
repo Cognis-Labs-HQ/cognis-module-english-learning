@@ -111,3 +111,7 @@ Jeder Formensatz deklariert ein erforderliches `flag`, etwa `transform:verb` ode
 Detailansichten, Satzprüfung und Audio nutzen denselben Resolver. Generierte Ansichten behalten Referenzbilder, entfernen jedoch die Audio- und Strichfelder der Basis. Die Audiosuche verwendet generierte Schreibweise und Hauptaussprache; eine Neugenerierung verändert die Basiskarte nicht. Zeichenübungen setzen die generierte Schreibweise aus Schreibmustern zusammen, behalten Strichgruppen bei und ignorieren Leerzeichen. Aufnahmetests verlangen für jede aktivierte Regel einen pfadgebundenen Clip. Gespeicherte Formenkarten und Kompatibilitätsaliase werden nicht unterstützt.
 
 Der öffentliche Anbietervertrag deklariert `transformationModel: "generated"`; beide Sprachmodule verlangen dies vor der Anbieterregistrierung. Jede Regel einer aktivierten Gruppe muss für die Ausgangskarte auflösbar sein. Mit `resultClass` kann eine Regel die grammatische Klasse ändern, etwa vom Adjektiv zum Adverb. Ungültige explizite Referenzen scheitern, statt die Grundform einzusetzen.
+
+## Leichte Study-Metadaten
+
+Das mitgelieferte Library-Schema deklariert `metadata.offline.cache: "lightweight"` und kennzeichnet damit seine kleinen JSON-Daten für den Study-Cache von Cognis. Cognis verwaltet Cacheplanung, Speicherung, Navigation und Übungsverhalten. Die Schema- und Inhaltspaketrevisionen werden mit dieser Metadatenänderung erhöht.

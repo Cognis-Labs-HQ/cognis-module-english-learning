@@ -1,6 +1,6 @@
 {
     "id": "english",
-    "version": 65,
+    "version": 66,
     "namespace": "en",
     "language": "en",
     "metadata": {
@@ -20,6 +20,9 @@
             "moduleId": "study-language-en",
             "contract": "external-package",
             "stable": true
+        },
+        "offline": {
+            "cache": "lightweight"
         }
     },
     "layers": [

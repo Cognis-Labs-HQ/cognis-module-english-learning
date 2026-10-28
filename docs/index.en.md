@@ -111,3 +111,7 @@ Each transformation set declares a required `flag`, such as `transform:verb` or 
 Detail views, sentence validation and audio use the same resolver. Generated views preserve reference images but clear base audio and stroke fields. Audio lookup uses the generated spelling and primary pronunciation; refreshing it does not modify the base card. Drawing composes the generated spelling from writing-unit patterns, preserving stroke groups and ignoring spaces. Provider recording tests require every enabled rule to have a path-bound clip. No materialized-card representation or compatibility aliases are supported.
 
 The public provider contract declares `transformationModel: "generated"`; both language modules require it before registering providers. Every rule in an enabled family must resolve for that source. Rules may declare `resultClass` when a form changes grammatical class, such as an adjective becoming an adverb. Explicit invalid references fail rather than substituting the root.
+
+## Lightweight Study Metadata
+
+The bundled Library schema declares `metadata.offline.cache: "lightweight"`, identifying its lightweight JSON data for Cognis Study caching. Cognis owns cache scheduling, storage, navigation and practice behavior. The schema and content-pack revisions advance with this metadata change.

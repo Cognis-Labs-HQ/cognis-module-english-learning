@@ -113,3 +113,7 @@ Setiap keluarga transformasi mendeklarasikan `flag` wajib, seperti `transform:ve
 Detail, validasi kalimat, dan audio menggunakan resolver yang sama. Tampilan turunan mempertahankan gambar referensi tetapi menghapus bidang audio dan goresan dasar. Pencarian audio menggunakan ejaan turunan dan pelafalan utama; regenerasinya tidak mengubah kartu dasar. Latihan menulis menyusun pola karakter menurut ejaan turunan, mempertahankan kelompok goresan, dan mengabaikan spasi. Pengujian rekaman mewajibkan klip berjalur untuk setiap aturan aktif. Representasi kartu bentuk tersimpan dan alias kompatibilitas tidak didukung.
 
 Kontrak penyedia publik mendeklarasikan `transformationModel: "generated"`; kedua modul bahasa mewajibkannya sebelum mendaftarkan penyedia. Setiap aturan keluarga aktif harus dapat diturunkan untuk sumber tersebut. Aturan dapat mendeklarasikan `resultClass` saat bentuk mengubah kelas gramatikal, misalnya adjektiva menjadi adverbia. Referensi eksplisit yang tidak valid ditolak alih-alih diganti bentuk dasar.
+
+## Metadata Study Ringan
+
+Skema Library bawaan mendeklarasikan `metadata.offline.cache: "lightweight"`, menandai data JSON ringannya untuk cache Cognis Study. Cognis mengelola jadwal cache, penyimpanan, navigasi, dan perilaku latihan. Revisi skema dan paket konten dinaikkan bersama perubahan metadata ini.
