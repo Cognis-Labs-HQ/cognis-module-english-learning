@@ -115,3 +115,7 @@ Der öffentliche Anbietervertrag deklariert `transformationModel: "generated"`; 
 ## Leichte Study-Metadaten
 
 Das mitgelieferte Library-Schema deklariert `metadata.offline.cache: "lightweight"` und kennzeichnet damit seine kleinen JSON-Daten für den Study-Cache von Cognis. Cognis verwaltet Cacheplanung, Speicherung, Navigation und Übungsverhalten. Die Schema- und Inhaltspaketrevisionen werden mit dieser Metadatenänderung erhöht.
+
+## Geführtes Tutorial
+
+[Geführtes Tutorial](tutorials.de.md)

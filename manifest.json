@@ -2,7 +2,7 @@
     "id": "study-language-en",
     "uuid": "b1adc29f-9d54-5785-9bea-2ce76f1981e4",
     "name": "module.study.language.en.name",
-    "version": "3.0.2",
+    "version": "3.1.0",
     "class": "extension",
     "privileged": true,
     "coreApiVersion": "v1",
@@ -138,7 +138,7 @@
         },
         {
             "path": "api/index.js",
-            "sha256": "c5282795e3a1f605c1d9e1df66d8e15d55ac72071e947b955d0f731ab1d11a57"
+            "sha256": "72da34cfd93ac1033d72eac878732686541fc4a756da4aca888a5f20ad46044e"
         },
         {
             "path": "api/reuse/content.js",
@@ -166,7 +166,7 @@
         },
         {
             "path": "api/tests/configuration-context.js",
-            "sha256": "8f036d1b6deef1024d4bf944ce952769b6a894ed34012f6d7fddb736284e9b8f"
+            "sha256": "e7e4e74ffe2e2245a90c259e703dcc401dcfb16784b9082efe66aa222ee581c9"
         },
         {
             "path": "api/tests/dictionary-boundary.test.js",
@@ -9446,27 +9446,43 @@
         },
         {
             "path": "docs/index.de.md",
-            "sha256": "217c79e45478ade68e2ff883878d3c6464a378e28d26e83a874c54d08fbc95c7"
+            "sha256": "8c0bdbd3d83b1a563600b5ad6b00b2e6ee415276f88c276070b6a08caf87fe4a"
         },
         {
             "path": "docs/index.en.md",
-            "sha256": "9360a86891e21188867f2f0594cdc39741a1f5884d312cb3fa5c156480c5c8e4"
+            "sha256": "5f298e61c17048426dc86900ab9f52ba2d3362ce85127cff0521e2fce3af86ec"
         },
         {
             "path": "docs/index.id.md",
-            "sha256": "e042a794d78d79c07e5dfadde68bf63aa0f9417a03813b3eee0fbd0d65db02dc"
+            "sha256": "4c3d3115b389a6bb3f2ba7dd46e7f2c9f2484f37ccc6593692537420361d80b7"
         },
         {
             "path": "docs/index.ja.md",
-            "sha256": "f19f32cc126f7eb88e1025625500a3b9f054753c33a3bb53cbcaec5ba8948065"
+            "sha256": "e3d2403282fe83a16126a1ebee6ecf7c921babf6ff00662440cdf806ac452069"
+        },
+        {
+            "path": "docs/tutorials.de.md",
+            "sha256": "835b0b56834c61a2c002d64f9f5491b37de281b431d7d184135f9686501111ca"
+        },
+        {
+            "path": "docs/tutorials.en.md",
+            "sha256": "690b3185b9c5ac8a6110e6fbf0b055707ab1fa9fb7b5f18fd1b1d6eb9677993e"
+        },
+        {
+            "path": "docs/tutorials.id.md",
+            "sha256": "72959c2644a21dad225687f5584f237632dd1ef7aaccb00375a394680470a0f2"
+        },
+        {
+            "path": "docs/tutorials.ja.md",
+            "sha256": "2470834028ca1af3890a312cd5a1e9fa5e6c65ce1fb23a3b1764fc2bd4820201"
         },
         {
             "path": "package-lock.json",
-            "sha256": "88a54211c44a1d198dd7131a0f7202c62b64fec80821257f512803e7f41fb0c1"
+            "sha256": "d0f62b2b122e5d4065524299ea9f59f5dc498dfefb2121892e527d9ca05a685e"
         },
         {
             "path": "package.json",
-            "sha256": "a70233e4add659206b20d56fd1179abe6b17113012ff6840a860ea17fddeffcd"
+            "sha256": "656cf1c55613424b4a80df706d60652ef24917a8b28bf90dac0e3b1372c976b9"
         },
         {
             "path": "routes.json",
@@ -9610,7 +9626,7 @@
         },
         {
             "path": "tests/provider-lifecycle.test.js",
-            "sha256": "674dcec99ea6687142c307ce8f0ce33f3910f5d7cbadaff7e4a72df0afd47d5d"
+            "sha256": "3c2f6949473ad7f0c19c3980fb87d1b9a9eebdb0a1890a26a04df0c6a8a8fd98"
         },
         {
             "path": "tests/qualities-form-audio.test.js",
@@ -9682,19 +9698,31 @@
         },
         {
             "path": "ui/languages/de/strings.xml",
-            "sha256": "919317e391fbe197ccbd09da11d5728294be95b98684fffb05a8ea523b9d2e64"
+            "sha256": "b4eafeaa5c82e6ad344756e9e17cca5213e7635ad5e9dc385ded2b7784bebacb"
         },
         {
             "path": "ui/languages/en/strings.xml",
-            "sha256": "c7d85883c7bb887a840705b987db2db1936029e3113a0d2c4ff830445c5d7dcc"
+            "sha256": "60bb048ebef4ab937071c7b78812e61382e8d4e916a35c309d48c3cbed525e88"
         },
         {
             "path": "ui/languages/id/strings.xml",
-            "sha256": "c293f96bee0db58cea427667d345165beaf9d56de977fbcae7017093e2fff7c5"
+            "sha256": "29a2701b503335f929f72d5945c3fefa3a9d57d761935fc2668657d00c9acf60"
         },
         {
             "path": "ui/languages/ja/strings.xml",
-            "sha256": "449b03594c11c837c79f639d79c6d21e470487d0f6fe830ff11888273713a78b"
+            "sha256": "5d9cb68459a3d30e8107fb3c29f6071b2deba609343e5e1ddec740be7785178c"
+        },
+        {
+            "path": "ui/tests/tutorials.test.js",
+            "sha256": "6c1dc58d81c66e8ce2eb273ba53ea25c61e8dfc674836815c14a1def9eb553fd"
+        },
+        {
+            "path": "ui/tutorials/plays.js",
+            "sha256": "72361618de14ca662772af95cf2cd6130d6c60cd380437e3808cec62d296222b"
+        },
+        {
+            "path": "ui/tutorials/provider.js",
+            "sha256": "b18d51c73feb7be94a4cb39c7fdf564474dc22618396c8461892f5ceb536ebc4"
         }
     ],
     "softDependencies": ["2b71bcdf-e29c-408b-8d12-ead6e377c82e"]
