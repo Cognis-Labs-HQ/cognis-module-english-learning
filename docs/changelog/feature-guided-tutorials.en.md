@@ -9,3 +9,7 @@ Explore and Flashcards routes are resolved by Study’s public `study:tutorialTa
 The module registers its own play and localized strings through ctx. The host owns the catalog, callouts, arrows, spotlight, keyboard and pointer controls, guarded SPA navigation and accessibility. Closing a tutorial, navigating away, losing access or disabling the module releases the session. Failed provider mounting rolls back its registrations.
 
 Provider tests check the public contract, all four translations, availability rules, rollback and rejection of unsupported host versions.
+
+## Commits
+
+- [e1d021b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e1d021bff42813deefaf1996c9254fa4c1989197)
