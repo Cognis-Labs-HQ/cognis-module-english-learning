@@ -10,6 +10,10 @@ The module registers its own play and localized strings through ctx. The host ow
 
 Provider tests check the public contract, all four translations, availability rules, rollback and rejection of unsupported host versions.
 
+## Page-bound First Visits
+
+The host owns callouts, arrows, spotlight, accessibility and the shared floating action menu. First-time runs offer Next throughout, without Cancel or Skip. Replays offer Cancel with `btn-cancel`. Completion is stored per account in the browser. Navigation, access loss and provider removal release the session; failed mounts roll back registrations.
+
 ## Commits
 
 - [e1d021b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e1d021bff42813deefaf1996c9254fa4c1989197)
