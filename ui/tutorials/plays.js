@@ -3,12 +3,12 @@ export const definition = {
     language: "en",
     version: 1,
     id: "introduction",
-    titleKey: "module.study.language.en.tutorial.title",
+    titleKey: "module.study-language-en.tutorial.title",
     steps: [
         {
             id: "welcome",
-            titleKey: "module.study.language.en.tutorial.welcome.title",
-            bodyKey: "module.study.language.en.tutorial.welcome.body",
+            titleKey: "module.study-language-en.tutorial.welcome.title",
+            bodyKey: "module.study-language-en.tutorial.welcome.body",
             effects: {
                 callout: true,
                 arrow: false,
@@ -22,8 +22,8 @@ export const definition = {
         },
         {
             id: "explore",
-            titleKey: "module.study.language.en.tutorial.explore.title",
-            bodyKey: "module.study.language.en.tutorial.explore.body",
+            titleKey: "module.study-language-en.tutorial.explore.title",
+            bodyKey: "module.study-language-en.tutorial.explore.body",
             effects: {
                 callout: true,
                 arrow: true,
@@ -38,8 +38,8 @@ export const definition = {
         },
         {
             id: "practice",
-            titleKey: "module.study.language.en.tutorial.practice.title",
-            bodyKey: "module.study.language.en.tutorial.practice.body",
+            titleKey: "module.study-language-en.tutorial.practice.title",
+            bodyKey: "module.study-language-en.tutorial.practice.body",
             effects: {
                 callout: true,
                 arrow: true,

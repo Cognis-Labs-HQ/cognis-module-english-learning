@@ -14,6 +14,10 @@ Pengujian penyedia memeriksa kontrak publik, keempat terjemahan, aturan ketersed
 
 Host mengelola petunjuk, panah, sorotan, aksesibilitas, dan menu aksi mengambang bersama. Sesi pertama selalu menyediakan Berikutnya, tanpa Batal atau Lewati. Pemutaran ulang menyediakan Batal dengan `btn-cancel`. Penyelesaian disimpan di browser per akun. Navigasi, hilangnya akses, atau pelepasan penyedia mengakhiri sesi; pemasangan gagal membatalkan registrasi.
 
+## Kunci Terjemahan Modul
+
+Kunci terjemahan tutorial memakai ID modul manifes lengkap beserta tanda hubungnya sebagai satu segmen ruang nama.
+
 ## Komit
 
 - [e1d021b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e1d021bff42813deefaf1996c9254fa4c1989197)
