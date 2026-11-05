@@ -18,6 +18,10 @@ Explore と Flashcards の経路は Study の公開機能 `study:tutorialTargets
 
 チュートリアルの翻訳キーは、ハイフンを含むマニフェストのモジュールID全体を名前空間の単一の要素として使います。
 
+## 操作に役立つ説明
+
+各ステップではページの操作項目と作業を説明し、権限やガイドが実行しない操作についての不要な説明を省きます。
+
 ## コミット
 
 - [e1d021b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e1d021bff42813deefaf1996c9254fa4c1989197)

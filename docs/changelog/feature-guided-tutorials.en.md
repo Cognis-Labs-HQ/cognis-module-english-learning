@@ -18,6 +18,10 @@ The host owns callouts, arrows, spotlight, accessibility and the shared floating
 
 Tutorial translation keys use the complete manifest module ID as one namespace segment, including its hyphens.
 
+## Actionable Tutorial Copy
+
+Tutorial steps focus on the controls and tasks available on the page, without unrelated reassurances about permissions or actions the guide does not perform.
+
 ## Commits
 
 - [e1d021b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e1d021bff42813deefaf1996c9254fa4c1989197)
