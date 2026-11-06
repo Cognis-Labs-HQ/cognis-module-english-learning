@@ -8,12 +8,13 @@ export const definition = {
         {
             highlightNext: true,
             id: "welcome",
+            target: "study.languages",
             titleKey: "module.study-language-en.tutorial.welcome.title",
             bodyKey: "module.study-language-en.tutorial.welcome.body",
             effects: {
                 callout: true,
-                arrow: false,
-                spotlight: false,
+                arrow: true,
+                spotlight: true,
             },
             missing: {
                 timeoutMs: 5000,
