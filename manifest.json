@@ -2,7 +2,7 @@
     "id": "study-language-en",
     "uuid": "b1adc29f-9d54-5785-9bea-2ce76f1981e4",
     "name": "module.study.language.en.name",
-    "version": "3.0.2",
+    "version": "3.1.6",
     "class": "extension",
     "privileged": true,
     "coreApiVersion": "v1",
@@ -62,7 +62,7 @@
         },
         {
             "path": ".github/copilot-instructions.md",
-            "sha256": "94c3e03805e78131d5c9ef4f95b78dff40fe4cba2abc92577646739244cdc82e"
+            "sha256": "40e9fb591729f198e317e8559c5019d8ccdfc11a8bec661f950e0bcf4e5839ef"
         },
         {
             "path": ".gitignore",
@@ -138,7 +138,7 @@
         },
         {
             "path": "api/index.js",
-            "sha256": "c5282795e3a1f605c1d9e1df66d8e15d55ac72071e947b955d0f731ab1d11a57"
+            "sha256": "72da34cfd93ac1033d72eac878732686541fc4a756da4aca888a5f20ad46044e"
         },
         {
             "path": "api/reuse/content.js",
@@ -166,7 +166,7 @@
         },
         {
             "path": "api/tests/configuration-context.js",
-            "sha256": "8f036d1b6deef1024d4bf944ce952769b6a894ed34012f6d7fddb736284e9b8f"
+            "sha256": "e7e4e74ffe2e2245a90c259e703dcc401dcfb16784b9082efe66aa222ee581c9"
         },
         {
             "path": "api/tests/dictionary-boundary.test.js",
@@ -186,7 +186,7 @@
         },
         {
             "path": "api/tests/module-structure.test.js",
-            "sha256": "45cd21b2b31873c1831e52e3a1cfe97c5e52318bd99cb18ded73d21c9c74c83b"
+            "sha256": "87404b51bd496178583a0b37ad0c6d77adff92f8f242dff9ea15eb87950e76a9"
         },
         {
             "path": "api/tests/reference-catalog.test.js",
@@ -9446,27 +9446,43 @@
         },
         {
             "path": "docs/index.de.md",
-            "sha256": "217c79e45478ade68e2ff883878d3c6464a378e28d26e83a874c54d08fbc95c7"
+            "sha256": "8c0bdbd3d83b1a563600b5ad6b00b2e6ee415276f88c276070b6a08caf87fe4a"
         },
         {
             "path": "docs/index.en.md",
-            "sha256": "9360a86891e21188867f2f0594cdc39741a1f5884d312cb3fa5c156480c5c8e4"
+            "sha256": "5f298e61c17048426dc86900ab9f52ba2d3362ce85127cff0521e2fce3af86ec"
         },
         {
             "path": "docs/index.id.md",
-            "sha256": "e042a794d78d79c07e5dfadde68bf63aa0f9417a03813b3eee0fbd0d65db02dc"
+            "sha256": "4c3d3115b389a6bb3f2ba7dd46e7f2c9f2484f37ccc6593692537420361d80b7"
         },
         {
             "path": "docs/index.ja.md",
-            "sha256": "f19f32cc126f7eb88e1025625500a3b9f054753c33a3bb53cbcaec5ba8948065"
+            "sha256": "e3d2403282fe83a16126a1ebee6ecf7c921babf6ff00662440cdf806ac452069"
+        },
+        {
+            "path": "docs/tutorials.de.md",
+            "sha256": "f29cdf3c6684468092dd6942fdc275e4d7da780881122c3216b4983f7f254383"
+        },
+        {
+            "path": "docs/tutorials.en.md",
+            "sha256": "994d9966aecd2ee26c8c1781d8cc9619be9858838f3dba56c96363b35cff54cf"
+        },
+        {
+            "path": "docs/tutorials.id.md",
+            "sha256": "ff76308f94557f73809deaac79c717a772ce587b81b9c232a3bd873b7747b49a"
+        },
+        {
+            "path": "docs/tutorials.ja.md",
+            "sha256": "475b24d83d2b2aea0b9efcde4ec0efb7671175955f0739e08e56b8a3a21e19aa"
         },
         {
             "path": "package-lock.json",
-            "sha256": "88a54211c44a1d198dd7131a0f7202c62b64fec80821257f512803e7f41fb0c1"
+            "sha256": "3df8201a70860e5e13884ba86a7f6b5253618ebf2519ad784b777c3c44322e5c"
         },
         {
             "path": "package.json",
-            "sha256": "a70233e4add659206b20d56fd1179abe6b17113012ff6840a860ea17fddeffcd"
+            "sha256": "794a2a6428e5b583d6143b4f6c503990a143822df544b8b583324593bb1adba6"
         },
         {
             "path": "routes.json",
@@ -9610,7 +9626,7 @@
         },
         {
             "path": "tests/provider-lifecycle.test.js",
-            "sha256": "674dcec99ea6687142c307ce8f0ce33f3910f5d7cbadaff7e4a72df0afd47d5d"
+            "sha256": "3c2f6949473ad7f0c19c3980fb87d1b9a9eebdb0a1890a26a04df0c6a8a8fd98"
         },
         {
             "path": "tests/qualities-form-audio.test.js",
@@ -9682,19 +9698,31 @@
         },
         {
             "path": "ui/languages/de/strings.xml",
-            "sha256": "919317e391fbe197ccbd09da11d5728294be95b98684fffb05a8ea523b9d2e64"
+            "sha256": "e75289d7ce629d14d485076f1fc179deb88cbdd71146b1f30dacc843975ff3d8"
         },
         {
             "path": "ui/languages/en/strings.xml",
-            "sha256": "c7d85883c7bb887a840705b987db2db1936029e3113a0d2c4ff830445c5d7dcc"
+            "sha256": "659548f9dbfe58c2c88163f0014f15ebaa8ca3a1622e99293708e02ed5477631"
         },
         {
             "path": "ui/languages/id/strings.xml",
-            "sha256": "c293f96bee0db58cea427667d345165beaf9d56de977fbcae7017093e2fff7c5"
+            "sha256": "245b2eed67c55e282b3cd25cf94d33c058e7b92ccde16ca901d3d8a9f2fd95b0"
         },
         {
             "path": "ui/languages/ja/strings.xml",
-            "sha256": "449b03594c11c837c79f639d79c6d21e470487d0f6fe830ff11888273713a78b"
+            "sha256": "c3707f49b0ab130e0cefc58b2e604726f1561dca074721fd66555f9a1734ca34"
+        },
+        {
+            "path": "ui/tests/tutorials.test.js",
+            "sha256": "c1a1a05b00e22aa7ede5b5b4075b8bd25dc0442ca5cfd6593b8ce0cabc0f7627"
+        },
+        {
+            "path": "ui/tutorials/plays.js",
+            "sha256": "642352e0177eef9cff3b4460a6b3ebd2663a18d4977b44c190eb4bcdcc61b473"
+        },
+        {
+            "path": "ui/tutorials/provider.js",
+            "sha256": "93033243f4b4f24abd033e51c676449c8983d22750bf507c830949847189a183"
         }
     ],
     "softDependencies": ["2b71bcdf-e29c-408b-8d12-ead6e377c82e"]
