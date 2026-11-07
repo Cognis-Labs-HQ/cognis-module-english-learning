@@ -52,3 +52,4 @@ Tutorial menjelaskan kontrol terlihat yang berbeda sesuai urutan UI. Petunjuk be
 - [ba6400e](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ba6400eec803d69d53b7099dd34161ca98738b0a)
 - [6e6f062](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/6e6f0625fa5598da1c6c6237c75f6ecd197b7609)
 - [b696b59](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/b696b59c123632458fe2f16e0e2b1e538fd3b44a)
+- [32bcc67e7](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/32bcc67e7fe737b105b6d0c4ab57e2f1112b432e)
