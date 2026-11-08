@@ -44,6 +44,10 @@ Bei fehlenden Zielen stehen Weiter und Tutorial neu starten bereit; Wiederholung
 
 Anleitungen erklären unterschiedliche sichtbare Bedienelemente in UI-Reihenfolge. Die gemeinsamen Vorgaben behandeln aktive Ansichten, stabile Beispiele, Leerzustände, bedingte Zweige und Lebensdauerbereinigung. Wiederholungsaktionen und Dokumentation zu reduzierter Bewegung entsprechen dem gemeinsamen Host.
 
+## Gezielte Anleitung
+
+Sprachanleitungen stehen erst nach ausdrücklicher Einschreibung in den Study-Einstellungen bereit. Die überflüssige Einschreibungseinführung entfällt; die Anleitung beginnt mit Erkunden und führt zu Übungswerkzeugen.
+
 ## Commits
 
 - [e1d021b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e1d021bff42813deefaf1996c9254fa4c1989197)

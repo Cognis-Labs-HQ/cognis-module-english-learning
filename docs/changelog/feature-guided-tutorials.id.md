@@ -44,6 +44,10 @@ Tampilan target hilang menyediakan Berikutnya dan Mulai Ulang Tutorial; pemutara
 
 Tutorial menjelaskan kontrol terlihat yang berbeda sesuai urutan UI. Petunjuk bersama mencakup penemuan tampilan aktif, contoh stabil, keadaan kosong, cabang bersyarat, dan pembersihan siklus hidup. Kontrol pemutaran ulang serta dokumentasi pengurangan gerakan sesuai host bersama.
 
+## Panduan Terarah
+
+Panduan bahasa hanya tersedia setelah pendaftaran eksplisit di pengaturan Belajar. Pengantar pendaftaran yang berulang dihapus; panduan dimulai dengan Jelajahi lalu alat latihan.
+
 ## Komit
 
 - [e1d021b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e1d021bff42813deefaf1996c9254fa4c1989197)
