@@ -61,3 +61,4 @@ Panduan bahasa hanya tersedia setelah pendaftaran eksplisit di pengaturan Belaja
 - [32bcc67e7](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/32bcc67e7fe737b105b6d0c4ab57e2f1112b432e)
 - [8d9b332c8](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/8d9b332c89fb831abbcd5ccd422b80c4e840cb28)
 - [ea8ce9a75](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ea8ce9a75f71f2d84b97e8e353201f0af903cc13)
+- [bec37c8cb](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/bec37c8cb4e85661718924719185ebee5d40acc5)
