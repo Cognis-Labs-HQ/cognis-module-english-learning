@@ -50,6 +50,10 @@ Explore と Flashcards の経路は Study の公開機能 `study:tutorialTargets
 
 言語ガイドは学習設定で明示的に登録した後だけに表示します。登録済みであることを前提に、探索から練習ツールへ進みます。
 
+## 翻訳カタログの統一
+
+モジュールのメタデータとチュートリアルの翻訳キーは、小文字の単語をピリオドで区切ります。カタログの翻訳内容は維持し、周囲の XML と字下げを揃えます。厳格な名前空間検証により、翻訳キーのハイフンとアンダースコアを拒否します。モジュール ID、UUID、ケイパビリティ、チュートリアル完了の識別子は変更しません。
+
 ## コミット
 
 - [e1d021b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e1d021bff42813deefaf1996c9254fa4c1989197)

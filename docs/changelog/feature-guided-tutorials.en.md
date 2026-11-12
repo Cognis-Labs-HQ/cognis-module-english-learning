@@ -50,6 +50,10 @@ Tutorials explain distinct visible controls in UI order. Shared guidance covers 
 
 Language guides are available only after explicit enrollment in Study settings. The redundant enrollment introduction is removed; the guide begins with Explore and continues to practice tools.
 
+## Consistent Translation Catalogs
+
+Translation keys use lowercase period-delimited words throughout the module metadata and tutorials. Catalog entries retain their original translated values and match the surrounding XML indentation. Strict namespace checks reject hyphens and underscores in translation keys. Module IDs, UUIDs, capabilities and tutorial completion identities remain unchanged.
+
 ## Commits
 
 - [e1d021b](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/e1d021bff42813deefaf1996c9254fa4c1989197)
