@@ -117,3 +117,7 @@ Free Dictionaryは品詞ごとに候補を分け、対応する定義、タグ�
 ## 軽量 Study メタデータ
 
 同梱の Library スキーマは `metadata.offline.cache: "lightweight"` を宣言し、軽量な JSON データを Cognis Study のキャッシュ対象として示します。キャッシュの実行時期、保存、ナビゲーション、練習動作は Cognis が管理します。このメタデータ変更に合わせてスキーマとコンテンツパックのリビジョンを更新します。
+
+## ガイド付きチュートリアル
+
+[ガイド付きチュートリアル](tutorials.ja.md)
