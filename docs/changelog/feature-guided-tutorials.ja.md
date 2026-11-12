@@ -66,3 +66,4 @@ Explore と Flashcards の経路は Study の公開機能 `study:tutorialTargets
 - [8d9b332c8](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/8d9b332c89fb831abbcd5ccd422b80c4e840cb28)
 - [ea8ce9a75](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ea8ce9a75f71f2d84b97e8e353201f0af903cc13)
 - [bec37c8cb](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/bec37c8cb4e85661718924719185ebee5d40acc5)
+- [af629cc](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/af629ccb89300d61a381c3f0948dc8b495c9f52e)
