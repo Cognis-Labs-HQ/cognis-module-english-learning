@@ -34,8 +34,8 @@
 - [a4f284f7](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a4f284f71438edf5c3e6b67fc1018cdcdf4782d1)
 - [ae9407b6](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ae9407b684ff6ca0083f7a8b502243f600487c88)
 
-実装参照: [`fb16ed21797dafcafea82cddb2d0870a88b31c40`](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/fb16ed21797dafcafea82cddb2d0870a88b31c40).
+実装参照: [`fb16ed2`](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/fb16ed21797dafcafea82cddb2d0870a88b31c40).
 
 カード再生とプロバイダー検索では、文全体の専用録音を優先します。専用録音のない文には、選択した活用形を含む構成要素の正確な連結音声を使用します。未収録の活用形を原形の音声で代用しません。新しい文は引き続きホストによる合成とキャッシュを使用します。
 
-実装参照: [`19bb9d8eb20350566381f89ed7655269ff9da700`](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/19bb9d8eb20350566381f89ed7655269ff9da700).
+実装参照: [`19bb9d8`](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/19bb9d8eb20350566381f89ed7655269ff9da700).
