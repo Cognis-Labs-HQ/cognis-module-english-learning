@@ -48,8 +48,8 @@ function context(failure) {
             require(name) {
                 if (name === "study:audio:provider")
                     return {
-                        registerProvider: (...args) => {
-                            calls.audio.push(args);
+                        registerProvider: (...argumentsList) => {
+                            calls.audio.push(argumentsList);
                             return () => {};
                         },
                     };
@@ -73,9 +73,9 @@ function context(failure) {
             calls.capabilities.push({ name, value });
         },
         flow: {
-            extend(...args) {
+            extend(...argumentsList) {
                 if (failure === "flow") throw new Error("registration_failed");
-                calls.hooks.push(args);
+                calls.hooks.push(argumentsList);
             },
         },
         log(level, message, metadata) {
