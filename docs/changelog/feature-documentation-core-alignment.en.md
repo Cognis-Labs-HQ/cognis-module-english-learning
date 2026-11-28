@@ -12,9 +12,10 @@ Runtime diagnostics follow the host logging gateway and its output policy. Comma
 
 ## Descriptive bindings
 
-Module bindings now use descriptive role names while retaining public API labels, payload keys and import targets. Syntax-tree validation scans bootstrap, scripts, tests and fixtures, replacing the line-based check. Sixty shared regression fixtures cover declarations, destructuring, parameters, private members, enum/namespace bindings, TypeScript assertions and permitted type identities. Component instructions and four-language technical manuals describe the same policy; versions, lockfiles and packaged hashes are synchronized.
+Syntax-tree naming validation checks declarations, exports, destructuring, runtime and type-signature parameters, constructor parameter properties, catch bindings, imports, named functions/classes, runtime enum/namespace bindings and private members independently of formatting. It scans source, tooling, tests and fixtures without baselines or file-specific exemptions. Opaque shorthand, abbreviated plurals, numbered placeholders and consumed ignored bindings fail validation. Conventional developer terms such as `args`, `db`, LDAP `dn`, HTTP `req`/`res`, `env`, `opts` and `params` remain valid; the glossary defines the complete vocabulary. Other short exceptions are unused, unexported `_`, `id` and numeric `i`/`j`/`k` counters with matching arithmetic updates. Coordinates and dimensions use descriptive locals. Owned helper and store APIs use their descriptive names directly across declarations, exports, imports and callers; naming-only import/export aliases fail validation. Consumers must use the canonical exports instead of compressed aliases. Public payload keys, capability identifiers and type-only identities retain their contract roles. Localized technical manuals, contributor guidance, module versions, lockfiles and packaged hashes are synchronized.
 
 ## Commits
 
 - [8cf705a](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/8cf705a517b08306ab14c312a18810db52fa6293)
 - [d775450](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/d775450e8570dd9246f87075309ff357de16bef7)
+- [a1a8bd1](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a1a8bd1504f8f035d6c1d7620c353bf231c4e86a)
