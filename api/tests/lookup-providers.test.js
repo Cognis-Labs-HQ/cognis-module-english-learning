@@ -167,7 +167,7 @@ test("failed and malformed dictionary responses surface a safe error and structu
         const logs = [];
         const provider = dictionary(
             async () => response,
-            (...argumentsList) => logs.push(argumentsList),
+            (...args) => logs.push(args),
         );
         await assert.rejects(
             provider.lookup({ schema, layer, label: "run" }),
@@ -228,7 +228,7 @@ test("content loading failures can retry and are logged by the owning provider",
     const logs = [];
     const provider = createStrokePatternProvider({
         contentRoot: "data/not-present",
-        log: (...argumentsList) => logs.push(argumentsList),
+        log: (...args) => logs.push(args),
     });
     for (let index = 0; index < 2; index += 1)
         await assert.rejects(
