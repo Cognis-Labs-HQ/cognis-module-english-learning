@@ -62,7 +62,7 @@ function context(failure) {
             assert.equal(name, "study:library:provider");
             return provider;
         },
-        registerStaticDir(prefix, root) {
+        registerStaticDirectory(prefix, root) {
             calls.static = { prefix, root };
         },
         registerApiDelete(route, handler, options) {
@@ -282,7 +282,7 @@ for (const activationFails of [false, true]) {
                     };
                 },
             },
-            registerStaticDir() {},
+            registerStaticDirectory() {},
             registerApiDelete() {},
             contributePublicCapability() {},
             flow: { extend() {} },

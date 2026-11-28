@@ -34,8 +34,8 @@ Both Study modules use the canonical `difficulty_level` field. Their identical n
 - [a4f284f7](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/a4f284f71438edf5c3e6b67fc1018cdcdf4782d1)
 - [ae9407b6](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/ae9407b684ff6ca0083f7a8b502243f600487c88)
 
-Implementation reference: [`fb16ed21797dafcafea82cddb2d0870a88b31c40`](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/fb16ed21797dafcafea82cddb2d0870a88b31c40).
+Implementation reference: [`fb16ed2`](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/fb16ed21797dafcafea82cddb2d0870a88b31c40).
 
 Dedicated whole-sentence recordings take priority in both card playback and provider lookups. Exact constituent-composed recordings remain available for sentences without a dedicated recording, including selected grammatical forms; missing forms never substitute base-form clips. New sentences continue through host-owned composition and caching.
 
-Implementation reference: [`19bb9d8eb20350566381f89ed7655269ff9da700`](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/19bb9d8eb20350566381f89ed7655269ff9da700).
+Implementation reference: [`19bb9d8`](https://github.com/Cognis-Labs-HQ/cognis-module-english-learning/commit/19bb9d8eb20350566381f89ed7655269ff9da700).

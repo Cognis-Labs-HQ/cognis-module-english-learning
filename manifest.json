@@ -2,7 +2,7 @@
     "id": "study-language-en",
     "uuid": "b1adc29f-9d54-5785-9bea-2ce76f1981e4",
     "name": "module.study.language.en.name",
-    "version": "3.1.9",
+    "version": "3.1.14",
     "class": "extension",
     "privileged": true,
     "coreApiVersion": "v1",
@@ -45,24 +45,60 @@
     ],
     "files": [
         {
-            "path": ".github/DOCUMENTATION_TEMPLATE.de.md",
-            "sha256": "68da4be565d7fcd6caf74a6eeddd62ee35620063f4fb3c42128c23e98e4c7313"
-        },
-        {
-            "path": ".github/DOCUMENTATION_TEMPLATE.en.md",
-            "sha256": "0430dc1ef9233808219652e78e6079d3b6cf455f04818487e00fd7aa217a07fa"
-        },
-        {
-            "path": ".github/DOCUMENTATION_TEMPLATE.id.md",
-            "sha256": "a701f0f05180972949e4ac159e3d65656fc66b8d07aa72b3832aa312d711cd24"
-        },
-        {
-            "path": ".github/DOCUMENTATION_TEMPLATE.ja.md",
-            "sha256": "8fafead6e01dbab777528e72d1ce924ff3d8e0bd250d21a0a29116fe1ef7ed44"
-        },
-        {
             "path": ".github/copilot-instructions.md",
-            "sha256": "aee7c7ea65abbc76b4a6d01063d0501da5d45d3b7b0d388a797ba58726a84f58"
+            "sha256": "95bea7cffcb46525783167a89660d2afeca1c462496045a279390e852f70db29"
+        },
+        {
+            "path": ".github/documentation/README.de.md",
+            "sha256": "9ced77ead11de03917382ab2d44d0c0d7611fc371ae28a509227194a3f8e319e"
+        },
+        {
+            "path": ".github/documentation/README.en.md",
+            "sha256": "bccb1879a5de687e54104dae8adba4eb97451272c9ee7d15f75fdf28084eee71"
+        },
+        {
+            "path": ".github/documentation/README.id.md",
+            "sha256": "800eb7b1ee7b5925722922bbecfceaba88b1fc2be48a0471bfaefbdf6b7a0481"
+        },
+        {
+            "path": ".github/documentation/README.ja.md",
+            "sha256": "fa24cbd5ca781be60579250773e70d043eec29bc263d28de1573e31bbe166762"
+        },
+        {
+            "path": ".github/documentation/TECHNICAL.de.md",
+            "sha256": "2383dd22f6f74046c99aedbf4bcf26cf88fa20893daa88ac1b39dbbe2750a093"
+        },
+        {
+            "path": ".github/documentation/TECHNICAL.en.md",
+            "sha256": "48d3b3716a3d7a5a9cfe99fb47921f8d07b0a2fc5f4b22431b500ebcc119fcc5"
+        },
+        {
+            "path": ".github/documentation/TECHNICAL.id.md",
+            "sha256": "34452d63834da7fbbed77f0422fe16a75bce72089c4e7b54c49e43832d292a64"
+        },
+        {
+            "path": ".github/documentation/TECHNICAL.ja.md",
+            "sha256": "c64a3ebf0075a7690712036c11f5b221d4a291069f541658c539a8b4cd97355c"
+        },
+        {
+            "path": ".github/documentation/USAGE.de.md",
+            "sha256": "ac9dc57a2ec4b553f079f772d5e8fda355892601eb5ff71760f1d24a54c2d241"
+        },
+        {
+            "path": ".github/documentation/USAGE.en.md",
+            "sha256": "88bb00be11c76f155a391fad795558d50d5b48f65ff562db0f642752c5061627"
+        },
+        {
+            "path": ".github/documentation/USAGE.id.md",
+            "sha256": "4c9bfcb82cfeee1a2c1b4c94bb0e73e62668b520abf895148c355a4ef1bc2b36"
+        },
+        {
+            "path": ".github/documentation/USAGE.ja.md",
+            "sha256": "5043892b03a3e087fdfe417b90d4958c3046f08165e461d17d088248c2c964e6"
+        },
+        {
+            "path": ".github/workflows/ci.yml",
+            "sha256": "72f8046a3a1ed523cf75fb1a41c86d2f752b179fe7b6eb0c75f1829f8af01785"
         },
         {
             "path": ".gitignore",
@@ -82,19 +118,19 @@
         },
         {
             "path": "README.de.md",
-            "sha256": "a6354f26c459796538fa4e22f8cffd85dbf82fcfce9c1f1f58dc6266146a2a97"
+            "sha256": "9315aea7774d09939d6a75e5bfd5dc721b16150d7c45ee7f3f49e8f22092908c"
         },
         {
             "path": "README.en.md",
-            "sha256": "eac7f2dafe3ccee7b4435aeb1a9c5a562bf011f2e5beda058238bb444bef582e"
+            "sha256": "bd02e115b2bfc1f411d39054ba666cdfefddf88e919c1ef90a9cae7965e3af29"
         },
         {
             "path": "README.id.md",
-            "sha256": "4bf3a832f6e45c0ad77fe2e13d207c7608c16ae99a2b2f10a5f0f98a275cc969"
+            "sha256": "950af8bfe381f1060ef664d6e166a8908f5aef43339f2a81d840d556913dec8f"
         },
         {
             "path": "README.ja.md",
-            "sha256": "09fdb256b8148f06e35dbcb2d6e79c4bde45f0c8f070def6ec2d4b4d1fd64f34"
+            "sha256": "1d3ffa37ee123b2a657c0860cdca0ea2110c537c68e08b125b0739934b165492"
         },
         {
             "path": "api/audio/index.js",
@@ -138,7 +174,7 @@
         },
         {
             "path": "api/index.js",
-            "sha256": "72da34cfd93ac1033d72eac878732686541fc4a756da4aca888a5f20ad46044e"
+            "sha256": "be4102a269bedb9cc55e4e0d44fd2d4a7a0f9f3ef54b7e7113a4f548b2cfd719"
         },
         {
             "path": "api/reuse/content.js",
@@ -175,6 +211,18 @@
         {
             "path": "api/tests/dictionary-request.test.js",
             "sha256": "92e2fb4a45f60eed45d0185da6de5f46b6e27ddae42fc27ea3dedd180884ef5a"
+        },
+        {
+            "path": "api/tests/documentation-layout.test.js",
+            "sha256": "47099d8fee13cc8ebd0f219f4d9ca7a36706a48606e39e9f22a38b9e66ec103e"
+        },
+        {
+            "path": "api/tests/fixtures/documentation.js",
+            "sha256": "f235da6994f8b9ee0e384582acff27b32c419c9ab0cb769ef99384ec0f5651a9"
+        },
+        {
+            "path": "api/tests/logging-boundary.test.js",
+            "sha256": "4932d2e7198cff80da061f3bbe79511f7839cce31277101256bd0712028962ae"
         },
         {
             "path": "api/tests/lookup-providers.test.js",
@@ -9429,64 +9477,68 @@
             "sha256": "1b1c18e2f43024911a6311c3dd4a65ca768ebfba7d27cc2181cbf7f27fdfcca0"
         },
         {
-            "path": "docs/dictionary.de.md",
-            "sha256": "1fd3d9772ac756f73cbe279a92d5740213c46d2bdc2d4c0e5ae6290120792be5"
+            "path": "docs/README.de.md",
+            "sha256": "534cd5c985fe74ab3669fd5f2e55295f6a45ba59c2ba9fcd42121c1270101fe0"
         },
         {
-            "path": "docs/dictionary.en.md",
-            "sha256": "82b1c10013accd489d989c662aeffec8cd0dae4694d38b94ee7bfb6923582177"
+            "path": "docs/README.en.md",
+            "sha256": "093e5d46275e7d64a9ae52923dd9558d1e5fb719dc3444cc50c91d29e3fe3fb3"
         },
         {
-            "path": "docs/dictionary.id.md",
-            "sha256": "7e2686deb4ea6d365e7ba1e90f3a63922a5f6556a3bc1e0a4ca8db56a0737424"
+            "path": "docs/README.id.md",
+            "sha256": "056540e107ab9223d7cd2212a8ac77e4b8361ef81689c18d1d9666812f5aed10"
         },
         {
-            "path": "docs/dictionary.ja.md",
-            "sha256": "6223a7e5786d314241e64281076175a84634c3f92f65bcdddefb865f25a03475"
+            "path": "docs/README.ja.md",
+            "sha256": "9b514cc6a2a2c7829afbfa6f400d5520be3ea91fc519466ddd2b95bf39fab2c5"
         },
         {
-            "path": "docs/index.de.md",
-            "sha256": "8c0bdbd3d83b1a563600b5ad6b00b2e6ee415276f88c276070b6a08caf87fe4a"
+            "path": "docs/TECHNICAL.de.md",
+            "sha256": "9cb609d96a8c23835075b3220f01fc785ed4654f64dba9acf01498b5d28dada4"
         },
         {
-            "path": "docs/index.en.md",
-            "sha256": "5f298e61c17048426dc86900ab9f52ba2d3362ce85127cff0521e2fce3af86ec"
+            "path": "docs/TECHNICAL.en.md",
+            "sha256": "befffe55db5396b2a7609d2459dda2513bc42780746bea5eec55377c00159981"
         },
         {
-            "path": "docs/index.id.md",
-            "sha256": "4c3d3115b389a6bb3f2ba7dd46e7f2c9f2484f37ccc6593692537420361d80b7"
+            "path": "docs/TECHNICAL.id.md",
+            "sha256": "00ca5131a089f709cae16dba10bcad973f08a764d908a415206ce188451f457c"
         },
         {
-            "path": "docs/index.ja.md",
-            "sha256": "e3d2403282fe83a16126a1ebee6ecf7c921babf6ff00662440cdf806ac452069"
+            "path": "docs/TECHNICAL.ja.md",
+            "sha256": "9ba24150aa6218911de662de70d4a68f57c919513db82481e38bad03d2cc9b05"
         },
         {
-            "path": "docs/tutorials.de.md",
-            "sha256": "5c20cc2bf524fc586ecec127ad4d47c88891466758cb44f89ac1c5d801b91164"
+            "path": "docs/USAGE.de.md",
+            "sha256": "6fdacbb30acf48900c03b7864ff5539f23a2f78b21f228540fa20b80c0b5229d"
         },
         {
-            "path": "docs/tutorials.en.md",
-            "sha256": "687f91830e45dedc31e3f472a9de2a132ac5e8e8689564e5f3ca27e5555d4168"
+            "path": "docs/USAGE.en.md",
+            "sha256": "bbad47dff9cca6888672c2aa3bfa7bbb26d6e73b7b37f6b1f8c2449342d7c083"
         },
         {
-            "path": "docs/tutorials.id.md",
-            "sha256": "239abaf09d33bcc40fd7e7fba5b147745f337da591f293ac9126f2ae659858f1"
+            "path": "docs/USAGE.id.md",
+            "sha256": "ea9017f75233c22aa4f3d149e9a72c33c15865b6c982ceeef610380704faf5e0"
         },
         {
-            "path": "docs/tutorials.ja.md",
-            "sha256": "dd68b7cdb58b65e11f0c482482413896b6576dc83afbb50b6fe6fd6a510b6ac3"
+            "path": "docs/USAGE.ja.md",
+            "sha256": "09c67bf9b9370829ec1fa783d4fd6fb8e24c96c22ae917e3af60a171aee52480"
         },
         {
             "path": "package-lock.json",
-            "sha256": "9ac16b2985347f9401bb04575ffff49a65e70c028b9240b99ea3c181b0d811f7"
+            "sha256": "80fc08b7a94894ad8f23d717ca4f9dfabf135f453c2d537819135fa63ec3b077"
         },
         {
             "path": "package.json",
-            "sha256": "fd418b9531095023b7ef9ad240b75ed0eb59005b01c2bf1fa91f5193aedb2171"
+            "sha256": "3f01e29ca8adaec0d2a545cbbdb70683be66b45fe3171b6108566c99da325751"
         },
         {
             "path": "routes.json",
             "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+        },
+        {
+            "path": "scripts/check-documentation.js",
+            "sha256": "71caca6a30dd37a017277534150c926860da6c332b9e1436e3cd8168d8e3d8ba"
         },
         {
             "path": "scripts/import-reference.py",
@@ -9497,12 +9549,28 @@
             "sha256": "63040fe6a01ba1c384b26a141ee0bb48bb0becc120bd8610ade8b916d49c13be"
         },
         {
+            "path": "scripts/reuse/documentation/content.js",
+            "sha256": "dc713f8700502a5a86844e10e12249c0686263f54bfa1a232decccd0e98be277"
+        },
+        {
+            "path": "scripts/reuse/documentation/markdown-layout.js",
+            "sha256": "dbd7cded89c168e4384a71708452429adba86b6aa509195df972e468f588807f"
+        },
+        {
+            "path": "scripts/reuse/documentation/structure.json",
+            "sha256": "ccd788ffd19e1f2215cae27848780d97feea1542191e98c339cf405e5a7be054"
+        },
+        {
+            "path": "scripts/reuse/documentation/validate.js",
+            "sha256": "65ff780303eac72989389f736d6e764afb283364807a58b39f3de0dcf86e851c"
+        },
+        {
             "path": "scripts/update-manifest-hashes.js",
             "sha256": "97b2cd93f2b872c7ba5d9608960083c9227b4108987e15e1ea7b9a1a1bf08a30"
         },
         {
             "path": "scripts/validate-manifest.js",
-            "sha256": "944205e7335ee60ee6db1404e20c36733da8536ca594c76efbca1f130443b298"
+            "sha256": "dc3edf1dd5922b231fb8934ee51626b025a17c8662c51baf905448a8fc88d33c"
         },
         {
             "path": "tests/actions-form-audio.test.js",
@@ -9510,7 +9578,7 @@
         },
         {
             "path": "tests/ambiguous-names.test.js",
-            "sha256": "e340db1cc77104950a7f36fdb83f293b9748ddd89a3834b3b0a43a6291451004"
+            "sha256": "56327d73a6c156af7ee9ec4502604845c28d802650bc72178093b87d0385c1c4"
         },
         {
             "path": "tests/audio-inventory.test.js",
@@ -9526,7 +9594,7 @@
         },
         {
             "path": "tests/bootstrap.test.js",
-            "sha256": "6fa537526fcc0cc8d3c547b34628fc71cfb6cbb09cb9f8a9bbe0e64eda65cf96"
+            "sha256": "0539a52870a0a7a8b17e1eddd3a936cf77ac7937da3f4878fa9cf62697a009c3"
         },
         {
             "path": "tests/comprehension-form-audio.test.js",
@@ -9562,11 +9630,15 @@
         },
         {
             "path": "tests/documentation-convention.test.js",
-            "sha256": "fe63d56a1bf5dc35ec8f74696edddf0ed5ce630f230d8020e24a31ec71988f0e"
+            "sha256": "1b38a6bc84879fb61182443915302b4a8291b191e9e64c28651e7071c6650787"
         },
         {
             "path": "tests/exchange-form-audio.test.js",
             "sha256": "ce4df8a0a47a39c57eb3d4ecfbd4cee443bdde7c2e92aca07465cf2f7bcc8a78"
+        },
+        {
+            "path": "tests/fixtures/naming-cases.json",
+            "sha256": "262bd84ff7483a61a4cba4162e2567d68466fff68ee6b3b1cae263a0cc332289"
         },
         {
             "path": "tests/food-body.test.js",
@@ -9626,7 +9698,7 @@
         },
         {
             "path": "tests/provider-lifecycle.test.js",
-            "sha256": "3c2f6949473ad7f0c19c3980fb87d1b9a9eebdb0a1890a26a04df0c6a8a8fd98"
+            "sha256": "bd3f69fb7ced3f65a19a1430f730821b725332665551a12dbcf64047c0b66b54"
         },
         {
             "path": "tests/qualities-form-audio.test.js",
@@ -9638,7 +9710,7 @@
         },
         {
             "path": "tests/reference-generator.test.js",
-            "sha256": "9c42e3dceb9ef855d8a06c9ae84dc5beb4aefc4ee3981cc6acded8a3ea33e594"
+            "sha256": "2f13300a08a9af6f76b00bad730ba2e355b876289fe00251ec20e2b5f31aed29"
         },
         {
             "path": "tests/reference-images.test.js",
@@ -9685,6 +9757,18 @@
             "sha256": "fa255dc6eaa1eccda50a9372e4854bbfc17dc90dcbf22fcf0851afcc85be42e3"
         },
         {
+            "path": "tooling/reuse/ambiguous-name-words.json",
+            "sha256": "1c181f2061b3a4c452a8f79045a9291a400b0e3247fc337cda5949f98d2d2d2e"
+        },
+        {
+            "path": "tooling/reuse/ambiguous-names.js",
+            "sha256": "a1b37d839e684e5dd73076e80a8338c5b820cb6a3bac2ffa9a3bdc8a13368e89"
+        },
+        {
+            "path": "tooling/reuse/source-files.js",
+            "sha256": "2f2a2f0f28cac4757e1fd7e18577f845741aa419011022e77468fad8a4469705"
+        },
+        {
             "path": "tooling/scripts/declaration-spacing.mjs",
             "sha256": "9ffe78c648f87fe145206cd1564dad7fa68a203cdfdd7c8d6d1b06442e512e5a"
         },
@@ -9725,5 +9809,10 @@
             "sha256": "38e50b87d5dd252c1188ada7c9ca53537d45a11ac26512946bb81a2bef078f98"
         }
     ],
-    "softDependencies": ["2b71bcdf-e29c-408b-8d12-ead6e377c82e"]
+    "softDependencies": ["2b71bcdf-e29c-408b-8d12-ead6e377c82e"],
+    "documentation": {
+        "readme": "docs/README.en.md",
+        "usage": "docs/USAGE.en.md",
+        "technical": "docs/TECHNICAL.en.md"
+    }
 }
